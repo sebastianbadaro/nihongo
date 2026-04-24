@@ -15,6 +15,13 @@
       "total": 110
     },
     {
+      "id": "u3c",
+      "nombre": "Unidad 3C",
+      "subtitle": "毎日の生活 — Partículas に・で・を, rutinas y patrones de negación",
+      "file": "unidades/u3c.json",
+      "total": 119
+    },
+    {
       "id": "u4a",
       "nombre": "Unidad 4A",
       "subtitle": "方角・距離 — Puntos cardinales, distancias y transporte",

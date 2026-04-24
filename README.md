@@ -11,6 +11,7 @@ Quiz interactivo modular para estudiar japonés, basado en el material del curso
 ├── unidades/           # Preguntas en JSON, una por unidad
 │   ├── u3a.json
 │   ├── u3b.json
+│   ├── u3c.json
 │   ├── u4a.json
 │   └── u4b.json
 └── README.md
@@ -121,5 +122,6 @@ const QUIZ_SIZE = 30;  // Cambiar a 20, 50, etc.
 |-----|------------|-----------------------------------------------|-----------|
 | 3A  | Unidad 3A  | 何時までですか — Hora, días de la semana       | 134       |
 | 3B  | Unidad 3B  | 私のスケジュール — Vます, planes, partículas    | 110       |
+| 3C  | Unidad 3C  | 毎日の生活 — Partículas に・で・を y rutinas    | 119       |
 | 4A  | Unidad 4A  | Puntos cardinales, distancias, transporte     | 143       |
 | 4B  | Unidad 4B  | Adjetivos い/な, どんな, あります               | 135       |
