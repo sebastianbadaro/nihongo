@@ -1,0 +1,422 @@
+[
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 誕生日?",
+    "correct": "たんじょうび",
+    "opts": ["たんじょうび", "たんせいび", "たんじょび", "たんじょうひ"]
+  },
+  {
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 誕生日?",
+    "correct": "Cumpleaños",
+    "opts": ["Cumpleaños", "Aniversario", "Día festivo", "Fecha de nacimiento (formal)"]
+  },
+  {
+    "cat": "Pregunta cumpleaños",
+    "q": "¿Cómo se pregunta '¿Cuándo es tu cumpleaños?'?",
+    "correct": "お誕生日は いつですか。",
+    "opts": ["お誕生日は いつですか。", "お誕生日は どこですか。", "お誕生日は 何ですか。", "お誕生日は だれですか。"]
+  },
+  {
+    "cat": "Vocabulario",
+    "q": "¿Qué significa いつ?",
+    "correct": "Cuándo",
+    "opts": ["Cuándo", "Dónde", "Cuánto", "Cuál"]
+  },
+  {
+    "cat": "Sufijo edad",
+    "q": "¿Cuál es el sufijo para decir la edad?",
+    "correct": "～歳 (さい)",
+    "opts": ["～歳 (さい)", "～才 (さい)", "～年 (ねん)", "～代 (だい)"]
+  },
+  {
+    "cat": "Curiosidad kanji",
+    "q": "歳 y 才 ambos se leen さい y significan 'años (de edad)'. ¿Cuál es la diferencia?",
+    "correct": "歳 es el kanji formal/correcto; 才 es simplificado/escrito a mano",
+    "opts": ["歳 es el kanji formal/correcto; 才 es simplificado/escrito a mano", "歳 es para niños; 才 para adultos", "歳 es antiguo; 才 es moderno", "Son kanjis totalmente distintos"]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 1歳?",
+    "correct": "いっさい",
+    "opts": ["いっさい", "いちさい", "いっせい", "ひとさい"]
+  },
+  {
+    "cat": "Kanji→Lectura trampa",
+    "q": "¿Cómo se lee 8歳?",
+    "correct": "はっさい",
+    "opts": ["はっさい", "はちさい", "やっさい", "はっせい"]
+  },
+  {
+    "cat": "Kanji→Lectura trampa",
+    "q": "¿Cómo se lee 10歳?",
+    "correct": "じゅっさい",
+    "opts": ["じゅっさい", "じゅうさい", "とうさい", "とおさい"]
+  },
+  {
+    "cat": "Edad irregular",
+    "q": "¿Cómo se dice '20 años' de manera tradicional (muy común, irregular)?",
+    "correct": "はたち",
+    "opts": ["はたち", "にじゅうさい", "はつかさい", "にじゅっさい"]
+  },
+  {
+    "cat": "Edad irregular",
+    "q": "A los 20 años, los japoneses usan はたち. ¿Por qué es importante esta edad culturalmente?",
+    "correct": "Es la edad tradicional de mayoría de edad (成人)",
+    "opts": ["Es la edad tradicional de mayoría de edad (成人)", "Es cuando terminan la universidad", "Es cuando pueden casarse", "No tiene significado especial"]
+  },
+  {
+    "cat": "Edad compuesta",
+    "q": "¿Cómo se dice '34 años'?",
+    "correct": "さんじゅうよん さい",
+    "opts": ["さんじゅうよん さい", "さんじゅうし さい", "みじゅうよん さい", "さんじゅうよっさい"]
+  },
+  {
+    "cat": "Pregunta edad",
+    "q": "¿Cómo se pregunta '¿Cuántos años tenés?' (forma neutra)?",
+    "correct": "何歳ですか。 / おいくつですか。",
+    "opts": ["何歳ですか。 / おいくつですか。", "何才 がありますか。", "何日です か。", "どこ歳ですか。"]
+  },
+  {
+    "cat": "Distinción edad",
+    "q": "¿Cuál es la diferencia entre 何歳ですか y おいくつですか?",
+    "correct": "何歳 es directo (neutro); おいくつ es más educado/suave",
+    "opts": ["何歳 es directo (neutro); おいくつ es más educado/suave", "何歳 es formal; おいくつ es casual", "何歳 es para adultos; おいくつ para niños", "Son intercambiables sin diferencia"]
+  },
+  {
+    "cat": "Pregunta educada",
+    "q": "¿Cómo sería más educado preguntar la edad a un adulto que no conocés?",
+    "correct": "おいくつですか。",
+    "opts": ["おいくつですか。", "何歳ですか。", "いつですか。", "年は?"]
+  },
+  {
+    "cat": "Meses - kanji→lectura",
+    "q": "¿Cómo se lee 1月?",
+    "correct": "いちがつ",
+    "opts": ["いちがつ", "ひとつき", "いっがつ", "いちげつ"]
+  },
+  {
+    "cat": "Meses - trampa",
+    "q": "¿Cómo se lee 4月?",
+    "correct": "しがつ",
+    "opts": ["しがつ", "よんがつ", "よがつ", "よっかがつ"]
+  },
+  {
+    "cat": "Meses - trampa",
+    "q": "¿Cómo se lee 7月?",
+    "correct": "しちがつ",
+    "opts": ["しちがつ", "なながつ", "なのがつ", "ひちがつ"]
+  },
+  {
+    "cat": "Meses - trampa",
+    "q": "¿Cómo se lee 9月?",
+    "correct": "くがつ",
+    "opts": ["くがつ", "きゅうがつ", "ここのがつ", "きゅうげつ"]
+  },
+  {
+    "cat": "Meses - regla",
+    "q": "Los meses 4, 7 y 9 tienen lecturas IRREGULARES. ¿Cuál NO es irregular?",
+    "correct": "5月 (ごがつ)",
+    "opts": ["5月 (ごがつ)", "4月 (しがつ)", "7月 (しちがつ)", "9月 (くがつ)"]
+  },
+  {
+    "cat": "Meses",
+    "q": "¿Cómo se dice 'marzo'?",
+    "correct": "さんがつ",
+    "opts": ["さんがつ", "みっつがつ", "みがつ", "さんげつ"]
+  },
+  {
+    "cat": "Meses",
+    "q": "¿Cómo se dice 'octubre'?",
+    "correct": "じゅうがつ",
+    "opts": ["じゅうがつ", "とうがつ", "とおがつ", "じゅっがつ"]
+  },
+  {
+    "cat": "Meses",
+    "q": "¿Cómo se dice 'noviembre'?",
+    "correct": "じゅういちがつ",
+    "opts": ["じゅういちがつ", "じゅういっがつ", "じゅうひとがつ", "じゅういちげつ"]
+  },
+  {
+    "cat": "Meses",
+    "q": "¿Cómo se dice 'agosto'?",
+    "correct": "はちがつ",
+    "opts": ["はちがつ", "はっがつ", "やがつ", "はちげつ"]
+  },
+  {
+    "cat": "Días - regla",
+    "q": "Del 1 al 10 del mes, los días se leen de forma IRREGULAR. ¿Cuál es la lectura de 1日 (día 1)?",
+    "correct": "ついたち",
+    "opts": ["ついたち", "いちにち", "ひとにち", "いちひ"]
+  },
+  {
+    "cat": "Días - irregular",
+    "q": "¿Cómo se lee 2日 (día 2)?",
+    "correct": "ふつか",
+    "opts": ["ふつか", "にっか", "ふたにち", "にかい"]
+  },
+  {
+    "cat": "Días - irregular",
+    "q": "¿Cómo se lee 3日 (día 3)?",
+    "correct": "みっか",
+    "opts": ["みっか", "さんにち", "みつにち", "みか"]
+  },
+  {
+    "cat": "Días - irregular",
+    "q": "¿Cómo se lee 4日 (día 4)?",
+    "correct": "よっか",
+    "opts": ["よっか", "よんにち", "しにち", "よんか"]
+  },
+  {
+    "cat": "Días - irregular",
+    "q": "¿Cómo se lee 5日 (día 5)?",
+    "correct": "いつか",
+    "opts": ["いつか", "ごにち", "ごっか", "いつにち"]
+  },
+  {
+    "cat": "Días - irregular",
+    "q": "¿Cómo se lee 6日 (día 6)?",
+    "correct": "むいか",
+    "opts": ["むいか", "ろくにち", "むっか", "むにち"]
+  },
+  {
+    "cat": "Días - irregular",
+    "q": "¿Cómo se lee 7日 (día 7)?",
+    "correct": "なのか",
+    "opts": ["なのか", "しちにち", "ななにち", "ななか"]
+  },
+  {
+    "cat": "Días - irregular",
+    "q": "¿Cómo se lee 8日 (día 8)?",
+    "correct": "ようか",
+    "opts": ["ようか", "はちにち", "はっか", "やっか"]
+  },
+  {
+    "cat": "Días - irregular",
+    "q": "¿Cómo se lee 9日 (día 9)?",
+    "correct": "ここのか",
+    "opts": ["ここのか", "きゅうにち", "くにち", "くっか"]
+  },
+  {
+    "cat": "Días - irregular",
+    "q": "¿Cómo se lee 10日 (día 10)?",
+    "correct": "とおか",
+    "opts": ["とおか", "じゅうにち", "とか", "とうか"]
+  },
+  {
+    "cat": "Días - regla",
+    "q": "Del 11 en adelante, los días se leen como número + にち, con excepción de algunos. ¿Cómo se lee 14日?",
+    "correct": "じゅうよっか",
+    "opts": ["じゅうよっか", "じゅうよんにち", "じゅうしにち", "じゅうよっかにち"]
+  },
+  {
+    "cat": "Días - irregular 20",
+    "q": "¿Cómo se lee 20日 (día 20)?",
+    "correct": "はつか",
+    "opts": ["はつか", "にじゅうにち", "はたち", "にじゅっか"]
+  },
+  {
+    "cat": "Distinción cultural",
+    "q": "¿Cuál es la diferencia entre はたち y はつか?",
+    "correct": "はたち = 20 años de edad; はつか = día 20 del mes",
+    "opts": ["はたち = 20 años de edad; はつか = día 20 del mes", "Son iguales", "はたち es antigua; はつか es moderna", "はたち es del este; はつか del oeste"]
+  },
+  {
+    "cat": "Días - irregular",
+    "q": "¿Cómo se lee 24日?",
+    "correct": "にじゅうよっか",
+    "opts": ["にじゅうよっか", "にじゅうよんにち", "にじゅうしにち", "にじゅうよんか"]
+  },
+  {
+    "cat": "Días - normal",
+    "q": "¿Cómo se lee 15日?",
+    "correct": "じゅうごにち",
+    "opts": ["じゅうごにち", "じゅうごか", "じゅうごひ", "じゅうごび"]
+  },
+  {
+    "cat": "Días - normal",
+    "q": "¿Cómo se lee 30日?",
+    "correct": "さんじゅうにち",
+    "opts": ["さんじゅうにち", "さんじゅうか", "さんじゅっか", "みじゅうにち"]
+  },
+  {
+    "cat": "Fecha completa",
+    "q": "¿Cómo se dice '16 de abril'?",
+    "correct": "4月16日 (しがつ じゅうろくにち)",
+    "opts": ["4月16日 (しがつ じゅうろくにち)", "4月16日 (しがつ じゅうろっか)", "16月4日 (じゅうろくがつ よっか)", "4月16日 (よんがつ じゅうろくにち)"]
+  },
+  {
+    "cat": "Orden fecha",
+    "q": "En japonés, ¿cuál es el orden de una fecha?",
+    "correct": "Mes + Día (4月16日)",
+    "opts": ["Mes + Día (4月16日)", "Día + Mes (16日4月)", "Día + Mes + Año", "Año + Día + Mes"]
+  },
+  {
+    "cat": "Respuesta completa",
+    "q": "A: お誕生日は いつですか。 B: ___. (Respuesta: 28 de mayo)",
+    "correct": "5月28日です。",
+    "opts": ["5月28日です。", "5月28日に です。", "28日5月です。", "5月28にち です。"]
+  },
+  {
+    "cat": "Respuesta con trampa",
+    "q": "A: お誕生日は いつですか。 B: ___. (Respuesta: 14 de julio)",
+    "correct": "7月14日 (しちがつ じゅうよっか) です。",
+    "opts": ["7月14日 (しちがつ じゅうよっか) です。", "7月14日 (しちがつ じゅうよんにち) です。", "7月14日 (ななつがつ じゅうよっか) です。", "7月14日 (ひちがつ じゅうよんか) です。"]
+  },
+  {
+    "cat": "Respuesta con trampa",
+    "q": "A: お誕生日は いつですか。 B: ___. (Respuesta: 20 de abril)",
+    "correct": "4月20日 (しがつ はつか) です。",
+    "opts": ["4月20日 (しがつ はつか) です。", "4月20日 (しがつ にじゅうにち) です。", "4月20日 (よんがつ はつか) です。", "4月20日 (しがつ はたち) です。"]
+  },
+  {
+    "cat": "Respuesta con trampa",
+    "q": "A: お誕生日は いつですか。 B: ___. (Respuesta: 10 de septiembre)",
+    "correct": "9月10日 (くがつ とおか) です。",
+    "opts": ["9月10日 (くがつ とおか) です。", "9月10日 (くがつ じゅうにち) です。", "9月10日 (きゅうがつ とおか) です。", "9月10日 (くがつ じゅっか) です。"]
+  },
+  {
+    "cat": "Partícula",
+    "q": "私の 誕生日___ 4月16日です。",
+    "correct": "は",
+    "opts": ["は", "が", "を", "に"]
+  },
+  {
+    "cat": "Reacción",
+    "q": "A: お誕生日は いつですか。 B: 4月16日です。 A: ___。 (reacción cortés)",
+    "correct": "そうですか。",
+    "opts": ["そうですか。", "ちがいます。", "はい、そうです。", "いいえ。"]
+  },
+  {
+    "cat": "Partícula の en cumpleaños",
+    "q": "¿Cómo se dice 'Mi cumpleaños es el 16 de abril'?",
+    "correct": "私の 誕生日は 4月16日です。",
+    "opts": ["私の 誕生日は 4月16日です。", "私は 誕生日 4月16日です。", "私が 誕生日は 4月16日です。", "私を 誕生日は 4月16日です。"]
+  },
+  {
+    "cat": "Trampa pregunta",
+    "q": "¿Qué pregunta uno sobre el cumpleaños de OTRA persona?",
+    "correct": "Bさんの お誕生日は いつですか。",
+    "opts": ["Bさんの お誕生日は いつですか。", "Bさんは お誕生日 いつですか。", "Bの お誕生日 いつですか。", "お誕生日 Bさんは いつですか。"]
+  },
+  {
+    "cat": "Vocabulario calendario",
+    "q": "¿Qué significa el kanji 月 en ~月?",
+    "correct": "Mes (también luna)",
+    "opts": ["Mes (también luna)", "Solo luna", "Solo mes", "Año"]
+  },
+  {
+    "cat": "Vocabulario calendario",
+    "q": "¿Qué significa el kanji 日 en ~日?",
+    "correct": "Día (también sol)",
+    "opts": ["Día (también sol)", "Solo día", "Solo sol", "Fecha"]
+  },
+  {
+    "cat": "Edad - trampa cultural",
+    "q": "Si tenés 20 años, ¿qué es más natural decir?",
+    "correct": "はたちです。",
+    "opts": ["はたちです。", "にじゅっさいです。", "にじゅうさいです。", "にじゅう才です。"]
+  },
+  {
+    "cat": "Edad compuesta trampa",
+    "q": "¿Cómo se dice '21 años'?",
+    "correct": "にじゅういっさい",
+    "opts": ["にじゅういっさい", "にじゅういちさい", "にじゅうひとさい", "はたちいち"]
+  },
+  {
+    "cat": "Kanji→Español",
+    "q": "¿Qué significa 歳?",
+    "correct": "Años (de edad) / contador de años cumplidos",
+    "opts": ["Años (de edad) / contador de años cumplidos", "Tiempo", "Vida", "Mes"]
+  },
+  {
+    "cat": "Orden preguntas",
+    "q": "En una presentación típica, ¿cuál es el orden común de las preguntas sobre datos?",
+    "correct": "Nombre → País → Trabajo → Edad → Cumpleaños",
+    "opts": ["Nombre → País → Trabajo → Edad → Cumpleaños", "Edad → Nombre → Cumpleaños → País", "Trabajo → Edad → Nombre → País", "Cumpleaños → Edad → País → Nombre"]
+  },
+  {
+    "cat": "Traducción ES→JA",
+    "q": "'Tengo 34 años' se dice:",
+    "correct": "34歳です。",
+    "opts": ["34歳です。", "34歳が あります。", "34歳で います。", "34歳に なります。"]
+  },
+  {
+    "cat": "Traducción ES→JA",
+    "q": "'Mi cumpleaños es el 14 de julio' se dice:",
+    "correct": "私の 誕生日は 7月14日です。",
+    "opts": ["私の 誕生日は 7月14日です。", "私の 誕生日を 7月14日です。", "私は 誕生日 7月14日に です。", "7月14日は 私の 誕生日に あります。"]
+  },
+  {
+    "cat": "Diálogo completo",
+    "q": "A: Bさんの お誕生日は いつですか。 B: 10月4日です。 A: ___. ¿Cuál es la reacción natural?",
+    "correct": "そうですか。",
+    "opts": ["そうですか。", "いいえ、ちがいます。", "はい、そうです。", "おねがいします。"]
+  },
+  {
+    "cat": "Distinción edad",
+    "q": "¿Cuál de estos NO es correcto para decir tu edad?",
+    "correct": "私の 歳は 30です。",
+    "opts": ["私の 歳は 30です。", "30歳です。", "私は 30歳です。", "さんじゅっさいです。"]
+  },
+  {
+    "cat": "Trampa pronunciación",
+    "q": "¿Cuál es la diferencia entre じゅっさい y じゅうさい?",
+    "correct": "じゅっさい es la pronunciación correcta/natural (10歳)",
+    "opts": ["じゅっさい es la pronunciación correcta/natural (10歳)", "じゅうさい es la correcta", "Son totalmente intercambiables", "じゅっさい es antigua"]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 2月?",
+    "correct": "にがつ",
+    "opts": ["にがつ", "ふたつき", "にっがつ", "にげつ"]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 5月?",
+    "correct": "ごがつ",
+    "opts": ["ごがつ", "いつがつ", "ごっがつ", "ごげつ"]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 6月?",
+    "correct": "ろくがつ",
+    "opts": ["ろくがつ", "ろっがつ", "ろくげつ", "むがつ"]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 12月?",
+    "correct": "じゅうにがつ",
+    "opts": ["じゅうにがつ", "じゅうにげつ", "じゅうふたがつ", "じゅうにっがつ"]
+  },
+  {
+    "cat": "Pregunta genérica",
+    "q": "¿Cuál es la forma genérica de usar いつですか?",
+    "correct": "Para preguntar '¿Cuándo es ~?' sobre un evento",
+    "opts": ["Para preguntar '¿Cuándo es ~?' sobre un evento", "Para preguntar '¿Dónde está ~?'", "Para preguntar '¿Qué es ~?'", "Para preguntar '¿Cuánto cuesta ~?'"]
+  },
+  {
+    "cat": "Regla general",
+    "q": "Del día 11 al 31, ¿cuáles tienen lectura irregular?",
+    "correct": "14日 (じゅうよっか), 20日 (はつか), 24日 (にじゅうよっか)",
+    "opts": ["14日 (じゅうよっか), 20日 (はつか), 24日 (にじゅうよっか)", "Todos los pares", "Solo el 20", "Todos tienen lectura regular con ~にち"]
+  },
+  {
+    "cat": "Fecha personalizada",
+    "q": "¿Cómo se diría '25 de diciembre' (Navidad)?",
+    "correct": "12月25日 (じゅうにがつ にじゅうごにち)",
+    "opts": ["12月25日 (じゅうにがつ にじゅうごにち)", "12月25日 (じゅうにがつ にじゅうごか)", "12月25日 (じゅうにげつ にじゅうごにち)", "25日12月"]
+  },
+  {
+    "cat": "Vocabulario",
+    "q": "¿Qué significa クリスマス?",
+    "correct": "Navidad",
+    "opts": ["Navidad", "Cristiano", "Crystal", "Crisis"]
+  },
+  {
+    "cat": "Trampa sutil",
+    "q": "¿Qué significa la expresión お誕生日 おめでとう ございます?",
+    "correct": "¡Feliz cumpleaños! (educado)",
+    "opts": ["¡Feliz cumpleaños! (educado)", "¿Cuándo es tu cumpleaños?", "Mi cumpleaños es pronto", "Perdón por olvidar tu cumpleaños"]
+  }
+]

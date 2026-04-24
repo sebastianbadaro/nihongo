@@ -1,6 +1,48 @@
 {
   "unidades": [
     {
+      "id": "u1a",
+      "nombre": "Unidad 1A",
+      "subtitle": "私の名前・国・仕事 — Nombre, país, trabajo",
+      "file": "unidades/u1a.json",
+      "total": 74
+    },
+    {
+      "id": "u1b",
+      "nombre": "Unidad 1B",
+      "subtitle": "私の誕生日 — Edad, cumpleaños, meses, días",
+      "file": "unidades/u1b.json",
+      "total": 70
+    },
+    {
+      "id": "u1c",
+      "nombre": "Unidad 1C",
+      "subtitle": "私の趣味 — Hobbies, と, も, 何ですか",
+      "file": "unidades/u1c.json",
+      "total": 66
+    },
+    {
+      "id": "u2a",
+      "nombre": "Unidad 2A",
+      "subtitle": "どこですか — Ubicación, pisos, demostrativos de lugar",
+      "file": "unidades/u2a.json",
+      "total": 70
+    },
+    {
+      "id": "u2b",
+      "nombre": "Unidad 2B",
+      "subtitle": "いくらですか — Precios, これ/それ/あれ, Nをください",
+      "file": "unidades/u2b.json",
+      "total": 73
+    },
+    {
+      "id": "u2c",
+      "nombre": "Unidad 2C",
+      "subtitle": "レストラン — Contadores ~つ, 何の/どこの/誰のN",
+      "file": "unidades/u2c.json",
+      "total": 81
+    },
+    {
       "id": "u3a",
       "nombre": "Unidad 3A",
       "subtitle": "何時までですか — Hora, horarios y días de la semana",
