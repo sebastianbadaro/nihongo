@@ -5,38 +5,129 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>日本語 Quiz — Dekiru Nihongo</title>
 <style>
+  :root {
+    --bg: linear-gradient(135deg, #fef6f6 0%, #f0f4ff 100%);
+    --text: #2c3e50;
+    --container-bg: #ffffff;
+    --shadow: rgba(0,0,0,0.08);
+    --header-border: #f0e4e4;
+    --muted: #7f8c8d;
+    --divider: #eee;
+    --card-bg: #fafbfc;
+    --card-border: #eee;
+    --option-bg: #ffffff;
+    --option-border: #e0e0e0;
+    --option-hover-border: #3498db;
+    --option-hover-bg: #f0f8ff;
+    --option-color: #2c3e50;
+    --stat-bg: #f8f9fa;
+    --review-border: #eee;
+    --review-divider: #f0f0f0;
+    --review-text: #555;
+    --quiz-header-bg: #f0f8ff;
+    --unit-card-bg: #ffffff;
+    --unit-card-border: #e0e0e0;
+    --unit-card-hover-bg: #fef6f6;
+    --unit-card-hover-border: #c0392b;
+    --unit-mix-bg: linear-gradient(135deg, #fff5e6, #fef0f0);
+    --unit-mix-border: #f39c12;
+    --unit-mix-hover-bg: linear-gradient(135deg, #ffeacc, #fde0e0);
+    --btn-outline-hover-bg: #fef6f6;
+    --footer-color: #95a5a6;
+    --footer-link: #7f8c8d;
+    --back-btn-color: #3498db;
+    --toggle-border: #e0e0e0;
+  }
+
+  body.dark {
+    --bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    --text: #e2e8f0;
+    --container-bg: #1e1e2e;
+    --shadow: rgba(0,0,0,0.4);
+    --header-border: #2d2d4a;
+    --muted: #94a3b8;
+    --divider: #2d2d4a;
+    --card-bg: #252538;
+    --card-border: #3d3d5c;
+    --option-bg: #1e1e2e;
+    --option-border: #3d3d5c;
+    --option-hover-border: #5b8dd9;
+    --option-hover-bg: #1a2744;
+    --option-color: #e2e8f0;
+    --stat-bg: #252538;
+    --review-border: #3d3d5c;
+    --review-divider: #2d2d4a;
+    --review-text: #94a3b8;
+    --quiz-header-bg: #1a2744;
+    --unit-card-bg: #1e1e2e;
+    --unit-card-border: #3d3d5c;
+    --unit-card-hover-bg: #2d1e24;
+    --unit-card-hover-border: #e74c3c;
+    --unit-mix-bg: linear-gradient(135deg, #2a2012, #2d1e1e);
+    --unit-mix-border: #d68910;
+    --unit-mix-hover-bg: linear-gradient(135deg, #332810, #3d2020);
+    --btn-outline-hover-bg: #2d1e24;
+    --footer-color: #64748b;
+    --footer-link: #94a3b8;
+    --back-btn-color: #5b8dd9;
+    --toggle-border: #3d3d5c;
+  }
+
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
-    background: linear-gradient(135deg, #fef6f6 0%, #f0f4ff 100%);
-    color: #2c3e50;
+    background: var(--bg);
+    color: var(--text);
     min-height: 100vh;
     padding: 20px;
     line-height: 1.5;
+    transition: background 0.3s ease, color 0.3s ease;
   }
   .container {
     max-width: 720px;
     margin: 0 auto;
-    background: #ffffff;
+    background: var(--container-bg);
     border-radius: 16px;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    box-shadow: 0 4px 24px var(--shadow);
     padding: 32px;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
   }
   header {
     text-align: center;
-    border-bottom: 2px solid #f0e4e4;
+    border-bottom: 2px solid var(--header-border);
     padding-bottom: 20px;
     margin-bottom: 24px;
+    position: relative;
   }
   h1 {
     color: #c0392b;
     font-size: 1.6em;
     margin-bottom: 6px;
   }
-  .subtitle { color: #7f8c8d; font-size: 0.95em; }
+  .subtitle { color: var(--muted); font-size: 0.95em; }
+
+  .dark-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+    border: 2px solid var(--toggle-border);
+    border-radius: 20px;
+    padding: 5px 12px;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: inherit;
+    color: var(--muted);
+    transition: all 0.15s ease;
+    line-height: 1;
+  }
+  .dark-toggle:hover {
+    border-color: var(--muted);
+    color: var(--text);
+  }
 
   .progress-bar {
-    background: #eee;
+    background: var(--divider);
     border-radius: 10px;
     height: 10px;
     overflow: hidden;
@@ -51,12 +142,12 @@
     display: flex;
     justify-content: space-between;
     font-size: 0.9em;
-    color: #7f8c8d;
+    color: var(--muted);
     margin-bottom: 12px;
   }
   .question-card {
-    background: #fafbfc;
-    border: 1px solid #eee;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
     border-radius: 12px;
     padding: 24px;
     margin-bottom: 20px;
@@ -75,14 +166,14 @@
   .question-text {
     font-size: 1.25em;
     margin-bottom: 20px;
-    color: #2c3e50;
+    color: var(--text);
     font-weight: 500;
     line-height: 1.5;
   }
   .options { display: grid; gap: 10px; }
   .option {
-    background: white;
-    border: 2px solid #e0e0e0;
+    background: var(--option-bg);
+    border: 2px solid var(--option-border);
     border-radius: 10px;
     padding: 14px 18px;
     cursor: pointer;
@@ -90,11 +181,11 @@
     transition: all 0.15s ease;
     text-align: left;
     font-family: inherit;
-    color: #2c3e50;
+    color: var(--option-color);
   }
   .option:hover:not(:disabled) {
-    border-color: #3498db;
-    background: #f0f8ff;
+    border-color: var(--option-hover-border);
+    background: var(--option-hover-bg);
     transform: translateX(2px);
   }
   .option:disabled { cursor: default; }
@@ -143,21 +234,21 @@
   .btn.secondary { background: #3498db; }
   .btn.secondary:hover { background: #2874a6; }
   .btn.outline {
-    background: white;
+    background: var(--option-bg);
     color: #c0392b;
     border: 2px solid #c0392b;
   }
-  .btn.outline:hover { background: #fef6f6; }
+  .btn.outline:hover { background: var(--btn-outline-hover-bg); }
   .hidden { display: none; }
   .start-screen, .result-screen { text-align: center; padding: 10px 10px; }
-  .start-screen p, .result-screen p { margin-bottom: 14px; color: #555; }
+  .start-screen p, .result-screen p { margin-bottom: 14px; color: var(--review-text); }
   .score-big {
     font-size: 3em;
     font-weight: 700;
     color: #c0392b;
     margin: 20px 0;
   }
-  .score-label { font-size: 1.1em; color: #7f8c8d; }
+  .score-label { font-size: 1.1em; color: var(--muted); }
   .result-stats {
     display: flex;
     justify-content: center;
@@ -166,13 +257,13 @@
     flex-wrap: wrap;
   }
   .stat {
-    background: #f8f9fa;
+    background: var(--stat-bg);
     padding: 14px 22px;
     border-radius: 10px;
     min-width: 100px;
   }
   .stat-value { font-size: 1.8em; font-weight: 700; }
-  .stat-label { font-size: 0.85em; color: #7f8c8d; }
+  .stat-label { font-size: 0.85em; color: var(--muted); }
   .right-v { color: #28a745; }
   .wrong-v { color: #dc3545; }
   .review-list {
@@ -180,18 +271,18 @@
     margin-top: 24px;
     max-height: 400px;
     overflow-y: auto;
-    border: 1px solid #eee;
+    border: 1px solid var(--review-border);
     border-radius: 10px;
     padding: 12px;
   }
   .review-item {
     padding: 12px;
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 1px solid var(--review-divider);
     font-size: 0.92em;
   }
   .review-item:last-child { border-bottom: none; }
   .review-q { font-weight: 600; margin-bottom: 4px; }
-  .review-a { color: #555; }
+  .review-a { color: var(--review-text); }
   .review-a.correct-ans { color: #28a745; }
   .review-a.wrong-ans { color: #dc3545; text-decoration: line-through; }
   .jp { font-family: "Hiragino Sans", "Yu Gothic", "Meiryo", "MS Gothic", sans-serif; }
@@ -204,8 +295,8 @@
     text-align: left;
   }
   .unit-card {
-    background: white;
-    border: 2px solid #e0e0e0;
+    background: var(--unit-card-bg);
+    border: 2px solid var(--unit-card-border);
     border-radius: 12px;
     padding: 16px 20px;
     cursor: pointer;
@@ -217,18 +308,19 @@
     font-family: inherit;
     text-align: left;
     width: 100%;
+    color: var(--text);
   }
   .unit-card:hover:not(:disabled) {
-    border-color: #c0392b;
-    background: #fef6f6;
+    border-color: var(--unit-card-hover-border);
+    background: var(--unit-card-hover-bg);
     transform: translateX(2px);
   }
   .unit-card:disabled { opacity: 0.5; cursor: not-allowed; }
   .unit-card.mix {
-    background: linear-gradient(135deg, #fff5e6, #fef0f0);
-    border-color: #f39c12;
+    background: var(--unit-mix-bg);
+    border-color: var(--unit-mix-border);
   }
-  .unit-card.mix:hover { border-color: #e67e22; background: linear-gradient(135deg, #ffeacc, #fde0e0); }
+  .unit-card.mix:hover { background: var(--unit-mix-hover-bg); }
   .unit-name {
     font-weight: 600;
     color: #c0392b;
@@ -236,7 +328,7 @@
   }
   .unit-sub {
     font-size: 0.85em;
-    color: #7f8c8d;
+    color: var(--muted);
     margin-top: 2px;
   }
   .unit-count {
@@ -251,7 +343,7 @@
   .loader {
     text-align: center;
     padding: 40px 20px;
-    color: #7f8c8d;
+    color: var(--muted);
   }
   .error-box {
     background: #f8d7da;
@@ -264,18 +356,18 @@
     font-size: 0.9em;
   }
   .quiz-header-info {
-    background: #f0f8ff;
+    background: var(--quiz-header-bg);
     padding: 12px 16px;
     border-radius: 10px;
     margin-bottom: 16px;
     font-size: 0.9em;
-    color: #555;
+    color: var(--review-text);
     border-left: 4px solid #3498db;
   }
   .back-btn {
     background: none;
     border: none;
-    color: #3498db;
+    color: var(--back-btn-color);
     cursor: pointer;
     font-size: 0.9em;
     font-family: inherit;
@@ -284,34 +376,34 @@
   }
   .back-btn:hover { text-decoration: underline; }
 
- /* Footer con créditos */
-.site-footer {
-  max-width: 720px;
-  margin: 20px auto 10px;
-  text-align: center;
-  font-size: 0.82em;
-  color: #95a5a6;
-  line-height: 1.4;
-}
-.site-footer .footer-link {
-  color: #7f8c8d;
-  text-decoration: none;
-  border-bottom: 1px dotted transparent;
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-}
-.site-footer .footer-link:hover {
-  color: #c0392b;
-  border-bottom-color: #c0392b;
-}
-.site-footer .footer-icon {
-  width: 13px;
-  height: 13px;
-  vertical-align: middle;
-  flex-shrink: 0;
-}
+  /* Footer con créditos */
+  .site-footer {
+    max-width: 720px;
+    margin: 20px auto 10px;
+    text-align: center;
+    font-size: 0.82em;
+    color: var(--footer-color);
+    line-height: 1.4;
+  }
+  .site-footer .footer-link {
+    color: var(--footer-link);
+    text-decoration: none;
+    border-bottom: 1px dotted transparent;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+  .site-footer .footer-link:hover {
+    color: #c0392b;
+    border-bottom-color: #c0392b;
+  }
+  .site-footer .footer-icon {
+    width: 13px;
+    height: 13px;
+    vertical-align: middle;
+    flex-shrink: 0;
+  }
   @media (max-width: 600px) {
     .container { padding: 20px; }
     h1 { font-size: 1.3em; }
@@ -321,10 +413,14 @@
 </style>
 </head>
 <body>
+<script>
+  if (localStorage.getItem('darkMode') === '1') document.body.classList.add('dark');
+</script>
 <div class="container">
   <header>
     <h1>日本語 Quiz</h1>
     <div class="subtitle">Dekiru Nihongo — Repaso interactivo</div>
+    <button class="dark-toggle" id="dark-btn" onclick="toggleDark()" title="Modo nocturno"></button>
   </header>
 
   <!-- PANTALLA DE SELECCIÓN DE UNIDAD -->
@@ -377,6 +473,21 @@
 </div>
 
 <script>
+// =============================================================
+// DARK MODE
+// =============================================================
+function toggleDark() {
+  const isDark = document.body.classList.toggle('dark');
+  updateToggleIcon(isDark);
+  localStorage.setItem('darkMode', isDark ? '1' : '0');
+}
+
+function updateToggleIcon(isDark) {
+  document.getElementById('dark-btn').textContent = isDark ? '☀️' : '🌙';
+}
+
+updateToggleIcon(document.body.classList.contains('dark'));
+
 // =============================================================
 // CONFIGURACIÓN
 // =============================================================
