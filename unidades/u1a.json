@@ -1,0 +1,446 @@
+[
+  {
+    "cat": "Saludo",
+    "q": "¿Cómo se dice 'Mucho gusto' al presentarse por primera vez?",
+    "correct": "はじめまして",
+    "opts": ["はじめまして", "こんにちは", "さようなら", "おはよう"]
+  },
+  {
+    "cat": "Saludo",
+    "q": "Al terminar una presentación, la frase de cortesía es:",
+    "correct": "どうぞ よろしく おねがいします",
+    "opts": ["どうぞ よろしく おねがいします", "ありがとう ございます", "おやすみなさい", "いただきます"]
+  },
+  {
+    "cat": "Respuesta cortesía",
+    "q": "Después de que alguien te diga 'どうぞ よろしく おねがいします', ¿cómo respondés?",
+    "correct": "こちらこそ",
+    "opts": ["こちらこそ", "はい、そうです", "いいえ、ちがいます", "ありがとう"]
+  },
+  {
+    "cat": "Traducción",
+    "q": "¿Qué significa literalmente こちらこそ?",
+    "correct": "Al contrario (yo también / igualmente)",
+    "opts": ["Al contrario (yo también / igualmente)", "Por aquí", "Muchas gracias", "De nada"]
+  },
+  {
+    "cat": "Estructura básica",
+    "q": "Completá: 私___ セバスチャンです。 (Yo soy Sebastián)",
+    "correct": "は",
+    "opts": ["は", "を", "が", "の"]
+  },
+  {
+    "cat": "Partícula は",
+    "q": "¿Cómo se pronuncia la partícula は cuando es partícula de tema?",
+    "correct": "wa",
+    "opts": ["wa", "ha", "ba", "pa"]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 私?",
+    "correct": "わたし",
+    "opts": ["わたし", "わたく", "わし", "あたし"]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 名前?",
+    "correct": "なまえ",
+    "opts": ["なまえ", "なぜん", "めいまえ", "みょうじ"]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 国?",
+    "correct": "くに",
+    "opts": ["くに", "こく", "こうに", "くん"]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 仕事?",
+    "correct": "しごと",
+    "opts": ["しごと", "しじ", "じごと", "しことう"]
+  },
+  {
+    "cat": "Kanji→Español",
+    "q": "¿Qué significa 仕事?",
+    "correct": "Trabajo / profesión",
+    "opts": ["Trabajo / profesión", "Empresa", "Oficina", "Tarea doméstica"]
+  },
+  {
+    "cat": "Prefijo honorífico",
+    "q": "¿Para qué se usa el prefijo お en palabras como お国, お仕事, お名前?",
+    "correct": "Para ser más cortés al preguntar por el interlocutor",
+    "opts": ["Para ser más cortés al preguntar por el interlocutor", "Para indicar posesión", "Para pluralizar", "Para formar pasado"]
+  },
+  {
+    "cat": "Trampa",
+    "q": "¿Cuándo NO se usa お delante de 国/仕事/名前?",
+    "correct": "Cuando hablás de vos mismo (mi nombre, mi trabajo)",
+    "opts": ["Cuando hablás de vos mismo (mi nombre, mi trabajo)", "En contextos formales", "Al escribir", "Al hablar por teléfono"]
+  },
+  {
+    "cat": "Pregunta país",
+    "q": "¿Cómo se pregunta '¿De qué país sos?' de manera educada?",
+    "correct": "お国は どちらですか。",
+    "opts": ["お国は どちらですか。", "お国は どこですか。", "国は 何ですか。", "お国は だれですか。"]
+  },
+  {
+    "cat": "Distinción crítica",
+    "q": "En contexto de presentaciones, ¿cuál es más educado: どちら o どこ?",
+    "correct": "どちら (es la versión formal/educada)",
+    "opts": ["どちら (es la versión formal/educada)", "どこ (es la versión formal)", "Son exactamente iguales", "どちら es casual; どこ es formal"]
+  },
+  {
+    "cat": "Nacionalidad",
+    "q": "¿Cómo se dice 'Soy argentino/a'?",
+    "correct": "アルゼンチン人です。",
+    "opts": ["アルゼンチン人です。", "アルゼンチンです。", "アルゼンチンのです。", "アルゼンチン国です。"]
+  },
+  {
+    "cat": "Sufijo ~人",
+    "q": "El sufijo ~人 (じん) se usa para:",
+    "correct": "Formar nacionalidad (país + 人 = persona de ese país)",
+    "opts": ["Formar nacionalidad (país + 人 = persona de ese país)", "Formar plurales", "Indicar respeto", "Indicar idioma"]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 日本?",
+    "correct": "にほん",
+    "opts": ["にほん", "にっぽ", "にちほん", "じっぽん"]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 日本人?",
+    "correct": "にほんじん",
+    "opts": ["にほんじん", "にほんひと", "にっぽんじん", "じほんじん"]
+  },
+  {
+    "cat": "Vocabulario países",
+    "q": "¿Cómo se dice 'Estados Unidos' en japonés?",
+    "correct": "アメリカ",
+    "opts": ["アメリカ", "ユエス", "ベイコク", "エイコク"]
+  },
+  {
+    "cat": "Vocabulario países",
+    "q": "¿Cómo se dice 'Italia' en japonés?",
+    "correct": "イタリア",
+    "opts": ["イタリア", "イタリー", "イタリ", "イトリア"]
+  },
+  {
+    "cat": "Vocabulario países",
+    "q": "¿Cómo se dice 'Australia' en japonés?",
+    "correct": "オーストラリア",
+    "opts": ["オーストラリア", "オーストリア", "アウストラリア", "オーストラリヤ"]
+  },
+  {
+    "cat": "Vocabulario países",
+    "q": "¿Cómo se dice 'Corea' en japonés?",
+    "correct": "韓国 (かんこく)",
+    "opts": ["韓国 (かんこく)", "朝鮮 (ちょうせん)", "コリア", "カンコック"]
+  },
+  {
+    "cat": "Vocabulario países",
+    "q": "¿Cómo se dice 'China' en japonés?",
+    "correct": "中国 (ちゅうごく)",
+    "opts": ["中国 (ちゅうごく)", "チャイナ", "中華 (ちゅうか)", "しなごく"]
+  },
+  {
+    "cat": "Vocabulario países",
+    "q": "¿Cómo se dice 'Rusia' en japonés?",
+    "correct": "ロシア",
+    "opts": ["ロシア", "ルシア", "ロシヤ", "ラシア"]
+  },
+  {
+    "cat": "Vocabulario países",
+    "q": "¿Cómo se dice 'Tailandia' en japonés?",
+    "correct": "タイ",
+    "opts": ["タイ", "タイランド", "タイコク", "サイ"]
+  },
+  {
+    "cat": "Vocabulario países",
+    "q": "¿Cómo se dice 'Brasil' en japonés?",
+    "correct": "ブラジル",
+    "opts": ["ブラジル", "ブラゼル", "ブラジリア", "ブラジール"]
+  },
+  {
+    "cat": "Pregunta trabajo",
+    "q": "¿Cómo se pregunta '¿En qué trabajás?' de forma corta?",
+    "correct": "お仕事は？",
+    "opts": ["お仕事は？", "お仕事が？", "お仕事を？", "お仕事に？"]
+  },
+  {
+    "cat": "Vocabulario trabajo",
+    "q": "¿Qué significa 会社員 (かいしゃいん)?",
+    "correct": "Empleado de empresa",
+    "opts": ["Empleado de empresa", "Dueño de empresa", "Jefe", "Secretaria"]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 会社員?",
+    "correct": "かいしゃいん",
+    "opts": ["かいしゃいん", "かいしゃえん", "かいじゃいん", "えしゃいん"]
+  },
+  {
+    "cat": "Vocabulario trabajo",
+    "q": "¿Qué significa 学生 (がくせい)?",
+    "correct": "Estudiante",
+    "opts": ["Estudiante", "Escuela", "Profesor", "Alumno de primaria"]
+  },
+  {
+    "cat": "Distinción maestros",
+    "q": "¿Cuál es la diferencia entre 先生 y 教師?",
+    "correct": "先生 se usa para dirigirse a ellos (título); 教師 es la profesión objetiva",
+    "opts": ["先生 se usa para dirigirse a ellos (título); 教師 es la profesión objetiva", "先生 = profesor hombre; 教師 = profesora mujer", "先生 = universitario; 教師 = secundario", "Son intercambiables sin diferencia"]
+  },
+  {
+    "cat": "Trampa cultural",
+    "q": "¿Podés presentarte diciendo '私は 先生です' si sos profesor?",
+    "correct": "No, lo correcto es 私は 教師です (先生 es título honorífico, no se usa para uno mismo)",
+    "opts": ["No, lo correcto es 私は 教師です (先生 es título honorífico, no se usa para uno mismo)", "Sí, es perfectamente correcto", "No, se dice 私は 教員です", "Sí, pero solo en universidades"]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 先生?",
+    "correct": "せんせい",
+    "opts": ["せんせい", "せんじょう", "せんせん", "さきせい"]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 教師?",
+    "correct": "きょうし",
+    "opts": ["きょうし", "きょうじ", "こうし", "きょし"]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 学生?",
+    "correct": "がくせい",
+    "opts": ["がくせい", "がっせい", "がくしょう", "がくじょう"]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 大学?",
+    "correct": "だいがく",
+    "opts": ["だいがく", "たいがく", "だいかく", "だいがっこう"]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 高校?",
+    "correct": "こうこう",
+    "opts": ["こうこう", "たかこう", "こうがく", "こうっこう"]
+  },
+  {
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 大学?",
+    "correct": "Universidad",
+    "opts": ["Universidad", "Secundaria", "Escuela grande", "Academia"]
+  },
+  {
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 高校?",
+    "correct": "Escuela secundaria (bachillerato)",
+    "opts": ["Escuela secundaria (bachillerato)", "Universidad", "Escuela primaria", "Escuela técnica"]
+  },
+  {
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 日本語学校 (にほんごがっこう)?",
+    "correct": "Escuela de (idioma) japonés",
+    "opts": ["Escuela de (idioma) japonés", "Escuela en Japón", "Escuela de Tokio", "Escuela para japoneses"]
+  },
+  {
+    "cat": "Estructura N の N",
+    "q": "¿Cómo se dice 'Soy estudiante de la Universidad Fuji'?",
+    "correct": "ふじ大学の学生です。",
+    "opts": ["ふじ大学の学生です。", "ふじ大学は学生です。", "ふじ大学で学生です。", "学生のふじ大学です。"]
+  },
+  {
+    "cat": "Partícula の",
+    "q": "¿Cuál es el uso principal de la partícula の en '大学の学生'?",
+    "correct": "Conectar dos sustantivos (de / pertenencia)",
+    "opts": ["Conectar dos sustantivos (de / pertenencia)", "Indicar objeto directo", "Indicar tema", "Indicar dirección"]
+  },
+  {
+    "cat": "Orden N の N",
+    "q": "En la estructura AのB, ¿cuál es el sustantivo principal?",
+    "correct": "B (A lo modifica/describe)",
+    "opts": ["B (A lo modifica/describe)", "A (B lo modifica/describe)", "Ambos igualmente importantes", "Depende del contexto"]
+  },
+  {
+    "cat": "Traducción N の N",
+    "q": "¿Cómo se dice 'Empleado de la empresa ABE'?",
+    "correct": "ABEの社員です。",
+    "opts": ["ABEの社員です。", "社員のABEです。", "ABEは社員です。", "ABEで社員です。"]
+  },
+  {
+    "cat": "Pregunta sí/no",
+    "q": "¿Cómo se pregunta '¿Sos empleado de empresa?'?",
+    "correct": "会社員ですか。",
+    "opts": ["会社員ですか。", "会社員です。", "会社員ますか。", "会社員だか。"]
+  },
+  {
+    "cat": "Respuesta afirmativa",
+    "q": "Respuesta afirmativa completa a 会社員ですか:",
+    "correct": "はい、そうです。 / はい、会社員です。",
+    "opts": ["はい、そうです。 / はい、会社員です。", "はい、します。", "はい、あります。", "はい、います。"]
+  },
+  {
+    "cat": "Respuesta negativa",
+    "q": "Para decir 'No, no soy empleado de empresa', usás:",
+    "correct": "いいえ、会社員じゃ ありません。",
+    "opts": ["いいえ、会社員じゃ ありません。", "いいえ、会社員ないです。", "いいえ、会社員じゃない。", "いいえ、会社員でした。"]
+  },
+  {
+    "cat": "Negación casual",
+    "q": "¿Cuál es una forma alternativa de 'じゃ ありません'?",
+    "correct": "じゃ ないです / では ありません",
+    "opts": ["じゃ ないです / では ありません", "じゃ います", "じゃ しません", "じゃ できません"]
+  },
+  {
+    "cat": "Negación formal",
+    "q": "¿Cuál es la versión MÁS FORMAL/escrita de 'じゃ ありません'?",
+    "correct": "では ありません",
+    "opts": ["では ありません", "じゃ ないです", "じゃ ない", "ちがう"]
+  },
+  {
+    "cat": "Rechazo alternativo",
+    "q": "Otra forma de decir 'No, no es así' es:",
+    "correct": "いいえ、ちがいます。",
+    "opts": ["いいえ、ちがいます。", "いいえ、ないです。", "いいえ、どうぞ。", "いいえ、ありません。"]
+  },
+  {
+    "cat": "Sufijo cortesía",
+    "q": "¿Qué significa el sufijo ~さん?",
+    "correct": "Sr./Sra./Srta. (neutro, respeto)",
+    "opts": ["Sr./Sra./Srta. (neutro, respeto)", "Dr./Dra. (médico)", "Profesor/a", "Jefe/a"]
+  },
+  {
+    "cat": "Trampa sufijo",
+    "q": "¿Podés usar ~さん con tu propio nombre (私は セバスチャンさんです)?",
+    "correct": "No, ~さん solo se usa para referirse a otros (nunca a uno mismo)",
+    "opts": ["No, ~さん solo se usa para referirse a otros (nunca a uno mismo)", "Sí, siempre se puede", "Solo en contextos muy formales", "Solo si sos menor que el oyente"]
+  },
+  {
+    "cat": "Diálogo típico",
+    "q": "Completá el diálogo: A: お国は どちらですか。 B: ___.",
+    "correct": "アルゼンチン人です。",
+    "opts": ["アルゼンチン人です。", "アルゼンチンに です。", "アルゼンチンが です。", "アルゼンチンで です。"]
+  },
+  {
+    "cat": "Diálogo típico",
+    "q": "Completá: A: お仕事は 会社員ですか。 B: ___ (respuesta: No, soy profesor)",
+    "correct": "いいえ、会社員じゃ ありません。教師です。",
+    "opts": ["いいえ、会社員じゃ ありません。教師です。", "はい、会社員です。", "いいえ、会社員です。", "はい、教師です。"]
+  },
+  {
+    "cat": "Traducción ES→JA",
+    "q": "'Yo soy Pak. Soy coreano.' se traduce:",
+    "correct": "私は パクです。韓国人です。",
+    "opts": ["私は パクです。韓国人です。", "私が パクです。韓国人です。", "私は パクです。韓国です。", "私を パクです。韓国人です。"]
+  },
+  {
+    "cat": "Presentación completa",
+    "q": "Ordená los datos típicos de una presentación japonesa:",
+    "correct": "はじめまして → nombre → nacionalidad/trabajo → よろしく おねがいします",
+    "opts": ["はじめまして → nombre → nacionalidad/trabajo → よろしく おねがいします", "nombre → はじめまして → nacionalidad → よろしく", "よろしく → nombre → nacionalidad → はじめまして", "はじめまして → よろしく → nombre → nacionalidad"]
+  },
+  {
+    "cat": "Vocabulario",
+    "q": "¿Qué significa あのう?",
+    "correct": "Eh... / disculpe... (muletilla para iniciar frase educadamente)",
+    "opts": ["Eh... / disculpe... (muletilla para iniciar frase educadamente)", "Allá (lugar)", "Aquél", "Oh! (sorpresa)"]
+  },
+  {
+    "cat": "Reacción",
+    "q": "¿Qué significa そうですか?",
+    "correct": "Ah, ya veo / Ah sí? (reacción al recibir información)",
+    "opts": ["Ah, ya veo / Ah sí? (reacción al recibir información)", "Así es (confirmar)", "¿Así es? (preguntando)", "Es verdad (énfasis)"]
+  },
+  {
+    "cat": "Trampa sutil",
+    "q": "¿Cuál es la diferencia entre そうです y そうですか?",
+    "correct": "そうです = 'Así es' (afirmar); そうですか = 'Ah, ya veo' (reaccionar)",
+    "opts": ["そうです = 'Así es' (afirmar); そうですか = 'Ah, ya veo' (reaccionar)", "そうです es pregunta; そうですか es afirmación", "Son iguales", "そうです es formal; そうですか es casual"]
+  },
+  {
+    "cat": "Orden presentación",
+    "q": "Poné en orden: セバスチャン / です / 私 / は",
+    "correct": "私 は セバスチャン です",
+    "opts": ["私 は セバスチャン です", "私 セバスチャン は です", "は 私 セバスチャン です", "セバスチャン 私 は です"]
+  },
+  {
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 社員 (しゃいん)?",
+    "correct": "Empleado (de una empresa específica, normalmente precedida)",
+    "opts": ["Empleado (de una empresa específica, normalmente precedida)", "Socio / accionista", "Jefe / supervisor", "Persona de la sociedad"]
+  },
+  {
+    "cat": "Distinción",
+    "q": "¿Cuál es la diferencia entre 会社員 y 社員?",
+    "correct": "会社員 = empleado de empresa (en general); 社員 = empleado de (empresa X) con nombre específico",
+    "opts": ["会社員 = empleado de empresa (en general); 社員 = empleado de (empresa X) con nombre específico", "Son exactamente iguales", "会社員 es junior; 社員 es senior", "会社員 es japonés; 社員 es extranjero"]
+  },
+  {
+    "cat": "Traducción JA→ES",
+    "q": "'あおぞら日本語学校の学生です。' significa:",
+    "correct": "Soy estudiante de la escuela de japonés Aozora",
+    "opts": ["Soy estudiante de la escuela de japonés Aozora", "Aozora es mi escuela de japonés", "La escuela de japonés Aozora tiene estudiantes", "Soy Aozora, estudiante de japonés"]
+  },
+  {
+    "cat": "Partícula trampa",
+    "q": "私 ___ 韓国人です。 (Yo soy coreano)",
+    "correct": "は",
+    "opts": ["は", "が", "を", "に"]
+  },
+  {
+    "cat": "Partícula の",
+    "q": "ふじ大学 ___ 学生です。 (Soy estudiante de la universidad Fuji)",
+    "correct": "の",
+    "opts": ["の", "は", "で", "に"]
+  },
+  {
+    "cat": "Trampa frecuente",
+    "q": "¿Cuál de estas oraciones es INCORRECTA?",
+    "correct": "私は 学生のふじ大学です。",
+    "opts": ["私は 学生のふじ大学です。", "私は ふじ大学の学生です。", "私は 学生です。", "私は 韓国人の学生です。"]
+  },
+  {
+    "cat": "Pregunta nombre",
+    "q": "¿Cómo se pregunta '¿Cuál es tu nombre?' educadamente?",
+    "correct": "お名前は？ / お名前は 何ですか。",
+    "opts": ["お名前は？ / お名前は 何ですか。", "名前は どこですか。", "名前は だれですか。", "名前は いつですか。"]
+  },
+  {
+    "cat": "Comparación sufijos",
+    "q": "Un empleado de Google diría '私は ___ の社員です。'. Completá:",
+    "correct": "Google",
+    "opts": ["Google", "会社", "仕事", "オフィス"]
+  },
+  {
+    "cat": "Vocabulario",
+    "q": "¿Qué significa すみません en una presentación?",
+    "correct": "Perdón / disculpe (para llamar la atención o corregir)",
+    "opts": ["Perdón / disculpe (para llamar la atención o corregir)", "Gracias", "Lo siento mucho", "Por favor"]
+  },
+  {
+    "cat": "Trampa cultural",
+    "q": "Cuando alguien de otro país dice 'アメリカ人です', se refiere principalmente a:",
+    "correct": "Ser de Estados Unidos (no de América Latina)",
+    "opts": ["Ser de Estados Unidos (no de América Latina)", "Ser de cualquier país de América", "Ser de América del Norte", "Hablar inglés americano"]
+  },
+  {
+    "cat": "Presentación completa",
+    "q": "¿Cuál es la presentación más completa y natural?",
+    "correct": "はじめまして。私は セバスチャンです。アルゼンチン人です。どうぞ よろしく おねがいします。",
+    "opts": ["はじめまして。私は セバスチャンです。アルゼンチン人です。どうぞ よろしく おねがいします。", "セバスチャン アルゼンチン人 よろしく。", "私 セバスチャン アルゼンチン人。", "はじめまして セバスチャン アルゼンチンは 国です。"]
+  },
+  {
+    "cat": "Distinción formal",
+    "q": "¿Cuál pregunta sobre el país es MÁS casual?",
+    "correct": "くには どこですか。",
+    "opts": ["くには どこですか。", "お国は どちらですか。", "お国さまは どちらで いらっしゃいますか。", "国は いずこですか。"]
+  },
+  {
+    "cat": "Trampa estructura",
+    "q": "¿Qué error tiene la oración '私は アルゼンチンです'? (queriendo decir 'soy argentino')",
+    "correct": "Faltaría 人: 'アルゼンチン人です' (si no, literalmente dice 'yo soy Argentina')",
+    "opts": ["Faltaría 人: 'アルゼンチン人です' (si no, literalmente dice 'yo soy Argentina')", "Faltaría la partícula の", "Debería ser アルゼンチンに", "Es correcta sin cambios"]
+  }
+]

@@ -9,6 +9,12 @@ Quiz interactivo modular para estudiar japonés, basado en el material del curso
 ├── index.html          # App principal (no tocar, es genérica)
 ├── manifest.json       # Lista de unidades disponibles
 ├── unidades/           # Preguntas en JSON, una por unidad
+│   ├── u1a.json
+│   ├── u1b.json
+│   ├── u1c.json
+│   ├── u2a.json
+│   ├── u2b.json
+│   ├── u2c.json
 │   ├── u3a.json
 │   ├── u3b.json
 │   ├── u3c.json
@@ -118,10 +124,16 @@ const QUIZ_SIZE = 30;  // Cambiar a 20, 50, etc.
 
 ## 📝 Unidades actuales
 
-| ID  | Nombre     | Contenido                                     | Preguntas |
-|-----|------------|-----------------------------------------------|-----------|
-| 3A  | Unidad 3A  | 何時までですか — Hora, días de la semana       | 134       |
-| 3B  | Unidad 3B  | 私のスケジュール — Vます, planes, partículas    | 110       |
-| 3C  | Unidad 3C  | 毎日の生活 — Partículas に・で・を y rutinas    | 119       |
-| 4A  | Unidad 4A  | Puntos cardinales, distancias, transporte     | 143       |
-| 4B  | Unidad 4B  | Adjetivos い/な, どんな, あります               | 135       |
+| ID  | Nombre     | Contenido                                              | Preguntas |
+|-----|------------|--------------------------------------------------------|-----------|
+| 1A  | Unidad 1A  | 私の名前・国・仕事 — Nombre, país, trabajo              | 74        |
+| 1B  | Unidad 1B  | 私の誕生日 — Edad, cumpleaños, meses, días              | 70        |
+| 1C  | Unidad 1C  | 私の趣味 — Hobbies, と, も, 何ですか                    | 66        |
+| 2A  | Unidad 2A  | どこですか — Ubicación, pisos, demostrativos de lugar   | 70        |
+| 2B  | Unidad 2B  | いくらですか — Precios, これ/それ/あれ, Nをください       | 73        |
+| 2C  | Unidad 2C  | レストラン — Contadores ~つ, 何の/どこの/誰のN           | 81        |
+| 3A  | Unidad 3A  | 何時までですか — Hora, días de la semana                | 134       |
+| 3B  | Unidad 3B  | 私のスケジュール — Vます, planes, partículas             | 110       |
+| 3C  | Unidad 3C  | 毎日の生活 — Partículas に・で・を y rutinas             | 119       |
+| 4A  | Unidad 4A  | Puntos cardinales, distancias, transporte              | 143       |
+| 4B  | Unidad 4B  | Adjetivos い/な, どんな, あります                        | 135       |
