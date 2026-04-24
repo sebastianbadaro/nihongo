@@ -283,6 +283,35 @@
     margin-bottom: 12px;
   }
   .back-btn:hover { text-decoration: underline; }
+
+ /* Footer con créditos */
+.site-footer {
+  max-width: 720px;
+  margin: 20px auto 10px;
+  text-align: center;
+  font-size: 0.82em;
+  color: #95a5a6;
+  line-height: 1.4;
+}
+.site-footer .footer-link {
+  color: #7f8c8d;
+  text-decoration: none;
+  border-bottom: 1px dotted transparent;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.site-footer .footer-link:hover {
+  color: #c0392b;
+  border-bottom-color: #c0392b;
+}
+.site-footer .footer-icon {
+  width: 13px;
+  height: 13px;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
   @media (max-width: 600px) {
     .container { padding: 20px; }
     h1 { font-size: 1.3em; }
@@ -611,5 +640,18 @@ function confirmBack() {
 // =============================================================
 loadManifest();
 </script>
+  <footer class="site-footer">
+  Desarrollado por
+  <a href="https://www.linkedin.com/in/sbadaro/"
+     target="_blank"
+     rel="noopener"
+     class="footer-link">
+    Sebastián Badaró
+    <svg class="footer-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/>
+    </svg>
+  </a>
+</footer>
 </body>
+
 </html>
