@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日本語 Quiz — Dekiru Nihongo</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+    background: linear-gradient(135deg, #fef6f6 0%, #f0f4ff 100%);
+    color: #2c3e50;
+    min-height: 100vh;
+    padding: 20px;
+    line-height: 1.5;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 32px;
+  }
+  header {
+    text-align: center;
+    border-bottom: 2px solid #f0e4e4;
+    padding-bottom: 20px;
+    margin-bottom: 24px;
+  }
+  h1 {
+    color: #c0392b;
+    font-size: 1.6em;
+    margin-bottom: 6px;
+  }
+  .subtitle { color: #7f8c8d; font-size: 0.95em; }
+
+  .progress-bar {
+    background: #eee;
+    border-radius: 10px;
+    height: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .progress-fill {
+    background: linear-gradient(90deg, #e74c3c 0%, #f39c12 100%);
+    height: 100%;
+    transition: width 0.3s ease;
+  }
+  .meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    color: #7f8c8d;
+    margin-bottom: 12px;
+  }
+  .question-card {
+    background: #fafbfc;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+  .category-tag {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.75em;
+    margin-bottom: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  .question-text {
+    font-size: 1.25em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  .options { display: grid; gap: 10px; }
+  .option {
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 14px 18px;
+    cursor: pointer;
+    font-size: 1.02em;
+    transition: all 0.15s ease;
+    text-align: left;
+    font-family: inherit;
+    color: #2c3e50;
+  }
+  .option:hover:not(:disabled) {
+    border-color: #3498db;
+    background: #f0f8ff;
+    transform: translateX(2px);
+  }
+  .option:disabled { cursor: default; }
+  .option.correct {
+    background: #d4edda;
+    border-color: #28a745;
+    color: #155724;
+    font-weight: 600;
+  }
+  .option.incorrect {
+    background: #f8d7da;
+    border-color: #dc3545;
+    color: #721c24;
+  }
+  .feedback {
+    margin-top: 16px;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 0.95em;
+  }
+  .feedback.right {
+    background: #d4edda;
+    color: #155724;
+    border-left: 4px solid #28a745;
+  }
+  .feedback.wrong {
+    background: #fff3cd;
+    color: #856404;
+    border-left: 4px solid #ffc107;
+  }
+  .btn {
+    background: #c0392b;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-size: 1em;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.15s ease;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .btn:hover { background: #a93226; transform: translateY(-1px); }
+  .btn.secondary { background: #3498db; }
+  .btn.secondary:hover { background: #2874a6; }
+  .btn.outline {
+    background: white;
+    color: #c0392b;
+    border: 2px solid #c0392b;
+  }
+  .btn.outline:hover { background: #fef6f6; }
+  .hidden { display: none; }
+  .start-screen, .result-screen { text-align: center; padding: 10px 10px; }
+  .start-screen p, .result-screen p { margin-bottom: 14px; color: #555; }
+  .score-big {
+    font-size: 3em;
+    font-weight: 700;
+    color: #c0392b;
+    margin: 20px 0;
+  }
+  .score-label { font-size: 1.1em; color: #7f8c8d; }
+  .result-stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+  }
+  .stat {
+    background: #f8f9fa;
+    padding: 14px 22px;
+    border-radius: 10px;
+    min-width: 100px;
+  }
+  .stat-value { font-size: 1.8em; font-weight: 700; }
+  .stat-label { font-size: 0.85em; color: #7f8c8d; }
+  .right-v { color: #28a745; }
+  .wrong-v { color: #dc3545; }
+  .review-list {
+    text-align: left;
+    margin-top: 24px;
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 12px;
+  }
+  .review-item {
+    padding: 12px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 0.92em;
+  }
+  .review-item:last-child { border-bottom: none; }
+  .review-q { font-weight: 600; margin-bottom: 4px; }
+  .review-a { color: #555; }
+  .review-a.correct-ans { color: #28a745; }
+  .review-a.wrong-ans { color: #dc3545; text-decoration: line-through; }
+  .jp { font-family: "Hiragino Sans", "Yu Gothic", "Meiryo", "MS Gothic", sans-serif; }
+
+  /* Estilos del selector de unidades */
+  .unit-grid {
+    display: grid;
+    gap: 12px;
+    margin: 20px 0;
+    text-align: left;
+  }
+  .unit-card {
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 16px 20px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    font-family: inherit;
+    text-align: left;
+    width: 100%;
+  }
+  .unit-card:hover:not(:disabled) {
+    border-color: #c0392b;
+    background: #fef6f6;
+    transform: translateX(2px);
+  }
+  .unit-card:disabled { opacity: 0.5; cursor: not-allowed; }
+  .unit-card.mix {
+    background: linear-gradient(135deg, #fff5e6, #fef0f0);
+    border-color: #f39c12;
+  }
+  .unit-card.mix:hover { border-color: #e67e22; background: linear-gradient(135deg, #ffeacc, #fde0e0); }
+  .unit-name {
+    font-weight: 600;
+    color: #c0392b;
+    font-size: 1.05em;
+  }
+  .unit-sub {
+    font-size: 0.85em;
+    color: #7f8c8d;
+    margin-top: 2px;
+  }
+  .unit-count {
+    background: #3498db;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-size: 0.75em;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .loader {
+    text-align: center;
+    padding: 40px 20px;
+    color: #7f8c8d;
+  }
+  .error-box {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 14px;
+    border-radius: 10px;
+    border-left: 4px solid #dc3545;
+    margin: 16px 0;
+    text-align: left;
+    font-size: 0.9em;
+  }
+  .quiz-header-info {
+    background: #f0f8ff;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    font-size: 0.9em;
+    color: #555;
+    border-left: 4px solid #3498db;
+  }
+  .back-btn {
+    background: none;
+    border: none;
+    color: #3498db;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-family: inherit;
+    padding: 4px 0;
+    margin-bottom: 12px;
+  }
+  .back-btn:hover { text-decoration: underline; }
+  @media (max-width: 600px) {
+    .container { padding: 20px; }
+    h1 { font-size: 1.3em; }
+    .question-text { font-size: 1.1em; }
+    .unit-card { flex-direction: column; align-items: flex-start; gap: 6px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>日本語 Quiz</h1>
+    <div class="subtitle">Dekiru Nihongo — Repaso interactivo</div>
+  </header>
+
+  <!-- PANTALLA DE SELECCIÓN DE UNIDAD -->
+  <div id="menu" class="start-screen">
+    <p>📚 Elegí una unidad para practicar o mezclá preguntas de todas.</p>
+    <div id="unit-list" class="loader">Cargando unidades…</div>
+  </div>
+
+  <!-- PANTALLA DE PREGUNTAS -->
+  <div id="quiz" class="hidden">
+    <button class="back-btn" onclick="confirmBack()">← Volver al menú</button>
+    <div class="quiz-header-info jp" id="quiz-title"></div>
+    <div class="meta">
+      <span id="q-counter">Pregunta 1 de 30</span>
+      <span id="q-score">Aciertos: 0</span>
+    </div>
+    <div class="progress-bar"><div id="progress" class="progress-fill" style="width:0%"></div></div>
+    <div class="question-card">
+      <span class="category-tag" id="q-category"></span>
+      <div class="question-text jp" id="q-text"></div>
+      <div class="options" id="q-options"></div>
+      <div id="q-feedback" class="feedback hidden"></div>
+    </div>
+    <button id="next-btn" class="btn hidden" onclick="nextQuestion()">Siguiente →</button>
+  </div>
+
+  <!-- PANTALLA DE RESULTADO -->
+  <div id="result" class="result-screen hidden">
+    <h2 style="color:#c0392b;">お疲れさま！🎉</h2>
+    <div class="score-big" id="final-score">0 / 30</div>
+    <div class="score-label" id="final-msg">...</div>
+    <div class="result-stats">
+      <div class="stat">
+        <div class="stat-value right-v" id="stat-right">0</div>
+        <div class="stat-label">Correctas</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value wrong-v" id="stat-wrong">0</div>
+        <div class="stat-label">Incorrectas</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="stat-pct">0%</div>
+        <div class="stat-label">Precisión</div>
+      </div>
+    </div>
+    <div class="review-list" id="review"></div>
+    <button class="btn" onclick="restart()">もう一度 (Repetir con nuevas preguntas)</button>
+    <button class="btn outline" onclick="backToMenu()">Elegir otra unidad</button>
+  </div>
+</div>
+
+<script>
+// =============================================================
+// CONFIGURACIÓN
+// =============================================================
+const QUIZ_SIZE = 30;
+const MANIFEST_URL = './manifest.json';
+
+// =============================================================
+// ESTADO GLOBAL
+// =============================================================
+let allUnits = [];       // Unidades cargadas desde manifest
+let questionsCache = {}; // Cache de preguntas por id de unidad
+let currentQuiz = [];
+let currentPool = [];    // Pool de preguntas actual (para repetir con nuevas al azar)
+let currentIdx = 0;
+let score = 0;
+let answers = [];
+let currentUnitTitle = '';
+
+// =============================================================
+// UTILIDADES
+// =============================================================
+function shuffle(array) {
+  const a = [...array];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function show(id) {
+  ['menu','quiz','result'].forEach(s => {
+    document.getElementById(s).classList.toggle('hidden', s !== id);
+  });
+}
+
+// =============================================================
+// CARGA DE MANIFEST Y UNIDADES
+// =============================================================
+async function loadManifest() {
+  try {
+    const res = await fetch(MANIFEST_URL);
+    if (!res.ok) throw new Error(`HTTP ${res.status} al cargar manifest.json`);
+    const data = await res.json();
+    allUnits = data.unidades || [];
+    renderUnitMenu();
+  } catch (err) {
+    document.getElementById('unit-list').innerHTML = `
+      <div class="error-box">
+        <b>⚠️ No se pudo cargar manifest.json</b><br>
+        ${err.message}<br><br>
+        Si abriste el archivo con doble click (file://), los navegadores bloquean fetch de JSON local.
+        Subilo a GitHub Pages, Netlify, o corré un server local:<br>
+        <code>python3 -m http.server 8000</code>
+      </div>
+    `;
+  }
+}
+
+function renderUnitMenu() {
+  const list = document.getElementById('unit-list');
+  const totalQs = allUnits.reduce((sum, u) => sum + (u.total || 0), 0);
+
+  let html = '<div class="unit-grid">';
+
+  // Cada unidad individual
+  allUnits.forEach(u => {
+    html += `
+      <button class="unit-card" onclick="startUnit('${u.id}')">
+        <div>
+          <div class="unit-name">${u.nombre}</div>
+          <div class="unit-sub jp">${u.subtitle || ''}</div>
+        </div>
+        <div class="unit-count">${u.total || '?'} preguntas</div>
+      </button>
+    `;
+  });
+
+  // Modo mezcla
+  if (allUnits.length > 1) {
+    html += `
+      <button class="unit-card mix" onclick="startMixed()">
+        <div>
+          <div class="unit-name">🎲 Mezcla de todas las unidades</div>
+          <div class="unit-sub">Repaso general con preguntas al azar de todas</div>
+        </div>
+        <div class="unit-count">${totalQs} preguntas</div>
+      </button>
+    `;
+  }
+
+  html += '</div>';
+  list.innerHTML = html;
+}
+
+async function fetchUnitQuestions(unit) {
+  if (questionsCache[unit.id]) return questionsCache[unit.id];
+  const res = await fetch(unit.file);
+  if (!res.ok) throw new Error(`HTTP ${res.status} al cargar ${unit.file}`);
+  const data = await res.json();
+  questionsCache[unit.id] = data;
+  return data;
+}
+
+// =============================================================
+// INICIAR QUIZ
+// =============================================================
+async function startUnit(unitId) {
+  const unit = allUnits.find(u => u.id === unitId);
+  if (!unit) return;
+  try {
+    const questions = await fetchUnitQuestions(unit);
+    currentUnitTitle = `${unit.nombre} · ${unit.subtitle}`;
+    launchQuiz(questions);
+  } catch (err) {
+    alert('Error al cargar la unidad: ' + err.message);
+  }
+}
+
+async function startMixed() {
+  try {
+    // Cargar todas las unidades en paralelo
+    const allQs = [];
+    await Promise.all(allUnits.map(async u => {
+      const qs = await fetchUnitQuestions(u);
+      allQs.push(...qs);
+    }));
+    currentUnitTitle = `🎲 Mezcla de todas las unidades (${allUnits.map(u=>u.nombre.replace('Unidad ','')).join(', ')})`;
+    launchQuiz(allQs);
+  } catch (err) {
+    alert('Error al cargar las unidades: ' + err.message);
+  }
+}
+
+function launchQuiz(pool) {
+  currentPool = pool;
+  currentQuiz = shuffle(pool).slice(0, Math.min(QUIZ_SIZE, pool.length));
+  currentIdx = 0;
+  score = 0;
+  answers = [];
+  document.getElementById('quiz-title').textContent = currentUnitTitle;
+  show('quiz');
+  renderQuestion();
+}
+
+// =============================================================
+// RENDER DE PREGUNTAS
+// =============================================================
+function renderQuestion() {
+  const q = currentQuiz[currentIdx];
+  document.getElementById('q-counter').textContent = `Pregunta ${currentIdx + 1} de ${currentQuiz.length}`;
+  document.getElementById('q-score').textContent = `Aciertos: ${score}`;
+  document.getElementById('progress').style.width = `${(currentIdx / currentQuiz.length) * 100}%`;
+  document.getElementById('q-category').textContent = q.cat;
+  document.getElementById('q-text').textContent = q.q;
+
+  const opts = shuffle(q.opts);
+  const container = document.getElementById('q-options');
+  container.innerHTML = '';
+  opts.forEach(opt => {
+    const btn = document.createElement('button');
+    btn.className = 'option jp';
+    btn.textContent = opt;
+    btn.onclick = () => selectAnswer(btn, opt, q);
+    container.appendChild(btn);
+  });
+  document.getElementById('q-feedback').classList.add('hidden');
+  document.getElementById('next-btn').classList.add('hidden');
+}
+
+function selectAnswer(btn, chosen, q) {
+  const buttons = document.querySelectorAll('.option');
+  buttons.forEach(b => b.disabled = true);
+  const isCorrect = chosen === q.correct;
+  const feedback = document.getElementById('q-feedback');
+  feedback.classList.remove('hidden', 'right', 'wrong');
+
+  if (isCorrect) {
+    btn.classList.add('correct');
+    feedback.classList.add('right');
+    feedback.textContent = '✅ 正解！ (¡Correcto!)';
+    score++;
+  } else {
+    btn.classList.add('incorrect');
+    feedback.classList.add('wrong');
+    feedback.innerHTML = `❌ 不正解。 La respuesta correcta era: <b>${q.correct}</b>`;
+    buttons.forEach(b => {
+      if (b.textContent === q.correct) b.classList.add('correct');
+    });
+  }
+  answers.push({q: q.q, chosen, correct: q.correct, isCorrect});
+  document.getElementById('q-score').textContent = `Aciertos: ${score}`;
+  document.getElementById('next-btn').classList.remove('hidden');
+  document.getElementById('next-btn').textContent = (currentIdx === currentQuiz.length - 1) ? 'Ver resultado 🏁' : 'Siguiente →';
+}
+
+function nextQuestion() {
+  currentIdx++;
+  if (currentIdx >= currentQuiz.length) showResult();
+  else renderQuestion();
+}
+
+// =============================================================
+// RESULTADO
+// =============================================================
+function showResult() {
+  show('result');
+  const total = currentQuiz.length;
+  const wrong = total - score;
+  const pct = Math.round((score / total) * 100);
+  document.getElementById('final-score').textContent = `${score} / ${total}`;
+  document.getElementById('stat-right').textContent = score;
+  document.getElementById('stat-wrong').textContent = wrong;
+  document.getElementById('stat-pct').textContent = pct + '%';
+
+  let msg;
+  if (pct === 100) msg = "🌟 完璧！ ¡Perfecto!";
+  else if (pct >= 85) msg = "🎌 素晴らしい！ Excelente dominio del material.";
+  else if (pct >= 70) msg = "👍 よくできました。 Repasá lo que fallaste.";
+  else if (pct >= 50) msg = "💪 もう少し！ Seguí practicando el vocabulario.";
+  else msg = "📚 復習しましょう。 Repasá el resumen y volvé a intentarlo.";
+  document.getElementById('final-msg').textContent = msg;
+
+  const review = document.getElementById('review');
+  const wrongAns = answers.filter(a => !a.isCorrect);
+  if (wrongAns.length === 0) {
+    review.innerHTML = '<div style="text-align:center;padding:16px;color:#28a745;font-weight:600;">🎉 ¡Ningún error! Perfecto.</div>';
+  } else {
+    review.innerHTML = '<div style="font-weight:600;margin-bottom:10px;">📝 Repaso de errores:</div>' +
+      wrongAns.map(a => `
+        <div class="review-item">
+          <div class="review-q jp">${a.q}</div>
+          <div class="review-a wrong-ans jp">Tu respuesta: ${a.chosen}</div>
+          <div class="review-a correct-ans jp">Correcta: ${a.correct}</div>
+        </div>
+      `).join('');
+  }
+}
+
+// =============================================================
+// NAVEGACIÓN
+// =============================================================
+function restart() {
+  // Repetir con la misma unidad/pool pero nuevas 30 preguntas al azar
+  if (currentPool.length > 0) {
+    show('quiz');
+    launchQuiz(currentPool);
+  }
+}
+
+function backToMenu() { show('menu'); }
+
+function confirmBack() {
+  if (confirm('¿Seguro que querés volver al menú? Se perderá el progreso actual.')) {
+    backToMenu();
+  }
+}
+
+// =============================================================
+// INICIO
+// =============================================================
+loadManifest();
+</script>
+</body>
+</html>

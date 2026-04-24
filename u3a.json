@@ -1,0 +1,1476 @@
+[
+  {
+    "cat": "Lectura ～時",
+    "q": "¿Cómo se lee 1時?",
+    "correct": "いちじ",
+    "opts": [
+      "いちじ",
+      "いっじ",
+      "ひとじ",
+      "いちとき"
+    ]
+  },
+  {
+    "cat": "Lectura ～時",
+    "q": "¿Cómo se lee 2時?",
+    "correct": "にじ",
+    "opts": [
+      "にじ",
+      "ふたじ",
+      "にとき",
+      "にっじ"
+    ]
+  },
+  {
+    "cat": "Lectura ～時",
+    "q": "¿Cómo se lee 3時?",
+    "correct": "さんじ",
+    "opts": [
+      "さんじ",
+      "みじ",
+      "さんどき",
+      "さっじ"
+    ]
+  },
+  {
+    "cat": "Lectura ～時",
+    "q": "¿Cómo se lee 4時? (⚠️ irregular)",
+    "correct": "よじ",
+    "opts": [
+      "よじ",
+      "しじ",
+      "よんじ",
+      "よっじ"
+    ]
+  },
+  {
+    "cat": "Lectura ～時",
+    "q": "¿Cómo se lee 5時?",
+    "correct": "ごじ",
+    "opts": [
+      "ごじ",
+      "ごうじ",
+      "いつじ",
+      "ごっじ"
+    ]
+  },
+  {
+    "cat": "Lectura ～時",
+    "q": "¿Cómo se lee 6時?",
+    "correct": "ろくじ",
+    "opts": [
+      "ろくじ",
+      "ろっじ",
+      "むっじ",
+      "ろじ"
+    ]
+  },
+  {
+    "cat": "Lectura ～時",
+    "q": "¿Cómo se lee 7時? (⚠️ irregular)",
+    "correct": "しちじ",
+    "opts": [
+      "しちじ",
+      "ななじ",
+      "なのじ",
+      "しっじ"
+    ]
+  },
+  {
+    "cat": "Lectura ～時",
+    "q": "¿Cómo se lee 8時?",
+    "correct": "はちじ",
+    "opts": [
+      "はちじ",
+      "やじ",
+      "はっじ",
+      "はちとき"
+    ]
+  },
+  {
+    "cat": "Lectura ～時",
+    "q": "¿Cómo se lee 9時? (⚠️ irregular)",
+    "correct": "くじ",
+    "opts": [
+      "くじ",
+      "きゅうじ",
+      "ここのじ",
+      "きゅじ"
+    ]
+  },
+  {
+    "cat": "Lectura ～時",
+    "q": "¿Cómo se lee 10時?",
+    "correct": "じゅうじ",
+    "opts": [
+      "じゅうじ",
+      "とおじ",
+      "じっじ",
+      "じゅっじ"
+    ]
+  },
+  {
+    "cat": "Lectura ～時",
+    "q": "¿Cómo se lee 11時?",
+    "correct": "じゅういちじ",
+    "opts": [
+      "じゅういちじ",
+      "じゅうひとじ",
+      "とおいちじ",
+      "じゅよじ"
+    ]
+  },
+  {
+    "cat": "Lectura ～時",
+    "q": "¿Cómo se lee 12時?",
+    "correct": "じゅうにじ",
+    "opts": [
+      "じゅうにじ",
+      "じゅうふたじ",
+      "とおにじ",
+      "じゅうじに"
+    ]
+  },
+  {
+    "cat": "Lectura ～時",
+    "q": "¿Cómo se lee 何時?",
+    "correct": "なんじ",
+    "opts": [
+      "なんじ",
+      "なにじ",
+      "どじ",
+      "いつじ"
+    ]
+  },
+  {
+    "cat": "Lectura ～分",
+    "q": "¿Cómo se lee 1分? (⚠️ irregular)",
+    "correct": "いっぷん",
+    "opts": [
+      "いっぷん",
+      "いちふん",
+      "いちぷん",
+      "ひとふん"
+    ]
+  },
+  {
+    "cat": "Lectura ～分",
+    "q": "¿Cómo se lee 2分?",
+    "correct": "にふん",
+    "opts": [
+      "にふん",
+      "にぷん",
+      "ふたふん",
+      "にっぷん"
+    ]
+  },
+  {
+    "cat": "Lectura ～分",
+    "q": "¿Cómo se lee 3分?",
+    "correct": "さんぷん",
+    "opts": [
+      "さんぷん",
+      "さんふん",
+      "みぷん",
+      "さんみん"
+    ]
+  },
+  {
+    "cat": "Lectura ～分",
+    "q": "¿Cómo se lee 4分?",
+    "correct": "よんぷん",
+    "opts": [
+      "よんぷん",
+      "しふん",
+      "よんふん",
+      "よっぷん"
+    ]
+  },
+  {
+    "cat": "Lectura ～分",
+    "q": "¿Cómo se lee 5分?",
+    "correct": "ごふん",
+    "opts": [
+      "ごふん",
+      "ごぷん",
+      "いつふん",
+      "ごみん"
+    ]
+  },
+  {
+    "cat": "Lectura ～分",
+    "q": "¿Cómo se lee 6分? (⚠️ irregular)",
+    "correct": "ろっぷん",
+    "opts": [
+      "ろっぷん",
+      "ろくふん",
+      "ろくぷん",
+      "ろっふん"
+    ]
+  },
+  {
+    "cat": "Lectura ～分",
+    "q": "¿Cómo se lee 7分?",
+    "correct": "ななふん",
+    "opts": [
+      "ななふん",
+      "しちふん",
+      "ななぷん",
+      "しちぷん"
+    ]
+  },
+  {
+    "cat": "Lectura ～分",
+    "q": "¿Cómo se lee 8分? (⚠️ irregular)",
+    "correct": "はっぷん",
+    "opts": [
+      "はっぷん",
+      "はちふん",
+      "はっふん",
+      "やっぷん"
+    ]
+  },
+  {
+    "cat": "Lectura ～分",
+    "q": "¿Cómo se lee 9分?",
+    "correct": "きゅうふん",
+    "opts": [
+      "きゅうふん",
+      "くふん",
+      "きゅうぷん",
+      "くぷん"
+    ]
+  },
+  {
+    "cat": "Lectura ～分",
+    "q": "¿Cómo se lee 10分? (⚠️ irregular)",
+    "correct": "じゅっぷん",
+    "opts": [
+      "じゅっぷん",
+      "じゅうふん",
+      "とおぷん",
+      "じっぷん"
+    ]
+  },
+  {
+    "cat": "Lectura ～分",
+    "q": "¿Cómo se lee 15分?",
+    "correct": "じゅうごふん",
+    "opts": [
+      "じゅうごふん",
+      "じゅごふん",
+      "じゅうごぷん",
+      "じゅうごみん"
+    ]
+  },
+  {
+    "cat": "Lectura ～分",
+    "q": "¿Cómo se lee 30分? (también = 半)",
+    "correct": "さんじゅっぷん",
+    "opts": [
+      "さんじゅっぷん",
+      "さんじゅうふん",
+      "さんじゅぷん",
+      "さんっぷん"
+    ]
+  },
+  {
+    "cat": "Lectura ～分",
+    "q": "¿Cómo se lee 何分?",
+    "correct": "なんぷん",
+    "opts": [
+      "なんぷん",
+      "なんふん",
+      "なにふん",
+      "なんみん"
+    ]
+  },
+  {
+    "cat": "Días: Kanji→Español",
+    "q": "¿Qué día es 月曜日?",
+    "correct": "Lunes",
+    "opts": [
+      "Lunes",
+      "Martes",
+      "Miércoles",
+      "Domingo"
+    ]
+  },
+  {
+    "cat": "Días: Kanji→Español",
+    "q": "¿Qué día es 火曜日?",
+    "correct": "Martes",
+    "opts": [
+      "Martes",
+      "Miércoles",
+      "Lunes",
+      "Viernes"
+    ]
+  },
+  {
+    "cat": "Días: Kanji→Español",
+    "q": "¿Qué día es 水曜日?",
+    "correct": "Miércoles",
+    "opts": [
+      "Miércoles",
+      "Jueves",
+      "Martes",
+      "Sábado"
+    ]
+  },
+  {
+    "cat": "Días: Kanji→Español",
+    "q": "¿Qué día es 木曜日?",
+    "correct": "Jueves",
+    "opts": [
+      "Jueves",
+      "Miércoles",
+      "Viernes",
+      "Sábado"
+    ]
+  },
+  {
+    "cat": "Días: Kanji→Español",
+    "q": "¿Qué día es 金曜日?",
+    "correct": "Viernes",
+    "opts": [
+      "Viernes",
+      "Sábado",
+      "Jueves",
+      "Lunes"
+    ]
+  },
+  {
+    "cat": "Días: Kanji→Español",
+    "q": "¿Qué día es 土曜日?",
+    "correct": "Sábado",
+    "opts": [
+      "Sábado",
+      "Domingo",
+      "Viernes",
+      "Martes"
+    ]
+  },
+  {
+    "cat": "Días: Kanji→Español",
+    "q": "¿Qué día es 日曜日?",
+    "correct": "Domingo",
+    "opts": [
+      "Domingo",
+      "Sábado",
+      "Lunes",
+      "Jueves"
+    ]
+  },
+  {
+    "cat": "Días: Kanji→Español",
+    "q": "¿Qué significa 何曜日?",
+    "correct": "¿Qué día de la semana?",
+    "opts": [
+      "¿Qué día de la semana?",
+      "¿Qué día del mes?",
+      "¿A qué hora?",
+      "¿En qué fecha?"
+    ]
+  },
+  {
+    "cat": "Días: Kanji→Lectura",
+    "q": "¿Cómo se lee 月曜日?",
+    "correct": "げつようび",
+    "opts": [
+      "げつようび",
+      "がつようび",
+      "つきようび",
+      "げっようび"
+    ]
+  },
+  {
+    "cat": "Días: Kanji→Lectura",
+    "q": "¿Cómo se lee 火曜日?",
+    "correct": "かようび",
+    "opts": [
+      "かようび",
+      "ひようび",
+      "ほようび",
+      "かっようび"
+    ]
+  },
+  {
+    "cat": "Días: Kanji→Lectura",
+    "q": "¿Cómo se lee 水曜日?",
+    "correct": "すいようび",
+    "opts": [
+      "すいようび",
+      "みずようび",
+      "すうようび",
+      "しようび"
+    ]
+  },
+  {
+    "cat": "Días: Kanji→Lectura",
+    "q": "¿Cómo se lee 木曜日?",
+    "correct": "もくようび",
+    "opts": [
+      "もくようび",
+      "きようび",
+      "ぼくようび",
+      "もくよう"
+    ]
+  },
+  {
+    "cat": "Días: Kanji→Lectura",
+    "q": "¿Cómo se lee 金曜日?",
+    "correct": "きんようび",
+    "opts": [
+      "きんようび",
+      "かねようび",
+      "ぎんようび",
+      "こんようび"
+    ]
+  },
+  {
+    "cat": "Días: Kanji→Lectura",
+    "q": "¿Cómo se lee 土曜日?",
+    "correct": "どようび",
+    "opts": [
+      "どようび",
+      "つちようび",
+      "とようび",
+      "どうようび"
+    ]
+  },
+  {
+    "cat": "Días: Kanji→Lectura",
+    "q": "¿Cómo se lee 日曜日?",
+    "correct": "にちようび",
+    "opts": [
+      "にちようび",
+      "ひようび",
+      "にっようび",
+      "じつようび"
+    ]
+  },
+  {
+    "cat": "Días: Kanji→Lectura",
+    "q": "¿Cómo se lee 何曜日?",
+    "correct": "なんようび",
+    "opts": [
+      "なんようび",
+      "なにようび",
+      "どようび",
+      "いつようび"
+    ]
+  },
+  {
+    "cat": "Días: Español→Kanji",
+    "q": "¿Cuál es el kanji de 'lunes'?",
+    "correct": "月曜日",
+    "opts": [
+      "月曜日",
+      "火曜日",
+      "水曜日",
+      "金曜日"
+    ]
+  },
+  {
+    "cat": "Días: Español→Kanji",
+    "q": "¿Cuál es el kanji de 'martes'?",
+    "correct": "火曜日",
+    "opts": [
+      "火曜日",
+      "月曜日",
+      "水曜日",
+      "木曜日"
+    ]
+  },
+  {
+    "cat": "Días: Español→Kanji",
+    "q": "¿Cuál es el kanji de 'miércoles'?",
+    "correct": "水曜日",
+    "opts": [
+      "水曜日",
+      "木曜日",
+      "火曜日",
+      "土曜日"
+    ]
+  },
+  {
+    "cat": "Días: Español→Kanji",
+    "q": "¿Cuál es el kanji de 'jueves'?",
+    "correct": "木曜日",
+    "opts": [
+      "木曜日",
+      "水曜日",
+      "金曜日",
+      "土曜日"
+    ]
+  },
+  {
+    "cat": "Días: Español→Kanji",
+    "q": "¿Cuál es el kanji de 'viernes'?",
+    "correct": "金曜日",
+    "opts": [
+      "金曜日",
+      "木曜日",
+      "土曜日",
+      "月曜日"
+    ]
+  },
+  {
+    "cat": "Días: Español→Kanji",
+    "q": "¿Cuál es el kanji de 'sábado'?",
+    "correct": "土曜日",
+    "opts": [
+      "土曜日",
+      "日曜日",
+      "金曜日",
+      "火曜日"
+    ]
+  },
+  {
+    "cat": "Días: Español→Kanji",
+    "q": "¿Cuál es el kanji de 'domingo'?",
+    "correct": "日曜日",
+    "opts": [
+      "日曜日",
+      "土曜日",
+      "月曜日",
+      "木曜日"
+    ]
+  },
+  {
+    "cat": "Kanji→Español",
+    "q": "¿Qué significa 銀行?",
+    "correct": "Banco",
+    "opts": [
+      "Banco",
+      "Correo",
+      "Hospital",
+      "Biblioteca"
+    ]
+  },
+  {
+    "cat": "Kanji→Español",
+    "q": "¿Qué significa 体育館?",
+    "correct": "Gimnasio / polideportivo",
+    "opts": [
+      "Gimnasio / polideportivo",
+      "Escuela",
+      "Centro comercial",
+      "Estadio"
+    ]
+  },
+  {
+    "cat": "Kanji→Español",
+    "q": "¿Qué significa 図書館?",
+    "correct": "Biblioteca",
+    "opts": [
+      "Biblioteca",
+      "Librería",
+      "Museo",
+      "Sala de estudio"
+    ]
+  },
+  {
+    "cat": "Kanji→Español",
+    "q": "¿Qué significa 病院?",
+    "correct": "Hospital",
+    "opts": [
+      "Hospital",
+      "Clínica dental",
+      "Farmacia",
+      "Veterinaria"
+    ]
+  },
+  {
+    "cat": "Kanji→Español",
+    "q": "¿Qué significa 郵便局?",
+    "correct": "Correo / oficina postal",
+    "opts": [
+      "Correo / oficina postal",
+      "Banco",
+      "Oficina",
+      "Comisaría"
+    ]
+  },
+  {
+    "cat": "Kanji→Español",
+    "q": "¿Qué significa 授業?",
+    "correct": "Clase / lección",
+    "opts": [
+      "Clase / lección",
+      "Examen",
+      "Tarea",
+      "Profesor"
+    ]
+  },
+  {
+    "cat": "Kanji→Español",
+    "q": "¿Qué significa 休み?",
+    "correct": "Descanso / día libre / vacaciones",
+    "opts": [
+      "Descanso / día libre / vacaciones",
+      "Trabajo",
+      "Festivo",
+      "Invierno"
+    ]
+  },
+  {
+    "cat": "Kanji→Español",
+    "q": "¿Qué significa 時間?",
+    "correct": "Tiempo / duración / hora",
+    "opts": [
+      "Tiempo / duración / hora",
+      "Reloj",
+      "Momento",
+      "Fecha"
+    ]
+  },
+  {
+    "cat": "Kanji→Español",
+    "q": "¿Qué significa 今?",
+    "correct": "Ahora",
+    "opts": [
+      "Ahora",
+      "Después",
+      "Antes",
+      "Hoy"
+    ]
+  },
+  {
+    "cat": "Kanji→Español",
+    "q": "¿Qué significa 午前?",
+    "correct": "A.M. / de la mañana",
+    "opts": [
+      "A.M. / de la mañana",
+      "P.M. / de la tarde",
+      "Mediodía",
+      "Noche"
+    ]
+  },
+  {
+    "cat": "Kanji→Español",
+    "q": "¿Qué significa 午後?",
+    "correct": "P.M. / de la tarde",
+    "opts": [
+      "P.M. / de la tarde",
+      "A.M. / de la mañana",
+      "Noche",
+      "Amanecer"
+    ]
+  },
+  {
+    "cat": "Kanji→Español",
+    "q": "¿Qué significa 昼?",
+    "correct": "Mediodía / día",
+    "opts": [
+      "Mediodía / día",
+      "Noche",
+      "Mañana",
+      "Tarde"
+    ]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 銀行?",
+    "correct": "ぎんこう",
+    "opts": [
+      "ぎんこう",
+      "ぎんぎょう",
+      "ぎんだい",
+      "ぎこう"
+    ]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 体育館?",
+    "correct": "たいいくかん",
+    "opts": [
+      "たいいくかん",
+      "たいういくかん",
+      "てついくかん",
+      "たいくかん"
+    ]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 図書館?",
+    "correct": "としょかん",
+    "opts": [
+      "としょかん",
+      "ずしょかん",
+      "としょうかん",
+      "としょがん"
+    ]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 病院?",
+    "correct": "びょういん",
+    "opts": [
+      "びょういん",
+      "びょうえん",
+      "へいいん",
+      "ひょういん"
+    ]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 郵便局?",
+    "correct": "ゆうびんきょく",
+    "opts": [
+      "ゆうびんきょく",
+      "ゆびんきょく",
+      "ゆうべんきょく",
+      "ゆうびんかん"
+    ]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 授業?",
+    "correct": "じゅぎょう",
+    "opts": [
+      "じゅぎょう",
+      "じょうぎょう",
+      "しゅぎょう",
+      "じゅきょう"
+    ]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 休み?",
+    "correct": "やすみ",
+    "opts": [
+      "やすみ",
+      "きゅうみ",
+      "やみ",
+      "やすめ"
+    ]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 時間?",
+    "correct": "じかん",
+    "opts": [
+      "じかん",
+      "ときま",
+      "じま",
+      "しかん"
+    ]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 今?",
+    "correct": "いま",
+    "opts": [
+      "いま",
+      "こん",
+      "きん",
+      "いめ"
+    ]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 午前?",
+    "correct": "ごぜん",
+    "opts": [
+      "ごぜん",
+      "ごぜ",
+      "ごまえ",
+      "ぜんご"
+    ]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 午後?",
+    "correct": "ごご",
+    "opts": [
+      "ごご",
+      "ごあと",
+      "ごごう",
+      "ごうご"
+    ]
+  },
+  {
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 昼?",
+    "correct": "ひる",
+    "opts": [
+      "ひる",
+      "ちゅう",
+      "よる",
+      "あさ"
+    ]
+  },
+  {
+    "cat": "Español→Kanji",
+    "q": "¿Cuál es el kanji de 'banco'?",
+    "correct": "銀行",
+    "opts": [
+      "銀行",
+      "郵便局",
+      "病院",
+      "体育館"
+    ]
+  },
+  {
+    "cat": "Español→Kanji",
+    "q": "¿Cuál es el kanji de 'biblioteca'?",
+    "correct": "図書館",
+    "opts": [
+      "図書館",
+      "体育館",
+      "郵便局",
+      "病院"
+    ]
+  },
+  {
+    "cat": "Español→Kanji",
+    "q": "¿Cuál es el kanji de 'hospital'?",
+    "correct": "病院",
+    "opts": [
+      "病院",
+      "体育館",
+      "銀行",
+      "授業"
+    ]
+  },
+  {
+    "cat": "Español→Kanji",
+    "q": "¿Cuál es el kanji de 'correo'?",
+    "correct": "郵便局",
+    "opts": [
+      "郵便局",
+      "銀行",
+      "病院",
+      "図書館"
+    ]
+  },
+  {
+    "cat": "Español→Kanji",
+    "q": "¿Cuál es el kanji de 'gimnasio'?",
+    "correct": "体育館",
+    "opts": [
+      "体育館",
+      "図書館",
+      "病院",
+      "銀行"
+    ]
+  },
+  {
+    "cat": "Leer hora",
+    "q": "'今、9時20分です' se lee:",
+    "correct": "いま、くじ にじゅっぷんです",
+    "opts": [
+      "いま、くじ にじゅっぷんです",
+      "いま、きゅうじ にじゅうふんです",
+      "いま、くじ にじゅうふんです",
+      "いま、きゅうじ にじゅうぷんです"
+    ]
+  },
+  {
+    "cat": "Leer hora",
+    "q": "'8時15分前です' significa:",
+    "correct": "Son las 7:45 (15 para las 8)",
+    "opts": [
+      "Son las 7:45 (15 para las 8)",
+      "Son las 8:15",
+      "Faltan 8 para las 15",
+      "Son las 8 y quince después"
+    ]
+  },
+  {
+    "cat": "Leer hora",
+    "q": "'9時から5時までです' significa:",
+    "correct": "Es de 9 a 5.",
+    "opts": [
+      "Es de 9 a 5.",
+      "Son las 9 y 5.",
+      "De las 5 a las 9.",
+      "Son las 9:05."
+    ]
+  },
+  {
+    "cat": "Leer hora",
+    "q": "'4時半です' significa:",
+    "correct": "Son las 4 y media.",
+    "opts": [
+      "Son las 4 y media.",
+      "Son las 4:30 de la tarde.",
+      "Faltan 30 para las 4.",
+      "Son las 4 y 15."
+    ]
+  },
+  {
+    "cat": "Leer hora",
+    "q": "¿Cómo escribimos 'las 7 y media' en japonés (kanji)?",
+    "correct": "7時半です",
+    "opts": [
+      "7時半です",
+      "7半時です",
+      "7時半分です",
+      "半7時です"
+    ]
+  },
+  {
+    "cat": "Leer hora",
+    "q": "¿Cuál significa 'son las 3:45' (un cuarto para las 4)?",
+    "correct": "4時15分前です",
+    "opts": [
+      "4時15分前です",
+      "3時45分前です",
+      "15分4時前です",
+      "4時前15分です"
+    ]
+  },
+  {
+    "cat": "Partícula",
+    "q": "9時＿＿5時までです。 — ¿Qué partícula va?",
+    "correct": "から",
+    "opts": [
+      "から",
+      "まで",
+      "に",
+      "で"
+    ]
+  },
+  {
+    "cat": "Partícula",
+    "q": "9時から5時＿＿です。 — ¿Qué partícula va?",
+    "correct": "まで",
+    "opts": [
+      "まで",
+      "から",
+      "に",
+      "で"
+    ]
+  },
+  {
+    "cat": "Partícula",
+    "q": "¿Qué significa から en 'X時からY時まで'?",
+    "correct": "Desde (punto de inicio)",
+    "opts": [
+      "Desde (punto de inicio)",
+      "Hasta",
+      "En",
+      "Durante"
+    ]
+  },
+  {
+    "cat": "Partícula",
+    "q": "¿Qué significa まで en 'X時からY時まで'?",
+    "correct": "Hasta (punto final)",
+    "opts": [
+      "Hasta (punto final)",
+      "Desde",
+      "En",
+      "Alrededor de"
+    ]
+  },
+  {
+    "cat": "Partícula",
+    "q": "'月曜日から金曜日まで' significa:",
+    "correct": "De lunes a viernes",
+    "opts": [
+      "De lunes a viernes",
+      "Sólo lunes y viernes",
+      "Entre lunes y viernes hay",
+      "Los lunes hasta los viernes"
+    ]
+  },
+  {
+    "cat": "Partícula",
+    "q": "'9時＿＿おきます。' (a las 9 me levanto) — ¿Qué partícula indica punto específico en el tiempo?",
+    "correct": "に",
+    "opts": [
+      "に",
+      "で",
+      "から",
+      "を"
+    ]
+  },
+  {
+    "cat": "Partícula",
+    "q": "Ante '昼やすみは12時から1時までです', ¿qué se informa?",
+    "correct": "El descanso va de 12 a 1.",
+    "opts": [
+      "El descanso va de 12 a 1.",
+      "Es el mediodía de 12 a 1.",
+      "El almuerzo empieza a la 1.",
+      "Faltan 12 para la 1."
+    ]
+  },
+  {
+    "cat": "Diálogo",
+    "q": "'すみません。今、何時ですか。' es:",
+    "correct": "Disculpe, ¿qué hora es ahora?",
+    "opts": [
+      "Disculpe, ¿qué hora es ahora?",
+      "Disculpe, ¿a qué hora?",
+      "Disculpe, ¿desde cuándo?",
+      "Disculpe, ¿qué día?"
+    ]
+  },
+  {
+    "cat": "Diálogo",
+    "q": "Si alguien te pregunta 'そちらは何時から何時までですか', te pregunta:",
+    "correct": "El horario de atención (de X a Y hora).",
+    "opts": [
+      "El horario de atención (de X a Y hora).",
+      "Tu dirección.",
+      "A qué hora entrás a trabajar.",
+      "De qué horario a qué horario es el feriado."
+    ]
+  },
+  {
+    "cat": "Diálogo",
+    "q": "Si alguien pregunta '休みはいつですか', te pregunta:",
+    "correct": "Cuándo es el día de descanso / cierre.",
+    "opts": [
+      "Cuándo es el día de descanso / cierre.",
+      "Cuánto duran las vacaciones.",
+      "Dónde descansás.",
+      "Hasta cuándo trabajás."
+    ]
+  },
+  {
+    "cat": "Diálogo",
+    "q": "Respuesta natural a '休みはいつですか':",
+    "correct": "月曜日です。",
+    "opts": [
+      "月曜日です。",
+      "9時までです。",
+      "図書館です。",
+      "アルバイトです。"
+    ]
+  },
+  {
+    "cat": "Diálogo",
+    "q": "Una respuesta natural a '今、何時ですか':",
+    "correct": "10時です。",
+    "opts": [
+      "10時です。",
+      "月曜日です。",
+      "銀行です。",
+      "9時までです。"
+    ]
+  },
+  {
+    "cat": "Diálogo",
+    "q": "Respuesta a 'そちらは何時から何時までですか':",
+    "correct": "9時から7時までです。",
+    "opts": [
+      "9時から7時までです。",
+      "9時20分です。",
+      "月曜日です。",
+      "午後です。"
+    ]
+  },
+  {
+    "cat": "Diálogo",
+    "q": "Para llamar la atención educadamente se dice:",
+    "correct": "すみません",
+    "opts": [
+      "すみません",
+      "ありがとうございます",
+      "こんにちは",
+      "どうぞ"
+    ]
+  },
+  {
+    "cat": "Diálogo",
+    "q": "Para agradecer (después de recibir la info) se dice:",
+    "correct": "ありがとうございます",
+    "opts": [
+      "ありがとうございます",
+      "すみません",
+      "はい、どうぞ",
+      "そうですね"
+    ]
+  },
+  {
+    "cat": "Gramática",
+    "q": "¿Cómo se pregunta '¿qué hora es ahora?' (forma educada)?",
+    "correct": "今、何時ですか。",
+    "opts": [
+      "今、何時ですか。",
+      "何分ですか。",
+      "今、何曜日ですか。",
+      "何日ですか。"
+    ]
+  },
+  {
+    "cat": "Gramática",
+    "q": "¿Cómo se pregunta '¿qué día (de la semana) es?'?",
+    "correct": "何曜日ですか。",
+    "opts": [
+      "何曜日ですか。",
+      "何日ですか。",
+      "今、何時ですか。",
+      "いつですか。"
+    ]
+  },
+  {
+    "cat": "Gramática",
+    "q": "¿Cómo se pregunta '¿hasta qué hora?'?",
+    "correct": "何時までですか。",
+    "opts": [
+      "何時までですか。",
+      "何時からですか。",
+      "いつまでですか。",
+      "何時ですか。"
+    ]
+  },
+  {
+    "cat": "Gramática",
+    "q": "¿Cómo se pregunta '¿desde qué hora?'?",
+    "correct": "何時からですか。",
+    "opts": [
+      "何時からですか。",
+      "何時までですか。",
+      "いつからですか。",
+      "どのくらいですか。"
+    ]
+  },
+  {
+    "cat": "Gramática",
+    "q": "¿Cómo se pregunta '¿cuándo?' de forma general (fecha/día)?",
+    "correct": "いつですか。",
+    "opts": [
+      "いつですか。",
+      "何時ですか。",
+      "どこですか。",
+      "なんですか。"
+    ]
+  },
+  {
+    "cat": "Traducción JP→ES",
+    "q": "'銀行は9時から3時までです' significa:",
+    "correct": "El banco es de 9 a 3.",
+    "opts": [
+      "El banco es de 9 a 3.",
+      "El banco abre a las 9:30.",
+      "Banco de 9 hasta mañana 3.",
+      "El banco está entre 9 y 3 pisos."
+    ]
+  },
+  {
+    "cat": "Traducción JP→ES",
+    "q": "'図書館の休みは月曜日です' significa:",
+    "correct": "El día de cierre de la biblioteca es el lunes.",
+    "opts": [
+      "El día de cierre de la biblioteca es el lunes.",
+      "La biblioteca está abierta el lunes.",
+      "El lunes la biblioteca descansa a los lectores.",
+      "La biblioteca descansa hasta el lunes."
+    ]
+  },
+  {
+    "cat": "Traducción JP→ES",
+    "q": "'授業は9時からです' significa:",
+    "correct": "La clase es desde las 9.",
+    "opts": [
+      "La clase es desde las 9.",
+      "La clase es hasta las 9.",
+      "Hay 9 clases.",
+      "La clase 9 empieza."
+    ]
+  },
+  {
+    "cat": "Traducción JP→ES",
+    "q": "'テストは金曜日です' significa:",
+    "correct": "El examen es el viernes.",
+    "opts": [
+      "El examen es el viernes.",
+      "El examen es del viernes.",
+      "Viernes hay 5 exámenes.",
+      "El examen dura viernes."
+    ]
+  },
+  {
+    "cat": "Traducción JP→ES",
+    "q": "'午前10時です' significa:",
+    "correct": "Son las 10 a.m.",
+    "opts": [
+      "Son las 10 a.m.",
+      "Son las 10 p.m.",
+      "Son las 10 y después.",
+      "Antes de las 10 a.m."
+    ]
+  },
+  {
+    "cat": "Traducción JP→ES",
+    "q": "'午後3時半です' significa:",
+    "correct": "Son las 3:30 p.m.",
+    "opts": [
+      "Son las 3:30 p.m.",
+      "Son las 3:30 a.m.",
+      "Son las 3 y 6 p.m.",
+      "Las 15:30 del mediodía."
+    ]
+  },
+  {
+    "cat": "Traducción ES→JP",
+    "q": "'Son las 9:20' — ¿cuál es correcta?",
+    "correct": "9時20分です。",
+    "opts": [
+      "9時20分です。",
+      "9分20時です。",
+      "9時20です。",
+      "9の20時分です。"
+    ]
+  },
+  {
+    "cat": "Traducción ES→JP",
+    "q": "'Son las 4 y media' — ¿cuál es correcta?",
+    "correct": "4時半です。",
+    "opts": [
+      "4時半です。",
+      "半4時です。",
+      "4時30です。",
+      "4半時です。"
+    ]
+  },
+  {
+    "cat": "Traducción ES→JP",
+    "q": "'El banco es de 9 a 3' — ¿cuál es correcta?",
+    "correct": "銀行は9時から3時までです。",
+    "opts": [
+      "銀行は9時から3時までです。",
+      "銀行に9時から3時です。",
+      "銀行の9時まで3時からです。",
+      "銀行で9時から3時までです。"
+    ]
+  },
+  {
+    "cat": "Traducción ES→JP",
+    "q": "'La biblioteca descansa los lunes' — ¿cuál es correcta?",
+    "correct": "図書館の休みは月曜日です。",
+    "opts": [
+      "図書館の休みは月曜日です。",
+      "図書館は月曜日で休みです。",
+      "月曜日に図書館が休みます。",
+      "図書館が月曜日休みを。"
+    ]
+  },
+  {
+    "cat": "Traducción ES→JP",
+    "q": "'La clase es de 9 a 12:30' — ¿cuál es correcta?",
+    "correct": "授業は9時から12時半までです。",
+    "opts": [
+      "授業は9時から12時半までです。",
+      "授業で9時と12時半までです。",
+      "授業を9時から12時半までです。",
+      "授業は9時まで12時半からです。"
+    ]
+  },
+  {
+    "cat": "Traducción ES→JP",
+    "q": "'¿Hasta qué hora?' — ¿cuál es correcta?",
+    "correct": "何時までですか。",
+    "opts": [
+      "何時までですか。",
+      "何時からですか。",
+      "いつまでですか。",
+      "何までですか。"
+    ]
+  },
+  {
+    "cat": "Uso en contexto",
+    "q": "Entrás a un correo y querés saber el horario. ¿Qué preguntás?",
+    "correct": "そちらは何時から何時までですか。",
+    "opts": [
+      "そちらは何時から何時までですか。",
+      "何曜日ですか。",
+      "いつですか。",
+      "これはいくらですか。"
+    ]
+  },
+  {
+    "cat": "Uso en contexto",
+    "q": "Para decir 'de lunes a viernes' en kanji:",
+    "correct": "月曜日から金曜日まで",
+    "opts": [
+      "月曜日から金曜日まで",
+      "月から金で",
+      "月曜日に金曜日まで",
+      "月曜日が金曜日まで"
+    ]
+  },
+  {
+    "cat": "Uso en contexto",
+    "q": "¿Cuál palabra completa: 'X時Y分＿＿'? (quiere decir 'antes de')",
+    "correct": "前",
+    "opts": [
+      "前",
+      "後",
+      "半",
+      "中"
+    ]
+  },
+  {
+    "cat": "Uso en contexto",
+    "q": "¿Qué diferencia hay entre 時 y 時間?",
+    "correct": "時 = hora puntual (las 3) / 時間 = duración (horas, tiempo)",
+    "opts": [
+      "時 = hora puntual (las 3) / 時間 = duración (horas, tiempo)",
+      "Son lo mismo",
+      "時 = duración / 時間 = puntual",
+      "時 se usa solo en presente"
+    ]
+  },
+  {
+    "cat": "Uso en contexto",
+    "q": "'午前10時' es:",
+    "correct": "Las 10 de la mañana",
+    "opts": [
+      "Las 10 de la mañana",
+      "Las 10 de la noche",
+      "A las 10 y 22",
+      "Antes de las 10"
+    ]
+  },
+  {
+    "cat": "Uso en contexto",
+    "q": "'午後9時' es:",
+    "correct": "Las 9 de la noche",
+    "opts": [
+      "Las 9 de la noche",
+      "Las 9 de la mañana",
+      "A las 9 y media",
+      "9 horas de la tarde"
+    ]
+  },
+  {
+    "cat": "Uso en contexto",
+    "q": "Si un lugar está '休み' un día, significa que ese día:",
+    "correct": "Está cerrado / es día de descanso",
+    "opts": [
+      "Está cerrado / es día de descanso",
+      "Está lleno",
+      "Está abierto 24 horas",
+      "Es un feriado nacional"
+    ]
+  },
+  {
+    "cat": "Uso en contexto",
+    "q": "Si alguien dice '病院は9時からです', quiere decir:",
+    "correct": "El hospital atiende desde las 9.",
+    "opts": [
+      "El hospital atiende desde las 9.",
+      "Hay hospital a las 9.",
+      "Sólo 9 personas en el hospital.",
+      "El hospital cierra a las 9."
+    ]
+  },
+  {
+    "cat": "Sutileza",
+    "q": "¿Cuál de estas lecturas de 時 es INCORRECTA?",
+    "correct": "7時 = ななじ",
+    "opts": [
+      "7時 = ななじ",
+      "4時 = よじ",
+      "9時 = くじ",
+      "7時 = しちじ"
+    ]
+  },
+  {
+    "cat": "Sutileza",
+    "q": "¿Cuál lectura de 分 es INCORRECTA?",
+    "correct": "10分 = じゅうふん",
+    "opts": [
+      "10分 = じゅうふん",
+      "10分 = じゅっぷん",
+      "1分 = いっぷん",
+      "8分 = はっぷん"
+    ]
+  },
+  {
+    "cat": "Sutileza",
+    "q": "'半' después de una hora significa:",
+    "correct": "Y media (30 minutos)",
+    "opts": [
+      "Y media (30 minutos)",
+      "Cuarto (15 minutos)",
+      "Menos cuarto",
+      "A punto de"
+    ]
+  },
+  {
+    "cat": "Sutileza",
+    "q": "'前' después de 'X時Y分' significa:",
+    "correct": "Faltan Y minutos para las X (antes de)",
+    "opts": [
+      "Faltan Y minutos para las X (antes de)",
+      "Pasadas las X y Y",
+      "Cada X horas Y minutos",
+      "Desde las X y Y"
+    ]
+  },
+  {
+    "cat": "Sutileza",
+    "q": "¿Cuál es la respuesta correcta a '何曜日ですか'?",
+    "correct": "水曜日です。",
+    "opts": [
+      "水曜日です。",
+      "9時です。",
+      "3月です。",
+      "図書館です。"
+    ]
+  },
+  {
+    "cat": "Sutileza",
+    "q": "¿Cuál es la respuesta correcta a 'いつですか' (cuando se pregunta por un día)?",
+    "correct": "金曜日です。",
+    "opts": [
+      "金曜日です。",
+      "午前です。",
+      "9時20分です。",
+      "病院です。"
+    ]
+  },
+  {
+    "cat": "Sutileza",
+    "q": "En '7時15分前です', ¿qué hora es realmente?",
+    "correct": "6:45",
+    "opts": [
+      "6:45",
+      "7:15",
+      "7:45",
+      "6:15"
+    ]
+  },
+  {
+    "cat": "Sutileza",
+    "q": "En '10時半です', ¿qué hora es?",
+    "correct": "10:30",
+    "opts": [
+      "10:30",
+      "10:15",
+      "10:45",
+      "11:30"
+    ]
+  },
+  {
+    "cat": "Japonés→Español",
+    "q": "¿Qué significa テスト?",
+    "correct": "Examen / test",
+    "opts": [
+      "Examen / test",
+      "Clase",
+      "Tarea",
+      "Profesor"
+    ]
+  },
+  {
+    "cat": "Japonés→Español",
+    "q": "¿Qué es スケジュール?",
+    "correct": "Agenda / horario",
+    "opts": [
+      "Agenda / horario",
+      "Reloj",
+      "Calendario",
+      "Cita"
+    ]
+  }
+]

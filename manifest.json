@@ -1,0 +1,32 @@
+{
+  "unidades": [
+    {
+      "id": "u3a",
+      "nombre": "Unidad 3A",
+      "subtitle": "何時までですか — Hora, horarios y días de la semana",
+      "file": "unidades/u3a.json",
+      "total": 134
+    },
+    {
+      "id": "u3b",
+      "nombre": "Unidad 3B",
+      "subtitle": "私のスケジュール — Planes, verbos Vます y partículas",
+      "file": "unidades/u3b.json",
+      "total": 110
+    },
+    {
+      "id": "u4a",
+      "nombre": "Unidad 4A",
+      "subtitle": "方角・距離 — Puntos cardinales, distancias y transporte",
+      "file": "unidades/u4a.json",
+      "total": 143
+    },
+    {
+      "id": "u4b",
+      "nombre": "Unidad 4B",
+      "subtitle": "形容詞・どんな・あります — Adjetivos, どんな y あります",
+      "file": "unidades/u4b.json",
+      "total": 135
+    }
+  ]
+}
