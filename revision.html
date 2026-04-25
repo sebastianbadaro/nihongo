@@ -196,7 +196,7 @@
       allQuestions.push({
         unitId:   unit.id,
         unitName: unit.nombre,
-        unitIdx:  i + 1,
+        qid:      q.id      || (unit.id.toUpperCase() + '-' + String(i + 1).padStart(3, '0')),
         cat:      q.cat     || '—',
         q:        q.q       || '',
         correct:  q.correct || '',
@@ -274,7 +274,7 @@
         <span class="unit-badge text-xs font-semibold bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full">${esc(item.unitName)}</span>
         <span class="cat-badge text-xs font-semibold bg-violet-100 text-violet-700 px-2 py-0.5 rounded-full">${esc(item.cat)}</span>
       </div>
-      <span class="q-num text-xs text-gray-400 whitespace-nowrap">#${item.unitIdx}</span>
+      <span class="q-num text-xs font-mono text-gray-400 whitespace-nowrap">${item.qid}</span>
     `;
 
     const question = document.createElement('div');

@@ -1,5 +1,6 @@
 [
   {
+    "id": "U4B-001",
     "cat": "Adj.い: Kanji→Español",
     "q": "¿Qué significa 大きい?",
     "correct": "Grande",
@@ -11,6 +12,7 @@
     ]
   },
   {
+    "id": "U4B-002",
     "cat": "Adj.い: Kanji→Español",
     "q": "¿Qué significa 小さい?",
     "correct": "Pequeño",
@@ -22,6 +24,7 @@
     ]
   },
   {
+    "id": "U4B-003",
     "cat": "Adj.い: Kanji→Español",
     "q": "¿Qué significa 高い?",
     "correct": "Alto / Caro",
@@ -33,6 +36,7 @@
     ]
   },
   {
+    "id": "U4B-004",
     "cat": "Adj.い: Kanji→Español",
     "q": "¿Qué significa 古い?",
     "correct": "Antiguo / Viejo",
@@ -44,6 +48,7 @@
     ]
   },
   {
+    "id": "U4B-005",
     "cat": "Adj.い: Kanji→Español",
     "q": "¿Qué significa 新しい?",
     "correct": "Nuevo",
@@ -55,6 +60,7 @@
     ]
   },
   {
+    "id": "U4B-006",
     "cat": "Adj.い: Kanji→Español",
     "q": "¿Qué significa 多い?",
     "correct": "Mucho/s (cantidad)",
@@ -66,6 +72,7 @@
     ]
   },
   {
+    "id": "U4B-007",
     "cat": "Adj.い: Kanji→Español",
     "q": "¿Qué significa 少ない?",
     "correct": "Poco/s (cantidad)",
@@ -77,6 +84,7 @@
     ]
   },
   {
+    "id": "U4B-008",
     "cat": "Adj.い: Kanji→Lectura",
     "q": "¿Cómo se lee 大きい?",
     "correct": "おおきい",
@@ -88,6 +96,7 @@
     ]
   },
   {
+    "id": "U4B-009",
     "cat": "Adj.い: Kanji→Lectura",
     "q": "¿Cómo se lee 小さい?",
     "correct": "ちいさい",
@@ -99,6 +108,7 @@
     ]
   },
   {
+    "id": "U4B-010",
     "cat": "Adj.い: Kanji→Lectura",
     "q": "¿Cómo se lee 高い?",
     "correct": "たかい",
@@ -110,6 +120,7 @@
     ]
   },
   {
+    "id": "U4B-011",
     "cat": "Adj.い: Kanji→Lectura",
     "q": "¿Cómo se lee 古い?",
     "correct": "ふるい",
@@ -121,6 +132,7 @@
     ]
   },
   {
+    "id": "U4B-012",
     "cat": "Adj.い: Kanji→Lectura",
     "q": "¿Cómo se lee 新しい?",
     "correct": "あたらしい",
@@ -132,6 +144,7 @@
     ]
   },
   {
+    "id": "U4B-013",
     "cat": "Adj.い: Kanji→Lectura",
     "q": "¿Cómo se lee 多い?",
     "correct": "おおい",
@@ -143,6 +156,7 @@
     ]
   },
   {
+    "id": "U4B-014",
     "cat": "Adj.い: Kanji→Lectura",
     "q": "¿Cómo se lee 少ない?",
     "correct": "すくない",
@@ -154,6 +168,7 @@
     ]
   },
   {
+    "id": "U4B-015",
     "cat": "Adj.な: Japonés→Español",
     "q": "¿Qué significa 有名な?",
     "correct": "Famoso/a",
@@ -165,6 +180,7 @@
     ]
   },
   {
+    "id": "U4B-016",
     "cat": "Adj.な: Japonés→Español",
     "q": "¿Qué significa にぎやかな?",
     "correct": "Concurrido, animado",
@@ -176,6 +192,7 @@
     ]
   },
   {
+    "id": "U4B-017",
     "cat": "Adj.な: Japonés→Español",
     "q": "¿Qué significa 静かな?",
     "correct": "Tranquilo, silencioso",
@@ -187,6 +204,7 @@
     ]
   },
   {
+    "id": "U4B-018",
     "cat": "Adj.な: Japonés→Español",
     "q": "¿Qué significa きれいな?",
     "correct": "Lindo/a / Limpio/a",
@@ -198,6 +216,7 @@
     ]
   },
   {
+    "id": "U4B-019",
     "cat": "Adj.な: Kanji→Lectura",
     "q": "¿Cómo se lee 有名?",
     "correct": "ゆうめい",
@@ -209,6 +228,7 @@
     ]
   },
   {
+    "id": "U4B-020",
     "cat": "Adj.な: Kanji→Lectura",
     "q": "¿Cómo se lee 静か?",
     "correct": "しずか",
@@ -220,6 +240,7 @@
     ]
   },
   {
+    "id": "U4B-021",
     "cat": "Tipo de adjetivo",
     "q": "¿De qué tipo es 大きい?",
     "correct": "い-adjetivo",
@@ -231,6 +252,7 @@
     ]
   },
   {
+    "id": "U4B-022",
     "cat": "Tipo de adjetivo",
     "q": "¿De qué tipo es 有名?",
     "correct": "な-adjetivo",
@@ -242,6 +264,7 @@
     ]
   },
   {
+    "id": "U4B-023",
     "cat": "Tipo de adjetivo",
     "q": "¿De qué tipo es きれい? (¡ojo, termina en い pero no lo es!)",
     "correct": "な-adjetivo",
@@ -253,6 +276,7 @@
     ]
   },
   {
+    "id": "U4B-024",
     "cat": "Tipo de adjetivo",
     "q": "¿De qué tipo es 新しい?",
     "correct": "い-adjetivo",
@@ -264,6 +288,7 @@
     ]
   },
   {
+    "id": "U4B-025",
     "cat": "Tipo de adjetivo",
     "q": "¿De qué tipo es 静か?",
     "correct": "な-adjetivo",
@@ -275,6 +300,7 @@
     ]
   },
   {
+    "id": "U4B-026",
     "cat": "Tipo de adjetivo",
     "q": "¿De qué tipo es 少ない?",
     "correct": "い-adjetivo",
@@ -286,6 +312,7 @@
     ]
   },
   {
+    "id": "U4B-027",
     "cat": "Tipo de adjetivo",
     "q": "¿De qué tipo es にぎやか?",
     "correct": "な-adjetivo",
@@ -297,6 +324,7 @@
     ]
   },
   {
+    "id": "U4B-028",
     "cat": "Tipo de adjetivo",
     "q": "¿De qué tipo es 古い?",
     "correct": "い-adjetivo",
@@ -308,6 +336,7 @@
     ]
   },
   {
+    "id": "U4B-029",
     "cat": "Adj. negativo",
     "q": "¿Cuál es la forma negativa de 大きい?",
     "correct": "大きくない",
@@ -319,6 +348,7 @@
     ]
   },
   {
+    "id": "U4B-030",
     "cat": "Adj. negativo",
     "q": "¿Cuál es la forma negativa de 新しい?",
     "correct": "新しくない",
@@ -330,6 +360,7 @@
     ]
   },
   {
+    "id": "U4B-031",
     "cat": "Adj. negativo",
     "q": "¿Cuál es la forma negativa de 古い?",
     "correct": "古くない",
@@ -341,6 +372,7 @@
     ]
   },
   {
+    "id": "U4B-032",
     "cat": "Adj. negativo",
     "q": "¿Cuál es la forma negativa de 高い?",
     "correct": "高くない",
@@ -352,6 +384,7 @@
     ]
   },
   {
+    "id": "U4B-033",
     "cat": "Adj. negativo",
     "q": "¿Cuál es la forma negativa de 多い?",
     "correct": "多くない",
@@ -363,6 +396,7 @@
     ]
   },
   {
+    "id": "U4B-034",
     "cat": "Adj. negativo",
     "q": "¿Cuál es la forma negativa de 小さい?",
     "correct": "小さくない",
@@ -374,6 +408,7 @@
     ]
   },
   {
+    "id": "U4B-035",
     "cat": "Adj. negativo",
     "q": "¿Cuál es la forma negativa formal de 有名?",
     "correct": "有名じゃありません",
@@ -385,6 +420,7 @@
     ]
   },
   {
+    "id": "U4B-036",
     "cat": "Adj. negativo",
     "q": "¿Cuál es la forma negativa de 静か?",
     "correct": "静かじゃない",
@@ -396,6 +432,7 @@
     ]
   },
   {
+    "id": "U4B-037",
     "cat": "Adj. negativo",
     "q": "¿Cuál es la forma negativa de きれい?",
     "correct": "きれいじゃない",
@@ -407,6 +444,7 @@
     ]
   },
   {
+    "id": "U4B-038",
     "cat": "Adj. negativo",
     "q": "¿Cuál es la forma negativa de にぎやか?",
     "correct": "にぎやかじゃない",
@@ -418,6 +456,7 @@
     ]
   },
   {
+    "id": "U4B-039",
     "cat": "Adj. negativo",
     "q": "¿Cuál es la forma negativa de いい (bueno)?",
     "correct": "よくない",
@@ -429,6 +468,7 @@
     ]
   },
   {
+    "id": "U4B-040",
     "cat": "Adj. negativo",
     "q": "¿Por qué いい cambia en el negativo?",
     "correct": "Porque usa la raíz よい para formas alteradas",
@@ -440,6 +480,7 @@
     ]
   },
   {
+    "id": "U4B-041",
     "cat": "Adj + Sustantivo",
     "q": "¿Cómo se dice 'templo antiguo' en japonés?",
     "correct": "古いお寺",
@@ -451,6 +492,7 @@
     ]
   },
   {
+    "id": "U4B-042",
     "cat": "Adj + Sustantivo",
     "q": "¿Cómo se dice 'mar lindo' en japonés?",
     "correct": "きれいな海",
@@ -462,6 +504,7 @@
     ]
   },
   {
+    "id": "U4B-043",
     "cat": "Adj + Sustantivo",
     "q": "¿Cómo se dice 'ciudad famosa' en japonés?",
     "correct": "有名な町",
@@ -473,6 +516,7 @@
     ]
   },
   {
+    "id": "U4B-044",
     "cat": "Adj + Sustantivo",
     "q": "¿Cómo se dice 'montaña alta' en japonés?",
     "correct": "高い山",
@@ -484,6 +528,7 @@
     ]
   },
   {
+    "id": "U4B-045",
     "cat": "Adj + Sustantivo",
     "q": "¿Cómo se dice 'parque pequeño' en japonés?",
     "correct": "小さい公園",
@@ -495,6 +540,7 @@
     ]
   },
   {
+    "id": "U4B-046",
     "cat": "Adj + Sustantivo",
     "q": "¿Cómo se dice 'ciudad tranquila' en japonés?",
     "correct": "静かな町",
@@ -506,6 +552,7 @@
     ]
   },
   {
+    "id": "U4B-047",
     "cat": "Adj + Sustantivo",
     "q": "¿Cómo se dice 'edificio nuevo' en japonés?",
     "correct": "新しいビル",
@@ -517,6 +564,7 @@
     ]
   },
   {
+    "id": "U4B-048",
     "cat": "Adj + Sustantivo",
     "q": "Para unir un adjetivo い con un sustantivo, ¿qué se agrega?",
     "correct": "Nada, va directo (例: 大きい公園)",
@@ -528,6 +576,7 @@
     ]
   },
   {
+    "id": "U4B-049",
     "cat": "Adj + Sustantivo",
     "q": "Para unir un adjetivo な con un sustantivo, ¿qué se agrega?",
     "correct": "Se agrega な (例: 有名な町)",
@@ -539,6 +588,7 @@
     ]
   },
   {
+    "id": "U4B-050",
     "cat": "Kanji→Español",
     "q": "¿Qué significa お城?",
     "correct": "Castillo",
@@ -550,6 +600,7 @@
     ]
   },
   {
+    "id": "U4B-051",
     "cat": "Kanji→Español",
     "q": "¿Qué significa お寺?",
     "correct": "Templo budista",
@@ -561,6 +612,7 @@
     ]
   },
   {
+    "id": "U4B-052",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 教会?",
     "correct": "Iglesia",
@@ -572,6 +624,7 @@
     ]
   },
   {
+    "id": "U4B-053",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 公園?",
     "correct": "Parque",
@@ -583,6 +636,7 @@
     ]
   },
   {
+    "id": "U4B-054",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 山?",
     "correct": "Montaña",
@@ -594,6 +648,7 @@
     ]
   },
   {
+    "id": "U4B-055",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 海?",
     "correct": "Mar",
@@ -605,6 +660,7 @@
     ]
   },
   {
+    "id": "U4B-056",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 川?",
     "correct": "Río",
@@ -616,6 +672,7 @@
     ]
   },
   {
+    "id": "U4B-057",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 緑?",
     "correct": "Verde / naturaleza",
@@ -627,6 +684,7 @@
     ]
   },
   {
+    "id": "U4B-058",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 人?",
     "correct": "Persona / gente",
@@ -638,6 +696,7 @@
     ]
   },
   {
+    "id": "U4B-059",
     "cat": "Kanji→Español",
     "q": "¿Qué es ビル?",
     "correct": "Edificio",
@@ -649,6 +708,7 @@
     ]
   },
   {
+    "id": "U4B-060",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee お城?",
     "correct": "おしろ",
@@ -660,6 +720,7 @@
     ]
   },
   {
+    "id": "U4B-061",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee お寺?",
     "correct": "おてら",
@@ -671,6 +732,7 @@
     ]
   },
   {
+    "id": "U4B-062",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 教会?",
     "correct": "きょうかい",
@@ -682,6 +744,7 @@
     ]
   },
   {
+    "id": "U4B-063",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 公園?",
     "correct": "こうえん",
@@ -693,6 +756,7 @@
     ]
   },
   {
+    "id": "U4B-064",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 山?",
     "correct": "やま",
@@ -704,6 +768,7 @@
     ]
   },
   {
+    "id": "U4B-065",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 海?",
     "correct": "うみ",
@@ -715,6 +780,7 @@
     ]
   },
   {
+    "id": "U4B-066",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 川?",
     "correct": "かわ",
@@ -726,6 +792,7 @@
     ]
   },
   {
+    "id": "U4B-067",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 緑?",
     "correct": "みどり",
@@ -737,6 +804,7 @@
     ]
   },
   {
+    "id": "U4B-068",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 人?",
     "correct": "ひと",
@@ -748,6 +816,7 @@
     ]
   },
   {
+    "id": "U4B-069",
     "cat": "どんな",
     "q": "¿Qué significa どんな antes de un sustantivo?",
     "correct": "¿Qué tipo de...? / ¿Cómo es...?",
@@ -759,6 +828,7 @@
     ]
   },
   {
+    "id": "U4B-070",
     "cat": "どんな",
     "q": "'どんな町ですか' significa:",
     "correct": "¿Qué tipo / cómo es la ciudad?",
@@ -770,6 +840,7 @@
     ]
   },
   {
+    "id": "U4B-071",
     "cat": "どんな",
     "q": "Para preguntar '¿cómo es el país?' se usa:",
     "correct": "どんな国ですか",
@@ -781,6 +852,7 @@
     ]
   },
   {
+    "id": "U4B-072",
     "cat": "どんな",
     "q": "Para preguntar '¿cómo es esa persona?' se usa:",
     "correct": "どんな人ですか",
@@ -792,6 +864,7 @@
     ]
   },
   {
+    "id": "U4B-073",
     "cat": "どんな",
     "q": "En '沖縄はどんなところですか', ところ significa:",
     "correct": "Lugar",
@@ -803,6 +876,7 @@
     ]
   },
   {
+    "id": "U4B-074",
     "cat": "あります",
     "q": "¿Qué significa あります?",
     "correct": "Hay / existe (cosas inanimadas)",
@@ -814,6 +888,7 @@
     ]
   },
   {
+    "id": "U4B-075",
     "cat": "あります",
     "q": "Para personas o animales, el verbo es:",
     "correct": "います",
@@ -825,6 +900,7 @@
     ]
   },
   {
+    "id": "U4B-076",
     "cat": "あります",
     "q": "'姫路にお城があります' significa:",
     "correct": "En Himeji hay un castillo.",
@@ -836,6 +912,7 @@
     ]
   },
   {
+    "id": "U4B-077",
     "cat": "あります",
     "q": "En '公園に子供があります' — ¿es correcta?",
     "correct": "No, debería ser います (子供 es persona)",
@@ -847,6 +924,7 @@
     ]
   },
   {
+    "id": "U4B-078",
     "cat": "あります",
     "q": "'奈良に古いお寺があります' significa:",
     "correct": "En Nara hay un templo antiguo.",
@@ -858,6 +936,7 @@
     ]
   },
   {
+    "id": "U4B-079",
     "cat": "あります",
     "q": "'沖縄にきれいな海があります' significa:",
     "correct": "En Okinawa hay un mar lindo.",
@@ -869,6 +948,7 @@
     ]
   },
   {
+    "id": "U4B-080",
     "cat": "Partícula",
     "q": "姫路＿＿お城があります。 — ¿Qué partícula va?",
     "correct": "に",
@@ -880,6 +960,7 @@
     ]
   },
   {
+    "id": "U4B-081",
     "cat": "Partícula",
     "q": "私の町に大きい公園＿＿あります。 — ¿Qué partícula va?",
     "correct": "が",
@@ -891,6 +972,7 @@
     ]
   },
   {
+    "id": "U4B-082",
     "cat": "Partícula",
     "q": "奈良＿＿古いお寺＿＿あります。 — ¿Qué partículas corresponden?",
     "correct": "に / が",
@@ -902,6 +984,7 @@
     ]
   },
   {
+    "id": "U4B-083",
     "cat": "Partícula",
     "q": "私の町＿＿きれいな川があります。 — ¿Qué partícula va?",
     "correct": "に",
@@ -913,6 +996,7 @@
     ]
   },
   {
+    "id": "U4B-084",
     "cat": "Partícula",
     "q": "¿Cuál partícula marca el lugar donde algo existe (con あります)?",
     "correct": "に",
@@ -924,6 +1008,7 @@
     ]
   },
   {
+    "id": "U4B-085",
     "cat": "Partícula",
     "q": "¿Cuál partícula marca el sujeto de あります?",
     "correct": "が",
@@ -935,6 +1020,7 @@
     ]
   },
   {
+    "id": "U4B-086",
     "cat": "Conector",
     "q": "¿Qué significa そして?",
     "correct": "Y además (conecta oraciones)",
@@ -946,6 +1032,7 @@
     ]
   },
   {
+    "id": "U4B-087",
     "cat": "Conector",
     "q": "¿Qué significa が al final de una oración (ej: 大きいですが、...)?",
     "correct": "Pero / y (contraste)",
@@ -957,6 +1044,7 @@
     ]
   },
   {
+    "id": "U4B-088",
     "cat": "Conector",
     "q": "El conector で para unir adjetivos funciona con:",
     "correct": "Solo adjetivos な (ej: しずかで、きれいです)",
@@ -968,6 +1056,7 @@
     ]
   },
   {
+    "id": "U4B-089",
     "cat": "Conector",
     "q": "'私の町はにぎやかです。＿＿、人が多いです。' — ¿Qué conector va?",
     "correct": "そして",
@@ -979,6 +1068,7 @@
     ]
   },
   {
+    "id": "U4B-090",
     "cat": "Conector",
     "q": "'大きいです＿＿、人が少ないです。' — ¿Qué conector va (contraste)?",
     "correct": "が",
@@ -990,6 +1080,7 @@
     ]
   },
   {
+    "id": "U4B-091",
     "cat": "Conector",
     "q": "'この公園はしずか＿＿、みどりが多いです。' — ¿Qué conector va?",
     "correct": "で",
@@ -1001,6 +1092,7 @@
     ]
   },
   {
+    "id": "U4B-092",
     "cat": "Conector",
     "q": "¿Cuál NO es correcto: usar で para unir '高い' con 'きれい'?",
     "correct": "Correcto. No se puede porque 高い es い-adj",
@@ -1012,6 +1104,7 @@
     ]
   },
   {
+    "id": "U4B-093",
     "cat": "Conector",
     "q": "Para unir 'Es alto' y 'Es nuevo' (ambos い-adj), se usa:",
     "correct": "そして entre dos oraciones (高いです。そして、新しいです。)",
@@ -1023,6 +1116,7 @@
     ]
   },
   {
+    "id": "U4B-094",
     "cat": "Traducción ES→JP",
     "q": "'En Himeji hay un castillo' — ¿cuál es correcta?",
     "correct": "姫路にお城があります。",
@@ -1034,6 +1128,7 @@
     ]
   },
   {
+    "id": "U4B-095",
     "cat": "Traducción ES→JP",
     "q": "'En Nara hay un templo antiguo' — ¿cuál es correcta?",
     "correct": "奈良に古いお寺があります。",
@@ -1045,6 +1140,7 @@
     ]
   },
   {
+    "id": "U4B-096",
     "cat": "Traducción ES→JP",
     "q": "'En mi ciudad hay una montaña alta' — ¿cuál es correcta?",
     "correct": "私の町に高い山があります。",
@@ -1056,6 +1152,7 @@
     ]
   },
   {
+    "id": "U4B-097",
     "cat": "Traducción ES→JP",
     "q": "'Esta ciudad es tranquila y tiene mucho verde' — ¿cuál es correcta?",
     "correct": "この町は静かで、緑が多いです。",
@@ -1067,6 +1164,7 @@
     ]
   },
   {
+    "id": "U4B-098",
     "cat": "Traducción ES→JP",
     "q": "'Mi ciudad es famosa pero no es grande' — ¿cuál es correcta?",
     "correct": "私の町は有名ですが、大きくないです。",
@@ -1078,6 +1176,7 @@
     ]
   },
   {
+    "id": "U4B-099",
     "cat": "Traducción ES→JP",
     "q": "'Hokkaido es grande pero tiene poca gente' — ¿cuál es correcta?",
     "correct": "北海道は大きいですが、人が少ないです。",
@@ -1089,6 +1188,7 @@
     ]
   },
   {
+    "id": "U4B-100",
     "cat": "Traducción ES→JP",
     "q": "'Este edificio es nuevo pero no es lindo' — ¿cuál es correcta?",
     "correct": "このビルは新しいですが、きれいじゃありません。",
@@ -1100,6 +1200,7 @@
     ]
   },
   {
+    "id": "U4B-101",
     "cat": "Traducción JP→ES",
     "q": "'私の町はにぎやかです。そして、人が多いです。' significa:",
     "correct": "Mi ciudad es concurrida. Y tiene mucha gente.",
@@ -1111,6 +1212,7 @@
     ]
   },
   {
+    "id": "U4B-102",
     "cat": "Traducción JP→ES",
     "q": "'この海は有名じゃありませんが、きれいです。' significa:",
     "correct": "Este mar no es famoso, pero es lindo.",
@@ -1122,6 +1224,7 @@
     ]
   },
   {
+    "id": "U4B-103",
     "cat": "Traducción JP→ES",
     "q": "'姫路は大きいです。そして、有名です。' significa:",
     "correct": "Himeji es grande. Y además es famosa.",
@@ -1133,6 +1236,7 @@
     ]
   },
   {
+    "id": "U4B-104",
     "cat": "Traducción JP→ES",
     "q": "'この公園は静かで、緑が多いです。' significa:",
     "correct": "Este parque es tranquilo y tiene mucho verde.",
@@ -1144,6 +1248,7 @@
     ]
   },
   {
+    "id": "U4B-105",
     "cat": "Traducción JP→ES",
     "q": "'私の町は有名ですが、大きくないです。' significa:",
     "correct": "Mi ciudad es famosa pero no es grande.",
@@ -1155,6 +1260,7 @@
     ]
   },
   {
+    "id": "U4B-106",
     "cat": "Traducción JP→ES",
     "q": "'このビルは新しいですが、きれいじゃありません。' significa:",
     "correct": "Este edificio es nuevo pero no es lindo/limpio.",
@@ -1166,6 +1272,7 @@
     ]
   },
   {
+    "id": "U4B-107",
     "cat": "Uso en contexto",
     "q": "Si alguien te pregunta 'あなたの町はどんな町ですか', te está pidiendo:",
     "correct": "Que describas cómo es tu ciudad.",
@@ -1177,6 +1284,7 @@
     ]
   },
   {
+    "id": "U4B-108",
     "cat": "Uso en contexto",
     "q": "Para decir 'hay un parque grande' en kanji, ¿cuál es correcta?",
     "correct": "大きい公園があります",
@@ -1188,6 +1296,7 @@
     ]
   },
   {
+    "id": "U4B-109",
     "cat": "Uso en contexto",
     "q": "Si alguien dice 'にぎやかですが、静かじゃありません', describe una ciudad:",
     "correct": "Animada y para nada tranquila",
@@ -1199,6 +1308,7 @@
     ]
   },
   {
+    "id": "U4B-110",
     "cat": "Uso en contexto",
     "q": "¿Qué oración describe una ciudad chica y tranquila?",
     "correct": "小さくて静かな町です。",
@@ -1210,6 +1320,7 @@
     ]
   },
   {
+    "id": "U4B-111",
     "cat": "Uso en contexto",
     "q": "En 'ならに古いお寺があります', ¿qué es 古い?",
     "correct": "Un adjetivo い que describe お寺",
@@ -1221,6 +1332,7 @@
     ]
   },
   {
+    "id": "U4B-112",
     "cat": "Uso en contexto",
     "q": "Si 'あまり' se combina con un adjetivo negativo significa:",
     "correct": "No muy... / no tan...",
@@ -1232,6 +1344,7 @@
     ]
   },
   {
+    "id": "U4B-113",
     "cat": "Uso en contexto",
     "q": "Para decir 'la persona es famosa' → ¿cuál es correcta?",
     "correct": "人は有名です。",
@@ -1243,6 +1356,7 @@
     ]
   },
   {
+    "id": "U4B-114",
     "cat": "Uso en contexto",
     "q": "'少ない' se refiere a:",
     "correct": "Cantidad escasa (pocos/pocas)",
@@ -1254,6 +1368,7 @@
     ]
   },
   {
+    "id": "U4B-115",
     "cat": "Uso en contexto",
     "q": "'多い' se refiere a:",
     "correct": "Cantidad grande (muchos/muchas)",
@@ -1265,6 +1380,7 @@
     ]
   },
   {
+    "id": "U4B-116",
     "cat": "Uso en contexto",
     "q": "La diferencia entre 大きい y 多い es:",
     "correct": "大きい=tamaño grande / 多い=cantidad mucha",
@@ -1276,6 +1392,7 @@
     ]
   },
   {
+    "id": "U4B-117",
     "cat": "Uso en contexto",
     "q": "¿Qué respuesta NO corresponde a 'あなたの町はにぎやかですか'?",
     "correct": "はい、高いです。",
@@ -1287,6 +1404,7 @@
     ]
   },
   {
+    "id": "U4B-118",
     "cat": "Diálogo",
     "q": "Ante 'あなたの町はどんな町ですか', una respuesta típica es:",
     "correct": "私の町はにぎやかです。そして、人が多いです。",
@@ -1298,6 +1416,7 @@
     ]
   },
   {
+    "id": "U4B-119",
     "cat": "Diálogo",
     "q": "Ante 'ゆうめいですか', ¿cómo negás diciendo 'no es famosa pero es grande'?",
     "correct": "いいえ、有名じゃありませんが、大きいです。",
@@ -1309,6 +1428,7 @@
     ]
   },
   {
+    "id": "U4B-120",
     "cat": "Diálogo",
     "q": "'沖縄はどんなところですか' se traduce como:",
     "correct": "¿Qué tal / cómo es Okinawa?",
@@ -1320,6 +1440,7 @@
     ]
   },
   {
+    "id": "U4B-121",
     "cat": "Distinguir adj.",
     "q": "¿Cuál de estos NO es un adjetivo い?",
     "correct": "きれい",
@@ -1331,6 +1452,7 @@
     ]
   },
   {
+    "id": "U4B-122",
     "cat": "Distinguir adj.",
     "q": "¿Cuál de estos NO es un adjetivo な?",
     "correct": "古い",
@@ -1342,6 +1464,7 @@
     ]
   },
   {
+    "id": "U4B-123",
     "cat": "Distinguir adj.",
     "q": "¿Cuál describe una cualidad OPUESTA a 新しい?",
     "correct": "古い",
@@ -1353,6 +1476,7 @@
     ]
   },
   {
+    "id": "U4B-124",
     "cat": "Distinguir adj.",
     "q": "¿Cuál describe una cualidad OPUESTA a 大きい?",
     "correct": "小さい",
@@ -1364,6 +1488,7 @@
     ]
   },
   {
+    "id": "U4B-125",
     "cat": "Distinguir adj.",
     "q": "¿Cuál describe una cualidad OPUESTA a 多い?",
     "correct": "少ない",
@@ -1375,6 +1500,7 @@
     ]
   },
   {
+    "id": "U4B-126",
     "cat": "Distinguir adj.",
     "q": "¿Cuál describe una cualidad OPUESTA a にぎやか?",
     "correct": "静か",
@@ -1386,6 +1512,7 @@
     ]
   },
   {
+    "id": "U4B-127",
     "cat": "Forma formal",
     "q": "¿Cuál es la forma formal negativa de 'no es grande'?",
     "correct": "大きくないです",
@@ -1397,6 +1524,7 @@
     ]
   },
   {
+    "id": "U4B-128",
     "cat": "Forma formal",
     "q": "¿Cuál es la forma formal negativa de 'no es famoso' (más formal)?",
     "correct": "有名じゃありません",
@@ -1408,6 +1536,7 @@
     ]
   },
   {
+    "id": "U4B-129",
     "cat": "Forma formal",
     "q": "'高くないです' significa:",
     "correct": "No es alto / no es caro",
@@ -1419,6 +1548,7 @@
     ]
   },
   {
+    "id": "U4B-130",
     "cat": "Forma formal",
     "q": "'きれいじゃありません' significa:",
     "correct": "No es lindo / no es limpio",
@@ -1430,6 +1560,7 @@
     ]
   },
   {
+    "id": "U4B-131",
     "cat": "Gramática fina",
     "q": "Si quiero decir 'hay MUCHA gente' usando 多い, ¿cuál es correcta?",
     "correct": "人が多いです。",
@@ -1441,6 +1572,7 @@
     ]
   },
   {
+    "id": "U4B-132",
     "cat": "Gramática fina",
     "q": "La frase '緑が多い' significa:",
     "correct": "Hay mucho verde (naturaleza).",
@@ -1452,6 +1584,7 @@
     ]
   },
   {
+    "id": "U4B-133",
     "cat": "Gramática fina",
     "q": "En 'このビルは新しいですが、きれいじゃありません', ¿qué conector une las ideas?",
     "correct": "が (pero)",
@@ -1463,6 +1596,7 @@
     ]
   },
   {
+    "id": "U4B-134",
     "cat": "Gramática fina",
     "q": "¿Cómo se dice 'lindo y tranquilo' uniendo con で?",
     "correct": "きれいで、静かです",
@@ -1474,6 +1608,7 @@
     ]
   },
   {
+    "id": "U4B-135",
     "cat": "Gramática fina",
     "q": "¿Se puede decir '大きいで、新しいです'? ",
     "correct": "No: で solo une な-adj; 大きい es い-adj → usar そして",

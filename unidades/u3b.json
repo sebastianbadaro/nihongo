@@ -1,5 +1,6 @@
 [
   {
+    "id": "U3B-001",
     "cat": "Verbo: Kanji→Español",
     "q": "¿Qué significa 行きます?",
     "correct": "Ir",
@@ -11,6 +12,7 @@
     ]
   },
   {
+    "id": "U3B-002",
     "cat": "Verbo: Kanji→Español",
     "q": "¿Qué significa 帰ります?",
     "correct": "Volver / regresar",
@@ -22,6 +24,7 @@
     ]
   },
   {
+    "id": "U3B-003",
     "cat": "Verbo: Kanji→Español",
     "q": "¿Qué significa 飲みます?",
     "correct": "Beber",
@@ -33,6 +36,7 @@
     ]
   },
   {
+    "id": "U3B-004",
     "cat": "Verbo: Kanji→Español",
     "q": "¿Qué significa 食べます?",
     "correct": "Comer",
@@ -44,6 +48,7 @@
     ]
   },
   {
+    "id": "U3B-005",
     "cat": "Verbo: Kanji→Español",
     "q": "¿Qué significa 見ます?",
     "correct": "Ver / mirar",
@@ -55,6 +60,7 @@
     ]
   },
   {
+    "id": "U3B-006",
     "cat": "Verbo: Kanji→Español",
     "q": "¿Qué significa します?",
     "correct": "Hacer",
@@ -66,6 +72,7 @@
     ]
   },
   {
+    "id": "U3B-007",
     "cat": "Verbo: Kanji→Lectura",
     "q": "¿Cómo se lee 行きます?",
     "correct": "いきます",
@@ -77,6 +84,7 @@
     ]
   },
   {
+    "id": "U3B-008",
     "cat": "Verbo: Kanji→Lectura",
     "q": "¿Cómo se lee 帰ります?",
     "correct": "かえります",
@@ -88,6 +96,7 @@
     ]
   },
   {
+    "id": "U3B-009",
     "cat": "Verbo: Kanji→Lectura",
     "q": "¿Cómo se lee 飲みます?",
     "correct": "のみます",
@@ -99,6 +108,7 @@
     ]
   },
   {
+    "id": "U3B-010",
     "cat": "Verbo: Kanji→Lectura",
     "q": "¿Cómo se lee 食べます?",
     "correct": "たべます",
@@ -110,6 +120,7 @@
     ]
   },
   {
+    "id": "U3B-011",
     "cat": "Verbo: Kanji→Lectura",
     "q": "¿Cómo se lee 見ます?",
     "correct": "みます",
@@ -121,6 +132,7 @@
     ]
   },
   {
+    "id": "U3B-012",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 花火?",
     "correct": "Fuegos artificiales",
@@ -132,6 +144,7 @@
     ]
   },
   {
+    "id": "U3B-013",
     "cat": "Kanji→Español",
     "q": "¿Qué significa お花見?",
     "correct": "Ir a ver las flores de cerezo",
@@ -143,6 +156,7 @@
     ]
   },
   {
+    "id": "U3B-014",
     "cat": "Kanji→Español",
     "q": "¿Qué significa お祭り?",
     "correct": "Festival (tradicional)",
@@ -154,6 +168,7 @@
     ]
   },
   {
+    "id": "U3B-015",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 海?",
     "correct": "Mar",
@@ -165,6 +180,7 @@
     ]
   },
   {
+    "id": "U3B-016",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 公園?",
     "correct": "Parque",
@@ -176,6 +192,7 @@
     ]
   },
   {
+    "id": "U3B-017",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 桜?",
     "correct": "Cerezo / flor de cerezo",
@@ -187,6 +204,7 @@
     ]
   },
   {
+    "id": "U3B-018",
     "cat": "Kanji→Español",
     "q": "¿Qué significa お酒?",
     "correct": "Alcohol / sake",
@@ -198,6 +216,7 @@
     ]
   },
   {
+    "id": "U3B-019",
     "cat": "Kanji→Español",
     "q": "¿Qué significa お弁当?",
     "correct": "Vianda / 'bento'",
@@ -209,6 +228,7 @@
     ]
   },
   {
+    "id": "U3B-020",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 留学生?",
     "correct": "Estudiante extranjero",
@@ -220,6 +240,7 @@
     ]
   },
   {
+    "id": "U3B-021",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 1年?",
     "correct": "Un año / (primer año)",
@@ -231,6 +252,7 @@
     ]
   },
   {
+    "id": "U3B-022",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 花火?",
     "correct": "はなび",
@@ -242,6 +264,7 @@
     ]
   },
   {
+    "id": "U3B-023",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee お花見?",
     "correct": "おはなみ",
@@ -253,6 +276,7 @@
     ]
   },
   {
+    "id": "U3B-024",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee お祭り?",
     "correct": "おまつり",
@@ -264,6 +288,7 @@
     ]
   },
   {
+    "id": "U3B-025",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 海?",
     "correct": "うみ",
@@ -275,6 +300,7 @@
     ]
   },
   {
+    "id": "U3B-026",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 公園?",
     "correct": "こうえん",
@@ -286,6 +312,7 @@
     ]
   },
   {
+    "id": "U3B-027",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 桜?",
     "correct": "さくら",
@@ -297,6 +324,7 @@
     ]
   },
   {
+    "id": "U3B-028",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee お酒?",
     "correct": "おさけ",
@@ -308,6 +336,7 @@
     ]
   },
   {
+    "id": "U3B-029",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee お弁当?",
     "correct": "おべんとう",
@@ -319,6 +348,7 @@
     ]
   },
   {
+    "id": "U3B-030",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 留学生?",
     "correct": "りゅうがくせい",
@@ -330,6 +360,7 @@
     ]
   },
   {
+    "id": "U3B-031",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 春?",
     "correct": "Primavera",
@@ -341,6 +372,7 @@
     ]
   },
   {
+    "id": "U3B-032",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 夏?",
     "correct": "Verano",
@@ -352,6 +384,7 @@
     ]
   },
   {
+    "id": "U3B-033",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 秋?",
     "correct": "Otoño",
@@ -363,6 +396,7 @@
     ]
   },
   {
+    "id": "U3B-034",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 冬?",
     "correct": "Invierno",
@@ -374,6 +408,7 @@
     ]
   },
   {
+    "id": "U3B-035",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 夏休み?",
     "correct": "Vacaciones de verano",
@@ -385,6 +420,7 @@
     ]
   },
   {
+    "id": "U3B-036",
     "cat": "Japonés→Español",
     "q": "¿Qué es ゴールデンウィーク?",
     "correct": "Golden Week (semana feriada japonesa)",
@@ -396,6 +432,7 @@
     ]
   },
   {
+    "id": "U3B-037",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 春?",
     "correct": "はる",
@@ -407,6 +444,7 @@
     ]
   },
   {
+    "id": "U3B-038",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 夏?",
     "correct": "なつ",
@@ -418,6 +456,7 @@
     ]
   },
   {
+    "id": "U3B-039",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 秋?",
     "correct": "あき",
@@ -429,6 +468,7 @@
     ]
   },
   {
+    "id": "U3B-040",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 冬?",
     "correct": "ふゆ",
@@ -440,6 +480,7 @@
     ]
   },
   {
+    "id": "U3B-041",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 夏休み?",
     "correct": "なつやすみ",
@@ -451,6 +492,7 @@
     ]
   },
   {
+    "id": "U3B-042",
     "cat": "Katakana→Español",
     "q": "¿Qué es スケジュール?",
     "correct": "Agenda / horario",
@@ -462,6 +504,7 @@
     ]
   },
   {
+    "id": "U3B-043",
     "cat": "Katakana→Español",
     "q": "¿Qué es アルバイト?",
     "correct": "Trabajo part-time",
@@ -473,6 +516,7 @@
     ]
   },
   {
+    "id": "U3B-044",
     "cat": "Katakana→Español",
     "q": "¿Qué es スキー?",
     "correct": "Esquí",
@@ -484,6 +528,7 @@
     ]
   },
   {
+    "id": "U3B-045",
     "cat": "Katakana→Español",
     "q": "¿Qué es パーティー?",
     "correct": "Fiesta",
@@ -495,6 +540,7 @@
     ]
   },
   {
+    "id": "U3B-046",
     "cat": "Katakana→Español",
     "q": "¿Qué es バーベキュー?",
     "correct": "Barbacoa / asado",
@@ -506,6 +552,7 @@
     ]
   },
   {
+    "id": "U3B-047",
     "cat": "Katakana→Español",
     "q": "¿Qué es ホームステイ?",
     "correct": "Homestay / vivir con familia",
@@ -517,6 +564,7 @@
     ]
   },
   {
+    "id": "U3B-048",
     "cat": "Partícula へ (destino)",
     "q": "'夏休みに、北海道＿＿行きます。' — ¿Qué partícula indica el destino?",
     "correct": "へ",
@@ -528,6 +576,7 @@
     ]
   },
   {
+    "id": "U3B-049",
     "cat": "Partícula へ (destino)",
     "q": "'国＿＿帰ります。' — ¿Qué partícula va para el destino al que se vuelve?",
     "correct": "へ",
@@ -539,6 +588,7 @@
     ]
   },
   {
+    "id": "U3B-050",
     "cat": "Partícula へ (destino)",
     "q": "¿Qué marca la partícula へ?",
     "correct": "Dirección / destino al que uno se mueve",
@@ -550,6 +600,7 @@
     ]
   },
   {
+    "id": "U3B-051",
     "cat": "Partícula へ (destino)",
     "q": "'日曜日、図書館＿＿行きます。' — ¿Qué partícula va antes de 行きます?",
     "correct": "へ",
@@ -561,6 +612,7 @@
     ]
   },
   {
+    "id": "U3B-052",
     "cat": "Partícula を (objeto)",
     "q": "'朝ご飯＿＿食べます。' — ¿Qué partícula marca el objeto?",
     "correct": "を",
@@ -572,6 +624,7 @@
     ]
   },
   {
+    "id": "U3B-053",
     "cat": "Partícula を (objeto)",
     "q": "'コーヒー＿＿飲みます。' — ¿Qué partícula va?",
     "correct": "を",
@@ -583,6 +636,7 @@
     ]
   },
   {
+    "id": "U3B-054",
     "cat": "Partícula を (objeto)",
     "q": "'花火＿＿見ます。' — ¿Qué partícula va?",
     "correct": "を",
@@ -594,6 +648,7 @@
     ]
   },
   {
+    "id": "U3B-055",
     "cat": "Partícula を (objeto)",
     "q": "'スキー＿＿します。' — ¿Qué partícula va?",
     "correct": "を",
@@ -605,6 +660,7 @@
     ]
   },
   {
+    "id": "U3B-056",
     "cat": "Partícula を (objeto)",
     "q": "¿Qué marca la partícula を?",
     "correct": "Objeto directo del verbo (qué se come, se ve, se hace…)",
@@ -616,6 +672,7 @@
     ]
   },
   {
+    "id": "U3B-057",
     "cat": "Partícula で (lugar acción)",
     "q": "'公園＿＿花火を見ます。' — ¿Qué partícula indica dónde pasa la acción?",
     "correct": "で",
@@ -627,6 +684,7 @@
     ]
   },
   {
+    "id": "U3B-058",
     "cat": "Partícula で (lugar acción)",
     "q": "'会社＿＿働きます。' — ¿Qué partícula corresponde?",
     "correct": "で",
@@ -638,6 +696,7 @@
     ]
   },
   {
+    "id": "U3B-059",
     "cat": "Partícula で (lugar acción)",
     "q": "'北海道＿＿スキーをします。' — ¿Qué partícula va?",
     "correct": "で",
@@ -649,6 +708,7 @@
     ]
   },
   {
+    "id": "U3B-060",
     "cat": "Partícula で (lugar acción)",
     "q": "¿Qué marca la partícula で con un verbo de acción?",
     "correct": "Lugar donde ocurre la acción (se come, se trabaja…)",
@@ -660,6 +720,7 @@
     ]
   },
   {
+    "id": "U3B-061",
     "cat": "Partícula に (tiempo)",
     "q": "'8時＿＿起きます。' — ¿Qué partícula indica 'a tal hora'?",
     "correct": "に",
@@ -671,6 +732,7 @@
     ]
   },
   {
+    "id": "U3B-062",
     "cat": "Partícula に (tiempo)",
     "q": "'夏休み＿＿、北海道へ行きます。' — ¿Qué partícula va?",
     "correct": "に",
@@ -682,6 +744,7 @@
     ]
   },
   {
+    "id": "U3B-063",
     "cat": "Partícula に (tiempo)",
     "q": "¿Con cuál de estos NO se usa に?",
     "correct": "毎日 (todos los días)",
@@ -693,6 +756,7 @@
     ]
   },
   {
+    "id": "U3B-064",
     "cat": "Partícula から/まで",
     "q": "'１時から３時＿＿勉強します。' — ¿Qué partícula completa 'hasta'?",
     "correct": "まで",
@@ -704,6 +768,7 @@
     ]
   },
   {
+    "id": "U3B-065",
     "cat": "Partícula から/まで",
     "q": "'4時から8時まで働きます' significa:",
     "correct": "Trabajo de 4 a 8.",
@@ -715,6 +780,7 @@
     ]
   },
   {
+    "id": "U3B-066",
     "cat": "Distinguir partículas",
     "q": "¿Cuál es la diferencia entre へ y で con lugares?",
     "correct": "へ = destino (adónde) / で = lugar donde pasa la acción",
@@ -726,6 +792,7 @@
     ]
   },
   {
+    "id": "U3B-067",
     "cat": "Distinguir partículas",
     "q": "'学校＿＿行きます' vs '学校＿＿勉強します'. ¿Qué partículas van respectivamente?",
     "correct": "へ / で",
@@ -737,6 +804,7 @@
     ]
   },
   {
+    "id": "U3B-068",
     "cat": "Distinguir partículas",
     "q": "¿Por qué se dice '毎日、学校へ行きます' y NO '毎日に、学校へ行きます'?",
     "correct": "Porque 毎日 (y otros como 今日, 朝, 夜) no llevan に",
@@ -748,6 +816,7 @@
     ]
   },
   {
+    "id": "U3B-069",
     "cat": "Forma Vます/Vません",
     "q": "¿Cuál es la forma negativa de 行きます?",
     "correct": "行きません",
@@ -759,6 +828,7 @@
     ]
   },
   {
+    "id": "U3B-070",
     "cat": "Forma Vます/Vません",
     "q": "¿Cuál es la forma negativa de 食べます?",
     "correct": "食べません",
@@ -770,6 +840,7 @@
     ]
   },
   {
+    "id": "U3B-071",
     "cat": "Forma Vます/Vません",
     "q": "¿Cuál es la forma negativa de 見ます?",
     "correct": "見ません",
@@ -781,6 +852,7 @@
     ]
   },
   {
+    "id": "U3B-072",
     "cat": "Forma Vます/Vません",
     "q": "¿Cómo se dice 'No voy a esquiar'?",
     "correct": "スキーをしません。",
@@ -792,6 +864,7 @@
     ]
   },
   {
+    "id": "U3B-073",
     "cat": "Forma Vます/Vません",
     "q": "¿Cómo se dice 'No compro nada'?",
     "correct": "何も買いません。",
@@ -803,6 +876,7 @@
     ]
   },
   {
+    "id": "U3B-074",
     "cat": "Forma Vます/Vません",
     "q": "¿Cómo se dice 'No voy a ningún lado'?",
     "correct": "どこへも行きません。",
@@ -814,6 +888,7 @@
     ]
   },
   {
+    "id": "U3B-075",
     "cat": "Forma Vます/Vません",
     "q": "何も + Vません significa:",
     "correct": "No V nada",
@@ -825,6 +900,7 @@
     ]
   },
   {
+    "id": "U3B-076",
     "cat": "Forma Vます/Vません",
     "q": "どこへも + 行きません significa:",
     "correct": "No voy a ninguna parte",
@@ -836,6 +912,7 @@
     ]
   },
   {
+    "id": "U3B-077",
     "cat": "Traducción ES→JP",
     "q": "'El fin de semana hago un asado' — ¿cuál es correcta?",
     "correct": "週末、バーベキューをします。",
@@ -847,6 +924,7 @@
     ]
   },
   {
+    "id": "U3B-078",
     "cat": "Traducción ES→JP",
     "q": "'En las vacaciones de verano voy a Hokkaido' — ¿cuál es correcta?",
     "correct": "夏休みに、北海道へ行きます。",
@@ -858,6 +936,7 @@
     ]
   },
   {
+    "id": "U3B-079",
     "cat": "Traducción ES→JP",
     "q": "'En el parque veo fuegos artificiales' — ¿cuál es correcta?",
     "correct": "公園で花火を見ます。",
@@ -869,6 +948,7 @@
     ]
   },
   {
+    "id": "U3B-080",
     "cat": "Traducción ES→JP",
     "q": "'En Hokkaido hago esquí' — ¿cuál es correcta?",
     "correct": "北海道でスキーをします。",
@@ -880,6 +960,7 @@
     ]
   },
   {
+    "id": "U3B-081",
     "cat": "Traducción ES→JP",
     "q": "'El 25 de junio es la fiesta de estudiantes extranjeros' — ¿cuál es correcta?",
     "correct": "6月25日は留学生パーティーです。",
@@ -891,6 +972,7 @@
     ]
   },
   {
+    "id": "U3B-082",
     "cat": "Traducción ES→JP",
     "q": "'Del 6 al 9 de agosto es homestay' — ¿cuál es correcta?",
     "correct": "8月6日から9日までホームステイです。",
@@ -902,6 +984,7 @@
     ]
   },
   {
+    "id": "U3B-083",
     "cat": "Traducción ES→JP",
     "q": "'El 10 de abril hago hanami' — ¿cuál es correcta?",
     "correct": "4月10日はお花見です。",
@@ -913,6 +996,7 @@
     ]
   },
   {
+    "id": "U3B-084",
     "cat": "Traducción JP→ES",
     "q": "'桜を見ます。お弁当を食べます。' significa:",
     "correct": "Miro los cerezos. Como una vianda.",
@@ -924,6 +1008,7 @@
     ]
   },
   {
+    "id": "U3B-085",
     "cat": "Traducción JP→ES",
     "q": "'スキーをします。すしを食べます。' significa:",
     "correct": "Hago esquí. Como sushi.",
@@ -935,6 +1020,7 @@
     ]
   },
   {
+    "id": "U3B-086",
     "cat": "Traducción JP→ES",
     "q": "'ケーキを食べます。ジュースを飲みます。' significa:",
     "correct": "Como una torta. Tomo un jugo.",
@@ -946,6 +1032,7 @@
     ]
   },
   {
+    "id": "U3B-087",
     "cat": "Traducción JP→ES",
     "q": "'どこへ行きますか。' significa:",
     "correct": "¿A dónde vas?",
@@ -957,6 +1044,7 @@
     ]
   },
   {
+    "id": "U3B-088",
     "cat": "Traducción JP→ES",
     "q": "'富士山へ行きます。' significa:",
     "correct": "Voy al monte Fuji.",
@@ -968,6 +1056,7 @@
     ]
   },
   {
+    "id": "U3B-089",
     "cat": "Uso en contexto",
     "q": "Si alguien te dice '夏休みに北海道へ行きます', una reacción natural es:",
     "correct": "いいですね。",
@@ -979,6 +1068,7 @@
     ]
   },
   {
+    "id": "U3B-090",
     "cat": "Uso en contexto",
     "q": "Para preguntar '¿qué vas a hacer en el festival?' se usa:",
     "correct": "何をしますか。",
@@ -990,6 +1080,7 @@
     ]
   },
   {
+    "id": "U3B-091",
     "cat": "Uso en contexto",
     "q": "Para preguntar '¿a dónde vas?' se usa:",
     "correct": "どこへ行きますか。",
@@ -1001,6 +1092,7 @@
     ]
   },
   {
+    "id": "U3B-092",
     "cat": "Uso en contexto",
     "q": "Un compañero te dice '金曜日、パーティーをします'. Le preguntás qué se hace con:",
     "correct": "何をしますか。",
@@ -1012,6 +1104,7 @@
     ]
   },
   {
+    "id": "U3B-093",
     "cat": "Uso en contexto",
     "q": "Para expresar sorpresa ('¿Eh?') en japonés se usa:",
     "correct": "えっ",
@@ -1023,6 +1116,7 @@
     ]
   },
   {
+    "id": "U3B-094",
     "cat": "Uso en contexto",
     "q": "Para expresar interés leve ('Ah, ¿sí?') se usa:",
     "correct": "へえ",
@@ -1034,6 +1128,7 @@
     ]
   },
   {
+    "id": "U3B-095",
     "cat": "Rutina",
     "q": "'毎朝6時に起きます' significa:",
     "correct": "Todas las mañanas me levanto a las 6.",
@@ -1045,6 +1140,7 @@
     ]
   },
   {
+    "id": "U3B-096",
     "cat": "Rutina",
     "q": "'7時に朝ご飯を食べます' significa:",
     "correct": "A las 7 desayuno.",
@@ -1056,6 +1152,7 @@
     ]
   },
   {
+    "id": "U3B-097",
     "cat": "Rutina",
     "q": "'夜、テレビを見ます' significa:",
     "correct": "A la noche miro tele.",
@@ -1067,6 +1164,7 @@
     ]
   },
   {
+    "id": "U3B-098",
     "cat": "Rutina",
     "q": "¿Para qué se usa Vます además de planes?",
     "correct": "Para describir hábitos / rutina diaria",
@@ -1078,6 +1176,7 @@
     ]
   },
   {
+    "id": "U3B-099",
     "cat": "Orden de oración",
     "q": "¿Cuál es el orden correcto para 'a las 8 en casa como un bento'?",
     "correct": "8時にうちでお弁当を食べます。",
@@ -1089,6 +1188,7 @@
     ]
   },
   {
+    "id": "U3B-100",
     "cat": "Orden de oración",
     "q": "Para decir 'voy al parque el domingo', ¿cuál es correcta?",
     "correct": "日曜日、公園へ行きます。",
@@ -1100,6 +1200,7 @@
     ]
   },
   {
+    "id": "U3B-101",
     "cat": "Orden de oración",
     "q": "'En las vacaciones de invierno voy a esquiar a Nagano' — ¿cuál es correcta?",
     "correct": "冬休みに、長野でスキーをします。",
@@ -1111,6 +1212,7 @@
     ]
   },
   {
+    "id": "U3B-102",
     "cat": "Patrón は～です",
     "q": "Para decir 'el 26 de diciembre es un viaje de ski', ¿cuál es correcta?",
     "correct": "12月26日はスキー旅行です。",
@@ -1122,6 +1224,7 @@
     ]
   },
   {
+    "id": "U3B-103",
     "cat": "Patrón は～です",
     "q": "'5月15日はバス旅行です' significa:",
     "correct": "El 15 de mayo es un viaje en bus.",
@@ -1133,6 +1236,7 @@
     ]
   },
   {
+    "id": "U3B-104",
     "cat": "Patrón は～です",
     "q": "El patrón '～は～です' con una fecha sirve para:",
     "correct": "Anunciar qué evento ocurre ese día",
@@ -1144,6 +1248,7 @@
     ]
   },
   {
+    "id": "U3B-105",
     "cat": "Sutileza",
     "q": "En '公園で花火を見ます', ¿qué rol juega 公園?",
     "correct": "Lugar donde ocurre la acción (de)",
@@ -1155,6 +1260,7 @@
     ]
   },
   {
+    "id": "U3B-106",
     "cat": "Sutileza",
     "q": "En '北海道へ行きます', ¿qué rol juega 北海道?",
     "correct": "Destino (adónde)",
@@ -1166,6 +1272,7 @@
     ]
   },
   {
+    "id": "U3B-107",
     "cat": "Sutileza",
     "q": "¿Cuál de estas es un verbo del Grupo 3 (irregular)?",
     "correct": "します",
@@ -1177,6 +1284,7 @@
     ]
   },
   {
+    "id": "U3B-108",
     "cat": "Sutileza",
     "q": "¿Cuál de estas es un verbo del Grupo 2?",
     "correct": "食べます",
@@ -1188,6 +1296,7 @@
     ]
   },
   {
+    "id": "U3B-109",
     "cat": "Sutileza",
     "q": "¿Cuál de estas es un verbo del Grupo 1?",
     "correct": "飲みます",
@@ -1199,6 +1308,7 @@
     ]
   },
   {
+    "id": "U3B-110",
     "cat": "Sutileza",
     "q": "¿Qué significa 何?",
     "correct": "Qué (pronombre interrogativo)",

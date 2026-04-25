@@ -1,5 +1,6 @@
 [
   {
+    "id": "U4A-001",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 北?",
     "correct": "Norte",
@@ -11,6 +12,7 @@
     ]
   },
   {
+    "id": "U4A-002",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 南?",
     "correct": "Sur",
@@ -22,6 +24,7 @@
     ]
   },
   {
+    "id": "U4A-003",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 東?",
     "correct": "Este",
@@ -33,6 +36,7 @@
     ]
   },
   {
+    "id": "U4A-004",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 西?",
     "correct": "Oeste",
@@ -44,6 +48,7 @@
     ]
   },
   {
+    "id": "U4A-005",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 中心?",
     "correct": "Centro",
@@ -55,6 +60,7 @@
     ]
   },
   {
+    "id": "U4A-006",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 北?",
     "correct": "きた",
@@ -66,6 +72,7 @@
     ]
   },
   {
+    "id": "U4A-007",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 南?",
     "correct": "みなみ",
@@ -77,6 +84,7 @@
     ]
   },
   {
+    "id": "U4A-008",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 東?",
     "correct": "ひがし",
@@ -88,6 +96,7 @@
     ]
   },
   {
+    "id": "U4A-009",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 西?",
     "correct": "にし",
@@ -99,6 +108,7 @@
     ]
   },
   {
+    "id": "U4A-010",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 中心?",
     "correct": "ちゅうしん",
@@ -110,6 +120,7 @@
     ]
   },
   {
+    "id": "U4A-011",
     "cat": "Español→Kanji",
     "q": "¿Cuál es el kanji de 'Norte'?",
     "correct": "北",
@@ -121,6 +132,7 @@
     ]
   },
   {
+    "id": "U4A-012",
     "cat": "Español→Kanji",
     "q": "¿Cuál es el kanji de 'Sur'?",
     "correct": "南",
@@ -132,6 +144,7 @@
     ]
   },
   {
+    "id": "U4A-013",
     "cat": "Español→Kanji",
     "q": "¿Cuál es el kanji de 'Este'?",
     "correct": "東",
@@ -143,6 +156,7 @@
     ]
   },
   {
+    "id": "U4A-014",
     "cat": "Español→Kanji",
     "q": "¿Cuál es el kanji de 'Oeste'?",
     "correct": "西",
@@ -154,6 +168,7 @@
     ]
   },
   {
+    "id": "U4A-015",
     "cat": "Español→Kanji",
     "q": "¿Cuál es el kanji/compuesto para 'Centro'?",
     "correct": "中心",
@@ -165,6 +180,7 @@
     ]
   },
   {
+    "id": "U4A-016",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 電車?",
     "correct": "Tren (eléctrico)",
@@ -176,6 +192,7 @@
     ]
   },
   {
+    "id": "U4A-017",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 新幹線?",
     "correct": "Tren bala",
@@ -187,6 +204,7 @@
     ]
   },
   {
+    "id": "U4A-018",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 地下鉄?",
     "correct": "Subte / metro",
@@ -198,6 +216,7 @@
     ]
   },
   {
+    "id": "U4A-019",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 飛行機?",
     "correct": "Avión",
@@ -209,6 +228,7 @@
     ]
   },
   {
+    "id": "U4A-020",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 車?",
     "correct": "Auto",
@@ -220,6 +240,7 @@
     ]
   },
   {
+    "id": "U4A-021",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 自転車?",
     "correct": "Bicicleta",
@@ -231,6 +252,7 @@
     ]
   },
   {
+    "id": "U4A-022",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 歩いて?",
     "correct": "Caminando",
@@ -242,6 +264,7 @@
     ]
   },
   {
+    "id": "U4A-023",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 電車?",
     "correct": "でんしゃ",
@@ -253,6 +276,7 @@
     ]
   },
   {
+    "id": "U4A-024",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 新幹線?",
     "correct": "しんかんせん",
@@ -264,6 +288,7 @@
     ]
   },
   {
+    "id": "U4A-025",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 地下鉄?",
     "correct": "ちかてつ",
@@ -275,6 +300,7 @@
     ]
   },
   {
+    "id": "U4A-026",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 飛行機?",
     "correct": "ひこうき",
@@ -286,6 +312,7 @@
     ]
   },
   {
+    "id": "U4A-027",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 車?",
     "correct": "くるま",
@@ -297,6 +324,7 @@
     ]
   },
   {
+    "id": "U4A-028",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 自転車?",
     "correct": "じてんしゃ",
@@ -308,6 +336,7 @@
     ]
   },
   {
+    "id": "U4A-029",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 歩いて?",
     "correct": "あるいて",
@@ -319,6 +348,7 @@
     ]
   },
   {
+    "id": "U4A-030",
     "cat": "Español→Japonés",
     "q": "¿Cómo se escribe 'tren bala' en japonés (kanji)?",
     "correct": "新幹線",
@@ -330,6 +360,7 @@
     ]
   },
   {
+    "id": "U4A-031",
     "cat": "Español→Japonés",
     "q": "¿Cómo se escribe 'avión' en japonés (kanji)?",
     "correct": "飛行機",
@@ -341,6 +372,7 @@
     ]
   },
   {
+    "id": "U4A-032",
     "cat": "Español→Japonés",
     "q": "¿Cómo se escribe 'subte / metro' en japonés (kanji)?",
     "correct": "地下鉄",
@@ -352,6 +384,7 @@
     ]
   },
   {
+    "id": "U4A-033",
     "cat": "Español→Japonés",
     "q": "¿Cómo se escribe 'bicicleta' en japonés (kanji)?",
     "correct": "自転車",
@@ -363,6 +396,7 @@
     ]
   },
   {
+    "id": "U4A-034",
     "cat": "Español→Japonés",
     "q": "¿Cómo se escribe 'auto' en japonés (kanji)?",
     "correct": "車",
@@ -374,6 +408,7 @@
     ]
   },
   {
+    "id": "U4A-035",
     "cat": "Español→Japonés",
     "q": "¿Cómo se escribe 'tren (eléctrico)' en japonés (kanji)?",
     "correct": "電車",
@@ -385,6 +420,7 @@
     ]
   },
   {
+    "id": "U4A-036",
     "cat": "Español→Japonés",
     "q": "¿Cómo se escribe 'colectivo/bus' en japonés?",
     "correct": "バス",
@@ -396,6 +432,7 @@
     ]
   },
   {
+    "id": "U4A-037",
     "cat": "Español→Japonés",
     "q": "¿Cómo se escribe 'taxi' en japonés?",
     "correct": "タクシー",
@@ -407,6 +444,7 @@
     ]
   },
   {
+    "id": "U4A-038",
     "cat": "Español→Japonés",
     "q": "¿Cómo se escribe 'caminando' en japonés (con kanji)?",
     "correct": "歩いて",
@@ -418,6 +456,7 @@
     ]
   },
   {
+    "id": "U4A-039",
     "cat": "Kanji→Español",
     "q": "¿Qué lugar es 北海道?",
     "correct": "Hokkaido (isla norte de Japón)",
@@ -429,6 +468,7 @@
     ]
   },
   {
+    "id": "U4A-040",
     "cat": "Kanji→Español",
     "q": "¿Qué lugar es 沖縄?",
     "correct": "Okinawa (isla sur de Japón)",
@@ -440,6 +480,7 @@
     ]
   },
   {
+    "id": "U4A-041",
     "cat": "Kanji→Español",
     "q": "¿Qué lugar es 東京?",
     "correct": "Tokio",
@@ -451,6 +492,7 @@
     ]
   },
   {
+    "id": "U4A-042",
     "cat": "Kanji→Español",
     "q": "¿Qué lugar es 大阪?",
     "correct": "Osaka",
@@ -462,6 +504,7 @@
     ]
   },
   {
+    "id": "U4A-043",
     "cat": "Kanji→Español",
     "q": "¿Qué lugar es 京都?",
     "correct": "Kioto",
@@ -473,6 +516,7 @@
     ]
   },
   {
+    "id": "U4A-044",
     "cat": "Kanji→Español",
     "q": "¿Qué lugar es 横浜?",
     "correct": "Yokohama",
@@ -484,6 +528,7 @@
     ]
   },
   {
+    "id": "U4A-045",
     "cat": "Kanji→Español",
     "q": "¿Qué lugar es 広島?",
     "correct": "Hiroshima",
@@ -495,6 +540,7 @@
     ]
   },
   {
+    "id": "U4A-046",
     "cat": "Kanji→Español",
     "q": "¿Qué lugar es 奈良?",
     "correct": "Nara",
@@ -506,6 +552,7 @@
     ]
   },
   {
+    "id": "U4A-047",
     "cat": "Kanji→Español",
     "q": "¿Qué lugar es 姫路?",
     "correct": "Himeji",
@@ -517,6 +564,7 @@
     ]
   },
   {
+    "id": "U4A-048",
     "cat": "Kanji→Español",
     "q": "¿Qué lugar es 長野?",
     "correct": "Nagano",
@@ -528,6 +576,7 @@
     ]
   },
   {
+    "id": "U4A-049",
     "cat": "Kanji→Español",
     "q": "¿Qué lugar es 日光?",
     "correct": "Nikko",
@@ -539,6 +588,7 @@
     ]
   },
   {
+    "id": "U4A-050",
     "cat": "Kanji→Español",
     "q": "¿Qué lugar es 日本?",
     "correct": "Japón",
@@ -550,6 +600,7 @@
     ]
   },
   {
+    "id": "U4A-051",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 北海道?",
     "correct": "ほっかいどう",
@@ -561,6 +612,7 @@
     ]
   },
   {
+    "id": "U4A-052",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 沖縄?",
     "correct": "おきなわ",
@@ -572,6 +624,7 @@
     ]
   },
   {
+    "id": "U4A-053",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 東京?",
     "correct": "とうきょう",
@@ -583,6 +636,7 @@
     ]
   },
   {
+    "id": "U4A-054",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 大阪?",
     "correct": "おおさか",
@@ -594,6 +648,7 @@
     ]
   },
   {
+    "id": "U4A-055",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 京都?",
     "correct": "きょうと",
@@ -605,6 +660,7 @@
     ]
   },
   {
+    "id": "U4A-056",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 横浜?",
     "correct": "よこはま",
@@ -616,6 +672,7 @@
     ]
   },
   {
+    "id": "U4A-057",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 広島?",
     "correct": "ひろしま",
@@ -627,6 +684,7 @@
     ]
   },
   {
+    "id": "U4A-058",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 奈良?",
     "correct": "なら",
@@ -638,6 +696,7 @@
     ]
   },
   {
+    "id": "U4A-059",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 姫路?",
     "correct": "ひめじ",
@@ -649,6 +708,7 @@
     ]
   },
   {
+    "id": "U4A-060",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 長野?",
     "correct": "ながの",
@@ -660,6 +720,7 @@
     ]
   },
   {
+    "id": "U4A-061",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 日光?",
     "correct": "にっこう",
@@ -671,6 +732,7 @@
     ]
   },
   {
+    "id": "U4A-062",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 日本?",
     "correct": "にほん",
@@ -682,6 +744,7 @@
     ]
   },
   {
+    "id": "U4A-063",
     "cat": "Katakana→Español",
     "q": "¿Qué lugar es バンコク?",
     "correct": "Bangkok",
@@ -693,6 +756,7 @@
     ]
   },
   {
+    "id": "U4A-064",
     "cat": "Katakana→Español",
     "q": "¿Qué lugar es アユタヤ?",
     "correct": "Ayutaya (Tailandia)",
@@ -704,6 +768,7 @@
     ]
   },
   {
+    "id": "U4A-065",
     "cat": "Katakana→Español",
     "q": "¿Qué lugar es シドニー?",
     "correct": "Sídney",
@@ -715,6 +780,7 @@
     ]
   },
   {
+    "id": "U4A-066",
     "cat": "Katakana→Español",
     "q": "¿Qué lugar es パース?",
     "correct": "Perth",
@@ -726,6 +792,7 @@
     ]
   },
   {
+    "id": "U4A-067",
     "cat": "Katakana→Español",
     "q": "¿Qué lugar es ソウル?",
     "correct": "Seúl",
@@ -737,6 +804,7 @@
     ]
   },
   {
+    "id": "U4A-068",
     "cat": "Katakana→Español",
     "q": "¿Qué lugar es モスクワ?",
     "correct": "Moscú",
@@ -748,6 +816,7 @@
     ]
   },
   {
+    "id": "U4A-069",
     "cat": "Katakana→Español",
     "q": "¿Qué lugar es ニューヨーク?",
     "correct": "Nueva York",
@@ -759,6 +828,7 @@
     ]
   },
   {
+    "id": "U4A-070",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 駅?",
     "correct": "Estación",
@@ -770,6 +840,7 @@
     ]
   },
   {
+    "id": "U4A-071",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 駅?",
     "correct": "えき",
@@ -781,6 +852,7 @@
     ]
   },
   {
+    "id": "U4A-072",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 家?",
     "correct": "Casa / hogar",
@@ -792,6 +864,7 @@
     ]
   },
   {
+    "id": "U4A-073",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 家 (uso casual)?",
     "correct": "うち",
@@ -803,6 +876,7 @@
     ]
   },
   {
+    "id": "U4A-074",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 街 / まち?",
     "correct": "Ciudad / barrio",
@@ -814,6 +888,7 @@
     ]
   },
   {
+    "id": "U4A-075",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 国?",
     "correct": "País",
@@ -825,6 +900,7 @@
     ]
   },
   {
+    "id": "U4A-076",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 国?",
     "correct": "くに",
@@ -836,6 +912,7 @@
     ]
   },
   {
+    "id": "U4A-077",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 時間?",
     "correct": "じかん",
@@ -847,6 +924,7 @@
     ]
   },
   {
+    "id": "U4A-078",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 時間?",
     "correct": "Hora(s) / tiempo",
@@ -858,6 +936,7 @@
     ]
   },
   {
+    "id": "U4A-079",
     "cat": "Partícula",
     "q": "シドニー＿＿オーストラリアの東です。 (Sídney está en el este de Australia) — ¿Qué partícula va?",
     "correct": "は",
@@ -869,6 +948,7 @@
     ]
   },
   {
+    "id": "U4A-080",
     "cat": "Partícula",
     "q": "北海道は日本＿＿北です。 — ¿Qué partícula corresponde?",
     "correct": "の",
@@ -880,6 +960,7 @@
     ]
   },
   {
+    "id": "U4A-081",
     "cat": "Partícula",
     "q": "東京＿＿沖縄まで飛行機で３時間です。 — ¿Qué partícula va al principio (origen)?",
     "correct": "から",
@@ -891,6 +972,7 @@
     ]
   },
   {
+    "id": "U4A-082",
     "cat": "Partícula",
     "q": "東京から沖縄＿＿飛行機で３時間です。 — ¿Qué partícula va (destino)?",
     "correct": "まで",
@@ -902,6 +984,7 @@
     ]
   },
   {
+    "id": "U4A-083",
     "cat": "Partícula",
     "q": "東京から大阪までバス＿＿１０時間です。 — ¿Qué partícula marca el medio de transporte?",
     "correct": "で",
@@ -913,6 +996,7 @@
     ]
   },
   {
+    "id": "U4A-084",
     "cat": "Partícula",
     "q": "家から駅＿＿歩いて１０分です。 — ¿Qué partícula va ahí?",
     "correct": "まで",
@@ -924,6 +1008,7 @@
     ]
   },
   {
+    "id": "U4A-085",
     "cat": "Partícula",
     "q": "東京＿＿日光＿＿車で２時間半です。 — ¿Qué partículas corresponden?",
     "correct": "から / まで",
@@ -935,6 +1020,7 @@
     ]
   },
   {
+    "id": "U4A-086",
     "cat": "Partícula",
     "q": "バンコクはタイ＿＿中心です。 — ¿Qué partícula va?",
     "correct": "の",
@@ -946,6 +1032,7 @@
     ]
   },
   {
+    "id": "U4A-087",
     "cat": "Partícula",
     "q": "Si quiero decir 'en tren bala', ¿cómo lo marco?",
     "correct": "新幹線で",
@@ -957,6 +1044,7 @@
     ]
   },
   {
+    "id": "U4A-088",
     "cat": "Partícula",
     "q": "Si quiero decir 'en avión', ¿cómo lo marco?",
     "correct": "飛行機で",
@@ -968,6 +1056,7 @@
     ]
   },
   {
+    "id": "U4A-089",
     "cat": "Partícula",
     "q": "Si quiero decir 'en subte', ¿cómo lo marco?",
     "correct": "地下鉄で",
@@ -979,6 +1068,7 @@
     ]
   },
   {
+    "id": "U4A-090",
     "cat": "Partícula",
     "q": "¿Cuál es la forma correcta para decir 'caminando'?",
     "correct": "歩いて (sin で)",
@@ -990,6 +1080,7 @@
     ]
   },
   {
+    "id": "U4A-091",
     "cat": "Partícula",
     "q": "モスクワはロシア＿＿西です。 — ¿Qué partícula va?",
     "correct": "の",
@@ -1001,6 +1092,7 @@
     ]
   },
   {
+    "id": "U4A-092",
     "cat": "Partícula",
     "q": "大阪から京都＿＿電車で３０分です。 — ¿Qué partícula completa 'hasta'?",
     "correct": "まで",
@@ -1012,6 +1104,7 @@
     ]
   },
   {
+    "id": "U4A-093",
     "cat": "Gramática",
     "q": "¿Cómo se pregunta '¿Cuánto tiempo tarda?' en japonés?",
     "correct": "どのくらいですか",
@@ -1023,6 +1116,7 @@
     ]
   },
   {
+    "id": "U4A-094",
     "cat": "Gramática",
     "q": "¿Qué significa くらい al final de una duración (ej: ３時間くらい)?",
     "correct": "Aproximadamente",
@@ -1034,6 +1128,7 @@
     ]
   },
   {
+    "id": "U4A-095",
     "cat": "Gramática",
     "q": "¿Cómo se escribe '3 horas y media' usando kanji?",
     "correct": "３時間半",
@@ -1045,6 +1140,7 @@
     ]
   },
   {
+    "id": "U4A-096",
     "cat": "Gramática",
     "q": "¿Qué significa どのくらい?",
     "correct": "¿Cuánto tiempo / qué tan lejos?",
@@ -1056,6 +1152,7 @@
     ]
   },
   {
+    "id": "U4A-097",
     "cat": "Gramática",
     "q": "¿Qué significa 半 al final de una hora (ej: ２時間半)?",
     "correct": "Y media",
@@ -1067,6 +1164,7 @@
     ]
   },
   {
+    "id": "U4A-098",
     "cat": "Gramática",
     "q": "En la estructura '[Origen]から[Destino]まで[Transporte]で[Duración]', ¿qué marca で?",
     "correct": "El medio de transporte",
@@ -1078,6 +1176,7 @@
     ]
   },
   {
+    "id": "U4A-099",
     "cat": "Lectura especial",
     "q": "¿Cómo se lee 1分 (un minuto)?",
     "correct": "いっぷん",
@@ -1089,6 +1188,7 @@
     ]
   },
   {
+    "id": "U4A-100",
     "cat": "Lectura especial",
     "q": "¿Cómo se lee 3分?",
     "correct": "さんぷん",
@@ -1100,6 +1200,7 @@
     ]
   },
   {
+    "id": "U4A-101",
     "cat": "Lectura especial",
     "q": "¿Cómo se lee 6分?",
     "correct": "ろっぷん",
@@ -1111,6 +1212,7 @@
     ]
   },
   {
+    "id": "U4A-102",
     "cat": "Lectura especial",
     "q": "¿Cómo se lee 8分?",
     "correct": "はっぷん",
@@ -1122,6 +1224,7 @@
     ]
   },
   {
+    "id": "U4A-103",
     "cat": "Lectura especial",
     "q": "¿Cómo se lee 10分?",
     "correct": "じゅっぷん",
@@ -1133,6 +1236,7 @@
     ]
   },
   {
+    "id": "U4A-104",
     "cat": "Lectura especial",
     "q": "¿Cómo se lee 4分?",
     "correct": "よんぷん",
@@ -1144,6 +1248,7 @@
     ]
   },
   {
+    "id": "U4A-105",
     "cat": "Lectura especial",
     "q": "¿Cómo se lee 2分?",
     "correct": "にふん",
@@ -1155,6 +1260,7 @@
     ]
   },
   {
+    "id": "U4A-106",
     "cat": "Lectura especial",
     "q": "¿Cómo se lee 5分?",
     "correct": "ごふん",
@@ -1166,6 +1272,7 @@
     ]
   },
   {
+    "id": "U4A-107",
     "cat": "Lectura especial",
     "q": "¿Cómo se lee 7分?",
     "correct": "ななふん",
@@ -1177,6 +1284,7 @@
     ]
   },
   {
+    "id": "U4A-108",
     "cat": "Lectura especial",
     "q": "¿Cómo se lee 9分?",
     "correct": "きゅうふん",
@@ -1188,6 +1296,7 @@
     ]
   },
   {
+    "id": "U4A-109",
     "cat": "Lectura especial",
     "q": "¿Cómo se lee 30分 (también equivale a 'media hora')?",
     "correct": "さんじゅっぷん / 半",
@@ -1199,6 +1308,7 @@
     ]
   },
   {
+    "id": "U4A-110",
     "cat": "Lectura especial",
     "q": "¿Cómo se lee 20分?",
     "correct": "にじゅっぷん",
@@ -1210,6 +1320,7 @@
     ]
   },
   {
+    "id": "U4A-111",
     "cat": "Traducción ES→JP",
     "q": "'Nueva York está en el este de EE.UU.' — ¿Cuál es la oración correcta?",
     "correct": "ニューヨークはアメリカの東です。",
@@ -1221,6 +1332,7 @@
     ]
   },
   {
+    "id": "U4A-112",
     "cat": "Traducción ES→JP",
     "q": "'Moscú está en el oeste de Rusia' — ¿Cuál es correcta?",
     "correct": "モスクワはロシアの西です。",
@@ -1232,6 +1344,7 @@
     ]
   },
   {
+    "id": "U4A-113",
     "cat": "Traducción ES→JP",
     "q": "'Seúl está en el norte de Corea' — ¿Cuál es correcta?",
     "correct": "ソウルは韓国の北です。",
@@ -1243,6 +1356,7 @@
     ]
   },
   {
+    "id": "U4A-114",
     "cat": "Traducción ES→JP",
     "q": "'Bangkok está en el centro de Tailandia' — ¿Cuál es correcta?",
     "correct": "バンコクはタイの中心です。",
@@ -1254,6 +1368,7 @@
     ]
   },
   {
+    "id": "U4A-115",
     "cat": "Traducción ES→JP",
     "q": "'De Tokio a Hiroshima en shinkansen son ~4½ horas' — ¿Cuál es correcta?",
     "correct": "東京から広島まで新幹線で４時間半くらいです。",
@@ -1265,6 +1380,7 @@
     ]
   },
   {
+    "id": "U4A-116",
     "cat": "Traducción ES→JP",
     "q": "'De Osaka a Kioto en tren son 30 minutos' — ¿Cuál es correcta?",
     "correct": "大阪から京都まで電車で３０分です。",
@@ -1276,6 +1392,7 @@
     ]
   },
   {
+    "id": "U4A-117",
     "cat": "Traducción ES→JP",
     "q": "'De casa a la estación caminando son 10 minutos' — ¿Cuál es correcta?",
     "correct": "家から駅まで歩いて１０分です。",
@@ -1287,6 +1404,7 @@
     ]
   },
   {
+    "id": "U4A-118",
     "cat": "Traducción ES→JP",
     "q": "'Hokkaido está en el norte de Japón' — ¿Cuál es correcta?",
     "correct": "北海道は日本の北です。",
@@ -1298,6 +1416,7 @@
     ]
   },
   {
+    "id": "U4A-119",
     "cat": "Traducción JP→ES",
     "q": "'東京から横浜まで電車で２５分くらいです' significa:",
     "correct": "De Tokio a Yokohama en tren son unos 25 minutos.",
@@ -1309,6 +1428,7 @@
     ]
   },
   {
+    "id": "U4A-120",
     "cat": "Traducción JP→ES",
     "q": "'北海道は日本の北です' significa:",
     "correct": "Hokkaido está en el norte de Japón.",
@@ -1320,6 +1440,7 @@
     ]
   },
   {
+    "id": "U4A-121",
     "cat": "Traducción JP→ES",
     "q": "'家から学校まで２０分です' significa:",
     "correct": "De casa a la escuela son 20 minutos.",
@@ -1331,6 +1452,7 @@
     ]
   },
   {
+    "id": "U4A-122",
     "cat": "Traducción JP→ES",
     "q": "'東京から大阪までバスで１０時間です' significa:",
     "correct": "De Tokio a Osaka en colectivo son 10 horas.",
@@ -1342,6 +1464,7 @@
     ]
   },
   {
+    "id": "U4A-123",
     "cat": "Traducción JP→ES",
     "q": "'沖縄は日本の南です' significa:",
     "correct": "Okinawa está en el sur de Japón.",
@@ -1353,6 +1476,7 @@
     ]
   },
   {
+    "id": "U4A-124",
     "cat": "Traducción JP→ES",
     "q": "'パースはオーストラリアの西です' significa:",
     "correct": "Perth está en el oeste de Australia.",
@@ -1364,6 +1488,7 @@
     ]
   },
   {
+    "id": "U4A-125",
     "cat": "Traducción JP→ES",
     "q": "'長野は日本の中心です' significa:",
     "correct": "Nagano está en el medio/centro de Japón.",
@@ -1375,6 +1500,7 @@
     ]
   },
   {
+    "id": "U4A-126",
     "cat": "Traducción JP→ES",
     "q": "'東京から日光まで車で２時間半です' significa:",
     "correct": "De Tokio a Nikko en auto son 2 horas y media.",
@@ -1386,6 +1512,7 @@
     ]
   },
   {
+    "id": "U4A-127",
     "cat": "Uso en contexto",
     "q": "Un compañero te pregunta '家から会社までどのくらいですか'. ¿Qué te está preguntando?",
     "correct": "Cuánto tardás de casa al trabajo.",
@@ -1397,6 +1524,7 @@
     ]
   },
   {
+    "id": "U4A-128",
     "cat": "Uso en contexto",
     "q": "Si respondo 'バスで３０分くらいです', estoy diciendo:",
     "correct": "En colectivo son unos 30 minutos.",
@@ -1408,6 +1536,7 @@
     ]
   },
   {
+    "id": "U4A-129",
     "cat": "Uso en contexto",
     "q": "'京都から大阪まで' — esta frase habla de:",
     "correct": "Un recorrido de Kioto a Osaka.",
@@ -1419,6 +1548,7 @@
     ]
   },
   {
+    "id": "U4A-130",
     "cat": "Uso en contexto",
     "q": "¿Qué transporte NO lleva la partícula で?",
     "correct": "歩いて (caminando)",
@@ -1430,6 +1560,7 @@
     ]
   },
   {
+    "id": "U4A-131",
     "cat": "Uso en contexto",
     "q": "Si alguien dice '飛行機で２時間くらいです', está hablando de:",
     "correct": "Una duración de 2 horas aprox. en avión.",
@@ -1441,6 +1572,7 @@
     ]
   },
   {
+    "id": "U4A-132",
     "cat": "Uso en contexto",
     "q": "En '東京から沖縄まで飛行機で３時間です', la palabra 'sale/origen' es:",
     "correct": "東京",
@@ -1452,6 +1584,7 @@
     ]
   },
   {
+    "id": "U4A-133",
     "cat": "Uso en contexto",
     "q": "En '東京から沖縄まで飛行機で３時間です', el destino es:",
     "correct": "沖縄",
@@ -1463,6 +1596,7 @@
     ]
   },
   {
+    "id": "U4A-134",
     "cat": "Uso en contexto",
     "q": "¿Cuál es la forma CORRECTA en japonés natural?",
     "correct": "東京から大阪まで新幹線で２時間半くらいです。",
@@ -1474,6 +1608,7 @@
     ]
   },
   {
+    "id": "U4A-135",
     "cat": "Uso en contexto",
     "q": "Un turista te pregunta '駅までどのくらいですか'. ¿Qué quiere saber?",
     "correct": "Cuánto se tarda hasta la estación.",
@@ -1485,6 +1620,7 @@
     ]
   },
   {
+    "id": "U4A-136",
     "cat": "Kanji→Español",
     "q": "¿Cuál de estos kanji significa 'sur'?",
     "correct": "南",
@@ -1496,6 +1632,7 @@
     ]
   },
   {
+    "id": "U4A-137",
     "cat": "Kanji→Español",
     "q": "¿Cuál de estos kanji NO es un punto cardinal?",
     "correct": "時",
@@ -1507,6 +1644,7 @@
     ]
   },
   {
+    "id": "U4A-138",
     "cat": "Kanji→Español",
     "q": "¿Cuál de estos NO es un medio de transporte?",
     "correct": "家",
@@ -1518,6 +1656,7 @@
     ]
   },
   {
+    "id": "U4A-139",
     "cat": "Kanji→Español",
     "q": "Entre estos, ¿cuál es una isla (地域) de Japón?",
     "correct": "北海道",
@@ -1529,6 +1668,7 @@
     ]
   },
   {
+    "id": "U4A-140",
     "cat": "Kanji→Español",
     "q": "¿Cuál de estos lugares está en el sur de Japón?",
     "correct": "沖縄",
@@ -1540,6 +1680,7 @@
     ]
   },
   {
+    "id": "U4A-141",
     "cat": "Gramática",
     "q": "'どのくらい' pregunta sobre:",
     "correct": "Cantidad de tiempo o distancia aprox.",
@@ -1551,6 +1692,7 @@
     ]
   },
   {
+    "id": "U4A-142",
     "cat": "Gramática",
     "q": "¿Cuál es la forma CORRECTA para 'en taxi'?",
     "correct": "タクシーで",
@@ -1562,6 +1704,7 @@
     ]
   },
   {
+    "id": "U4A-143",
     "cat": "Gramática",
     "q": "¿Cuál es la forma CORRECTA para 'en bicicleta'?",
     "correct": "自転車で",
