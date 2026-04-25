@@ -1,440 +1,878 @@
 [
   {
+    "id": "U2B-001",
     "cat": "Frase clave",
     "q": "¿Cómo se pregunta '¿Cuánto cuesta?' en japonés?",
     "correct": "いくらですか。",
-    "opts": ["いくらですか。", "どこですか。", "なんですか。", "だれですか。"]
+    "opts": [
+      "いくらですか。",
+      "どこですか。",
+      "なんですか。",
+      "だれですか。"
+    ]
   },
   {
+    "id": "U2B-002",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'yen' (moneda japonesa) en japonés?",
     "correct": "円 (えん)",
-    "opts": ["円 (えん)", "元 (げん)", "金 (きん)", "銭 (せん)"]
+    "opts": [
+      "円 (えん)",
+      "元 (げん)",
+      "金 (きん)",
+      "銭 (せん)"
+    ]
   },
   {
+    "id": "U2B-003",
     "cat": "Distinción clave",
     "q": "¿Cuál es la diferencia entre これ y この?",
     "correct": "これ va solo (esto); この necesita un sustantivo después (este ~)",
-    "opts": ["これ va solo (esto); この necesita un sustantivo después (este ~)", "この va solo; これ necesita sustantivo", "Son idénticos", "これ es formal; この es casual"]
+    "opts": [
+      "これ va solo (esto); この necesita un sustantivo después (este ~)",
+      "この va solo; これ necesita sustantivo",
+      "Son idénticos",
+      "これ es formal; この es casual"
+    ]
   },
   {
+    "id": "U2B-004",
     "cat": "Demostrativos",
     "q": "Querés preguntar el precio del reloj que tenés en la mano. ¿Cómo decís 'este reloj'?",
     "correct": "このとけい",
-    "opts": ["このとけい", "これとけい", "そのとけい", "これのとけい"]
+    "opts": [
+      "このとけい",
+      "これとけい",
+      "そのとけい",
+      "これのとけい"
+    ]
   },
   {
+    "id": "U2B-005",
     "cat": "Demostrativos",
     "q": "Querés preguntar por un objeto cerca del empleado. ¿Cómo decís 'ese pantalón'?",
     "correct": "そのズボン",
-    "opts": ["そのズボン", "それズボン", "あのズボン", "ズボンそれ"]
+    "opts": [
+      "そのズボン",
+      "それズボン",
+      "あのズボン",
+      "ズボンそれ"
+    ]
   },
   {
+    "id": "U2B-006",
     "cat": "Demostrativos",
     "q": "Ves un objeto en una vitrina lejos. ¿Cómo decís 'aquella cartera'?",
     "correct": "あのかばん",
-    "opts": ["あのかばん", "あれかばん", "そのかばん", "あれのかばん"]
+    "opts": [
+      "あのかばん",
+      "あれかばん",
+      "そのかばん",
+      "あれのかばん"
+    ]
   },
   {
+    "id": "U2B-007",
     "cat": "Vocabulario",
     "q": "¿Qué significa かばん?",
     "correct": "Bolso / cartera / mochila",
-    "opts": ["Bolso / cartera / mochila", "Cajón", "Abrigo", "Bufanda"]
+    "opts": [
+      "Bolso / cartera / mochila",
+      "Cajón",
+      "Abrigo",
+      "Bufanda"
+    ]
   },
   {
+    "id": "U2B-008",
     "cat": "Vocabulario",
     "q": "¿Qué significa ズボン?",
     "correct": "Pantalón",
-    "opts": ["Pantalón", "Zapato", "Camisa", "Media"]
+    "opts": [
+      "Pantalón",
+      "Zapato",
+      "Camisa",
+      "Media"
+    ]
   },
   {
+    "id": "U2B-009",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'reloj' en japonés (kanji)?",
     "correct": "時計",
-    "opts": ["時計", "時間", "時刻", "計時"]
+    "opts": [
+      "時計",
+      "時間",
+      "時刻",
+      "計時"
+    ]
   },
   {
+    "id": "U2B-010",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 時計?",
     "correct": "とけい",
-    "opts": ["とけい", "じけい", "ときけい", "どけい"]
+    "opts": [
+      "とけい",
+      "じけい",
+      "ときけい",
+      "どけい"
+    ]
   },
   {
+    "id": "U2B-011",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 財布?",
     "correct": "さいふ",
-    "opts": ["さいふ", "ざいふ", "さいほ", "ざいほ"]
+    "opts": [
+      "さいふ",
+      "ざいふ",
+      "さいほ",
+      "ざいほ"
+    ]
   },
   {
+    "id": "U2B-012",
     "cat": "Vocabulario",
     "q": "¿Qué significa 財布 (さいふ)?",
     "correct": "Billetera",
-    "opts": ["Billetera", "Bolsillo", "Mochila", "Llavero"]
+    "opts": [
+      "Billetera",
+      "Bolsillo",
+      "Mochila",
+      "Llavero"
+    ]
   },
   {
+    "id": "U2B-013",
     "cat": "Diálogo típico",
     "q": "Cliente: すみません。このTシャツは いくらですか。 Empleado: 3000円です。 ¿Qué está preguntando el cliente?",
     "correct": "Cuánto cuesta esta remera",
-    "opts": ["Cuánto cuesta esta remera", "Dónde está esta remera", "Qué es esta remera", "De quién es esta remera"]
+    "opts": [
+      "Cuánto cuesta esta remera",
+      "Dónde está esta remera",
+      "Qué es esta remera",
+      "De quién es esta remera"
+    ]
   },
   {
+    "id": "U2B-014",
     "cat": "Estructura compra",
     "q": "Después de decidir qué comprar, para decir 'Entonces, me llevo eso', decís:",
     "correct": "じゃ、それを ください。",
-    "opts": ["じゃ、それを ください。", "じゃ、それは ください。", "じゃ、それの ください。", "じゃ、それで ください。"]
+    "opts": [
+      "じゃ、それを ください。",
+      "じゃ、それは ください。",
+      "じゃ、それの ください。",
+      "じゃ、それで ください。"
+    ]
   },
   {
+    "id": "U2B-015",
     "cat": "Partícula",
     "q": "コーヒー___ ください。 (Un café, por favor) ¿Qué partícula falta?",
     "correct": "を",
-    "opts": ["を", "は", "が", "に"]
+    "opts": [
+      "を",
+      "は",
+      "が",
+      "に"
+    ]
   },
   {
+    "id": "U2B-016",
     "cat": "Significado palabra",
     "q": "¿Qué significa じゃ al inicio de una respuesta?",
     "correct": "Entonces / bueno (conector)",
-    "opts": ["Entonces / bueno (conector)", "No", "Sí", "Quizás"]
+    "opts": [
+      "Entonces / bueno (conector)",
+      "No",
+      "Sí",
+      "Quizás"
+    ]
   },
   {
+    "id": "U2B-017",
     "cat": "Números",
     "q": "¿Cómo se lee 3500 en japonés?",
     "correct": "さんぜん ごひゃく",
-    "opts": ["さんぜん ごひゃく", "さんせん ごひゃく", "さんぜん ごひ ゃく", "みっせん ごひゃく"]
+    "opts": [
+      "さんぜん ごひゃく",
+      "さんせん ごひゃく",
+      "さんぜん ごひ ゃく",
+      "みっせん ごひゃく"
+    ]
   },
   {
+    "id": "U2B-018",
     "cat": "Números",
     "q": "¿Cómo se lee 800 en japonés?",
     "correct": "はっぴゃく",
-    "opts": ["はっぴゃく", "はちひゃく", "はちびゃく", "はっひゃく"]
+    "opts": [
+      "はっぴゃく",
+      "はちひゃく",
+      "はちびゃく",
+      "はっひゃく"
+    ]
   },
   {
+    "id": "U2B-019",
     "cat": "Números trampa",
     "q": "¿Cuál es la lectura correcta de 300?",
     "correct": "さんびゃく",
-    "opts": ["さんびゃく", "さんひゃく", "さんぴゃく", "みつひゃく"]
+    "opts": [
+      "さんびゃく",
+      "さんひゃく",
+      "さんぴゃく",
+      "みつひゃく"
+    ]
   },
   {
+    "id": "U2B-020",
     "cat": "Números trampa",
     "q": "¿Cómo se lee 600?",
     "correct": "ろっぴゃく",
-    "opts": ["ろっぴゃく", "ろくひゃく", "ろくびゃく", "ろっぴゃき"]
+    "opts": [
+      "ろっぴゃく",
+      "ろくひゃく",
+      "ろくびゃく",
+      "ろっぴゃき"
+    ]
   },
   {
+    "id": "U2B-021",
     "cat": "Números",
     "q": "¿Cómo se lee 3000?",
     "correct": "さんぜん",
-    "opts": ["さんぜん", "さんせん", "みせん", "さんぜい"]
+    "opts": [
+      "さんぜん",
+      "さんせん",
+      "みせん",
+      "さんぜい"
+    ]
   },
   {
+    "id": "U2B-022",
     "cat": "Números",
     "q": "¿Cómo se lee 8000?",
     "correct": "はっせん",
-    "opts": ["はっせん", "はちせん", "はっぜん", "やっせん"]
+    "opts": [
+      "はっせん",
+      "はちせん",
+      "はっぜん",
+      "やっせん"
+    ]
   },
   {
+    "id": "U2B-023",
     "cat": "Números precios",
     "q": "¿Cómo se diría '4500 yenes' en japonés?",
     "correct": "よんせん ごひゃく えん",
-    "opts": ["よんせん ごひゃく えん", "しせん ごひゃく えん", "よんせん ごひゃく げん", "よんぜん ごひゃく えん"]
+    "opts": [
+      "よんせん ごひゃく えん",
+      "しせん ごひゃく えん",
+      "よんせん ごひゃく げん",
+      "よんぜん ごひゃく えん"
+    ]
   },
   {
+    "id": "U2B-024",
     "cat": "Números grandes",
     "q": "¿Cómo se dice '10.000' (diez mil) en japonés?",
     "correct": "いちまん",
-    "opts": ["いちまん", "じゅうせん", "じゅうまん", "いちじゅうまん"]
+    "opts": [
+      "いちまん",
+      "じゅうせん",
+      "じゅうまん",
+      "いちじゅうまん"
+    ]
   },
   {
+    "id": "U2B-025",
     "cat": "Estructura",
     "q": "Completá: このかばんは ___ ですか。 (¿Cuánto cuesta esta cartera?)",
     "correct": "いくら",
-    "opts": ["いくら", "どこ", "なに", "だれ"]
+    "opts": [
+      "いくら",
+      "どこ",
+      "なに",
+      "だれ"
+    ]
   },
   {
+    "id": "U2B-026",
     "cat": "Diálogo",
     "q": "Cliente: あのとけいは いくらですか。 Empleado: 9000円です。 Cliente: ___、それを ください。",
     "correct": "じゃ",
-    "opts": ["じゃ", "はい", "もう", "そう"]
+    "opts": [
+      "じゃ",
+      "はい",
+      "もう",
+      "そう"
+    ]
   },
   {
+    "id": "U2B-027",
     "cat": "Distinción",
     "q": "Si el empleado muestra un producto que está en su mostrador (cerca de él), ¿cómo te referís a él?",
     "correct": "それ / そのN",
-    "opts": ["それ / そのN", "これ / このN", "あれ / あのN", "どれ / どのN"]
+    "opts": [
+      "それ / そのN",
+      "これ / このN",
+      "あれ / あのN",
+      "どれ / どのN"
+    ]
   },
   {
+    "id": "U2B-028",
     "cat": "Entrega del producto",
     "q": "Al entregarte un producto, el empleado dice:",
     "correct": "どうぞ",
-    "opts": ["どうぞ", "どうも", "いらっしゃいませ", "おねがいします"]
+    "opts": [
+      "どうぞ",
+      "どうも",
+      "いらっしゃいませ",
+      "おねがいします"
+    ]
   },
   {
+    "id": "U2B-029",
     "cat": "Saludo comercial",
     "q": "¿Qué dice un empleado al cliente cuando entra a la tienda?",
     "correct": "いらっしゃいませ",
-    "opts": ["いらっしゃいませ", "おはようございます", "こんにちは", "ありがとうございます"]
+    "opts": [
+      "いらっしゃいませ",
+      "おはようございます",
+      "こんにちは",
+      "ありがとうございます"
+    ]
   },
   {
+    "id": "U2B-030",
     "cat": "Traducción JA→ES",
     "q": "¿Qué significa いらっしゃいませ?",
     "correct": "Bienvenido/a (a la tienda)",
-    "opts": ["Bienvenido/a (a la tienda)", "Por favor entre", "Gracias por venir", "¿En qué puedo ayudarlo?"]
+    "opts": [
+      "Bienvenido/a (a la tienda)",
+      "Por favor entre",
+      "Gracias por venir",
+      "¿En qué puedo ayudarlo?"
+    ]
   },
   {
+    "id": "U2B-031",
     "cat": "Situación",
     "q": "Vas a un negocio y querés preguntar por el precio de una cartera en un estante lejano. Decís:",
     "correct": "あのかばんは いくらですか。",
-    "opts": ["あのかばんは いくらですか。", "あれかばんは いくらですか。", "そのかばんは いくらですか。", "このかばん いくらですか。"]
+    "opts": [
+      "あのかばんは いくらですか。",
+      "あれかばんは いくらですか。",
+      "そのかばんは いくらですか。",
+      "このかばん いくらですか。"
+    ]
   },
   {
+    "id": "U2B-032",
     "cat": "Trampa gramática",
     "q": "¿Cuál oración es INCORRECTA?",
     "correct": "この いくらですか。",
-    "opts": ["この いくらですか。", "これは いくらですか。", "このTシャツは いくらですか。", "それは いくらですか。"]
+    "opts": [
+      "この いくらですか。",
+      "これは いくらですか。",
+      "このTシャツは いくらですか。",
+      "それは いくらですか。"
+    ]
   },
   {
+    "id": "U2B-033",
     "cat": "Vocabulario Katakana",
     "q": "¿Qué significa Tシャツ?",
     "correct": "Remera / camiseta",
-    "opts": ["Remera / camiseta", "Camisa formal", "Saco", "Tela"]
+    "opts": [
+      "Remera / camiseta",
+      "Camisa formal",
+      "Saco",
+      "Tela"
+    ]
   },
   {
+    "id": "U2B-034",
     "cat": "Número completo",
     "q": "'6500 yenes' se dice:",
     "correct": "ろくせん ごひゃく えん",
-    "opts": ["ろくせん ごひゃく えん", "ろっせん ごひゃく えん", "ろくせん ごびゃく えん", "ろくぜん ごひゃく えん"]
+    "opts": [
+      "ろくせん ごひゃく えん",
+      "ろっせん ごひゃく えん",
+      "ろくせん ごびゃく えん",
+      "ろくぜん ごひゃく えん"
+    ]
   },
   {
+    "id": "U2B-035",
     "cat": "Intercambio comercial",
     "q": "El cliente decidió comprar. La frase correcta es:",
     "correct": "これをください。",
-    "opts": ["これをください。", "これはください。", "この ください。", "これで ください。"]
+    "opts": [
+      "これをください。",
+      "これはください。",
+      "この ください。",
+      "これで ください。"
+    ]
   },
   {
+    "id": "U2B-036",
     "cat": "Traducción ES→JA",
     "q": "Traducí: 'Ese pantalón cuesta 3800 yenes'",
     "correct": "そのズボンは 3800円です。",
-    "opts": ["そのズボンは 3800円です。", "それズボン は 3800円です。", "そのズボンは 3800円ですか。", "そのは ズボン 3800円です。"]
+    "opts": [
+      "そのズボンは 3800円です。",
+      "それズボン は 3800円です。",
+      "そのズボンは 3800円ですか。",
+      "そのは ズボン 3800円です。"
+    ]
   },
   {
+    "id": "U2B-037",
     "cat": "Trampa sutil",
     "q": "Elegí la oración correcta para decir 'Por favor, deme esto (cerca de mí)'",
     "correct": "これを ください。",
-    "opts": ["これを ください。", "この ください。", "これは ください。", "こちら ください。"]
+    "opts": [
+      "これを ください。",
+      "この ください。",
+      "これは ください。",
+      "こちら ください。"
+    ]
   },
   {
+    "id": "U2B-038",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 紙 (かみ)?",
     "correct": "Papel",
-    "opts": ["Papel", "Cabello", "Dios", "Espejo"]
+    "opts": [
+      "Papel",
+      "Cabello",
+      "Dios",
+      "Espejo"
+    ]
   },
   {
+    "id": "U2B-039",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 薬 (くすり)?",
     "correct": "Medicina",
-    "opts": ["Medicina", "Droga ilegal", "Hierba", "Veneno"]
+    "opts": [
+      "Medicina",
+      "Droga ilegal",
+      "Hierba",
+      "Veneno"
+    ]
   },
   {
+    "id": "U2B-040",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 卵 (たまご)?",
     "correct": "Huevo",
-    "opts": ["Huevo", "Manzana", "Pelota", "Redondo"]
+    "opts": [
+      "Huevo",
+      "Manzana",
+      "Pelota",
+      "Redondo"
+    ]
   },
   {
+    "id": "U2B-041",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 米 (こめ)?",
     "correct": "Arroz (grano, sin cocer)",
-    "opts": ["Arroz (grano, sin cocer)", "Arroz cocido", "Maíz", "Trigo"]
+    "opts": [
+      "Arroz (grano, sin cocer)",
+      "Arroz cocido",
+      "Maíz",
+      "Trigo"
+    ]
   },
   {
+    "id": "U2B-042",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'diccionario' en japonés?",
     "correct": "辞書 (じしょ)",
-    "opts": ["辞書 (じしょ)", "事書 (じしょ)", "字典 (じてん)", "本 (ほん)"]
+    "opts": [
+      "辞書 (じしょ)",
+      "事書 (じしょ)",
+      "字典 (じてん)",
+      "本 (ほん)"
+    ]
   },
   {
+    "id": "U2B-043",
     "cat": "Vocabulario",
     "q": "¿Qué significa 電子辞書 (でんしじしょ)?",
     "correct": "Diccionario electrónico",
-    "opts": ["Diccionario electrónico", "Diccionario grande", "Diccionario bilingüe", "Computadora con diccionario"]
+    "opts": [
+      "Diccionario electrónico",
+      "Diccionario grande",
+      "Diccionario bilingüe",
+      "Computadora con diccionario"
+    ]
   },
   {
+    "id": "U2B-044",
     "cat": "Vocabulario",
     "q": "¿Qué significa 消しゴム (けしごむ)?",
     "correct": "Goma de borrar",
-    "opts": ["Goma de borrar", "Lápiz", "Regla", "Cinta"]
+    "opts": [
+      "Goma de borrar",
+      "Lápiz",
+      "Regla",
+      "Cinta"
+    ]
   },
   {
+    "id": "U2B-045",
     "cat": "Vocabulario",
     "q": "¿Qué significa 携帯電話 (けいたいでんわ)?",
     "correct": "Teléfono celular",
-    "opts": ["Teléfono celular", "Teléfono fijo", "Cable telefónico", "Teléfono público"]
+    "opts": [
+      "Teléfono celular",
+      "Teléfono fijo",
+      "Cable telefónico",
+      "Teléfono público"
+    ]
   },
   {
+    "id": "U2B-046",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 携帯電話?",
     "correct": "けいたいでんわ",
-    "opts": ["けいたいでんわ", "けいだいでんわ", "けったいでんわ", "きょうたいでんわ"]
+    "opts": [
+      "けいたいでんわ",
+      "けいだいでんわ",
+      "けったいでんわ",
+      "きょうたいでんわ"
+    ]
   },
   {
+    "id": "U2B-047",
     "cat": "Vocabulario Katakana",
     "q": "¿Qué significa パソコン?",
     "correct": "Computadora",
-    "opts": ["Computadora", "Password", "Panel de control", "Pasillo"]
+    "opts": [
+      "Computadora",
+      "Password",
+      "Panel de control",
+      "Pasillo"
+    ]
   },
   {
+    "id": "U2B-048",
     "cat": "Etimología",
     "q": "パソコン proviene de 'personal computer'. ¿Es verdadero?",
     "correct": "Verdadero",
-    "opts": ["Verdadero", "Falso, viene de 'password'", "Falso, viene de 'panel control'", "Falso, es palabra japonesa nativa"]
+    "opts": [
+      "Verdadero",
+      "Falso, viene de 'password'",
+      "Falso, viene de 'panel control'",
+      "Falso, es palabra japonesa nativa"
+    ]
   },
   {
+    "id": "U2B-049",
     "cat": "Vocabulario",
     "q": "¿Qué significa ペン?",
     "correct": "Pluma / lapicera",
-    "opts": ["Pluma / lapicera", "Lápiz", "Pincel", "Crayón"]
+    "opts": [
+      "Pluma / lapicera",
+      "Lápiz",
+      "Pincel",
+      "Crayón"
+    ]
   },
   {
+    "id": "U2B-050",
     "cat": "Vocabulario",
     "q": "¿Qué significa トイレットペーパー?",
     "correct": "Papel higiénico",
-    "opts": ["Papel higiénico", "Papel de toilet (toalla)", "Papel de oficina", "Servilleta"]
+    "opts": [
+      "Papel higiénico",
+      "Papel de toilet (toalla)",
+      "Papel de oficina",
+      "Servilleta"
+    ]
   },
   {
+    "id": "U2B-051",
     "cat": "Contexto real",
     "q": "En un negocio, querés comparar 2 carteras. La frase que completa 'この かばんは 4500円です。 ___ は いくらですか。' (apuntando a otra cartera cerca del empleado):",
     "correct": "そのかばん",
-    "opts": ["そのかばん", "あのかばん", "これかばん", "このかばん"]
+    "opts": [
+      "そのかばん",
+      "あのかばん",
+      "これかばん",
+      "このかばん"
+    ]
   },
   {
+    "id": "U2B-052",
     "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre これ/それ/あれ?",
     "correct": "Cerca del hablante / cerca del oyente / lejos de ambos",
-    "opts": ["Cerca del hablante / cerca del oyente / lejos de ambos", "Presente / pasado / futuro", "Formal / neutro / casual", "Singular / plural / colectivo"]
+    "opts": [
+      "Cerca del hablante / cerca del oyente / lejos de ambos",
+      "Presente / pasado / futuro",
+      "Formal / neutro / casual",
+      "Singular / plural / colectivo"
+    ]
   },
   {
+    "id": "U2B-053",
     "cat": "Orden oración",
     "q": "Poné en orden: ください / を / これ",
     "correct": "これ を ください",
-    "opts": ["これ を ください", "を これ ください", "これ ください を", "ください これ を"]
+    "opts": [
+      "これ を ください",
+      "を これ ください",
+      "これ ください を",
+      "ください これ を"
+    ]
   },
   {
+    "id": "U2B-054",
     "cat": "Trampa cortesía",
     "q": "Al pedir algo a un empleado, ¿cuál es más cortés?",
     "correct": "これを ください。",
-    "opts": ["これを ください。", "これを ちょうだい。", "これを くれ。", "これを もらう。"]
+    "opts": [
+      "これを ください。",
+      "これを ちょうだい。",
+      "これを くれ。",
+      "これを もらう。"
+    ]
   },
   {
+    "id": "U2B-055",
     "cat": "Números complejos",
     "q": "¿Cómo se dice '2400 yenes'?",
     "correct": "にせん よんひゃく えん",
-    "opts": ["にせん よんひゃく えん", "にせん しひゃく えん", "にせん よんびゃく えん", "ふたせん よんひゃく えん"]
+    "opts": [
+      "にせん よんひゃく えん",
+      "にせん しひゃく えん",
+      "にせん よんびゃく えん",
+      "ふたせん よんひゃく えん"
+    ]
   },
   {
+    "id": "U2B-056",
     "cat": "Números complejos",
     "q": "'15.800 yenes' se lee:",
     "correct": "いちまん ごせん はっぴゃく えん",
-    "opts": ["いちまん ごせん はっぴゃく えん", "じゅうごせん はっぴゃく えん", "いちまん ごせん はちひゃく えん", "いちまん ごぜん はっぴゃく えん"]
+    "opts": [
+      "いちまん ごせん はっぴゃく えん",
+      "じゅうごせん はっぴゃく えん",
+      "いちまん ごせん はちひゃく えん",
+      "いちまん ごぜん はっぴゃく えん"
+    ]
   },
   {
+    "id": "U2B-057",
     "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre これ y この?",
     "correct": "これ es pronombre (esto); この es prenominal (este + sust.)",
-    "opts": ["これ es pronombre (esto); この es prenominal (este + sust.)", "この es pronombre; これ es prenominal", "これ es singular; この es plural", "これ es formal; この es casual"]
+    "opts": [
+      "これ es pronombre (esto); この es prenominal (este + sust.)",
+      "この es pronombre; これ es prenominal",
+      "これ es singular; この es plural",
+      "これ es formal; この es casual"
+    ]
   },
   {
+    "id": "U2B-058",
     "cat": "Traducción ES→JA",
     "q": "'¿Cuánto cuesta aquella billetera?'",
     "correct": "あのさいふは いくらですか。",
-    "opts": ["あのさいふは いくらですか。", "あれさいふは いくらですか。", "あのさいふは いくらでしたか。", "あれは さいふ いくらですか。"]
+    "opts": [
+      "あのさいふは いくらですか。",
+      "あれさいふは いくらですか。",
+      "あのさいふは いくらでしたか。",
+      "あれは さいふ いくらですか。"
+    ]
   },
   {
+    "id": "U2B-059",
     "cat": "Reacción cliente",
     "q": "El empleado te dice el precio. Para mostrar que entendiste y lo registraste, decís:",
     "correct": "そうですか。",
-    "opts": ["そうですか。", "そうです。", "そうですね。", "そうです か？"]
+    "opts": [
+      "そうですか。",
+      "そうです。",
+      "そうですね。",
+      "そうです か？"
+    ]
   },
   {
+    "id": "U2B-060",
     "cat": "Orden de compra",
     "q": "¿Cuál es el orden típico de un diálogo de compra?",
     "correct": "いらっしゃいませ → (preguntar precio) → そうですか → じゃ、~ください → どうぞ",
-    "opts": ["いらっしゃいませ → (preguntar precio) → そうですか → じゃ、~ください → どうぞ", "(preguntar precio) → いらっしゃいませ → じゃ、~ください → どうぞ", "いらっしゃいませ → じゃ、~ください → (preguntar precio) → どうぞ", "どうぞ → (preguntar precio) → いらっしゃいませ → じゃ、~ください"]
+    "opts": [
+      "いらっしゃいませ → (preguntar precio) → そうですか → じゃ、~ください → どうぞ",
+      "(preguntar precio) → いらっしゃいませ → じゃ、~ください → どうぞ",
+      "いらっしゃいませ → じゃ、~ください → (preguntar precio) → どうぞ",
+      "どうぞ → (preguntar precio) → いらっしゃいませ → じゃ、~ください"
+    ]
   },
   {
+    "id": "U2B-061",
     "cat": "Vocabulario completo",
     "q": "¿Qué significa ケーキ?",
     "correct": "Torta / pastel",
-    "opts": ["Torta / pastel", "Caja", "Galletita", "Helado"]
+    "opts": [
+      "Torta / pastel",
+      "Caja",
+      "Galletita",
+      "Helado"
+    ]
   },
   {
+    "id": "U2B-062",
     "cat": "Vocabulario completo",
     "q": "¿Qué significa パン?",
     "correct": "Pan",
-    "opts": ["Pan", "Olla", "Panel", "Pantalla"]
+    "opts": [
+      "Pan",
+      "Olla",
+      "Panel",
+      "Pantalla"
+    ]
   },
   {
+    "id": "U2B-063",
     "cat": "Origen de palabra",
     "q": "パン (pan) viene del:",
     "correct": "Portugués",
-    "opts": ["Portugués", "Inglés", "Chino", "Francés"]
+    "opts": [
+      "Portugués",
+      "Inglés",
+      "Chino",
+      "Francés"
+    ]
   },
   {
+    "id": "U2B-064",
     "cat": "Partícula crítica",
     "q": "このかばん___ 5000円です。",
     "correct": "は",
-    "opts": ["は", "を", "が", "の"]
+    "opts": [
+      "は",
+      "を",
+      "が",
+      "の"
+    ]
   },
   {
+    "id": "U2B-065",
     "cat": "Partícula crítica",
     "q": "コーヒー___ ひとつ ください。",
     "correct": "を",
-    "opts": ["を", "は", "が", "に"]
+    "opts": [
+      "を",
+      "は",
+      "が",
+      "に"
+    ]
   },
   {
+    "id": "U2B-066",
     "cat": "Trampa sutil",
     "q": "¿Cuál de estas oraciones es correcta?",
     "correct": "あれは いくらですか。",
-    "opts": ["あれは いくらですか。", "あのは いくらですか。", "あの は なんがいですか。", "あれの いくらですか。"]
+    "opts": [
+      "あれは いくらですか。",
+      "あのは いくらですか。",
+      "あの は なんがいですか。",
+      "あれの いくらですか。"
+    ]
   },
   {
+    "id": "U2B-067",
     "cat": "Kanji complejo",
     "q": "¿Cuál es la lectura correcta de 辞書?",
     "correct": "じしょ",
-    "opts": ["じしょ", "じしょう", "じじょ", "じしゅ"]
+    "opts": [
+      "じしょ",
+      "じしょう",
+      "じじょ",
+      "じしゅ"
+    ]
   },
   {
+    "id": "U2B-068",
     "cat": "Contexto real",
     "q": "Cliente señala la remera que el empleado tiene en la mano: '___ Tシャツは いくらですか。'",
     "correct": "その",
-    "opts": ["その", "この", "あの", "どの"]
+    "opts": [
+      "その",
+      "この",
+      "あの",
+      "どの"
+    ]
   },
   {
+    "id": "U2B-069",
     "cat": "Pares confusos",
     "q": "¿Cuál de estas palabras NO es un demostrativo prenominal (前の名詞)?",
     "correct": "あれ",
-    "opts": ["あれ", "この", "その", "あの"]
+    "opts": [
+      "あれ",
+      "この",
+      "その",
+      "あの"
+    ]
   },
   {
+    "id": "U2B-070",
     "cat": "Reacción al precio",
     "q": "El cliente ve un precio caro. Para reaccionar sorprendido pero todavía educadamente dice:",
     "correct": "そうですか…",
-    "opts": ["そうですか…", "ちがいます", "どうぞ", "いらっしゃいませ"]
+    "opts": [
+      "そうですか…",
+      "ちがいます",
+      "どうぞ",
+      "いらっしゃいませ"
+    ]
   },
   {
+    "id": "U2B-071",
     "cat": "Diálogo integrado",
     "q": "A: この ペンは いくらですか。 B: 150円です。 A: ___、それを ください。",
     "correct": "じゃ",
-    "opts": ["じゃ", "もう", "はい", "あ"]
+    "opts": [
+      "じゃ",
+      "もう",
+      "はい",
+      "あ"
+    ]
   },
   {
+    "id": "U2B-072",
     "cat": "Vocabulario trampa",
     "q": "¿Cuál de estas palabras significa 'goma de borrar'?",
     "correct": "消しゴム",
-    "opts": ["消しゴム", "紙", "ペン", "米"]
+    "opts": [
+      "消しゴム",
+      "紙",
+      "ペン",
+      "米"
+    ]
   },
   {
+    "id": "U2B-073",
     "cat": "Español→Japonés",
     "q": "Elegí cómo preguntar '¿Cuánto cuestan estos pantalones (que tengo puestos)?'",
     "correct": "このズボンは いくらですか。",
-    "opts": ["このズボンは いくらですか。", "これズボンは いくらですか。", "このはズボン いくらですか。", "このズボン は いくらか。"]
+    "opts": [
+      "このズボンは いくらですか。",
+      "これズボンは いくらですか。",
+      "このはズボン いくらですか。",
+      "このズボン は いくらか。"
+    ]
   }
 ]

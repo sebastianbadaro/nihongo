@@ -1,5 +1,6 @@
 [
   {
+    "id": "U3A-001",
     "cat": "Lectura ～時",
     "q": "¿Cómo se lee 1時?",
     "correct": "いちじ",
@@ -11,6 +12,7 @@
     ]
   },
   {
+    "id": "U3A-002",
     "cat": "Lectura ～時",
     "q": "¿Cómo se lee 2時?",
     "correct": "にじ",
@@ -22,6 +24,7 @@
     ]
   },
   {
+    "id": "U3A-003",
     "cat": "Lectura ～時",
     "q": "¿Cómo se lee 3時?",
     "correct": "さんじ",
@@ -33,6 +36,7 @@
     ]
   },
   {
+    "id": "U3A-004",
     "cat": "Lectura ～時",
     "q": "¿Cómo se lee 4時? (⚠️ irregular)",
     "correct": "よじ",
@@ -44,6 +48,7 @@
     ]
   },
   {
+    "id": "U3A-005",
     "cat": "Lectura ～時",
     "q": "¿Cómo se lee 5時?",
     "correct": "ごじ",
@@ -55,6 +60,7 @@
     ]
   },
   {
+    "id": "U3A-006",
     "cat": "Lectura ～時",
     "q": "¿Cómo se lee 6時?",
     "correct": "ろくじ",
@@ -66,6 +72,7 @@
     ]
   },
   {
+    "id": "U3A-007",
     "cat": "Lectura ～時",
     "q": "¿Cómo se lee 7時? (⚠️ irregular)",
     "correct": "しちじ",
@@ -77,6 +84,7 @@
     ]
   },
   {
+    "id": "U3A-008",
     "cat": "Lectura ～時",
     "q": "¿Cómo se lee 8時?",
     "correct": "はちじ",
@@ -88,6 +96,7 @@
     ]
   },
   {
+    "id": "U3A-009",
     "cat": "Lectura ～時",
     "q": "¿Cómo se lee 9時? (⚠️ irregular)",
     "correct": "くじ",
@@ -99,6 +108,7 @@
     ]
   },
   {
+    "id": "U3A-010",
     "cat": "Lectura ～時",
     "q": "¿Cómo se lee 10時?",
     "correct": "じゅうじ",
@@ -110,6 +120,7 @@
     ]
   },
   {
+    "id": "U3A-011",
     "cat": "Lectura ～時",
     "q": "¿Cómo se lee 11時?",
     "correct": "じゅういちじ",
@@ -121,6 +132,7 @@
     ]
   },
   {
+    "id": "U3A-012",
     "cat": "Lectura ～時",
     "q": "¿Cómo se lee 12時?",
     "correct": "じゅうにじ",
@@ -132,6 +144,7 @@
     ]
   },
   {
+    "id": "U3A-013",
     "cat": "Lectura ～時",
     "q": "¿Cómo se lee 何時?",
     "correct": "なんじ",
@@ -143,6 +156,7 @@
     ]
   },
   {
+    "id": "U3A-014",
     "cat": "Lectura ～分",
     "q": "¿Cómo se lee 1分? (⚠️ irregular)",
     "correct": "いっぷん",
@@ -154,6 +168,7 @@
     ]
   },
   {
+    "id": "U3A-015",
     "cat": "Lectura ～分",
     "q": "¿Cómo se lee 2分?",
     "correct": "にふん",
@@ -165,6 +180,7 @@
     ]
   },
   {
+    "id": "U3A-016",
     "cat": "Lectura ～分",
     "q": "¿Cómo se lee 3分?",
     "correct": "さんぷん",
@@ -176,6 +192,7 @@
     ]
   },
   {
+    "id": "U3A-017",
     "cat": "Lectura ～分",
     "q": "¿Cómo se lee 4分?",
     "correct": "よんぷん",
@@ -187,6 +204,7 @@
     ]
   },
   {
+    "id": "U3A-018",
     "cat": "Lectura ～分",
     "q": "¿Cómo se lee 5分?",
     "correct": "ごふん",
@@ -198,6 +216,7 @@
     ]
   },
   {
+    "id": "U3A-019",
     "cat": "Lectura ～分",
     "q": "¿Cómo se lee 6分? (⚠️ irregular)",
     "correct": "ろっぷん",
@@ -209,6 +228,7 @@
     ]
   },
   {
+    "id": "U3A-020",
     "cat": "Lectura ～分",
     "q": "¿Cómo se lee 7分?",
     "correct": "ななふん",
@@ -220,6 +240,7 @@
     ]
   },
   {
+    "id": "U3A-021",
     "cat": "Lectura ～分",
     "q": "¿Cómo se lee 8分? (⚠️ irregular)",
     "correct": "はっぷん",
@@ -231,6 +252,7 @@
     ]
   },
   {
+    "id": "U3A-022",
     "cat": "Lectura ～分",
     "q": "¿Cómo se lee 9分?",
     "correct": "きゅうふん",
@@ -242,6 +264,7 @@
     ]
   },
   {
+    "id": "U3A-023",
     "cat": "Lectura ～分",
     "q": "¿Cómo se lee 10分? (⚠️ irregular)",
     "correct": "じゅっぷん",
@@ -253,6 +276,7 @@
     ]
   },
   {
+    "id": "U3A-024",
     "cat": "Lectura ～分",
     "q": "¿Cómo se lee 15分?",
     "correct": "じゅうごふん",
@@ -264,6 +288,7 @@
     ]
   },
   {
+    "id": "U3A-025",
     "cat": "Lectura ～分",
     "q": "¿Cómo se lee 30分? (también = 半)",
     "correct": "さんじゅっぷん",
@@ -275,6 +300,7 @@
     ]
   },
   {
+    "id": "U3A-026",
     "cat": "Lectura ～分",
     "q": "¿Cómo se lee 何分?",
     "correct": "なんぷん",
@@ -286,6 +312,7 @@
     ]
   },
   {
+    "id": "U3A-027",
     "cat": "Días: Kanji→Español",
     "q": "¿Qué día es 月曜日?",
     "correct": "Lunes",
@@ -297,6 +324,7 @@
     ]
   },
   {
+    "id": "U3A-028",
     "cat": "Días: Kanji→Español",
     "q": "¿Qué día es 火曜日?",
     "correct": "Martes",
@@ -308,6 +336,7 @@
     ]
   },
   {
+    "id": "U3A-029",
     "cat": "Días: Kanji→Español",
     "q": "¿Qué día es 水曜日?",
     "correct": "Miércoles",
@@ -319,6 +348,7 @@
     ]
   },
   {
+    "id": "U3A-030",
     "cat": "Días: Kanji→Español",
     "q": "¿Qué día es 木曜日?",
     "correct": "Jueves",
@@ -330,6 +360,7 @@
     ]
   },
   {
+    "id": "U3A-031",
     "cat": "Días: Kanji→Español",
     "q": "¿Qué día es 金曜日?",
     "correct": "Viernes",
@@ -341,6 +372,7 @@
     ]
   },
   {
+    "id": "U3A-032",
     "cat": "Días: Kanji→Español",
     "q": "¿Qué día es 土曜日?",
     "correct": "Sábado",
@@ -352,6 +384,7 @@
     ]
   },
   {
+    "id": "U3A-033",
     "cat": "Días: Kanji→Español",
     "q": "¿Qué día es 日曜日?",
     "correct": "Domingo",
@@ -363,6 +396,7 @@
     ]
   },
   {
+    "id": "U3A-034",
     "cat": "Días: Kanji→Español",
     "q": "¿Qué significa 何曜日?",
     "correct": "¿Qué día de la semana?",
@@ -374,6 +408,7 @@
     ]
   },
   {
+    "id": "U3A-035",
     "cat": "Días: Kanji→Lectura",
     "q": "¿Cómo se lee 月曜日?",
     "correct": "げつようび",
@@ -385,6 +420,7 @@
     ]
   },
   {
+    "id": "U3A-036",
     "cat": "Días: Kanji→Lectura",
     "q": "¿Cómo se lee 火曜日?",
     "correct": "かようび",
@@ -396,6 +432,7 @@
     ]
   },
   {
+    "id": "U3A-037",
     "cat": "Días: Kanji→Lectura",
     "q": "¿Cómo se lee 水曜日?",
     "correct": "すいようび",
@@ -407,6 +444,7 @@
     ]
   },
   {
+    "id": "U3A-038",
     "cat": "Días: Kanji→Lectura",
     "q": "¿Cómo se lee 木曜日?",
     "correct": "もくようび",
@@ -418,6 +456,7 @@
     ]
   },
   {
+    "id": "U3A-039",
     "cat": "Días: Kanji→Lectura",
     "q": "¿Cómo se lee 金曜日?",
     "correct": "きんようび",
@@ -429,6 +468,7 @@
     ]
   },
   {
+    "id": "U3A-040",
     "cat": "Días: Kanji→Lectura",
     "q": "¿Cómo se lee 土曜日?",
     "correct": "どようび",
@@ -440,6 +480,7 @@
     ]
   },
   {
+    "id": "U3A-041",
     "cat": "Días: Kanji→Lectura",
     "q": "¿Cómo se lee 日曜日?",
     "correct": "にちようび",
@@ -451,6 +492,7 @@
     ]
   },
   {
+    "id": "U3A-042",
     "cat": "Días: Kanji→Lectura",
     "q": "¿Cómo se lee 何曜日?",
     "correct": "なんようび",
@@ -462,6 +504,7 @@
     ]
   },
   {
+    "id": "U3A-043",
     "cat": "Días: Español→Kanji",
     "q": "¿Cuál es el kanji de 'lunes'?",
     "correct": "月曜日",
@@ -473,6 +516,7 @@
     ]
   },
   {
+    "id": "U3A-044",
     "cat": "Días: Español→Kanji",
     "q": "¿Cuál es el kanji de 'martes'?",
     "correct": "火曜日",
@@ -484,6 +528,7 @@
     ]
   },
   {
+    "id": "U3A-045",
     "cat": "Días: Español→Kanji",
     "q": "¿Cuál es el kanji de 'miércoles'?",
     "correct": "水曜日",
@@ -495,6 +540,7 @@
     ]
   },
   {
+    "id": "U3A-046",
     "cat": "Días: Español→Kanji",
     "q": "¿Cuál es el kanji de 'jueves'?",
     "correct": "木曜日",
@@ -506,6 +552,7 @@
     ]
   },
   {
+    "id": "U3A-047",
     "cat": "Días: Español→Kanji",
     "q": "¿Cuál es el kanji de 'viernes'?",
     "correct": "金曜日",
@@ -517,6 +564,7 @@
     ]
   },
   {
+    "id": "U3A-048",
     "cat": "Días: Español→Kanji",
     "q": "¿Cuál es el kanji de 'sábado'?",
     "correct": "土曜日",
@@ -528,6 +576,7 @@
     ]
   },
   {
+    "id": "U3A-049",
     "cat": "Días: Español→Kanji",
     "q": "¿Cuál es el kanji de 'domingo'?",
     "correct": "日曜日",
@@ -539,6 +588,7 @@
     ]
   },
   {
+    "id": "U3A-050",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 銀行?",
     "correct": "Banco",
@@ -550,6 +600,7 @@
     ]
   },
   {
+    "id": "U3A-051",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 体育館?",
     "correct": "Gimnasio / polideportivo",
@@ -561,6 +612,7 @@
     ]
   },
   {
+    "id": "U3A-052",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 図書館?",
     "correct": "Biblioteca",
@@ -572,6 +624,7 @@
     ]
   },
   {
+    "id": "U3A-053",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 病院?",
     "correct": "Hospital",
@@ -583,6 +636,7 @@
     ]
   },
   {
+    "id": "U3A-054",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 郵便局?",
     "correct": "Correo / oficina postal",
@@ -594,6 +648,7 @@
     ]
   },
   {
+    "id": "U3A-055",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 授業?",
     "correct": "Clase / lección",
@@ -605,6 +660,7 @@
     ]
   },
   {
+    "id": "U3A-056",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 休み?",
     "correct": "Descanso / día libre / vacaciones",
@@ -616,6 +672,7 @@
     ]
   },
   {
+    "id": "U3A-057",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 時間?",
     "correct": "Tiempo / duración / hora",
@@ -627,6 +684,7 @@
     ]
   },
   {
+    "id": "U3A-058",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 今?",
     "correct": "Ahora",
@@ -638,6 +696,7 @@
     ]
   },
   {
+    "id": "U3A-059",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 午前?",
     "correct": "A.M. / de la mañana",
@@ -649,6 +708,7 @@
     ]
   },
   {
+    "id": "U3A-060",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 午後?",
     "correct": "P.M. / de la tarde",
@@ -660,6 +720,7 @@
     ]
   },
   {
+    "id": "U3A-061",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 昼?",
     "correct": "Mediodía / día",
@@ -671,6 +732,7 @@
     ]
   },
   {
+    "id": "U3A-062",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 銀行?",
     "correct": "ぎんこう",
@@ -682,6 +744,7 @@
     ]
   },
   {
+    "id": "U3A-063",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 体育館?",
     "correct": "たいいくかん",
@@ -693,6 +756,7 @@
     ]
   },
   {
+    "id": "U3A-064",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 図書館?",
     "correct": "としょかん",
@@ -704,6 +768,7 @@
     ]
   },
   {
+    "id": "U3A-065",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 病院?",
     "correct": "びょういん",
@@ -715,6 +780,7 @@
     ]
   },
   {
+    "id": "U3A-066",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 郵便局?",
     "correct": "ゆうびんきょく",
@@ -726,6 +792,7 @@
     ]
   },
   {
+    "id": "U3A-067",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 授業?",
     "correct": "じゅぎょう",
@@ -737,6 +804,7 @@
     ]
   },
   {
+    "id": "U3A-068",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 休み?",
     "correct": "やすみ",
@@ -748,6 +816,7 @@
     ]
   },
   {
+    "id": "U3A-069",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 時間?",
     "correct": "じかん",
@@ -759,6 +828,7 @@
     ]
   },
   {
+    "id": "U3A-070",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 今?",
     "correct": "いま",
@@ -770,6 +840,7 @@
     ]
   },
   {
+    "id": "U3A-071",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 午前?",
     "correct": "ごぜん",
@@ -781,6 +852,7 @@
     ]
   },
   {
+    "id": "U3A-072",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 午後?",
     "correct": "ごご",
@@ -792,6 +864,7 @@
     ]
   },
   {
+    "id": "U3A-073",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 昼?",
     "correct": "ひる",
@@ -803,6 +876,7 @@
     ]
   },
   {
+    "id": "U3A-074",
     "cat": "Español→Kanji",
     "q": "¿Cuál es el kanji de 'banco'?",
     "correct": "銀行",
@@ -814,6 +888,7 @@
     ]
   },
   {
+    "id": "U3A-075",
     "cat": "Español→Kanji",
     "q": "¿Cuál es el kanji de 'biblioteca'?",
     "correct": "図書館",
@@ -825,6 +900,7 @@
     ]
   },
   {
+    "id": "U3A-076",
     "cat": "Español→Kanji",
     "q": "¿Cuál es el kanji de 'hospital'?",
     "correct": "病院",
@@ -836,6 +912,7 @@
     ]
   },
   {
+    "id": "U3A-077",
     "cat": "Español→Kanji",
     "q": "¿Cuál es el kanji de 'correo'?",
     "correct": "郵便局",
@@ -847,6 +924,7 @@
     ]
   },
   {
+    "id": "U3A-078",
     "cat": "Español→Kanji",
     "q": "¿Cuál es el kanji de 'gimnasio'?",
     "correct": "体育館",
@@ -858,6 +936,7 @@
     ]
   },
   {
+    "id": "U3A-079",
     "cat": "Leer hora",
     "q": "'今、9時20分です' se lee:",
     "correct": "いま、くじ にじゅっぷんです",
@@ -869,6 +948,7 @@
     ]
   },
   {
+    "id": "U3A-080",
     "cat": "Leer hora",
     "q": "'8時15分前です' significa:",
     "correct": "Son las 7:45 (15 para las 8)",
@@ -880,6 +960,7 @@
     ]
   },
   {
+    "id": "U3A-081",
     "cat": "Leer hora",
     "q": "'9時から5時までです' significa:",
     "correct": "Es de 9 a 5.",
@@ -891,6 +972,7 @@
     ]
   },
   {
+    "id": "U3A-082",
     "cat": "Leer hora",
     "q": "'4時半です' significa:",
     "correct": "Son las 4 y media.",
@@ -902,6 +984,7 @@
     ]
   },
   {
+    "id": "U3A-083",
     "cat": "Leer hora",
     "q": "¿Cómo escribimos 'las 7 y media' en japonés (kanji)?",
     "correct": "7時半です",
@@ -913,6 +996,7 @@
     ]
   },
   {
+    "id": "U3A-084",
     "cat": "Leer hora",
     "q": "¿Cuál significa 'son las 3:45' (un cuarto para las 4)?",
     "correct": "4時15分前です",
@@ -924,6 +1008,7 @@
     ]
   },
   {
+    "id": "U3A-085",
     "cat": "Partícula",
     "q": "9時＿＿5時までです。 — ¿Qué partícula va?",
     "correct": "から",
@@ -935,6 +1020,7 @@
     ]
   },
   {
+    "id": "U3A-086",
     "cat": "Partícula",
     "q": "9時から5時＿＿です。 — ¿Qué partícula va?",
     "correct": "まで",
@@ -946,6 +1032,7 @@
     ]
   },
   {
+    "id": "U3A-087",
     "cat": "Partícula",
     "q": "¿Qué significa から en 'X時からY時まで'?",
     "correct": "Desde (punto de inicio)",
@@ -957,6 +1044,7 @@
     ]
   },
   {
+    "id": "U3A-088",
     "cat": "Partícula",
     "q": "¿Qué significa まで en 'X時からY時まで'?",
     "correct": "Hasta (punto final)",
@@ -968,6 +1056,7 @@
     ]
   },
   {
+    "id": "U3A-089",
     "cat": "Partícula",
     "q": "'月曜日から金曜日まで' significa:",
     "correct": "De lunes a viernes",
@@ -979,6 +1068,7 @@
     ]
   },
   {
+    "id": "U3A-090",
     "cat": "Partícula",
     "q": "'9時＿＿おきます。' (a las 9 me levanto) — ¿Qué partícula indica punto específico en el tiempo?",
     "correct": "に",
@@ -990,6 +1080,7 @@
     ]
   },
   {
+    "id": "U3A-091",
     "cat": "Partícula",
     "q": "Ante '昼やすみは12時から1時までです', ¿qué se informa?",
     "correct": "El descanso va de 12 a 1.",
@@ -1001,6 +1092,7 @@
     ]
   },
   {
+    "id": "U3A-092",
     "cat": "Diálogo",
     "q": "'すみません。今、何時ですか。' es:",
     "correct": "Disculpe, ¿qué hora es ahora?",
@@ -1012,6 +1104,7 @@
     ]
   },
   {
+    "id": "U3A-093",
     "cat": "Diálogo",
     "q": "Si alguien te pregunta 'そちらは何時から何時までですか', te pregunta:",
     "correct": "El horario de atención (de X a Y hora).",
@@ -1023,6 +1116,7 @@
     ]
   },
   {
+    "id": "U3A-094",
     "cat": "Diálogo",
     "q": "Si alguien pregunta '休みはいつですか', te pregunta:",
     "correct": "Cuándo es el día de descanso / cierre.",
@@ -1034,6 +1128,7 @@
     ]
   },
   {
+    "id": "U3A-095",
     "cat": "Diálogo",
     "q": "Respuesta natural a '休みはいつですか':",
     "correct": "月曜日です。",
@@ -1045,6 +1140,7 @@
     ]
   },
   {
+    "id": "U3A-096",
     "cat": "Diálogo",
     "q": "Una respuesta natural a '今、何時ですか':",
     "correct": "10時です。",
@@ -1056,6 +1152,7 @@
     ]
   },
   {
+    "id": "U3A-097",
     "cat": "Diálogo",
     "q": "Respuesta a 'そちらは何時から何時までですか':",
     "correct": "9時から7時までです。",
@@ -1067,6 +1164,7 @@
     ]
   },
   {
+    "id": "U3A-098",
     "cat": "Diálogo",
     "q": "Para llamar la atención educadamente se dice:",
     "correct": "すみません",
@@ -1078,6 +1176,7 @@
     ]
   },
   {
+    "id": "U3A-099",
     "cat": "Diálogo",
     "q": "Para agradecer (después de recibir la info) se dice:",
     "correct": "ありがとうございます",
@@ -1089,6 +1188,7 @@
     ]
   },
   {
+    "id": "U3A-100",
     "cat": "Gramática",
     "q": "¿Cómo se pregunta '¿qué hora es ahora?' (forma educada)?",
     "correct": "今、何時ですか。",
@@ -1100,6 +1200,7 @@
     ]
   },
   {
+    "id": "U3A-101",
     "cat": "Gramática",
     "q": "¿Cómo se pregunta '¿qué día (de la semana) es?'?",
     "correct": "何曜日ですか。",
@@ -1111,6 +1212,7 @@
     ]
   },
   {
+    "id": "U3A-102",
     "cat": "Gramática",
     "q": "¿Cómo se pregunta '¿hasta qué hora?'?",
     "correct": "何時までですか。",
@@ -1122,6 +1224,7 @@
     ]
   },
   {
+    "id": "U3A-103",
     "cat": "Gramática",
     "q": "¿Cómo se pregunta '¿desde qué hora?'?",
     "correct": "何時からですか。",
@@ -1133,6 +1236,7 @@
     ]
   },
   {
+    "id": "U3A-104",
     "cat": "Gramática",
     "q": "¿Cómo se pregunta '¿cuándo?' de forma general (fecha/día)?",
     "correct": "いつですか。",
@@ -1144,6 +1248,7 @@
     ]
   },
   {
+    "id": "U3A-105",
     "cat": "Traducción JP→ES",
     "q": "'銀行は9時から3時までです' significa:",
     "correct": "El banco es de 9 a 3.",
@@ -1155,6 +1260,7 @@
     ]
   },
   {
+    "id": "U3A-106",
     "cat": "Traducción JP→ES",
     "q": "'図書館の休みは月曜日です' significa:",
     "correct": "El día de cierre de la biblioteca es el lunes.",
@@ -1166,6 +1272,7 @@
     ]
   },
   {
+    "id": "U3A-107",
     "cat": "Traducción JP→ES",
     "q": "'授業は9時からです' significa:",
     "correct": "La clase es desde las 9.",
@@ -1177,6 +1284,7 @@
     ]
   },
   {
+    "id": "U3A-108",
     "cat": "Traducción JP→ES",
     "q": "'テストは金曜日です' significa:",
     "correct": "El examen es el viernes.",
@@ -1188,6 +1296,7 @@
     ]
   },
   {
+    "id": "U3A-109",
     "cat": "Traducción JP→ES",
     "q": "'午前10時です' significa:",
     "correct": "Son las 10 a.m.",
@@ -1199,6 +1308,7 @@
     ]
   },
   {
+    "id": "U3A-110",
     "cat": "Traducción JP→ES",
     "q": "'午後3時半です' significa:",
     "correct": "Son las 3:30 p.m.",
@@ -1210,6 +1320,7 @@
     ]
   },
   {
+    "id": "U3A-111",
     "cat": "Traducción ES→JP",
     "q": "'Son las 9:20' — ¿cuál es correcta?",
     "correct": "9時20分です。",
@@ -1221,6 +1332,7 @@
     ]
   },
   {
+    "id": "U3A-112",
     "cat": "Traducción ES→JP",
     "q": "'Son las 4 y media' — ¿cuál es correcta?",
     "correct": "4時半です。",
@@ -1232,6 +1344,7 @@
     ]
   },
   {
+    "id": "U3A-113",
     "cat": "Traducción ES→JP",
     "q": "'El banco es de 9 a 3' — ¿cuál es correcta?",
     "correct": "銀行は9時から3時までです。",
@@ -1243,6 +1356,7 @@
     ]
   },
   {
+    "id": "U3A-114",
     "cat": "Traducción ES→JP",
     "q": "'La biblioteca descansa los lunes' — ¿cuál es correcta?",
     "correct": "図書館の休みは月曜日です。",
@@ -1254,6 +1368,7 @@
     ]
   },
   {
+    "id": "U3A-115",
     "cat": "Traducción ES→JP",
     "q": "'La clase es de 9 a 12:30' — ¿cuál es correcta?",
     "correct": "授業は9時から12時半までです。",
@@ -1265,6 +1380,7 @@
     ]
   },
   {
+    "id": "U3A-116",
     "cat": "Traducción ES→JP",
     "q": "'¿Hasta qué hora?' — ¿cuál es correcta?",
     "correct": "何時までですか。",
@@ -1276,6 +1392,7 @@
     ]
   },
   {
+    "id": "U3A-117",
     "cat": "Uso en contexto",
     "q": "Entrás a un correo y querés saber el horario. ¿Qué preguntás?",
     "correct": "そちらは何時から何時までですか。",
@@ -1287,6 +1404,7 @@
     ]
   },
   {
+    "id": "U3A-118",
     "cat": "Uso en contexto",
     "q": "Para decir 'de lunes a viernes' en kanji:",
     "correct": "月曜日から金曜日まで",
@@ -1298,6 +1416,7 @@
     ]
   },
   {
+    "id": "U3A-119",
     "cat": "Uso en contexto",
     "q": "¿Cuál palabra completa: 'X時Y分＿＿'? (quiere decir 'antes de')",
     "correct": "前",
@@ -1309,6 +1428,7 @@
     ]
   },
   {
+    "id": "U3A-120",
     "cat": "Uso en contexto",
     "q": "¿Qué diferencia hay entre 時 y 時間?",
     "correct": "時 = hora puntual (las 3) / 時間 = duración (horas, tiempo)",
@@ -1320,6 +1440,7 @@
     ]
   },
   {
+    "id": "U3A-121",
     "cat": "Uso en contexto",
     "q": "'午前10時' es:",
     "correct": "Las 10 de la mañana",
@@ -1331,6 +1452,7 @@
     ]
   },
   {
+    "id": "U3A-122",
     "cat": "Uso en contexto",
     "q": "'午後9時' es:",
     "correct": "Las 9 de la noche",
@@ -1342,6 +1464,7 @@
     ]
   },
   {
+    "id": "U3A-123",
     "cat": "Uso en contexto",
     "q": "Si un lugar está '休み' un día, significa que ese día:",
     "correct": "Está cerrado / es día de descanso",
@@ -1353,6 +1476,7 @@
     ]
   },
   {
+    "id": "U3A-124",
     "cat": "Uso en contexto",
     "q": "Si alguien dice '病院は9時からです', quiere decir:",
     "correct": "El hospital atiende desde las 9.",
@@ -1364,6 +1488,7 @@
     ]
   },
   {
+    "id": "U3A-125",
     "cat": "Sutileza",
     "q": "¿Cuál de estas lecturas de 時 es INCORRECTA?",
     "correct": "7時 = ななじ",
@@ -1375,6 +1500,7 @@
     ]
   },
   {
+    "id": "U3A-126",
     "cat": "Sutileza",
     "q": "¿Cuál lectura de 分 es INCORRECTA?",
     "correct": "10分 = じゅうふん",
@@ -1386,6 +1512,7 @@
     ]
   },
   {
+    "id": "U3A-127",
     "cat": "Sutileza",
     "q": "'半' después de una hora significa:",
     "correct": "Y media (30 minutos)",
@@ -1397,6 +1524,7 @@
     ]
   },
   {
+    "id": "U3A-128",
     "cat": "Sutileza",
     "q": "'前' después de 'X時Y分' significa:",
     "correct": "Faltan Y minutos para las X (antes de)",
@@ -1408,6 +1536,7 @@
     ]
   },
   {
+    "id": "U3A-129",
     "cat": "Sutileza",
     "q": "¿Cuál es la respuesta correcta a '何曜日ですか'?",
     "correct": "水曜日です。",
@@ -1419,6 +1548,7 @@
     ]
   },
   {
+    "id": "U3A-130",
     "cat": "Sutileza",
     "q": "¿Cuál es la respuesta correcta a 'いつですか' (cuando se pregunta por un día)?",
     "correct": "金曜日です。",
@@ -1430,6 +1560,7 @@
     ]
   },
   {
+    "id": "U3A-131",
     "cat": "Sutileza",
     "q": "En '7時15分前です', ¿qué hora es realmente?",
     "correct": "6:45",
@@ -1441,6 +1572,7 @@
     ]
   },
   {
+    "id": "U3A-132",
     "cat": "Sutileza",
     "q": "En '10時半です', ¿qué hora es?",
     "correct": "10:30",
@@ -1452,6 +1584,7 @@
     ]
   },
   {
+    "id": "U3A-133",
     "cat": "Japonés→Español",
     "q": "¿Qué significa テスト?",
     "correct": "Examen / test",
@@ -1463,6 +1596,7 @@
     ]
   },
   {
+    "id": "U3A-134",
     "cat": "Japonés→Español",
     "q": "¿Qué es スケジュール?",
     "correct": "Agenda / horario",

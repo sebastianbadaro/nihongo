@@ -1,422 +1,842 @@
 [
   {
+    "id": "U2A-001",
     "cat": "Frase clave",
     "q": "¿Cómo se pregunta '¿Dónde está el baño?' en japonés?",
     "correct": "トイレは どこですか。",
-    "opts": ["トイレは どこですか。", "トイレは なんですか。", "トイレは だれですか。", "トイレは いつですか。"]
+    "opts": [
+      "トイレは どこですか。",
+      "トイレは なんですか。",
+      "トイレは だれですか。",
+      "トイレは いつですか。"
+    ]
   },
   {
+    "id": "U2A-002",
     "cat": "Vocabulario",
     "q": "¿Qué significa 喫茶店 (きっさてん)?",
     "correct": "Cafetería",
-    "opts": ["Cafetería", "Restaurante", "Supermercado", "Cajero automático"]
+    "opts": [
+      "Cafetería",
+      "Restaurante",
+      "Supermercado",
+      "Cajero automático"
+    ]
   },
   {
+    "id": "U2A-003",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'ascensor' en japonés?",
     "correct": "エレベーター",
-    "opts": ["エレベーター", "エスカレーター", "インフォメーション", "レジ"]
+    "opts": [
+      "エレベーター",
+      "エスカレーター",
+      "インフォメーション",
+      "レジ"
+    ]
   },
   {
+    "id": "U2A-004",
     "cat": "Distinción",
     "q": "La empleada te señala un lugar lejano y dice formalmente '___です'. ¿Qué palabra usa?",
     "correct": "あちら",
-    "opts": ["あちら", "あそこ", "あれ", "あの"]
+    "opts": [
+      "あちら",
+      "あそこ",
+      "あれ",
+      "あの"
+    ]
   },
   {
+    "id": "U2A-005",
     "cat": "Distinción",
     "q": "Estás en la entrada del centro comercial y preguntás por algo cerca de vos. ¿Qué demostrativo de lugar usarías para 'aquí'?",
     "correct": "ここ",
-    "opts": ["ここ", "そこ", "あそこ", "どこ"]
+    "opts": [
+      "ここ",
+      "そこ",
+      "あそこ",
+      "どこ"
+    ]
   },
   {
+    "id": "U2A-006",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 地下 (el subsuelo)?",
     "correct": "ちか",
-    "opts": ["ちか", "ちが", "じか", "じげ"]
+    "opts": [
+      "ちか",
+      "ちが",
+      "じか",
+      "じげ"
+    ]
   },
   {
+    "id": "U2A-007",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 喫煙所?",
     "correct": "きつえんじょ",
-    "opts": ["きつえんじょ", "きつえんしょ", "きっえんじょ", "きえんじょ"]
+    "opts": [
+      "きつえんじょ",
+      "きつえんしょ",
+      "きっえんじょ",
+      "きえんじょ"
+    ]
   },
   {
+    "id": "U2A-008",
     "cat": "Contador ~階",
     "q": "¿Cómo se dice correctamente '3er piso'?",
     "correct": "さんがい",
-    "opts": ["さんがい", "さんかい", "さんぱい", "さんばい"]
+    "opts": [
+      "さんがい",
+      "さんかい",
+      "さんぱい",
+      "さんばい"
+    ]
   },
   {
+    "id": "U2A-009",
     "cat": "Contador ~階",
     "q": "¿Cuál es la lectura correcta de 1階?",
     "correct": "いっかい",
-    "opts": ["いっかい", "いちかい", "ひとかい", "いちがい"]
+    "opts": [
+      "いっかい",
+      "いちかい",
+      "ひとかい",
+      "いちがい"
+    ]
   },
   {
+    "id": "U2A-010",
     "cat": "Contador ~階",
     "q": "¿Cuál es la lectura correcta de 6階?",
     "correct": "ろっかい",
-    "opts": ["ろっかい", "ろくかい", "ろくがい", "ろっがい"]
+    "opts": [
+      "ろっかい",
+      "ろくかい",
+      "ろくがい",
+      "ろっがい"
+    ]
   },
   {
+    "id": "U2A-011",
     "cat": "Contador ~階",
     "q": "¿Cómo se pregunta '¿En qué piso?'?",
     "correct": "なんがいですか",
-    "opts": ["なんがいですか", "なにかいですか", "どこかいですか", "なんのかいですか"]
+    "opts": [
+      "なんがいですか",
+      "なにかいですか",
+      "どこかいですか",
+      "なんのかいですか"
+    ]
   },
   {
+    "id": "U2A-012",
     "cat": "Contador ~階",
     "q": "¿Cuál es la lectura correcta de 10階?",
     "correct": "じゅっかい",
-    "opts": ["じゅっかい", "じゅうかい", "とおかい", "じゅうがい"]
+    "opts": [
+      "じゅっかい",
+      "じゅうかい",
+      "とおかい",
+      "じゅうがい"
+    ]
   },
   {
+    "id": "U2A-013",
     "cat": "Contador ~階",
     "q": "¿Cómo se dice 'subsuelo 1' (primer sótano)?",
     "correct": "ちかいっかい",
-    "opts": ["ちかいっかい", "ちかいちかい", "ちかさんがい", "したいっかい"]
+    "opts": [
+      "ちかいっかい",
+      "ちかいちかい",
+      "ちかさんがい",
+      "したいっかい"
+    ]
   },
   {
+    "id": "U2A-014",
     "cat": "Situación",
     "q": "En una tienda preguntás dónde queda la caja. ¿Cuál es la oración correcta?",
     "correct": "すみません、レジは どこですか。",
-    "opts": ["すみません、レジは どこですか。", "すみません、レジは なんですか。", "ありがとう、レジは どこですか。", "すみません、レジは どれですか。"]
+    "opts": [
+      "すみません、レジは どこですか。",
+      "すみません、レジは なんですか。",
+      "ありがとう、レジは どこですか。",
+      "すみません、レジは どれですか。"
+    ]
   },
   {
+    "id": "U2A-015",
     "cat": "Vocabulario",
     "q": "¿Qué significa 100円ショップ (ひゃくえんショップ)?",
     "correct": "Tienda de 100 yenes",
-    "opts": ["Tienda de 100 yenes", "Tienda con 100 productos", "Kiosco", "Tienda de conveniencia"]
+    "opts": [
+      "Tienda de 100 yenes",
+      "Tienda con 100 productos",
+      "Kiosco",
+      "Tienda de conveniencia"
+    ]
   },
   {
+    "id": "U2A-016",
     "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre そこ y そちら?",
     "correct": "そちら es la forma formal/educada de そこ",
-    "opts": ["そちら es la forma formal/educada de そこ", "そちら indica más lejos que そこ", "そちら se usa solo para personas", "No hay diferencia, son sinónimos exactos"]
+    "opts": [
+      "そちら es la forma formal/educada de そこ",
+      "そちら indica más lejos que そこ",
+      "そちら se usa solo para personas",
+      "No hay diferencia, son sinónimos exactos"
+    ]
   },
   {
+    "id": "U2A-017",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'información' (mostrador de informes)?",
     "correct": "インフォメーション",
-    "opts": ["インフォメーション", "インフォマーション", "インフォルメーション", "アナウンス"]
+    "opts": [
+      "インフォメーション",
+      "インフォマーション",
+      "インフォルメーション",
+      "アナウンス"
+    ]
   },
   {
+    "id": "U2A-018",
     "cat": "Traducción",
     "q": "¿Cómo se dice 'Por aquí' (forma educada, señalando cerca)?",
     "correct": "こちらです",
-    "opts": ["こちらです", "ここです", "これです", "こっちです"]
+    "opts": [
+      "こちらです",
+      "ここです",
+      "これです",
+      "こっちです"
+    ]
   },
   {
+    "id": "U2A-019",
     "cat": "Diálogo",
     "q": "Cliente: すみません、スーパーは なんがいですか。 Empleado: ___. ¿Cuál es la respuesta natural si el supermercado está en el subsuelo?",
     "correct": "ちかいっかいです",
-    "opts": ["ちかいっかいです", "ちかです", "したかいです", "ちかさんがいです"]
+    "opts": [
+      "ちかいっかいです",
+      "ちかです",
+      "したかいです",
+      "ちかさんがいです"
+    ]
   },
   {
+    "id": "U2A-020",
     "cat": "Partícula",
     "q": "カメラは___どこですか。¿Qué partícula falta?",
     "correct": "(ninguna, va directo)",
-    "opts": ["(ninguna, va directo)", "を", "の", "が"]
+    "opts": [
+      "(ninguna, va directo)",
+      "を",
+      "の",
+      "が"
+    ]
   },
   {
+    "id": "U2A-021",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 何階?",
     "correct": "なんがい",
-    "opts": ["なんがい", "なにかい", "なんかい", "なんがいじ"]
+    "opts": [
+      "なんがい",
+      "なにかい",
+      "なんかい",
+      "なんがいじ"
+    ]
   },
   {
+    "id": "U2A-022",
     "cat": "Vocabulario",
     "q": "¿Qué significa レジ?",
     "correct": "Caja registradora",
-    "opts": ["Caja registradora", "Restaurante", "Registro de ingreso", "Recepción"]
+    "opts": [
+      "Caja registradora",
+      "Restaurante",
+      "Registro de ingreso",
+      "Recepción"
+    ]
   },
   {
+    "id": "U2A-023",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'escalera mecánica'?",
     "correct": "エスカレーター",
-    "opts": ["エスカレーター", "エレベーター", "ステアス", "ラダー"]
+    "opts": [
+      "エスカレーター",
+      "エレベーター",
+      "ステアス",
+      "ラダー"
+    ]
   },
   {
+    "id": "U2A-024",
     "cat": "Distinción",
     "q": "Estás buscando algo y lo ves cerca de tu interlocutor. ¿Qué demostrativo de lugar usarías?",
     "correct": "そこ",
-    "opts": ["そこ", "ここ", "あそこ", "どこ"]
+    "opts": [
+      "そこ",
+      "ここ",
+      "あそこ",
+      "どこ"
+    ]
   },
   {
+    "id": "U2A-025",
     "cat": "Situación formal",
     "q": "Un empleado formal quiere indicarte 'por allá (lejos)'. Dirá:",
     "correct": "あちらです",
-    "opts": ["あちらです", "あそこです", "あれです", "あっちです"]
+    "opts": [
+      "あちらです",
+      "あそこです",
+      "あれです",
+      "あっちです"
+    ]
   },
   {
+    "id": "U2A-026",
     "cat": "Traducción ES→JA",
     "q": "¿Cómo se dice 'El baño está ahí (cerca tuyo)' usando forma casual?",
     "correct": "トイレは そこです。",
-    "opts": ["トイレは そこです。", "トイレは ここです。", "トイレは あそこです。", "トイレは どこです。"]
+    "opts": [
+      "トイレは そこです。",
+      "トイレは ここです。",
+      "トイレは あそこです。",
+      "トイレは どこです。"
+    ]
   },
   {
+    "id": "U2A-027",
     "cat": "Vocabulario",
     "q": "¿Qué significa ATM en el contexto japonés?",
     "correct": "Cajero automático",
-    "opts": ["Cajero automático", "Máquina expendedora", "Máquina de tickets", "Panel informativo"]
+    "opts": [
+      "Cajero automático",
+      "Máquina expendedora",
+      "Máquina de tickets",
+      "Panel informativo"
+    ]
   },
   {
+    "id": "U2A-028",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 地下1階?",
     "correct": "ちかいっかい",
-    "opts": ["ちかいっかい", "ちかいちかい", "じかいっかい", "ちげいっかい"]
+    "opts": [
+      "ちかいっかい",
+      "ちかいちかい",
+      "じかいっかい",
+      "ちげいっかい"
+    ]
   },
   {
+    "id": "U2A-029",
     "cat": "Fórmula cortesía",
     "q": "Para llamar la atención de un empleado antes de preguntar, ¿qué palabra usás?",
     "correct": "すみません",
-    "opts": ["すみません", "ありがとう", "こんにちは", "どうも"]
+    "opts": [
+      "すみません",
+      "ありがとう",
+      "こんにちは",
+      "どうも"
+    ]
   },
   {
+    "id": "U2A-030",
     "cat": "Diálogo",
     "q": "A: すみません、トイレは どこですか。 B: ___. ¿Qué opción suena más natural de parte del empleado señalando lejos?",
     "correct": "あちらです。",
-    "opts": ["あちらです。", "あれです。", "あのです。", "あっちです。"]
+    "opts": [
+      "あちらです。",
+      "あれです。",
+      "あのです。",
+      "あっちです。"
+    ]
   },
   {
+    "id": "U2A-031",
     "cat": "Vocabulario",
     "q": "¿Qué significa 靴屋 (くつや)?",
     "correct": "Zapatería",
-    "opts": ["Zapatería", "Tienda de ropa", "Lavandería", "Pastelería"]
+    "opts": [
+      "Zapatería",
+      "Tienda de ropa",
+      "Lavandería",
+      "Pastelería"
+    ]
   },
   {
+    "id": "U2A-032",
     "cat": "Vocabulario",
     "q": "¿Qué significa el sufijo ～屋 (や) después de un producto?",
     "correct": "Tienda de ~",
-    "opts": ["Tienda de ~", "Casa de ~", "Calle de ~", "Fábrica de ~"]
+    "opts": [
+      "Tienda de ~",
+      "Casa de ~",
+      "Calle de ~",
+      "Fábrica de ~"
+    ]
   },
   {
+    "id": "U2A-033",
     "cat": "Traducción JA→ES",
     "q": "ケーキ屋は 1階です。 ¿Qué significa esta oración?",
     "correct": "La pastelería está en el 1er piso",
-    "opts": ["La pastelería está en el 1er piso", "La torta está en el 1er piso", "Hay una pastelería por 1 yen", "La pastelería es el 1er lugar"]
+    "opts": [
+      "La pastelería está en el 1er piso",
+      "La torta está en el 1er piso",
+      "Hay una pastelería por 1 yen",
+      "La pastelería es el 1er lugar"
+    ]
   },
   {
+    "id": "U2A-034",
     "cat": "Contador ~階",
     "q": "¿Cuál es la lectura correcta de 8階?",
     "correct": "はっかい",
-    "opts": ["はっかい", "はちかい", "はちがい", "やっかい"]
+    "opts": [
+      "はっかい",
+      "はちかい",
+      "はちがい",
+      "やっかい"
+    ]
   },
   {
+    "id": "U2A-035",
     "cat": "Distinción crítica",
     "q": "¿Cuál es la diferencia principal entre ここ y これ?",
     "correct": "ここ = aquí (lugar); これ = esto (objeto)",
-    "opts": ["ここ = aquí (lugar); これ = esto (objeto)", "ここ se usa con cosas; これ con personas", "Son sinónimos totales", "ここ es formal; これ es casual"]
+    "opts": [
+      "ここ = aquí (lugar); これ = esto (objeto)",
+      "ここ se usa con cosas; これ con personas",
+      "Son sinónimos totales",
+      "ここ es formal; これ es casual"
+    ]
   },
   {
+    "id": "U2A-036",
     "cat": "Situación",
     "q": "En un centro comercial preguntás por la cafetería. ¿Qué oración es correcta y natural?",
     "correct": "すみません、喫茶店は どこですか。",
-    "opts": ["すみません、喫茶店は どこですか。", "すみません、喫茶店は なんですか。", "すみません、喫茶店は だれですか。", "すみません、喫茶店は いくらですか。"]
+    "opts": [
+      "すみません、喫茶店は どこですか。",
+      "すみません、喫茶店は なんですか。",
+      "すみません、喫茶店は だれですか。",
+      "すみません、喫茶店は いくらですか。"
+    ]
   },
   {
+    "id": "U2A-037",
     "cat": "Vocabulario",
     "q": "¿Qué significa サカイでんき (サカイ電器)?",
     "correct": "Tienda de electrónica Sakai",
-    "opts": ["Tienda de electrónica Sakai", "Restaurante Sakai", "Electricista Sakai", "Empresa eléctrica Sakai"]
+    "opts": [
+      "Tienda de electrónica Sakai",
+      "Restaurante Sakai",
+      "Electricista Sakai",
+      "Empresa eléctrica Sakai"
+    ]
   },
   {
+    "id": "U2A-038",
     "cat": "Contador ~階",
     "q": "Si algo está en el piso 4, decís:",
     "correct": "よんかいです",
-    "opts": ["よんかいです", "しかいです", "よんがいです", "よっかいです"]
+    "opts": [
+      "よんかいです",
+      "しかいです",
+      "よんがいです",
+      "よっかいです"
+    ]
   },
   {
+    "id": "U2A-039",
     "cat": "Diálogo",
     "q": "Al agradecer la información de un empleado, la frase más apropiada es:",
     "correct": "ありがとうございます",
-    "opts": ["ありがとうございます", "すみません", "おねがいします", "どうぞ"]
+    "opts": [
+      "ありがとうございます",
+      "すみません",
+      "おねがいします",
+      "どうぞ"
+    ]
   },
   {
+    "id": "U2A-040",
     "cat": "Distinción formal/casual",
     "q": "Emparejá correctamente: CASUAL → FORMAL",
     "correct": "ここ → こちら",
-    "opts": ["ここ → こちら", "ここ → こっち", "こちら → ここ", "こちら → こっち"]
+    "opts": [
+      "ここ → こちら",
+      "ここ → こっち",
+      "こちら → ここ",
+      "こちら → こっち"
+    ]
   },
   {
+    "id": "U2A-041",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 店員?",
     "correct": "てんいん",
-    "opts": ["てんいん", "てんえん", "みせいん", "てんじん"]
+    "opts": [
+      "てんいん",
+      "てんえん",
+      "みせいん",
+      "てんじん"
+    ]
   },
   {
+    "id": "U2A-042",
     "cat": "Vocabulario",
     "q": "¿Qué significa 店員 (てんいん)?",
     "correct": "Empleado (de tienda)",
-    "opts": ["Empleado (de tienda)", "Tienda", "Dueño", "Cliente"]
+    "opts": [
+      "Empleado (de tienda)",
+      "Tienda",
+      "Dueño",
+      "Cliente"
+    ]
   },
   {
+    "id": "U2A-043",
     "cat": "Orden oración",
     "q": "Poné en orden: は / どこ / スーパー / ですか",
     "correct": "スーパー は どこ ですか",
-    "opts": ["スーパー は どこ ですか", "どこ スーパー は ですか", "スーパー どこ は ですか", "は スーパー どこ ですか"]
+    "opts": [
+      "スーパー は どこ ですか",
+      "どこ スーパー は ですか",
+      "スーパー どこ は ですか",
+      "は スーパー どこ ですか"
+    ]
   },
   {
+    "id": "U2A-044",
     "cat": "Trampa",
     "q": "¿Cuál de estas NO es una palabra para 'aquí/ahí/allí' en japonés?",
     "correct": "そっち",
-    "opts": ["そっち", "ここ", "そこ", "あそこ"]
+    "opts": [
+      "そっち",
+      "ここ",
+      "そこ",
+      "あそこ"
+    ]
   },
   {
+    "id": "U2A-045",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 地下?",
     "correct": "Subsuelo / sótano",
-    "opts": ["Subsuelo / sótano", "Subterráneo (metro)", "Debajo del suelo (la tierra)", "Piso bajo"]
+    "opts": [
+      "Subsuelo / sótano",
+      "Subterráneo (metro)",
+      "Debajo del suelo (la tierra)",
+      "Piso bajo"
+    ]
   },
   {
+    "id": "U2A-046",
     "cat": "Vocabulario",
     "q": "¿Qué significa スーパー?",
     "correct": "Supermercado",
-    "opts": ["Supermercado", "Superior", "Super héroe", "Excelente"]
+    "opts": [
+      "Supermercado",
+      "Superior",
+      "Super héroe",
+      "Excelente"
+    ]
   },
   {
+    "id": "U2A-047",
     "cat": "Traducción ES→JA",
     "q": "¿Cómo preguntás formalmente '¿Dónde queda la librería?'?",
     "correct": "本屋は どこですか。",
-    "opts": ["本屋は どこですか。", "本は どこですか。", "本屋は どれですか。", "本屋は なんがいですか。"]
+    "opts": [
+      "本屋は どこですか。",
+      "本は どこですか。",
+      "本屋は どれですか。",
+      "本屋は なんがいですか。"
+    ]
   },
   {
+    "id": "U2A-048",
     "cat": "Vocabulario",
     "q": "¿Qué son ここ, そこ, あそこ, どこ?",
     "correct": "Pronombres de lugar (aquí/ahí/allí/dónde)",
-    "opts": ["Pronombres de lugar (aquí/ahí/allí/dónde)", "Pronombres de objetos", "Pronombres personales", "Partículas de lugar"]
+    "opts": [
+      "Pronombres de lugar (aquí/ahí/allí/dónde)",
+      "Pronombres de objetos",
+      "Pronombres personales",
+      "Partículas de lugar"
+    ]
   },
   {
+    "id": "U2A-049",
     "cat": "Traducción JA→ES",
     "q": "エスカレーターは あちらです。",
     "correct": "La escalera mecánica está por allá (lejos, formal)",
-    "opts": ["La escalera mecánica está por allá (lejos, formal)", "La escalera mecánica está por ahí (cerca)", "La escalera mecánica es aquella", "La escalera mecánica está aquí"]
+    "opts": [
+      "La escalera mecánica está por allá (lejos, formal)",
+      "La escalera mecánica está por ahí (cerca)",
+      "La escalera mecánica es aquella",
+      "La escalera mecánica está aquí"
+    ]
   },
   {
+    "id": "U2A-050",
     "cat": "Contador ~階",
     "q": "¿Cuál es la lectura de 9階?",
     "correct": "きゅうかい",
-    "opts": ["きゅうかい", "きゅうがい", "くかい", "きゅっかい"]
+    "opts": [
+      "きゅうかい",
+      "きゅうがい",
+      "くかい",
+      "きゅっかい"
+    ]
   },
   {
+    "id": "U2A-051",
     "cat": "Diálogo",
     "q": "Completá: A: すみません、サカイでんきは ___ですか。 B: 4階です。",
     "correct": "なんがい",
-    "opts": ["なんがい", "どこ", "なに", "いつ"]
+    "opts": [
+      "なんがい",
+      "どこ",
+      "なに",
+      "いつ"
+    ]
   },
   {
+    "id": "U2A-052",
     "cat": "Distinción",
     "q": "Tu interlocutor está lejos y vos también estás lejos del objeto. ¿Qué palabra usás?",
     "correct": "あそこ",
-    "opts": ["あそこ", "そこ", "ここ", "どこ"]
+    "opts": [
+      "あそこ",
+      "そこ",
+      "ここ",
+      "どこ"
+    ]
   },
   {
+    "id": "U2A-053",
     "cat": "Formal vs casual",
     "q": "Una empleada de tienda diría a un cliente (formal):",
     "correct": "トイレは こちらです。",
-    "opts": ["トイレは こちらです。", "トイレは ここだよ。", "トイレは こっちです。", "トイレは ここ!"]
+    "opts": [
+      "トイレは こちらです。",
+      "トイレは ここだよ。",
+      "トイレは こっちです。",
+      "トイレは ここ!"
+    ]
   },
   {
+    "id": "U2A-054",
     "cat": "Situación real",
     "q": "Estás perdido en un shopping. Para llamar la atención de un empleado educadamente, empezás con:",
     "correct": "すみません",
-    "opts": ["すみません", "はい", "ちょっと", "おい"]
+    "opts": [
+      "すみません",
+      "はい",
+      "ちょっと",
+      "おい"
+    ]
   },
   {
+    "id": "U2A-055",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 何階ですか?",
     "correct": "なんがいですか",
-    "opts": ["なんがいですか", "なにかいですか", "なんかいですか", "どかいですか"]
+    "opts": [
+      "なんがいですか",
+      "なにかいですか",
+      "なんかいですか",
+      "どかいですか"
+    ]
   },
   {
+    "id": "U2A-056",
     "cat": "Trampa sutil",
     "q": "Un cliente dice: この スーパーは 何階ですか。 ¿Es correcta la oración?",
     "correct": "No — se usaría 'スーパーは 何階ですか' (sin この) si se pregunta por el piso del supermercado",
-    "opts": ["No — se usaría 'スーパーは 何階ですか' (sin この) si se pregunta por el piso del supermercado", "Sí, es perfecta", "No — falta の después de この", "No — se usa どこ en vez de 何階"]
+    "opts": [
+      "No — se usaría 'スーパーは 何階ですか' (sin この) si se pregunta por el piso del supermercado",
+      "Sí, es perfecta",
+      "No — falta の después de この",
+      "No — se usa どこ en vez de 何階"
+    ]
   },
   {
+    "id": "U2A-057",
     "cat": "Vocabulario",
     "q": "¿Qué significa トイレ?",
     "correct": "Baño",
-    "opts": ["Baño", "Toalla", "Torre", "Tour"]
+    "opts": [
+      "Baño",
+      "Toalla",
+      "Torre",
+      "Tour"
+    ]
   },
   {
+    "id": "U2A-058",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'restaurante' en japonés?",
     "correct": "レストラン",
-    "opts": ["レストラン", "レスタウラン", "レス", "リストラン"]
+    "opts": [
+      "レストラン",
+      "レスタウラン",
+      "レス",
+      "リストラン"
+    ]
   },
   {
+    "id": "U2A-059",
     "cat": "Partícula",
     "q": "カメラ___ どこですか。¿Qué partícula completa?",
     "correct": "は",
-    "opts": ["は", "を", "の", "が"]
+    "opts": [
+      "は",
+      "を",
+      "の",
+      "が"
+    ]
   },
   {
+    "id": "U2A-060",
     "cat": "Vocabulario",
     "q": "¿Qué significa カメラ?",
     "correct": "Cámara",
-    "opts": ["Cámara", "Camarero", "Camarín", "Camilla"]
+    "opts": [
+      "Cámara",
+      "Camarero",
+      "Camarín",
+      "Camilla"
+    ]
   },
   {
+    "id": "U2A-061",
     "cat": "Diálogo completo",
     "q": "A: ケーキ屋は なんがいですか。 B: ___。 (La pastelería está en el 1er piso)",
     "correct": "いっかいです",
-    "opts": ["いっかいです", "いちかいです", "ひとかいです", "だいいっかいです"]
+    "opts": [
+      "いっかいです",
+      "いちかいです",
+      "ひとかいです",
+      "だいいっかいです"
+    ]
   },
   {
+    "id": "U2A-062",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 本屋?",
     "correct": "Librería",
-    "opts": ["Librería", "Tienda principal", "Libro original", "Casa del libro"]
+    "opts": [
+      "Librería",
+      "Tienda principal",
+      "Libro original",
+      "Casa del libro"
+    ]
   },
   {
+    "id": "U2A-063",
     "cat": "Distinción crucial",
     "q": "¿Cuál es la diferencia entre どこ y どちら?",
     "correct": "どちら es la versión formal/educada de どこ",
-    "opts": ["どちら es la versión formal/educada de どこ", "どちら se usa para personas; どこ para lugares", "どちら pregunta 'cuál' y どこ pregunta 'dónde', no son equivalentes", "Son totalmente intercambiables sin diferencia"]
+    "opts": [
+      "どちら es la versión formal/educada de どこ",
+      "どちら se usa para personas; どこ para lugares",
+      "どちら pregunta 'cuál' y どこ pregunta 'dónde', no son equivalentes",
+      "Son totalmente intercambiables sin diferencia"
+    ]
   },
   {
+    "id": "U2A-064",
     "cat": "Contador ~階",
     "q": "¿Cómo se dice '5to piso'?",
     "correct": "ごかい",
-    "opts": ["ごかい", "ごがい", "いつかい", "ごっかい"]
+    "opts": [
+      "ごかい",
+      "ごがい",
+      "いつかい",
+      "ごっかい"
+    ]
   },
   {
+    "id": "U2A-065",
     "cat": "Contador ~階",
     "q": "¿Cómo se dice '7mo piso'?",
     "correct": "ななかい",
-    "opts": ["ななかい", "しちかい", "ななっかい", "ななが い"]
+    "opts": [
+      "ななかい",
+      "しちかい",
+      "ななっかい",
+      "ななが い"
+    ]
   },
   {
+    "id": "U2A-066",
     "cat": "Traducción ES→JA",
     "q": "¿Cómo decís 'Disculpe, ¿dónde está el cajero automático?' formalmente?",
     "correct": "すみません、ATMは どこですか。",
-    "opts": ["すみません、ATMは どこですか。", "ごめんなさい、ATMは なんですか。", "すみません、ATMは だれですか。", "すみません、ATMは なんがいですか。"]
+    "opts": [
+      "すみません、ATMは どこですか。",
+      "ごめんなさい、ATMは なんですか。",
+      "すみません、ATMは だれですか。",
+      "すみません、ATMは なんがいですか。"
+    ]
   },
   {
+    "id": "U2A-067",
     "cat": "Uso situacional",
     "q": "Señalás un objeto cerca de vos y el empleado lo mira. Vos decís:",
     "correct": "これ は なんですか。",
-    "opts": ["これ は なんですか。", "ここ は なんですか。", "この は なんですか。", "それ は なんですか。"]
+    "opts": [
+      "これ は なんですか。",
+      "ここ は なんですか。",
+      "この は なんですか。",
+      "それ は なんですか。"
+    ]
   },
   {
+    "id": "U2A-068",
     "cat": "Trampa",
     "q": "¿Cuál es el demostrativo de lugar que NO existe?",
     "correct": "こっこ",
-    "opts": ["こっこ", "ここ", "そこ", "あそこ"]
+    "opts": [
+      "こっこ",
+      "ここ",
+      "そこ",
+      "あそこ"
+    ]
   },
   {
+    "id": "U2A-069",
     "cat": "Vocabulario",
     "q": "¿Qué significa ニコニコショッピングビル?",
     "correct": "Nombre propio: Edificio comercial Nikoniko",
-    "opts": ["Nombre propio: Edificio comercial Nikoniko", "Una tienda famosa de Tokio", "Tipo de shopping en Japón", "Tienda de electrónica"]
+    "opts": [
+      "Nombre propio: Edificio comercial Nikoniko",
+      "Una tienda famosa de Tokio",
+      "Tipo de shopping en Japón",
+      "Tienda de electrónica"
+    ]
   },
   {
+    "id": "U2A-070",
     "cat": "Vocabulario avanzado",
     "q": "ビル en japonés significa:",
     "correct": "Edificio",
-    "opts": ["Edificio", "Bill (nombre)", "Billete", "Bar"]
+    "opts": [
+      "Edificio",
+      "Bill (nombre)",
+      "Billete",
+      "Bar"
+    ]
   }
 ]
