@@ -1,5 +1,6 @@
 [
   {
+    "id": "U3C-001",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 朝?",
     "correct": "Mañana",
@@ -11,6 +12,7 @@
     ]
   },
   {
+    "id": "U3C-002",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 夜?",
     "correct": "Noche",
@@ -22,6 +24,7 @@
     ]
   },
   {
+    "id": "U3C-003",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 毎日?",
     "correct": "Todos los días",
@@ -33,6 +36,7 @@
     ]
   },
   {
+    "id": "U3C-004",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 毎朝?",
     "correct": "Todas las mañanas",
@@ -44,6 +48,7 @@
     ]
   },
   {
+    "id": "U3C-005",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 毎晩?",
     "correct": "Todas las noches",
@@ -55,6 +60,7 @@
     ]
   },
   {
+    "id": "U3C-006",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 朝ご飯?",
     "correct": "Desayuno",
@@ -66,6 +72,7 @@
     ]
   },
   {
+    "id": "U3C-007",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 昼ご飯?",
     "correct": "Almuerzo",
@@ -77,6 +84,7 @@
     ]
   },
   {
+    "id": "U3C-008",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 晩ご飯?",
     "correct": "Cena",
@@ -88,6 +96,7 @@
     ]
   },
   {
+    "id": "U3C-009",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 会社?",
     "correct": "Empresa",
@@ -99,6 +108,7 @@
     ]
   },
   {
+    "id": "U3C-010",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 学校?",
     "correct": "Escuela",
@@ -110,6 +120,7 @@
     ]
   },
   {
+    "id": "U3C-011",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 牛乳?",
     "correct": "Leche",
@@ -121,6 +132,7 @@
     ]
   },
   {
+    "id": "U3C-012",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 果物?",
     "correct": "Frutas",
@@ -132,6 +144,7 @@
     ]
   },
   {
+    "id": "U3C-013",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 新聞?",
     "correct": "Diario / periódico",
@@ -143,6 +156,7 @@
     ]
   },
   {
+    "id": "U3C-014",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 何も?",
     "correct": "Nada (en negativas)",
@@ -154,6 +168,7 @@
     ]
   },
   {
+    "id": "U3C-015",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 朝?",
     "correct": "あさ",
@@ -165,6 +180,7 @@
     ]
   },
   {
+    "id": "U3C-016",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 夜?",
     "correct": "よる",
@@ -176,6 +192,7 @@
     ]
   },
   {
+    "id": "U3C-017",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 毎日?",
     "correct": "まいにち",
@@ -187,6 +204,7 @@
     ]
   },
   {
+    "id": "U3C-018",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 毎朝?",
     "correct": "まいあさ",
@@ -198,6 +216,7 @@
     ]
   },
   {
+    "id": "U3C-019",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 毎晩?",
     "correct": "まいばん",
@@ -209,6 +228,7 @@
     ]
   },
   {
+    "id": "U3C-020",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 朝ご飯?",
     "correct": "あさごはん",
@@ -220,6 +240,7 @@
     ]
   },
   {
+    "id": "U3C-021",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 昼ご飯?",
     "correct": "ひるごはん",
@@ -231,6 +252,7 @@
     ]
   },
   {
+    "id": "U3C-022",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 晩ご飯?",
     "correct": "ばんごはん",
@@ -242,6 +264,7 @@
     ]
   },
   {
+    "id": "U3C-023",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 会社?",
     "correct": "かいしゃ",
@@ -253,6 +276,7 @@
     ]
   },
   {
+    "id": "U3C-024",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 学校?",
     "correct": "がっこう",
@@ -264,6 +288,7 @@
     ]
   },
   {
+    "id": "U3C-025",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 牛乳?",
     "correct": "ぎゅうにゅう",
@@ -275,6 +300,7 @@
     ]
   },
   {
+    "id": "U3C-026",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 果物?",
     "correct": "くだもの",
@@ -286,6 +312,7 @@
     ]
   },
   {
+    "id": "U3C-027",
     "cat": "Kanji→Lectura",
     "q": "¿Cómo se lee 新聞?",
     "correct": "しんぶん",
@@ -297,6 +324,7 @@
     ]
   },
   {
+    "id": "U3C-028",
     "cat": "Katakana→Español",
     "q": "¿Qué significa コンビニ?",
     "correct": "Kiosco 24hs / tienda de conveniencia",
@@ -308,6 +336,7 @@
     ]
   },
   {
+    "id": "U3C-029",
     "cat": "Katakana→Español",
     "q": "¿Qué significa サラダ?",
     "correct": "Ensalada",
@@ -319,6 +348,7 @@
     ]
   },
   {
+    "id": "U3C-030",
     "cat": "Katakana→Español",
     "q": "¿Qué significa チーズ?",
     "correct": "Queso",
@@ -330,6 +360,7 @@
     ]
   },
   {
+    "id": "U3C-031",
     "cat": "Katakana→Español",
     "q": "¿Qué significa インターネット?",
     "correct": "Internet",
@@ -341,6 +372,7 @@
     ]
   },
   {
+    "id": "U3C-032",
     "cat": "Katakana→Español",
     "q": "¿Qué significa テレビ?",
     "correct": "Televisión",
@@ -352,6 +384,7 @@
     ]
   },
   {
+    "id": "U3C-033",
     "cat": "Verbo: Kanji→Español",
     "q": "¿Qué significa 買います?",
     "correct": "Comprar",
@@ -363,6 +396,7 @@
     ]
   },
   {
+    "id": "U3C-034",
     "cat": "Verbo: Kanji→Español",
     "q": "¿Qué significa 聞きます?",
     "correct": "Escuchar / preguntar",
@@ -374,6 +408,7 @@
     ]
   },
   {
+    "id": "U3C-035",
     "cat": "Verbo: Kanji→Español",
     "q": "¿Qué significa 働きます?",
     "correct": "Trabajar",
@@ -385,6 +420,7 @@
     ]
   },
   {
+    "id": "U3C-036",
     "cat": "Verbo: Kanji→Español",
     "q": "¿Qué significa 読みます?",
     "correct": "Leer",
@@ -396,6 +432,7 @@
     ]
   },
   {
+    "id": "U3C-037",
     "cat": "Verbo: Kanji→Español",
     "q": "¿Qué significa 起きます?",
     "correct": "Levantarse",
@@ -407,6 +444,7 @@
     ]
   },
   {
+    "id": "U3C-038",
     "cat": "Verbo: Kanji→Español",
     "q": "¿Qué significa 寝ます?",
     "correct": "Acostarse / dormir",
@@ -418,6 +456,7 @@
     ]
   },
   {
+    "id": "U3C-039",
     "cat": "Verbo: Kanji→Español",
     "q": "¿Qué significa 勉強します?",
     "correct": "Estudiar",
@@ -429,6 +468,7 @@
     ]
   },
   {
+    "id": "U3C-040",
     "cat": "Verbo: Kanji→Español",
     "q": "¿Qué significa 来ます?",
     "correct": "Venir",
@@ -440,6 +480,7 @@
     ]
   },
   {
+    "id": "U3C-041",
     "cat": "Verbo: Kanji→Lectura",
     "q": "¿Cómo se lee 買います?",
     "correct": "かいます",
@@ -451,6 +492,7 @@
     ]
   },
   {
+    "id": "U3C-042",
     "cat": "Verbo: Kanji→Lectura",
     "q": "¿Cómo se lee 聞きます?",
     "correct": "ききます",
@@ -462,6 +504,7 @@
     ]
   },
   {
+    "id": "U3C-043",
     "cat": "Verbo: Kanji→Lectura",
     "q": "¿Cómo se lee 働きます?",
     "correct": "はたらきます",
@@ -473,6 +516,7 @@
     ]
   },
   {
+    "id": "U3C-044",
     "cat": "Verbo: Kanji→Lectura",
     "q": "¿Cómo se lee 読みます?",
     "correct": "よみます",
@@ -484,6 +528,7 @@
     ]
   },
   {
+    "id": "U3C-045",
     "cat": "Verbo: Kanji→Lectura",
     "q": "¿Cómo se lee 起きます?",
     "correct": "おきます",
@@ -495,6 +540,7 @@
     ]
   },
   {
+    "id": "U3C-046",
     "cat": "Verbo: Kanji→Lectura",
     "q": "¿Cómo se lee 寝ます?",
     "correct": "ねます",
@@ -506,6 +552,7 @@
     ]
   },
   {
+    "id": "U3C-047",
     "cat": "Verbo: Kanji→Lectura",
     "q": "¿Cómo se lee 来ます?",
     "correct": "きます",
@@ -517,6 +564,7 @@
     ]
   },
   {
+    "id": "U3C-048",
     "cat": "Grupo verbal",
     "q": "¿A qué grupo pertenece 買います［買う］?",
     "correct": "Grupo 1",
@@ -527,6 +575,7 @@
     ]
   },
   {
+    "id": "U3C-049",
     "cat": "Grupo verbal",
     "q": "¿A qué grupo pertenece 聞きます［聞く］?",
     "correct": "Grupo 1",
@@ -537,6 +586,7 @@
     ]
   },
   {
+    "id": "U3C-050",
     "cat": "Grupo verbal",
     "q": "¿A qué grupo pertenece 働きます［働く］?",
     "correct": "Grupo 1",
@@ -547,6 +597,7 @@
     ]
   },
   {
+    "id": "U3C-051",
     "cat": "Grupo verbal",
     "q": "¿A qué grupo pertenece 読みます［読む］?",
     "correct": "Grupo 1",
@@ -557,6 +608,7 @@
     ]
   },
   {
+    "id": "U3C-052",
     "cat": "Grupo verbal",
     "q": "¿A qué grupo pertenece 起きます［起きる］?",
     "correct": "Grupo 2",
@@ -567,6 +619,7 @@
     ]
   },
   {
+    "id": "U3C-053",
     "cat": "Grupo verbal",
     "q": "¿A qué grupo pertenece 寝ます［寝る］?",
     "correct": "Grupo 2",
@@ -577,6 +630,7 @@
     ]
   },
   {
+    "id": "U3C-054",
     "cat": "Grupo verbal",
     "q": "¿A qué grupo pertenece 勉強します［勉強する］?",
     "correct": "Grupo 3 (irregular)",
@@ -587,6 +641,7 @@
     ]
   },
   {
+    "id": "U3C-055",
     "cat": "Grupo verbal",
     "q": "¿A qué grupo pertenece 来ます［来る］?",
     "correct": "Grupo 3 (irregular)",
@@ -597,6 +652,7 @@
     ]
   },
   {
+    "id": "U3C-056",
     "cat": "Forma Vます habitual",
     "q": "En la sección どんな毎日, Vます se usa para expresar:",
     "correct": "Hábitos y rutinas",
@@ -608,6 +664,7 @@
     ]
   },
   {
+    "id": "U3C-057",
     "cat": "Forma Vます habitual",
     "q": "¿Cuál es la forma negativa de 起きます?",
     "correct": "起きません",
@@ -619,6 +676,7 @@
     ]
   },
   {
+    "id": "U3C-058",
     "cat": "Forma Vます habitual",
     "q": "¿Cuál es la forma negativa de 読みます?",
     "correct": "読みません",
@@ -630,6 +688,7 @@
     ]
   },
   {
+    "id": "U3C-059",
     "cat": "Forma Vます habitual",
     "q": "¿Cuál es la forma negativa de 買います?",
     "correct": "買いません",
@@ -641,6 +700,7 @@
     ]
   },
   {
+    "id": "U3C-060",
     "cat": "Forma Vます habitual",
     "q": "¿Cuál es la forma negativa de 寝ます?",
     "correct": "寝ません",
@@ -652,6 +712,7 @@
     ]
   },
   {
+    "id": "U3C-061",
     "cat": "Partícula に (tiempo)",
     "q": "En '毎朝６時に起きます', ¿qué indica la partícula に?",
     "correct": "El momento puntual de la acción",
@@ -663,6 +724,7 @@
     ]
   },
   {
+    "id": "U3C-062",
     "cat": "Partícula に (tiempo)",
     "q": "¿Cuál es correcta? '7時___朝ご飯を食べます'",
     "correct": "に",
@@ -674,6 +736,7 @@
     ]
   },
   {
+    "id": "U3C-063",
     "cat": "Partícula に (tiempo)",
     "q": "¿Se usa に con 毎朝? Ejemplo: '毎朝___起きます'",
     "correct": "No, con 毎朝 no se usa に",
@@ -685,6 +748,7 @@
     ]
   },
   {
+    "id": "U3C-064",
     "cat": "Partícula で (lugar acción)",
     "q": "En '会社で働きます', ¿qué indica で?",
     "correct": "El lugar donde ocurre la acción",
@@ -696,6 +760,7 @@
     ]
   },
   {
+    "id": "U3C-065",
     "cat": "Partícula で (lugar acción)",
     "q": "¿Cuál es correcta? 'うち___テレビを見ます'",
     "correct": "で",
@@ -707,6 +772,7 @@
     ]
   },
   {
+    "id": "U3C-066",
     "cat": "Partícula で (lugar acción)",
     "q": "¿Cuál es correcta? 'コンビニ___牛乳を買います'",
     "correct": "で",
@@ -718,6 +784,7 @@
     ]
   },
   {
+    "id": "U3C-067",
     "cat": "Partícula を (objeto)",
     "q": "En '新聞を読みます', ¿qué indica を?",
     "correct": "El objeto directo de la acción",
@@ -729,6 +796,7 @@
     ]
   },
   {
+    "id": "U3C-068",
     "cat": "Partícula を (objeto)",
     "q": "¿Cuál es correcta? '朝ご飯___食べます'",
     "correct": "を",
@@ -740,6 +808,7 @@
     ]
   },
   {
+    "id": "U3C-069",
     "cat": "Partícula を (objeto)",
     "q": "¿Cuál es correcta? 'CD___聞きます'",
     "correct": "を",
@@ -751,6 +820,7 @@
     ]
   },
   {
+    "id": "U3C-070",
     "cat": "Patrón 何もVません",
     "q": "¿Qué significa '何も買いません'?",
     "correct": "No compro nada",
@@ -762,6 +832,7 @@
     ]
   },
   {
+    "id": "U3C-071",
     "cat": "Patrón 何もVません",
     "q": "¿Qué significa '何も食べません'?",
     "correct": "No como nada",
@@ -773,6 +844,7 @@
     ]
   },
   {
+    "id": "U3C-072",
     "cat": "Patrón 何もVません",
     "q": "¿Cómo se dice 'No leo nada'?",
     "correct": "何も読みません",
@@ -784,6 +856,7 @@
     ]
   },
   {
+    "id": "U3C-073",
     "cat": "Patrón どこへもVません",
     "q": "¿Qué significa 'どこへも行きません'?",
     "correct": "No voy a ningún lado",
@@ -795,6 +868,7 @@
     ]
   },
   {
+    "id": "U3C-074",
     "cat": "Patrón どこへもVません",
     "q": "¿Cómo se dice 'No voy a ninguna parte' en japonés?",
     "correct": "どこへも行きません",
@@ -806,6 +880,7 @@
     ]
   },
   {
+    "id": "U3C-075",
     "cat": "Patrón NやNなど",
     "q": "¿Qué significa 'NやNなど'?",
     "correct": "N y N, etc. (lista no exhaustiva)",
@@ -817,6 +892,7 @@
     ]
   },
   {
+    "id": "U3C-076",
     "cat": "Patrón NやNなど",
     "q": "En 'サラダやチーズなどを食べます', や indica:",
     "correct": "Una enumeración parcial ('entre otras cosas')",
@@ -828,6 +904,7 @@
     ]
   },
   {
+    "id": "U3C-077",
     "cat": "Patrón NやNなど",
     "q": "¿Cuál es la diferencia entre と y や al listar cosas?",
     "correct": "と lista todo; や lista solo algunos ejemplos",
@@ -839,6 +916,7 @@
     ]
   },
   {
+    "id": "U3C-078",
     "cat": "Rutina",
     "q": "¿Cómo se dice 'Me levanto a las 6 todas las mañanas'?",
     "correct": "毎朝6時に起きます",
@@ -850,6 +928,7 @@
     ]
   },
   {
+    "id": "U3C-079",
     "cat": "Rutina",
     "q": "¿Cómo se dice 'Trabajo en una empresa'?",
     "correct": "会社で働きます",
@@ -861,6 +940,7 @@
     ]
   },
   {
+    "id": "U3C-080",
     "cat": "Rutina",
     "q": "¿Cómo se dice 'A la noche miro la tele'?",
     "correct": "夜、テレビを見ます",
@@ -872,6 +952,7 @@
     ]
   },
   {
+    "id": "U3C-081",
     "cat": "Rutina",
     "q": "¿Cómo se dice 'A las 7 desayuno'?",
     "correct": "7時に朝ご飯を食べます",
@@ -883,6 +964,7 @@
     ]
   },
   {
+    "id": "U3C-082",
     "cat": "Rutina",
     "q": "¿Cómo se dice 'Leo el diario todas las mañanas'?",
     "correct": "毎朝新聞を読みます",
@@ -894,6 +976,7 @@
     ]
   },
   {
+    "id": "U3C-083",
     "cat": "Distinguir partículas",
     "q": "Completá: '学校___行きます' (destino)",
     "correct": "へ",
@@ -905,6 +988,7 @@
     ]
   },
   {
+    "id": "U3C-084",
     "cat": "Distinguir partículas",
     "q": "Completá: '学校___勉強します' (lugar de acción)",
     "correct": "で",
@@ -916,6 +1000,7 @@
     ]
   },
   {
+    "id": "U3C-085",
     "cat": "Distinguir partículas",
     "q": "Completá: '6時___起きます' (hora puntual)",
     "correct": "に",
@@ -927,6 +1012,7 @@
     ]
   },
   {
+    "id": "U3C-086",
     "cat": "Distinguir partículas",
     "q": "Completá: '本___読みます' (objeto directo)",
     "correct": "を",
@@ -938,6 +1024,7 @@
     ]
   },
   {
+    "id": "U3C-087",
     "cat": "Distinguir partículas",
     "q": "En '9時から5時まで働きます', ¿qué indican から y まで?",
     "correct": "Desde las 9 hasta las 5",
@@ -949,6 +1036,7 @@
     ]
   },
   {
+    "id": "U3C-088",
     "cat": "Traducción JP→ES",
     "q": "Traducí: '毎朝、牛乳を飲みます。'",
     "correct": "Todas las mañanas tomo leche.",
@@ -960,6 +1048,7 @@
     ]
   },
   {
+    "id": "U3C-089",
     "cat": "Traducción JP→ES",
     "q": "Traducí: '会社で働きます。'",
     "correct": "Trabajo en una empresa.",
@@ -971,6 +1060,7 @@
     ]
   },
   {
+    "id": "U3C-090",
     "cat": "Traducción JP→ES",
     "q": "Traducí: '夜、インターネットを見ます。'",
     "correct": "A la noche miro internet.",
@@ -982,6 +1072,7 @@
     ]
   },
   {
+    "id": "U3C-091",
     "cat": "Traducción JP→ES",
     "q": "Traducí: '何も食べません。'",
     "correct": "No como nada.",
@@ -993,6 +1084,7 @@
     ]
   },
   {
+    "id": "U3C-092",
     "cat": "Traducción JP→ES",
     "q": "Traducí: 'どこへも行きません。'",
     "correct": "No voy a ningún lado.",
@@ -1004,6 +1096,7 @@
     ]
   },
   {
+    "id": "U3C-093",
     "cat": "Traducción JP→ES",
     "q": "Traducí: '果物やサラダなどを食べます。'",
     "correct": "Como frutas, ensalada, etc.",
@@ -1015,6 +1108,7 @@
     ]
   },
   {
+    "id": "U3C-094",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo se dice 'Me levanto a las 7'?",
     "correct": "7時に起きます",
@@ -1026,6 +1120,7 @@
     ]
   },
   {
+    "id": "U3C-095",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo se dice 'Me acuesto a las 11'?",
     "correct": "11時に寝ます",
@@ -1037,6 +1132,7 @@
     ]
   },
   {
+    "id": "U3C-096",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo se dice 'Todas las noches leo'?",
     "correct": "毎晩本を読みます",
@@ -1048,6 +1144,7 @@
     ]
   },
   {
+    "id": "U3C-097",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo se dice 'Estudio en la escuela'?",
     "correct": "学校で勉強します",
@@ -1059,6 +1156,7 @@
     ]
   },
   {
+    "id": "U3C-098",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo se dice 'No compro nada'?",
     "correct": "何も買いません",
@@ -1070,6 +1168,7 @@
     ]
   },
   {
+    "id": "U3C-099",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo se dice 'Compro leche y queso, etc.'?",
     "correct": "牛乳やチーズなどを買います",
@@ -1081,6 +1180,7 @@
     ]
   },
   {
+    "id": "U3C-100",
     "cat": "Uso en contexto",
     "q": "Si querés preguntar '¿Todos los días vas a la escuela?', decís:",
     "correct": "毎日、学校へ行きますか。",
@@ -1092,6 +1192,7 @@
     ]
   },
   {
+    "id": "U3C-101",
     "cat": "Uso en contexto",
     "q": "Si te preguntan '毎日、新聞を読みますか' y sí leés, respondés:",
     "correct": "はい、読みます。",
@@ -1103,6 +1204,7 @@
     ]
   },
   {
+    "id": "U3C-102",
     "cat": "Uso en contexto",
     "q": "Si te preguntan '毎日、朝ご飯を食べますか' y no comés, respondés:",
     "correct": "いいえ、食べません。",
@@ -1114,6 +1216,7 @@
     ]
   },
   {
+    "id": "U3C-103",
     "cat": "Uso en contexto",
     "q": "Si querés decir 'El fin de semana no voy a ningún lado', decís:",
     "correct": "週末、どこへも行きません。",
@@ -1125,6 +1228,7 @@
     ]
   },
   {
+    "id": "U3C-104",
     "cat": "Uso en contexto",
     "q": "'9時から5時まで会社で働きます' significa:",
     "correct": "Trabajo en la empresa de 9 a 5",
@@ -1136,6 +1240,7 @@
     ]
   },
   {
+    "id": "U3C-105",
     "cat": "Orden de oración",
     "q": "¿Cuál es el orden correcto para decir 'Me levanto a las 6 todas las mañanas'?",
     "correct": "毎朝 6時に 起きます",
@@ -1147,6 +1252,7 @@
     ]
   },
   {
+    "id": "U3C-106",
     "cat": "Orden de oración",
     "q": "¿Cuál es el orden correcto para 'En la empresa leo el diario'?",
     "correct": "会社で 新聞を 読みます",
@@ -1158,6 +1264,7 @@
     ]
   },
   {
+    "id": "U3C-107",
     "cat": "Orden de oración",
     "q": "¿Cuál es el orden correcto para 'Estudio japonés en la escuela de 9 a 12'?",
     "correct": "9時から12時まで 学校で 日本語を 勉強します",
@@ -1169,6 +1276,7 @@
     ]
   },
   {
+    "id": "U3C-108",
     "cat": "Sutileza",
     "q": "¿Cuál es la diferencia entre '学校へ行きます' y '学校で勉強します'?",
     "correct": "へ indica destino; で indica lugar donde se realiza la acción",
@@ -1180,6 +1288,7 @@
     ]
   },
   {
+    "id": "U3C-109",
     "cat": "Sutileza",
     "q": "¿Se usa に con '毎日'?",
     "correct": "No, 毎日 no lleva に porque no es una hora puntual",
@@ -1191,6 +1300,7 @@
     ]
   },
   {
+    "id": "U3C-110",
     "cat": "Sutileza",
     "q": "¿Cuándo se usa に con expresiones de tiempo?",
     "correct": "Con horas puntuales (7時に) y días específicos",
@@ -1202,6 +1312,7 @@
     ]
   },
   {
+    "id": "U3C-111",
     "cat": "Sutileza",
     "q": "En '何も買いません', ¿por qué se usa も y no を?",
     "correct": "も reemplaza a を en la negación total (nada)",
@@ -1213,6 +1324,7 @@
     ]
   },
   {
+    "id": "U3C-112",
     "cat": "Sutileza",
     "q": "¿Cuál es la diferencia entre 何も〜ません y 何を〜ますか?",
     "correct": "何も＋negativo = 'nada'; 何を＋ますか = '¿qué?'",
@@ -1224,6 +1336,7 @@
     ]
   },
   {
+    "id": "U3C-113",
     "cat": "Sutileza",
     "q": "En 'どこへも行きません', ¿qué partículas se combinan?",
     "correct": "へ (destino) + も (negación total) → a ningún lado",
@@ -1235,6 +1348,7 @@
     ]
   },
   {
+    "id": "U3C-114",
     "cat": "Diálogo",
     "q": "A: '毎日、牛乳を飲みますか。' B: Sí → ¿qué responde B?",
     "correct": "はい、飲みます。",
@@ -1246,6 +1360,7 @@
     ]
   },
   {
+    "id": "U3C-115",
     "cat": "Diálogo",
     "q": "A: '毎朝、何時に起きますか。' B: A las 6 → ¿qué responde B?",
     "correct": "6時に起きます。",
@@ -1257,6 +1372,7 @@
     ]
   },
   {
+    "id": "U3C-116",
     "cat": "Diálogo",
     "q": "A: '晩ご飯に何を食べますか。' B: Ensalada y queso → ¿qué responde?",
     "correct": "サラダやチーズなどを食べます。",
@@ -1268,6 +1384,7 @@
     ]
   },
   {
+    "id": "U3C-117",
     "cat": "Diálogo",
     "q": "A: '週末、何をしますか。' B: Nada → ¿qué responde?",
     "correct": "何もしません。",
@@ -1279,6 +1396,7 @@
     ]
   },
   {
+    "id": "U3C-118",
     "cat": "Diálogo",
     "q": "A: '週末、どこへ行きますか。' B: A ningún lado → ¿qué responde?",
     "correct": "どこへも行きません。",
@@ -1290,6 +1408,7 @@
     ]
   },
   {
+    "id": "U3C-119",
     "cat": "Diálogo",
     "q": "A: 'うちで何をしますか。' B: Miro la tele y leo → ¿qué responde?",
     "correct": "テレビを見ます。本を読みます。",

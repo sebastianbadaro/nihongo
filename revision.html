@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revisión — 日本語 Quiz</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .jp { font-family: "Hiragino Sans", "Yu Gothic", "Meiryo", "MS Gothic", sans-serif; }
+    mark { background: #fef08a; border-radius: 2px; padding: 0 2px; }
+
+    /* ── Dark mode — misma clave localStorage que index.html (body.dark) ── */
+    body.dark { background-color: #111827; color: #f3f4f6; }
+
+    body.dark header {
+      background-color: #1f2937;
+      border-color: #374151;
+    }
+    body.dark #counter {
+      background-color: #374151;
+      color: #9ca3af;
+    }
+    body.dark #dark-btn,
+    body.dark #back-link {
+      background-color: #374151;
+      border-color: #4b5563;
+      color: #9ca3af;
+    }
+    body.dark select,
+    body.dark input[type="search"] {
+      background-color: #374151;
+      border-color: #4b5563;
+      color: #e5e7eb;
+      color-scheme: dark;
+    }
+    body.dark #loading,
+    body.dark #empty { color: #6b7280; }
+
+    /* Tarjetas generadas en JS */
+    body.dark .card {
+      background-color: #1f2937;
+      border-color: #374151;
+    }
+    body.dark .question-text  { color: #f3f4f6; }
+    body.dark .unit-badge     { background-color: rgba(30,58,138,0.4); color: #93c5fd; }
+    body.dark .cat-badge      { background-color: rgba(46,16,101,0.4); color: #c4b5fd; }
+    body.dark .q-num          { color: #6b7280; }
+
+    body.dark .opt-correct                  { background-color: rgba(5,46,22,0.3); border-color: #166534; }
+    body.dark .opt-correct .opt-icon        { color: #4ade80; }
+    body.dark .opt-correct .opt-text        { color: #86efac; }
+
+    body.dark .opt-wrong                    { background-color: rgba(55,65,81,0.5); border-color: #4b5563; }
+    body.dark .opt-wrong .opt-icon          { color: #4b5563; }
+    body.dark .opt-wrong .opt-text          { color: #9ca3af; }
+
+    body.dark mark { background: #78350f; color: #fef3c7; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 min-h-screen transition-colors duration-200">
+<script>
+  if (localStorage.getItem('darkMode') === '1') document.body.classList.add('dark');
+</script>
+
+  <!-- HEADER + FILTROS (sticky) -->
+  <header class="bg-white border-b border-gray-200 shadow-sm sticky top-0 z-20 transition-colors duration-200">
+    <div class="max-w-7xl mx-auto px-4 py-3 space-y-3">
+
+      <div class="flex items-center justify-between gap-4">
+        <div>
+          <h1 class="text-lg font-bold text-red-700 leading-tight">日本語 Quiz — Revisión de preguntas</h1>
+          <p class="text-xs text-gray-400">Dekiru Nihongo</p>
+        </div>
+        <div class="flex items-center gap-2 shrink-0">
+          <span id="counter"
+            class="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded-full whitespace-nowrap">
+            Cargando…
+          </span>
+          <button id="dark-btn" onclick="toggleDark()" title="Modo nocturno"
+            class="border border-gray-300 rounded-full w-9 h-9 flex items-center justify-center text-base bg-white text-gray-500 hover:border-gray-400 transition-colors">
+          </button>
+          <a id="back-link" href="index.html" title="Volver al quiz"
+            class="border border-gray-300 rounded-full px-3 py-1 text-sm bg-white text-gray-500 hover:border-gray-400 transition-colors whitespace-nowrap">
+            ← Quiz
+          </a>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap gap-2">
+        <select id="unit-select"
+          class="border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-red-300 min-w-[200px]">
+          <option value="all">📚 Todas las unidades</option>
+        </select>
+
+        <input id="search" type="search" placeholder="🔍  Buscar pregunta, respuesta u opción…"
+          class="border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-red-300 flex-1 min-w-[240px]">
+
+        <select id="cat-select"
+          class="border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-red-300 min-w-[200px]">
+          <option value="all">🏷  Todas las categorías</option>
+        </select>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- CONTENIDO -->
+  <main class="max-w-7xl mx-auto px-4 py-6">
+
+    <div id="error-box"
+      class="hidden bg-red-50 border border-red-200 text-red-800 rounded-xl p-4 mb-5 text-sm leading-relaxed">
+    </div>
+
+    <div id="loading" class="text-center py-24 text-gray-400">
+      <div class="text-4xl mb-3 animate-pulse">⏳</div>
+      <div class="text-base">Cargando preguntas…</div>
+    </div>
+
+    <div id="empty" class="hidden text-center py-24 text-gray-400">
+      <div class="text-5xl mb-4">🔍</div>
+      <div class="text-lg font-medium">Sin resultados</div>
+      <div class="text-sm mt-1">Probá cambiando los filtros o la búsqueda.</div>
+    </div>
+
+    <div id="grid" class="hidden grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4"></div>
+
+  </main>
+
+  <script>
+  // ================================================================
+  // DARK MODE — mismo mecanismo que index.html (body.dark + localStorage)
+  // ================================================================
+  function toggleDark() {
+    const isDark = document.body.classList.toggle('dark');
+    document.getElementById('dark-btn').textContent = isDark ? '☀️' : '🌙';
+    localStorage.setItem('darkMode', isDark ? '1' : '0');
+  }
+
+  document.getElementById('dark-btn').textContent =
+    document.body.classList.contains('dark') ? '☀️' : '🌙';
+
+  // ================================================================
+  // ESTADO
+  // ================================================================
+  let allQuestions = [];
+  let filtered = [];
+
+  const unitSelect = document.getElementById('unit-select');
+  const catSelect  = document.getElementById('cat-select');
+  const searchEl   = document.getElementById('search');
+  const counterEl  = document.getElementById('counter');
+  const gridEl     = document.getElementById('grid');
+  const loadingEl  = document.getElementById('loading');
+  const emptyEl    = document.getElementById('empty');
+  const errorBox   = document.getElementById('error-box');
+
+  // ================================================================
+  // CARGA
+  // ================================================================
+  async function init() {
+    try {
+      const res = await fetch('./manifest.json');
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const { unidades = [] } = await res.json();
+
+      unidades.forEach(u => {
+        const opt = document.createElement('option');
+        opt.value = u.id;
+        opt.textContent = `${u.nombre} — ${u.subtitle}`;
+        unitSelect.appendChild(opt);
+      });
+
+      const results = await Promise.allSettled(unidades.map(loadUnit));
+      const errors  = results.filter(r => r.status === 'rejected').map(r => r.reason.message);
+      if (errors.length) showError(errors.join('<br>'));
+
+    } catch (err) {
+      showError(
+        `No se pudo cargar <code class="bg-red-100 px-1 rounded">manifest.json</code>: ${esc(err.message)}<br><br>
+         Corré un servidor local:<br>
+         <code class="bg-red-100 px-1 rounded">python3 -m http.server 8000</code>
+         → <code class="bg-red-100 px-1 rounded">http://localhost:8000/revision.html</code>`
+      );
+    } finally {
+      loadingEl.classList.add('hidden');
+      gridEl.classList.remove('hidden');
+      applyFilters();
+    }
+  }
+
+  async function loadUnit(unit) {
+    const res = await fetch(unit.file);
+    if (!res.ok) throw new Error(`HTTP ${res.status} al cargar ${unit.file}`);
+    const questions = await res.json();
+    questions.forEach((q, i) => {
+      allQuestions.push({
+        unitId:   unit.id,
+        unitName: unit.nombre,
+        qid:      q.id      || (unit.id.toUpperCase() + '-' + String(i + 1).padStart(3, '0')),
+        cat:      q.cat     || '—',
+        q:        q.q       || '',
+        correct:  q.correct || '',
+        opts:     Array.isArray(q.opts) ? q.opts : [],
+      });
+    });
+  }
+
+  // ================================================================
+  // FILTROS
+  // ================================================================
+  function applyFilters() {
+    const unitVal   = unitSelect.value;
+    const catVal    = catSelect.value;
+    const searchVal = searchEl.value.trim().toLowerCase();
+
+    rebuildCatSelect(unitVal);
+
+    filtered = allQuestions.filter(q => {
+      if (unitVal !== 'all' && q.unitId !== unitVal) return false;
+      if (catVal  !== 'all' && q.cat   !== catVal)  return false;
+      if (searchVal) {
+        const hay = [q.q, q.correct, ...q.opts].join(' ').toLowerCase();
+        if (!hay.includes(searchVal)) return false;
+      }
+      return true;
+    });
+
+    counterEl.textContent = `Mostrando ${filtered.length.toLocaleString()} de ${allQuestions.length.toLocaleString()} preguntas`;
+    render();
+  }
+
+  function rebuildCatSelect(unitVal) {
+    const current = catSelect.value;
+    const pool    = unitVal === 'all' ? allQuestions : allQuestions.filter(q => q.unitId === unitVal);
+    const cats    = [...new Set(pool.map(q => q.cat))].sort((a, b) => a.localeCompare(b));
+
+    catSelect.innerHTML = '<option value="all">🏷  Todas las categorías</option>';
+    cats.forEach(c => {
+      const opt = document.createElement('option');
+      opt.value = c;
+      opt.textContent = c;
+      if (c === current) opt.selected = true;
+      catSelect.appendChild(opt);
+    });
+  }
+
+  // ================================================================
+  // RENDER
+  // ================================================================
+  function render() {
+    gridEl.innerHTML = '';
+
+    if (filtered.length === 0) {
+      emptyEl.classList.remove('hidden');
+      gridEl.classList.add('hidden');
+      return;
+    }
+
+    emptyEl.classList.add('hidden');
+    gridEl.classList.remove('hidden');
+
+    const q = searchEl.value.trim().toLowerCase();
+    filtered.forEach(item => gridEl.appendChild(buildCard(item, q)));
+  }
+
+  function buildCard(item, searchVal) {
+    const card = document.createElement('div');
+    card.className = 'card bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow flex flex-col gap-3 p-4';
+
+    const header = document.createElement('div');
+    header.className = 'flex items-start justify-between gap-2';
+    header.innerHTML = `
+      <div class="flex flex-wrap gap-1.5">
+        <span class="unit-badge text-xs font-semibold bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full">${esc(item.unitName)}</span>
+        <span class="cat-badge text-xs font-semibold bg-violet-100 text-violet-700 px-2 py-0.5 rounded-full">${esc(item.cat)}</span>
+      </div>
+      <span class="q-num text-xs font-mono text-gray-400 whitespace-nowrap">${item.qid}</span>
+    `;
+
+    const question = document.createElement('div');
+    question.className = 'question-text jp text-base font-semibold text-gray-800 leading-snug';
+    question.innerHTML = highlight(item.q, searchVal);
+
+    const opts = document.createElement('div');
+    opts.className = 'flex flex-col gap-1.5';
+    item.opts.forEach(opt => opts.appendChild(buildOption(opt, item.correct, searchVal)));
+
+    card.appendChild(header);
+    card.appendChild(question);
+    card.appendChild(opts);
+    return card;
+  }
+
+  function buildOption(opt, correct, searchVal) {
+    const el = document.createElement('div');
+    const isCorrect = opt === correct;
+
+    el.className = isCorrect
+      ? 'opt-correct flex items-center gap-2 bg-green-50 border border-green-300 rounded-lg px-3 py-1.5'
+      : 'opt-wrong flex items-center gap-2 bg-gray-50 border border-gray-200 rounded-lg px-3 py-1.5';
+
+    const icon = document.createElement('span');
+    icon.className = isCorrect
+      ? 'opt-icon text-green-600 font-bold text-sm shrink-0'
+      : 'opt-icon text-gray-300 text-sm shrink-0';
+    icon.textContent = isCorrect ? '✓' : '○';
+
+    const text = document.createElement('span');
+    text.className = isCorrect
+      ? 'opt-text jp text-sm font-semibold text-green-800'
+      : 'opt-text jp text-sm text-gray-500';
+    text.innerHTML = highlight(opt, searchVal);
+
+    el.appendChild(icon);
+    el.appendChild(text);
+    return el;
+  }
+
+  // ================================================================
+  // HELPERS
+  // ================================================================
+  function esc(str) {
+    return String(str)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function highlight(text, query) {
+    const escaped = esc(text);
+    if (!query) return escaped;
+    const safe = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return escaped.replace(new RegExp(`(${safe})`, 'gi'), '<mark>$1</mark>');
+  }
+
+  function showError(html) {
+    errorBox.innerHTML = `<b>⚠️ Error</b><br>${html}`;
+    errorBox.classList.remove('hidden');
+  }
+
+  // ================================================================
+  // EVENTOS
+  // ================================================================
+  unitSelect.addEventListener('change', () => { catSelect.value = 'all'; applyFilters(); });
+  catSelect.addEventListener('change', applyFilters);
+  searchEl.addEventListener('input', applyFilters);
+
+  // ================================================================
+  // INICIO
+  // ================================================================
+  init();
+  </script>
+</body>
+</html>
