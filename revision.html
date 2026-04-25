@@ -4,43 +4,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Revisión — 日本語 Quiz</title>
+  <script>tailwind.config = { darkMode: 'class' }</script>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    if (localStorage.getItem('darkMode') === '1') document.documentElement.classList.add('dark');
+  </script>
   <style>
     .jp { font-family: "Hiragino Sans", "Yu Gothic", "Meiryo", "MS Gothic", sans-serif; }
     mark { background: #fef08a; border-radius: 2px; padding: 0 2px; }
+    .dark mark { background: #78350f; color: #fef3c7; }
   </style>
 </head>
-<body class="bg-gray-50 text-gray-800 min-h-screen">
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100 min-h-screen transition-colors duration-200">
 
   <!-- HEADER + FILTROS (sticky) -->
-  <header class="bg-white border-b border-gray-200 shadow-sm sticky top-0 z-20">
+  <header class="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 shadow-sm sticky top-0 z-20 transition-colors duration-200">
     <div class="max-w-7xl mx-auto px-4 py-3 space-y-3">
 
       <div class="flex items-center justify-between gap-4">
         <div>
           <h1 class="text-lg font-bold text-red-700 leading-tight">日本語 Quiz — Revisión de preguntas</h1>
-          <p class="text-xs text-gray-400">Dekiru Nihongo</p>
+          <p class="text-xs text-gray-400 dark:text-gray-500">Dekiru Nihongo</p>
         </div>
-        <span id="counter"
-          class="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded-full whitespace-nowrap shrink-0">
-          Cargando…
-        </span>
+        <div class="flex items-center gap-2 shrink-0">
+          <span id="counter"
+            class="text-sm text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-full whitespace-nowrap">
+            Cargando…
+          </span>
+          <button id="dark-btn" onclick="toggleDark()" title="Modo nocturno"
+            class="border border-gray-300 dark:border-gray-600 rounded-full w-9 h-9 flex items-center justify-center text-base
+                   bg-white dark:bg-gray-700 text-gray-500 dark:text-gray-400
+                   hover:border-gray-400 dark:hover:border-gray-400 transition-colors">
+          </button>
+          <a href="index.html" title="Volver al quiz"
+            class="border border-gray-300 dark:border-gray-600 rounded-full px-3 py-1 text-sm
+                   bg-white dark:bg-gray-700 text-gray-500 dark:text-gray-400
+                   hover:border-gray-400 dark:hover:border-gray-400 transition-colors whitespace-nowrap">
+            ← Quiz
+          </a>
+        </div>
       </div>
 
       <div class="flex flex-wrap gap-2">
-        <!-- Unidad -->
         <select id="unit-select"
-          class="border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-red-300 min-w-[200px]">
+          class="border border-gray-300 dark:border-gray-600 rounded-lg px-3 py-2 text-sm
+                 bg-white dark:bg-gray-700 dark:text-gray-200
+                 focus:outline-none focus:ring-2 focus:ring-red-300 min-w-[200px]">
           <option value="all">📚 Todas las unidades</option>
         </select>
 
-        <!-- Búsqueda -->
         <input id="search" type="search" placeholder="🔍  Buscar pregunta, respuesta u opción…"
-          class="border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-red-300 flex-1 min-w-[240px]">
+          class="border border-gray-300 dark:border-gray-600 rounded-lg px-3 py-2 text-sm
+                 bg-white dark:bg-gray-700 dark:text-gray-200 placeholder-gray-400 dark:placeholder-gray-500
+                 focus:outline-none focus:ring-2 focus:ring-red-300 flex-1 min-w-[240px]">
 
-        <!-- Categoría -->
         <select id="cat-select"
-          class="border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-red-300 min-w-[200px]">
+          class="border border-gray-300 dark:border-gray-600 rounded-lg px-3 py-2 text-sm
+                 bg-white dark:bg-gray-700 dark:text-gray-200
+                 focus:outline-none focus:ring-2 focus:ring-red-300 min-w-[200px]">
           <option value="all">🏷  Todas las categorías</option>
         </select>
       </div>
@@ -51,34 +72,42 @@
   <!-- CONTENIDO -->
   <main class="max-w-7xl mx-auto px-4 py-6">
 
-    <!-- Error -->
     <div id="error-box"
       class="hidden bg-red-50 border border-red-200 text-red-800 rounded-xl p-4 mb-5 text-sm leading-relaxed">
     </div>
 
-    <!-- Loading -->
-    <div id="loading" class="text-center py-24 text-gray-400">
+    <div id="loading" class="text-center py-24 text-gray-400 dark:text-gray-500">
       <div class="text-4xl mb-3 animate-pulse">⏳</div>
       <div class="text-base">Cargando preguntas…</div>
     </div>
 
-    <!-- Sin resultados -->
-    <div id="empty" class="hidden text-center py-24 text-gray-400">
+    <div id="empty" class="hidden text-center py-24 text-gray-400 dark:text-gray-500">
       <div class="text-5xl mb-4">🔍</div>
       <div class="text-lg font-medium">Sin resultados</div>
       <div class="text-sm mt-1">Probá cambiando los filtros o la búsqueda.</div>
     </div>
 
-    <!-- Grid de tarjetas -->
     <div id="grid" class="hidden grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4"></div>
 
   </main>
 
   <script>
   // ================================================================
+  // DARK MODE
+  // ================================================================
+  function toggleDark() {
+    const isDark = document.documentElement.classList.toggle('dark');
+    document.getElementById('dark-btn').textContent = isDark ? '☀️' : '🌙';
+    localStorage.setItem('darkMode', isDark ? '1' : '0');
+  }
+
+  document.getElementById('dark-btn').textContent =
+    document.documentElement.classList.contains('dark') ? '☀️' : '🌙';
+
+  // ================================================================
   // ESTADO
   // ================================================================
-  let allQuestions = [];  // { unitId, unitName, unitIdx, cat, q, correct, opts }
+  let allQuestions = [];
   let filtered = [];
 
   const unitSelect = document.getElementById('unit-select');
@@ -133,9 +162,9 @@
         unitId:   unit.id,
         unitName: unit.nombre,
         unitIdx:  i + 1,
-        cat:      q.cat    || '—',
-        q:        q.q      || '',
-        correct:  q.correct|| '',
+        cat:      q.cat     || '—',
+        q:        q.q       || '',
+        correct:  q.correct || '',
         opts:     Array.isArray(q.opts) ? q.opts : [],
       });
     });
@@ -196,31 +225,36 @@
     gridEl.classList.remove('hidden');
 
     const q = searchEl.value.trim().toLowerCase();
-
     filtered.forEach(item => gridEl.appendChild(buildCard(item, q)));
   }
 
   function buildCard(item, searchVal) {
     const card = document.createElement('div');
-    card.className = 'bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow flex flex-col gap-3 p-4';
+    card.className = [
+      'bg-white dark:bg-gray-800',
+      'rounded-xl border border-gray-200 dark:border-gray-700',
+      'shadow-sm hover:shadow-md transition-shadow',
+      'flex flex-col gap-3 p-4',
+    ].join(' ');
 
-    // Badges + número
     const header = document.createElement('div');
     header.className = 'flex items-start justify-between gap-2';
     header.innerHTML = `
       <div class="flex flex-wrap gap-1.5">
-        <span class="text-xs font-semibold bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full">${esc(item.unitName)}</span>
-        <span class="text-xs font-semibold bg-violet-100 text-violet-700 px-2 py-0.5 rounded-full">${esc(item.cat)}</span>
+        <span class="text-xs font-semibold bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 px-2 py-0.5 rounded-full">
+          ${esc(item.unitName)}
+        </span>
+        <span class="text-xs font-semibold bg-violet-100 dark:bg-violet-900/40 text-violet-700 dark:text-violet-300 px-2 py-0.5 rounded-full">
+          ${esc(item.cat)}
+        </span>
       </div>
-      <span class="text-xs text-gray-400 whitespace-nowrap">#${item.unitIdx}</span>
+      <span class="text-xs text-gray-400 dark:text-gray-500 whitespace-nowrap">#${item.unitIdx}</span>
     `;
 
-    // Pregunta
     const question = document.createElement('div');
-    question.className = 'jp text-base font-semibold text-gray-800 leading-snug';
+    question.className = 'jp text-base font-semibold text-gray-800 dark:text-gray-100 leading-snug';
     question.innerHTML = highlight(item.q, searchVal);
 
-    // Opciones
     const opts = document.createElement('div');
     opts.className = 'flex flex-col gap-1.5';
     item.opts.forEach(opt => opts.appendChild(buildOption(opt, item.correct, searchVal)));
@@ -236,15 +270,19 @@
     const isCorrect = opt === correct;
 
     el.className = isCorrect
-      ? 'flex items-center gap-2 bg-green-50 border border-green-300 rounded-lg px-3 py-1.5'
-      : 'flex items-center gap-2 bg-gray-50 border border-gray-200 rounded-lg px-3 py-1.5';
+      ? 'flex items-center gap-2 bg-green-50 dark:bg-green-900/30 border border-green-300 dark:border-green-700 rounded-lg px-3 py-1.5'
+      : 'flex items-center gap-2 bg-gray-50 dark:bg-gray-700/50 border border-gray-200 dark:border-gray-600 rounded-lg px-3 py-1.5';
 
     const icon = document.createElement('span');
-    icon.className = isCorrect ? 'text-green-600 font-bold text-sm shrink-0' : 'text-gray-300 text-sm shrink-0';
+    icon.className = isCorrect
+      ? 'text-green-600 dark:text-green-400 font-bold text-sm shrink-0'
+      : 'text-gray-300 dark:text-gray-600 text-sm shrink-0';
     icon.textContent = isCorrect ? '✓' : '○';
 
     const text = document.createElement('span');
-    text.className = isCorrect ? 'jp text-sm font-semibold text-green-800' : 'jp text-sm text-gray-500';
+    text.className = isCorrect
+      ? 'jp text-sm font-semibold text-green-800 dark:text-green-300'
+      : 'jp text-sm text-gray-500 dark:text-gray-400';
     text.innerHTML = highlight(opt, searchVal);
 
     el.appendChild(icon);
@@ -257,10 +295,8 @@
   // ================================================================
   function esc(str) {
     return String(str)
-      .replace(/&/g, '&amp;')
-      .replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;');
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
 
   function highlight(text, query) {
