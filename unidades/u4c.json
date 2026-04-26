@@ -1,0 +1,1382 @@
+[
+  {
+    "id": "U4C-001",
+    "cat": "Kanji→Español",
+    "q": "¿Qué significa 雨?",
+    "correct": "Lluvia",
+    "opts": [
+      "Lluvia",
+      "Nieve",
+      "Nube",
+      "Cielo"
+    ]
+  },
+  {
+    "id": "U4C-002",
+    "cat": "Kanji→Español",
+    "q": "¿Qué significa 雪?",
+    "correct": "Nieve",
+    "opts": [
+      "Nieve",
+      "Lluvia",
+      "Frío",
+      "Viento"
+    ]
+  },
+  {
+    "id": "U4C-003",
+    "cat": "Kanji→Español",
+    "q": "¿Qué significa 天気?",
+    "correct": "Clima / Tiempo",
+    "opts": [
+      "Clima / Tiempo",
+      "Cielo",
+      "Aire",
+      "Estación del año"
+    ]
+  },
+  {
+    "id": "U4C-004",
+    "cat": "Kanji→Español",
+    "q": "¿Qué significa 料理?",
+    "correct": "Comida / Cocina",
+    "opts": [
+      "Comida / Cocina",
+      "Plato",
+      "Restaurante",
+      "Receta"
+    ]
+  },
+  {
+    "id": "U4C-005",
+    "cat": "Kanji→Español",
+    "q": "¿Qué significa 一年中?",
+    "correct": "Todo el año",
+    "opts": [
+      "Todo el año",
+      "Una vez al año",
+      "El año pasado",
+      "Durante un año"
+    ]
+  },
+  {
+    "id": "U4C-006",
+    "cat": "Kanji→Español",
+    "q": "¿Qué significa 夏?",
+    "correct": "Verano",
+    "opts": [
+      "Verano",
+      "Invierno",
+      "Primavera",
+      "Otoño"
+    ]
+  },
+  {
+    "id": "U4C-007",
+    "cat": "Kanji→Español",
+    "q": "¿Qué significa 冬?",
+    "correct": "Invierno",
+    "opts": [
+      "Invierno",
+      "Verano",
+      "Frío",
+      "Helado"
+    ]
+  },
+  {
+    "id": "U4C-008",
+    "cat": "Kanji→Español",
+    "q": "¿Qué significa 日?",
+    "correct": "Día / Sol",
+    "opts": [
+      "Día / Sol",
+      "Mes",
+      "Cielo",
+      "Tarde"
+    ]
+  },
+  {
+    "id": "U4C-009",
+    "cat": "Adj. clima: Kanji→Español",
+    "q": "¿Qué significa 暑い? (kanji con 日 = sol)",
+    "correct": "Caluroso (clima)",
+    "opts": [
+      "Caluroso (clima)",
+      "Caliente (objeto)",
+      "Cálido (clima)",
+      "Tibio (objeto)"
+    ]
+  },
+  {
+    "id": "U4C-010",
+    "cat": "Adj. clima: Kanji→Español",
+    "q": "¿Qué significa 寒い?",
+    "correct": "Frío (clima)",
+    "opts": [
+      "Frío (clima)",
+      "Frío (objeto)",
+      "Fresco (clima)",
+      "Helado"
+    ]
+  },
+  {
+    "id": "U4C-011",
+    "cat": "Adj. clima: Kanji→Español",
+    "q": "¿Qué significa 暖かい? (kanji con 日 + 爰)",
+    "correct": "Cálido (clima)",
+    "opts": [
+      "Cálido (clima)",
+      "Tibio (objeto)",
+      "Caluroso (clima)",
+      "Templado (líquido)"
+    ]
+  },
+  {
+    "id": "U4C-012",
+    "cat": "Adj. clima: Kanji→Español",
+    "q": "¿Qué significa 涼しい?",
+    "correct": "Fresco (clima)",
+    "opts": [
+      "Fresco (clima)",
+      "Frío (clima)",
+      "Frío (objeto)",
+      "Helado"
+    ]
+  },
+  {
+    "id": "U4C-013",
+    "cat": "Adj. objetos: Kanji→Español",
+    "q": "¿Qué significa 熱い? (kanji con 灬 = fuego)",
+    "correct": "Caliente (objeto)",
+    "opts": [
+      "Caliente (objeto)",
+      "Caluroso (clima)",
+      "Cálido (clima)",
+      "Tibio (objeto)"
+    ]
+  },
+  {
+    "id": "U4C-014",
+    "cat": "Adj. objetos: Kanji→Español",
+    "q": "¿Qué significa 温かい? (con kanji 氵 agua)",
+    "correct": "Tibio (objeto)",
+    "opts": [
+      "Tibio (objeto)",
+      "Cálido (clima)",
+      "Caliente (objeto)",
+      "Suave"
+    ]
+  },
+  {
+    "id": "U4C-015",
+    "cat": "Adj. objetos: Kanji→Español",
+    "q": "¿Qué significa 冷たい?",
+    "correct": "Frío / Helado (objeto)",
+    "opts": [
+      "Frío / Helado (objeto)",
+      "Frío (clima)",
+      "Fresco (clima)",
+      "Congelado"
+    ]
+  },
+  {
+    "id": "U4C-016",
+    "cat": "Adj. sabor: Kanji→Español",
+    "q": "¿Qué significa 甘い?",
+    "correct": "Dulce",
+    "opts": [
+      "Dulce",
+      "Amargo",
+      "Ácido",
+      "Salado"
+    ]
+  },
+  {
+    "id": "U4C-017",
+    "cat": "Adj. sabor: Kanji→Español",
+    "q": "¿Qué significa 辛い?",
+    "correct": "Picante",
+    "opts": [
+      "Picante",
+      "Amargo",
+      "Salado",
+      "Ácido"
+    ]
+  },
+  {
+    "id": "U4C-018",
+    "cat": "Adj. sabor: Kanji→Español",
+    "q": "¿Qué significa 苦い?",
+    "correct": "Amargo",
+    "opts": [
+      "Amargo",
+      "Ácido",
+      "Picante",
+      "Salado"
+    ]
+  },
+  {
+    "id": "U4C-019",
+    "cat": "Adj. sabor: Japonés→Español",
+    "q": "¿Qué significa すっぱい?",
+    "correct": "Ácido / Agrio",
+    "opts": [
+      "Ácido / Agrio",
+      "Amargo",
+      "Dulce",
+      "Picante"
+    ]
+  },
+  {
+    "id": "U4C-020",
+    "cat": "Adj. sabor: Japonés→Español",
+    "q": "¿Qué significa おいしい?",
+    "correct": "Rico / Delicioso",
+    "opts": [
+      "Rico / Delicioso",
+      "Insípido",
+      "Empalagoso",
+      "Comestible"
+    ]
+  },
+  {
+    "id": "U4C-021",
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 雨?",
+    "correct": "あめ",
+    "opts": [
+      "あめ",
+      "あま",
+      "うめ",
+      "ゆき"
+    ]
+  },
+  {
+    "id": "U4C-022",
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 雪?",
+    "correct": "ゆき",
+    "opts": [
+      "ゆき",
+      "ゆうき",
+      "せつ",
+      "あめ"
+    ]
+  },
+  {
+    "id": "U4C-023",
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 天気?",
+    "correct": "てんき",
+    "opts": [
+      "てんき",
+      "てんけ",
+      "てんぎ",
+      "あめき"
+    ]
+  },
+  {
+    "id": "U4C-024",
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 料理?",
+    "correct": "りょうり",
+    "opts": [
+      "りょうり",
+      "りようり",
+      "りょり",
+      "りょうい"
+    ]
+  },
+  {
+    "id": "U4C-025",
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 一年中?",
+    "correct": "いちねんじゅう",
+    "opts": [
+      "いちねんじゅう",
+      "いちねんちゅう",
+      "ひとねんじゅう",
+      "いっねんじゅう"
+    ]
+  },
+  {
+    "id": "U4C-026",
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 夏?",
+    "correct": "なつ",
+    "opts": [
+      "なつ",
+      "ふゆ",
+      "あき",
+      "はる"
+    ]
+  },
+  {
+    "id": "U4C-027",
+    "cat": "Kanji→Lectura",
+    "q": "¿Cómo se lee 冬?",
+    "correct": "ふゆ",
+    "opts": [
+      "ふゆ",
+      "なつ",
+      "とう",
+      "あき"
+    ]
+  },
+  {
+    "id": "U4C-028",
+    "cat": "Adj.: Kanji→Lectura",
+    "q": "¿Cómo se lee 暑い (clima caluroso)?",
+    "correct": "あつい",
+    "opts": [
+      "あつい",
+      "あちい",
+      "しょい",
+      "あつかい"
+    ]
+  },
+  {
+    "id": "U4C-029",
+    "cat": "Adj.: Kanji→Lectura",
+    "q": "¿Cómo se lee 熱い (objeto caliente)?",
+    "correct": "あつい",
+    "opts": [
+      "あつい",
+      "ねつい",
+      "ねっい",
+      "あちい"
+    ]
+  },
+  {
+    "id": "U4C-030",
+    "cat": "Adj.: Kanji→Lectura",
+    "q": "¿Cómo se lee 寒い?",
+    "correct": "さむい",
+    "opts": [
+      "さむい",
+      "かんい",
+      "つめい",
+      "さもい"
+    ]
+  },
+  {
+    "id": "U4C-031",
+    "cat": "Adj.: Kanji→Lectura",
+    "q": "¿Cómo se lee 暖かい (clima cálido)?",
+    "correct": "あたたかい",
+    "opts": [
+      "あたたかい",
+      "あったかい",
+      "だんかい",
+      "ぬるかい"
+    ]
+  },
+  {
+    "id": "U4C-032",
+    "cat": "Adj.: Kanji→Lectura",
+    "q": "¿Cómo se lee 温かい (objeto tibio)?",
+    "correct": "あたたかい",
+    "opts": [
+      "あたたかい",
+      "おんかい",
+      "おたたかい",
+      "ぬるかい"
+    ]
+  },
+  {
+    "id": "U4C-033",
+    "cat": "Adj.: Kanji→Lectura",
+    "q": "¿Cómo se lee 涼しい?",
+    "correct": "すずしい",
+    "opts": [
+      "すずしい",
+      "りょうしい",
+      "つめしい",
+      "すずい"
+    ]
+  },
+  {
+    "id": "U4C-034",
+    "cat": "Adj.: Kanji→Lectura",
+    "q": "¿Cómo se lee 冷たい?",
+    "correct": "つめたい",
+    "opts": [
+      "つめたい",
+      "れいたい",
+      "さむたい",
+      "ひえたい"
+    ]
+  },
+  {
+    "id": "U4C-035",
+    "cat": "Adj.: Kanji→Lectura",
+    "q": "¿Cómo se lee 甘い?",
+    "correct": "あまい",
+    "opts": [
+      "あまい",
+      "かんい",
+      "うまい",
+      "あめい"
+    ]
+  },
+  {
+    "id": "U4C-036",
+    "cat": "Adj.: Kanji→Lectura",
+    "q": "¿Cómo se lee 辛い?",
+    "correct": "からい",
+    "opts": [
+      "からい",
+      "つらい",
+      "しんい",
+      "あらい"
+    ]
+  },
+  {
+    "id": "U4C-037",
+    "cat": "Adj.: Kanji→Lectura",
+    "q": "¿Cómo se lee 苦い?",
+    "correct": "にがい",
+    "opts": [
+      "にがい",
+      "くるしい",
+      "くい",
+      "がんい"
+    ]
+  },
+  {
+    "id": "U4C-038",
+    "cat": "Distinguir kanji (clima vs objeto)",
+    "q": "Hace mucho calor afuera hoy. ¿Qué kanji va?",
+    "correct": "暑い",
+    "opts": [
+      "暑い",
+      "熱い",
+      "温かい",
+      "暖かい"
+    ]
+  },
+  {
+    "id": "U4C-039",
+    "cat": "Distinguir kanji (clima vs objeto)",
+    "q": "Esta sopa está caliente, ¡quema! ¿Qué kanji va?",
+    "correct": "熱い",
+    "opts": [
+      "熱い",
+      "暑い",
+      "暖かい",
+      "温かい"
+    ]
+  },
+  {
+    "id": "U4C-040",
+    "cat": "Distinguir kanji (clima vs objeto)",
+    "q": "Mi ciudad es cálida todo el año (clima agradable). ¿Qué kanji va?",
+    "correct": "暖かい",
+    "opts": [
+      "暖かい",
+      "温かい",
+      "熱い",
+      "暑い"
+    ]
+  },
+  {
+    "id": "U4C-041",
+    "cat": "Distinguir kanji (clima vs objeto)",
+    "q": "Esta sopa está tibia. ¿Qué kanji va?",
+    "correct": "温かい",
+    "opts": [
+      "温かい",
+      "暖かい",
+      "熱い",
+      "暑い"
+    ]
+  },
+  {
+    "id": "U4C-042",
+    "cat": "Distinguir kanji (clima vs objeto)",
+    "q": "En invierno hace mucho frío en Moscú. ¿Qué kanji va?",
+    "correct": "寒い",
+    "opts": [
+      "寒い",
+      "冷たい",
+      "涼しい",
+      "冬い"
+    ]
+  },
+  {
+    "id": "U4C-043",
+    "cat": "Distinguir kanji (clima vs objeto)",
+    "q": "Este jugo está helado. ¿Qué kanji va?",
+    "correct": "冷たい",
+    "opts": [
+      "冷たい",
+      "寒い",
+      "涼しい",
+      "凍い"
+    ]
+  },
+  {
+    "id": "U4C-044",
+    "cat": "Distinguir kanji (clima vs objeto)",
+    "q": "El kanji 暑 contiene 日 (sol). Por eso se usa para:",
+    "correct": "Clima caluroso",
+    "opts": [
+      "Clima caluroso",
+      "Bebida caliente",
+      "Objeto tibio",
+      "Sopa caliente"
+    ]
+  },
+  {
+    "id": "U4C-045",
+    "cat": "Distinguir kanji (clima vs objeto)",
+    "q": "El kanji 温 contiene 氵 (agua). Por eso se usa para:",
+    "correct": "Objetos tibios (sopa, té)",
+    "opts": [
+      "Objetos tibios (sopa, té)",
+      "Clima cálido (primavera)",
+      "Clima caluroso (verano)",
+      "Frío del invierno"
+    ]
+  },
+  {
+    "id": "U4C-046",
+    "cat": "Adj. negativo",
+    "q": "¿Cuál es la forma negativa de 暑い?",
+    "correct": "暑くない",
+    "opts": [
+      "暑くない",
+      "暑じゃない",
+      "暑いない",
+      "暑くじゃない"
+    ]
+  },
+  {
+    "id": "U4C-047",
+    "cat": "Adj. negativo",
+    "q": "¿Cuál es la forma negativa de 寒い?",
+    "correct": "寒くない",
+    "opts": [
+      "寒くない",
+      "寒じゃない",
+      "寒いない",
+      "寒くないじゃない"
+    ]
+  },
+  {
+    "id": "U4C-048",
+    "cat": "Adj. negativo",
+    "q": "¿Cuál es la forma negativa de 甘い?",
+    "correct": "甘くない",
+    "opts": [
+      "甘くない",
+      "甘じゃない",
+      "甘いない",
+      "甘くじゃない"
+    ]
+  },
+  {
+    "id": "U4C-049",
+    "cat": "Adj. negativo IRREGULAR",
+    "q": "⚠️ ¿Cuál es la forma negativa de いい (bueno)?",
+    "correct": "よくない",
+    "opts": [
+      "よくない",
+      "いくない",
+      "いいじゃない",
+      "いくじゃない"
+    ]
+  },
+  {
+    "id": "U4C-050",
+    "cat": "Adj. negativo IRREGULAR",
+    "q": "El clima no es muy bueno. ¿Cuál es la forma correcta?",
+    "correct": "天気があまりよくないです",
+    "opts": [
+      "天気があまりよくないです",
+      "天気があまりいくないです",
+      "天気があまりいいじゃないです",
+      "天気があまりいくじゃないです"
+    ]
+  },
+  {
+    "id": "U4C-051",
+    "cat": "Adj. negativo formal",
+    "q": "¿Cuál es la forma formal negativa de 'el clima no está bueno'?",
+    "correct": "天気がよくありません",
+    "opts": [
+      "天気がよくありません",
+      "天気がいくありません",
+      "天気がいいじゃありません",
+      "天気がよくじゃありません"
+    ]
+  },
+  {
+    "id": "U4C-052",
+    "cat": "Intensificador",
+    "q": "¿Qué significa とても?",
+    "correct": "Muy / Mucho",
+    "opts": [
+      "Muy / Mucho",
+      "Un poco",
+      "No tanto",
+      "A veces"
+    ]
+  },
+  {
+    "id": "U4C-053",
+    "cat": "Intensificador",
+    "q": "¿Qué significa 少し?",
+    "correct": "Un poco",
+    "opts": [
+      "Un poco",
+      "Mucho",
+      "No mucho",
+      "Casi nada"
+    ]
+  },
+  {
+    "id": "U4C-054",
+    "cat": "Intensificador",
+    "q": "¿Qué significa あまり (con un verbo/adj. negativo)?",
+    "correct": "No tanto / No mucho",
+    "opts": [
+      "No tanto / No mucho",
+      "Mucho",
+      "Demasiado",
+      "Siempre"
+    ]
+  },
+  {
+    "id": "U4C-055",
+    "cat": "Intensificador: complétalo",
+    "q": "このコーヒーはあまり苦____。 (Este café no es muy amargo)",
+    "correct": "くないです",
+    "opts": [
+      "くないです",
+      "いです",
+      "いじゃないです",
+      "くです"
+    ]
+  },
+  {
+    "id": "U4C-056",
+    "cat": "Intensificador: regla",
+    "q": "あまり SIEMPRE va acompañado de:",
+    "correct": "Verbo o adjetivo en NEGATIVO",
+    "opts": [
+      "Verbo o adjetivo en NEGATIVO",
+      "Verbo o adjetivo en AFIRMATIVO",
+      "Sustantivo solo",
+      "Otro adverbio"
+    ]
+  },
+  {
+    "id": "U4C-057",
+    "cat": "Intensificador: elegir",
+    "q": "Quiero decir 'es UN POCO ácido' (afirmativo). ¿Qué adverbio uso?",
+    "correct": "少し",
+    "opts": [
+      "少し",
+      "あまり",
+      "とても",
+      "あまりに"
+    ]
+  },
+  {
+    "id": "U4C-058",
+    "cat": "Intensificador: elegir",
+    "q": "Quiero decir 'NO es muy dulce' (negativo). ¿Qué adverbio uso?",
+    "correct": "あまり",
+    "opts": [
+      "あまり",
+      "とても",
+      "少し",
+      "ぜんぜん"
+    ]
+  },
+  {
+    "id": "U4C-059",
+    "cat": "Intensificador: elegir",
+    "q": "Quiero decir 'es MUY frío' (clima, afirmativo). ¿Qué adverbio uso?",
+    "correct": "とても",
+    "opts": [
+      "とても",
+      "あまり",
+      "ちょっと多い",
+      "少しだけ"
+    ]
+  },
+  {
+    "id": "U4C-060",
+    "cat": "Intensificador: error frecuente",
+    "q": "¿Cuál de estas oraciones es INCORRECTA?",
+    "correct": "このコーヒーはあまり苦いです。",
+    "opts": [
+      "このコーヒーはあまり苦いです。",
+      "このコーヒーは少し苦いです。",
+      "このコーヒーはとても苦いです。",
+      "このコーヒーはあまり苦くないです。"
+    ]
+  },
+  {
+    "id": "U4C-061",
+    "cat": "Adj + Sustantivo",
+    "q": "¿Cómo se dice 'sopa caliente' (objeto)?",
+    "correct": "熱いスープ",
+    "opts": [
+      "熱いスープ",
+      "熱なスープ",
+      "熱のスープ",
+      "暑いスープ"
+    ]
+  },
+  {
+    "id": "U4C-062",
+    "cat": "Adj + Sustantivo",
+    "q": "¿Cómo se dice 'jugo helado'?",
+    "correct": "冷たいジュース",
+    "opts": [
+      "冷たいジュース",
+      "冷たなジュース",
+      "寒いジュース",
+      "冷たのジュース"
+    ]
+  },
+  {
+    "id": "U4C-063",
+    "cat": "Adj + Sustantivo",
+    "q": "¿Cómo se dice 'pastel dulce'?",
+    "correct": "甘いケーキ",
+    "opts": [
+      "甘いケーキ",
+      "甘なケーキ",
+      "甘のケーキ",
+      "ケーキの甘い"
+    ]
+  },
+  {
+    "id": "U4C-064",
+    "cat": "Adj + Sustantivo",
+    "q": "¿Cómo se dice 'comida picante'?",
+    "correct": "辛い料理",
+    "opts": [
+      "辛い料理",
+      "辛な料理",
+      "辛料理",
+      "料理に辛い"
+    ]
+  },
+  {
+    "id": "U4C-065",
+    "cat": "Adj + Sustantivo",
+    "q": "¿Cómo se dice 'edificio viejo'?",
+    "correct": "古いビル",
+    "opts": [
+      "古いビル",
+      "古なビル",
+      "古ビル",
+      "ビルの古い"
+    ]
+  },
+  {
+    "id": "U4C-066",
+    "cat": "Partícula",
+    "q": "今日____天気がいいですね。 — ¿Qué partícula va?",
+    "correct": "は",
+    "opts": [
+      "は",
+      "が",
+      "に",
+      "で"
+    ]
+  },
+  {
+    "id": "U4C-067",
+    "cat": "Partícula",
+    "q": "北海道は2月、雪____とても多いです。 — ¿Qué partícula va?",
+    "correct": "が",
+    "opts": [
+      "が",
+      "の",
+      "を",
+      "に"
+    ]
+  },
+  {
+    "id": "U4C-068",
+    "cat": "Partícula",
+    "q": "私の国____夏、あまり暑くないです。 — ¿Qué partícula va? (tema general)",
+    "correct": "は",
+    "opts": [
+      "は",
+      "が",
+      "に",
+      "で"
+    ]
+  },
+  {
+    "id": "U4C-069",
+    "cat": "Partícula",
+    "q": "私の町____一年中暖かいです。 — ¿Qué partícula va?",
+    "correct": "は",
+    "opts": [
+      "は",
+      "が",
+      "に",
+      "を"
+    ]
+  },
+  {
+    "id": "U4C-070",
+    "cat": "Partícula (contraste vs adición)",
+    "q": "このビルは新しいです____、きれいじゃありません。 — ¿Qué partícula/conector va?",
+    "correct": "が",
+    "opts": [
+      "が",
+      "そして",
+      "から",
+      "で"
+    ]
+  },
+  {
+    "id": "U4C-071",
+    "cat": "Partícula",
+    "q": "雨____多いです。 — ¿Qué partícula marca al sujeto?",
+    "correct": "が",
+    "opts": [
+      "が",
+      "は",
+      "を",
+      "に"
+    ]
+  },
+  {
+    "id": "U4C-072",
+    "cat": "Conector そして vs が",
+    "q": "Las dos ideas SE COMPLEMENTAN (van en la misma dirección). ¿Qué conector uso?",
+    "correct": "そして",
+    "opts": [
+      "そして",
+      "が",
+      "でも",
+      "から"
+    ]
+  },
+  {
+    "id": "U4C-073",
+    "cat": "Conector そして vs が",
+    "q": "Las dos ideas SE CONTRADICEN (la segunda contrasta). ¿Qué conector uso?",
+    "correct": "が",
+    "opts": [
+      "が",
+      "そして",
+      "それから",
+      "また"
+    ]
+  },
+  {
+    "id": "U4C-074",
+    "cat": "Conector そして vs が",
+    "q": "わかば公園は静かです。____、緑が多いです。 — ¿Qué conector va?",
+    "correct": "そして",
+    "opts": [
+      "そして",
+      "が",
+      "でも",
+      "けれど"
+    ]
+  },
+  {
+    "id": "U4C-075",
+    "cat": "Conector そして vs が",
+    "q": "高尾山は有名です____、あまり高くないです。 — ¿Qué conector va?",
+    "correct": "が",
+    "opts": [
+      "が",
+      "そして",
+      "から",
+      "それから"
+    ]
+  },
+  {
+    "id": "U4C-076",
+    "cat": "Conector そして vs が",
+    "q": "このスープは温かいです。____、おいしいです。 — ¿Qué conector va?",
+    "correct": "そして",
+    "opts": [
+      "そして",
+      "が",
+      "でも",
+      "から"
+    ]
+  },
+  {
+    "id": "U4C-077",
+    "cat": "Tipo de adjetivo",
+    "q": "¿De qué tipo es 暑い?",
+    "correct": "い-adjetivo",
+    "opts": [
+      "い-adjetivo",
+      "な-adjetivo",
+      "Sustantivo",
+      "Adverbio"
+    ]
+  },
+  {
+    "id": "U4C-078",
+    "cat": "Tipo de adjetivo",
+    "q": "¿De qué tipo es おいしい?",
+    "correct": "い-adjetivo",
+    "opts": [
+      "い-adjetivo",
+      "な-adjetivo",
+      "Verbo",
+      "Adverbio"
+    ]
+  },
+  {
+    "id": "U4C-079",
+    "cat": "Tipo de adjetivo",
+    "q": "¿De qué tipo es すっぱい?",
+    "correct": "い-adjetivo",
+    "opts": [
+      "い-adjetivo",
+      "な-adjetivo",
+      "Sustantivo",
+      "Adverbio"
+    ]
+  },
+  {
+    "id": "U4C-080",
+    "cat": "どう vs どんな",
+    "q": "Querés preguntar '¿Y tu país? (¿Cómo es / qué tal?)'. ¿Qué palabra usás?",
+    "correct": "どう",
+    "opts": [
+      "どう",
+      "どんな",
+      "どこ",
+      "どちら"
+    ]
+  },
+  {
+    "id": "U4C-081",
+    "cat": "どう vs どんな",
+    "q": "Querés preguntar '¿QUÉ TIPO de ciudad es?'. ¿Qué palabra usás?",
+    "correct": "どんな",
+    "opts": [
+      "どんな",
+      "どう",
+      "どこ",
+      "なに"
+    ]
+  },
+  {
+    "id": "U4C-082",
+    "cat": "どう vs どんな",
+    "q": "あなたの国はどうですか. La pregunta busca:",
+    "correct": "Una opinión / impresión general",
+    "opts": [
+      "Una opinión / impresión general",
+      "El nombre del país",
+      "La ubicación exacta",
+      "Una descripción de qué hay"
+    ]
+  },
+  {
+    "id": "U4C-083",
+    "cat": "そうですね",
+    "q": "Tu compañero dice '今日は暑いですね'. Una respuesta natural de acuerdo es:",
+    "correct": "そうですね。",
+    "opts": [
+      "そうですね。",
+      "そうですか。",
+      "そうです。",
+      "いいえ、ちがいます。"
+    ]
+  },
+  {
+    "id": "U4C-084",
+    "cat": "そうですね vs そうですか",
+    "q": "そうですね expresa:",
+    "correct": "Acuerdo / empatía con lo que dijo el otro",
+    "opts": [
+      "Acuerdo / empatía con lo que dijo el otro",
+      "Sorpresa o duda",
+      "Negación",
+      "Pregunta de confirmación"
+    ]
+  },
+  {
+    "id": "U4C-085",
+    "cat": "Gramática estructura",
+    "q": "Para decir 'En X país, en Y mes/estación, hace Z', el orden es:",
+    "correct": "[Lugar] は [estación/mes]、[clima] です",
+    "opts": [
+      "[Lugar] は [estación/mes]、[clima] です",
+      "[Estación/mes] は [Lugar]、[clima] です",
+      "[Clima] は [Lugar] の [estación/mes]",
+      "[Lugar] に [estación/mes] が [clima] です"
+    ]
+  },
+  {
+    "id": "U4C-086",
+    "cat": "Gramática estructura",
+    "q": "Para describir un objeto comestible (sopa, jugo, café), la estructura es:",
+    "correct": "この [objeto] は [adj] です",
+    "opts": [
+      "この [objeto] は [adj] です",
+      "この [objeto] に [adj] が あります",
+      "[adj] の [objeto] は です",
+      "[objeto] は [adj] に です"
+    ]
+  },
+  {
+    "id": "U4C-087",
+    "cat": "Traducción ES→JP",
+    "q": "'En Hokkaido en febrero hay muchísima nieve.' — ¿Cuál es correcta?",
+    "correct": "北海道は2月、雪がとても多いです。",
+    "opts": [
+      "北海道は2月、雪がとても多いです。",
+      "北海道に2月、雪はとても多いです。",
+      "北海道で2月、雪をとても多いです。",
+      "2月の北海道は雪にとても多いです。"
+    ]
+  },
+  {
+    "id": "U4C-088",
+    "cat": "Traducción ES→JP",
+    "q": "'Este café no es muy amargo.' — ¿Cuál es correcta?",
+    "correct": "このコーヒーはあまり苦くないです。",
+    "opts": [
+      "このコーヒーはあまり苦くないです。",
+      "このコーヒーはあまり苦いです。",
+      "このコーヒーは少し苦くないです。",
+      "このコーヒーがあまり苦くないです。"
+    ]
+  },
+  {
+    "id": "U4C-089",
+    "cat": "Traducción ES→JP",
+    "q": "'Mi ciudad es cálida todo el año.' — ¿Cuál es correcta?",
+    "correct": "私の町は一年中暖かいです。",
+    "opts": [
+      "私の町は一年中暖かいです。",
+      "私の町は一年中温かいです。",
+      "私の町に一年中暖かいです。",
+      "一年中の町は私の暖かいです。"
+    ]
+  },
+  {
+    "id": "U4C-090",
+    "cat": "Traducción ES→JP",
+    "q": "'En mi país en abril el clima no está muy bueno.' — ¿Cuál es correcta?",
+    "correct": "私の国は4月、天気があまりよくありません。",
+    "opts": [
+      "私の国は4月、天気があまりよくありません。",
+      "私の国は4月、天気があまりいくありません。",
+      "私の国に4月、天気はあまりいいじゃありません。",
+      "4月の私の国、天気はあまりよくないです。"
+    ]
+  },
+  {
+    "id": "U4C-091",
+    "cat": "Traducción ES→JP",
+    "q": "'Esta sopa está tibia y rica.' — ¿Cuál es correcta?",
+    "correct": "このスープは温かいです。そして、おいしいです。",
+    "opts": [
+      "このスープは温かいです。そして、おいしいです。",
+      "このスープは暖かいです。そして、おいしいです。",
+      "このスープは温かいですが、おいしいです。",
+      "このスープに温かくて、おいしいです。"
+    ]
+  },
+  {
+    "id": "U4C-092",
+    "cat": "Traducción ES→JP",
+    "q": "'Hace calor hoy, ¿no?' — ¿Cuál es correcta?",
+    "correct": "今日は暑いですね。",
+    "opts": [
+      "今日は暑いですね。",
+      "今日は熱いですね。",
+      "今日が暑いですね。",
+      "今日に暑いですね。"
+    ]
+  },
+  {
+    "id": "U4C-093",
+    "cat": "Traducción ES→JP",
+    "q": "'¿Y en tu país, Carlos? (¿Cómo es?)' — ¿Cuál es correcta?",
+    "correct": "カルロスさんの国はどうですか。",
+    "opts": [
+      "カルロスさんの国はどうですか。",
+      "カルロスさんの国はどんなですか。",
+      "カルロスさんの国がどうですか。",
+      "カルロスさんの国はどこですか。"
+    ]
+  },
+  {
+    "id": "U4C-094",
+    "cat": "Traducción JP→ES",
+    "q": "'モスクワは冬、寒いです。雪がとても多いです。' significa:",
+    "correct": "En Moscú en invierno hace frío. Hay mucha nieve.",
+    "opts": [
+      "En Moscú en invierno hace frío. Hay mucha nieve.",
+      "En Moscú es invierno y nieva mucho frío.",
+      "Moscú es frío con mucha nieve en invierno.",
+      "El invierno de Moscú tiene mucha nieve fría."
+    ]
+  },
+  {
+    "id": "U4C-095",
+    "cat": "Traducción JP→ES",
+    "q": "'このジュースは少しすっぱいです。' significa:",
+    "correct": "Este jugo es un poco ácido.",
+    "opts": [
+      "Este jugo es un poco ácido.",
+      "Este jugo no es muy ácido.",
+      "Este jugo es muy ácido.",
+      "Este jugo es ácido y dulce."
+    ]
+  },
+  {
+    "id": "U4C-096",
+    "cat": "Traducción JP→ES",
+    "q": "'私の国は夏、あまり暑くないです。雨が多いです。' significa:",
+    "correct": "En mi país en verano no hace mucho calor. Llueve mucho.",
+    "opts": [
+      "En mi país en verano no hace mucho calor. Llueve mucho.",
+      "En mi país el verano es caluroso pero llueve poco.",
+      "Mi país tiene verano caluroso y mucha lluvia.",
+      "En verano en mi país hace calor y llueve poco."
+    ]
+  },
+  {
+    "id": "U4C-097",
+    "cat": "Traducción JP→ES",
+    "q": "'ヤマダビルは少し古いビルです。' significa:",
+    "correct": "El edificio Yamada es un edificio un poco viejo.",
+    "opts": [
+      "El edificio Yamada es un edificio un poco viejo.",
+      "El edificio Yamada es un poco antiguo y lindo.",
+      "Yamada es un edificio nuevo pero pequeño.",
+      "En Yamada hay un edificio viejo."
+    ]
+  },
+  {
+    "id": "U4C-098",
+    "cat": "Traducción JP→ES",
+    "q": "'高尾山は有名ですが、あまり高くないです。' significa:",
+    "correct": "El monte Takao es famoso, pero no es muy alto.",
+    "opts": [
+      "El monte Takao es famoso, pero no es muy alto.",
+      "El monte Takao es famoso y muy alto.",
+      "El monte Takao no es famoso ni alto.",
+      "Aunque el monte Takao no es alto, es famoso y bonito."
+    ]
+  },
+  {
+    "id": "U4C-099",
+    "cat": "Uso en contexto",
+    "q": "Tu compañero te dice 'カルロスさんの国はどうですか'. ¿Qué te está pidiendo?",
+    "correct": "Que comentes cómo es el clima/cómo está tu país.",
+    "opts": [
+      "Que comentes cómo es el clima/cómo está tu país.",
+      "El nombre exacto de tu país.",
+      "Cómo se va a tu país desde Japón.",
+      "Cuánta gente vive en tu país."
+    ]
+  },
+  {
+    "id": "U4C-100",
+    "cat": "Uso en contexto",
+    "q": "Si querés decir que en tu país en agosto NO hace mucho calor, decís:",
+    "correct": "私の国は8月、あまり暑くないです。",
+    "opts": [
+      "私の国は8月、あまり暑くないです。",
+      "私の国は8月、とても暑くないです。",
+      "私の国は8月、あまり暑いです。",
+      "私の国は8月、暑くないあまりです。"
+    ]
+  },
+  {
+    "id": "U4C-101",
+    "cat": "Uso en contexto",
+    "q": "Si tomás un sorbo de café que está QUEMANDO, exclamás:",
+    "correct": "熱い！",
+    "opts": [
+      "熱い！",
+      "暑い！",
+      "暖かい！",
+      "温かい！"
+    ]
+  },
+  {
+    "id": "U4C-102",
+    "cat": "Uso en contexto",
+    "q": "Saliste a la calle en pleno verano de Tokio. Decís:",
+    "correct": "暑いですね。",
+    "opts": [
+      "暑いですね。",
+      "熱いですね。",
+      "暖かいですね。",
+      "温かいですね。"
+    ]
+  },
+  {
+    "id": "U4C-103",
+    "cat": "Uso en contexto",
+    "q": "Tocás la sopa que tu amigo te sirvió y está apenas tibia. Decís:",
+    "correct": "このスープは温かいです。",
+    "opts": [
+      "このスープは温かいです。",
+      "このスープは暖かいです。",
+      "このスープは暑いです。",
+      "このスープは寒いです。"
+    ]
+  },
+  {
+    "id": "U4C-104",
+    "cat": "Uso en contexto",
+    "q": "Es un día de otoño en Kioto, el aire es fresco y agradable. Decís:",
+    "correct": "今日は涼しいですね。",
+    "opts": [
+      "今日は涼しいですね。",
+      "今日は冷たいですね。",
+      "今日は寒いですね。",
+      "今日は温かいですね。"
+    ]
+  },
+  {
+    "id": "U4C-105",
+    "cat": "Uso en contexto",
+    "q": "Te ofrecen una bebida y al tocar el vaso está MUY fría. Decís:",
+    "correct": "冷たいですね。",
+    "opts": [
+      "冷たいですね。",
+      "寒いですね。",
+      "涼しいですね。",
+      "熱いですね。"
+    ]
+  },
+  {
+    "id": "U4C-106",
+    "cat": "Diálogo",
+    "q": "A: '今日は暑いですね。' Una respuesta natural de B es:",
+    "correct": "そうですね。",
+    "opts": [
+      "そうですね。",
+      "そうですか。",
+      "いいえ、寒いです。",
+      "わかりません。"
+    ]
+  },
+  {
+    "id": "U4C-107",
+    "cat": "Diálogo",
+    "q": "A: 'アンナさんの国は8月、暑いですか。' B contesta 'いいえ、あまり暑くないです。雨が多いです。'. ¿Qué le dijo Anna?",
+    "correct": "Que en su país no hace mucho calor en agosto y llueve mucho.",
+    "opts": [
+      "Que en su país no hace mucho calor en agosto y llueve mucho.",
+      "Que en su país hace mucho calor y nada de lluvia.",
+      "Que su país está al norte y nieva mucho.",
+      "Que en agosto su país está fresco pero seco."
+    ]
+  },
+  {
+    "id": "U4C-108",
+    "cat": "Diálogo",
+    "q": "Querés contestar lo que pasa en tu país en verano. Una respuesta completa típica es:",
+    "correct": "私の国は夏、あまり暑くないです。雨が多いです。",
+    "opts": [
+      "私の国は夏、あまり暑くないです。雨が多いです。",
+      "私の国は夏、あまり暑いです。雨が多くないです。",
+      "私の国は夏に、暑いがありません。雨はあります。",
+      "私の国は夏が、あまり暑くないが、雨が多いです。"
+    ]
+  },
+  {
+    "id": "U4C-109",
+    "cat": "Gramática fina",
+    "q": "¿Cuál de estas oraciones es CORRECTA?",
+    "correct": "雪がとても多いです。",
+    "opts": [
+      "雪がとても多いです。",
+      "雪はとても多くです。",
+      "雪をとても多いです。",
+      "とても雪が多いがです。"
+    ]
+  },
+  {
+    "id": "U4C-110",
+    "cat": "Gramática fina",
+    "q": "¿Cuál de estas oraciones es INCORRECTA?",
+    "correct": "天気がとてもいくないです。",
+    "opts": [
+      "天気がとてもいくないです。",
+      "天気がよくないです。",
+      "天気がとてもいいです。",
+      "天気があまりよくないです。"
+    ]
+  },
+  {
+    "id": "U4C-111",
+    "cat": "Gramática fina",
+    "q": "¿Cuál de estas combinaciones NO existe (es un error)?",
+    "correct": "暑いスープ",
+    "opts": [
+      "暑いスープ",
+      "熱いスープ",
+      "冷たいジュース",
+      "甘いケーキ"
+    ]
+  },
+  {
+    "id": "U4C-112",
+    "cat": "Gramática fina",
+    "q": "Para decir 'es un edificio un poco viejo', ¿cuál es la forma correcta?",
+    "correct": "少し古いビルです",
+    "opts": [
+      "少し古いビルです",
+      "少しの古いビルです",
+      "古いに少しビルです",
+      "少し古ビルです"
+    ]
+  },
+  {
+    "id": "U4C-113",
+    "cat": "Gramática fina",
+    "q": "¿Cuál es la forma correcta de unir 'es bonita' + 'es vieja'?",
+    "correct": "きれいですが、古いです。",
+    "opts": [
+      "きれいですが、古いです。",
+      "きれいなですが、古いです。",
+      "きれいで、古いがです。",
+      "きれいですので、古いです。"
+    ]
+  },
+  {
+    "id": "U4C-114",
+    "cat": "Pista del kanji",
+    "q": "El kanji 寒 (frío clima) se asocia visualmente con cabaña helada. Para un objeto frío como una bebida, NO se usa 寒い sino:",
+    "correct": "冷たい",
+    "opts": [
+      "冷たい",
+      "涼しい",
+      "凍たい",
+      "冬たい"
+    ]
+  },
+  {
+    "id": "U4C-115",
+    "cat": "Pista del kanji",
+    "q": "El kanji 涼 contiene el radical 氵 (agua) + 京. ¿Qué clima describe?",
+    "correct": "Fresco (clima agradable)",
+    "opts": [
+      "Fresco (clima agradable)",
+      "Frío extremo",
+      "Lluvioso",
+      "Húmedo"
+    ]
+  }
+]

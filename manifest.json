@@ -1,4 +1,42 @@
 {
+  "niveles": [
+    {
+      "id": "n1",
+      "nombre": "Nivel 1",
+      "unidades": [
+        {
+          "id": "n1u1",
+          "nombre": "Unidad 1",
+          "subtitle": "Presentación e información personal",
+          "subunidades": ["u1a", "u1b", "u1c"]
+        },
+        {
+          "id": "n1u2",
+          "nombre": "Unidad 2",
+          "subtitle": "Lugares, objetos y restaurantes",
+          "subunidades": ["u2a", "u2b", "u2c"]
+        },
+        {
+          "id": "n1u3",
+          "nombre": "Unidad 3",
+          "subtitle": "Tiempo, horarios y rutinas diarias",
+          "subunidades": ["u3a", "u3b", "u3c"]
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "nombre": "Nivel 2",
+      "unidades": [
+        {
+          "id": "n2u4",
+          "nombre": "Unidad 4",
+          "subtitle": "Lugares, adjetivos y existencia",
+          "subunidades": ["u4a", "u4b", "u4c"]
+        }
+      ]
+    }
+  ],
   "unidades": [
     {
       "id": "u1a",
@@ -76,6 +114,13 @@
       "subtitle": "形容詞・どんな・あります — Adjetivos, どんな y あります",
       "file": "unidades/u4b.json",
       "total": 135
+    },
+    {
+      "id": "u4c",
+      "nombre": "Unidad 4C",
+      "subtitle": "季節・料理 — Clima, estaciones, sabores e intensificadores",
+      "file": "unidades/u4c.json",
+      "total": 115
     }
   ]
 }
