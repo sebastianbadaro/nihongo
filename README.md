@@ -19,7 +19,8 @@ Quiz interactivo modular para estudiar japonés, basado en el material del curso
 │   ├── u3b.json
 │   ├── u3c.json
 │   ├── u4a.json
-│   └── u4b.json
+│   ├── u4b.json
+│   └── u4c.json
 └── README.md
 ```
 
@@ -40,12 +41,14 @@ Por ejemplo, `unidades/u5a.json`. El formato es un array de preguntas:
 ```json
 [
   {
+    "id": "U5A-001",
     "cat": "Kanji→Español",
     "q": "¿Qué significa 北?",
     "correct": "Norte",
     "opts": ["Norte", "Sur", "Este", "Oeste"]
   },
   {
+    "id": "U5A-002",
     "cat": "Partícula",
     "q": "私___学生です。",
     "correct": "は",
@@ -55,6 +58,7 @@ Por ejemplo, `unidades/u5a.json`. El formato es un array de preguntas:
 ```
 
 **Reglas del formato:**
+- `id`: identificador único de la pregunta, formato `U{UNIDAD}-{NNN}` (ej. `U5A-001`). Se muestra en la herramienta de revisión para facilitar la identificación.
 - `cat`: categoría que se muestra como etiqueta arriba de la pregunta (string corto).
 - `q`: texto de la pregunta.
 - `correct`: la respuesta correcta (debe coincidir exactamente con una de las `opts`).
@@ -137,3 +141,4 @@ const QUIZ_SIZE = 30;  // Cambiar a 20, 50, etc.
 | 3C  | Unidad 3C  | 毎日の生活 — Partículas に・で・を y rutinas             | 119       |
 | 4A  | Unidad 4A  | Puntos cardinales, distancias, transporte              | 143       |
 | 4B  | Unidad 4B  | Adjetivos い/な, どんな, あります                        | 135       |
+| 4C  | Unidad 4C  | 季節・料理 — Clima, estaciones, sabores e intensificadores | 115       |
