@@ -118,17 +118,18 @@
 
     <div id="empty" class="hidden text-center py-24 text-gray-400">
       <div class="text-5xl mb-4">🔍</div>
-      <div class="text-lg font-medium">Sin resultados</div>
-      <div class="text-sm mt-1">Probá cambiando los filtros o la búsqueda.</div>
+      <div id="empty-title" class="text-lg font-medium">Sin resultados</div>
+      <div id="empty-sub" class="text-sm mt-1">Probá cambiando los filtros o la búsqueda.</div>
     </div>
 
     <div id="grid" class="hidden grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4"></div>
+    <div id="sentinel" class="h-4 mt-4"></div>
 
   </main>
 
   <script>
   // ================================================================
-  // DARK MODE — mismo mecanismo que index.html (body.dark + localStorage)
+  // DARK MODE
   // ================================================================
   function toggleDark() {
     const isDark = document.body.classList.toggle('dark');
@@ -142,8 +143,13 @@
   // ================================================================
   // ESTADO
   // ================================================================
-  let allQuestions = [];
-  let filtered = [];
+  let allQuestions  = [];
+  let filtered      = [];
+  let manifestUnits = [];
+  let loadedUnitIds = new Set();
+  let isLoadingAll  = false;
+  let renderOffset  = 0;
+  const PAGE_SIZE   = 50;
 
   const unitSelect = document.getElementById('unit-select');
   const catSelect  = document.getElementById('cat-select');
@@ -153,15 +159,18 @@
   const loadingEl  = document.getElementById('loading');
   const emptyEl    = document.getElementById('empty');
   const errorBox   = document.getElementById('error-box');
+  const emptyTitle = document.getElementById('empty-title');
+  const emptySub   = document.getElementById('empty-sub');
 
   // ================================================================
-  // CARGA
+  // CARGA PEREZOSA
   // ================================================================
   async function init() {
     try {
       const res = await fetch('./manifest.json');
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const { unidades = [] } = await res.json();
+      manifestUnits = unidades;
 
       unidades.forEach(u => {
         const opt = document.createElement('option');
@@ -169,10 +178,6 @@
         opt.textContent = `${u.nombre} — ${u.subtitle}`;
         unitSelect.appendChild(opt);
       });
-
-      const results = await Promise.allSettled(unidades.map(loadUnit));
-      const errors  = results.filter(r => r.status === 'rejected').map(r => r.reason.message);
-      if (errors.length) showError(errors.join('<br>'));
 
     } catch (err) {
       showError(
@@ -183,12 +188,15 @@
       );
     } finally {
       loadingEl.classList.add('hidden');
-      gridEl.classList.remove('hidden');
       applyFilters();
     }
   }
 
-  async function loadUnit(unit) {
+  async function ensureUnitLoaded(unitId) {
+    if (loadedUnitIds.has(unitId)) return;
+    const unit = manifestUnits.find(u => u.id === unitId);
+    if (!unit) return;
+
     const res = await fetch(unit.file);
     if (!res.ok) throw new Error(`HTTP ${res.status} al cargar ${unit.file}`);
     const questions = await res.json();
@@ -203,6 +211,33 @@
         opts:     Array.isArray(q.opts) ? q.opts : [],
       });
     });
+    loadedUnitIds.add(unitId);
+  }
+
+  async function loadSelected() {
+    const unitVal = unitSelect.value;
+
+    if (unitVal !== 'all') {
+      if (loadedUnitIds.has(unitVal)) return;
+      try {
+        await ensureUnitLoaded(unitVal);
+      } catch (err) { showError(esc(err.message)); }
+      applyFilters();
+      return;
+    }
+
+    // "Todas" — carga progresiva unidad por unidad
+    if (isLoadingAll) return;
+    const unloaded = manifestUnits.filter(u => !loadedUnitIds.has(u.id));
+    if (unloaded.length === 0) return;
+
+    isLoadingAll = true;
+    for (const unit of unloaded) {
+      setCounter(`Cargando ${unit.nombre}…`);
+      try { await ensureUnitLoaded(unit.id); } catch (err) { showError(esc(err.message)); }
+      applyFilters();
+    }
+    isLoadingAll = false;
   }
 
   // ================================================================
@@ -213,11 +248,24 @@
     const catVal    = catSelect.value;
     const searchVal = searchEl.value.trim().toLowerCase();
 
+    // Unidad específica aún no cargada → mostrar spinner
+    if (unitVal !== 'all' && !loadedUnitIds.has(unitVal)) {
+      loadingEl.classList.remove('hidden');
+      emptyEl.classList.add('hidden');
+      gridEl.classList.add('hidden');
+      setCounter('Cargando…');
+      return;
+    }
+    loadingEl.classList.add('hidden');
+
     rebuildCatSelect(unitVal);
 
-    filtered = allQuestions.filter(q => {
-      if (unitVal !== 'all' && q.unitId !== unitVal) return false;
-      if (catVal  !== 'all' && q.cat   !== catVal)  return false;
+    const pool = unitVal === 'all'
+      ? allQuestions
+      : allQuestions.filter(q => q.unitId === unitVal);
+
+    filtered = pool.filter(q => {
+      if (catVal !== 'all' && q.cat !== catVal) return false;
       if (searchVal) {
         const hay = [q.q, q.correct, ...q.opts].join(' ').toLowerCase();
         if (!hay.includes(searchVal)) return false;
@@ -225,8 +273,35 @@
       return true;
     });
 
-    counterEl.textContent = `Mostrando ${filtered.length.toLocaleString()} de ${allQuestions.length.toLocaleString()} preguntas`;
-    render();
+    const loaded = loadedUnitIds.size;
+    const total  = manifestUnits.length;
+    if (loaded === 0) {
+      setCounter('Seleccioná una unidad para comenzar');
+    } else if (loaded < total && unitVal === 'all') {
+      setCounter(`${filtered.length.toLocaleString()} preguntas · ${loaded}/${total} unidades cargadas`);
+    } else {
+      setCounter(`${filtered.length.toLocaleString()} de ${allQuestions.length.toLocaleString()} preguntas`);
+    }
+
+    renderOffset = 0;
+    gridEl.innerHTML = '';
+
+    if (filtered.length === 0) {
+      emptyEl.classList.remove('hidden');
+      gridEl.classList.add('hidden');
+      if (loaded === 0) {
+        emptyTitle.textContent = 'Seleccioná una unidad para comenzar';
+        emptySub.textContent   = 'Las preguntas se cargan bajo demanda.';
+      } else {
+        emptyTitle.textContent = 'Sin resultados';
+        emptySub.textContent   = 'Probá cambiando los filtros o la búsqueda.';
+      }
+      return;
+    }
+
+    emptyEl.classList.add('hidden');
+    gridEl.classList.remove('hidden');
+    renderNextPage();
   }
 
   function rebuildCatSelect(unitVal) {
@@ -245,23 +320,20 @@
   }
 
   // ================================================================
-  // RENDER
+  // RENDER PAGINADO + INFINITE SCROLL
   // ================================================================
-  function render() {
-    gridEl.innerHTML = '';
-
-    if (filtered.length === 0) {
-      emptyEl.classList.remove('hidden');
-      gridEl.classList.add('hidden');
-      return;
-    }
-
-    emptyEl.classList.add('hidden');
-    gridEl.classList.remove('hidden');
-
-    const q = searchEl.value.trim().toLowerCase();
-    filtered.forEach(item => gridEl.appendChild(buildCard(item, q)));
+  function renderNextPage() {
+    if (renderOffset >= filtered.length) return;
+    const q    = searchEl.value.trim().toLowerCase();
+    const page = filtered.slice(renderOffset, renderOffset + PAGE_SIZE);
+    page.forEach(item => gridEl.appendChild(buildCard(item, q)));
+    renderOffset += page.length;
   }
+
+  new IntersectionObserver(
+    entries => { if (entries[0].isIntersecting) renderNextPage(); },
+    { rootMargin: '400px' }
+  ).observe(document.getElementById('sentinel'));
 
   function buildCard(item, searchVal) {
     const card = document.createElement('div');
@@ -337,12 +409,21 @@
     errorBox.classList.remove('hidden');
   }
 
+  function setCounter(text) { counterEl.textContent = text; }
+
   // ================================================================
   // EVENTOS
   // ================================================================
-  unitSelect.addEventListener('change', () => { catSelect.value = 'all'; applyFilters(); });
+  unitSelect.addEventListener('change', () => {
+    catSelect.value = 'all';
+    applyFilters();
+    loadSelected();
+  });
   catSelect.addEventListener('change', applyFilters);
-  searchEl.addEventListener('input', applyFilters);
+  searchEl.addEventListener('input', () => {
+    if (unitSelect.value === 'all' && !isLoadingAll) loadSelected();
+    applyFilters();
+  });
 
   // ================================================================
   // INICIO
