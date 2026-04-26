@@ -76,6 +76,13 @@
       "subtitle": "形容詞・どんな・あります — Adjetivos, どんな y あります",
       "file": "unidades/u4b.json",
       "total": 135
+    },
+    {
+      "id": "u4c",
+      "nombre": "Unidad 4C",
+      "subtitle": "季節・料理 — Clima, estaciones, sabores e intensificadores",
+      "file": "unidades/u4c.json",
+      "total": 115
     }
   ]
 }
