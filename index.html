@@ -340,6 +340,48 @@
     font-weight: 600;
     white-space: nowrap;
   }
+  /* ── Accordion ── */
+  .nivel-list { display:flex; flex-direction:column; gap:8px; margin:16px 0; }
+  .nivel-item { border:2px solid var(--divider); border-radius:12px; overflow:hidden; transition:border-color 0.2s ease; }
+  .nivel-item.open { border-color:#c0392b; }
+  .nivel-header {
+    width:100%; display:flex; align-items:center; gap:10px;
+    padding:14px 18px; background:var(--unit-card-bg); border:none;
+    cursor:pointer; font-family:inherit; color:var(--text);
+    transition:background 0.15s ease; text-align:left;
+  }
+  .nivel-header:hover { background:var(--unit-card-hover-bg); }
+  .nivel-item.open > .nivel-header { background:var(--unit-card-hover-bg); }
+  .nivel-arrow { font-size:0.65em; color:var(--muted); transition:transform 0.25s ease; flex-shrink:0; }
+  .nivel-item.open > .nivel-header .nivel-arrow { transform:rotate(90deg); }
+  .nivel-name { font-weight:700; font-size:1.05em; color:#c0392b; flex:1; }
+  .nivel-total { background:#3498db; color:#fff; padding:3px 9px; border-radius:8px; font-size:0.72em; font-weight:600; white-space:nowrap; }
+  .nivel-content { display:grid; grid-template-rows:0fr; transition:grid-template-rows 0.3s ease; }
+  .nivel-item.open > .nivel-content { grid-template-rows:1fr; }
+  .nivel-inner { overflow:hidden; min-height:0; }
+  .nivel-item.open > .nivel-content > .nivel-inner { padding:10px; }
+
+  .unidad-list { display:flex; flex-direction:column; gap:6px; }
+  .unidad-item { border:1px solid var(--divider); border-radius:10px; overflow:hidden; transition:border-color 0.2s ease; }
+  .unidad-item.open { border-color:var(--unit-card-hover-border); }
+  .unidad-header {
+    width:100%; display:flex; align-items:center; gap:10px;
+    padding:10px 14px; background:var(--container-bg); border:none;
+    cursor:pointer; font-family:inherit; color:var(--text);
+    transition:background 0.15s ease; text-align:left;
+  }
+  .unidad-header:hover { background:var(--unit-card-hover-bg); }
+  .unidad-item.open > .unidad-header { background:var(--unit-card-hover-bg); }
+  .unidad-item.open > .unidad-header .nivel-arrow { transform:rotate(90deg); }
+  .unidad-name { font-weight:600; font-size:0.95em; color:#c0392b; }
+  .unidad-sub-text { font-size:0.8em; color:var(--muted); margin-top:2px; }
+  .unidad-count { background:var(--stat-bg); color:var(--muted); padding:2px 7px; border-radius:6px; font-size:0.72em; font-weight:600; white-space:nowrap; border:1px solid var(--divider); margin-left:auto; }
+  .unidad-content { display:grid; grid-template-rows:0fr; transition:grid-template-rows 0.3s ease; }
+  .unidad-item.open > .unidad-content { grid-template-rows:1fr; }
+  .unidad-inner { overflow:hidden; min-height:0; }
+  .unidad-item.open > .unidad-content > .unidad-inner { padding:8px; }
+  .subunidad-grid { display:grid; gap:6px; }
+
   .loader {
     text-align: center;
     padding: 40px 20px;
@@ -497,7 +539,8 @@ const MANIFEST_URL = './manifest.json';
 // =============================================================
 // ESTADO GLOBAL
 // =============================================================
-let allUnits = [];       // Unidades cargadas desde manifest
+let allUnits = [];       // Unidades cargadas desde manifest (flat)
+let allNiveles = [];     // Jerarquía desde manifest.niveles
 let questionsCache = {}; // Cache de preguntas por id de unidad
 let currentQuiz = [];
 let currentPool = [];    // Pool de preguntas actual (para repetir con nuevas al azar)
@@ -533,6 +576,7 @@ async function loadManifest() {
     if (!res.ok) throw new Error(`HTTP ${res.status} al cargar manifest.json`);
     const data = await res.json();
     allUnits = data.unidades || [];
+    allNiveles = data.niveles || [];
     renderUnitMenu();
   } catch (err) {
     document.getElementById('unit-list').innerHTML = `
@@ -549,38 +593,133 @@ async function loadManifest() {
 
 function renderUnitMenu() {
   const list = document.getElementById('unit-list');
-  const totalQs = allUnits.reduce((sum, u) => sum + (u.total || 0), 0);
 
-  let html = '<div class="unit-grid">';
-
-  // Cada unidad individual
-  allUnits.forEach(u => {
-    html += `
-      <button class="unit-card" onclick="startUnit('${u.id}')">
-        <div>
-          <div class="unit-name">${u.nombre}</div>
-          <div class="unit-sub jp">${u.subtitle || ''}</div>
-        </div>
+  if (allNiveles.length === 0) {
+    // Fallback: lista plana
+    const totalQs = allUnits.reduce((s, u) => s + (u.total || 0), 0);
+    let html = '<div class="unit-grid">';
+    allUnits.forEach(u => {
+      html += `<button class="unit-card" onclick="startUnit('${u.id}')">
+        <div><div class="unit-name">${u.nombre}</div><div class="unit-sub jp">${u.subtitle || ''}</div></div>
         <div class="unit-count">${u.total || '?'} preguntas</div>
-      </button>
-    `;
-  });
-
-  // Modo mezcla
-  if (allUnits.length > 1) {
-    html += `
-      <button class="unit-card mix" onclick="startMixed()">
-        <div>
-          <div class="unit-name">🎲 Mezcla de todas las unidades</div>
-          <div class="unit-sub">Repaso general con preguntas al azar de todas</div>
-        </div>
+      </button>`;
+    });
+    if (allUnits.length > 1) {
+      html += `<button class="unit-card mix" onclick="startMixed()">
+        <div><div class="unit-name">🎲 Mezcla de todas las unidades</div><div class="unit-sub">Repaso general con preguntas al azar de todas</div></div>
         <div class="unit-count">${totalQs} preguntas</div>
-      </button>
-    `;
+      </button>`;
+    }
+    list.innerHTML = html + '</div>';
+    return;
   }
 
-  html += '</div>';
+  let html = '<div class="nivel-list">';
+
+  allNiveles.forEach(nivel => {
+    const nivelTotal = nivel.unidades.flatMap(u => u.subunidades)
+      .reduce((s, uid) => { const u = allUnits.find(x => x.id === uid); return s + (u ? (u.total || 0) : 0); }, 0);
+
+    html += `<div class="nivel-item" id="nivel-${nivel.id}">
+      <button class="nivel-header" onclick="toggleNivel('${nivel.id}')">
+        <span class="nivel-arrow">▶</span>
+        <span class="nivel-name">${nivel.nombre}</span>
+        <span class="nivel-total">${nivelTotal} preguntas</span>
+      </button>
+      <div class="nivel-content"><div class="nivel-inner">`;
+
+    html += `<button class="unit-card mix" onclick="startMixedNivel('${nivel.id}')" style="margin-bottom:8px;">
+      <div><div class="unit-name">🎲 Mezclar ${nivel.nombre}</div><div class="unit-sub">Todas las preguntas del nivel al azar</div></div>
+      <div class="unit-count">${nivelTotal} preguntas</div>
+    </button>`;
+
+    html += '<div class="unidad-list">';
+    nivel.unidades.forEach(unidad => {
+      const unidadTotal = unidad.subunidades
+        .reduce((s, uid) => { const u = allUnits.find(x => x.id === uid); return s + (u ? (u.total || 0) : 0); }, 0);
+
+      html += `<div class="unidad-item" id="unidad-${unidad.id}">
+        <button class="unidad-header" onclick="toggleUnidad('${nivel.id}', '${unidad.id}')">
+          <span class="nivel-arrow">▶</span>
+          <div style="flex:1;min-width:0;">
+            <div class="unidad-name">${unidad.nombre}</div>
+            ${unidad.subtitle ? `<div class="unidad-sub-text jp">${unidad.subtitle}</div>` : ''}
+          </div>
+          <span class="unidad-count">${unidadTotal} Qs</span>
+        </button>
+        <div class="unidad-content"><div class="unidad-inner">`;
+
+      if (unidad.subunidades.length > 1) {
+        html += `<button class="unit-card mix" onclick="startMixedUnidad('${nivel.id}','${unidad.id}')" style="margin-bottom:6px;">
+          <div><div class="unit-name">🎲 Mezclar ${unidad.nombre}</div><div class="unit-sub">Preguntas de todas las sub-unidades</div></div>
+          <div class="unit-count">${unidadTotal} preguntas</div>
+        </button>`;
+      }
+
+      html += '<div class="subunidad-grid">';
+      unidad.subunidades.forEach(uid => {
+        const u = allUnits.find(x => x.id === uid);
+        if (!u) return;
+        html += `<button class="unit-card" onclick="startUnit('${u.id}')">
+          <div><div class="unit-name">${u.nombre}</div><div class="unit-sub jp">${u.subtitle || ''}</div></div>
+          <div class="unit-count">${u.total || '?'} preguntas</div>
+        </button>`;
+      });
+      html += '</div>'; // subunidad-grid
+
+      html += `</div></div></div>`; // unidad-inner, unidad-content, unidad-item
+    });
+    html += '</div>'; // unidad-list
+
+    html += `</div></div></div>`; // nivel-inner, nivel-content, nivel-item
+  });
+
+  html += '</div>'; // nivel-list
   list.innerHTML = html;
+}
+
+// =============================================================
+// ACCORDION TOGGLE Y MEZCLAS
+// =============================================================
+function toggleNivel(nivelId) {
+  document.querySelectorAll('.nivel-item').forEach(el => {
+    if (el.id !== 'nivel-' + nivelId) el.classList.remove('open');
+  });
+  document.getElementById('nivel-' + nivelId).classList.toggle('open');
+}
+
+function toggleUnidad(nivelId, unidadId) {
+  const nivelEl = document.getElementById('nivel-' + nivelId);
+  nivelEl.querySelectorAll('.unidad-item').forEach(el => {
+    if (el.id !== 'unidad-' + unidadId) el.classList.remove('open');
+  });
+  document.getElementById('unidad-' + unidadId).classList.toggle('open');
+}
+
+async function startMixedNivel(nivelId) {
+  const nivel = allNiveles.find(n => n.id === nivelId);
+  if (!nivel) return;
+  const units = nivel.unidades.flatMap(u => u.subunidades)
+    .map(id => allUnits.find(u => u.id === id)).filter(Boolean);
+  try {
+    const allQs = [];
+    await Promise.all(units.map(async u => { const qs = await fetchUnitQuestions(u); allQs.push(...qs); }));
+    currentUnitTitle = '🎲 Mezcla — ' + nivel.nombre;
+    launchQuiz(allQs);
+  } catch (err) { alert('Error al cargar las unidades: ' + err.message); }
+}
+
+async function startMixedUnidad(nivelId, unidadId) {
+  const nivel = allNiveles.find(n => n.id === nivelId);
+  const unidad = nivel && nivel.unidades.find(u => u.id === unidadId);
+  if (!unidad) return;
+  const units = unidad.subunidades.map(id => allUnits.find(u => u.id === id)).filter(Boolean);
+  try {
+    const allQs = [];
+    await Promise.all(units.map(async u => { const qs = await fetchUnitQuestions(u); allQs.push(...qs); }));
+    currentUnitTitle = '🎲 Mezcla — ' + unidad.nombre;
+    launchQuiz(allQs);
+  } catch (err) { alert('Error al cargar las unidades: ' + err.message); }
 }
 
 async function fetchUnitQuestions(unit) {
