@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>日本語 Quiz — Dekiru Nihongo</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23c0392b'/><text x='50' y='70' text-anchor='middle' font-size='56' fill='white' font-family='serif'>語</text></svg>">
 <style>
   :root {
     --bg: linear-gradient(135deg, #fef6f6 0%, #f0f4ff 100%);
@@ -37,6 +38,13 @@
     --footer-link: #7f8c8d;
     --back-btn-color: #3498db;
     --toggle-border: #e0e0e0;
+    /* Accordion accent — Japanese color palette */
+    --nivel-accent: #4338ca;
+    --nivel-accent-bg: #eef2ff;
+    --nivel-text-color: #312e81;
+    --unidad-accent: #0284c7;
+    --unidad-accent-bg: #f0f9ff;
+    --unidad-text-color: #0c4a6e;
   }
 
   body.dark {
@@ -71,6 +79,13 @@
     --footer-link: #94a3b8;
     --back-btn-color: #5b8dd9;
     --toggle-border: #3d3d5c;
+    /* Accordion accent — dark mode */
+    --nivel-accent: #818cf8;
+    --nivel-accent-bg: #1c1b38;
+    --nivel-text-color: #c7d2fe;
+    --unidad-accent: #38bdf8;
+    --unidad-accent-bg: #0a2a3a;
+    --unidad-text-color: #bae6fd;
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -340,47 +355,114 @@
     font-weight: 600;
     white-space: nowrap;
   }
-  /* ── Accordion ── */
-  .nivel-list { display:flex; flex-direction:column; gap:8px; margin:16px 0; }
-  .nivel-item { border:2px solid var(--divider); border-radius:12px; overflow:hidden; transition:border-color 0.2s ease; }
-  .nivel-item.open { border-color:#c0392b; }
-  .nivel-header {
-    width:100%; display:flex; align-items:center; gap:10px;
-    padding:14px 18px; background:var(--unit-card-bg); border:none;
-    cursor:pointer; font-family:inherit; color:var(--text);
-    transition:background 0.15s ease; text-align:left;
+  /* ── Accordion — Modern Japanese ── */
+  .nivel-list { display:flex; flex-direction:column; gap:10px; margin:20px 0; }
+
+  .nivel-item {
+    border-radius: 12px; overflow: hidden;
+    box-shadow: 0 1px 4px var(--shadow), 0 0 0 1px var(--divider);
+    transition: box-shadow 0.25s ease;
   }
-  .nivel-header:hover { background:var(--unit-card-hover-bg); }
-  .nivel-item.open > .nivel-header { background:var(--unit-card-hover-bg); }
-  .nivel-arrow { font-size:0.65em; color:var(--muted); transition:transform 0.25s ease; flex-shrink:0; }
+  .nivel-item.open {
+    box-shadow: 0 4px 16px rgba(67,56,202,0.12), 0 0 0 1.5px var(--nivel-accent);
+  }
+  body.dark .nivel-item.open {
+    box-shadow: 0 4px 16px rgba(129,140,248,0.18), 0 0 0 1.5px var(--nivel-accent);
+  }
+
+  .nivel-header {
+    width:100%; display:flex; align-items:center; gap:12px;
+    padding:15px 18px 15px 0;
+    background: var(--nivel-accent-bg);
+    border:none; border-left:4px solid var(--nivel-accent);
+    cursor:pointer; font-family:inherit; transition:filter 0.15s ease; text-align:left;
+  }
+  .nivel-header:hover { filter:brightness(0.96); }
+
+  .nivel-arrow {
+    font-size:0.6em; width:32px; text-align:center; flex-shrink:0;
+    color:var(--nivel-accent); transition:transform 0.25s ease;
+  }
   .nivel-item.open > .nivel-header .nivel-arrow { transform:rotate(90deg); }
-  .nivel-name { font-weight:700; font-size:1.05em; color:#c0392b; flex:1; }
-  .nivel-total { background:#3498db; color:#fff; padding:3px 9px; border-radius:8px; font-size:0.72em; font-weight:600; white-space:nowrap; }
-  .nivel-content { display:grid; grid-template-rows:0fr; transition:grid-template-rows 0.3s ease; }
+
+  .nivel-name { font-weight:700; font-size:1em; color:var(--nivel-text-color); flex:1; letter-spacing:0.01em; }
+  .nivel-total {
+    background:var(--nivel-accent); color:#fff;
+    padding:3px 10px; border-radius:20px; margin-right:14px;
+    font-size:0.68em; font-weight:700; white-space:nowrap; letter-spacing:0.03em;
+  }
+
+  .nivel-content { display:grid; grid-template-rows:0fr; transition:grid-template-rows 0.32s ease; }
   .nivel-item.open > .nivel-content { grid-template-rows:1fr; }
   .nivel-inner { overflow:hidden; min-height:0; }
-  .nivel-item.open > .nivel-content > .nivel-inner { padding:10px; }
+  .nivel-item.open > .nivel-content > .nivel-inner { padding:12px; background:var(--container-bg); }
 
+  /* ── Unidades dentro del Nivel ── */
   .unidad-list { display:flex; flex-direction:column; gap:6px; }
-  .unidad-item { border:1px solid var(--divider); border-radius:10px; overflow:hidden; transition:border-color 0.2s ease; }
-  .unidad-item.open { border-color:var(--unit-card-hover-border); }
+
+  .unidad-item {
+    border-radius:10px; overflow:hidden;
+    box-shadow:0 1px 3px var(--shadow), 0 0 0 1px var(--divider);
+    transition: box-shadow 0.25s ease;
+  }
+  .unidad-item.open {
+    box-shadow: 0 3px 10px rgba(2,132,199,0.1), 0 0 0 1.5px var(--unidad-accent);
+  }
+  body.dark .unidad-item.open {
+    box-shadow: 0 3px 10px rgba(56,189,248,0.14), 0 0 0 1.5px var(--unidad-accent);
+  }
+
   .unidad-header {
     width:100%; display:flex; align-items:center; gap:10px;
-    padding:10px 14px; background:var(--container-bg); border:none;
-    cursor:pointer; font-family:inherit; color:var(--text);
-    transition:background 0.15s ease; text-align:left;
+    padding:11px 14px 11px 0;
+    background:var(--unidad-accent-bg);
+    border:none; border-left:3px solid var(--unidad-accent);
+    cursor:pointer; font-family:inherit; transition:filter 0.15s ease; text-align:left;
   }
-  .unidad-header:hover { background:var(--unit-card-hover-bg); }
-  .unidad-item.open > .unidad-header { background:var(--unit-card-hover-bg); }
+  .unidad-header:hover { filter:brightness(0.96); }
+  .unidad-header .nivel-arrow { color:var(--unidad-accent); font-size:0.55em; width:28px; }
   .unidad-item.open > .unidad-header .nivel-arrow { transform:rotate(90deg); }
-  .unidad-name { font-weight:600; font-size:0.95em; color:#c0392b; }
-  .unidad-sub-text { font-size:0.8em; color:var(--muted); margin-top:2px; }
-  .unidad-count { background:var(--stat-bg); color:var(--muted); padding:2px 7px; border-radius:6px; font-size:0.72em; font-weight:600; white-space:nowrap; border:1px solid var(--divider); margin-left:auto; }
-  .unidad-content { display:grid; grid-template-rows:0fr; transition:grid-template-rows 0.3s ease; }
+
+  .unidad-name { font-weight:600; font-size:0.88em; color:var(--unidad-text-color); }
+  .unidad-sub-text { font-size:0.76em; color:var(--muted); margin-top:2px; }
+  .unidad-count {
+    background:var(--unidad-accent); color:#fff;
+    padding:2px 8px; border-radius:20px; margin-left:auto; margin-right:12px;
+    font-size:0.66em; font-weight:700; white-space:nowrap;
+  }
+
+  .unidad-content { display:grid; grid-template-rows:0fr; transition:grid-template-rows 0.28s ease; }
   .unidad-item.open > .unidad-content { grid-template-rows:1fr; }
   .unidad-inner { overflow:hidden; min-height:0; }
-  .unidad-item.open > .unidad-content > .unidad-inner { padding:8px; }
-  .subunidad-grid { display:grid; gap:6px; }
+  .unidad-item.open > .unidad-content > .unidad-inner { padding:8px; background:var(--container-bg); }
+
+  /* ── Sub-unidades ── */
+  .subunidad-grid { display:grid; gap:5px; }
+  .subunidad-grid .unit-card {
+    padding:10px 14px;
+    border-left:3px solid var(--unit-card-hover-border);
+  }
+  .subunidad-grid .unit-name { font-size:0.93em; }
+  .subunidad-grid .unit-sub { font-size:0.79em; }
+
+  /* ── Pills: visibilidad por nivel de apertura (puro CSS) ── */
+  .unidad-count { display:none; }
+  .subunidad-grid .unit-count { display:none; }
+  .nivel-item.open > .nivel-header .nivel-total { display:none; }
+  .nivel-item.open .unidad-count { display:inline-flex; align-items:center; }
+  .unidad-item.open > .unidad-header .unidad-count { display:none; }
+  .unidad-item.open .subunidad-grid .unit-count { display:inline-flex; align-items:center; }
+
+  /* ── Botón Mezclar (sutil, al final del contenedor) ── */
+  .mix-btn {
+    display:flex; align-items:center; justify-content:center; gap:6px;
+    width:100%; padding:8px 14px; margin-top:8px;
+    background:transparent; border:1.5px dashed var(--divider);
+    border-radius:8px; color:var(--muted);
+    font-size:0.78em; font-family:inherit; cursor:pointer;
+    transition:all 0.15s ease; letter-spacing:0.02em;
+  }
+  .mix-btn:hover { border-color:var(--muted); color:var(--text); background:var(--card-bg); }
 
   .loader {
     text-align: center;
@@ -467,7 +549,7 @@
 
   <!-- PANTALLA DE SELECCIÓN DE UNIDAD -->
   <div id="menu" class="start-screen">
-    <p>📚 Elegí una unidad para practicar o mezclá preguntas de todas.</p>
+    <p class="jp" style="color:var(--muted);font-size:0.9em;margin-bottom:4px;">レベルを選んでください</p>
     <div id="unit-list" class="loader">Cargando unidades…</div>
   </div>
 
@@ -628,11 +710,6 @@ function renderUnitMenu() {
       </button>
       <div class="nivel-content"><div class="nivel-inner">`;
 
-    html += `<button class="unit-card mix" onclick="startMixedNivel('${nivel.id}')" style="margin-bottom:8px;">
-      <div><div class="unit-name">🎲 Mezclar ${nivel.nombre}</div><div class="unit-sub">Todas las preguntas del nivel al azar</div></div>
-      <div class="unit-count">${nivelTotal} preguntas</div>
-    </button>`;
-
     html += '<div class="unidad-list">';
     nivel.unidades.forEach(unidad => {
       const unidadTotal = unidad.subunidades
@@ -645,16 +722,9 @@ function renderUnitMenu() {
             <div class="unidad-name">${unidad.nombre}</div>
             ${unidad.subtitle ? `<div class="unidad-sub-text jp">${unidad.subtitle}</div>` : ''}
           </div>
-          <span class="unidad-count">${unidadTotal} Qs</span>
+          <span class="unidad-count">${unidadTotal} preguntas</span>
         </button>
         <div class="unidad-content"><div class="unidad-inner">`;
-
-      if (unidad.subunidades.length > 1) {
-        html += `<button class="unit-card mix" onclick="startMixedUnidad('${nivel.id}','${unidad.id}')" style="margin-bottom:6px;">
-          <div><div class="unit-name">🎲 Mezclar ${unidad.nombre}</div><div class="unit-sub">Preguntas de todas las sub-unidades</div></div>
-          <div class="unit-count">${unidadTotal} preguntas</div>
-        </button>`;
-      }
 
       html += '<div class="subunidad-grid">';
       unidad.subunidades.forEach(uid => {
@@ -667,10 +737,15 @@ function renderUnitMenu() {
       });
       html += '</div>'; // subunidad-grid
 
+      if (unidad.subunidades.length > 1) {
+        html += `<button class="mix-btn" onclick="startMixedUnidad('${nivel.id}','${unidad.id}')">🎲 Mezclar ${unidad.nombre}</button>`;
+      }
+
       html += `</div></div></div>`; // unidad-inner, unidad-content, unidad-item
     });
     html += '</div>'; // unidad-list
 
+    html += `<button class="mix-btn" onclick="startMixedNivel('${nivel.id}')">🎲 Mezclar ${nivel.nombre}</button>`;
     html += `</div></div></div>`; // nivel-inner, nivel-content, nivel-item
   });
 
@@ -683,7 +758,10 @@ function renderUnitMenu() {
 // =============================================================
 function toggleNivel(nivelId) {
   document.querySelectorAll('.nivel-item').forEach(el => {
-    if (el.id !== 'nivel-' + nivelId) el.classList.remove('open');
+    if (el.id !== 'nivel-' + nivelId) {
+      el.classList.remove('open');
+      el.querySelectorAll('.unidad-item').forEach(u => u.classList.remove('open'));
+    }
   });
   document.getElementById('nivel-' + nivelId).classList.toggle('open');
 }
