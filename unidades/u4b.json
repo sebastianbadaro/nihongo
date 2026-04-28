@@ -1513,7 +1513,7 @@
   },
   {
     "id": "U4B-127",
-    "cat": "Verbos",
+    "cat": "Adjetivos",
     "q": "¿Cuál es la forma formal negativa de 'no es grande'?",
     "correct": "大きくないです",
     "opts": [
@@ -1525,7 +1525,7 @@
   },
   {
     "id": "U4B-128",
-    "cat": "Verbos",
+    "cat": "Adjetivos",
     "q": "¿Cuál es la forma formal negativa de 'no es famoso' (más formal)?",
     "correct": "有名じゃありません",
     "opts": [
@@ -1537,7 +1537,7 @@
   },
   {
     "id": "U4B-129",
-    "cat": "Verbos",
+    "cat": "Traducción JP→ES",
     "q": "'高くないです' significa:",
     "correct": "No es alto / no es caro",
     "opts": [
@@ -1549,7 +1549,7 @@
   },
   {
     "id": "U4B-130",
-    "cat": "Verbos",
+    "cat": "Traducción JP→ES",
     "q": "'きれいじゃありません' significa:",
     "correct": "No es lindo / no es limpio",
     "opts": [

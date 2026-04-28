@@ -133,7 +133,7 @@
   },
   {
     "id": "U2C-012",
-    "cat": "Distinción",
+    "cat": "Contadores",
     "q": "El contador ~つ llega hasta el 10. ¿Cómo se dice '10'?",
     "correct": "とお",
     "opts": [
@@ -145,7 +145,7 @@
   },
   {
     "id": "U2C-013",
-    "cat": "Distinción",
+    "cat": "Contadores",
     "q": "¿Cuántos elementos hay en la secuencia ひとつ、ふたつ、みっつ…?",
     "correct": "10 (de 1 a 10)",
     "opts": [
@@ -445,7 +445,7 @@
   },
   {
     "id": "U2C-038",
-    "cat": "Vocabulario",
+    "cat": "Gramática",
     "q": "Ves un plato que no reconocés. ¿Cómo preguntás '¿Qué tipo de comida es esto?'?",
     "correct": "これは 何の料理ですか。",
     "opts": [
@@ -493,7 +493,7 @@
   },
   {
     "id": "U2C-042",
-    "cat": "Vocabulario",
+    "cat": "Gramática",
     "q": "¿Cómo se pregunta '¿Cómo se dice ~ en inglés?'?",
     "correct": "~は 英語で 何ですか。",
     "opts": [
@@ -577,7 +577,7 @@
   },
   {
     "id": "U2C-049",
-    "cat": "Vocabulario",
+    "cat": "Gramática",
     "q": "Encontrás un celular. ¿Cómo preguntás de quién es?",
     "correct": "これは だれの携帯電話ですか。",
     "opts": [
@@ -721,7 +721,7 @@
   },
   {
     "id": "U2C-061",
-    "cat": "Distinción",
+    "cat": "Partículas",
     "q": "ハンバーグ___ ふたつ ください。",
     "correct": "を",
     "opts": [
@@ -757,7 +757,7 @@
   },
   {
     "id": "U2C-064",
-    "cat": "Distinción",
+    "cat": "Contadores",
     "q": "Al pedir comida en un restaurante japonés de nivel básico, se prefiere usar:",
     "correct": "El contador ~つ (ひとつ、ふたつ…)",
     "opts": [
@@ -829,7 +829,7 @@
   },
   {
     "id": "U2C-070",
-    "cat": "Vocabulario",
+    "cat": "Gramática",
     "q": "Querés decir '¿Qué tipo de té es?' (preguntando el origen regional). Lo más natural es:",
     "correct": "これは どこの お茶ですか。",
     "opts": [
@@ -841,7 +841,7 @@
   },
   {
     "id": "U2C-071",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "¿Cuál de estos NO es correcto?",
     "correct": "これは だれ さいふですか。",
     "opts": [
@@ -913,7 +913,7 @@
   },
   {
     "id": "U2C-077",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "Al contar objetos con ~つ, hay varios que tienen forma irregular. ¿Cuál de estos NO es irregular?",
     "correct": "ななつ (7)",
     "opts": [

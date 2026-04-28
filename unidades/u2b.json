@@ -217,7 +217,7 @@
   },
   {
     "id": "U2B-019",
-    "cat": "Distinción",
+    "cat": "Kanji → Lectura",
     "q": "¿Cuál es la lectura correcta de 300?",
     "correct": "さんびゃく",
     "opts": [
@@ -229,7 +229,7 @@
   },
   {
     "id": "U2B-020",
-    "cat": "Distinción",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 600?",
     "correct": "ろっぴゃく",
     "opts": [
@@ -373,7 +373,7 @@
   },
   {
     "id": "U2B-032",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "¿Cuál oración es INCORRECTA?",
     "correct": "この いくらですか。",
     "opts": [
@@ -781,7 +781,7 @@
   },
   {
     "id": "U2B-066",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "¿Cuál de estas oraciones es correcta?",
     "correct": "あれは いくらですか。",
     "opts": [
@@ -817,7 +817,7 @@
   },
   {
     "id": "U2B-069",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "¿Cuál de estas palabras NO es un demostrativo prenominal (前の名詞)?",
     "correct": "あれ",
     "opts": [

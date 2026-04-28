@@ -145,7 +145,7 @@
   },
   {
     "id": "U1A-013",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "¿Cuándo NO se usa お delante de 国/仕事/名前?",
     "correct": "Cuando hablás de vos mismo (mi nombre, mi trabajo)",
     "opts": [
@@ -625,7 +625,7 @@
   },
   {
     "id": "U1A-053",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "¿Podés usar ~さん con tu propio nombre (私は セバスチャンさんです)?",
     "correct": "No, ~さん solo se usa para referirse a otros (nunca a uno mismo)",
     "opts": [
@@ -673,7 +673,7 @@
   },
   {
     "id": "U1A-057",
-    "cat": "Diálogo",
+    "cat": "Gramática",
     "q": "Ordená los datos típicos de una presentación japonesa:",
     "correct": "はじめまして → nombre → nacionalidad/trabajo → よろしく おねがいします",
     "opts": [
@@ -697,7 +697,7 @@
   },
   {
     "id": "U1A-059",
-    "cat": "Diálogo",
+    "cat": "Vocabulario",
     "q": "¿Qué significa そうですか?",
     "correct": "Ah, ya veo / Ah sí? (reacción al recibir información)",
     "opts": [
@@ -721,7 +721,7 @@
   },
   {
     "id": "U1A-061",
-    "cat": "Diálogo",
+    "cat": "Gramática",
     "q": "Poné en orden: セバスチャン / です / 私 / は",
     "correct": "私 は セバスチャン です",
     "opts": [
@@ -769,7 +769,7 @@
   },
   {
     "id": "U1A-065",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "私 ___ 韓国人です。 (Yo soy coreano)",
     "correct": "は",
     "opts": [
@@ -793,7 +793,7 @@
   },
   {
     "id": "U1A-067",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "¿Cuál de estas oraciones es INCORRECTA?",
     "correct": "私は 学生のふじ大学です。",
     "opts": [
@@ -841,7 +841,7 @@
   },
   {
     "id": "U1A-071",
-    "cat": "Distinción",
+    "cat": "Vocabulario",
     "q": "Cuando alguien de otro país dice 'アメリカ人です', se refiere principalmente a:",
     "correct": "Ser de Estados Unidos (no de América Latina)",
     "opts": [
@@ -877,7 +877,7 @@
   },
   {
     "id": "U1A-074",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "¿Qué error tiene la oración '私は アルゼンチンです'? (queriendo decir 'soy argentino')",
     "correct": "Faltaría 人: 'アルゼンチン人です' (si no, literalmente dice 'yo soy Argentina')",
     "opts": [
