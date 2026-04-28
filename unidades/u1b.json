@@ -1,7 +1,7 @@
 [
   {
     "id": "U1B-001",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 誕生日?",
     "correct": "たんじょうび",
     "opts": [
@@ -25,7 +25,7 @@
   },
   {
     "id": "U1B-003",
-    "cat": "Pregunta cumpleaños",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se pregunta '¿Cuándo es tu cumpleaños?'?",
     "correct": "お誕生日は いつですか。",
     "opts": [
@@ -49,7 +49,7 @@
   },
   {
     "id": "U1B-005",
-    "cat": "Sufijo edad",
+    "cat": "Números y Tiempo",
     "q": "¿Cuál es el sufijo para decir la edad?",
     "correct": "～歳 (さい)",
     "opts": [
@@ -61,7 +61,7 @@
   },
   {
     "id": "U1B-006",
-    "cat": "Curiosidad kanji",
+    "cat": "Kanji → Lectura",
     "q": "歳 y 才 ambos se leen さい y significan 'años (de edad)'. ¿Cuál es la diferencia?",
     "correct": "歳 es el kanji formal/correcto; 才 es simplificado/escrito a mano",
     "opts": [
@@ -73,7 +73,7 @@
   },
   {
     "id": "U1B-007",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 1歳?",
     "correct": "いっさい",
     "opts": [
@@ -85,7 +85,7 @@
   },
   {
     "id": "U1B-008",
-    "cat": "Kanji→Lectura trampa",
+    "cat": "Distinción",
     "q": "¿Cómo se lee 8歳?",
     "correct": "はっさい",
     "opts": [
@@ -97,7 +97,7 @@
   },
   {
     "id": "U1B-009",
-    "cat": "Kanji→Lectura trampa",
+    "cat": "Distinción",
     "q": "¿Cómo se lee 10歳?",
     "correct": "じゅっさい",
     "opts": [
@@ -109,7 +109,7 @@
   },
   {
     "id": "U1B-010",
-    "cat": "Edad irregular",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se dice '20 años' de manera tradicional (muy común, irregular)?",
     "correct": "はたち",
     "opts": [
@@ -121,7 +121,7 @@
   },
   {
     "id": "U1B-011",
-    "cat": "Edad irregular",
+    "cat": "Números y Tiempo",
     "q": "A los 20 años, los japoneses usan はたち. ¿Por qué es importante esta edad culturalmente?",
     "correct": "Es la edad tradicional de mayoría de edad (成人)",
     "opts": [
@@ -133,7 +133,7 @@
   },
   {
     "id": "U1B-012",
-    "cat": "Edad compuesta",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se dice '34 años'?",
     "correct": "さんじゅうよん さい",
     "opts": [
@@ -145,7 +145,7 @@
   },
   {
     "id": "U1B-013",
-    "cat": "Pregunta edad",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se pregunta '¿Cuántos años tenés?' (forma neutra)?",
     "correct": "何歳ですか。 / おいくつですか。",
     "opts": [
@@ -157,7 +157,7 @@
   },
   {
     "id": "U1B-014",
-    "cat": "Distinción edad",
+    "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre 何歳ですか y おいくつですか?",
     "correct": "何歳 es directo (neutro); おいくつ es más educado/suave",
     "opts": [
@@ -169,7 +169,7 @@
   },
   {
     "id": "U1B-015",
-    "cat": "Pregunta educada",
+    "cat": "Vocabulario",
     "q": "¿Cómo sería más educado preguntar la edad a un adulto que no conocés?",
     "correct": "おいくつですか。",
     "opts": [
@@ -181,7 +181,7 @@
   },
   {
     "id": "U1B-016",
-    "cat": "Meses - kanji→lectura",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 1月?",
     "correct": "いちがつ",
     "opts": [
@@ -193,7 +193,7 @@
   },
   {
     "id": "U1B-017",
-    "cat": "Meses - trampa",
+    "cat": "Distinción",
     "q": "¿Cómo se lee 4月?",
     "correct": "しがつ",
     "opts": [
@@ -205,7 +205,7 @@
   },
   {
     "id": "U1B-018",
-    "cat": "Meses - trampa",
+    "cat": "Distinción",
     "q": "¿Cómo se lee 7月?",
     "correct": "しちがつ",
     "opts": [
@@ -217,7 +217,7 @@
   },
   {
     "id": "U1B-019",
-    "cat": "Meses - trampa",
+    "cat": "Distinción",
     "q": "¿Cómo se lee 9月?",
     "correct": "くがつ",
     "opts": [
@@ -229,7 +229,7 @@
   },
   {
     "id": "U1B-020",
-    "cat": "Meses - regla",
+    "cat": "Números y Tiempo",
     "q": "Los meses 4, 7 y 9 tienen lecturas IRREGULARES. ¿Cuál NO es irregular?",
     "correct": "5月 (ごがつ)",
     "opts": [
@@ -241,7 +241,7 @@
   },
   {
     "id": "U1B-021",
-    "cat": "Meses",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se dice 'marzo'?",
     "correct": "さんがつ",
     "opts": [
@@ -253,7 +253,7 @@
   },
   {
     "id": "U1B-022",
-    "cat": "Meses",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se dice 'octubre'?",
     "correct": "じゅうがつ",
     "opts": [
@@ -265,7 +265,7 @@
   },
   {
     "id": "U1B-023",
-    "cat": "Meses",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se dice 'noviembre'?",
     "correct": "じゅういちがつ",
     "opts": [
@@ -277,7 +277,7 @@
   },
   {
     "id": "U1B-024",
-    "cat": "Meses",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se dice 'agosto'?",
     "correct": "はちがつ",
     "opts": [
@@ -289,7 +289,7 @@
   },
   {
     "id": "U1B-025",
-    "cat": "Días - regla",
+    "cat": "Números y Tiempo",
     "q": "Del 1 al 10 del mes, los días se leen de forma IRREGULAR. ¿Cuál es la lectura de 1日 (día 1)?",
     "correct": "ついたち",
     "opts": [
@@ -301,7 +301,7 @@
   },
   {
     "id": "U1B-026",
-    "cat": "Días - irregular",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 2日 (día 2)?",
     "correct": "ふつか",
     "opts": [
@@ -313,7 +313,7 @@
   },
   {
     "id": "U1B-027",
-    "cat": "Días - irregular",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 3日 (día 3)?",
     "correct": "みっか",
     "opts": [
@@ -325,7 +325,7 @@
   },
   {
     "id": "U1B-028",
-    "cat": "Días - irregular",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 4日 (día 4)?",
     "correct": "よっか",
     "opts": [
@@ -337,7 +337,7 @@
   },
   {
     "id": "U1B-029",
-    "cat": "Días - irregular",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 5日 (día 5)?",
     "correct": "いつか",
     "opts": [
@@ -349,7 +349,7 @@
   },
   {
     "id": "U1B-030",
-    "cat": "Días - irregular",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 6日 (día 6)?",
     "correct": "むいか",
     "opts": [
@@ -361,7 +361,7 @@
   },
   {
     "id": "U1B-031",
-    "cat": "Días - irregular",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 7日 (día 7)?",
     "correct": "なのか",
     "opts": [
@@ -373,7 +373,7 @@
   },
   {
     "id": "U1B-032",
-    "cat": "Días - irregular",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 8日 (día 8)?",
     "correct": "ようか",
     "opts": [
@@ -385,7 +385,7 @@
   },
   {
     "id": "U1B-033",
-    "cat": "Días - irregular",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 9日 (día 9)?",
     "correct": "ここのか",
     "opts": [
@@ -397,7 +397,7 @@
   },
   {
     "id": "U1B-034",
-    "cat": "Días - irregular",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 10日 (día 10)?",
     "correct": "とおか",
     "opts": [
@@ -409,7 +409,7 @@
   },
   {
     "id": "U1B-035",
-    "cat": "Días - regla",
+    "cat": "Números y Tiempo",
     "q": "Del 11 en adelante, los días se leen como número + にち, con excepción de algunos. ¿Cómo se lee 14日?",
     "correct": "じゅうよっか",
     "opts": [
@@ -421,7 +421,7 @@
   },
   {
     "id": "U1B-036",
-    "cat": "Días - irregular 20",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 20日 (día 20)?",
     "correct": "はつか",
     "opts": [
@@ -433,7 +433,7 @@
   },
   {
     "id": "U1B-037",
-    "cat": "Distinción cultural",
+    "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre はたち y はつか?",
     "correct": "はたち = 20 años de edad; はつか = día 20 del mes",
     "opts": [
@@ -445,7 +445,7 @@
   },
   {
     "id": "U1B-038",
-    "cat": "Días - irregular",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 24日?",
     "correct": "にじゅうよっか",
     "opts": [
@@ -457,7 +457,7 @@
   },
   {
     "id": "U1B-039",
-    "cat": "Días - normal",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 15日?",
     "correct": "じゅうごにち",
     "opts": [
@@ -469,7 +469,7 @@
   },
   {
     "id": "U1B-040",
-    "cat": "Días - normal",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 30日?",
     "correct": "さんじゅうにち",
     "opts": [
@@ -481,7 +481,7 @@
   },
   {
     "id": "U1B-041",
-    "cat": "Fecha completa",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se dice '16 de abril'?",
     "correct": "4月16日 (しがつ じゅうろくにち)",
     "opts": [
@@ -493,7 +493,7 @@
   },
   {
     "id": "U1B-042",
-    "cat": "Orden fecha",
+    "cat": "Números y Tiempo",
     "q": "En japonés, ¿cuál es el orden de una fecha?",
     "correct": "Mes + Día (4月16日)",
     "opts": [
@@ -505,7 +505,7 @@
   },
   {
     "id": "U1B-043",
-    "cat": "Respuesta completa",
+    "cat": "Diálogo",
     "q": "A: お誕生日は いつですか。 B: ___. (Respuesta: 28 de mayo)",
     "correct": "5月28日です。",
     "opts": [
@@ -517,7 +517,7 @@
   },
   {
     "id": "U1B-044",
-    "cat": "Respuesta con trampa",
+    "cat": "Distinción",
     "q": "A: お誕生日は いつですか。 B: ___. (Respuesta: 14 de julio)",
     "correct": "7月14日 (しちがつ じゅうよっか) です。",
     "opts": [
@@ -529,7 +529,7 @@
   },
   {
     "id": "U1B-045",
-    "cat": "Respuesta con trampa",
+    "cat": "Distinción",
     "q": "A: お誕生日は いつですか。 B: ___. (Respuesta: 20 de abril)",
     "correct": "4月20日 (しがつ はつか) です。",
     "opts": [
@@ -541,7 +541,7 @@
   },
   {
     "id": "U1B-046",
-    "cat": "Respuesta con trampa",
+    "cat": "Distinción",
     "q": "A: お誕生日は いつですか。 B: ___. (Respuesta: 10 de septiembre)",
     "correct": "9月10日 (くがつ とおか) です。",
     "opts": [
@@ -553,7 +553,7 @@
   },
   {
     "id": "U1B-047",
-    "cat": "Partícula",
+    "cat": "Partículas",
     "q": "私の 誕生日___ 4月16日です。",
     "correct": "は",
     "opts": [
@@ -565,7 +565,7 @@
   },
   {
     "id": "U1B-048",
-    "cat": "Reacción",
+    "cat": "Diálogo",
     "q": "A: お誕生日は いつですか。 B: 4月16日です。 A: ___。 (reacción cortés)",
     "correct": "そうですか。",
     "opts": [
@@ -577,7 +577,7 @@
   },
   {
     "id": "U1B-049",
-    "cat": "Partícula の en cumpleaños",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se dice 'Mi cumpleaños es el 16 de abril'?",
     "correct": "私の 誕生日は 4月16日です。",
     "opts": [
@@ -589,7 +589,7 @@
   },
   {
     "id": "U1B-050",
-    "cat": "Trampa pregunta",
+    "cat": "Distinción",
     "q": "¿Qué pregunta uno sobre el cumpleaños de OTRA persona?",
     "correct": "Bさんの お誕生日は いつですか。",
     "opts": [
@@ -601,7 +601,7 @@
   },
   {
     "id": "U1B-051",
-    "cat": "Vocabulario calendario",
+    "cat": "Vocabulario",
     "q": "¿Qué significa el kanji 月 en ~月?",
     "correct": "Mes (también luna)",
     "opts": [
@@ -613,7 +613,7 @@
   },
   {
     "id": "U1B-052",
-    "cat": "Vocabulario calendario",
+    "cat": "Vocabulario",
     "q": "¿Qué significa el kanji 日 en ~日?",
     "correct": "Día (también sol)",
     "opts": [
@@ -625,7 +625,7 @@
   },
   {
     "id": "U1B-053",
-    "cat": "Edad - trampa cultural",
+    "cat": "Distinción",
     "q": "Si tenés 20 años, ¿qué es más natural decir?",
     "correct": "はたちです。",
     "opts": [
@@ -637,7 +637,7 @@
   },
   {
     "id": "U1B-054",
-    "cat": "Edad compuesta trampa",
+    "cat": "Distinción",
     "q": "¿Cómo se dice '21 años'?",
     "correct": "にじゅういっさい",
     "opts": [
@@ -649,7 +649,7 @@
   },
   {
     "id": "U1B-055",
-    "cat": "Kanji→Español",
+    "cat": "Kanji → Significado",
     "q": "¿Qué significa 歳?",
     "correct": "Años (de edad) / contador de años cumplidos",
     "opts": [
@@ -661,7 +661,7 @@
   },
   {
     "id": "U1B-056",
-    "cat": "Orden preguntas",
+    "cat": "Gramática",
     "q": "En una presentación típica, ¿cuál es el orden común de las preguntas sobre datos?",
     "correct": "Nombre → País → Trabajo → Edad → Cumpleaños",
     "opts": [
@@ -673,7 +673,7 @@
   },
   {
     "id": "U1B-057",
-    "cat": "Traducción ES→JA",
+    "cat": "Traducción ES→JP",
     "q": "'Tengo 34 años' se dice:",
     "correct": "34歳です。",
     "opts": [
@@ -685,7 +685,7 @@
   },
   {
     "id": "U1B-058",
-    "cat": "Traducción ES→JA",
+    "cat": "Traducción ES→JP",
     "q": "'Mi cumpleaños es el 14 de julio' se dice:",
     "correct": "私の 誕生日は 7月14日です。",
     "opts": [
@@ -697,7 +697,7 @@
   },
   {
     "id": "U1B-059",
-    "cat": "Diálogo completo",
+    "cat": "Diálogo",
     "q": "A: Bさんの お誕生日は いつですか。 B: 10月4日です。 A: ___. ¿Cuál es la reacción natural?",
     "correct": "そうですか。",
     "opts": [
@@ -709,7 +709,7 @@
   },
   {
     "id": "U1B-060",
-    "cat": "Distinción edad",
+    "cat": "Distinción",
     "q": "¿Cuál de estos NO es correcto para decir tu edad?",
     "correct": "私の 歳は 30です。",
     "opts": [
@@ -721,7 +721,7 @@
   },
   {
     "id": "U1B-061",
-    "cat": "Trampa pronunciación",
+    "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre じゅっさい y じゅうさい?",
     "correct": "じゅっさい es la pronunciación correcta/natural (10歳)",
     "opts": [
@@ -733,7 +733,7 @@
   },
   {
     "id": "U1B-062",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 2月?",
     "correct": "にがつ",
     "opts": [
@@ -745,7 +745,7 @@
   },
   {
     "id": "U1B-063",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 5月?",
     "correct": "ごがつ",
     "opts": [
@@ -757,7 +757,7 @@
   },
   {
     "id": "U1B-064",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 6月?",
     "correct": "ろくがつ",
     "opts": [
@@ -769,7 +769,7 @@
   },
   {
     "id": "U1B-065",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 12月?",
     "correct": "じゅうにがつ",
     "opts": [
@@ -781,7 +781,7 @@
   },
   {
     "id": "U1B-066",
-    "cat": "Pregunta genérica",
+    "cat": "Vocabulario",
     "q": "¿Cuál es la forma genérica de usar いつですか?",
     "correct": "Para preguntar '¿Cuándo es ~?' sobre un evento",
     "opts": [
@@ -793,7 +793,7 @@
   },
   {
     "id": "U1B-067",
-    "cat": "Regla general",
+    "cat": "Gramática",
     "q": "Del día 11 al 31, ¿cuáles tienen lectura irregular?",
     "correct": "14日 (じゅうよっか), 20日 (はつか), 24日 (にじゅうよっか)",
     "opts": [
@@ -805,7 +805,7 @@
   },
   {
     "id": "U1B-068",
-    "cat": "Fecha personalizada",
+    "cat": "Números y Tiempo",
     "q": "¿Cómo se diría '25 de diciembre' (Navidad)?",
     "correct": "12月25日 (じゅうにがつ にじゅうごにち)",
     "opts": [
@@ -829,7 +829,7 @@
   },
   {
     "id": "U1B-070",
-    "cat": "Trampa sutil",
+    "cat": "Distinción",
     "q": "¿Qué significa la expresión お誕生日 おめでとう ございます?",
     "correct": "¡Feliz cumpleaños! (educado)",
     "opts": [

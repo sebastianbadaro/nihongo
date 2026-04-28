@@ -1,7 +1,7 @@
 [
   {
     "id": "U1A-001",
-    "cat": "Saludo",
+    "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Mucho gusto' al presentarse por primera vez?",
     "correct": "はじめまして",
     "opts": [
@@ -13,7 +13,7 @@
   },
   {
     "id": "U1A-002",
-    "cat": "Saludo",
+    "cat": "Vocabulario",
     "q": "Al terminar una presentación, la frase de cortesía es:",
     "correct": "どうぞ よろしく おねがいします",
     "opts": [
@@ -25,7 +25,7 @@
   },
   {
     "id": "U1A-003",
-    "cat": "Respuesta cortesía",
+    "cat": "Diálogo",
     "q": "Después de que alguien te diga 'どうぞ よろしく おねがいします', ¿cómo respondés?",
     "correct": "こちらこそ",
     "opts": [
@@ -37,7 +37,7 @@
   },
   {
     "id": "U1A-004",
-    "cat": "Traducción",
+    "cat": "Vocabulario",
     "q": "¿Qué significa literalmente こちらこそ?",
     "correct": "Al contrario (yo también / igualmente)",
     "opts": [
@@ -49,7 +49,7 @@
   },
   {
     "id": "U1A-005",
-    "cat": "Estructura básica",
+    "cat": "Gramática",
     "q": "Completá: 私___ セバスチャンです。 (Yo soy Sebastián)",
     "correct": "は",
     "opts": [
@@ -61,7 +61,7 @@
   },
   {
     "id": "U1A-006",
-    "cat": "Partícula は",
+    "cat": "Partículas",
     "q": "¿Cómo se pronuncia la partícula は cuando es partícula de tema?",
     "correct": "wa",
     "opts": [
@@ -73,7 +73,7 @@
   },
   {
     "id": "U1A-007",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 私?",
     "correct": "わたし",
     "opts": [
@@ -85,7 +85,7 @@
   },
   {
     "id": "U1A-008",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 名前?",
     "correct": "なまえ",
     "opts": [
@@ -97,7 +97,7 @@
   },
   {
     "id": "U1A-009",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 国?",
     "correct": "くに",
     "opts": [
@@ -109,7 +109,7 @@
   },
   {
     "id": "U1A-010",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 仕事?",
     "correct": "しごと",
     "opts": [
@@ -121,7 +121,7 @@
   },
   {
     "id": "U1A-011",
-    "cat": "Kanji→Español",
+    "cat": "Kanji → Significado",
     "q": "¿Qué significa 仕事?",
     "correct": "Trabajo / profesión",
     "opts": [
@@ -133,7 +133,7 @@
   },
   {
     "id": "U1A-012",
-    "cat": "Prefijo honorífico",
+    "cat": "Gramática",
     "q": "¿Para qué se usa el prefijo お en palabras como お国, お仕事, お名前?",
     "correct": "Para ser más cortés al preguntar por el interlocutor",
     "opts": [
@@ -145,7 +145,7 @@
   },
   {
     "id": "U1A-013",
-    "cat": "Trampa",
+    "cat": "Distinción",
     "q": "¿Cuándo NO se usa お delante de 国/仕事/名前?",
     "correct": "Cuando hablás de vos mismo (mi nombre, mi trabajo)",
     "opts": [
@@ -157,7 +157,7 @@
   },
   {
     "id": "U1A-014",
-    "cat": "Pregunta país",
+    "cat": "Vocabulario",
     "q": "¿Cómo se pregunta '¿De qué país sos?' de manera educada?",
     "correct": "お国は どちらですか。",
     "opts": [
@@ -169,7 +169,7 @@
   },
   {
     "id": "U1A-015",
-    "cat": "Distinción crítica",
+    "cat": "Distinción",
     "q": "En contexto de presentaciones, ¿cuál es más educado: どちら o どこ?",
     "correct": "どちら (es la versión formal/educada)",
     "opts": [
@@ -181,7 +181,7 @@
   },
   {
     "id": "U1A-016",
-    "cat": "Nacionalidad",
+    "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Soy argentino/a'?",
     "correct": "アルゼンチン人です。",
     "opts": [
@@ -193,7 +193,7 @@
   },
   {
     "id": "U1A-017",
-    "cat": "Sufijo ~人",
+    "cat": "Gramática",
     "q": "El sufijo ~人 (じん) se usa para:",
     "correct": "Formar nacionalidad (país + 人 = persona de ese país)",
     "opts": [
@@ -205,7 +205,7 @@
   },
   {
     "id": "U1A-018",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 日本?",
     "correct": "にほん",
     "opts": [
@@ -217,7 +217,7 @@
   },
   {
     "id": "U1A-019",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 日本人?",
     "correct": "にほんじん",
     "opts": [
@@ -229,7 +229,7 @@
   },
   {
     "id": "U1A-020",
-    "cat": "Vocabulario países",
+    "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Estados Unidos' en japonés?",
     "correct": "アメリカ",
     "opts": [
@@ -241,7 +241,7 @@
   },
   {
     "id": "U1A-021",
-    "cat": "Vocabulario países",
+    "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Italia' en japonés?",
     "correct": "イタリア",
     "opts": [
@@ -253,7 +253,7 @@
   },
   {
     "id": "U1A-022",
-    "cat": "Vocabulario países",
+    "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Australia' en japonés?",
     "correct": "オーストラリア",
     "opts": [
@@ -265,7 +265,7 @@
   },
   {
     "id": "U1A-023",
-    "cat": "Vocabulario países",
+    "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Corea' en japonés?",
     "correct": "韓国 (かんこく)",
     "opts": [
@@ -277,7 +277,7 @@
   },
   {
     "id": "U1A-024",
-    "cat": "Vocabulario países",
+    "cat": "Vocabulario",
     "q": "¿Cómo se dice 'China' en japonés?",
     "correct": "中国 (ちゅうごく)",
     "opts": [
@@ -289,7 +289,7 @@
   },
   {
     "id": "U1A-025",
-    "cat": "Vocabulario países",
+    "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Rusia' en japonés?",
     "correct": "ロシア",
     "opts": [
@@ -301,7 +301,7 @@
   },
   {
     "id": "U1A-026",
-    "cat": "Vocabulario países",
+    "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Tailandia' en japonés?",
     "correct": "タイ",
     "opts": [
@@ -313,7 +313,7 @@
   },
   {
     "id": "U1A-027",
-    "cat": "Vocabulario países",
+    "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Brasil' en japonés?",
     "correct": "ブラジル",
     "opts": [
@@ -325,7 +325,7 @@
   },
   {
     "id": "U1A-028",
-    "cat": "Pregunta trabajo",
+    "cat": "Vocabulario",
     "q": "¿Cómo se pregunta '¿En qué trabajás?' de forma corta?",
     "correct": "お仕事は？",
     "opts": [
@@ -337,7 +337,7 @@
   },
   {
     "id": "U1A-029",
-    "cat": "Vocabulario trabajo",
+    "cat": "Vocabulario",
     "q": "¿Qué significa 会社員 (かいしゃいん)?",
     "correct": "Empleado de empresa",
     "opts": [
@@ -349,7 +349,7 @@
   },
   {
     "id": "U1A-030",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 会社員?",
     "correct": "かいしゃいん",
     "opts": [
@@ -361,7 +361,7 @@
   },
   {
     "id": "U1A-031",
-    "cat": "Vocabulario trabajo",
+    "cat": "Vocabulario",
     "q": "¿Qué significa 学生 (がくせい)?",
     "correct": "Estudiante",
     "opts": [
@@ -373,7 +373,7 @@
   },
   {
     "id": "U1A-032",
-    "cat": "Distinción maestros",
+    "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre 先生 y 教師?",
     "correct": "先生 se usa para dirigirse a ellos (título); 教師 es la profesión objetiva",
     "opts": [
@@ -385,7 +385,7 @@
   },
   {
     "id": "U1A-033",
-    "cat": "Trampa cultural",
+    "cat": "Distinción",
     "q": "¿Podés presentarte diciendo '私は 先生です' si sos profesor?",
     "correct": "No, lo correcto es 私は 教師です (先生 es título honorífico, no se usa para uno mismo)",
     "opts": [
@@ -397,7 +397,7 @@
   },
   {
     "id": "U1A-034",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 先生?",
     "correct": "せんせい",
     "opts": [
@@ -409,7 +409,7 @@
   },
   {
     "id": "U1A-035",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 教師?",
     "correct": "きょうし",
     "opts": [
@@ -421,7 +421,7 @@
   },
   {
     "id": "U1A-036",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 学生?",
     "correct": "がくせい",
     "opts": [
@@ -433,7 +433,7 @@
   },
   {
     "id": "U1A-037",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 大学?",
     "correct": "だいがく",
     "opts": [
@@ -445,7 +445,7 @@
   },
   {
     "id": "U1A-038",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 高校?",
     "correct": "こうこう",
     "opts": [
@@ -493,7 +493,7 @@
   },
   {
     "id": "U1A-042",
-    "cat": "Estructura N の N",
+    "cat": "Gramática",
     "q": "¿Cómo se dice 'Soy estudiante de la Universidad Fuji'?",
     "correct": "ふじ大学の学生です。",
     "opts": [
@@ -505,7 +505,7 @@
   },
   {
     "id": "U1A-043",
-    "cat": "Partícula の",
+    "cat": "Partículas",
     "q": "¿Cuál es el uso principal de la partícula の en '大学の学生'?",
     "correct": "Conectar dos sustantivos (de / pertenencia)",
     "opts": [
@@ -517,7 +517,7 @@
   },
   {
     "id": "U1A-044",
-    "cat": "Orden N の N",
+    "cat": "Gramática",
     "q": "En la estructura AのB, ¿cuál es el sustantivo principal?",
     "correct": "B (A lo modifica/describe)",
     "opts": [
@@ -529,7 +529,7 @@
   },
   {
     "id": "U1A-045",
-    "cat": "Traducción N の N",
+    "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Empleado de la empresa ABE'?",
     "correct": "ABEの社員です。",
     "opts": [
@@ -541,7 +541,7 @@
   },
   {
     "id": "U1A-046",
-    "cat": "Pregunta sí/no",
+    "cat": "Vocabulario",
     "q": "¿Cómo se pregunta '¿Sos empleado de empresa?'?",
     "correct": "会社員ですか。",
     "opts": [
@@ -553,7 +553,7 @@
   },
   {
     "id": "U1A-047",
-    "cat": "Respuesta afirmativa",
+    "cat": "Diálogo",
     "q": "Respuesta afirmativa completa a 会社員ですか:",
     "correct": "はい、そうです。 / はい、会社員です。",
     "opts": [
@@ -565,7 +565,7 @@
   },
   {
     "id": "U1A-048",
-    "cat": "Respuesta negativa",
+    "cat": "Diálogo",
     "q": "Para decir 'No, no soy empleado de empresa', usás:",
     "correct": "いいえ、会社員じゃ ありません。",
     "opts": [
@@ -577,7 +577,7 @@
   },
   {
     "id": "U1A-049",
-    "cat": "Negación casual",
+    "cat": "Gramática",
     "q": "¿Cuál es una forma alternativa de 'じゃ ありません'?",
     "correct": "じゃ ないです / では ありません",
     "opts": [
@@ -589,7 +589,7 @@
   },
   {
     "id": "U1A-050",
-    "cat": "Negación formal",
+    "cat": "Gramática",
     "q": "¿Cuál es la versión MÁS FORMAL/escrita de 'じゃ ありません'?",
     "correct": "では ありません",
     "opts": [
@@ -601,7 +601,7 @@
   },
   {
     "id": "U1A-051",
-    "cat": "Rechazo alternativo",
+    "cat": "Vocabulario",
     "q": "Otra forma de decir 'No, no es así' es:",
     "correct": "いいえ、ちがいます。",
     "opts": [
@@ -613,7 +613,7 @@
   },
   {
     "id": "U1A-052",
-    "cat": "Sufijo cortesía",
+    "cat": "Gramática",
     "q": "¿Qué significa el sufijo ~さん?",
     "correct": "Sr./Sra./Srta. (neutro, respeto)",
     "opts": [
@@ -625,7 +625,7 @@
   },
   {
     "id": "U1A-053",
-    "cat": "Trampa sufijo",
+    "cat": "Distinción",
     "q": "¿Podés usar ~さん con tu propio nombre (私は セバスチャンさんです)?",
     "correct": "No, ~さん solo se usa para referirse a otros (nunca a uno mismo)",
     "opts": [
@@ -637,7 +637,7 @@
   },
   {
     "id": "U1A-054",
-    "cat": "Diálogo típico",
+    "cat": "Diálogo",
     "q": "Completá el diálogo: A: お国は どちらですか。 B: ___.",
     "correct": "アルゼンチン人です。",
     "opts": [
@@ -649,7 +649,7 @@
   },
   {
     "id": "U1A-055",
-    "cat": "Diálogo típico",
+    "cat": "Diálogo",
     "q": "Completá: A: お仕事は 会社員ですか。 B: ___ (respuesta: No, soy profesor)",
     "correct": "いいえ、会社員じゃ ありません。教師です。",
     "opts": [
@@ -661,7 +661,7 @@
   },
   {
     "id": "U1A-056",
-    "cat": "Traducción ES→JA",
+    "cat": "Traducción ES→JP",
     "q": "'Yo soy Pak. Soy coreano.' se traduce:",
     "correct": "私は パクです。韓国人です。",
     "opts": [
@@ -673,7 +673,7 @@
   },
   {
     "id": "U1A-057",
-    "cat": "Presentación completa",
+    "cat": "Diálogo",
     "q": "Ordená los datos típicos de una presentación japonesa:",
     "correct": "はじめまして → nombre → nacionalidad/trabajo → よろしく おねがいします",
     "opts": [
@@ -697,7 +697,7 @@
   },
   {
     "id": "U1A-059",
-    "cat": "Reacción",
+    "cat": "Diálogo",
     "q": "¿Qué significa そうですか?",
     "correct": "Ah, ya veo / Ah sí? (reacción al recibir información)",
     "opts": [
@@ -709,7 +709,7 @@
   },
   {
     "id": "U1A-060",
-    "cat": "Trampa sutil",
+    "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre そうです y そうですか?",
     "correct": "そうです = 'Así es' (afirmar); そうですか = 'Ah, ya veo' (reaccionar)",
     "opts": [
@@ -721,7 +721,7 @@
   },
   {
     "id": "U1A-061",
-    "cat": "Orden presentación",
+    "cat": "Diálogo",
     "q": "Poné en orden: セバスチャン / です / 私 / は",
     "correct": "私 は セバスチャン です",
     "opts": [
@@ -757,7 +757,7 @@
   },
   {
     "id": "U1A-064",
-    "cat": "Traducción JA→ES",
+    "cat": "Traducción JP→ES",
     "q": "'あおぞら日本語学校の学生です。' significa:",
     "correct": "Soy estudiante de la escuela de japonés Aozora",
     "opts": [
@@ -769,7 +769,7 @@
   },
   {
     "id": "U1A-065",
-    "cat": "Partícula trampa",
+    "cat": "Distinción",
     "q": "私 ___ 韓国人です。 (Yo soy coreano)",
     "correct": "は",
     "opts": [
@@ -781,7 +781,7 @@
   },
   {
     "id": "U1A-066",
-    "cat": "Partícula の",
+    "cat": "Partículas",
     "q": "ふじ大学 ___ 学生です。 (Soy estudiante de la universidad Fuji)",
     "correct": "の",
     "opts": [
@@ -793,7 +793,7 @@
   },
   {
     "id": "U1A-067",
-    "cat": "Trampa frecuente",
+    "cat": "Distinción",
     "q": "¿Cuál de estas oraciones es INCORRECTA?",
     "correct": "私は 学生のふじ大学です。",
     "opts": [
@@ -805,7 +805,7 @@
   },
   {
     "id": "U1A-068",
-    "cat": "Pregunta nombre",
+    "cat": "Vocabulario",
     "q": "¿Cómo se pregunta '¿Cuál es tu nombre?' educadamente?",
     "correct": "お名前は？ / お名前は 何ですか。",
     "opts": [
@@ -817,7 +817,7 @@
   },
   {
     "id": "U1A-069",
-    "cat": "Comparación sufijos",
+    "cat": "Gramática",
     "q": "Un empleado de Google diría '私は ___ の社員です。'. Completá:",
     "correct": "Google",
     "opts": [
@@ -841,7 +841,7 @@
   },
   {
     "id": "U1A-071",
-    "cat": "Trampa cultural",
+    "cat": "Distinción",
     "q": "Cuando alguien de otro país dice 'アメリカ人です', se refiere principalmente a:",
     "correct": "Ser de Estados Unidos (no de América Latina)",
     "opts": [
@@ -853,7 +853,7 @@
   },
   {
     "id": "U1A-072",
-    "cat": "Presentación completa",
+    "cat": "Diálogo",
     "q": "¿Cuál es la presentación más completa y natural?",
     "correct": "はじめまして。私は セバスチャンです。アルゼンチン人です。どうぞ よろしく おねがいします。",
     "opts": [
@@ -865,7 +865,7 @@
   },
   {
     "id": "U1A-073",
-    "cat": "Distinción formal",
+    "cat": "Distinción",
     "q": "¿Cuál pregunta sobre el país es MÁS casual?",
     "correct": "くには どこですか。",
     "opts": [
@@ -877,7 +877,7 @@
   },
   {
     "id": "U1A-074",
-    "cat": "Trampa estructura",
+    "cat": "Distinción",
     "q": "¿Qué error tiene la oración '私は アルゼンチンです'? (queriendo decir 'soy argentino')",
     "correct": "Faltaría 人: 'アルゼンチン人です' (si no, literalmente dice 'yo soy Argentina')",
     "opts": [

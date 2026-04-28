@@ -1,7 +1,7 @@
 [
   {
     "id": "U1C-001",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 趣味?",
     "correct": "しゅみ",
     "opts": [
@@ -25,7 +25,7 @@
   },
   {
     "id": "U1C-003",
-    "cat": "Pregunta hobby",
+    "cat": "Vocabulario",
     "q": "¿Cómo se pregunta '¿Cuál es tu hobby?'?",
     "correct": "趣味は 何ですか。",
     "opts": [
@@ -37,7 +37,7 @@
   },
   {
     "id": "U1C-004",
-    "cat": "Pregunta",
+    "cat": "Vocabulario",
     "q": "¿Qué significa 何ですか?",
     "correct": "¿Qué es?",
     "opts": [
@@ -49,7 +49,7 @@
   },
   {
     "id": "U1C-005",
-    "cat": "Kanji→Lectura 何",
+    "cat": "Kanji → Lectura",
     "q": "El kanji 何 tiene dos lecturas: なに y なん. En '何ですか', se lee:",
     "correct": "なん",
     "opts": [
@@ -61,7 +61,7 @@
   },
   {
     "id": "U1C-006",
-    "cat": "Regla なに/なん",
+    "cat": "Gramática",
     "q": "¿Cuándo se lee el kanji 何 como なん en vez de なに?",
     "correct": "Antes de です, d/t/n o contadores (なんですか, なんじ, なんにん)",
     "opts": [
@@ -73,7 +73,7 @@
   },
   {
     "id": "U1C-007",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 音楽?",
     "correct": "おんがく",
     "opts": [
@@ -97,7 +97,7 @@
   },
   {
     "id": "U1C-009",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 映画?",
     "correct": "えいが",
     "opts": [
@@ -121,7 +121,7 @@
   },
   {
     "id": "U1C-011",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 読書?",
     "correct": "どくしょ",
     "opts": [
@@ -145,7 +145,7 @@
   },
   {
     "id": "U1C-013",
-    "cat": "Distinción trampa",
+    "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre 読書 y 本?",
     "correct": "読書 = la actividad de leer; 本 = el libro (objeto)",
     "opts": [
@@ -157,7 +157,7 @@
   },
   {
     "id": "U1C-014",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 旅行?",
     "correct": "りょこう",
     "opts": [
@@ -181,7 +181,7 @@
   },
   {
     "id": "U1C-016",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 料理?",
     "correct": "りょうり",
     "opts": [
@@ -193,7 +193,7 @@
   },
   {
     "id": "U1C-017",
-    "cat": "Distinción palabras similares",
+    "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre 料理 como hobby y 料理 como comida?",
     "correct": "Es la misma palabra: 料理 puede ser 'cocinar (hobby)' o 'un plato (comida)' según contexto",
     "opts": [
@@ -205,7 +205,7 @@
   },
   {
     "id": "U1C-018",
-    "cat": "Kanji→Lectura",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 水泳?",
     "correct": "すいえい",
     "opts": [
@@ -229,7 +229,7 @@
   },
   {
     "id": "U1C-020",
-    "cat": "Vocabulario Katakana",
+    "cat": "Katakana",
     "q": "¿Qué significa スポーツ?",
     "correct": "Deporte(s)",
     "opts": [
@@ -241,7 +241,7 @@
   },
   {
     "id": "U1C-021",
-    "cat": "Vocabulario Katakana",
+    "cat": "Katakana",
     "q": "¿Qué significa サッカー?",
     "correct": "Fútbol",
     "opts": [
@@ -253,7 +253,7 @@
   },
   {
     "id": "U1C-022",
-    "cat": "Vocabulario Katakana",
+    "cat": "Katakana",
     "q": "¿Qué significa テニス?",
     "correct": "Tenis",
     "opts": [
@@ -265,7 +265,7 @@
   },
   {
     "id": "U1C-023",
-    "cat": "Vocabulario Katakana",
+    "cat": "Katakana",
     "q": "¿Qué significa アニメ?",
     "correct": "Animación japonesa (anime)",
     "opts": [
@@ -277,7 +277,7 @@
   },
   {
     "id": "U1C-024",
-    "cat": "Respuesta típica",
+    "cat": "Diálogo",
     "q": "A: 趣味は 何ですか。 B: ___. (Respuesta: Mi hobby es la música)",
     "correct": "(私の) 趣味は 音楽です。",
     "opts": [
@@ -289,7 +289,7 @@
   },
   {
     "id": "U1C-025",
-    "cat": "Partícula と",
+    "cat": "Partículas",
     "q": "La partícula と se usa para:",
     "correct": "Unir sustantivos con el significado 'y' (A y B)",
     "opts": [
@@ -301,7 +301,7 @@
   },
   {
     "id": "U1C-026",
-    "cat": "Restricción de と",
+    "cat": "Gramática",
     "q": "La partícula と ('y') solo se usa para:",
     "correct": "Unir sustantivos (no verbos ni oraciones)",
     "opts": [
@@ -313,7 +313,7 @@
   },
   {
     "id": "U1C-027",
-    "cat": "Traducción con と",
+    "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Anime y música'?",
     "correct": "アニメと 音楽",
     "opts": [
@@ -325,7 +325,7 @@
   },
   {
     "id": "U1C-028",
-    "cat": "Respuesta con と",
+    "cat": "Diálogo",
     "q": "¿Cómo se dice 'Mi hobby es viajar y cocinar'?",
     "correct": "趣味は 旅行と 料理です。",
     "opts": [
@@ -337,7 +337,7 @@
   },
   {
     "id": "U1C-029",
-    "cat": "Partícula も",
+    "cat": "Partículas",
     "q": "¿Qué significa la partícula も?",
     "correct": "También",
     "opts": [
@@ -349,7 +349,7 @@
   },
   {
     "id": "U1C-030",
-    "cat": "Regla crítica de も",
+    "cat": "Gramática",
     "q": "La partícula も reemplaza a:",
     "correct": "は o が (no se combinan)",
     "opts": [
@@ -361,7 +361,7 @@
   },
   {
     "id": "U1C-031",
-    "cat": "Trampa común",
+    "cat": "Distinción",
     "q": "¿Es correcto decir '私はも 会社員です'?",
     "correct": "No, は y も no se combinan. Se dice '私も 会社員です'",
     "opts": [
@@ -373,7 +373,7 @@
   },
   {
     "id": "U1C-032",
-    "cat": "Uso de も",
+    "cat": "Gramática",
     "q": "A: 私の 趣味は 音楽です。 B: ___. (Respuesta: Mi hobby también es la música)",
     "correct": "私の 趣味も 音楽です。",
     "opts": [
@@ -385,7 +385,7 @@
   },
   {
     "id": "U1C-033",
-    "cat": "Uso de も",
+    "cat": "Gramática",
     "q": "'También me gusta la música' sería:",
     "correct": "音楽も 好きです。",
     "opts": [
@@ -409,7 +409,7 @@
   },
   {
     "id": "U1C-035",
-    "cat": "Diálogo completo",
+    "cat": "Diálogo",
     "q": "A: 趣味は 何ですか。 B: 映画です。 A: そうですか。 B: ___さんの 趣味は?",
     "correct": "(turno cambia, B pregunta a A)",
     "opts": [
@@ -421,7 +421,7 @@
   },
   {
     "id": "U1C-036",
-    "cat": "Partícula crítica",
+    "cat": "Partículas",
     "q": "私___ 趣味は 料理です。",
     "correct": "の",
     "opts": [
@@ -433,7 +433,7 @@
   },
   {
     "id": "U1C-037",
-    "cat": "Partícula crítica",
+    "cat": "Partículas",
     "q": "(私の) 趣味___ 読書です。",
     "correct": "は",
     "opts": [
@@ -445,7 +445,7 @@
   },
   {
     "id": "U1C-038",
-    "cat": "Ordenar respuesta",
+    "cat": "Diálogo",
     "q": "Poné en orden: 料理 / は / です / 私の / 趣味",
     "correct": "私の 趣味 は 料理 です",
     "opts": [
@@ -457,7 +457,7 @@
   },
   {
     "id": "U1C-039",
-    "cat": "Preguntar sobre hobby",
+    "cat": "Vocabulario",
     "q": "¿Cómo se pregunta '¿Cuál es el hobby del Sr. Tanaka?'?",
     "correct": "田中さんの 趣味は 何ですか。",
     "opts": [
@@ -469,7 +469,7 @@
   },
   {
     "id": "U1C-040",
-    "cat": "Distinción sutil",
+    "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre アニメ y 漫画 (まんが)?",
     "correct": "アニメ = animación en movimiento; 漫画 = cómic (revista/libro)",
     "opts": [
@@ -481,7 +481,7 @@
   },
   {
     "id": "U1C-041",
-    "cat": "Reacción",
+    "cat": "Diálogo",
     "q": "Después de que alguien te dice su hobby, la reacción natural es:",
     "correct": "そうですか。",
     "opts": [
@@ -493,7 +493,7 @@
   },
   {
     "id": "U1C-042",
-    "cat": "Extensión",
+    "cat": "Gramática",
     "q": "Si tu interlocutor dice '音楽です' y vos también tenés ese hobby, decís:",
     "correct": "あ、私の 趣味も 音楽です。",
     "opts": [
@@ -505,7 +505,7 @@
   },
   {
     "id": "U1C-043",
-    "cat": "Traducción",
+    "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Viajar y cocinar' (con と)?",
     "correct": "旅行と 料理",
     "opts": [
@@ -517,7 +517,7 @@
   },
   {
     "id": "U1C-044",
-    "cat": "Traducción JA→ES",
+    "cat": "Traducción JP→ES",
     "q": "'私の 趣味は アニメと 音楽です。' significa:",
     "correct": "Mi hobby es el anime y la música",
     "opts": [
@@ -529,7 +529,7 @@
   },
   {
     "id": "U1C-045",
-    "cat": "Trampa sutil",
+    "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre '趣味は 音楽です' y '趣味は 音楽も 好きです'?",
     "correct": "La primera solo afirma que es su hobby; la segunda sugiere '(además de otros) también me gusta la música'",
     "opts": [
@@ -541,7 +541,7 @@
   },
   {
     "id": "U1C-046",
-    "cat": "Partícula orden trampa",
+    "cat": "Distinción",
     "q": "¿Cuál de estas oraciones es GRAMATICALMENTE incorrecta?",
     "correct": "私の 趣味は 音楽と。",
     "opts": [
@@ -553,7 +553,7 @@
   },
   {
     "id": "U1C-047",
-    "cat": "Distinción partículas",
+    "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre 音楽が 好きです y 音楽は 好きです?",
     "correct": "が enfatiza QUÉ me gusta (me gusta LA MÚSICA); は presenta el tema con matiz de contraste",
     "opts": [
@@ -565,7 +565,7 @@
   },
   {
     "id": "U1C-048",
-    "cat": "Vocabulario extra",
+    "cat": "Vocabulario",
     "q": "¿Cómo se dice 'natación' usando un verbo? (ejemplo avanzado)",
     "correct": "水泳 es la forma nominal; 泳ぎます es 'nadar'",
     "opts": [
@@ -577,7 +577,7 @@
   },
   {
     "id": "U1C-049",
-    "cat": "Hobbies de varias cosas",
+    "cat": "Vocabulario",
     "q": "Para listar 3+ hobbies, la partícula と se coloca:",
     "correct": "Entre cada par: 'A と B と C'",
     "opts": [
@@ -589,7 +589,7 @@
   },
   {
     "id": "U1C-050",
-    "cat": "Hobbies listados",
+    "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Fútbol, tenis y natación'?",
     "correct": "サッカーと テニスと 水泳",
     "opts": [
@@ -601,7 +601,7 @@
   },
   {
     "id": "U1C-051",
-    "cat": "Vocabulario complementario",
+    "cat": "Vocabulario",
     "q": "¿Qué significa 小説 (しょうせつ)?",
     "correct": "Novela (libro)",
     "opts": [
@@ -613,7 +613,7 @@
   },
   {
     "id": "U1C-052",
-    "cat": "Vocabulario complementario",
+    "cat": "Vocabulario",
     "q": "¿Qué significa 漫画 (まんが)?",
     "correct": "Manga / cómic japonés",
     "opts": [
@@ -625,7 +625,7 @@
   },
   {
     "id": "U1C-053",
-    "cat": "Dialogo final",
+    "cat": "Diálogo",
     "q": "Completá el diálogo: A: 趣味は 何ですか。 B: ___です。 (Respuesta: Lectura)",
     "correct": "読書",
     "opts": [
@@ -637,7 +637,7 @@
   },
   {
     "id": "U1C-054",
-    "cat": "Trampa pregunta",
+    "cat": "Distinción",
     "q": "¿Cuál es INCORRECTA?",
     "correct": "趣味は どれですか。",
     "opts": [
@@ -649,7 +649,7 @@
   },
   {
     "id": "U1C-055",
-    "cat": "Uso de の",
+    "cat": "Gramática",
     "q": "Completá: 私___ 趣味は サッカー___ テニスです。",
     "correct": "の / と",
     "opts": [
@@ -661,7 +661,7 @@
   },
   {
     "id": "U1C-056",
-    "cat": "Prefijo お",
+    "cat": "Gramática",
     "q": "¿Se puede decir お趣味は 何ですか?",
     "correct": "Sí, es correcto y más educado al preguntar",
     "opts": [
@@ -673,7 +673,7 @@
   },
   {
     "id": "U1C-057",
-    "cat": "Vocabulario sutil",
+    "cat": "Distinción",
     "q": "Si alguien dice 'アニメ と 漫画 が 好きです', ¿qué significa?",
     "correct": "Me gustan el anime y los mangas",
     "opts": [
@@ -685,7 +685,7 @@
   },
   {
     "id": "U1C-058",
-    "cat": "Presentación completa con hobby",
+    "cat": "Diálogo",
     "q": "¿Cuál es una presentación completa y natural incluyendo todos los datos de la unidad 1?",
     "correct": "はじめまして。私は パクです。韓国人です。学生です。26歳です。趣味は 音楽です。よろしく。",
     "opts": [
@@ -697,7 +697,7 @@
   },
   {
     "id": "U1C-059",
-    "cat": "Trampa semántica",
+    "cat": "Distinción",
     "q": "'音楽も 好きです' (después de mencionar otro hobby) implica:",
     "correct": "Que tengo otros intereses previos Y también me gusta la música",
     "opts": [
@@ -709,7 +709,7 @@
   },
   {
     "id": "U1C-060",
-    "cat": "Diálogo triple",
+    "cat": "Diálogo",
     "q": "A: 趣味は 音楽です。B: あ、私___ 音楽です。",
     "correct": "も",
     "opts": [
@@ -721,7 +721,7 @@
   },
   {
     "id": "U1C-061",
-    "cat": "Respuesta con と",
+    "cat": "Diálogo",
     "q": "A: Bさんの 趣味は 何ですか。 B: ___. (Respuesta: Es viaje y fotografía)",
     "correct": "旅行と 写真です。",
     "opts": [
@@ -745,7 +745,7 @@
   },
   {
     "id": "U1C-063",
-    "cat": "Partícula final trampa",
+    "cat": "Distinción",
     "q": "¿Cuál de estas oraciones combina todas las partículas correctamente?",
     "correct": "私の 趣味は アニメと 音楽です。田中さんの 趣味も 音楽です。",
     "opts": [
@@ -757,7 +757,7 @@
   },
   {
     "id": "U1C-064",
-    "cat": "Desafío integral",
+    "cat": "Diálogo",
     "q": "¿Cuál es la estructura lógica de una respuesta completa sobre hobbies?",
     "correct": "(persona) の 趣味は (hobby1) と (hobby2) です",
     "opts": [
@@ -769,7 +769,7 @@
   },
   {
     "id": "U1C-065",
-    "cat": "Matiz cultural",
+    "cat": "Distinción",
     "q": "En Japón, mencionar muchos hobbies es:",
     "correct": "Culturalmente aceptable; es común mencionar 1-3 hobbies principales",
     "opts": [
@@ -781,7 +781,7 @@
   },
   {
     "id": "U1C-066",
-    "cat": "Trampa conversacional",
+    "cat": "Distinción",
     "q": "Si tu hobby es 'ver anime', NO decís '趣味は アニメを見るです'. ¿Por qué?",
     "correct": "En esta unidad solo se usan sustantivos: '趣味は アニメです' (uso de verbos en forma diccionario viene después)",
     "opts": [
