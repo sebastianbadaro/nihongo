@@ -126,6 +126,30 @@ Si querés cambiar cantidad de preguntas por sesión, abrí `index.html` y modif
 const QUIZ_SIZE = 30;  // Cambiar a 20, 50, etc.
 ```
 
+## 📋 Changelog
+
+### 2026-04-28 — Tags globales
+- Recategorización de 260 tags específicos a 14 categorías globales (`Kanji → Lectura`, `Kanji → Significado`, `Katakana`, `Vocabulario`, `Partículas`, `Verbos`, `Adjetivos`, `Gramática`, `Contadores`, `Números y Tiempo`, `Traducción ES→JP`, `Traducción JP→ES`, `Diálogo`, `Distinción`)
+- Revisión y corrección manual de tags post-migración en todas las unidades
+
+### 2026-04-26 — UI, contenido y performance
+- Rediseño UI: estética japonesa moderna (tipografía, colores, layout)
+- Menú acordeón por Nivel → Unidad → Sub-unidad en `index.html`
+- Unidad 4C: 季節・料理 — clima, estaciones, sabores e intensificadores (115 preguntas)
+- Lazy loading y render paginado (50 por página) en `revision.html`
+
+### 2026-04-25 — Herramientas de estudio
+- `revision.html`: herramienta de revisión con búsqueda por texto y filtro por categoría
+- IDs únicos por pregunta (`U1A-001`, etc.) en todos los JSON
+- Dark mode en `revision.html` con persistencia localStorage
+
+### 2026-04-24 — Base del proyecto
+- Quiz interactivo con 30 preguntas al azar por sesión, opciones barajadas
+- Unidades 1A, 1B, 1C, 2A, 2B, 2C, 3A, 3B, 3C (434+ preguntas)
+- Dark mode en `index.html` con persistencia localStorage
+
+---
+
 ## 📝 Unidades actuales
 
 | ID  | Nombre     | Contenido                                              | Preguntas |
