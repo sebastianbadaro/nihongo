@@ -85,7 +85,7 @@
   },
   {
     "id": "U1B-008",
-    "cat": "Distinción",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 8歳?",
     "correct": "はっさい",
     "opts": [
@@ -97,7 +97,7 @@
   },
   {
     "id": "U1B-009",
-    "cat": "Distinción",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 10歳?",
     "correct": "じゅっさい",
     "opts": [
@@ -193,7 +193,7 @@
   },
   {
     "id": "U1B-017",
-    "cat": "Distinción",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 4月?",
     "correct": "しがつ",
     "opts": [
@@ -205,7 +205,7 @@
   },
   {
     "id": "U1B-018",
-    "cat": "Distinción",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 7月?",
     "correct": "しちがつ",
     "opts": [
@@ -217,7 +217,7 @@
   },
   {
     "id": "U1B-019",
-    "cat": "Distinción",
+    "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 9月?",
     "correct": "くがつ",
     "opts": [
@@ -517,7 +517,7 @@
   },
   {
     "id": "U1B-044",
-    "cat": "Distinción",
+    "cat": "Diálogo",
     "q": "A: お誕生日は いつですか。 B: ___. (Respuesta: 14 de julio)",
     "correct": "7月14日 (しちがつ じゅうよっか) です。",
     "opts": [
@@ -529,7 +529,7 @@
   },
   {
     "id": "U1B-045",
-    "cat": "Distinción",
+    "cat": "Diálogo",
     "q": "A: お誕生日は いつですか。 B: ___. (Respuesta: 20 de abril)",
     "correct": "4月20日 (しがつ はつか) です。",
     "opts": [
@@ -541,7 +541,7 @@
   },
   {
     "id": "U1B-046",
-    "cat": "Distinción",
+    "cat": "Diálogo",
     "q": "A: お誕生日は いつですか。 B: ___. (Respuesta: 10 de septiembre)",
     "correct": "9月10日 (くがつ とおか) です。",
     "opts": [
@@ -589,7 +589,7 @@
   },
   {
     "id": "U1B-050",
-    "cat": "Distinción",
+    "cat": "Diálogo",
     "q": "¿Qué pregunta uno sobre el cumpleaños de OTRA persona?",
     "correct": "Bさんの お誕生日は いつですか。",
     "opts": [
@@ -709,7 +709,7 @@
   },
   {
     "id": "U1B-060",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "¿Cuál de estos NO es correcto para decir tu edad?",
     "correct": "私の 歳は 30です。",
     "opts": [
@@ -829,7 +829,7 @@
   },
   {
     "id": "U1B-070",
-    "cat": "Distinción",
+    "cat": "Vocabulario",
     "q": "¿Qué significa la expresión お誕生日 おめでとう ございます?",
     "correct": "¡Feliz cumpleaños! (educado)",
     "opts": [

@@ -517,7 +517,7 @@
   },
   {
     "id": "U4C-044",
-    "cat": "Distinción",
+    "cat": "Kanji → Significado",
     "q": "El kanji 暑 contiene 日 (sol). Por eso se usa para:",
     "correct": "Clima caluroso",
     "opts": [
@@ -529,7 +529,7 @@
   },
   {
     "id": "U4C-045",
-    "cat": "Distinción",
+    "cat": "Kanji → Significado",
     "q": "El kanji 温 contiene 氵 (agua). Por eso se usa para:",
     "correct": "Objetos tibios (sopa, té)",
     "opts": [
@@ -829,7 +829,7 @@
   },
   {
     "id": "U4C-070",
-    "cat": "Distinción",
+    "cat": "Partículas",
     "q": "このビルは新しいです____、きれいじゃありません。 — ¿Qué partícula/conector va?",
     "correct": "が",
     "opts": [
@@ -853,7 +853,7 @@
   },
   {
     "id": "U4C-072",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "Las dos ideas SE COMPLEMENTAN (van en la misma dirección). ¿Qué conector uso?",
     "correct": "そして",
     "opts": [
@@ -865,7 +865,7 @@
   },
   {
     "id": "U4C-073",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "Las dos ideas SE CONTRADICEN (la segunda contrasta). ¿Qué conector uso?",
     "correct": "が",
     "opts": [
@@ -877,7 +877,7 @@
   },
   {
     "id": "U4C-074",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "わかば公園は静かです。____、緑が多いです。 — ¿Qué conector va?",
     "correct": "そして",
     "opts": [
@@ -889,7 +889,7 @@
   },
   {
     "id": "U4C-075",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "高尾山は有名です____、あまり高くないです。 — ¿Qué conector va?",
     "correct": "が",
     "opts": [
@@ -901,7 +901,7 @@
   },
   {
     "id": "U4C-076",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "このスープは温かいです。____、おいしいです。 — ¿Qué conector va?",
     "correct": "そして",
     "opts": [
@@ -949,7 +949,7 @@
   },
   {
     "id": "U4C-080",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "Querés preguntar '¿Y tu país? (¿Cómo es / qué tal?)'. ¿Qué palabra usás?",
     "correct": "どう",
     "opts": [
@@ -961,7 +961,7 @@
   },
   {
     "id": "U4C-081",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "Querés preguntar '¿QUÉ TIPO de ciudad es?'. ¿Qué palabra usás?",
     "correct": "どんな",
     "opts": [
@@ -973,7 +973,7 @@
   },
   {
     "id": "U4C-082",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "あなたの国はどうですか. La pregunta busca:",
     "correct": "Una opinión / impresión general",
     "opts": [
@@ -997,7 +997,7 @@
   },
   {
     "id": "U4C-084",
-    "cat": "Distinción",
+    "cat": "Diálogo",
     "q": "そうですね expresa:",
     "correct": "Acuerdo / empatía con lo que dijo el otro",
     "opts": [

@@ -1513,7 +1513,7 @@
   },
   {
     "id": "U3A-127",
-    "cat": "Distinción",
+    "cat": "Vocabulario",
     "q": "'半' después de una hora significa:",
     "correct": "Y media (30 minutos)",
     "opts": [
@@ -1525,7 +1525,7 @@
   },
   {
     "id": "U3A-128",
-    "cat": "Distinción",
+    "cat": "Vocabulario",
     "q": "'前' después de 'X時Y分' significa:",
     "correct": "Faltan Y minutos para las X (antes de)",
     "opts": [
@@ -1537,7 +1537,7 @@
   },
   {
     "id": "U3A-129",
-    "cat": "Distinción",
+    "cat": "Diálogo",
     "q": "¿Cuál es la respuesta correcta a '何曜日ですか'?",
     "correct": "水曜日です。",
     "opts": [
@@ -1549,7 +1549,7 @@
   },
   {
     "id": "U3A-130",
-    "cat": "Distinción",
+    "cat": "Diálogo",
     "q": "¿Cuál es la respuesta correcta a 'いつですか' (cuando se pregunta por un día)?",
     "correct": "金曜日です。",
     "opts": [
@@ -1561,7 +1561,7 @@
   },
   {
     "id": "U3A-131",
-    "cat": "Distinción",
+    "cat": "Traducción JP→ES",
     "q": "En '7時15分前です', ¿qué hora es realmente?",
     "correct": "6:45",
     "opts": [
@@ -1573,7 +1573,7 @@
   },
   {
     "id": "U3A-132",
-    "cat": "Distinción",
+    "cat": "Traducción JP→ES",
     "q": "En '10時半です', ¿qué hora es?",
     "correct": "10:30",
     "opts": [

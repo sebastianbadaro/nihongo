@@ -1289,7 +1289,7 @@
   },
   {
     "id": "U3C-109",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "¿Se usa に con '毎日'?",
     "correct": "No, 毎日 no lleva に porque no es una hora puntual",
     "opts": [
@@ -1301,7 +1301,7 @@
   },
   {
     "id": "U3C-110",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "¿Cuándo se usa に con expresiones de tiempo?",
     "correct": "Con horas puntuales (7時に) y días específicos",
     "opts": [
@@ -1313,7 +1313,7 @@
   },
   {
     "id": "U3C-111",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "En '何も買いません', ¿por qué se usa も y no を?",
     "correct": "も reemplaza a を en la negación total (nada)",
     "opts": [
@@ -1337,7 +1337,7 @@
   },
   {
     "id": "U3C-113",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "En 'どこへも行きません', ¿qué partículas se combinan?",
     "correct": "へ (destino) + も (negación total) → a ningún lado",
     "opts": [

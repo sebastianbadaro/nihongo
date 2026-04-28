@@ -1249,7 +1249,7 @@
   },
   {
     "id": "U3B-105",
-    "cat": "Distinción",
+    "cat": "Partículas",
     "q": "En '公園で花火を見ます', ¿qué rol juega 公園?",
     "correct": "Lugar donde ocurre la acción (de)",
     "opts": [
@@ -1261,7 +1261,7 @@
   },
   {
     "id": "U3B-106",
-    "cat": "Distinción",
+    "cat": "Partículas",
     "q": "En '北海道へ行きます', ¿qué rol juega 北海道?",
     "correct": "Destino (adónde)",
     "opts": [
@@ -1273,7 +1273,7 @@
   },
   {
     "id": "U3B-107",
-    "cat": "Distinción",
+    "cat": "Verbos",
     "q": "¿Cuál de estas es un verbo del Grupo 3 (irregular)?",
     "correct": "します",
     "opts": [
@@ -1285,7 +1285,7 @@
   },
   {
     "id": "U3B-108",
-    "cat": "Distinción",
+    "cat": "Verbos",
     "q": "¿Cuál de estas es un verbo del Grupo 2?",
     "correct": "食べます",
     "opts": [
@@ -1297,7 +1297,7 @@
   },
   {
     "id": "U3B-109",
-    "cat": "Distinción",
+    "cat": "Verbos",
     "q": "¿Cuál de estas es un verbo del Grupo 1?",
     "correct": "飲みます",
     "opts": [
@@ -1309,7 +1309,7 @@
   },
   {
     "id": "U3B-110",
-    "cat": "Distinción",
+    "cat": "Vocabulario",
     "q": "¿Qué significa 何?",
     "correct": "Qué (pronombre interrogativo)",
     "opts": [

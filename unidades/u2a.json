@@ -517,7 +517,7 @@
   },
   {
     "id": "U2A-044",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "¿Cuál de estas NO es una palabra para 'aquí/ahí/allí' en japonés?",
     "correct": "そっち",
     "opts": [
@@ -661,7 +661,7 @@
   },
   {
     "id": "U2A-056",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "Un cliente dice: この スーパーは 何階ですか。 ¿Es correcta la oración?",
     "correct": "No — se usaría 'スーパーは 何階ですか' (sin この) si se pregunta por el piso del supermercado",
     "opts": [
@@ -805,7 +805,7 @@
   },
   {
     "id": "U2A-068",
-    "cat": "Distinción",
+    "cat": "Gramática",
     "q": "¿Cuál es el demostrativo de lugar que NO existe?",
     "correct": "こっこ",
     "opts": [
