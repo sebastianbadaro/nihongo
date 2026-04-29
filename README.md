@@ -132,6 +132,7 @@ const QUIZ_SIZE = 30;  // Cambiar a 20, 50, etc.
 - Las preguntas respondidas incorrectamente reaparecen en el siguiente quiz (prioridad máxima)
 - Las respondidas correctamente se excluyen del siguiente quiz
 - Los resultados persisten en localStorage: aplica aunque se recargue la página o se vuelva otro día
+- El progreso de cada unidad es independiente: hacer un quiz de U2B no borra el historial de U1A
 - Si el pool no tiene suficientes preguntas no repetidas, se rellena con las correctas para no dejar el quiz incompleto
 
 ### 2026-04-28 — Tags globales
