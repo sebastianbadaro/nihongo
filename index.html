@@ -626,7 +626,6 @@ let allNiveles = [];     // Jerarquía desde manifest.niveles
 let questionsCache = {}; // Cache de preguntas por id de unidad
 let currentQuiz = [];
 let currentPool = [];    // Pool de preguntas actual (para repetir con nuevas al azar)
-let lastQuizIds = new Set(); // IDs del quiz anterior, para no repetir preguntas
 let currentIdx = 0;
 let score = 0;
 let answers = [];
@@ -843,12 +842,12 @@ async function startMixed() {
 function launchQuiz(pool) {
   currentPool = pool;
   const target = Math.min(QUIZ_SIZE, pool.length);
-  const fresh = shuffle(pool.filter(q => !lastQuizIds.has(q.id)));
-  const selected = fresh.length >= target
-    ? fresh.slice(0, target)
-    : [...fresh, ...shuffle(pool.filter(q => lastQuizIds.has(q.id)))].slice(0, target);
-  currentQuiz = selected;
-  lastQuizIds = new Set(currentQuiz.map(q => q.id));
+  const correctIds = new Set(JSON.parse(localStorage.getItem('nihongo_correct_ids') || '[]'));
+  const failedIds  = new Set(JSON.parse(localStorage.getItem('nihongo_failed_ids')  || '[]'));
+  const failed  = shuffle(pool.filter(q => failedIds.has(q.id)));
+  const neutral = shuffle(pool.filter(q => !failedIds.has(q.id) && !correctIds.has(q.id)));
+  const correct = shuffle(pool.filter(q => correctIds.has(q.id) && !failedIds.has(q.id)));
+  currentQuiz = shuffle([...failed, ...neutral, ...correct].slice(0, target));
   currentIdx = 0;
   score = 0;
   answers = [];
@@ -902,7 +901,7 @@ function selectAnswer(btn, chosen, q) {
       if (b.textContent === q.correct) b.classList.add('correct');
     });
   }
-  answers.push({q: q.q, chosen, correct: q.correct, isCorrect});
+  answers.push({id: q.id, q: q.q, chosen, correct: q.correct, isCorrect});
   document.getElementById('q-score').textContent = `Aciertos: ${score}`;
   document.getElementById('next-btn').classList.remove('hidden');
   document.getElementById('next-btn').textContent = (currentIdx === currentQuiz.length - 1) ? 'Ver resultado 🏁' : 'Siguiente →';
@@ -918,6 +917,8 @@ function nextQuestion() {
 // RESULTADO
 // =============================================================
 function showResult() {
+  localStorage.setItem('nihongo_correct_ids', JSON.stringify(answers.filter(a =>  a.isCorrect).map(a => a.id)));
+  localStorage.setItem('nihongo_failed_ids',  JSON.stringify(answers.filter(a => !a.isCorrect).map(a => a.id)));
   show('result');
   const total = currentQuiz.length;
   const wrong = total - score;
