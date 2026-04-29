@@ -128,6 +128,10 @@ const QUIZ_SIZE = 30;  // Cambiar a 20, 50, etc.
 
 ## 📋 Changelog
 
+### 2026-04-29 — Sin repetición de preguntas entre quizzes
+- Al repetir un quiz, las preguntas del intento anterior quedan excluidas del nuevo sorteo
+- Si el pool no tiene suficientes preguntas nuevas, se rellena con las anteriores para no dejar el quiz incompleto
+
 ### 2026-04-28 — Tags globales
 - Recategorización de 260 tags específicos a 14 categorías globales (`Kanji → Lectura`, `Kanji → Significado`, `Katakana`, `Vocabulario`, `Partículas`, `Verbos`, `Adjetivos`, `Gramática`, `Contadores`, `Números y Tiempo`, `Traducción ES→JP`, `Traducción JP→ES`, `Diálogo`, `Distinción`)
 - Revisión y corrección manual de tags post-migración en todas las unidades

@@ -626,6 +626,7 @@ let allNiveles = [];     // Jerarquía desde manifest.niveles
 let questionsCache = {}; // Cache de preguntas por id de unidad
 let currentQuiz = [];
 let currentPool = [];    // Pool de preguntas actual (para repetir con nuevas al azar)
+let lastQuizIds = new Set(); // IDs del quiz anterior, para no repetir preguntas
 let currentIdx = 0;
 let score = 0;
 let answers = [];
@@ -841,7 +842,13 @@ async function startMixed() {
 
 function launchQuiz(pool) {
   currentPool = pool;
-  currentQuiz = shuffle(pool).slice(0, Math.min(QUIZ_SIZE, pool.length));
+  const target = Math.min(QUIZ_SIZE, pool.length);
+  const fresh = shuffle(pool.filter(q => !lastQuizIds.has(q.id)));
+  const selected = fresh.length >= target
+    ? fresh.slice(0, target)
+    : [...fresh, ...shuffle(pool.filter(q => lastQuizIds.has(q.id)))].slice(0, target);
+  currentQuiz = selected;
+  lastQuizIds = new Set(currentQuiz.map(q => q.id));
   currentIdx = 0;
   score = 0;
   answers = [];
