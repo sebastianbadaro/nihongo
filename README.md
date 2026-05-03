@@ -45,14 +45,13 @@ Por ejemplo, `unidades/u5a.json`. El formato es un array de preguntas:
     "cat": "Kanji→Español",
     "q": "¿Qué significa 北?",
     "correct": "Norte",
-    "opts": ["Norte", "Sur", "Este", "Oeste"]
-  },
-  {
-    "id": "U5A-002",
-    "cat": "Partícula",
-    "q": "私___学生です。",
-    "correct": "は",
-    "opts": ["は", "が", "を", "の"]
+    "explanation": "北 (きた) significa 'Norte'. Es uno de los cuatro puntos cardinales básicos junto con 南 (みなみ), 東 (ひがし) y 西 (にし).",
+    "opts": [
+      { "text": "Norte",  "correct": true,  "reason": "Correcta. 北 (きた) = Norte." },
+      { "text": "Sur",    "correct": false, "reason": "Sur es 南 (みなみ), no 北." },
+      { "text": "Este",   "correct": false, "reason": "Este es 東 (ひがし), no 北." },
+      { "text": "Oeste",  "correct": false, "reason": "Oeste es 西 (にし), no 北." }
+    ]
   }
 ]
 ```
@@ -61,8 +60,12 @@ Por ejemplo, `unidades/u5a.json`. El formato es un array de preguntas:
 - `id`: identificador único de la pregunta, formato `U{UNIDAD}-{NNN}` (ej. `U5A-001`). Se muestra en la herramienta de revisión para facilitar la identificación.
 - `cat`: categoría que se muestra como etiqueta arriba de la pregunta (string corto).
 - `q`: texto de la pregunta.
-- `correct`: la respuesta correcta (debe coincidir exactamente con una de las `opts`).
-- `opts`: exactamente 4 opciones, sin duplicados.
+- `correct`: la respuesta correcta (debe coincidir exactamente con el `text` de la opción correcta).
+- `explanation`: explicación general de la pregunta, mostrada al responder independientemente de si se acertó o no.
+- `opts`: exactamente 4 opciones, cada una con:
+  - `text`: texto de la opción.
+  - `correct`: `true` para la respuesta correcta, `false` para las incorrectas.
+  - `reason`: justificación breve de por qué esa opción es correcta o incorrecta.
 
 ### 2. Agregá la unidad al `manifest.json`
 
@@ -127,6 +130,13 @@ const QUIZ_SIZE = 30;  // Cambiar a 20, 50, etc.
 ```
 
 ## 📋 Changelog
+
+### 2026-05-03 — Justificación de respuestas
+- El formato de los archivos de unidades incluye ahora `explanation` (explicación general) y `reason` por cada opción
+- Al responder en el quiz se muestra la justificación de la opción elegida y la explicación de la pregunta, tanto si se acertó como si no
+- La página de revisión (`revision.html`) muestra el `reason` debajo de cada opción y la `explanation` al final de cada tarjeta
+- La búsqueda en revisión incluye el texto de `reason` y `explanation` como campo indexado
+- Compatibilidad hacia atrás: si una unidad usa el formato antiguo (opts como strings), sigue funcionando
 
 ### 2026-04-29 — Memoria de resultados entre sesiones
 - Las preguntas respondidas incorrectamente reaparecen en el siguiente quiz (prioridad máxima)

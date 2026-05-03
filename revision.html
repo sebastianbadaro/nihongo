@@ -55,6 +55,15 @@
     body.dark .opt-wrong .opt-text          { color: #9ca3af; }
 
     body.dark mark { background: #78350f; color: #fef3c7; }
+
+    body.dark .explanation-block {
+      background-color: rgba(30,41,59,0.6);
+      border-color: #334155;
+      color: #94a3b8;
+    }
+    body.dark .opt-reason { opacity: 0.75; }
+    body.dark .opt-correct .opt-reason { color: #86efac; }
+    body.dark .opt-wrong   .opt-reason { color: #6b7280; }
   </style>
 </head>
 <body class="bg-gray-50 text-gray-800 min-h-screen transition-colors duration-200">
@@ -202,13 +211,14 @@
     const questions = await res.json();
     questions.forEach((q, i) => {
       allQuestions.push({
-        unitId:   unit.id,
-        unitName: unit.nombre,
-        qid:      q.id      || (unit.id.toUpperCase() + '-' + String(i + 1).padStart(3, '0')),
-        cat:      q.cat     || '—',
-        q:        q.q       || '',
-        correct:  q.correct || '',
-        opts:     Array.isArray(q.opts) ? q.opts : [],
+        unitId:      unit.id,
+        unitName:    unit.nombre,
+        qid:         q.id          || (unit.id.toUpperCase() + '-' + String(i + 1).padStart(3, '0')),
+        cat:         q.cat         || '—',
+        q:           q.q           || '',
+        correct:     q.correct     || '',
+        explanation: q.explanation || '',
+        opts:        Array.isArray(q.opts) ? q.opts : [],
       });
     });
     loadedUnitIds.add(unitId);
@@ -267,7 +277,8 @@
     filtered = pool.filter(q => {
       if (catVal !== 'all' && q.cat !== catVal) return false;
       if (searchVal) {
-        const hay = [q.q, q.correct, ...q.opts].join(' ').toLowerCase();
+        const optTexts = q.opts.map(o => typeof o === 'object' ? (o.text || '') + ' ' + (o.reason || '') : o);
+        const hay = [q.q, q.correct, q.explanation || '', ...optTexts].join(' ').toLowerCase();
         if (!hay.includes(searchVal)) return false;
       }
       return true;
@@ -360,31 +371,54 @@
     card.appendChild(header);
     card.appendChild(question);
     card.appendChild(opts);
+
+    if (item.explanation) {
+      const expl = document.createElement('div');
+      expl.className = 'explanation-block text-xs text-gray-500 bg-gray-50 border border-gray-100 rounded-lg px-3 py-2 leading-relaxed';
+      expl.innerHTML = '💡 ' + highlight(item.explanation, searchVal);
+      card.appendChild(expl);
+    }
+
     return card;
   }
 
   function buildOption(opt, correct, searchVal) {
     const el = document.createElement('div');
-    const isCorrect = opt === correct;
+    const optText    = typeof opt === 'object' ? (opt.text   || '') : opt;
+    const optReason  = typeof opt === 'object' ? (opt.reason || '') : '';
+    const isCorrect  = typeof opt === 'object' ? opt.correct === true : opt === correct;
 
     el.className = isCorrect
-      ? 'opt-correct flex items-center gap-2 bg-green-50 border border-green-300 rounded-lg px-3 py-1.5'
-      : 'opt-wrong flex items-center gap-2 bg-gray-50 border border-gray-200 rounded-lg px-3 py-1.5';
+      ? 'opt-correct flex items-start gap-2 bg-green-50 border border-green-300 rounded-lg px-3 py-1.5'
+      : 'opt-wrong flex items-start gap-2 bg-gray-50 border border-gray-200 rounded-lg px-3 py-1.5';
 
     const icon = document.createElement('span');
     icon.className = isCorrect
-      ? 'opt-icon text-green-600 font-bold text-sm shrink-0'
-      : 'opt-icon text-gray-300 text-sm shrink-0';
+      ? 'opt-icon text-green-600 font-bold text-sm shrink-0 mt-0.5'
+      : 'opt-icon text-gray-300 text-sm shrink-0 mt-0.5';
     icon.textContent = isCorrect ? '✓' : '○';
+
+    const body = document.createElement('div');
+    body.className = 'flex flex-col gap-0.5';
 
     const text = document.createElement('span');
     text.className = isCorrect
       ? 'opt-text jp text-sm font-semibold text-green-800'
       : 'opt-text jp text-sm text-gray-500';
-    text.innerHTML = highlight(opt, searchVal);
+    text.innerHTML = highlight(optText, searchVal);
+    body.appendChild(text);
+
+    if (optReason) {
+      const reason = document.createElement('span');
+      reason.className = isCorrect
+        ? 'opt-reason text-xs text-green-700 opacity-80'
+        : 'opt-reason text-xs text-gray-400';
+      reason.innerHTML = highlight(optReason, searchVal);
+      body.appendChild(reason);
+    }
 
     el.appendChild(icon);
-    el.appendChild(text);
+    el.appendChild(body);
     return el;
   }
 

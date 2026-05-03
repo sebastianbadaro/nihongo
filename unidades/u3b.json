@@ -4,11 +4,28 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 行きます?",
     "correct": "Ir",
+    "explanation": "行きます (いきます) es la forma -ます del verbo 行く ('ir'). Movimiento desde el hablante hacia un destino.",
     "opts": [
-      "Ir",
-      "Venir",
-      "Volver",
-      "Quedarse"
+      {
+        "text": "Ir",
+        "correct": true,
+        "reason": "Correcta. Verbo de movimiento básico."
+      },
+      {
+        "text": "Venir",
+        "correct": false,
+        "reason": "'Venir' es 来ます (きます). Movimiento opuesto."
+      },
+      {
+        "text": "Volver",
+        "correct": false,
+        "reason": "'Volver' es 帰ります (かえります). Implica regresar al origen."
+      },
+      {
+        "text": "Quedarse",
+        "correct": false,
+        "reason": "'Quedarse' es 残ります (のこります) o います."
+      }
     ]
   },
   {
@@ -16,11 +33,28 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 帰ります?",
     "correct": "Volver / regresar",
+    "explanation": "帰ります implica volver al lugar de origen (casa, país de uno). Distinto de 戻る (volver puntualmente) o 行く.",
     "opts": [
-      "Volver / regresar",
-      "Ir",
-      "Venir",
-      "Entrar"
+      {
+        "text": "Volver / regresar",
+        "correct": true,
+        "reason": "Correcta. Volver al hogar/origen."
+      },
+      {
+        "text": "Ir",
+        "correct": false,
+        "reason": "'Ir' es 行きます; movimiento sin retorno implícito."
+      },
+      {
+        "text": "Venir",
+        "correct": false,
+        "reason": "'Venir' es 来ます."
+      },
+      {
+        "text": "Entrar",
+        "correct": false,
+        "reason": "'Entrar' es 入ります (はいります)."
+      }
     ]
   },
   {
@@ -28,11 +62,28 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 飲みます?",
     "correct": "Beber",
+    "explanation": "飲みます (のみます) es 'beber'. Se aplica a líquidos (agua, té, alcohol) y también a medicamentos en pastilla (薬を飲む).",
     "opts": [
-      "Beber",
-      "Comer",
-      "Comprar",
-      "Ver"
+      {
+        "text": "Beber",
+        "correct": true,
+        "reason": "Correcta. Acción de ingerir líquidos."
+      },
+      {
+        "text": "Comer",
+        "correct": false,
+        "reason": "'Comer' es 食べます (たべます)."
+      },
+      {
+        "text": "Comprar",
+        "correct": false,
+        "reason": "'Comprar' es 買います (かいます)."
+      },
+      {
+        "text": "Ver",
+        "correct": false,
+        "reason": "'Ver' es 見ます (みます)."
+      }
     ]
   },
   {
@@ -40,11 +91,28 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 食べます?",
     "correct": "Comer",
+    "explanation": "食べます (たべます) es 'comer'. Acción de ingerir comida sólida.",
     "opts": [
-      "Comer",
-      "Beber",
-      "Cocinar",
-      "Servir"
+      {
+        "text": "Comer",
+        "correct": true,
+        "reason": "Correcta. Acción central."
+      },
+      {
+        "text": "Beber",
+        "correct": false,
+        "reason": "'Beber' es 飲みます."
+      },
+      {
+        "text": "Cocinar",
+        "correct": false,
+        "reason": "'Cocinar' es 料理します (りょうりします) o 作ります (つくります)."
+      },
+      {
+        "text": "Servir",
+        "correct": false,
+        "reason": "'Servir (comida)' es 出します (だします)."
+      }
     ]
   },
   {
@@ -52,11 +120,28 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 見ます?",
     "correct": "Ver / mirar",
+    "explanation": "見ます (みます) cubre tanto 'ver' (percepción) como 'mirar' (acción intencional). Se usa para tele, películas, paisajes, etc.",
     "opts": [
-      "Ver / mirar",
-      "Escuchar",
-      "Leer",
-      "Observar"
+      {
+        "text": "Ver / mirar",
+        "correct": true,
+        "reason": "Correcta. Verbo polisémico de percepción visual."
+      },
+      {
+        "text": "Escuchar",
+        "correct": false,
+        "reason": "'Escuchar' es 聞きます (ききます)."
+      },
+      {
+        "text": "Leer",
+        "correct": false,
+        "reason": "'Leer' es 読みます (よみます)."
+      },
+      {
+        "text": "Observar",
+        "correct": false,
+        "reason": "'Observar (atentamente)' es 観察します (かんさつします). 見ます es más general."
+      }
     ]
   },
   {
@@ -64,11 +149,28 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa します?",
     "correct": "Hacer",
+    "explanation": "します (forma -ます de する) es 'hacer'. Es uno de los verbos más versátiles: combinado con sustantivos forma muchos verbos compuestos (勉強する, スキーをする).",
     "opts": [
-      "Hacer",
-      "Jugar",
-      "Decir",
-      "Mostrar"
+      {
+        "text": "Hacer",
+        "correct": true,
+        "reason": "Correcta. Verbo polifuncional."
+      },
+      {
+        "text": "Jugar",
+        "correct": false,
+        "reason": "'Jugar' (deportes) puede ser ~をします, pero 'jugar' aislado es 遊びます (あそびます)."
+      },
+      {
+        "text": "Decir",
+        "correct": false,
+        "reason": "'Decir' es 言います (いいます)."
+      },
+      {
+        "text": "Mostrar",
+        "correct": false,
+        "reason": "'Mostrar' es 見せます (みせます)."
+      }
     ]
   },
   {
@@ -76,11 +178,28 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 行きます?",
     "correct": "いきます",
+    "explanation": "行 (い, kun'yomi) + きます (sufijo verbal) = いきます.",
     "opts": [
-      "いきます",
-      "ぎょうきます",
-      "こうきます",
-      "ゆきます"
+      {
+        "text": "いきます",
+        "correct": true,
+        "reason": "Correcta. Lectura kun'yomi del verbo."
+      },
+      {
+        "text": "ぎょうきます",
+        "correct": false,
+        "reason": "ぎょう es on'yomi de 行 (en compuestos: 銀行 ぎんこう), no en el verbo."
+      },
+      {
+        "text": "こうきます",
+        "correct": false,
+        "reason": "こう es otra on'yomi de 行 (旅行 りょこう), no en el verbo."
+      },
+      {
+        "text": "ゆきます",
+        "correct": false,
+        "reason": "ゆきます existe como variante literaria/poética de 行きます, pero la lectura estándar es いきます."
+      }
     ]
   },
   {
@@ -88,11 +207,28 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 帰ります?",
     "correct": "かえります",
+    "explanation": "帰 (かえ, kun'yomi) + ります (sufijo) = かえります.",
     "opts": [
-      "かえります",
-      "きります",
-      "きゃくります",
-      "きえります"
+      {
+        "text": "かえります",
+        "correct": true,
+        "reason": "Correcta. Lectura kun'yomi del verbo."
+      },
+      {
+        "text": "きります",
+        "correct": false,
+        "reason": "きります es 切ります ('cortar'), kanji distinto."
+      },
+      {
+        "text": "きゃくります",
+        "correct": false,
+        "reason": "きゃく es lectura on'yomi (お客 おきゃく), no del verbo."
+      },
+      {
+        "text": "きえります",
+        "correct": false,
+        "reason": "きえる es 消える ('apagarse'), kanji distinto."
+      }
     ]
   },
   {
@@ -100,11 +236,28 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 飲みます?",
     "correct": "のみます",
+    "explanation": "飲 (の, kun'yomi) + みます = のみます.",
     "opts": [
-      "のみます",
-      "いんみます",
-      "のめます",
-      "しみます"
+      {
+        "text": "のみます",
+        "correct": true,
+        "reason": "Correcta. Lectura kun'yomi del verbo."
+      },
+      {
+        "text": "いんみます",
+        "correct": false,
+        "reason": "いん es on'yomi de 飲 (en compuestos: 飲料 いんりょう), no en el verbo."
+      },
+      {
+        "text": "のめます",
+        "correct": false,
+        "reason": "のめます es la forma POTENCIAL ('puedo beber'), no la presente afirmativa."
+      },
+      {
+        "text": "しみます",
+        "correct": false,
+        "reason": "しみる es 染みる ('penetrar'), kanji distinto."
+      }
     ]
   },
   {
@@ -112,11 +265,28 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 食べます?",
     "correct": "たべます",
+    "explanation": "食 (た, kun'yomi) + べます = たべます.",
     "opts": [
-      "たべます",
-      "しょくべます",
-      "たえます",
-      "たしべます"
+      {
+        "text": "たべます",
+        "correct": true,
+        "reason": "Correcta. Lectura kun'yomi del verbo."
+      },
+      {
+        "text": "しょくべます",
+        "correct": false,
+        "reason": "しょく es on'yomi de 食 (en compuestos: 食事 しょくじ), no en el verbo."
+      },
+      {
+        "text": "たえます",
+        "correct": false,
+        "reason": "たえる es 耐える ('soportar'), kanji distinto."
+      },
+      {
+        "text": "たしべます",
+        "correct": false,
+        "reason": "Lectura inventada: la sílaba después de た es べ directo."
+      }
     ]
   },
   {
@@ -124,11 +294,28 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 見ます?",
     "correct": "みます",
+    "explanation": "見 (み, kun'yomi) + ます = みます.",
     "opts": [
-      "みます",
-      "けんます",
-      "みえます",
-      "みっます"
+      {
+        "text": "みます",
+        "correct": true,
+        "reason": "Correcta. Lectura kun'yomi del verbo."
+      },
+      {
+        "text": "けんます",
+        "correct": false,
+        "reason": "けん es on'yomi de 見 (en compuestos: 意見 いけん), no en el verbo."
+      },
+      {
+        "text": "みえます",
+        "correct": false,
+        "reason": "みえます es 見えます ('puede verse/se ve'), distinto del intencional 見ます."
+      },
+      {
+        "text": "みっます",
+        "correct": false,
+        "reason": "El sokuon no aplica acá."
+      }
     ]
   },
   {
@@ -136,11 +323,28 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 花火?",
     "correct": "Fuegos artificiales",
+    "explanation": "花 ('flor') + 火 ('fuego') = 花火 'fuegos artificiales' (literalmente 'flores de fuego'). Son tradición de verano en Japón.",
     "opts": [
-      "Fuegos artificiales",
-      "Flor de fuego",
-      "Vela",
-      "Fuego de cocina"
+      {
+        "text": "Fuegos artificiales",
+        "correct": true,
+        "reason": "Correcta. Compuesto poético."
+      },
+      {
+        "text": "Flor de fuego",
+        "correct": false,
+        "reason": "Aunque literal, en uso real 花火 = fuegos artificiales como evento."
+      },
+      {
+        "text": "Vela",
+        "correct": false,
+        "reason": "'Vela' es ろうそく."
+      },
+      {
+        "text": "Fuego de cocina",
+        "correct": false,
+        "reason": "'Fuego de cocina' es 火 o コンロ. 花火 es específico."
+      }
     ]
   },
   {
@@ -148,11 +352,28 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa お花見?",
     "correct": "Ir a ver las flores de cerezo",
+    "explanation": "お花見 (おはなみ): お (honorífico) + 花 (flor) + 見 (ver). Tradición japonesa de primavera: ir bajo los cerezos en flor para hacer picnic y observarlos.",
     "opts": [
-      "Ir a ver las flores de cerezo",
-      "Regalar flores",
-      "Arreglo floral",
-      "Festival de flores"
+      {
+        "text": "Ir a ver las flores de cerezo",
+        "correct": true,
+        "reason": "Correcta. Práctica cultural específica."
+      },
+      {
+        "text": "Regalar flores",
+        "correct": false,
+        "reason": "'Regalar flores' es 花を贈る (はなをおくる). お花見 es ir a verlas."
+      },
+      {
+        "text": "Arreglo floral",
+        "correct": false,
+        "reason": "'Arreglo floral' es 生け花 (いけばな) o フラワーアレンジメント."
+      },
+      {
+        "text": "Festival de flores",
+        "correct": false,
+        "reason": "'Festival de flores' sería 花祭り. お花見 es la actividad de contemplación."
+      }
     ]
   },
   {
@@ -160,11 +381,28 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa お祭り?",
     "correct": "Festival (tradicional)",
+    "explanation": "お祭り (おまつり) es un festival tradicional japonés (matsuri), típicamente con origen religioso/sintoísta. Distinto de eventos modernos como conciertos.",
     "opts": [
-      "Festival (tradicional)",
-      "Fiesta de cumpleaños",
-      "Concierto",
-      "Feria"
+      {
+        "text": "Festival (tradicional)",
+        "correct": true,
+        "reason": "Correcta. Evento tradicional/religioso."
+      },
+      {
+        "text": "Fiesta de cumpleaños",
+        "correct": false,
+        "reason": "'Fiesta de cumpleaños' es 誕生日パーティー."
+      },
+      {
+        "text": "Concierto",
+        "correct": false,
+        "reason": "'Concierto' es コンサート o ライブ."
+      },
+      {
+        "text": "Feria",
+        "correct": false,
+        "reason": "'Feria' (comercial) es 見本市 (みほんいち) o フェア."
+      }
     ]
   },
   {
@@ -172,11 +410,28 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 海?",
     "correct": "Mar",
+    "explanation": "海 (うみ) = mar/océano. Lectura kun'yomi cuando va sola.",
     "opts": [
-      "Mar",
-      "Río",
-      "Lago",
-      "Playa"
+      {
+        "text": "Mar",
+        "correct": true,
+        "reason": "Correcta. Significado central."
+      },
+      {
+        "text": "Río",
+        "correct": false,
+        "reason": "'Río' es 川 (かわ)."
+      },
+      {
+        "text": "Lago",
+        "correct": false,
+        "reason": "'Lago' es 湖 (みずうみ)."
+      },
+      {
+        "text": "Playa",
+        "correct": false,
+        "reason": "'Playa' es 浜 (はま) o 海岸 (かいがん). 海 es el cuerpo de agua."
+      }
     ]
   },
   {
@@ -184,11 +439,28 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 公園?",
     "correct": "Parque",
+    "explanation": "公 ('público') + 園 ('jardín') = 公園 'parque público'.",
     "opts": [
-      "Parque",
-      "Plaza",
-      "Jardín",
-      "Cancha"
+      {
+        "text": "Parque",
+        "correct": true,
+        "reason": "Correcta. Espacio verde público."
+      },
+      {
+        "text": "Plaza",
+        "correct": false,
+        "reason": "'Plaza' es 広場 (ひろば). 公園 tiene árboles y áreas verdes."
+      },
+      {
+        "text": "Jardín",
+        "correct": false,
+        "reason": "'Jardín (privado)' es 庭 (にわ); 公園 es público."
+      },
+      {
+        "text": "Cancha",
+        "correct": false,
+        "reason": "'Cancha (deportiva)' es 競技場 (きょうぎじょう) o コート."
+      }
     ]
   },
   {
@@ -196,11 +468,28 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 桜?",
     "correct": "Cerezo / flor de cerezo",
+    "explanation": "桜 (さくら) es el cerezo o sus flores. Símbolo nacional de Japón. Florece en primavera y es objeto de お花見.",
     "opts": [
-      "Cerezo / flor de cerezo",
-      "Pino",
-      "Roble",
-      "Bambú"
+      {
+        "text": "Cerezo / flor de cerezo",
+        "correct": true,
+        "reason": "Correcta. Árbol/flor icónica japonesa."
+      },
+      {
+        "text": "Pino",
+        "correct": false,
+        "reason": "'Pino' es 松 (まつ)."
+      },
+      {
+        "text": "Roble",
+        "correct": false,
+        "reason": "'Roble' es 樫 (かし) o 楢 (なら)."
+      },
+      {
+        "text": "Bambú",
+        "correct": false,
+        "reason": "'Bambú' es 竹 (たけ)."
+      }
     ]
   },
   {
@@ -208,11 +497,28 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa お酒?",
     "correct": "Alcohol / sake",
+    "explanation": "お酒 (おさけ) cubre ambos: bebidas alcohólicas en general (cerveza, vino, etc.) y específicamente el sake japonés.",
     "opts": [
-      "Alcohol / sake",
-      "Sake (pescado)",
-      "Té",
-      "Jugo"
+      {
+        "text": "Alcohol / sake",
+        "correct": true,
+        "reason": "Correcta. Significado polisémico."
+      },
+      {
+        "text": "Sake (pescado)",
+        "correct": false,
+        "reason": "'Salmón' (pescado) es 鮭 (さけ), kanji distinto homófono."
+      },
+      {
+        "text": "Té",
+        "correct": false,
+        "reason": "'Té' es お茶 (おちゃ)."
+      },
+      {
+        "text": "Jugo",
+        "correct": false,
+        "reason": "'Jugo' es ジュース."
+      }
     ]
   },
   {
@@ -220,11 +526,28 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa お弁当?",
     "correct": "Vianda / 'bento'",
+    "explanation": "お弁当 (おべんとう) es la caja de comida portátil japonesa, organizada con compartimentos. Tradición cultural.",
     "opts": [
-      "Vianda / 'bento'",
-      "Menú",
-      "Plato",
-      "Postre"
+      {
+        "text": "Vianda / 'bento'",
+        "correct": true,
+        "reason": "Correcta. Comida portátil organizada."
+      },
+      {
+        "text": "Menú",
+        "correct": false,
+        "reason": "'Menú' es メニュー."
+      },
+      {
+        "text": "Plato",
+        "correct": false,
+        "reason": "'Plato' es 皿 (さら) o 料理 (りょうり)."
+      },
+      {
+        "text": "Postre",
+        "correct": false,
+        "reason": "'Postre' es デザート."
+      }
     ]
   },
   {
@@ -232,11 +555,28 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 留学生?",
     "correct": "Estudiante extranjero",
+    "explanation": "留 ('quedarse/permanecer') + 学 ('estudiar') + 生 ('estudiante') = estudiante que está estudiando en el extranjero.",
     "opts": [
-      "Estudiante extranjero",
-      "Estudiante universitario",
-      "Profesor",
-      "Intercambio escolar"
+      {
+        "text": "Estudiante extranjero",
+        "correct": true,
+        "reason": "Correcta. Concepto específico."
+      },
+      {
+        "text": "Estudiante universitario",
+        "correct": false,
+        "reason": "'Estudiante universitario' es 大学生 (だいがくせい)."
+      },
+      {
+        "text": "Profesor",
+        "correct": false,
+        "reason": "'Profesor' es 先生 (せんせい)."
+      },
+      {
+        "text": "Intercambio escolar",
+        "correct": false,
+        "reason": "'Intercambio (programa)' es 交換留学 (こうかんりゅうがく). 留学生 es la persona."
+      }
     ]
   },
   {
@@ -244,11 +584,28 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 1年?",
     "correct": "Un año / (primer año)",
+    "explanation": "1年 (いちねん) puede significar 'un año' (duración) o 'primer año' (escolar/grado), según contexto.",
     "opts": [
-      "Un año / (primer año)",
-      "Año pasado",
-      "Fin de año",
-      "12 meses"
+      {
+        "text": "Un año / (primer año)",
+        "correct": true,
+        "reason": "Correcta. Significado polisémico."
+      },
+      {
+        "text": "Año pasado",
+        "correct": false,
+        "reason": "'Año pasado' es 去年 (きょねん)."
+      },
+      {
+        "text": "Fin de año",
+        "correct": false,
+        "reason": "'Fin de año' es 年末 (ねんまつ)."
+      },
+      {
+        "text": "12 meses",
+        "correct": false,
+        "reason": "Aunque 1 año tiene 12 meses, la palabra '12 meses' sería 12ヶ月 (じゅうにかげつ)."
+      }
     ]
   },
   {
@@ -256,11 +613,28 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 花火?",
     "correct": "はなび",
+    "explanation": "花 (はな) + 火 (び, rendaku de ひ) = はなび. Notá el rendaku obligatorio.",
     "opts": [
-      "はなび",
-      "かび",
-      "はなひ",
-      "かひ"
+      {
+        "text": "はなび",
+        "correct": true,
+        "reason": "Correcta. Rendaku ひ → び."
+      },
+      {
+        "text": "かび",
+        "correct": false,
+        "reason": "か es on'yomi de 花 (在 compuestos), pero acá se usa kun'yomi はな."
+      },
+      {
+        "text": "はなひ",
+        "correct": false,
+        "reason": "Falta el rendaku: 火 toma び (con dakuten) tras 花."
+      },
+      {
+        "text": "かひ",
+        "correct": false,
+        "reason": "Doble error: lectura on'yomi incorrecta y sin rendaku."
+      }
     ]
   },
   {
@@ -268,11 +642,28 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee お花見?",
     "correct": "おはなみ",
+    "explanation": "お (honorífico) + 花 (はな) + 見 (み) = おはなみ.",
     "opts": [
-      "おはなみ",
-      "おかみ",
-      "おはなけん",
-      "おはなび"
+      {
+        "text": "おはなみ",
+        "correct": true,
+        "reason": "Correcta. Lecturas kun'yomi."
+      },
+      {
+        "text": "おかみ",
+        "correct": false,
+        "reason": "Falta はな: la palabra completa es お花見."
+      },
+      {
+        "text": "おはなけん",
+        "correct": false,
+        "reason": "けん es on'yomi de 見, pero en este compuesto se usa kun'yomi み."
+      },
+      {
+        "text": "おはなび",
+        "correct": false,
+        "reason": "び es 花火 ('fuegos artificiales'), kanji distinto al final."
+      }
     ]
   },
   {
@@ -280,11 +671,28 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee お祭り?",
     "correct": "おまつり",
+    "explanation": "お (honorífico) + 祭 (まつ) + り (okurigana) = おまつり.",
     "opts": [
-      "おまつり",
-      "おさいり",
-      "おさつり",
-      "おまとり"
+      {
+        "text": "おまつり",
+        "correct": true,
+        "reason": "Correcta. Lectura kun'yomi del verbo 祭る."
+      },
+      {
+        "text": "おさいり",
+        "correct": false,
+        "reason": "さい es on'yomi de 祭 (en compuestos: 祭日 さいじつ), pero la kun'yomi es まつ."
+      },
+      {
+        "text": "おさつり",
+        "correct": false,
+        "reason": "Lectura inventada."
+      },
+      {
+        "text": "おまとり",
+        "correct": false,
+        "reason": "Lectura inventada: la sílaba correcta es つ, no と."
+      }
     ]
   },
   {
@@ -292,11 +700,28 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 海?",
     "correct": "うみ",
+    "explanation": "海 sola se lee うみ (kun'yomi). En compuestos toma かい (海岸 かいがん 'costa').",
     "opts": [
-      "うみ",
-      "かい",
-      "うな",
-      "みず"
+      {
+        "text": "うみ",
+        "correct": true,
+        "reason": "Correcta. Kun'yomi cuando va sola."
+      },
+      {
+        "text": "かい",
+        "correct": false,
+        "reason": "かい es on'yomi en compuestos, no cuando 海 va sola."
+      },
+      {
+        "text": "うな",
+        "correct": false,
+        "reason": "うな existe como modificador en algunas palabras (海原 うなばら) pero no como lectura sola."
+      },
+      {
+        "text": "みず",
+        "correct": false,
+        "reason": "みず es 水 ('agua'), kanji distinto."
+      }
     ]
   },
   {
@@ -304,11 +729,28 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 公園?",
     "correct": "こうえん",
+    "explanation": "公 (こう) + 園 (えん) = こうえん. On'yomi en ambos kanji.",
     "opts": [
-      "こうえん",
-      "ここえん",
-      "こうおん",
-      "くうえん"
+      {
+        "text": "こうえん",
+        "correct": true,
+        "reason": "Correcta. On'yomi estándar."
+      },
+      {
+        "text": "ここえん",
+        "correct": false,
+        "reason": "Lectura inventada; 公 se lee こう (con vocal larga)."
+      },
+      {
+        "text": "こうおん",
+        "correct": false,
+        "reason": "おん es lectura de 音 ('sonido'), no de 園."
+      },
+      {
+        "text": "くうえん",
+        "correct": false,
+        "reason": "くう es lectura de 空 ('cielo'), no de 公."
+      }
     ]
   },
   {
@@ -316,11 +758,28 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 桜?",
     "correct": "さくら",
+    "explanation": "桜 sola se lee さくら (kun'yomi). En compuestos toma おう (桜花 おうか).",
     "opts": [
-      "さくら",
-      "さくれ",
-      "おう",
-      "さっくら"
+      {
+        "text": "さくら",
+        "correct": true,
+        "reason": "Correcta. Kun'yomi estándar."
+      },
+      {
+        "text": "さくれ",
+        "correct": false,
+        "reason": "Lectura inventada; la sílaba correcta es ら, no れ."
+      },
+      {
+        "text": "おう",
+        "correct": false,
+        "reason": "おう es on'yomi en compuestos, no cuando 桜 va sola."
+      },
+      {
+        "text": "さっくら",
+        "correct": false,
+        "reason": "El sokuon no aplica acá."
+      }
     ]
   },
   {
@@ -328,11 +787,28 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee お酒?",
     "correct": "おさけ",
+    "explanation": "お (honorífico) + 酒 (さけ, kun'yomi) = おさけ.",
     "opts": [
-      "おさけ",
-      "おしゅ",
-      "おざけ",
-      "おさき"
+      {
+        "text": "おさけ",
+        "correct": true,
+        "reason": "Correcta. Kun'yomi estándar."
+      },
+      {
+        "text": "おしゅ",
+        "correct": false,
+        "reason": "しゅ es on'yomi de 酒 (en compuestos: 日本酒 にほんしゅ), pero con お~ se usa kun'yomi."
+      },
+      {
+        "text": "おざけ",
+        "correct": false,
+        "reason": "El rendaku (さ → ざ) no aplica con お~."
+      },
+      {
+        "text": "おさき",
+        "correct": false,
+        "reason": "おさき es 御先 ('por delante'), kanji y palabra distintos."
+      }
     ]
   },
   {
@@ -340,11 +816,28 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee お弁当?",
     "correct": "おべんとう",
+    "explanation": "お + 弁 (べん) + 当 (とう) = おべんとう. Notá la vocal larga とう.",
     "opts": [
-      "おべんとう",
-      "おべんと",
-      "おべんど",
-      "おへんとう"
+      {
+        "text": "おべんとう",
+        "correct": true,
+        "reason": "Correcta. On'yomi con vocal larga."
+      },
+      {
+        "text": "おべんと",
+        "correct": false,
+        "reason": "Falta la vocal larga: とう (con う). En habla casual a veces se acorta, pero la lectura formal es おべんとう."
+      },
+      {
+        "text": "おべんど",
+        "correct": false,
+        "reason": "当 se lee とう (sin dakuten), no ど."
+      },
+      {
+        "text": "おへんとう",
+        "correct": false,
+        "reason": "弁 toma dakuten べん, no へん (sin dakuten)."
+      }
     ]
   },
   {
@@ -352,11 +845,28 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 留学生?",
     "correct": "りゅうがくせい",
+    "explanation": "留 (りゅう) + 学 (がく) + 生 (せい) = りゅうがくせい. Notá la vocal larga りゅう.",
     "opts": [
-      "りゅうがくせい",
-      "りゅがくせい",
-      "りゅうがくせん",
-      "るうがくせい"
+      {
+        "text": "りゅうがくせい",
+        "correct": true,
+        "reason": "Correcta. On'yomi estándar."
+      },
+      {
+        "text": "りゅがくせい",
+        "correct": false,
+        "reason": "Falta la vocal larga: りゅう (con う), no りゅ."
+      },
+      {
+        "text": "りゅうがくせん",
+        "correct": false,
+        "reason": "せん no es lectura de 生; せい sí."
+      },
+      {
+        "text": "るうがくせい",
+        "correct": false,
+        "reason": "留 se lee りゅう (con yōon ゅ), no るう."
+      }
     ]
   },
   {
@@ -364,11 +874,28 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 春?",
     "correct": "Primavera",
+    "explanation": "春 (はる) = primavera. Estación marcada por el florecimiento de los cerezos.",
     "opts": [
-      "Primavera",
-      "Verano",
-      "Otoño",
-      "Invierno"
+      {
+        "text": "Primavera",
+        "correct": true,
+        "reason": "Correcta. Estación específica."
+      },
+      {
+        "text": "Verano",
+        "correct": false,
+        "reason": "'Verano' es 夏 (なつ)."
+      },
+      {
+        "text": "Otoño",
+        "correct": false,
+        "reason": "'Otoño' es 秋 (あき)."
+      },
+      {
+        "text": "Invierno",
+        "correct": false,
+        "reason": "'Invierno' es 冬 (ふゆ)."
+      }
     ]
   },
   {
@@ -376,11 +903,28 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 夏?",
     "correct": "Verano",
+    "explanation": "夏 (なつ) = verano. Estación de festivales y vacaciones largas.",
     "opts": [
-      "Verano",
-      "Primavera",
-      "Otoño",
-      "Invierno"
+      {
+        "text": "Verano",
+        "correct": true,
+        "reason": "Correcta. Estación específica."
+      },
+      {
+        "text": "Primavera",
+        "correct": false,
+        "reason": "'Primavera' es 春 (はる)."
+      },
+      {
+        "text": "Otoño",
+        "correct": false,
+        "reason": "'Otoño' es 秋 (あき)."
+      },
+      {
+        "text": "Invierno",
+        "correct": false,
+        "reason": "'Invierno' es 冬 (ふゆ)."
+      }
     ]
   },
   {
@@ -388,11 +932,28 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 秋?",
     "correct": "Otoño",
+    "explanation": "秋 (あき) = otoño. Estación de hojas rojas (紅葉 こうよう) y cosecha.",
     "opts": [
-      "Otoño",
-      "Invierno",
-      "Primavera",
-      "Verano"
+      {
+        "text": "Otoño",
+        "correct": true,
+        "reason": "Correcta. Estación específica."
+      },
+      {
+        "text": "Invierno",
+        "correct": false,
+        "reason": "'Invierno' es 冬 (ふゆ)."
+      },
+      {
+        "text": "Primavera",
+        "correct": false,
+        "reason": "'Primavera' es 春 (はる)."
+      },
+      {
+        "text": "Verano",
+        "correct": false,
+        "reason": "'Verano' es 夏 (なつ)."
+      }
     ]
   },
   {
@@ -400,11 +961,28 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 冬?",
     "correct": "Invierno",
+    "explanation": "冬 (ふゆ) = invierno. Estación de nieve y deportes invernales.",
     "opts": [
-      "Invierno",
-      "Otoño",
-      "Verano",
-      "Primavera"
+      {
+        "text": "Invierno",
+        "correct": true,
+        "reason": "Correcta. Estación específica."
+      },
+      {
+        "text": "Otoño",
+        "correct": false,
+        "reason": "'Otoño' es 秋 (あき)."
+      },
+      {
+        "text": "Verano",
+        "correct": false,
+        "reason": "'Verano' es 夏 (なつ)."
+      },
+      {
+        "text": "Primavera",
+        "correct": false,
+        "reason": "'Primavera' es 春 (はる)."
+      }
     ]
   },
   {
@@ -412,11 +990,28 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 夏休み?",
     "correct": "Vacaciones de verano",
+    "explanation": "夏 (verano) + 休み (descanso) = vacaciones de verano. En Japón típicamente julio-agosto.",
     "opts": [
-      "Vacaciones de verano",
-      "Verano caluroso",
-      "Fin de semana",
-      "Vacaciones escolares"
+      {
+        "text": "Vacaciones de verano",
+        "correct": true,
+        "reason": "Correcta. Compuesto específico."
+      },
+      {
+        "text": "Verano caluroso",
+        "correct": false,
+        "reason": "'Verano caluroso' sería 暑い夏 (あついなつ). 休み implica descanso/vacaciones."
+      },
+      {
+        "text": "Fin de semana",
+        "correct": false,
+        "reason": "'Fin de semana' es 週末 (しゅうまつ)."
+      },
+      {
+        "text": "Vacaciones escolares",
+        "correct": false,
+        "reason": "Aunque suelen ser escolares, 夏休み es específicamente DE VERANO. Genérico sería ただの休み."
+      }
     ]
   },
   {
@@ -424,11 +1019,28 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué es ゴールデンウィーク?",
     "correct": "Golden Week (semana feriada japonesa)",
+    "explanation": "ゴールデンウィーク (Golden Week) es una semana de feriados consecutivos a finales de abril y principios de mayo, muy importante en Japón.",
     "opts": [
-      "Golden Week (semana feriada japonesa)",
-      "Una semana dorada de oferta",
-      "El fin del año",
-      "La semana de verano"
+      {
+        "text": "Golden Week (semana feriada japonesa)",
+        "correct": true,
+        "reason": "Correcta. Período de feriados específico."
+      },
+      {
+        "text": "Una semana dorada de oferta",
+        "correct": false,
+        "reason": "No es término comercial; es un período de feriados."
+      },
+      {
+        "text": "El fin del año",
+        "correct": false,
+        "reason": "'Fin de año' es 年末 (ねんまつ)."
+      },
+      {
+        "text": "La semana de verano",
+        "correct": false,
+        "reason": "Cae en primavera (abril-mayo), no en verano."
+      }
     ]
   },
   {
@@ -436,11 +1048,28 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 春?",
     "correct": "はる",
+    "explanation": "春 sola se lee はる (kun'yomi). En compuestos toma しゅん (青春 せいしゅん 'juventud').",
     "opts": [
-      "はる",
-      "しゅん",
-      "はれ",
-      "ばる"
+      {
+        "text": "はる",
+        "correct": true,
+        "reason": "Correcta. Kun'yomi cuando va sola."
+      },
+      {
+        "text": "しゅん",
+        "correct": false,
+        "reason": "しゅん es on'yomi en compuestos, no cuando 春 va sola."
+      },
+      {
+        "text": "はれ",
+        "correct": false,
+        "reason": "はれ es 晴れ ('despejado/soleado'), kanji distinto."
+      },
+      {
+        "text": "ばる",
+        "correct": false,
+        "reason": "El rendaku no aplica al inicio."
+      }
     ]
   },
   {
@@ -448,11 +1077,28 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 夏?",
     "correct": "なつ",
+    "explanation": "夏 sola se lee なつ (kun'yomi). En compuestos toma か (夏期 かき).",
     "opts": [
-      "なつ",
-      "か",
-      "げ",
-      "なっ"
+      {
+        "text": "なつ",
+        "correct": true,
+        "reason": "Correcta. Kun'yomi cuando va sola."
+      },
+      {
+        "text": "か",
+        "correct": false,
+        "reason": "か es on'yomi en compuestos, no cuando 夏 va sola."
+      },
+      {
+        "text": "げ",
+        "correct": false,
+        "reason": "げ es otra on'yomi rara, no se usa para 夏 sola."
+      },
+      {
+        "text": "なっ",
+        "correct": false,
+        "reason": "Lectura incompleta; falta つ."
+      }
     ]
   },
   {
@@ -460,11 +1106,28 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 秋?",
     "correct": "あき",
+    "explanation": "秋 sola se lee あき (kun'yomi). En compuestos toma しゅう (秋分 しゅうぶん).",
     "opts": [
-      "あき",
-      "しゅう",
-      "あっき",
-      "おぎ"
+      {
+        "text": "あき",
+        "correct": true,
+        "reason": "Correcta. Kun'yomi cuando va sola."
+      },
+      {
+        "text": "しゅう",
+        "correct": false,
+        "reason": "しゅう es on'yomi en compuestos, no cuando 秋 va sola."
+      },
+      {
+        "text": "あっき",
+        "correct": false,
+        "reason": "El sokuon no aplica acá."
+      },
+      {
+        "text": "おぎ",
+        "correct": false,
+        "reason": "Lectura inventada; la correcta es あき."
+      }
     ]
   },
   {
@@ -472,11 +1135,28 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 冬?",
     "correct": "ふゆ",
+    "explanation": "冬 sola se lee ふゆ (kun'yomi). En compuestos toma とう (冬期 とうき).",
     "opts": [
-      "ふゆ",
-      "とう",
-      "ぶゆ",
-      "ふゆう"
+      {
+        "text": "ふゆ",
+        "correct": true,
+        "reason": "Correcta. Kun'yomi cuando va sola."
+      },
+      {
+        "text": "とう",
+        "correct": false,
+        "reason": "とう es on'yomi en compuestos, no cuando 冬 va sola."
+      },
+      {
+        "text": "ぶゆ",
+        "correct": false,
+        "reason": "El rendaku (ふ → ぶ) no aplica al inicio."
+      },
+      {
+        "text": "ふゆう",
+        "correct": false,
+        "reason": "Sobra la う final; la lectura es plana ふゆ."
+      }
     ]
   },
   {
@@ -484,11 +1164,28 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 夏休み?",
     "correct": "なつやすみ",
+    "explanation": "夏 (なつ) + 休み (やすみ) = なつやすみ. Composición de palabras kun'yomi.",
     "opts": [
-      "なつやすみ",
-      "かやすみ",
-      "なつきゅうみ",
-      "なつやすめ"
+      {
+        "text": "なつやすみ",
+        "correct": true,
+        "reason": "Correcta. Compuesto kun'yomi estándar."
+      },
+      {
+        "text": "かやすみ",
+        "correct": false,
+        "reason": "か es on'yomi de 夏; en compuesto con 休み se usa kun'yomi なつ."
+      },
+      {
+        "text": "なつきゅうみ",
+        "correct": false,
+        "reason": "きゅう es on'yomi de 休; con 夏 se usa kun'yomi やすみ."
+      },
+      {
+        "text": "なつやすめ",
+        "correct": false,
+        "reason": "やすめ es la forma imperativa del verbo, no el sustantivo."
+      }
     ]
   },
   {
@@ -496,11 +1193,28 @@
     "cat": "Katakana",
     "q": "¿Qué es スケジュール?",
     "correct": "Agenda / horario",
+    "explanation": "スケジュール viene del inglés 'schedule'. Designa el cronograma de actividades.",
     "opts": [
-      "Agenda / horario",
-      "Escuela",
-      "Escalera",
-      "Horario de buses"
+      {
+        "text": "Agenda / horario",
+        "correct": true,
+        "reason": "Correcta. Préstamo del inglés."
+      },
+      {
+        "text": "Escuela",
+        "correct": false,
+        "reason": "'Escuela' es 学校 (がっこう) o スクール."
+      },
+      {
+        "text": "Escalera",
+        "correct": false,
+        "reason": "'Escalera' es 階段 (かいだん) o エスカレーター."
+      },
+      {
+        "text": "Horario de buses",
+        "correct": false,
+        "reason": "'Horario de buses' es バスの時刻表 (じこくひょう). スケジュール es genérico."
+      }
     ]
   },
   {
@@ -508,11 +1222,28 @@
     "cat": "Katakana",
     "q": "¿Qué es アルバイト?",
     "correct": "Trabajo part-time",
+    "explanation": "アルバイト viene del alemán 'Arbeit' ('trabajo'). En japonés designa específicamente trabajo de medio tiempo (vs. 仕事 = trabajo de tiempo completo). Coloquial: バイト.",
     "opts": [
-      "Trabajo part-time",
-      "Alpinismo",
-      "Alpinista",
-      "Alfabeto"
+      {
+        "text": "Trabajo part-time",
+        "correct": true,
+        "reason": "Correcta. Préstamo del alemán."
+      },
+      {
+        "text": "Alpinismo",
+        "correct": false,
+        "reason": "'Alpinismo' es 登山 (とざん) o アルピニズム."
+      },
+      {
+        "text": "Alpinista",
+        "correct": false,
+        "reason": "'Alpinista' es 登山家 (とざんか). Confusión fonética."
+      },
+      {
+        "text": "Alfabeto",
+        "correct": false,
+        "reason": "'Alfabeto' es アルファベット."
+      }
     ]
   },
   {
@@ -520,11 +1251,28 @@
     "cat": "Katakana",
     "q": "¿Qué es スキー?",
     "correct": "Esquí",
+    "explanation": "スキー viene del inglés 'ski'. Deporte invernal popular en Hokkaido y Nagano.",
     "opts": [
-      "Esquí",
-      "Skate",
-      "Escalar",
-      "Patín"
+      {
+        "text": "Esquí",
+        "correct": true,
+        "reason": "Correcta. Préstamo del inglés."
+      },
+      {
+        "text": "Skate",
+        "correct": false,
+        "reason": "'Skate' es スケート (patinaje) o スケートボード."
+      },
+      {
+        "text": "Escalar",
+        "correct": false,
+        "reason": "'Escalar' es 登る (のぼる) o クライミング."
+      },
+      {
+        "text": "Patín",
+        "correct": false,
+        "reason": "'Patín' es スケート靴 (くつ). Confusión por similitud fonética."
+      }
     ]
   },
   {
@@ -532,11 +1280,28 @@
     "cat": "Katakana",
     "q": "¿Qué es パーティー?",
     "correct": "Fiesta",
+    "explanation": "パーティー viene del inglés 'party'. Notá la vocal larga パー y la doble ティー.",
     "opts": [
-      "Fiesta",
-      "Partido",
-      "Departamento",
-      "Partidario"
+      {
+        "text": "Fiesta",
+        "correct": true,
+        "reason": "Correcta. Préstamo del inglés."
+      },
+      {
+        "text": "Partido",
+        "correct": false,
+        "reason": "'Partido (deportivo)' es 試合 (しあい). 'Partido político' es 政党 (せいとう)."
+      },
+      {
+        "text": "Departamento",
+        "correct": false,
+        "reason": "'Departamento' es アパート o マンション."
+      },
+      {
+        "text": "Partidario",
+        "correct": false,
+        "reason": "'Partidario' es 支持者 (しじしゃ) o サポーター."
+      }
     ]
   },
   {
@@ -544,11 +1309,28 @@
     "cat": "Katakana",
     "q": "¿Qué es バーベキュー?",
     "correct": "Barbacoa / asado",
+    "explanation": "バーベキュー viene del inglés 'barbecue' (BBQ). Reuniones al aire libre con carne a la parrilla.",
     "opts": [
-      "Barbacoa / asado",
-      "Bar",
-      "Barrio",
-      "Barbería"
+      {
+        "text": "Barbacoa / asado",
+        "correct": true,
+        "reason": "Correcta. Préstamo del inglés."
+      },
+      {
+        "text": "Bar",
+        "correct": false,
+        "reason": "'Bar' es バー."
+      },
+      {
+        "text": "Barrio",
+        "correct": false,
+        "reason": "'Barrio' es 地区 (ちく) o エリア."
+      },
+      {
+        "text": "Barbería",
+        "correct": false,
+        "reason": "'Barbería' es 床屋 (とこや) o 理髪店 (りはつてん)."
+      }
     ]
   },
   {
@@ -556,11 +1338,28 @@
     "cat": "Katakana",
     "q": "¿Qué es ホームステイ?",
     "correct": "Homestay / vivir con familia",
+    "explanation": "ホームステイ (de 'home stay') es vivir temporalmente con una familia local, típicamente para intercambio cultural/idioma.",
     "opts": [
-      "Homestay / vivir con familia",
-      "Hotel",
-      "Hostel",
-      "Hogar"
+      {
+        "text": "Homestay / vivir con familia",
+        "correct": true,
+        "reason": "Correcta. Programa de inmersión cultural."
+      },
+      {
+        "text": "Hotel",
+        "correct": false,
+        "reason": "'Hotel' es ホテル."
+      },
+      {
+        "text": "Hostel",
+        "correct": false,
+        "reason": "'Hostel' es ホステル o ユースホステル."
+      },
+      {
+        "text": "Hogar",
+        "correct": false,
+        "reason": "'Hogar' es 家 (いえ) o ホーム."
+      }
     ]
   },
   {
@@ -568,11 +1367,28 @@
     "cat": "Partículas",
     "q": "'夏休みに、北海道＿＿行きます。' — ¿Qué partícula indica el destino?",
     "correct": "へ",
+    "explanation": "へ marca dirección/destino con verbos de movimiento. 北海道へ行きます = 'voy a Hokkaido'. (También puede usarse に, ambas válidas.)",
     "opts": [
-      "へ",
-      "に",
-      "を",
-      "で"
+      {
+        "text": "へ",
+        "correct": true,
+        "reason": "Correcta. Partícula de destino con verbos de movimiento."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "reason": "に también puede marcar destino y es válida; pero el libro Dekiru en este nivel pide へ. Ambas serían aceptables en uso real."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "reason": "を marca objeto directo, no destino."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "reason": "で marca lugar de acción, no destino."
+      }
     ]
   },
   {
@@ -580,11 +1396,28 @@
     "cat": "Partículas",
     "q": "'国＿＿帰ります。' — ¿Qué partícula va para el destino al que se vuelve?",
     "correct": "へ",
+    "explanation": "へ marca destino con 帰る (volver). 国へ帰ります = 'vuelvo a mi país'.",
     "opts": [
-      "へ",
-      "に",
-      "で",
-      "を"
+      {
+        "text": "へ",
+        "correct": true,
+        "reason": "Correcta. Destino con verbo de movimiento."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "reason": "Es válida también, pero en este nivel se enseña へ con verbos de movimiento."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "reason": "で marca lugar de acción."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "reason": "を marca objeto directo."
+      }
     ]
   },
   {
@@ -592,11 +1425,28 @@
     "cat": "Partículas",
     "q": "¿Qué marca la partícula へ?",
     "correct": "Dirección / destino al que uno se mueve",
+    "explanation": "へ es específicamente la partícula de DIRECCIÓN/DESTINO, usada con verbos de movimiento (行く, 来る, 帰る).",
     "opts": [
-      "Dirección / destino al que uno se mueve",
-      "Objeto directo",
-      "Lugar donde pasa la acción",
-      "Tiempo"
+      {
+        "text": "Dirección / destino al que uno se mueve",
+        "correct": true,
+        "reason": "Correcta. Función central de へ."
+      },
+      {
+        "text": "Objeto directo",
+        "correct": false,
+        "reason": "Objeto directo es を."
+      },
+      {
+        "text": "Lugar donde pasa la acción",
+        "correct": false,
+        "reason": "Lugar de acción es で."
+      },
+      {
+        "text": "Tiempo",
+        "correct": false,
+        "reason": "Tiempo específico es に."
+      }
     ]
   },
   {
@@ -604,11 +1454,28 @@
     "cat": "Partículas",
     "q": "'日曜日、図書館＿＿行きます。' — ¿Qué partícula va antes de 行きます?",
     "correct": "へ",
+    "explanation": "Verbo de movimiento (行く) + lugar como destino → へ.",
     "opts": [
-      "へ",
-      "に",
-      "で",
-      "を"
+      {
+        "text": "へ",
+        "correct": true,
+        "reason": "Correcta. Destino con 行きます."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "reason": "Es válida también; el libro Dekiru pide へ en este nivel."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "reason": "で marca lugar de acción, no destino."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "reason": "を marca objeto, no destino."
+      }
     ]
   },
   {
@@ -616,11 +1483,28 @@
     "cat": "Partículas",
     "q": "'朝ご飯＿＿食べます。' — ¿Qué partícula marca el objeto?",
     "correct": "を",
+    "explanation": "朝ご飯 (desayuno) es el OBJETO del verbo 食べる (comer). を es la partícula de objeto directo.",
     "opts": [
-      "を",
-      "が",
-      "に",
-      "で"
+      {
+        "text": "を",
+        "correct": true,
+        "reason": "Correcta. Marca objeto directo."
+      },
+      {
+        "text": "が",
+        "correct": false,
+        "reason": "が marca sujeto, no objeto."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "reason": "に no marca objeto directo."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "reason": "で marca lugar de acción."
+      }
     ]
   },
   {
@@ -628,11 +1512,28 @@
     "cat": "Partículas",
     "q": "'コーヒー＿＿飲みます。' — ¿Qué partícula va?",
     "correct": "を",
+    "explanation": "コーヒー es el objeto de 飲む (beber). を marca objeto directo.",
     "opts": [
-      "を",
-      "が",
-      "に",
-      "で"
+      {
+        "text": "を",
+        "correct": true,
+        "reason": "Correcta. Objeto directo del verbo."
+      },
+      {
+        "text": "が",
+        "correct": false,
+        "reason": "が marca sujeto."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "reason": "に no marca objeto directo."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "reason": "で marca lugar de acción."
+      }
     ]
   },
   {
@@ -640,11 +1541,28 @@
     "cat": "Partículas",
     "q": "'花火＿＿見ます。' — ¿Qué partícula va?",
     "correct": "を",
+    "explanation": "花火 (fuegos artificiales) es el objeto de 見る (ver). を marca objeto directo.",
     "opts": [
-      "を",
-      "が",
-      "に",
-      "へ"
+      {
+        "text": "を",
+        "correct": true,
+        "reason": "Correcta. Objeto directo de 見る."
+      },
+      {
+        "text": "が",
+        "correct": false,
+        "reason": "が marca sujeto. Aunque con 見える sí va が, con 見る se usa を."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "reason": "に no marca objeto directo."
+      },
+      {
+        "text": "へ",
+        "correct": false,
+        "reason": "へ marca destino, no objeto."
+      }
     ]
   },
   {
@@ -652,11 +1570,28 @@
     "cat": "Partículas",
     "q": "'スキー＿＿します。' — ¿Qué partícula va?",
     "correct": "を",
+    "explanation": "スキー es el objeto de する (hacer). を marca objeto directo en construcciones [N]+を+する.",
     "opts": [
-      "を",
-      "が",
-      "で",
-      "に"
+      {
+        "text": "を",
+        "correct": true,
+        "reason": "Correcta. Objeto directo de する."
+      },
+      {
+        "text": "が",
+        "correct": false,
+        "reason": "が marca sujeto, no objeto."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "reason": "で marca medio o lugar, no objeto."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "reason": "に no marca objeto directo."
+      }
     ]
   },
   {
@@ -664,11 +1599,28 @@
     "cat": "Partículas",
     "q": "¿Qué marca la partícula を?",
     "correct": "Objeto directo del verbo (qué se come, se ve, se hace…)",
+    "explanation": "を es la partícula que marca el OBJETO DIRECTO de un verbo transitivo. Indica qué/quién recibe la acción.",
     "opts": [
-      "Objeto directo del verbo (qué se come, se ve, se hace…)",
-      "Lugar",
-      "Tiempo",
-      "Destino"
+      {
+        "text": "Objeto directo del verbo (qué se come, se ve, se hace…)",
+        "correct": true,
+        "reason": "Correcta. Función central de を."
+      },
+      {
+        "text": "Lugar",
+        "correct": false,
+        "reason": "Lugar de acción es で; destino es へ/に."
+      },
+      {
+        "text": "Tiempo",
+        "correct": false,
+        "reason": "Tiempo específico es に."
+      },
+      {
+        "text": "Destino",
+        "correct": false,
+        "reason": "Destino es へ o に, no を."
+      }
     ]
   },
   {
@@ -676,11 +1628,28 @@
     "cat": "Partículas",
     "q": "'公園＿＿花火を見ます。' — ¿Qué partícula indica dónde pasa la acción?",
     "correct": "で",
+    "explanation": "で marca el LUGAR donde ocurre una acción. 公園で = 'en el parque (donde miro)'.",
     "opts": [
-      "で",
-      "に",
-      "へ",
-      "を"
+      {
+        "text": "で",
+        "correct": true,
+        "reason": "Correcta. Lugar de la acción."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "reason": "に con lugar marca existencia o destino, no acción."
+      },
+      {
+        "text": "へ",
+        "correct": false,
+        "reason": "へ marca destino del movimiento, no lugar de acción."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "reason": "を marca objeto directo, no lugar."
+      }
     ]
   },
   {
@@ -688,11 +1657,28 @@
     "cat": "Partículas",
     "q": "'会社＿＿働きます。' — ¿Qué partícula corresponde?",
     "correct": "で",
+    "explanation": "Trabajar (働く) es acción; el lugar donde se trabaja se marca con で. 会社で働きます = 'trabajo en la empresa'.",
     "opts": [
-      "で",
-      "に",
-      "へ",
-      "を"
+      {
+        "text": "で",
+        "correct": true,
+        "reason": "Correcta. Lugar de la acción de trabajar."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "reason": "に con 働く indica empresa de pertenencia (会社に勤める), pero con 働く la acción usa で."
+      },
+      {
+        "text": "へ",
+        "correct": false,
+        "reason": "へ marca destino, no lugar de acción."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "reason": "を marca objeto directo."
+      }
     ]
   },
   {
@@ -700,11 +1686,28 @@
     "cat": "Partículas",
     "q": "'北海道＿＿スキーをします。' — ¿Qué partícula va?",
     "correct": "で",
+    "explanation": "Hokkaido es el LUGAR donde se hace esquí. La acción se marca con で.",
     "opts": [
-      "で",
-      "に",
-      "へ",
-      "を"
+      {
+        "text": "で",
+        "correct": true,
+        "reason": "Correcta. Lugar de la acción."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "reason": "に no marca lugar de acción."
+      },
+      {
+        "text": "へ",
+        "correct": false,
+        "reason": "へ marca destino del movimiento; aquí la acción es esquiar EN Hokkaido."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "reason": "を ya está usado con スキーを; no se duplica."
+      }
     ]
   },
   {
@@ -712,11 +1715,28 @@
     "cat": "Partículas",
     "q": "¿Qué marca la partícula で con un verbo de acción?",
     "correct": "Lugar donde ocurre la acción (se come, se trabaja…)",
+    "explanation": "で con verbos de acción marca el espacio físico donde ocurre la acción. Distinto de へ (destino) e に (existencia).",
     "opts": [
-      "Lugar donde ocurre la acción (se come, se trabaja…)",
-      "Destino",
-      "Objeto directo",
-      "Existencia"
+      {
+        "text": "Lugar donde ocurre la acción (se come, se trabaja…)",
+        "correct": true,
+        "reason": "Correcta. Función central de で."
+      },
+      {
+        "text": "Destino",
+        "correct": false,
+        "reason": "Destino es へ o に."
+      },
+      {
+        "text": "Objeto directo",
+        "correct": false,
+        "reason": "Objeto directo es を."
+      },
+      {
+        "text": "Existencia",
+        "correct": false,
+        "reason": "Existencia (estar/haber) usa に con います/あります."
+      }
     ]
   },
   {
@@ -724,11 +1744,28 @@
     "cat": "Partículas",
     "q": "'8時＿＿起きます。' — ¿Qué partícula indica 'a tal hora'?",
     "correct": "に",
+    "explanation": "に marca un PUNTO específico en el tiempo. 8時に = 'a las 8'.",
     "opts": [
-      "に",
-      "で",
-      "へ",
-      "を"
+      {
+        "text": "に",
+        "correct": true,
+        "reason": "Correcta. Tiempo específico."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "reason": "で marca lugar de acción o medio, no momento puntual."
+      },
+      {
+        "text": "へ",
+        "correct": false,
+        "reason": "へ marca destino, no tiempo."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "reason": "を marca objeto directo."
+      }
     ]
   },
   {
@@ -736,11 +1773,28 @@
     "cat": "Partículas",
     "q": "'夏休み＿＿、北海道へ行きます。' — ¿Qué partícula va?",
     "correct": "に",
+    "explanation": "夏休み es un PERÍODO específico. Con períodos definidos (vacaciones, mes, semana específica) se usa に.",
     "opts": [
-      "に",
-      "で",
-      "へ",
-      "から"
+      {
+        "text": "に",
+        "correct": true,
+        "reason": "Correcta. Período específico."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "reason": "で no marca tiempo en este sentido."
+      },
+      {
+        "text": "へ",
+        "correct": false,
+        "reason": "へ marca destino, no tiempo."
+      },
+      {
+        "text": "から",
+        "correct": false,
+        "reason": "から marca punto de inicio; aquí es momento general, no inicio explícito."
+      }
     ]
   },
   {
@@ -748,11 +1802,28 @@
     "cat": "Partículas",
     "q": "¿Con cuál de estos NO se usa に?",
     "correct": "毎日 (todos los días)",
+    "explanation": "毎日, 今日, 朝, 夜, 明日, 昨日 NO toman に. Son adverbios temporales que ya marcan el tiempo por sí mismos. Otros (9時, 月曜日, 夏休み, fechas) sí toman に.",
     "opts": [
-      "毎日 (todos los días)",
-      "9時 (las 9)",
-      "夏休み (vacaciones de verano)",
-      "月曜日 (lunes)"
+      {
+        "text": "毎日 (todos los días)",
+        "correct": true,
+        "reason": "Correcta como respuesta (es la que NO toma に)."
+      },
+      {
+        "text": "9時 (las 9)",
+        "correct": false,
+        "reason": "9時 SÍ toma に: 9時に起きます."
+      },
+      {
+        "text": "夏休み (vacaciones de verano)",
+        "correct": false,
+        "reason": "夏休み SÍ toma に: 夏休みに行きます."
+      },
+      {
+        "text": "月曜日 (lunes)",
+        "correct": false,
+        "reason": "月曜日 SÍ toma に: 月曜日に来ます (aunque también puede ir sin に en habla casual)."
+      }
     ]
   },
   {
@@ -760,11 +1831,28 @@
     "cat": "Partículas",
     "q": "'１時から３時＿＿勉強します。' — ¿Qué partícula completa 'hasta'?",
     "correct": "まで",
+    "explanation": "Patrón XからYまで marca rango temporal cerrado. まで marca el punto final.",
     "opts": [
-      "まで",
-      "から",
-      "に",
-      "で"
+      {
+        "text": "まで",
+        "correct": true,
+        "reason": "Correcta. Marca el final del rango."
+      },
+      {
+        "text": "から",
+        "correct": false,
+        "reason": "から marca el INICIO; ya está usado con 1時."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "reason": "に marca punto específico, no final de rango."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "reason": "で no marca final de tiempo."
+      }
     ]
   },
   {
@@ -772,11 +1860,28 @@
     "cat": "Partículas",
     "q": "'4時から8時まで働きます' significa:",
     "correct": "Trabajo de 4 a 8.",
+    "explanation": "Patrón XからYまで con verbo de acción: rango temporal de la acción.",
     "opts": [
-      "Trabajo de 4 a 8.",
-      "De 4 a 8 hay trabajo.",
-      "8 horas de trabajo a las 4.",
-      "De las 8 trabajo hasta las 4."
+      {
+        "text": "Trabajo de 4 a 8.",
+        "correct": true,
+        "reason": "Correcta. Rango con から/まで."
+      },
+      {
+        "text": "De 4 a 8 hay trabajo.",
+        "correct": false,
+        "reason": "'Hay trabajo' sería 仕事があります. Acá hay verbo de acción 働きます."
+      },
+      {
+        "text": "8 horas de trabajo a las 4.",
+        "correct": false,
+        "reason": "Mal análisis: 4時から no es '4 horas'; es 'desde las 4'."
+      },
+      {
+        "text": "De las 8 trabajo hasta las 4.",
+        "correct": false,
+        "reason": "Orden invertido: から va con la hora INICIAL (4時), まで con la final (8時)."
+      }
     ]
   },
   {
@@ -784,11 +1889,28 @@
     "cat": "Partículas",
     "q": "¿Cuál es la diferencia entre へ y で con lugares?",
     "correct": "へ = destino (adónde) / で = lugar donde pasa la acción",
+    "explanation": "Distinción clave: へ con verbos de movimiento (ir, venir, volver); で con verbos de acción (comer, trabajar, jugar).",
     "opts": [
-      "へ = destino (adónde) / で = lugar donde pasa la acción",
-      "Son iguales",
-      "へ = origen / で = destino",
-      "へ = tiempo / で = lugar"
+      {
+        "text": "へ = destino (adónde) / で = lugar donde pasa la acción",
+        "correct": true,
+        "reason": "Correcta. Distinción funcional."
+      },
+      {
+        "text": "Son iguales",
+        "correct": false,
+        "reason": "Tienen funciones distintas y no son intercambiables."
+      },
+      {
+        "text": "へ = origen / で = destino",
+        "correct": false,
+        "reason": "Origen es から. へ es destino, no origen."
+      },
+      {
+        "text": "へ = tiempo / で = lugar",
+        "correct": false,
+        "reason": "Tiempo es に; へ es lugar (destino), no tiempo."
+      }
     ]
   },
   {
@@ -796,11 +1918,28 @@
     "cat": "Partículas",
     "q": "'学校＿＿行きます' vs '学校＿＿勉強します'. ¿Qué partículas van respectivamente?",
     "correct": "へ / で",
+    "explanation": "行きます es verbo de movimiento (→ へ destino). 勉強します es verbo de acción (→ で lugar de la acción).",
     "opts": [
-      "へ / で",
-      "で / へ",
-      "に / に",
-      "で / を"
+      {
+        "text": "へ / で",
+        "correct": true,
+        "reason": "Correcta. Distinción movimiento vs. acción."
+      },
+      {
+        "text": "で / へ",
+        "correct": false,
+        "reason": "Invertido."
+      },
+      {
+        "text": "に / に",
+        "correct": false,
+        "reason": "Aunque に puede usarse en algunos contextos, la distinción へ/で es más clara y la enseñada."
+      },
+      {
+        "text": "で / を",
+        "correct": false,
+        "reason": "を no marca lugar."
+      }
     ]
   },
   {
@@ -808,11 +1947,28 @@
     "cat": "Partículas",
     "q": "¿Por qué se dice '毎日、学校へ行きます' y NO '毎日に、学校へ行きます'?",
     "correct": "Porque 毎日 (y otros como 今日, 朝, 夜) no llevan に",
+    "explanation": "Hay un grupo de adverbios temporales que NO toman に: 毎日, 今日, 朝, 夜, 明日, 昨日, 来週, etc. Son palabras que ya marcan el tiempo por sí mismas.",
     "opts": [
-      "Porque 毎日 (y otros como 今日, 朝, 夜) no llevan に",
-      "Porque 毎日 no es tiempo",
-      "Porque 学校 rechaza に",
-      "Porque 行きます no admite に"
+      {
+        "text": "Porque 毎日 (y otros como 今日, 朝, 夜) no llevan に",
+        "correct": true,
+        "reason": "Correcta. Regla específica de un grupo de palabras."
+      },
+      {
+        "text": "Porque 毎日 no es tiempo",
+        "correct": false,
+        "reason": "Falso: 毎日 sí es expresión de tiempo."
+      },
+      {
+        "text": "Porque 学校 rechaza に",
+        "correct": false,
+        "reason": "El destino sí puede ir con に (学校に行きます es válido). El problema es 毎日."
+      },
+      {
+        "text": "Porque 行きます no admite に",
+        "correct": false,
+        "reason": "Falso: 行きます admite に con destino o tiempo (8時に行きます)."
+      }
     ]
   },
   {
@@ -820,11 +1976,28 @@
     "cat": "Verbos",
     "q": "¿Cuál es la forma negativa de 行きます?",
     "correct": "行きません",
+    "explanation": "La forma negativa cortés de Vます se construye cambiando ます por ません. 行きます → 行きません ('no voy').",
     "opts": [
-      "行きません",
-      "行きないです",
-      "行きなかった",
-      "行きます じゃない"
+      {
+        "text": "行きません",
+        "correct": true,
+        "reason": "Correcta. Patrón estándar Vませ ん."
+      },
+      {
+        "text": "行きないです",
+        "correct": false,
+        "reason": "行きない (sin ます) no es una forma estándar correcta. La forma diccionario neg. es 行かない."
+      },
+      {
+        "text": "行きなかった",
+        "correct": false,
+        "reason": "Eso es pasado negativo en forma plana, no presente cortés."
+      },
+      {
+        "text": "行きます じゃない",
+        "correct": false,
+        "reason": "じゃない niega sustantivos/adjetivos な, no verbos. Verbos usan ません."
+      }
     ]
   },
   {
@@ -832,11 +2005,28 @@
     "cat": "Verbos",
     "q": "¿Cuál es la forma negativa de 食べます?",
     "correct": "食べません",
+    "explanation": "ます → ません para negar. 食べません = 'no como'.",
     "opts": [
-      "食べません",
-      "食べないです",
-      "食べます じゃない",
-      "食べなかった"
+      {
+        "text": "食べません",
+        "correct": true,
+        "reason": "Correcta. Patrón estándar."
+      },
+      {
+        "text": "食べないです",
+        "correct": false,
+        "reason": "食べない es la forma plana negativa; con です la combinación es informal/no estándar en este nivel."
+      },
+      {
+        "text": "食べます じゃない",
+        "correct": false,
+        "reason": "じゃない no niega verbos."
+      },
+      {
+        "text": "食べなかった",
+        "correct": false,
+        "reason": "Es pasado negativo plano, no presente cortés."
+      }
     ]
   },
   {
@@ -844,11 +2034,28 @@
     "cat": "Verbos",
     "q": "¿Cuál es la forma negativa de 見ます?",
     "correct": "見ません",
+    "explanation": "ます → ません. 見ません = 'no veo/miro'.",
     "opts": [
-      "見ません",
-      "見ないです",
-      "見ますじゃない",
-      "見なかった"
+      {
+        "text": "見ません",
+        "correct": true,
+        "reason": "Correcta. Patrón estándar."
+      },
+      {
+        "text": "見ないです",
+        "correct": false,
+        "reason": "Forma plana + です no es estándar en este nivel; lo correcto cortés es 見ません."
+      },
+      {
+        "text": "見ますじゃない",
+        "correct": false,
+        "reason": "じゃない no niega verbos."
+      },
+      {
+        "text": "見なかった",
+        "correct": false,
+        "reason": "Es pasado plano, no presente cortés."
+      }
     ]
   },
   {
@@ -856,11 +2063,28 @@
     "cat": "Verbos",
     "q": "¿Cómo se dice 'No voy a esquiar'?",
     "correct": "スキーをしません。",
+    "explanation": "Estructura: スキーを + しません (negativo de します).",
     "opts": [
-      "スキーをしません。",
-      "スキーをしないです。",
-      "スキーはしませんです。",
-      "スキーでしません。"
+      {
+        "text": "スキーをしません。",
+        "correct": true,
+        "reason": "Correcta. Negativo de する."
+      },
+      {
+        "text": "スキーをしないです。",
+        "correct": false,
+        "reason": "Forma plana + です no es estándar; lo correcto es しません."
+      },
+      {
+        "text": "スキーはしませんです。",
+        "correct": false,
+        "reason": "ませんです es redundante/agramatical."
+      },
+      {
+        "text": "スキーでしません。",
+        "correct": false,
+        "reason": "で no marca objeto; se usa を con する."
+      }
     ]
   },
   {
@@ -868,11 +2092,28 @@
     "cat": "Verbos",
     "q": "¿Cómo se dice 'No compro nada'?",
     "correct": "何も買いません。",
+    "explanation": "Patrón 何も + Vません = 'no V nada'. La partícula も convierte 何 en 'cualquier cosa' y combinado con verbo negativo da 'nada'.",
     "opts": [
-      "何も買いません。",
-      "何を買いません。",
-      "何か買います。",
-      "何が買いません。"
+      {
+        "text": "何も買いません。",
+        "correct": true,
+        "reason": "Correcta. Patrón 何も + Vません."
+      },
+      {
+        "text": "何を買いません。",
+        "correct": false,
+        "reason": "を + Vません significaría 'no compro [algo específico]', no 'nada'."
+      },
+      {
+        "text": "何か買います。",
+        "correct": false,
+        "reason": "何か = 'algo'; afirmativo. Es lo opuesto."
+      },
+      {
+        "text": "何が買いません。",
+        "correct": false,
+        "reason": "が con negativo no expresa 'nada'."
+      }
     ]
   },
   {
@@ -880,11 +2121,28 @@
     "cat": "Verbos",
     "q": "¿Cómo se dice 'No voy a ningún lado'?",
     "correct": "どこへも行きません。",
+    "explanation": "Patrón どこへも + 行きません. La partícula も DESPUÉS de へ combina destino + universalidad negada = 'a ninguna parte'.",
     "opts": [
-      "どこへも行きません。",
-      "どこに行きません。",
-      "どこかへ行きません。",
-      "どこも行きません。"
+      {
+        "text": "どこへも行きません。",
+        "correct": true,
+        "reason": "Correcta. Patrón どこへも + Vません."
+      },
+      {
+        "text": "どこに行きません。",
+        "correct": false,
+        "reason": "Sin も no expresa 'ninguna parte'; sería '¿no voy a algún lado?', incoherente."
+      },
+      {
+        "text": "どこかへ行きません。",
+        "correct": false,
+        "reason": "どこか = 'a algún lado'. La negación + か no da 'ninguna parte'."
+      },
+      {
+        "text": "どこも行きません。",
+        "correct": false,
+        "reason": "Falta へ: el patrón completo es どこへも."
+      }
     ]
   },
   {
@@ -892,11 +2150,28 @@
     "cat": "Verbos",
     "q": "何も + Vません significa:",
     "correct": "No V nada",
+    "explanation": "El patrón [interrogativo]+も+Vません significa universalidad negada. 何も + 食べません = 'no como nada'.",
     "opts": [
-      "No V nada",
-      "Algo V",
-      "Siempre V",
-      "Casi V"
+      {
+        "text": "No V nada",
+        "correct": true,
+        "reason": "Correcta. Universalidad negada con も."
+      },
+      {
+        "text": "Algo V",
+        "correct": false,
+        "reason": "'Algo V' sería 何か + V (afirmativo)."
+      },
+      {
+        "text": "Siempre V",
+        "correct": false,
+        "reason": "'Siempre' es いつも, distinto."
+      },
+      {
+        "text": "Casi V",
+        "correct": false,
+        "reason": "'Casi' es ほとんど o もうすぐ."
+      }
     ]
   },
   {
@@ -904,11 +2179,28 @@
     "cat": "Verbos",
     "q": "どこへも + 行きません significa:",
     "correct": "No voy a ninguna parte",
+    "explanation": "Aplicación del patrón [interrogativo]+も+Vません con どこ (lugar) + へ (destino).",
     "opts": [
-      "No voy a ninguna parte",
-      "Voy a cualquier lado",
-      "Voy a un solo lugar",
-      "Voy a varios lados"
+      {
+        "text": "No voy a ninguna parte",
+        "correct": true,
+        "reason": "Correcta. Universalidad negada de lugar."
+      },
+      {
+        "text": "Voy a cualquier lado",
+        "correct": false,
+        "reason": "'A cualquier lado' afirmativo sería どこへでも + V."
+      },
+      {
+        "text": "Voy a un solo lugar",
+        "correct": false,
+        "reason": "'Un solo lugar' sería 一つの場所. No tiene relación con どこへも."
+      },
+      {
+        "text": "Voy a varios lados",
+        "correct": false,
+        "reason": "'Varios lados' sería いろいろなところ. No es どこへも."
+      }
     ]
   },
   {
@@ -916,11 +2208,28 @@
     "cat": "Traducción ES→JP",
     "q": "'El fin de semana hago un asado' — ¿cuál es correcta?",
     "correct": "週末、バーベキューをします。",
+    "explanation": "週末 (fin de semana) NO toma に (es como 毎日). + バーベキューを + します.",
     "opts": [
-      "週末、バーベキューをします。",
-      "週末にバーベキューでします。",
-      "週末はバーベキューへします。",
-      "週末、バーベキューがします。"
+      {
+        "text": "週末、バーベキューをします。",
+        "correct": true,
+        "reason": "Correcta. Estructura sin に."
+      },
+      {
+        "text": "週末にバーベキューでします。",
+        "correct": false,
+        "reason": "週末 normalmente no lleva に. Y で no marca objeto, va を."
+      },
+      {
+        "text": "週末はバーベキューへします。",
+        "correct": false,
+        "reason": "へ no marca objeto; con する se usa を."
+      },
+      {
+        "text": "週末、バーベキューがします。",
+        "correct": false,
+        "reason": "が marca sujeto, no objeto. Con する se usa を."
+      }
     ]
   },
   {
@@ -928,11 +2237,28 @@
     "cat": "Traducción ES→JP",
     "q": "'En las vacaciones de verano voy a Hokkaido' — ¿cuál es correcta?",
     "correct": "夏休みに、北海道へ行きます。",
+    "explanation": "夏休み (período específico) + に + 北海道 (destino) + へ + 行きます.",
     "opts": [
-      "夏休みに、北海道へ行きます。",
-      "夏休みで、北海道に行きます。",
-      "夏休みに、北海道を行きます。",
-      "夏休みは、北海道で行きます。"
+      {
+        "text": "夏休みに、北海道へ行きます。",
+        "correct": true,
+        "reason": "Correcta. に con período + へ con destino."
+      },
+      {
+        "text": "夏休みで、北海道に行きます。",
+        "correct": false,
+        "reason": "で no marca período de tiempo; se usa に."
+      },
+      {
+        "text": "夏休みに、北海道を行きます。",
+        "correct": false,
+        "reason": "を no marca destino; se usa へ."
+      },
+      {
+        "text": "夏休みは、北海道で行きます。",
+        "correct": false,
+        "reason": "で marca lugar de acción, no destino con 行く."
+      }
     ]
   },
   {
@@ -940,11 +2266,28 @@
     "cat": "Traducción ES→JP",
     "q": "'En el parque veo fuegos artificiales' — ¿cuál es correcta?",
     "correct": "公園で花火を見ます。",
+    "explanation": "公園で (lugar de acción) + 花火を (objeto directo) + 見ます (verbo).",
     "opts": [
-      "公園で花火を見ます。",
-      "公園に花火が見ます。",
-      "公園へ花火で見ます。",
-      "公園を花火に見ます。"
+      {
+        "text": "公園で花火を見ます。",
+        "correct": true,
+        "reason": "Correcta. で lugar + を objeto."
+      },
+      {
+        "text": "公園に花火が見ます。",
+        "correct": false,
+        "reason": "に no marca lugar de acción con 見る; が no marca objeto."
+      },
+      {
+        "text": "公園へ花火で見ます。",
+        "correct": false,
+        "reason": "へ marca destino (movimiento), no lugar de acción. で no marca objeto."
+      },
+      {
+        "text": "公園を花火に見ます。",
+        "correct": false,
+        "reason": "Partículas mal asignadas en todos los lugares."
+      }
     ]
   },
   {
@@ -952,11 +2295,28 @@
     "cat": "Traducción ES→JP",
     "q": "'En Hokkaido hago esquí' — ¿cuál es correcta?",
     "correct": "北海道でスキーをします。",
+    "explanation": "北海道で (lugar de acción) + スキーを (objeto) + します.",
     "opts": [
-      "北海道でスキーをします。",
-      "北海道にスキーがします。",
-      "北海道へスキーでします。",
-      "北海道をスキーにします。"
+      {
+        "text": "北海道でスキーをします。",
+        "correct": true,
+        "reason": "Correcta. で lugar + を objeto."
+      },
+      {
+        "text": "北海道にスキーがします。",
+        "correct": false,
+        "reason": "に no marca lugar de acción; が no marca objeto."
+      },
+      {
+        "text": "北海道へスキーでします。",
+        "correct": false,
+        "reason": "へ marca destino del movimiento, no acción. で no marca objeto."
+      },
+      {
+        "text": "北海道をスキーにします。",
+        "correct": false,
+        "reason": "を no marca lugar; に no marca objeto."
+      }
     ]
   },
   {
@@ -964,11 +2324,28 @@
     "cat": "Traducción ES→JP",
     "q": "'El 25 de junio es la fiesta de estudiantes extranjeros' — ¿cuál es correcta?",
     "correct": "6月25日は留学生パーティーです。",
+    "explanation": "Patrón [fecha]は[evento]です: presenta el evento que ocurre en esa fecha.",
     "opts": [
-      "6月25日は留学生パーティーです。",
-      "6月25日に留学生パーティーでします。",
-      "6月25日で留学生パーティーが行きます。",
-      "6月25日を留学生パーティーです。"
+      {
+        "text": "6月25日は留学生パーティーです。",
+        "correct": true,
+        "reason": "Correcta. Patrón de identificación de evento."
+      },
+      {
+        "text": "6月25日に留学生パーティーでします。",
+        "correct": false,
+        "reason": "Mezcla particular agramatical: でします no encaja."
+      },
+      {
+        "text": "6月25日で留学生パーティーが行きます。",
+        "correct": false,
+        "reason": "で no marca fecha; が no marca evento; パーティー no 'va' (verbo equivocado)."
+      },
+      {
+        "text": "6月25日を留学生パーティーです。",
+        "correct": false,
+        "reason": "を no marca fecha como tema."
+      }
     ]
   },
   {
@@ -976,11 +2353,28 @@
     "cat": "Traducción ES→JP",
     "q": "'Del 6 al 9 de agosto es homestay' — ¿cuál es correcta?",
     "correct": "8月6日から9日までホームステイです。",
+    "explanation": "Patrón XからYまで con fechas + です identifica el evento en el rango.",
     "opts": [
-      "8月6日から9日までホームステイです。",
-      "8月6日に9日までホームステイをします。",
-      "8月6日で9日からホームステイです。",
-      "8月6から9日までホームステイにします。"
+      {
+        "text": "8月6日から9日までホームステイです。",
+        "correct": true,
+        "reason": "Correcta. Rango de fechas + identificación."
+      },
+      {
+        "text": "8月6日に9日までホームステイをします。",
+        "correct": false,
+        "reason": "に no marca inicio de rango; se usa から."
+      },
+      {
+        "text": "8月6日で9日からホームステイです。",
+        "correct": false,
+        "reason": "で y から están mal asignados."
+      },
+      {
+        "text": "8月6から9日までホームステイにします。",
+        "correct": false,
+        "reason": "Falta 日 después del 6, y にします no encaja para identificar evento."
+      }
     ]
   },
   {
@@ -988,11 +2382,28 @@
     "cat": "Traducción ES→JP",
     "q": "'El 10 de abril hago hanami' — ¿cuál es correcta?",
     "correct": "4月10日はお花見です。",
+    "explanation": "Patrón [fecha]は[evento]です. お花見 es el evento.",
     "opts": [
-      "4月10日はお花見です。",
-      "4月10日にお花見でします。",
-      "4月10日をお花見します。",
-      "4月10日でお花見が行きます。"
+      {
+        "text": "4月10日はお花見です。",
+        "correct": true,
+        "reason": "Correcta. Identificación del evento en la fecha."
+      },
+      {
+        "text": "4月10日にお花見でします。",
+        "correct": false,
+        "reason": "でします es agramatical en este contexto."
+      },
+      {
+        "text": "4月10日をお花見します。",
+        "correct": false,
+        "reason": "を no marca fecha como tema."
+      },
+      {
+        "text": "4月10日でお花見が行きます。",
+        "correct": false,
+        "reason": "Verbos y partículas mal aplicados."
+      }
     ]
   },
   {
@@ -1000,11 +2411,28 @@
     "cat": "Traducción JP→ES",
     "q": "'桜を見ます。お弁当を食べます。' significa:",
     "correct": "Miro los cerezos. Como una vianda.",
+    "explanation": "Dos oraciones simples: 桜を見ます (miro cerezos) + お弁当を食べます (como bento). Típico en お花見.",
     "opts": [
-      "Miro los cerezos. Como una vianda.",
-      "Como cerezos. Veo el bento.",
-      "Miro las flores y tomo agua.",
-      "Tengo cerezos en la vianda."
+      {
+        "text": "Miro los cerezos. Como una vianda.",
+        "correct": true,
+        "reason": "Correcta. Traducción literal."
+      },
+      {
+        "text": "Como cerezos. Veo el bento.",
+        "correct": false,
+        "reason": "Verbos invertidos: 桜 va con 見ます, お弁当 con 食べます."
+      },
+      {
+        "text": "Miro las flores y tomo agua.",
+        "correct": false,
+        "reason": "お弁当 es vianda, no agua. Y 食べる es comer, no tomar."
+      },
+      {
+        "text": "Tengo cerezos en la vianda.",
+        "correct": false,
+        "reason": "Mal análisis: las dos oraciones son acciones distintas."
+      }
     ]
   },
   {
@@ -1012,11 +2440,28 @@
     "cat": "Traducción JP→ES",
     "q": "'スキーをします。すしを食べます。' significa:",
     "correct": "Hago esquí. Como sushi.",
+    "explanation": "Dos oraciones simples: スキーをします (hago esquí) + すしを食べます (como sushi).",
     "opts": [
-      "Hago esquí. Como sushi.",
-      "Como esquí en sushi.",
-      "Esquío y bebo.",
-      "Esquiar en sushi."
+      {
+        "text": "Hago esquí. Como sushi.",
+        "correct": true,
+        "reason": "Correcta. Traducción literal."
+      },
+      {
+        "text": "Como esquí en sushi.",
+        "correct": false,
+        "reason": "Mal análisis: スキー es objeto de する, no de 食べる."
+      },
+      {
+        "text": "Esquío y bebo.",
+        "correct": false,
+        "reason": "食べる es comer, no beber."
+      },
+      {
+        "text": "Esquiar en sushi.",
+        "correct": false,
+        "reason": "Sin sentido: son dos acciones distintas."
+      }
     ]
   },
   {
@@ -1024,11 +2469,28 @@
     "cat": "Traducción JP→ES",
     "q": "'ケーキを食べます。ジュースを飲みます。' significa:",
     "correct": "Como una torta. Tomo un jugo.",
+    "explanation": "Dos oraciones: ケーキを食べます (como torta) + ジュースを飲みます (tomo jugo).",
     "opts": [
-      "Como una torta. Tomo un jugo.",
-      "La torta bebe jugo.",
-      "Como jugo de torta.",
-      "Tomo torta con jugo."
+      {
+        "text": "Como una torta. Tomo un jugo.",
+        "correct": true,
+        "reason": "Correcta. Traducción literal."
+      },
+      {
+        "text": "La torta bebe jugo.",
+        "correct": false,
+        "reason": "Personificación absurda; ケーキ es OBJETO de comer."
+      },
+      {
+        "text": "Como jugo de torta.",
+        "correct": false,
+        "reason": "Mal análisis: son dos acciones separadas con objetos distintos."
+      },
+      {
+        "text": "Tomo torta con jugo.",
+        "correct": false,
+        "reason": "ケーキを食べます es 'COMER torta', no 'tomar'."
+      }
     ]
   },
   {
@@ -1036,11 +2498,28 @@
     "cat": "Traducción JP→ES",
     "q": "'どこへ行きますか。' significa:",
     "correct": "¿A dónde vas?",
+    "explanation": "どこ (dónde) + へ (destino) + 行きますか = '¿a dónde vas?'.",
     "opts": [
-      "¿A dónde vas?",
-      "¿Dónde estás?",
-      "¿De dónde venís?",
-      "¿Dónde hacés eso?"
+      {
+        "text": "¿A dónde vas?",
+        "correct": true,
+        "reason": "Correcta. へ marca destino."
+      },
+      {
+        "text": "¿Dónde estás?",
+        "correct": false,
+        "reason": "'Dónde estás' sería どこにいますか."
+      },
+      {
+        "text": "¿De dónde venís?",
+        "correct": false,
+        "reason": "'De dónde' sería どこから来ますか."
+      },
+      {
+        "text": "¿Dónde hacés eso?",
+        "correct": false,
+        "reason": "'Dónde hacés' sería どこでしますか (con で de lugar de acción)."
+      }
     ]
   },
   {
@@ -1048,11 +2527,28 @@
     "cat": "Traducción JP→ES",
     "q": "'富士山へ行きます。' significa:",
     "correct": "Voy al monte Fuji.",
+    "explanation": "富士山 (monte Fuji) + へ (destino) + 行きます = 'voy al monte Fuji'.",
     "opts": [
-      "Voy al monte Fuji.",
-      "Vengo del monte Fuji.",
-      "Estoy en el monte Fuji.",
-      "Subo el monte Fuji."
+      {
+        "text": "Voy al monte Fuji.",
+        "correct": true,
+        "reason": "Correcta. へ marca destino."
+      },
+      {
+        "text": "Vengo del monte Fuji.",
+        "correct": false,
+        "reason": "'Venir' es 来ます; 'desde' es から."
+      },
+      {
+        "text": "Estoy en el monte Fuji.",
+        "correct": false,
+        "reason": "'Estoy' sería います (con に: 富士山にいます)."
+      },
+      {
+        "text": "Subo el monte Fuji.",
+        "correct": false,
+        "reason": "'Subo' es 登ります (のぼります). 行きます es ir genérico."
+      }
     ]
   },
   {
@@ -1060,11 +2556,28 @@
     "cat": "Diálogo",
     "q": "Si alguien te dice '夏休みに北海道へ行きます', una reacción natural es:",
     "correct": "いいですね。",
+    "explanation": "いいですね ('qué bueno/lindo') es la reacción natural a una buena noticia/plan ajeno. Muestra interés positivo.",
     "opts": [
-      "いいですね。",
-      "そうですか、どこ？",
-      "何時からですか。",
-      "はい、行きません。"
+      {
+        "text": "いいですね。",
+        "correct": true,
+        "reason": "Correcta. Reacción positiva natural."
+      },
+      {
+        "text": "そうですか、どこ？",
+        "correct": false,
+        "reason": "Ya dijo 北海道; preguntar 'dónde' después es repetitivo."
+      },
+      {
+        "text": "何時からですか。",
+        "correct": false,
+        "reason": "Pregunta hora; no es relevante en plan de viaje."
+      },
+      {
+        "text": "はい、行きません。",
+        "correct": false,
+        "reason": "Contradictorio (sí + no voy)."
+      }
     ]
   },
   {
@@ -1072,11 +2585,28 @@
     "cat": "Diálogo",
     "q": "Para preguntar '¿qué vas a hacer en el festival?' se usa:",
     "correct": "何をしますか。",
+    "explanation": "何 + を + します + か pregunta '¿qué hacés?'.",
     "opts": [
-      "何をしますか。",
-      "どこでしますか。",
-      "なんですか。",
-      "どうですか。"
+      {
+        "text": "何をしますか。",
+        "correct": true,
+        "reason": "Correcta. Pregunta de acción."
+      },
+      {
+        "text": "どこでしますか。",
+        "correct": false,
+        "reason": "Pregunta '¿dónde lo hacés?', no '¿qué?'."
+      },
+      {
+        "text": "なんですか。",
+        "correct": false,
+        "reason": "Pregunta '¿qué es?' (identidad), no '¿qué hacés?'."
+      },
+      {
+        "text": "どうですか。",
+        "correct": false,
+        "reason": "Pregunta '¿cómo es/qué te parece?', no acción."
+      }
     ]
   },
   {
@@ -1084,11 +2614,28 @@
     "cat": "Diálogo",
     "q": "Para preguntar '¿a dónde vas?' se usa:",
     "correct": "どこへ行きますか。",
+    "explanation": "どこ (dónde) + へ (destino) + 行きますか.",
     "opts": [
-      "どこへ行きますか。",
-      "どこで行きますか。",
-      "どこを行きますか。",
-      "どこが行きますか。"
+      {
+        "text": "どこへ行きますか。",
+        "correct": true,
+        "reason": "Correcta. へ marca destino con 行く."
+      },
+      {
+        "text": "どこで行きますか。",
+        "correct": false,
+        "reason": "で no marca destino con verbo de movimiento."
+      },
+      {
+        "text": "どこを行きますか。",
+        "correct": false,
+        "reason": "を generalmente no marca destino con 行く en este nivel."
+      },
+      {
+        "text": "どこが行きますか。",
+        "correct": false,
+        "reason": "が marca sujeto: '¿qué lugar va?', incoherente."
+      }
     ]
   },
   {
@@ -1096,11 +2643,28 @@
     "cat": "Diálogo",
     "q": "Un compañero te dice '金曜日、パーティーをします'. Le preguntás qué se hace con:",
     "correct": "何をしますか。",
+    "explanation": "Tu interlocutor mencionó una fiesta; querés saber qué actividades se harán: 何をしますか.",
     "opts": [
-      "何をしますか。",
-      "どこですか。",
-      "いつですか。",
-      "いくらですか。"
+      {
+        "text": "何をしますか。",
+        "correct": true,
+        "reason": "Correcta. Pregunta sobre actividades."
+      },
+      {
+        "text": "どこですか。",
+        "correct": false,
+        "reason": "Pregunta lugar, no actividades."
+      },
+      {
+        "text": "いつですか。",
+        "correct": false,
+        "reason": "Ya dijo 金曜日 (cuándo); preguntar otra vez es repetitivo."
+      },
+      {
+        "text": "いくらですか。",
+        "correct": false,
+        "reason": "Pregunta precio, no relevante."
+      }
     ]
   },
   {
@@ -1108,11 +2672,28 @@
     "cat": "Diálogo",
     "q": "Para expresar sorpresa ('¿Eh?') en japonés se usa:",
     "correct": "えっ",
+    "explanation": "えっ es la interjección de sorpresa breve. Notá el sokuon final que da énfasis.",
     "opts": [
-      "えっ",
-      "へえ",
-      "はい",
-      "そう"
+      {
+        "text": "えっ",
+        "correct": true,
+        "reason": "Correcta. Interjección de sorpresa."
+      },
+      {
+        "text": "へえ",
+        "correct": false,
+        "reason": "へえ expresa interés leve ('ah, ¿sí?'), no sorpresa fuerte."
+      },
+      {
+        "text": "はい",
+        "correct": false,
+        "reason": "はい es 'sí', no expresión de sorpresa."
+      },
+      {
+        "text": "そう",
+        "correct": false,
+        "reason": "そう es 'así (es)', no sorpresa."
+      }
     ]
   },
   {
@@ -1120,11 +2701,28 @@
     "cat": "Diálogo",
     "q": "Para expresar interés leve ('Ah, ¿sí?') se usa:",
     "correct": "へえ",
+    "explanation": "へえ es la interjección que muestra interés/leve sorpresa al recibir información nueva. Tono neutral.",
     "opts": [
-      "へえ",
-      "えっ",
-      "すみません",
-      "いいですね"
+      {
+        "text": "へえ",
+        "correct": true,
+        "reason": "Correcta. Interés leve."
+      },
+      {
+        "text": "えっ",
+        "correct": false,
+        "reason": "えっ es sorpresa más intensa/inesperada, no interés leve."
+      },
+      {
+        "text": "すみません",
+        "correct": false,
+        "reason": "すみません es disculpa/atención, no interés."
+      },
+      {
+        "text": "いいですね",
+        "correct": false,
+        "reason": "いいですね es valoración positiva, más fuerte que interés leve."
+      }
     ]
   },
   {
@@ -1132,11 +2730,28 @@
     "cat": "Diálogo",
     "q": "'毎朝6時に起きます' significa:",
     "correct": "Todas las mañanas me levanto a las 6.",
+    "explanation": "毎朝 (todas las mañanas) + 6時に (a las 6) + 起きます (me levanto). Hábito diario.",
     "opts": [
-      "Todas las mañanas me levanto a las 6.",
-      "Me levanto a las 6 mañanas.",
-      "La mañana de las 6 empiezo.",
-      "Cada 6 me levanto."
+      {
+        "text": "Todas las mañanas me levanto a las 6.",
+        "correct": true,
+        "reason": "Correcta. Hábito matinal."
+      },
+      {
+        "text": "Me levanto a las 6 mañanas.",
+        "correct": false,
+        "reason": "Mal análisis: 毎朝 = 'todas las mañanas', no '6 mañanas'."
+      },
+      {
+        "text": "La mañana de las 6 empiezo.",
+        "correct": false,
+        "reason": "Mal análisis: 起きます es 'levantarse', no 'empezar'."
+      },
+      {
+        "text": "Cada 6 me levanto.",
+        "correct": false,
+        "reason": "Mal análisis: 6時に = 'a las 6 (hora)'."
+      }
     ]
   },
   {
@@ -1144,11 +2759,28 @@
     "cat": "Diálogo",
     "q": "'7時に朝ご飯を食べます' significa:",
     "correct": "A las 7 desayuno.",
+    "explanation": "7時に (a las 7) + 朝ご飯を食べます (como el desayuno). 朝ご飯 = desayuno.",
     "opts": [
-      "A las 7 desayuno.",
-      "A las 7 ceno.",
-      "A la mañana como a las 7.",
-      "Son las 7 y desayuno."
+      {
+        "text": "A las 7 desayuno.",
+        "correct": true,
+        "reason": "Correcta. 朝ご飯 = desayuno."
+      },
+      {
+        "text": "A las 7 ceno.",
+        "correct": false,
+        "reason": "Cena es 晩ご飯 (ばんごはん); 朝ご飯 es desayuno."
+      },
+      {
+        "text": "A la mañana como a las 7.",
+        "correct": false,
+        "reason": "Aunque cercano, '朝ご飯を食べる' es específicamente 'desayunar', no 'comer a la mañana'."
+      },
+      {
+        "text": "Son las 7 y desayuno.",
+        "correct": false,
+        "reason": "に marca 'a las 7' (acción), no 'son las 7'."
+      }
     ]
   },
   {
@@ -1156,11 +2788,28 @@
     "cat": "Diálogo",
     "q": "'夜、テレビを見ます' significa:",
     "correct": "A la noche miro tele.",
+    "explanation": "夜 (noche, sin に porque es como 毎日) + テレビを見ます. Hábito nocturno.",
     "opts": [
-      "A la noche miro tele.",
-      "La tele es de noche.",
-      "Miro tele a las 8.",
-      "Veo la noche en tele."
+      {
+        "text": "A la noche miro tele.",
+        "correct": true,
+        "reason": "Correcta. 夜 indica momento del día."
+      },
+      {
+        "text": "La tele es de noche.",
+        "correct": false,
+        "reason": "Mal análisis: 夜 no modifica テレビ; es complemento temporal de la acción."
+      },
+      {
+        "text": "Miro tele a las 8.",
+        "correct": false,
+        "reason": "夜 no es '8'; es 'noche'."
+      },
+      {
+        "text": "Veo la noche en tele.",
+        "correct": false,
+        "reason": "夜 es complemento temporal; テレビ es el objeto."
+      }
     ]
   },
   {
@@ -1168,11 +2817,28 @@
     "cat": "Diálogo",
     "q": "¿Para qué se usa Vます además de planes?",
     "correct": "Para describir hábitos / rutina diaria",
+    "explanation": "La forma -ます se usa para presente afirmativo amplio: planes futuros, hábitos repetidos, verdades generales.",
     "opts": [
-      "Para describir hábitos / rutina diaria",
-      "Solo para pasado",
-      "Solo para condicionales",
-      "Solo para órdenes"
+      {
+        "text": "Para describir hábitos / rutina diaria",
+        "correct": true,
+        "reason": "Correcta. Función amplia de -ます."
+      },
+      {
+        "text": "Solo para pasado",
+        "correct": false,
+        "reason": "Pasado es -ました, no -ます."
+      },
+      {
+        "text": "Solo para condicionales",
+        "correct": false,
+        "reason": "Condicionales requieren formas como -たら, -ば, -と."
+      },
+      {
+        "text": "Solo para órdenes",
+        "correct": false,
+        "reason": "Órdenes son ~なさい, ~てください, formas imperativas."
+      }
     ]
   },
   {
@@ -1180,11 +2846,28 @@
     "cat": "Gramática",
     "q": "¿Cuál es el orden correcto para 'a las 8 en casa como un bento'?",
     "correct": "8時にうちでお弁当を食べます。",
+    "explanation": "Orden japonés: tiempo (8時に) + lugar (うちで) + objeto (お弁当を) + verbo (食べます). Sigue la jerarquía Tiempo > Lugar > Objeto.",
     "opts": [
-      "8時にうちでお弁当を食べます。",
-      "8時でうちにお弁当を食べます。",
-      "うちで8時にお弁当が食べます。",
-      "お弁当を8時にうちに食べます。"
+      {
+        "text": "8時にうちでお弁当を食べます。",
+        "correct": true,
+        "reason": "Correcta. Orden estándar T-L-O-V."
+      },
+      {
+        "text": "8時でうちにお弁当を食べます。",
+        "correct": false,
+        "reason": "Partículas invertidas: 8時に (tiempo) + うちで (lugar)."
+      },
+      {
+        "text": "うちで8時にお弁当が食べます。",
+        "correct": false,
+        "reason": "が no marca objeto; con 食べる se usa を."
+      },
+      {
+        "text": "お弁当を8時にうちに食べます。",
+        "correct": false,
+        "reason": "に no marca lugar de acción con 食べる; se usa で."
+      }
     ]
   },
   {
@@ -1192,11 +2875,28 @@
     "cat": "Gramática",
     "q": "Para decir 'voy al parque el domingo', ¿cuál es correcta?",
     "correct": "日曜日、公園へ行きます。",
+    "explanation": "日曜日 (puede ir sin に en habla casual) + 公園へ (destino) + 行きます.",
     "opts": [
-      "日曜日、公園へ行きます。",
-      "日曜日に、公園で行きます。",
-      "日曜日へ、公園に行きます。",
-      "日曜日を、公園が行きます。"
+      {
+        "text": "日曜日、公園へ行きます。",
+        "correct": true,
+        "reason": "Correcta. へ marca destino."
+      },
+      {
+        "text": "日曜日に、公園で行きます。",
+        "correct": false,
+        "reason": "で no marca destino con 行く."
+      },
+      {
+        "text": "日曜日へ、公園に行きます。",
+        "correct": false,
+        "reason": "へ no se usa con días; lugar va con へ no con に."
+      },
+      {
+        "text": "日曜日を、公園が行きます。",
+        "correct": false,
+        "reason": "を y が mal asignados."
+      }
     ]
   },
   {
@@ -1204,11 +2904,28 @@
     "cat": "Gramática",
     "q": "'En las vacaciones de invierno voy a esquiar a Nagano' — ¿cuál es correcta?",
     "correct": "冬休みに、長野でスキーをします。",
+    "explanation": "冬休みに (período) + 長野で (lugar de la acción) + スキーを (objeto) + します.",
     "opts": [
-      "冬休みに、長野でスキーをします。",
-      "冬休みで、長野にスキーをします。",
-      "冬休みに、長野へスキーがします。",
-      "冬休みは、長野をスキーします。"
+      {
+        "text": "冬休みに、長野でスキーをします。",
+        "correct": true,
+        "reason": "Correcta. に período + で lugar + を objeto."
+      },
+      {
+        "text": "冬休みで、長野にスキーをします。",
+        "correct": false,
+        "reason": "で no marca período; に no marca lugar de acción."
+      },
+      {
+        "text": "冬休みに、長野へスキーがします。",
+        "correct": false,
+        "reason": "へ marca destino del movimiento, no acción. が no marca objeto."
+      },
+      {
+        "text": "冬休みは、長野をスキーします。",
+        "correct": false,
+        "reason": "を no marca lugar."
+      }
     ]
   },
   {
@@ -1216,11 +2933,28 @@
     "cat": "Gramática",
     "q": "Para decir 'el 26 de diciembre es un viaje de ski', ¿cuál es correcta?",
     "correct": "12月26日はスキー旅行です。",
+    "explanation": "Patrón [fecha]は[evento]です: identifica el evento que ocurre en esa fecha.",
     "opts": [
-      "12月26日はスキー旅行です。",
-      "12月26日がスキー旅行をします。",
-      "12月26日にスキー旅行です。",
-      "12月26日でスキー旅行をします。"
+      {
+        "text": "12月26日はスキー旅行です。",
+        "correct": true,
+        "reason": "Correcta. Patrón estándar."
+      },
+      {
+        "text": "12月26日がスキー旅行をします。",
+        "correct": false,
+        "reason": "が no marca tema; y スキー旅行 no 'hace' (no es agente)."
+      },
+      {
+        "text": "12月26日にスキー旅行です。",
+        "correct": false,
+        "reason": "に no marca tema; en este patrón identificativo se usa は."
+      },
+      {
+        "text": "12月26日でスキー旅行をします。",
+        "correct": false,
+        "reason": "で no marca fecha como tema."
+      }
     ]
   },
   {
@@ -1228,11 +2962,28 @@
     "cat": "Gramática",
     "q": "'5月15日はバス旅行です' significa:",
     "correct": "El 15 de mayo es un viaje en bus.",
+    "explanation": "Patrón [fecha]は[evento]です identifica el evento en esa fecha.",
     "opts": [
-      "El 15 de mayo es un viaje en bus.",
-      "El 15 de mayo viajo en bus.",
-      "15 viajes en bus de mayo.",
-      "En mayo viajo 15 veces en bus."
+      {
+        "text": "El 15 de mayo es un viaje en bus.",
+        "correct": true,
+        "reason": "Correcta. Identificación del evento."
+      },
+      {
+        "text": "El 15 de mayo viajo en bus.",
+        "correct": false,
+        "reason": "'Viajo' implicaría verbo 旅行する o 行く. Acá es identificación con です."
+      },
+      {
+        "text": "15 viajes en bus de mayo.",
+        "correct": false,
+        "reason": "Mal análisis: 5月15日 es 'el 15 de mayo' (fecha)."
+      },
+      {
+        "text": "En mayo viajo 15 veces en bus.",
+        "correct": false,
+        "reason": "Mal análisis: '15 veces' sería 15回 (じゅうごかい). 15日 es día del mes."
+      }
     ]
   },
   {
@@ -1240,11 +2991,28 @@
     "cat": "Gramática",
     "q": "El patrón '～は～です' con una fecha sirve para:",
     "correct": "Anunciar qué evento ocurre ese día",
+    "explanation": "Es el patrón identificativo estándar. Útil para presentar planes/eventos en agendas.",
     "opts": [
-      "Anunciar qué evento ocurre ese día",
-      "Pedir el evento",
-      "Negar el evento",
-      "Preguntar por la fecha"
+      {
+        "text": "Anunciar qué evento ocurre ese día",
+        "correct": true,
+        "reason": "Correcta. Función identificativa."
+      },
+      {
+        "text": "Pedir el evento",
+        "correct": false,
+        "reason": "Pedir requeriría ください, おねがいします."
+      },
+      {
+        "text": "Negar el evento",
+        "correct": false,
+        "reason": "Negar requeriría じゃありません."
+      },
+      {
+        "text": "Preguntar por la fecha",
+        "correct": false,
+        "reason": "Preguntar requeriría か final con いつ."
+      }
     ]
   },
   {
@@ -1252,11 +3020,28 @@
     "cat": "Partículas",
     "q": "En '公園で花火を見ます', ¿qué rol juega 公園?",
     "correct": "Lugar donde ocurre la acción (de)",
+    "explanation": "公園 está marcado con で, que indica el lugar donde se realiza la acción 見る.",
     "opts": [
-      "Lugar donde ocurre la acción (de)",
-      "Destino (へ)",
-      "Objeto (を)",
-      "Tiempo (に)"
+      {
+        "text": "Lugar donde ocurre la acción (de)",
+        "correct": true,
+        "reason": "Correcta. で marca lugar de acción."
+      },
+      {
+        "text": "Destino (へ)",
+        "correct": false,
+        "reason": "Para destino se usa へ; aquí va で."
+      },
+      {
+        "text": "Objeto (を)",
+        "correct": false,
+        "reason": "El objeto es 花火 (con を), no 公園."
+      },
+      {
+        "text": "Tiempo (に)",
+        "correct": false,
+        "reason": "公園 es lugar, no tiempo."
+      }
     ]
   },
   {
@@ -1264,11 +3049,28 @@
     "cat": "Partículas",
     "q": "En '北海道へ行きます', ¿qué rol juega 北海道?",
     "correct": "Destino (adónde)",
+    "explanation": "北海道 está marcado con へ, que indica el destino del movimiento (行く).",
     "opts": [
-      "Destino (adónde)",
-      "Lugar de la acción",
-      "Objeto",
-      "Tiempo"
+      {
+        "text": "Destino (adónde)",
+        "correct": true,
+        "reason": "Correcta. へ marca destino."
+      },
+      {
+        "text": "Lugar de la acción",
+        "correct": false,
+        "reason": "Lugar de acción se marca con で, no へ."
+      },
+      {
+        "text": "Objeto",
+        "correct": false,
+        "reason": "Objeto se marca con を."
+      },
+      {
+        "text": "Tiempo",
+        "correct": false,
+        "reason": "北海道 es lugar, no tiempo."
+      }
     ]
   },
   {
@@ -1276,11 +3078,28 @@
     "cat": "Verbos",
     "q": "¿Cuál de estas es un verbo del Grupo 3 (irregular)?",
     "correct": "します",
+    "explanation": "Solo dos verbos pertenecen al Grupo 3 (irregulares): する (= します) y 来る (= きます). El resto son Grupo 1 o 2.",
     "opts": [
-      "します",
-      "食べます",
-      "飲みます",
-      "行きます"
+      {
+        "text": "します",
+        "correct": true,
+        "reason": "Correcta. Es する, irregular Grupo 3."
+      },
+      {
+        "text": "食べます",
+        "correct": false,
+        "reason": "食べます (たべる) es Grupo 2 (termina en -える/-いる)."
+      },
+      {
+        "text": "飲みます",
+        "correct": false,
+        "reason": "飲みます (のむ) es Grupo 1 (godan)."
+      },
+      {
+        "text": "行きます",
+        "correct": false,
+        "reason": "行きます (いく) es Grupo 1, aunque ligeramente irregular en algunas formas."
+      }
     ]
   },
   {
@@ -1288,11 +3107,28 @@
     "cat": "Verbos",
     "q": "¿Cuál de estas es un verbo del Grupo 2?",
     "correct": "食べます",
+    "explanation": "Grupo 2 (ichidan) incluye verbos terminados en -える/-いる en forma diccionario. 食べる termina en べる (sonido え+る).",
     "opts": [
-      "食べます",
-      "行きます",
-      "飲みます",
-      "帰ります"
+      {
+        "text": "食べます",
+        "correct": true,
+        "reason": "Correcta. たべる termina en eru (Grupo 2)."
+      },
+      {
+        "text": "行きます",
+        "correct": false,
+        "reason": "行く es Grupo 1 (godan)."
+      },
+      {
+        "text": "飲みます",
+        "correct": false,
+        "reason": "飲む es Grupo 1 (godan)."
+      },
+      {
+        "text": "帰ります",
+        "correct": false,
+        "reason": "帰る es Grupo 1 (excepción: aunque termina en eru, es godan)."
+      }
     ]
   },
   {
@@ -1300,11 +3136,28 @@
     "cat": "Verbos",
     "q": "¿Cuál de estas es un verbo del Grupo 1?",
     "correct": "飲みます",
+    "explanation": "Grupo 1 (godan) incluye verbos terminados en sonidos no-iru/-eru. 飲む termina en む (sonido u).",
     "opts": [
-      "飲みます",
-      "食べます",
-      "見ます",
-      "します"
+      {
+        "text": "飲みます",
+        "correct": true,
+        "reason": "Correcta. のむ es Grupo 1 (godan)."
+      },
+      {
+        "text": "食べます",
+        "correct": false,
+        "reason": "食べる es Grupo 2."
+      },
+      {
+        "text": "見ます",
+        "correct": false,
+        "reason": "見る es Grupo 2."
+      },
+      {
+        "text": "します",
+        "correct": false,
+        "reason": "する es Grupo 3 (irregular)."
+      }
     ]
   },
   {
@@ -1312,11 +3165,28 @@
     "cat": "Vocabulario",
     "q": "¿Qué significa 何?",
     "correct": "Qué (pronombre interrogativo)",
+    "explanation": "何 (なに/なん) es el interrogativo '¿qué?'. Lectura cambia según contexto fonético.",
     "opts": [
-      "Qué (pronombre interrogativo)",
-      "Quién",
-      "Cuál",
-      "Cómo"
+      {
+        "text": "Qué (pronombre interrogativo)",
+        "correct": true,
+        "reason": "Correcta. Interrogativo central."
+      },
+      {
+        "text": "Quién",
+        "correct": false,
+        "reason": "'Quién' es だれ."
+      },
+      {
+        "text": "Cuál",
+        "correct": false,
+        "reason": "'Cuál' es どれ (de varios) o どの (modificador)."
+      },
+      {
+        "text": "Cómo",
+        "correct": false,
+        "reason": "'Cómo' es どう."
+      }
     ]
   }
 ]

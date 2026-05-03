@@ -231,6 +231,21 @@
     color: #856404;
     border-left: 4px solid #ffc107;
   }
+  .feedback-detail {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    font-size: 0.88em;
+    line-height: 1.5;
+  }
+  .feedback-reason { margin-bottom: 6px; }
+  .feedback-explanation {
+    opacity: 0.85;
+    background: rgba(0,0,0,0.04);
+    padding: 8px 10px;
+    border-radius: 6px;
+    margin-top: 6px;
+  }
   .btn {
     background: #c0392b;
     color: white;
@@ -873,7 +888,7 @@ function renderQuestion() {
   opts.forEach(opt => {
     const btn = document.createElement('button');
     btn.className = 'option jp';
-    btn.textContent = opt;
+    btn.textContent = opt.text;
     btn.onclick = () => selectAnswer(btn, opt, q);
     container.appendChild(btn);
   });
@@ -884,24 +899,34 @@ function renderQuestion() {
 function selectAnswer(btn, chosen, q) {
   const buttons = document.querySelectorAll('.option');
   buttons.forEach(b => b.disabled = true);
-  const isCorrect = chosen === q.correct;
+  const isCorrect = chosen.correct === true;
   const feedback = document.getElementById('q-feedback');
   feedback.classList.remove('hidden', 'right', 'wrong');
+
+  const reasonHtml = chosen.reason
+    ? `<div class="feedback-reason">${chosen.reason}</div>`
+    : '';
+  const explanationHtml = q.explanation
+    ? `<div class="feedback-explanation">💡 ${q.explanation}</div>`
+    : '';
+  const detailHtml = (reasonHtml || explanationHtml)
+    ? `<div class="feedback-detail">${reasonHtml}${explanationHtml}</div>`
+    : '';
 
   if (isCorrect) {
     btn.classList.add('correct');
     feedback.classList.add('right');
-    feedback.textContent = '✅ 正解！ (¡Correcto!)';
+    feedback.innerHTML = `<strong>✅ 正解！ (¡Correcto!)</strong>${detailHtml}`;
     score++;
   } else {
     btn.classList.add('incorrect');
     feedback.classList.add('wrong');
-    feedback.innerHTML = `❌ 不正解。 La respuesta correcta era: <b>${q.correct}</b>`;
+    feedback.innerHTML = `<strong>❌ 不正解。</strong> La respuesta correcta era: <b class="jp">${q.correct}</b>${detailHtml}`;
     buttons.forEach(b => {
       if (b.textContent === q.correct) b.classList.add('correct');
     });
   }
-  answers.push({id: q.id, q: q.q, chosen, correct: q.correct, isCorrect});
+  answers.push({id: q.id, q: q.q, chosen: chosen.text, correct: q.correct, isCorrect});
   document.getElementById('q-score').textContent = `Aciertos: ${score}`;
   document.getElementById('next-btn').classList.remove('hidden');
   document.getElementById('next-btn').textContent = (currentIdx === currentQuiz.length - 1) ? 'Ver resultado 🏁' : 'Siguiente →';

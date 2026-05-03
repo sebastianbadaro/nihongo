@@ -4,11 +4,12 @@
     "cat": "Diálogo",
     "q": "¿Cómo se dice 'Quisiera ordenar' en un restaurante?",
     "correct": "注文を おねがいします。",
+    "explanation": "注文 (ちゅうもん, 'pedido/orden') + を (objeto directo) + おねがいします ('por favor pido'). Estructura cortés estándar.",
     "opts": [
-      "注文を おねがいします。",
-      "注文は おねがいします。",
-      "注文で おねがいします。",
-      "注文が おねがいします。"
+      {"text": "注文を おねがいします。", "correct": true, "reason": "Correcta. を marca el objeto directo de おねがいします."},
+      {"text": "注文は おねがいします。", "correct": false, "reason": "は marca tema, no objeto directo de petición. Con おねがいします se usa を."},
+      {"text": "注文で おねがいします。", "correct": false, "reason": "で marca medio/lugar de acción, no el objeto pedido."},
+      {"text": "注文が おねがいします。", "correct": false, "reason": "が marca sujeto enfático, no objeto directo."}
     ]
   },
   {
@@ -16,11 +17,12 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 注文?",
     "correct": "ちゅうもん",
+    "explanation": "注 (ちゅう, 'verter/foco') + 文 (もん, 'escrito/texto') = ちゅうもん, 'pedido/orden'.",
     "opts": [
-      "ちゅうもん",
-      "じゅうもん",
-      "ちゅもん",
-      "しゅうもん"
+      {"text": "ちゅうもん", "correct": true, "reason": "Correcta. On'yomi estándar."},
+      {"text": "じゅうもん", "correct": false, "reason": "注 se lee ちゅう (sin dakuten). じゅう es lectura de 十 (diez) o 重 (pesado)."},
+      {"text": "ちゅもん", "correct": false, "reason": "Falta la vocal larga: ちゅう (con う), no ちゅ."},
+      {"text": "しゅうもん", "correct": false, "reason": "しゅう no es lectura de 注; es lectura de 週 ('semana') o 集 ('colectar')."}
     ]
   },
   {
@@ -28,11 +30,12 @@
     "cat": "Contadores",
     "q": "¿Cómo se dice 'uno' (contador general ~つ)?",
     "correct": "ひとつ",
+    "explanation": "ひとつ es la lectura nativa de '1' con el contador genérico つ. Se usa para objetos no-clasificados (comida, cosas en general).",
     "opts": [
-      "ひとつ",
-      "いちつ",
-      "ひとり",
-      "いっつ"
+      {"text": "ひとつ", "correct": true, "reason": "Correcta. Lectura nativa estándar."},
+      {"text": "いちつ", "correct": false, "reason": "El contador つ usa lecturas NATIVAS (ひと, ふた, み...), no las chinas (いち, に, さん...)."},
+      {"text": "ひとり", "correct": false, "reason": "ひとり es contador específico para PERSONAS (1人), no objetos."},
+      {"text": "いっつ", "correct": false, "reason": "Lectura inventada; el sokuon no aplica con いち+つ porque つ no se combina con números chinos."}
     ]
   },
   {
@@ -40,11 +43,12 @@
     "cat": "Contadores",
     "q": "¿Cómo se dice 'dos' (contador ~つ)?",
     "correct": "ふたつ",
+    "explanation": "ふたつ es la lectura nativa de '2' con つ. Sigue el patrón de números nativos en este contador.",
     "opts": [
-      "ふたつ",
-      "にっつ",
-      "ふたり",
-      "につ"
+      {"text": "ふたつ", "correct": true, "reason": "Correcta. Lectura nativa estándar."},
+      {"text": "にっつ", "correct": false, "reason": "に es lectura china; el contador つ requiere lecturas nativas (ふた)."},
+      {"text": "ふたり", "correct": false, "reason": "ふたり es contador para PERSONAS (2人), no objetos."},
+      {"text": "につ", "correct": false, "reason": "に + つ no se combina; el contador requiere ふた."}
     ]
   },
   {
@@ -52,11 +56,12 @@
     "cat": "Contadores",
     "q": "¿Cómo se dice 'tres' (contador ~つ)?",
     "correct": "みっつ",
+    "explanation": "みっつ usa la lectura nativa み + sokuon + つ. El sokuon es típico en este contador para 3, 4, 6, 8.",
     "opts": [
-      "みっつ",
-      "さんつ",
-      "みつ",
-      "さっつ"
+      {"text": "みっつ", "correct": true, "reason": "Correcta. Lectura nativa con sokuon."},
+      {"text": "さんつ", "correct": false, "reason": "さん es lectura china; el contador つ requiere nativa (み)."},
+      {"text": "みつ", "correct": false, "reason": "Falta el sokuon: la lectura correcta es みっつ con っ."},
+      {"text": "さっつ", "correct": false, "reason": "さん no se combina con sokuon en este contador."}
     ]
   },
   {
@@ -64,11 +69,12 @@
     "cat": "Contadores",
     "q": "¿Cómo se dice 'cuatro' (contador ~つ)?",
     "correct": "よっつ",
+    "explanation": "よっつ usa la lectura nativa よ + sokuon + つ. El sokuon es obligatorio.",
     "opts": [
-      "よっつ",
-      "よんつ",
-      "しつ",
-      "よつ"
+      {"text": "よっつ", "correct": true, "reason": "Correcta. Lectura nativa con sokuon."},
+      {"text": "よんつ", "correct": false, "reason": "よん es lectura china moderna; el contador requiere la nativa よ + sokuon."},
+      {"text": "しつ", "correct": false, "reason": "し es lectura china; con つ se usa la nativa よ."},
+      {"text": "よつ", "correct": false, "reason": "Falta el sokuon: la lectura correcta es よっつ con っ."}
     ]
   },
   {
@@ -76,11 +82,12 @@
     "cat": "Contadores",
     "q": "¿Cómo se dice 'cinco' (contador ~つ)?",
     "correct": "いつつ",
+    "explanation": "いつつ usa la lectura nativa いつ + つ. Sin sokuon adicional (el つ ya está repetido).",
     "opts": [
-      "いつつ",
-      "ごつ",
-      "いっつ",
-      "ごっつ"
+      {"text": "いつつ", "correct": true, "reason": "Correcta. Lectura nativa estándar."},
+      {"text": "ごつ", "correct": false, "reason": "ご es lectura china; con つ se usa la nativa いつ."},
+      {"text": "いっつ", "correct": false, "reason": "Lectura inventada; el patrón correcto es いつつ con i nicial larga."},
+      {"text": "ごっつ", "correct": false, "reason": "ご no se combina con sokuon en este contador."}
     ]
   },
   {
@@ -88,11 +95,12 @@
     "cat": "Contadores",
     "q": "¿Cómo se dice 'seis' (contador ~つ)?",
     "correct": "むっつ",
+    "explanation": "むっつ usa la lectura nativa む + sokuon + つ.",
     "opts": [
-      "むっつ",
-      "ろくつ",
-      "むつ",
-      "ろっつ"
+      {"text": "むっつ", "correct": true, "reason": "Correcta. Lectura nativa con sokuon."},
+      {"text": "ろくつ", "correct": false, "reason": "ろく es lectura china; con つ se usa la nativa む + sokuon."},
+      {"text": "むつ", "correct": false, "reason": "Falta el sokuon: la lectura correcta es むっつ con っ."},
+      {"text": "ろっつ", "correct": false, "reason": "ろく no se combina con sokuon en este contador."}
     ]
   },
   {
@@ -100,11 +108,12 @@
     "cat": "Contadores",
     "q": "¿Cómo se dice 'siete' (contador ~つ)?",
     "correct": "ななつ",
+    "explanation": "ななつ usa la lectura nativa なな + つ. Sin sokuon (notable excepción).",
     "opts": [
-      "ななつ",
-      "しちつ",
-      "なっつ",
-      "ななっつ"
+      {"text": "ななつ", "correct": true, "reason": "Correcta. Lectura nativa SIN sokuon."},
+      {"text": "しちつ", "correct": false, "reason": "しち es lectura china; con つ se usa la nativa なな."},
+      {"text": "なっつ", "correct": false, "reason": "El sokuon NO aplica con なな en este contador."},
+      {"text": "ななっつ", "correct": false, "reason": "El sokuon NO se inserta en ななつ; es lectura plana."}
     ]
   },
   {
@@ -112,11 +121,12 @@
     "cat": "Contadores",
     "q": "¿Cómo se dice 'ocho' (contador ~つ)?",
     "correct": "やっつ",
+    "explanation": "やっつ usa la lectura nativa や + sokuon + つ.",
     "opts": [
-      "やっつ",
-      "はちつ",
-      "やつ",
-      "はっつ"
+      {"text": "やっつ", "correct": true, "reason": "Correcta. Lectura nativa con sokuon."},
+      {"text": "はちつ", "correct": false, "reason": "はち es lectura china; con つ se usa la nativa や + sokuon."},
+      {"text": "やつ", "correct": false, "reason": "Falta el sokuon: la lectura correcta es やっつ con っ."},
+      {"text": "はっつ", "correct": false, "reason": "はち + sokuon no se usa en este contador; se usa や + っ."}
     ]
   },
   {
@@ -124,11 +134,12 @@
     "cat": "Contadores",
     "q": "¿Cómo se dice 'nueve' (contador ~つ)?",
     "correct": "ここのつ",
+    "explanation": "ここのつ usa la lectura nativa ここの + つ. Es el más largo del set y único en su forma.",
     "opts": [
-      "ここのつ",
-      "きゅうつ",
-      "くつ",
-      "ここつ"
+      {"text": "ここのつ", "correct": true, "reason": "Correcta. Lectura nativa especial."},
+      {"text": "きゅうつ", "correct": false, "reason": "きゅう es lectura china; con つ se usa la nativa ここの."},
+      {"text": "くつ", "correct": false, "reason": "くつ es '靴' (zapato), palabra distinta. La lectura nativa es ここの, no く."},
+      {"text": "ここつ", "correct": false, "reason": "Falta una sílaba: la lectura completa es ここのつ con の."}
     ]
   },
   {
@@ -136,11 +147,12 @@
     "cat": "Contadores",
     "q": "El contador ~つ llega hasta el 10. ¿Cómo se dice '10'?",
     "correct": "とお",
+    "explanation": "とお (十) es la única lectura nativa del 10 que se usa SIN つ. A partir del 11 se usa el contador 個 (こ) o números chinos.",
     "opts": [
-      "とお",
-      "じゅうつ",
-      "とっつ",
-      "じゅう"
+      {"text": "とお", "correct": true, "reason": "Correcta. Lectura nativa especial."},
+      {"text": "じゅうつ", "correct": false, "reason": "じゅう + つ no se usa: la lectura nativa de 10 es とお (sin つ)."},
+      {"text": "とっつ", "correct": false, "reason": "El sokuon no aplica; la forma correcta es とお plana."},
+      {"text": "じゅう", "correct": false, "reason": "じゅう es lectura china; el contador nativo termina en とお (sin つ)."}
     ]
   },
   {
@@ -148,11 +160,12 @@
     "cat": "Contadores",
     "q": "¿Cuántos elementos hay en la secuencia ひとつ、ふたつ、みっつ…?",
     "correct": "10 (de 1 a 10)",
+    "explanation": "El contador nativo つ va del 1 al 10: ひとつ, ふたつ, みっつ, よっつ, いつつ, むっつ, ななつ, やっつ, ここのつ, とお. Para 11+ se usa 個 (こ) u otros contadores.",
     "opts": [
-      "10 (de 1 a 10)",
-      "9 (termina en 9)",
-      "Ilimitado",
-      "5 (termina en いつつ)"
+      {"text": "10 (de 1 a 10)", "correct": true, "reason": "Correcta. Sistema completo del 1 al 10."},
+      {"text": "9 (termina en 9)", "correct": false, "reason": "Falso: incluye también el 10 (とお)."},
+      {"text": "Ilimitado", "correct": false, "reason": "Falso: el sistema solo cubre 1-10."},
+      {"text": "5 (termina en いつつ)", "correct": false, "reason": "Falso: continúa hasta el 10."}
     ]
   },
   {
@@ -160,11 +173,12 @@
     "cat": "Vocabulario",
     "q": "¿Cómo se pregunta 'cuántos' (en general, con ~つ)?",
     "correct": "いくつ",
+    "explanation": "いくつ es el interrogativo de cantidad para el contador nativo つ. También puede preguntar la edad de niños.",
     "opts": [
-      "いくつ",
-      "いくら",
-      "なんつ",
-      "どれ"
+      {"text": "いくつ", "correct": true, "reason": "Correcta. Interrogativo de cantidad genérica."},
+      {"text": "いくら", "correct": false, "reason": "いくら es '¿cuánto?' (precio), no cantidad de objetos."},
+      {"text": "なんつ", "correct": false, "reason": "なん + つ no se usa; el interrogativo del contador つ es いくつ."},
+      {"text": "どれ", "correct": false, "reason": "どれ es '¿cuál de varios?', no '¿cuántos?'."}
     ]
   },
   {
@@ -172,11 +186,12 @@
     "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre いくら y いくつ?",
     "correct": "いくら = cuánto (precio); いくつ = cuántos (cantidad)",
+    "explanation": "いくら pregunta sobre VALOR monetario; いくつ pregunta sobre CANTIDAD de objetos (con contador つ) o edad de niños.",
     "opts": [
-      "いくら = cuánto (precio); いくつ = cuántos (cantidad)",
-      "いくら = cuántos; いくつ = cuánto",
-      "Son intercambiables",
-      "いくら es formal; いくつ es casual"
+      {"text": "いくら = cuánto (precio); いくつ = cuántos (cantidad)", "correct": true, "reason": "Correcta. Distinción funcional clave."},
+      {"text": "いくら = cuántos; いくつ = cuánto", "correct": false, "reason": "Invertido."},
+      {"text": "Son intercambiables", "correct": false, "reason": "Tienen funciones diferentes y no son intercambiables."},
+      {"text": "いくら es formal; いくつ es casual", "correct": false, "reason": "No es cuestión de formalidad sino de tipo de pregunta (precio vs. cantidad)."}
     ]
   },
   {
@@ -184,11 +199,12 @@
     "cat": "Gramática",
     "q": "¿Cuál es el orden correcto al pedir '3 cafés'?",
     "correct": "コーヒーを みっつ ください。",
+    "explanation": "Orden estándar: [objeto]を [cantidad] ください. La cantidad va ENTRE la partícula を y ください, sin partícula propia.",
     "opts": [
-      "コーヒーを みっつ ください。",
-      "みっつ コーヒーを ください。",
-      "コーヒーは みっつ ください。",
-      "コーヒー みっつ を ください。"
+      {"text": "コーヒーを みっつ ください。", "correct": true, "reason": "Correcta. Orden canónico de pedido."},
+      {"text": "みっつ コーヒーを ください。", "correct": false, "reason": "La cantidad va DESPUÉS de la partícula を, no antes del sustantivo."},
+      {"text": "コーヒーは みっつ ください。", "correct": false, "reason": "は marca tema, no objeto. Con ください se usa を."},
+      {"text": "コーヒー みっつ を ください。", "correct": false, "reason": "Sin partícula を después de コーヒー la estructura está rota; を no va antes de ください."}
     ]
   },
   {
@@ -196,11 +212,12 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 料理?",
     "correct": "りょうり",
+    "explanation": "料 (りょう) + 理 (り) = りょうり. Atención a la vocal larga ょう.",
     "opts": [
-      "りょうり",
-      "りょり",
-      "りょうじ",
-      "りょうし"
+      {"text": "りょうり", "correct": true, "reason": "Correcta. On'yomi con vocal larga."},
+      {"text": "りょり", "correct": false, "reason": "Falta la vocal larga: りょう (con う), no りょ."},
+      {"text": "りょうじ", "correct": false, "reason": "理 no toma rendaku (り → じ) en esta palabra."},
+      {"text": "りょうし", "correct": false, "reason": "し no es lectura de 理; es lectura de otros kanji (士, 子...)."}
     ]
   },
   {
@@ -208,11 +225,12 @@
     "cat": "Vocabulario",
     "q": "¿Qué significa 料理 (りょうり)?",
     "correct": "Comida / plato / cocina",
+    "explanation": "料理 cubre tanto la actividad ('cocinar') como el resultado ('plato/comida'). Polisemia natural en japonés.",
     "opts": [
-      "Comida / plato / cocina",
-      "Restaurante",
-      "Chef",
-      "Receta"
+      {"text": "Comida / plato / cocina", "correct": true, "reason": "Correcta. Significado polisémico estándar."},
+      {"text": "Restaurante", "correct": false, "reason": "'Restaurante' es レストラン o 食堂. 料理 es la comida en sí."},
+      {"text": "Chef", "correct": false, "reason": "'Chef' es 料理人 (りょうりにん) o シェフ. 料理 es lo que produce, no la persona."},
+      {"text": "Receta", "correct": false, "reason": "'Receta' es レシピ o 料理法 (りょうりほう). 料理 es más amplio."}
     ]
   },
   {
@@ -220,11 +238,12 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 豚肉?",
     "correct": "ぶたにく",
+    "explanation": "豚 (ぶた, 'cerdo' kun'yomi) + 肉 (にく, 'carne' on'yomi) = ぶたにく. Mezcla nativa+china típica de carnes.",
     "opts": [
-      "ぶたにく",
-      "ぶたじく",
-      "ぶたしし",
-      "とんにく"
+      {"text": "ぶたにく", "correct": true, "reason": "Correcta. Combinación nativa+on'yomi."},
+      {"text": "ぶたじく", "correct": false, "reason": "肉 no toma rendaku (にく → じく) en esta palabra."},
+      {"text": "ぶたしし", "correct": false, "reason": "しし es lectura arcaica/poética de 肉, no se usa en compuestos modernos."},
+      {"text": "とんにく", "correct": false, "reason": "とん es la on'yomi de 豚 (ej. とんかつ), pero en 豚肉 se usa la kun'yomi ぶた."}
     ]
   },
   {
@@ -232,11 +251,12 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 鶏肉?",
     "correct": "とりにく",
+    "explanation": "鶏 (とり, 'pollo/ave' kun'yomi) + 肉 (にく) = とりにく. Aunque hay otra lectura けいにく (formal/escrito), la cotidiana es とりにく.",
     "opts": [
-      "とりにく",
-      "けいにく",
-      "とりじく",
-      "とりしし"
+      {"text": "とりにく", "correct": true, "reason": "Correcta. Lectura cotidiana."},
+      {"text": "けいにく", "correct": false, "reason": "Aunque けいにく existe en menús formales, la lectura cotidiana es とりにく."},
+      {"text": "とりじく", "correct": false, "reason": "肉 no toma rendaku (にく → じく) en esta palabra."},
+      {"text": "とりしし", "correct": false, "reason": "しし es arcaico, no se usa en lenguaje moderno."}
     ]
   },
   {
@@ -244,11 +264,12 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 牛肉?",
     "correct": "ぎゅうにく",
+    "explanation": "牛 (ぎゅう, on'yomi) + 肉 (にく) = ぎゅうにく. Acá se usa la on'yomi de 牛 (no la kun'yomi うし).",
     "opts": [
-      "ぎゅうにく",
-      "うしにく",
-      "ぎゅにく",
-      "ぎゅうじく"
+      {"text": "ぎゅうにく", "correct": true, "reason": "Correcta. On'yomi del primer kanji."},
+      {"text": "うしにく", "correct": false, "reason": "うし es la kun'yomi de 牛 cuando va sola; en compuestos como 牛肉 se usa ぎゅう."},
+      {"text": "ぎゅにく", "correct": false, "reason": "Falta la vocal larga: ぎゅう (con う), no ぎゅ."},
+      {"text": "ぎゅうじく", "correct": false, "reason": "肉 no toma rendaku (にく → じく) en esta palabra."}
     ]
   },
   {
@@ -256,11 +277,12 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 豚肉?",
     "correct": "Carne de cerdo",
+    "explanation": "豚 ('cerdo') + 肉 ('carne') = literal carne de cerdo, traducción directa.",
     "opts": [
-      "Carne de cerdo",
-      "Carne de vaca",
-      "Carne de pollo",
-      "Carne de cordero"
+      {"text": "Carne de cerdo", "correct": true, "reason": "Correcta. Análisis literal."},
+      {"text": "Carne de vaca", "correct": false, "reason": "'Carne de vaca' es 牛肉 (ぎゅうにく). 豚 es cerdo."},
+      {"text": "Carne de pollo", "correct": false, "reason": "'Carne de pollo' es 鶏肉 (とりにく). 豚 es cerdo."},
+      {"text": "Carne de cordero", "correct": false, "reason": "'Carne de cordero' es 羊肉 (ようにく) o ラム. 豚 es cerdo."}
     ]
   },
   {
@@ -268,11 +290,12 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 鶏肉?",
     "correct": "Carne de pollo",
+    "explanation": "鶏 ('pollo/gallina') + 肉 ('carne') = carne de pollo.",
     "opts": [
-      "Carne de pollo",
-      "Carne de cerdo",
-      "Carne de pescado",
-      "Pato"
+      {"text": "Carne de pollo", "correct": true, "reason": "Correcta. Análisis literal."},
+      {"text": "Carne de cerdo", "correct": false, "reason": "'Carne de cerdo' es 豚肉 (ぶたにく)."},
+      {"text": "Carne de pescado", "correct": false, "reason": "'Pescado' es 魚 (さかな). 鶏 es ave."},
+      {"text": "Pato", "correct": false, "reason": "'Pato' es 鴨 (かも) o カモ. 鶏 es específicamente pollo/gallina."}
     ]
   },
   {
@@ -280,11 +303,12 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 牛肉?",
     "correct": "Carne vacuna / de res",
+    "explanation": "牛 ('vaca/buey') + 肉 ('carne') = carne vacuna.",
     "opts": [
-      "Carne vacuna / de res",
-      "Carne de cerdo",
-      "Carne de cordero",
-      "Carne de pollo"
+      {"text": "Carne vacuna / de res", "correct": true, "reason": "Correcta. Análisis literal."},
+      {"text": "Carne de cerdo", "correct": false, "reason": "'Carne de cerdo' es 豚肉 (ぶたにく)."},
+      {"text": "Carne de cordero", "correct": false, "reason": "'Carne de cordero' es 羊肉. 牛 es vaca."},
+      {"text": "Carne de pollo", "correct": false, "reason": "'Carne de pollo' es 鶏肉."}
     ]
   },
   {
@@ -292,11 +316,12 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 野菜?",
     "correct": "やさい",
+    "explanation": "野 (や, 'campo') + 菜 (さい, 'verdura') = やさい, 'verdura/vegetal'.",
     "opts": [
-      "やさい",
-      "やさん",
-      "のさい",
-      "のやさ"
+      {"text": "やさい", "correct": true, "reason": "Correcta. On'yomi estándar."},
+      {"text": "やさん", "correct": false, "reason": "ん no es la sílaba final de 菜. La lectura es さい."},
+      {"text": "のさい", "correct": false, "reason": "の es la kun'yomi de 野; en 野菜 se usa la on'yomi や."},
+      {"text": "のやさ", "correct": false, "reason": "Lectura inventada y orden incorrecto."}
     ]
   },
   {
@@ -304,11 +329,12 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 野菜?",
     "correct": "Verdura / vegetal",
+    "explanation": "野菜 designa cualquier vegetal comestible (zanahorias, lechuga, etc.). Distinto de 果物 (frutas).",
     "opts": [
-      "Verdura / vegetal",
-      "Fruta",
-      "Ensalada",
-      "Campo"
+      {"text": "Verdura / vegetal", "correct": true, "reason": "Correcta. Categoría general de vegetales."},
+      {"text": "Fruta", "correct": false, "reason": "'Fruta' es 果物 (くだもの). Categoría diferente."},
+      {"text": "Ensalada", "correct": false, "reason": "'Ensalada' es サラダ. 野菜 es la materia prima."},
+      {"text": "Campo", "correct": false, "reason": "'Campo' es 野原 (のはら) o 田 (た). 野菜 es lo que se cultiva, no el lugar."}
     ]
   },
   {
@@ -316,11 +342,12 @@
     "cat": "Katakana",
     "q": "¿Qué significa イチゴ?",
     "correct": "Frutilla / fresa",
+    "explanation": "イチゴ (también 苺 en kanji) es la frutilla/fresa. La escritura en katakana es común para nombres de frutas.",
     "opts": [
-      "Frutilla / fresa",
-      "Manzana",
-      "Cereza",
-      "Uva"
+      {"text": "Frutilla / fresa", "correct": true, "reason": "Correcta. Significado estándar."},
+      {"text": "Manzana", "correct": false, "reason": "'Manzana' es リンゴ."},
+      {"text": "Cereza", "correct": false, "reason": "'Cereza' es さくらんぼ o チェリー."},
+      {"text": "Uva", "correct": false, "reason": "'Uva' es ぶどう."}
     ]
   },
   {
@@ -328,11 +355,12 @@
     "cat": "Katakana",
     "q": "¿Qué significa リンゴ?",
     "correct": "Manzana",
+    "explanation": "リンゴ (también 林檎 en kanji) es la manzana. Se escribe frecuentemente en katakana.",
     "opts": [
-      "Manzana",
-      "Pera",
-      "Naranja",
-      "Limón"
+      {"text": "Manzana", "correct": true, "reason": "Correcta. Significado estándar."},
+      {"text": "Pera", "correct": false, "reason": "'Pera' es 梨 (なし)."},
+      {"text": "Naranja", "correct": false, "reason": "'Naranja' es オレンジ o みかん (mandarina)."},
+      {"text": "Limón", "correct": false, "reason": "'Limón' es レモン."}
     ]
   },
   {
@@ -340,11 +368,12 @@
     "cat": "Katakana",
     "q": "¿Qué significa とんかつ?",
     "correct": "Milanesa de cerdo empanizada",
+    "explanation": "とんかつ combina とん (豚, 'cerdo') + カツ (de カツレツ 'cutlet'). Es un plato icónico japonés: chuleta de cerdo empanada y frita.",
     "opts": [
-      "Milanesa de cerdo empanizada",
-      "Sopa de cerdo",
-      "Saltado de cerdo",
-      "Carne picada de cerdo"
+      {"text": "Milanesa de cerdo empanizada", "correct": true, "reason": "Correcta. Plato típico."},
+      {"text": "Sopa de cerdo", "correct": false, "reason": "'Sopa de cerdo' sería 豚汁 (とんじる) o ポーク スープ. とんかつ es frita."},
+      {"text": "Saltado de cerdo", "correct": false, "reason": "Saltado sería 豚肉炒め (ぶたにくいため). とんかつ es empanizada y frita."},
+      {"text": "Carne picada de cerdo", "correct": false, "reason": "Carne picada es ひき肉 o 豚ひき肉. とんかつ es chuleta entera empanada."}
     ]
   },
   {
@@ -352,11 +381,12 @@
     "cat": "Katakana",
     "q": "¿Qué significa ハンバーグ?",
     "correct": "Hamburguesa (sin pan, estilo japonés)",
+    "explanation": "ハンバーグ es la 'hamburguesa estilo japonés': un disco de carne molida sazonada, servido en plato (no en pan). Para la versión con pan se usa ハンバーガー.",
     "opts": [
-      "Hamburguesa (sin pan, estilo japonés)",
-      "Hamburguesa con pan",
-      "Salchicha",
-      "Carne molida cruda"
+      {"text": "Hamburguesa (sin pan, estilo japonés)", "correct": true, "reason": "Correcta. Distinción importante con ハンバーガー."},
+      {"text": "Hamburguesa con pan", "correct": false, "reason": "'Hamburguesa con pan' es ハンバーガー (con ガー final). ハンバーグ es solo la carne."},
+      {"text": "Salchicha", "correct": false, "reason": "'Salchicha' es ソーセージ."},
+      {"text": "Carne molida cruda", "correct": false, "reason": "'Carne molida cruda' es ひき肉. ハンバーグ está cocinada y formada."}
     ]
   },
   {
@@ -364,11 +394,12 @@
     "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre ご飯 y ライス?",
     "correct": "ご飯 = arroz japonés (en bowl); ライス = arroz occidental (en plato)",
+    "explanation": "ご飯 (gohan) es el arroz japonés tradicional servido en お茶碗 (bowl). ライス (rice) es el arroz servido en plato, típico en restaurantes occidentales (curry, omurice).",
     "opts": [
-      "ご飯 = arroz japonés (en bowl); ライス = arroz occidental (en plato)",
-      "Son lo mismo, solo distintas escrituras",
-      "ご飯 es arroz crudo; ライス es cocido",
-      "ご飯 es formal; ライス es casual"
+      {"text": "ご飯 = arroz japonés (en bowl); ライス = arroz occidental (en plato)", "correct": true, "reason": "Correcta. Distinción cultural-estilística."},
+      {"text": "Son lo mismo, solo distintas escrituras", "correct": false, "reason": "Tienen connotaciones de presentación distintas."},
+      {"text": "ご飯 es arroz crudo; ライス es cocido", "correct": false, "reason": "Ambos son arroz cocido. El crudo es 米 (こめ)."},
+      {"text": "ご飯 es formal; ライス es casual", "correct": false, "reason": "No es cuestión de formalidad sino de presentación cultural."}
     ]
   },
   {
@@ -376,11 +407,12 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa ご飯 (ごはん)?",
     "correct": "Arroz cocido / comida",
+    "explanation": "ご飯 puede significar específicamente 'arroz cocido' (servido en bowl) o por extensión 'comida/comida principal' (朝ご飯 desayuno, 夜ご飯 cena).",
     "opts": [
-      "Arroz cocido / comida",
-      "Arroz crudo",
-      "Curry",
-      "Sopa"
+      {"text": "Arroz cocido / comida", "correct": true, "reason": "Correcta. Significado polisémico común."},
+      {"text": "Arroz crudo", "correct": false, "reason": "'Arroz crudo (grano)' es 米 (こめ). ご飯 es ya cocido."},
+      {"text": "Curry", "correct": false, "reason": "'Curry' es カレー. ご飯 acompaña al curry, no es curry."},
+      {"text": "Sopa", "correct": false, "reason": "'Sopa' es スープ o 汁 (しる). Distinto."}
     ]
   },
   {
@@ -388,11 +420,12 @@
     "cat": "Vocabulario",
     "q": "¿Qué significa 紅茶 (こうちゃ)?",
     "correct": "Té negro",
+    "explanation": "紅 (こう, 'rojo carmesí') + 茶 (ちゃ, 'té') = 'té rojo' = té negro estilo occidental. Diferente del té verde japonés (お茶/緑茶).",
     "opts": [
-      "Té negro",
-      "Té verde",
-      "Té rojo chino",
-      "Café"
+      {"text": "Té negro", "correct": true, "reason": "Correcta. Té estilo occidental."},
+      {"text": "Té verde", "correct": false, "reason": "'Té verde' es 緑茶 (りょくちゃ) u お茶."},
+      {"text": "Té rojo chino", "correct": false, "reason": "Aunque literal '紅' es 'rojo', en japonés 紅茶 designa específicamente el té negro tipo inglés/europeo."},
+      {"text": "Café", "correct": false, "reason": "'Café' es コーヒー. 茶 marca que es té."}
     ]
   },
   {
@@ -400,11 +433,12 @@
     "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre 紅茶 y お茶?",
     "correct": "紅茶 = té negro; お茶 = té verde japonés",
+    "explanation": "Por defecto, お茶 (con o sin honorífico) refiere al té verde japonés. 紅茶 es específicamente el té negro estilo occidental.",
     "opts": [
-      "紅茶 = té negro; お茶 = té verde japonés",
-      "Son lo mismo",
-      "紅茶 es caliente; お茶 es frío",
-      "紅茶 es formal; お茶 es casual"
+      {"text": "紅茶 = té negro; お茶 = té verde japonés", "correct": true, "reason": "Correcta. Distinción cultural por defecto."},
+      {"text": "Son lo mismo", "correct": false, "reason": "Son tipos de té muy distintos en sabor, color y origen."},
+      {"text": "紅茶 es caliente; お茶 es frío", "correct": false, "reason": "Ambos pueden tomarse calientes o fríos. La diferencia es de tipo."},
+      {"text": "紅茶 es formal; お茶 es casual", "correct": false, "reason": "No es cuestión de formalidad."}
     ]
   },
   {
@@ -412,11 +446,12 @@
     "cat": "Vocabulario",
     "q": "¿Qué significa ジュース?",
     "correct": "Jugo",
+    "explanation": "ジュース viene del inglés 'juice'. En Japón cubre jugos naturales y, ampliado coloquialmente, también gaseosas (aunque puristas lo distinguen).",
     "opts": [
-      "Jugo",
-      "Agua",
-      "Gaseosa",
-      "Licuado"
+      {"text": "Jugo", "correct": true, "reason": "Correcta. Préstamo estándar."},
+      {"text": "Agua", "correct": false, "reason": "'Agua' es 水 (みず) o ウォーター."},
+      {"text": "Gaseosa", "correct": false, "reason": "'Gaseosa' es 炭酸飲料 (たんさんいんりょう) o ソーダ. ジュース es el jugo."},
+      {"text": "Licuado", "correct": false, "reason": "'Licuado' es スムージー o ミルクセーキ. ジュース es jugo simple."}
     ]
   },
   {
@@ -424,11 +459,12 @@
     "cat": "Vocabulario",
     "q": "¿Qué significa ビール?",
     "correct": "Cerveza",
+    "explanation": "ビール viene del holandés 'bier'. Es uno de los préstamos más antiguos en katakana.",
     "opts": [
-      "Cerveza",
-      "Vino",
-      "Licor",
-      "Sake"
+      {"text": "Cerveza", "correct": true, "reason": "Correcta. Préstamo del holandés."},
+      {"text": "Vino", "correct": false, "reason": "'Vino' es ワイン."},
+      {"text": "Licor", "correct": false, "reason": "'Licor (genérico)' es お酒 (おさけ) o 酒類. ビール es específicamente cerveza."},
+      {"text": "Sake", "correct": false, "reason": "'Sake' es 日本酒 (にほんしゅ) o お酒."}
     ]
   },
   {
@@ -436,11 +472,12 @@
     "cat": "Vocabulario",
     "q": "¿Qué significa ワイン?",
     "correct": "Vino",
+    "explanation": "ワイン viene del inglés 'wine'. Designa al vino de uva tanto tinto como blanco.",
     "opts": [
-      "Vino",
-      "Whisky",
-      "Cerveza",
-      "Champagne"
+      {"text": "Vino", "correct": true, "reason": "Correcta. Préstamo estándar."},
+      {"text": "Whisky", "correct": false, "reason": "'Whisky' es ウイスキー."},
+      {"text": "Cerveza", "correct": false, "reason": "'Cerveza' es ビール."},
+      {"text": "Champagne", "correct": false, "reason": "'Champagne' es シャンパン."}
     ]
   },
   {
@@ -448,11 +485,12 @@
     "cat": "Gramática",
     "q": "Ves un plato que no reconocés. ¿Cómo preguntás '¿Qué tipo de comida es esto?'?",
     "correct": "これは 何の料理ですか。",
+    "explanation": "Para preguntar el TIPO de algo se usa 何の + sustantivo. 何の料理 = '¿qué tipo de comida?'.",
     "opts": [
-      "これは 何の料理ですか。",
-      "これは 料理ですか。",
-      "これは 何料理ですか。",
-      "これは どの料理ですか。"
+      {"text": "これは 何の料理ですか。", "correct": true, "reason": "Correcta. 何の + 料理 = '¿qué tipo de comida?'."},
+      {"text": "これは 料理ですか。", "correct": false, "reason": "Pregunta '¿es comida?' (sí/no), no '¿qué tipo?'."},
+      {"text": "これは 何料理ですか。", "correct": false, "reason": "Sin の la combinación es agramatical para preguntar tipo."},
+      {"text": "これは どの料理ですか。", "correct": false, "reason": "どの = '¿cuál (de varias opciones)?'. Requiere opciones visibles, no pregunta tipo."}
     ]
   },
   {
@@ -460,11 +498,12 @@
     "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre 何 y 何の?",
     "correct": "何 = qué (solo); 何の + N = qué tipo de N",
+    "explanation": "何 va solo y pregunta '¿qué?'. 何の + sustantivo pregunta el TIPO/CATEGORÍA del sustantivo.",
     "opts": [
-      "何 = qué (solo); 何の + N = qué tipo de N",
-      "何 es formal; 何の es casual",
-      "Son intercambiables",
-      "何 pregunta por personas; 何の por cosas"
+      {"text": "何 = qué (solo); 何の + N = qué tipo de N", "correct": true, "reason": "Correcta. Distinción funcional clara."},
+      {"text": "何 es formal; 何の es casual", "correct": false, "reason": "No es cuestión de formalidad sino de función gramatical."},
+      {"text": "Son intercambiables", "correct": false, "reason": "Tienen funciones distintas y posiciones distintas."},
+      {"text": "何 pregunta por personas; 何の por cosas", "correct": false, "reason": "Falso: 何 nunca pregunta por personas (eso es だれ). Ambos preguntan por cosas/conceptos."}
     ]
   },
   {
@@ -472,11 +511,12 @@
     "cat": "Gramática",
     "q": "Querés preguntar '¿De qué país es este curry?'. Decís:",
     "correct": "これは どこのカレーですか。",
+    "explanation": "Para preguntar origen geográfico se usa どこの + sustantivo: '¿de dónde es?'. La partícula の indica origen/pertenencia.",
     "opts": [
-      "これは どこのカレーですか。",
-      "これは どこカレーですか。",
-      "これは 何のカレーですか。",
-      "これは だれのカレーですか。"
+      {"text": "これは どこのカレーですか。", "correct": true, "reason": "Correcta. どこの (de dónde) + sustantivo."},
+      {"text": "これは どこカレーですか。", "correct": false, "reason": "Falta la partícula の: どこ + の + sustantivo."},
+      {"text": "これは 何のカレーですか。", "correct": false, "reason": "何の pregunta tipo/ingrediente, no origen geográfico. Para origen es どこの."},
+      {"text": "これは だれのカレーですか。", "correct": false, "reason": "だれの = '¿de quién?' (posesión personal). Para origen geográfico es どこの."}
     ]
   },
   {
@@ -484,11 +524,12 @@
     "cat": "Diálogo",
     "q": "A: これは どこのカレーですか。 B: ___. (Respuesta: Curry de India)",
     "correct": "インドのカレーです。",
+    "explanation": "Estructura de respuesta paralela a la pregunta: [origen]の + sustantivo + です. インド + の + カレー = 'curry de India'.",
     "opts": [
-      "インドのカレーです。",
-      "インドカレーです。",
-      "インドで カレーです。",
-      "インドから カレーです。"
+      {"text": "インドのカレーです。", "correct": true, "reason": "Correcta. Patrón [origen]のN."},
+      {"text": "インドカレーです。", "correct": false, "reason": "Aunque entendible como compuesto, en respuesta a どこの la fórmula natural lleva の: インドのカレーです."},
+      {"text": "インドで カレーです。", "correct": false, "reason": "で marca lugar de acción ('en India [se hace]'), pero acá no hay verbo de acción."},
+      {"text": "インドから カレーです。", "correct": false, "reason": "から marca origen pero requeriría verbo (来ます). Para origen como modificador se usa の."}
     ]
   },
   {
@@ -496,11 +537,12 @@
     "cat": "Gramática",
     "q": "¿Cómo se pregunta '¿Cómo se dice ~ en inglés?'?",
     "correct": "~は 英語で 何ですか。",
+    "explanation": "Estructura: [palabra]は + 英語で (en inglés, partícula で de medio) + 何ですか. La partícula で indica el idioma como medio.",
     "opts": [
-      "~は 英語で 何ですか。",
-      "~は 英語の 何ですか。",
-      "~は 英語に 何ですか。",
-      "英語で ~は 何ですか。"
+      {"text": "~は 英語で 何ですか。", "correct": true, "reason": "Correcta. で indica el idioma como medio."},
+      {"text": "~は 英語の 何ですか。", "correct": false, "reason": "の conecta sustantivos como modificador, no como medio."},
+      {"text": "~は 英語に 何ですか。", "correct": false, "reason": "に marca destino/destinatario, no medio. Aquí va で."},
+      {"text": "英語で ~は 何ですか。", "correct": false, "reason": "El tema (~は) debería ir al inicio en construcción natural."}
     ]
   },
   {
@@ -508,11 +550,12 @@
     "cat": "Partículas",
     "q": "~は 日本語___ 何ですか。 ¿Qué partícula falta?",
     "correct": "で",
+    "explanation": "で marca el MEDIO/INSTRUMENTO. '日本語で' = 'en japonés / por medio del japonés'.",
     "opts": [
-      "で",
-      "に",
-      "の",
-      "は"
+      {"text": "で", "correct": true, "reason": "Correcta. Partícula de medio."},
+      {"text": "に", "correct": false, "reason": "に marca destino/destinatario, no medio."},
+      {"text": "の", "correct": false, "reason": "の conecta sustantivos como modificador, no como medio."},
+      {"text": "は", "correct": false, "reason": "は marca tema; no se acumulan dos は en la misma oración."}
     ]
   },
   {
@@ -520,11 +563,12 @@
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'India' en japonés?",
     "correct": "インド",
+    "explanation": "インド es la transcripción estándar en katakana del nombre del país.",
     "opts": [
-      "インド",
-      "インドア",
-      "インデイア",
-      "イディア"
+      {"text": "インド", "correct": true, "reason": "Correcta. Transcripción estándar."},
+      {"text": "インドア", "correct": false, "reason": "インドア significa 'indoor' (interior, espacio cerrado), no India."},
+      {"text": "インデイア", "correct": false, "reason": "Transcripción incorrecta basada en pronunciación inglesa exagerada."},
+      {"text": "イディア", "correct": false, "reason": "イディア sería 'idea'. Sin relación."}
     ]
   },
   {
@@ -532,11 +576,12 @@
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Alemania' en japonés?",
     "correct": "ドイツ",
+    "explanation": "ドイツ viene del alemán 'Deutsch' (autodenominación). El japonés respeta el nombre original, no el inglés 'Germany'.",
     "opts": [
-      "ドイツ",
-      "ジャーマニー",
-      "ドチ",
-      "デツ"
+      {"text": "ドイツ", "correct": true, "reason": "Correcta. Préstamo del alemán original."},
+      {"text": "ジャーマニー", "correct": false, "reason": "Aunque sería transcripción del inglés 'Germany', no se usa: el japonés tomó el nombre alemán original."},
+      {"text": "ドチ", "correct": false, "reason": "Transcripción incorrecta."},
+      {"text": "デツ", "correct": false, "reason": "Transcripción incorrecta."}
     ]
   },
   {
@@ -544,11 +589,12 @@
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Francia' en japonés?",
     "correct": "フランス",
+    "explanation": "フランス viene del francés 'France'. El japonés respeta el nombre original.",
     "opts": [
-      "フランス",
-      "フランセ",
-      "フランシア",
-      "パリス"
+      {"text": "フランス", "correct": true, "reason": "Correcta. Préstamo del francés."},
+      {"text": "フランセ", "correct": false, "reason": "フランセ sería 'français' (la lengua francesa o el adjetivo masc. en francés), no el país."},
+      {"text": "フランシア", "correct": false, "reason": "Calco del español 'Francia'; el japonés sigue la pronunciación francesa."},
+      {"text": "パリス", "correct": false, "reason": "パリス sería 'Paris' (la capital), no el país. Y la transcripción correcta de París es パリ."}
     ]
   },
   {
@@ -556,11 +602,12 @@
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 英語 (えいご)?",
     "correct": "Idioma inglés",
+    "explanation": "英 (えい, abreviación de イギリス 'Reino Unido') + 語 (ご, 'idioma') = idioma inglés. El sufijo 語 forma idiomas.",
     "opts": [
-      "Idioma inglés",
-      "Gramática inglesa",
-      "Cultura inglesa",
-      "Persona inglesa"
+      {"text": "Idioma inglés", "correct": true, "reason": "Correcta. Sufijo 語 = idioma."},
+      {"text": "Gramática inglesa", "correct": false, "reason": "'Gramática inglesa' sería 英文法 (えいぶんぽう). 英語 es el idioma en general."},
+      {"text": "Cultura inglesa", "correct": false, "reason": "'Cultura inglesa' sería イギリス文化 o 英国文化. 英語 es solo el idioma."},
+      {"text": "Persona inglesa", "correct": false, "reason": "'Persona inglesa' sería イギリス人 (con sufijo 人). 英語 usa 語 = idioma."}
     ]
   },
   {
@@ -568,11 +615,12 @@
     "cat": "Gramática",
     "q": "El sufijo ~語 (ご) se usa para:",
     "correct": "Formar nombres de idiomas (日本語、英語、etc.)",
+    "explanation": "~語 sufijado a un país/región forma el nombre del idioma: 日本語 (japonés), 英語 (inglés), スペイン語 (español), etc.",
     "opts": [
-      "Formar nombres de idiomas (日本語、英語、etc.)",
-      "Formar nombres de países",
-      "Indicar forma gramatical",
-      "Indicar palabra extranjera"
+      {"text": "Formar nombres de idiomas (日本語、英語、etc.)", "correct": true, "reason": "Correcta. Función productiva del sufijo."},
+      {"text": "Formar nombres de países", "correct": false, "reason": "Los países no toman 語; algunos son kanji directos (中国, 韓国) o katakana (フランス)."},
+      {"text": "Indicar forma gramatical", "correct": false, "reason": "'Forma gramatical' sería 文法形 o 活用. No es función de 語."},
+      {"text": "Indicar palabra extranjera", "correct": false, "reason": "'Palabra extranjera (préstamo)' es 外来語 (がいらいご), donde sí aparece 語 pero como segunda parte de un compuesto distinto."}
     ]
   },
   {
@@ -580,11 +628,12 @@
     "cat": "Gramática",
     "q": "Encontrás un celular. ¿Cómo preguntás de quién es?",
     "correct": "これは だれの携帯電話ですか。",
+    "explanation": "Para '¿de quién es?' se usa だれの + sustantivo: 'el celular DE QUIÉN'. La partícula の indica posesión/pertenencia.",
     "opts": [
-      "これは だれの携帯電話ですか。",
-      "これは だれ 携帯電話ですか。",
-      "これは なんの携帯電話ですか。",
-      "これは だれが携帯電話ですか。"
+      {"text": "これは だれの携帯電話ですか。", "correct": true, "reason": "Correcta. だれの + sustantivo = '¿de quién es ~?'."},
+      {"text": "これは だれ 携帯電話ですか。", "correct": false, "reason": "Falta la partícula の: だれ requiere の para indicar posesión."},
+      {"text": "これは なんの携帯電話ですか。", "correct": false, "reason": "なんの pregunta TIPO ('¿qué tipo de celular?'), no posesión. Para posesión es だれの."},
+      {"text": "これは だれが携帯電話ですか。", "correct": false, "reason": "だれが marca sujeto enfático ('¿quién es el celular?'), pero gramaticalmente raro y no expresa posesión."}
     ]
   },
   {
@@ -592,11 +641,12 @@
     "cat": "Diálogo",
     "q": "A: これは だれの かばんですか。 B: ___. (Respuesta: Es mía)",
     "correct": "わたしのです。",
+    "explanation": "Para responder '(es) mío/a' se usa わたしの + です. の funciona como pronombre sustituyendo al sustantivo (omitiendo かばん).",
     "opts": [
-      "わたしのです。",
-      "わたしですか。",
-      "わたしは です。",
-      "わたしに です。"
+      {"text": "わたしのです。", "correct": true, "reason": "Correcta. の sustituye al sustantivo: 'es la mía'."},
+      {"text": "わたしですか。", "correct": false, "reason": "わたしですか = '¿soy yo?' (pregunta sobre identidad), no expresa posesión."},
+      {"text": "わたしは です。", "correct": false, "reason": "わたしは + です sin nada en medio queda incompleto."},
+      {"text": "わたしに です。", "correct": false, "reason": "に marca destino/destinatario, no posesión. Para posesión es の."}
     ]
   },
   {
@@ -604,11 +654,12 @@
     "cat": "Diálogo",
     "q": "A: これは だれの 時計ですか。 B: ___. (Respuesta: Es del Sr. Tanaka)",
     "correct": "田中さんのです。",
+    "explanation": "Estructura: [persona]さんの + です. の sustituye al sustantivo previamente mencionado (時計).",
     "opts": [
-      "田中さんのです。",
-      "田中さんです。",
-      "田中さんに です。",
-      "田中さんの時計ですか。"
+      {"text": "田中さんのです。", "correct": true, "reason": "Correcta. の sustituto del sustantivo."},
+      {"text": "田中さんです。", "correct": false, "reason": "Sin の significaría '(yo) soy el Sr. Tanaka', no '(el reloj) es del Sr. Tanaka'."},
+      {"text": "田中さんに です。", "correct": false, "reason": "に marca destino, no posesión."},
+      {"text": "田中さんの時計ですか。", "correct": false, "reason": "Con か es PREGUNTA, no respuesta. La consigna pide afirmación."}
     ]
   },
   {
@@ -616,11 +667,12 @@
     "cat": "Distinción",
     "q": "¿Cuál es la estructura correcta para '¿De quién es este libro?'?",
     "correct": "この本は だれのですか。 / この本は だれの本ですか。",
+    "explanation": "Dos formas válidas: 1) だれのですか (con の sustituyendo al sustantivo), 2) だれの本ですか (repitiendo el sustantivo). Ambas son correctas.",
     "opts": [
-      "この本は だれのですか。 / この本は だれの本ですか。",
-      "この本は だれですか。",
-      "この本の だれですか。",
-      "この本は だれに ですか。"
+      {"text": "この本は だれのですか。 / この本は だれの本ですか。", "correct": true, "reason": "Correcta. Ambas formas son válidas."},
+      {"text": "この本は だれですか。", "correct": false, "reason": "だれ sin の pregunta '¿quién?', no '¿de quién?'. Significaría '¿este libro es quién?', incoherente."},
+      {"text": "この本の だれですか。", "correct": false, "reason": "Orden incorrecto: の va con el poseedor (だれの), no con el poseído."},
+      {"text": "この本は だれに ですか。", "correct": false, "reason": "に marca destino/destinatario, no posesión."}
     ]
   },
   {
@@ -628,11 +680,12 @@
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 誰?",
     "correct": "だれ",
+    "explanation": "誰 (だれ) es '¿quién?'. Aunque el kanji es 誰, en uso cotidiano suele escribirse en hiragana (だれ).",
     "opts": [
-      "だれ",
-      "どれ",
-      "どの",
-      "だろ"
+      {"text": "だれ", "correct": true, "reason": "Correcta. Lectura única del kanji."},
+      {"text": "どれ", "correct": false, "reason": "どれ es '¿cuál de varios?', kanji distinto (何れ)."},
+      {"text": "どの", "correct": false, "reason": "どの es '¿qué/cuál + sustantivo?', determinante distinto."},
+      {"text": "だろ", "correct": false, "reason": "だろ es contracción coloquial de だろう ('seguramente'). Sin relación."}
     ]
   },
   {
@@ -640,11 +693,12 @@
     "cat": "Vocabulario",
     "q": "Para pedir 'dos cafés y un té negro', decís:",
     "correct": "コーヒーを ふたつ、紅茶を ひとつ ください。",
+    "explanation": "Para múltiples pedidos, se repite la estructura [obj]を [cantidad] separada por coma. ください va al final una sola vez.",
     "opts": [
-      "コーヒーを ふたつ、紅茶を ひとつ ください。",
-      "コーヒー ふたつ と 紅茶 ひとつ ください。",
-      "コーヒーは ふたつ、紅茶は ひとつ ください。",
-      "コーヒーを 2と紅茶を 1 ください。"
+      {"text": "コーヒーを ふたつ、紅茶を ひとつ ください。", "correct": true, "reason": "Correcta. Patrón paralelo con coma."},
+      {"text": "コーヒー ふたつ と 紅茶 ひとつ ください。", "correct": false, "reason": "Faltan partículas を. Con cantidades en pedidos formales se prefiere el patrón con を."},
+      {"text": "コーヒーは ふたつ、紅茶は ひとつ ください。", "correct": false, "reason": "は marca tema, no objeto pedido. Con ください se usa を."},
+      {"text": "コーヒーを 2と紅茶を 1 ください。", "correct": false, "reason": "Mezcla números arábigos con japonés y et la conjunción と aquí no encaja con cantidades aisladas."}
     ]
   },
   {
@@ -652,11 +706,12 @@
     "cat": "Diálogo",
     "q": "Completá: A: すみません、___ おねがいします。 (Quisiera ordenar)",
     "correct": "注文を",
+    "explanation": "注文 (orden) + を (objeto directo de おねがいします).",
     "opts": [
-      "注文を",
-      "注文は",
-      "注文の",
-      "注文に"
+      {"text": "注文を", "correct": true, "reason": "Correcta. を marca el objeto pedido."},
+      {"text": "注文は", "correct": false, "reason": "は marca tema, no objeto directo en petición."},
+      {"text": "注文の", "correct": false, "reason": "の conecta sustantivos, no es marcador de objeto."},
+      {"text": "注文に", "correct": false, "reason": "に marca destino, no objeto pedido."}
     ]
   },
   {
@@ -664,11 +719,12 @@
     "cat": "Vocabulario",
     "q": "Al aceptar el pedido o entregar algo, el camarero dice:",
     "correct": "どうぞ / はい",
+    "explanation": "どうぞ y はい (a veces juntos: はい、どうぞ) son las respuestas estándar al aceptar/entregar algo.",
     "opts": [
-      "どうぞ / はい",
-      "おねがいします",
-      "ありがとう",
-      "すみません"
+      {"text": "どうぞ / はい", "correct": true, "reason": "Correcta. Respuestas estándar de aceptación/entrega."},
+      {"text": "おねがいします", "correct": false, "reason": "Es para pedir, no para aceptar/entregar."},
+      {"text": "ありがとう", "correct": false, "reason": "Es agradecimiento, no aceptación/entrega."},
+      {"text": "すみません", "correct": false, "reason": "Es disculpa/llamada de atención, no entrega."}
     ]
   },
   {
@@ -676,11 +732,12 @@
     "cat": "Gramática",
     "q": "Poné en orden: ください / を / ふたつ / ケーキ",
     "correct": "ケーキ を ふたつ ください",
+    "explanation": "Orden estándar: [objeto] + を + [cantidad] + ください. La cantidad va entre la partícula y el verbo.",
     "opts": [
-      "ケーキ を ふたつ ください",
-      "ふたつ ケーキ を ください",
-      "ケーキ ふたつ を ください",
-      "を ケーキ ふたつ ください"
+      {"text": "ケーキ を ふたつ ください", "correct": true, "reason": "Correcta. Orden canónico de pedido."},
+      {"text": "ふたつ ケーキ を ください", "correct": false, "reason": "La cantidad va DESPUÉS del objeto + を, no antes."},
+      {"text": "ケーキ ふたつ を ください", "correct": false, "reason": "を debe ir DIRECTAMENTE después del sustantivo (ケーキ), no de la cantidad."},
+      {"text": "を ケーキ ふたつ ください", "correct": false, "reason": "を es partícula que sigue al sustantivo, no lo precede."}
     ]
   },
   {
@@ -688,11 +745,12 @@
     "cat": "Vocabulario",
     "q": "A: これは 何の料理ですか。 B: ___. (Respuesta: Es un plato de cerdo)",
     "correct": "豚肉の料理です。",
+    "explanation": "Patrón [ingrediente principal]の料理 = 'plato de [ingrediente]'. La partícula の indica relación (plato hecho con cerdo).",
     "opts": [
-      "豚肉の料理です。",
-      "豚肉料理です。",
-      "豚肉は 料理です。",
-      "豚肉で 料理です。"
+      {"text": "豚肉の料理です。", "correct": true, "reason": "Correcta. Patrón [ingrediente]の料理."},
+      {"text": "豚肉料理です。", "correct": false, "reason": "Aunque entendible como compuesto, en respuesta a 何の料理 lo natural es repetir el patrón con の."},
+      {"text": "豚肉は 料理です。", "correct": false, "reason": "は marca tema; la frase diría '(en cuanto a) cerdo, es comida', incoherente."},
+      {"text": "豚肉で 料理です。", "correct": false, "reason": "で marca medio/lugar; sin verbo de acción no encaja."}
     ]
   },
   {
@@ -700,11 +758,12 @@
     "cat": "Vocabulario",
     "q": "¿Qué significa カレー?",
     "correct": "Curry",
+    "explanation": "カレー viene del inglés 'curry'. En Japón es muy popular y tiene su propia variante (カレーライス).",
     "opts": [
-      "Curry",
-      "Caldo",
-      "Caramelo",
-      "Salsa"
+      {"text": "Curry", "correct": true, "reason": "Correcta. Préstamo del inglés."},
+      {"text": "Caldo", "correct": false, "reason": "'Caldo' es だし o スープ. カレー es plato espeso con especias."},
+      {"text": "Caramelo", "correct": false, "reason": "'Caramelo' es キャラメル o あめ. Sin relación."},
+      {"text": "Salsa", "correct": false, "reason": "'Salsa' es ソース. カレー incluye carne/verduras además de salsa."}
     ]
   },
   {
@@ -712,11 +771,12 @@
     "cat": "Vocabulario",
     "q": "¿Qué significa スープ?",
     "correct": "Sopa",
+    "explanation": "スープ viene del inglés 'soup'. Designa sopas occidentales (consomé, crema). Para sopas japonesas hay términos específicos (味噌汁 みそしる, etc.).",
     "opts": [
-      "Sopa",
-      "Curry",
-      "Caldo (dashi)",
-      "Consomé"
+      {"text": "Sopa", "correct": true, "reason": "Correcta. Préstamo del inglés."},
+      {"text": "Curry", "correct": false, "reason": "'Curry' es カレー. Plato distinto."},
+      {"text": "Caldo (dashi)", "correct": false, "reason": "El caldo japonés base es だし. スープ es la sopa terminada estilo occidental."},
+      {"text": "Consomé", "correct": false, "reason": "'Consomé' específico es コンソメ. スープ es genérico."}
     ]
   },
   {
@@ -724,11 +784,12 @@
     "cat": "Partículas",
     "q": "ハンバーグ___ ふたつ ください。",
     "correct": "を",
+    "explanation": "ハンバーグ es objeto pedido; se marca con を. Patrón: [obj]を [cantidad] ください.",
     "opts": [
-      "を",
-      "は",
-      "が",
-      "に"
+      {"text": "を", "correct": true, "reason": "Correcta. Marca el objeto pedido."},
+      {"text": "は", "correct": false, "reason": "は marca tema; con ください se usa を."},
+      {"text": "が", "correct": false, "reason": "が marca sujeto; en peticiones se usa を."},
+      {"text": "に", "correct": false, "reason": "に marca destino; en peticiones se usa を."}
     ]
   },
   {
@@ -736,11 +797,12 @@
     "cat": "Vocabulario",
     "q": "A: 「豚肉」は 英語で 何ですか。 B: ___.",
     "correct": "「pork」です。",
+    "explanation": "豚肉 = 'carne de cerdo' = 'pork' en inglés. Pregunta de equivalencia traductiva.",
     "opts": [
-      "「pork」です。",
-      "「beef」です。",
-      "「cow」です。",
-      "「meat」です。"
+      {"text": "「pork」です。", "correct": true, "reason": "Correcta. Equivalencia inglesa."},
+      {"text": "「beef」です。", "correct": false, "reason": "'beef' es 牛肉 (carne de vaca), no de cerdo."},
+      {"text": "「cow」です。", "correct": false, "reason": "'cow' es la vaca (el animal), no la carne. Y 豚肉 es cerdo."},
+      {"text": "「meat」です。", "correct": false, "reason": "'meat' es 'carne' genérica. 豚肉 es específicamente cerdo (pork)."}
     ]
   },
   {
@@ -748,11 +810,12 @@
     "cat": "Gramática",
     "q": "Para preguntar '¿De quién es ese reloj?' (cerca del interlocutor):",
     "correct": "その時計は だれのですか。",
+    "explanation": "Estructura: その (ese, cerca del oyente) + 時計 + は + だれの (de quién) + ですか.",
     "opts": [
-      "その時計は だれのですか。",
-      "それ時計は だれですか。",
-      "その時計は だれに ですか。",
-      "あの時計は だれのですか。"
+      {"text": "その時計は だれのですか。", "correct": true, "reason": "Correcta. Determinante その + posesión だれの."},
+      {"text": "それ時計は だれですか。", "correct": false, "reason": "それ es pronombre, no determinante. Y だれ sin の pregunta '¿quién?', no '¿de quién?'."},
+      {"text": "その時計は だれに ですか。", "correct": false, "reason": "に marca destino, no posesión. Para posesión es の."},
+      {"text": "あの時計は だれのですか。", "correct": false, "reason": "あの = 'aquel' (lejos de ambos). El reloj está cerca del INTERLOCUTOR, así que es その."}
     ]
   },
   {
@@ -760,11 +823,12 @@
     "cat": "Contadores",
     "q": "Al pedir comida en un restaurante japonés de nivel básico, se prefiere usar:",
     "correct": "El contador ~つ (ひとつ、ふたつ…)",
+    "explanation": "El contador つ es genérico y apropiado para platos/bebidas pedidos de a pocos. Es lo que se enseña en nivel principiante.",
     "opts": [
-      "El contador ~つ (ひとつ、ふたつ…)",
-      "Los números en kanji (一、二、三)",
-      "Los números en inglés",
-      "El contador ~個 (こ)"
+      {"text": "El contador ~つ (ひとつ、ふたつ…)", "correct": true, "reason": "Correcta. Contador genérico apropiado para nivel básico."},
+      {"text": "Los números en kanji (一、二、三)", "correct": false, "reason": "Los números solos en kanji no se usan para contar objetos en habla; se necesita un contador."},
+      {"text": "Los números en inglés", "correct": false, "reason": "En contexto restaurante japonés se usan números japoneses con contador."},
+      {"text": "El contador ~個 (こ)", "correct": false, "reason": "個 (こ) existe pero se enseña más adelante; en nivel básico se usa つ."}
     ]
   },
   {
@@ -772,11 +836,12 @@
     "cat": "Vocabulario",
     "q": "¿Qué significa 麺類 (めんるい)?",
     "correct": "Fideos (en general)",
+    "explanation": "麺 (めん, 'fideo') + 類 (るい, 'tipo/categoría') = 'la categoría de los fideos'. Cubre ramen, udon, soba, etc.",
     "opts": [
-      "Fideos (en general)",
-      "Ramen",
-      "Udon específicamente",
-      "Verduras"
+      {"text": "Fideos (en general)", "correct": true, "reason": "Correcta. Categoría general."},
+      {"text": "Ramen", "correct": false, "reason": "'Ramen' específico es ラーメン. 麺類 es la categoría amplia."},
+      {"text": "Udon específicamente", "correct": false, "reason": "'Udon' específico es うどん. 麺類 incluye varios tipos."},
+      {"text": "Verduras", "correct": false, "reason": "'Verduras' es 野菜. 麺類 es fideos."}
     ]
   },
   {
@@ -784,11 +849,12 @@
     "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre これは だれの ですか y だれですか?",
     "correct": "だれの = de quién (posesión); だれ = quién (persona)",
+    "explanation": "La partícula の hace toda la diferencia: だれの pregunta posesión; だれ pregunta identidad.",
     "opts": [
-      "だれの = de quién (posesión); だれ = quién (persona)",
-      "Son iguales",
-      "だれの es formal; だれ es casual",
-      "だれ pregunta por cosas; だれの por personas"
+      {"text": "だれの = de quién (posesión); だれ = quién (persona)", "correct": true, "reason": "Correcta. の marca posesión."},
+      {"text": "Son iguales", "correct": false, "reason": "Tienen funciones distintas (posesión vs. identidad)."},
+      {"text": "だれの es formal; だれ es casual", "correct": false, "reason": "No es cuestión de formalidad sino de función gramatical."},
+      {"text": "だれ pregunta por cosas; だれの por personas", "correct": false, "reason": "Falso: だれ siempre pregunta por personas. La diferencia es posesión vs. identidad."}
     ]
   },
   {
@@ -796,11 +862,12 @@
     "cat": "Diálogo",
     "q": "Encontrás una billetera en una silla. Preguntás al grupo:",
     "correct": "これは だれの さいふですか。",
+    "explanation": "Para preguntar '¿de quién es esta billetera?': これ (esto, cercano) + は + だれの (de quién) + さいふ (billetera) + ですか.",
     "opts": [
-      "これは だれの さいふですか。",
-      "これは どこの さいふですか。",
-      "これは 何の さいふですか。",
-      "これは だれが さいふですか。"
+      {"text": "これは だれの さいふですか。", "correct": true, "reason": "Correcta. Estructura completa de posesión."},
+      {"text": "これは どこの さいふですか。", "correct": false, "reason": "どこの pregunta origen geográfico, no posesión personal."},
+      {"text": "これは 何の さいふですか。", "correct": false, "reason": "何の pregunta tipo de billetera, no quién es el dueño."},
+      {"text": "これは だれが さいふですか。", "correct": false, "reason": "だれが marca sujeto enfático, agramatical en este contexto."}
     ]
   },
   {
@@ -808,11 +875,12 @@
     "cat": "Diálogo",
     "q": "Cuando alguien reconoce su objeto perdido, una respuesta natural sería:",
     "correct": "あ、それは わたしの さいふです。ありがとうございます。",
+    "explanation": "Reconocimiento + identificación + agradecimiento. それ (eso, cerca de quien tiene la billetera) + は + わたしの (mía) + さいふ + です + ありがとう.",
     "opts": [
-      "あ、それは わたしの さいふです。ありがとうございます。",
-      "はい、そうですか。",
-      "これは わたしです。",
-      "さいふは どこですか。"
+      {"text": "あ、それは わたしの さいふです。ありがとうございます。", "correct": true, "reason": "Correcta. Reconocimiento natural completo."},
+      {"text": "はい、そうですか。", "correct": false, "reason": "そうですか es solo recepción de información, no reclamo de propiedad."},
+      {"text": "これは わたしです。", "correct": false, "reason": "Significaría '(yo) soy esto', incoherente. La billetera no SOY yo."},
+      {"text": "さいふは どこですか。", "correct": false, "reason": "Pregunta dónde está la billetera, pero ya la ven enfrente."}
     ]
   },
   {
@@ -820,11 +888,12 @@
     "cat": "Diálogo",
     "q": "A: ___、注文を おねがいします。 B: はい、どうぞ。",
     "correct": "すみません",
+    "explanation": "Para llamar al camarero antes de ordenar se usa すみません (disculpe).",
     "opts": [
-      "すみません",
-      "ありがとう",
-      "おはよう",
-      "どうぞ"
+      {"text": "すみません", "correct": true, "reason": "Correcta. Marcador de apertura cortés."},
+      {"text": "ありがとう", "correct": false, "reason": "Es agradecimiento, no llamada de atención inicial."},
+      {"text": "おはよう", "correct": false, "reason": "Es saludo matinal genérico, no llamada al camarero."},
+      {"text": "どうぞ", "correct": false, "reason": "Es para ofrecer, no para pedir atención."}
     ]
   },
   {
@@ -832,11 +901,12 @@
     "cat": "Gramática",
     "q": "Querés decir '¿Qué tipo de té es?' (preguntando el origen regional). Lo más natural es:",
     "correct": "これは どこの お茶ですか。",
+    "explanation": "Para origen regional/país se usa どこの + sustantivo. El té tiene características regionales (té chino, japonés, indio, etc.).",
     "opts": [
-      "これは どこの お茶ですか。",
-      "これは 何の お茶ですか。",
-      "これは 何茶ですか。",
-      "これは どの お茶ですか。"
+      {"text": "これは どこの お茶ですか。", "correct": true, "reason": "Correcta. どこの marca origen geográfico."},
+      {"text": "これは 何の お茶ですか。", "correct": false, "reason": "何の pregunta TIPO/INGREDIENTE, no origen regional."},
+      {"text": "これは 何茶ですか。", "correct": false, "reason": "何茶 sin の no es construcción estándar para preguntar tipo."},
+      {"text": "これは どの お茶ですか。", "correct": false, "reason": "どの requiere opciones visibles ('¿cuál de estos?'), no pregunta tipo abstractamente."}
     ]
   },
   {
@@ -844,11 +914,12 @@
     "cat": "Gramática",
     "q": "¿Cuál de estos NO es correcto?",
     "correct": "これは だれ さいふですか。",
+    "explanation": "Falta la partícula の: だれ requiere の para indicar posesión. Sin の queda agramatical.",
     "opts": [
-      "これは だれ さいふですか。",
-      "これは だれのですか。",
-      "これは だれの さいふですか。",
-      "この さいふは だれのですか。"
+      {"text": "これは だれ さいふですか。", "correct": true, "reason": "Correcta como respuesta (es la frase MAL formada): falta の."},
+      {"text": "これは だれのですか。", "correct": false, "reason": "Esta SÍ es correcta: の sustituye al sustantivo."},
+      {"text": "これは だれの さいふですか。", "correct": false, "reason": "Esta SÍ es correcta: posesión completa con sustantivo explícito."},
+      {"text": "この さいふは だれのですか。", "correct": false, "reason": "Esta SÍ es correcta: orden alternativo válido."}
     ]
   },
   {
@@ -856,11 +927,12 @@
     "cat": "Partículas",
     "q": "ビール___ みっつ と、ジュース___ ひとつ ください。",
     "correct": "を / を",
+    "explanation": "Ambos son objetos pedidos; ambos llevan を. Patrón: [obj]を [cantidad], repetido para múltiples pedidos.",
     "opts": [
-      "を / を",
-      "は / は",
-      "が / が",
-      "の / の"
+      {"text": "を / を", "correct": true, "reason": "Correcta. Ambos son objetos directos de ください."},
+      {"text": "は / は", "correct": false, "reason": "は marca tema, no objeto. Con ください se usa を."},
+      {"text": "が / が", "correct": false, "reason": "が marca sujeto; en peticiones se usa を."},
+      {"text": "の / の", "correct": false, "reason": "の conecta sustantivos, no marca objeto."}
     ]
   },
   {
@@ -868,11 +940,12 @@
     "cat": "Traducción ES→JP",
     "q": "'Dos cervezas y un vino, por favor' (en un restaurante):",
     "correct": "ビールを ふたつ、ワインを ひとつ ください。",
+    "explanation": "Patrón paralelo: [obj1]を [cant1]、[obj2]を [cant2] ください.",
     "opts": [
-      "ビールを ふたつ、ワインを ひとつ ください。",
-      "ビール 2 と ワイン 1 ください。",
-      "ビールは ふたつ、ワインは ひとつ です。",
-      "ビールと ワインを ふたつ ひとつ ください。"
+      {"text": "ビールを ふたつ、ワインを ひとつ ください。", "correct": true, "reason": "Correcta. Estructura paralela estándar."},
+      {"text": "ビール 2 と ワイン 1 ください。", "correct": false, "reason": "Mezcla números arábigos con japonés y omite las partículas を."},
+      {"text": "ビールは ふたつ、ワインは ひとつ です。", "correct": false, "reason": "は marca tema (no objeto). Y です no es petición; falta ください."},
+      {"text": "ビールと ワインを ふたつ ひとつ ください。", "correct": false, "reason": "Confunde la unión: las cantidades deben ir junto a sus respectivos objetos, no juntas al final."}
     ]
   },
   {
@@ -880,11 +953,12 @@
     "cat": "Vocabulario",
     "q": "Cuando el empleado te acepta la orden, te dice 'はい' seguido de:",
     "correct": "どうぞ",
+    "explanation": "はい、どうぞ es la fórmula completa: 'sí, adelante / aquí tiene'. どうぞ acompaña la entrega o aceptación.",
     "opts": [
-      "どうぞ",
-      "どうも",
-      "さようなら",
-      "ありがとう"
+      {"text": "どうぞ", "correct": true, "reason": "Correcta. Fórmula estándar de entrega."},
+      {"text": "どうも", "correct": false, "reason": "どうも es ambiguo (gracias informal/hola), no fórmula clara de aceptación."},
+      {"text": "さようなら", "correct": false, "reason": "Es despedida, inadecuada al aceptar pedido."},
+      {"text": "ありがとう", "correct": false, "reason": "Es agradecimiento, va al final del servicio, no al aceptar pedido."}
     ]
   },
   {
@@ -892,11 +966,12 @@
     "cat": "Diálogo",
     "q": "¿Cuál es el orden lógico en un restaurante?",
     "correct": "すみません、注文を → はい、どうぞ → ~を ~つ ください → はい",
+    "explanation": "Secuencia natural: cliente llama → camarero atiende → cliente pide → camarero confirma.",
     "opts": [
-      "すみません、注文を → はい、どうぞ → ~を ~つ ください → はい",
-      "はい、どうぞ → すみません → ください → ありがとう",
-      "注文を → すみません → どうぞ → ください",
-      "ありがとう → 注文を → どうぞ → すみません"
+      {"text": "すみません、注文を → はい、どうぞ → ~を ~つ ください → はい", "correct": true, "reason": "Correcta. Secuencia conversacional natural."},
+      {"text": "はい、どうぞ → すみません → ください → ありがとう", "correct": false, "reason": "El cliente debe llamar primero (すみません), no el camarero acercarse antes."},
+      {"text": "注文を → すみません → どうぞ → ください", "correct": false, "reason": "Orden caótico; すみません va al inicio para llamar atención."},
+      {"text": "ありがとう → 注文を → どうぞ → すみません", "correct": false, "reason": "ありがとう va al final del servicio, no al inicio."}
     ]
   },
   {
@@ -904,11 +979,12 @@
     "cat": "Contadores",
     "q": "Emparejá el contador con el número: '6つ' (seis ~tsu)",
     "correct": "むっつ",
+    "explanation": "6つ se lee むっつ (lectura nativa む + sokuon + つ).",
     "opts": [
-      "むっつ",
-      "ろっつ",
-      "ろくつ",
-      "むつ"
+      {"text": "むっつ", "correct": true, "reason": "Correcta. Lectura nativa con sokuon."},
+      {"text": "ろっつ", "correct": false, "reason": "ろく (lectura china) no se usa con つ; se usa む."},
+      {"text": "ろくつ", "correct": false, "reason": "ろく es lectura china; con つ se usa la nativa む."},
+      {"text": "むつ", "correct": false, "reason": "Falta el sokuon: la forma correcta es むっつ con っ."}
     ]
   },
   {
@@ -916,11 +992,12 @@
     "cat": "Gramática",
     "q": "Al contar objetos con ~つ, hay varios que tienen forma irregular. ¿Cuál de estos NO es irregular?",
     "correct": "ななつ (7)",
+    "explanation": "ななつ es regular: なな + つ sin cambios fonéticos (sin sokuon ni alteración). Las realmente irregulares tienen sokuon o lecturas atípicas.",
     "opts": [
-      "ななつ (7)",
-      "ひとつ (1) - no es いちつ",
-      "ふたつ (2) - no es につ",
-      "よっつ (4) - no es よんつ"
+      {"text": "ななつ (7)", "correct": true, "reason": "Correcta como respuesta (es la NO irregular): patrón regular sin sokuon."},
+      {"text": "ひとつ (1) - no es いちつ", "correct": false, "reason": "ひとつ SÍ es 'irregular': usa lectura nativa especial (no いち)."},
+      {"text": "ふたつ (2) - no es につ", "correct": false, "reason": "ふたつ SÍ es 'irregular': usa lectura nativa especial (no に)."},
+      {"text": "よっつ (4) - no es よんつ", "correct": false, "reason": "よっつ SÍ es 'irregular': tiene sokuon especial."}
     ]
   },
   {
@@ -928,11 +1005,12 @@
     "cat": "Vocabulario",
     "q": "En un menú japonés, los grupos de comida incluyen: 魚 (pescado), 豚肉 (cerdo), 鶏肉 (pollo), y:",
     "correct": "牛肉 (carne vacuna)",
+    "explanation": "Para completar la lista de carnes principales (cerdo, pollo, pescado), falta 牛肉 (carne vacuna).",
     "opts": [
-      "牛肉 (carne vacuna)",
-      "米 (arroz crudo)",
-      "紙 (papel)",
-      "薬 (medicina)"
+      {"text": "牛肉 (carne vacuna)", "correct": true, "reason": "Correcta. Completa el set de carnes."},
+      {"text": "米 (arroz crudo)", "correct": false, "reason": "El arroz no es categoría de carne; es acompañamiento."},
+      {"text": "紙 (papel)", "correct": false, "reason": "No es comida; es material."},
+      {"text": "薬 (medicina)", "correct": false, "reason": "No es comida; es medicamento."}
     ]
   },
   {
@@ -940,11 +1018,12 @@
     "cat": "Vocabulario",
     "q": "Traducí: 'これは 何の 料理ですか。'",
     "correct": "¿Qué tipo de comida es esto?",
+    "explanation": "何の + 料理 pregunta el TIPO de plato. Traducción natural: '¿qué tipo de comida?' o '¿de qué (ingredientes) es este plato?'.",
     "opts": [
-      "¿Qué tipo de comida es esto?",
-      "¿Qué es este plato?",
-      "¿Cómo se llama esto?",
-      "¿De qué está hecho esto?"
+      {"text": "¿Qué tipo de comida es esto?", "correct": true, "reason": "Correcta. 何の pregunta tipo."},
+      {"text": "¿Qué es este plato?", "correct": false, "reason": "Esa traducción correspondería a これは何ですか (sin 何の料理). 何の pide específicamente el TIPO."},
+      {"text": "¿Cómo se llama esto?", "correct": false, "reason": "Eso sería これは何といいますか o これの名前は何ですか."},
+      {"text": "¿De qué está hecho esto?", "correct": false, "reason": "Eso sería これは何で 作られていますか o 材料は何ですか. 何の料理 pregunta tipo, no ingredientes específicos."}
     ]
   },
   {
@@ -952,11 +1031,12 @@
     "cat": "Gramática",
     "q": "El patrón 'N1 の N2' se usa para expresar varias relaciones. En 'インドのカレー', indica:",
     "correct": "Origen (curry DE India)",
+    "explanation": "AのB puede expresar posesión, modificación, origen, material, etc. En 'インドのカレー', el primer elemento (país) indica el ORIGEN del segundo (curry).",
     "opts": [
-      "Origen (curry DE India)",
-      "Posesión (el curry es de India)",
-      "Sustitución",
-      "Material"
+      {"text": "Origen (curry DE India)", "correct": true, "reason": "Correcta. Función de origen geográfico."},
+      {"text": "Posesión (el curry es de India)", "correct": false, "reason": "Aunque la traducción al español usa 'de', el matiz es ORIGEN, no posesión legal."},
+      {"text": "Sustitución", "correct": false, "reason": "の no expresa sustitución; eso sería 〜のかわりに."},
+      {"text": "Material", "correct": false, "reason": "Material sería con で o 〜製の. India no es 'material' del curry."}
     ]
   },
   {
@@ -964,11 +1044,12 @@
     "cat": "Gramática",
     "q": "'¿De quién es este celular?' con estilo formal en un restaurante sería:",
     "correct": "この 携帯電話は だれのですか。",
+    "explanation": "Estructura: この (este, cerca del hablante) + 携帯電話 + は + だれの (de quién) + ですか.",
     "opts": [
-      "この 携帯電話は だれのですか。",
-      "これは 携帯電話 だれのですか。",
-      "だれの 携帯電話 この ですか。",
-      "この 携帯電話は だれ ですか。"
+      {"text": "この 携帯電話は だれのですか。", "correct": true, "reason": "Correcta. Estructura completa con posesión."},
+      {"text": "これは 携帯電話 だれのですか。", "correct": false, "reason": "Sin partícula は después de 携帯電話 la estructura está rota."},
+      {"text": "だれの 携帯電話 この ですか。", "correct": false, "reason": "Orden caótico; この debe ir antes del sustantivo, y は después."},
+      {"text": "この 携帯電話は だれ ですか。", "correct": false, "reason": "Falta の: だれ sin の pregunta '¿quién?', no '¿de quién?'."}
     ]
   }
 ]
