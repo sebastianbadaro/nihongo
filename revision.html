@@ -216,8 +216,7 @@
         qid:         q.id          || (unit.id.toUpperCase() + '-' + String(i + 1).padStart(3, '0')),
         cat:         q.cat         || '—',
         q:           q.q           || '',
-        correct:     q.correct     || '',
-        explanation: q.explanation || '',
+        correct:     (Array.isArray(q.opts) ? (q.opts.find(o => o.correct === true) || {}).text : '') || '',
         opts:        Array.isArray(q.opts) ? q.opts : [],
       });
     });
@@ -277,8 +276,8 @@
     filtered = pool.filter(q => {
       if (catVal !== 'all' && q.cat !== catVal) return false;
       if (searchVal) {
-        const optTexts = q.opts.map(o => typeof o === 'object' ? (o.text || '') + ' ' + (o.reason || '') : o);
-        const hay = [q.q, q.correct, q.explanation || '', ...optTexts].join(' ').toLowerCase();
+        const optTexts = q.opts.map(o => typeof o === 'object' ? (o.text || '') + ' ' + (o.explanation || '') : o);
+        const hay = [q.q, q.correct, ...optTexts].join(' ').toLowerCase();
         if (!hay.includes(searchVal)) return false;
       }
       return true;
@@ -372,20 +371,13 @@
     card.appendChild(question);
     card.appendChild(opts);
 
-    if (item.explanation) {
-      const expl = document.createElement('div');
-      expl.className = 'explanation-block text-xs text-gray-500 bg-gray-50 border border-gray-100 rounded-lg px-3 py-2 leading-relaxed';
-      expl.innerHTML = '💡 ' + highlight(item.explanation, searchVal);
-      card.appendChild(expl);
-    }
-
     return card;
   }
 
   function buildOption(opt, correct, searchVal) {
     const el = document.createElement('div');
     const optText    = typeof opt === 'object' ? (opt.text   || '') : opt;
-    const optReason  = typeof opt === 'object' ? (opt.reason || '') : '';
+    const optExplanation = typeof opt === 'object' ? (opt.explanation || '') : '';
     const isCorrect  = typeof opt === 'object' ? opt.correct === true : opt === correct;
 
     el.className = isCorrect
@@ -408,12 +400,12 @@
     text.innerHTML = highlight(optText, searchVal);
     body.appendChild(text);
 
-    if (optReason) {
+    if (optExplanation) {
       const reason = document.createElement('span');
       reason.className = isCorrect
         ? 'opt-reason text-xs text-green-700 opacity-80'
         : 'opt-reason text-xs text-gray-400';
-      reason.innerHTML = highlight(optReason, searchVal);
+      reason.innerHTML = highlight(optExplanation, searchVal);
       body.appendChild(reason);
     }
 

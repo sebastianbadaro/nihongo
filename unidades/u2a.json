@@ -3,910 +3,1890 @@
     "id": "U2A-001",
     "cat": "Diálogo",
     "q": "¿Cómo se pregunta '¿Dónde está el baño?' en japonés?",
-    "correct": "トイレは どこですか。",
-    "explanation": "Para preguntar el lugar donde se encuentra algo: [sustantivo]は どこですか. どこ = '¿dónde?' es el interrogativo de lugar.",
     "opts": [
-      {"text": "トイレは どこですか。", "correct": true, "reason": "Correcta. どこ pregunta por la ubicación."},
-      {"text": "トイレは なんですか。", "correct": false, "reason": "なんですか pregunta '¿qué es?'. La respuesta sería una definición, no la ubicación."},
-      {"text": "トイレは だれですか。", "correct": false, "reason": "だれ es '¿quién?'. Sin sentido preguntarle a un baño quién es."},
-      {"text": "トイレは いつですか。", "correct": false, "reason": "いつ es '¿cuándo?'. Tiempo, no lugar."}
+      {
+        "text": "トイレは どこですか。",
+        "correct": true,
+        "explanation": "Para preguntar el lugar donde se encuentra algo: [sustantivo]は どこですか. どこ = '¿dónde?' es el interrogativo de lugar. Correcta. どこ pregunta por la ubicación."
+      },
+      {
+        "text": "トイレは なんですか。",
+        "correct": false,
+        "explanation": "なんですか pregunta '¿qué es?'. La respuesta sería una definición, no la ubicación."
+      },
+      {
+        "text": "トイレは だれですか。",
+        "correct": false,
+        "explanation": "だれ es '¿quién?'. Sin sentido preguntarle a un baño quién es."
+      },
+      {
+        "text": "トイレは いつですか。",
+        "correct": false,
+        "explanation": "いつ es '¿cuándo?'. Tiempo, no lugar."
+      }
     ]
   },
   {
     "id": "U2A-002",
     "cat": "Vocabulario",
     "q": "¿Qué significa 喫茶店 (きっさてん)?",
-    "correct": "Cafetería",
-    "explanation": "喫 (きつ → きっ, 'tomar/sorber') + 茶 (さ, 'té') + 店 (てん, 'tienda') = 'tienda donde se toma té/café'. Es la cafetería tradicional japonesa, distinta del カフェ moderno occidental.",
     "opts": [
-      {"text": "Cafetería", "correct": true, "reason": "Correcta. Cafetería de estilo japonés tradicional."},
-      {"text": "Restaurante", "correct": false, "reason": "'Restaurante' es レストラン o 食堂 (しょくどう). 喫茶店 sirve principalmente café/té y postres."},
-      {"text": "Supermercado", "correct": false, "reason": "'Supermercado' es スーパー. 喫茶店 no vende productos para llevar."},
-      {"text": "Cajero automático", "correct": false, "reason": "'Cajero' es ATM o 現金自動預け払い機. Conceptos completamente distintos."}
+      {
+        "text": "Cafetería",
+        "correct": true,
+        "explanation": "喫 (きつ → きっ, 'tomar/sorber') + 茶 (さ, 'té') + 店 (てん, 'tienda') = 'tienda donde se toma té/café'. Es la cafetería tradicional japonesa, distinta del カフェ moderno occidental. Correcta. Cafetería de estilo japonés tradicional."
+      },
+      {
+        "text": "Restaurante",
+        "correct": false,
+        "explanation": "'Restaurante' es レストラン o 食堂 (しょくどう). 喫茶店 sirve principalmente café/té y postres."
+      },
+      {
+        "text": "Supermercado",
+        "correct": false,
+        "explanation": "'Supermercado' es スーパー. 喫茶店 no vende productos para llevar."
+      },
+      {
+        "text": "Cajero automático",
+        "correct": false,
+        "explanation": "'Cajero' es ATM o 現金自動預け払い機. Conceptos completamente distintos."
+      }
     ]
   },
   {
     "id": "U2A-003",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'ascensor' en japonés?",
-    "correct": "エレベーター",
-    "explanation": "エレベーター es la transcripción del inglés 'elevator'. Notá las dos vocales largas: エレベー (eleve-) + ター (tar).",
     "opts": [
-      {"text": "エレベーター", "correct": true, "reason": "Correcta. Préstamo del inglés 'elevator'."},
-      {"text": "エスカレーター", "correct": false, "reason": "エスカレーター es 'escalera mecánica' (escalator), no ascensor."},
-      {"text": "インフォメーション", "correct": false, "reason": "インフォメーション es 'información' (mostrador de informes). Sin relación con transporte vertical."},
-      {"text": "レジ", "correct": false, "reason": "レジ es 'caja registradora' (de 'register'). Concepto distinto."}
+      {
+        "text": "エレベーター",
+        "correct": true,
+        "explanation": "エレベーター es la transcripción del inglés 'elevator'. Notá las dos vocales largas: エレベー (eleve-) + ター (tar). Correcta. Préstamo del inglés 'elevator'."
+      },
+      {
+        "text": "エスカレーター",
+        "correct": false,
+        "explanation": "エスカレーター es 'escalera mecánica' (escalator), no ascensor."
+      },
+      {
+        "text": "インフォメーション",
+        "correct": false,
+        "explanation": "インフォメーション es 'información' (mostrador de informes). Sin relación con transporte vertical."
+      },
+      {
+        "text": "レジ",
+        "correct": false,
+        "explanation": "レジ es 'caja registradora' (de 'register'). Concepto distinto."
+      }
     ]
   },
   {
     "id": "U2A-004",
     "cat": "Distinción",
     "q": "La empleada te señala un lugar lejano y dice formalmente '___です'. ¿Qué palabra usa?",
-    "correct": "あちら",
-    "explanation": "あちら es la versión formal/educada de あそこ ('allá lejos'). Empleados de tiendas usan la serie こちら/そちら/あちら para indicar lugares con cortesía.",
     "opts": [
-      {"text": "あちら", "correct": true, "reason": "Correcta. Forma formal apropiada en contexto de servicio."},
-      {"text": "あそこ", "correct": false, "reason": "あそこ es la versión casual; un empleado formal preferiría あちら."},
-      {"text": "あれ", "correct": false, "reason": "あれ = 'aquello' (objeto), no lugar. La pregunta pide demostrativo de LUGAR."},
-      {"text": "あの", "correct": false, "reason": "あの es modificador (要 + sustantivo: あの店). No funciona solo con です."}
+      {
+        "text": "あちら",
+        "correct": true,
+        "explanation": "あちら es la versión formal/educada de あそこ ('allá lejos'). Empleados de tiendas usan la serie こちら/そちら/あちら para indicar lugares con cortesía. Correcta. Forma formal apropiada en contexto de servicio."
+      },
+      {
+        "text": "あそこ",
+        "correct": false,
+        "explanation": "あそこ es la versión casual; un empleado formal preferiría あちら."
+      },
+      {
+        "text": "あれ",
+        "correct": false,
+        "explanation": "あれ = 'aquello' (objeto), no lugar. La pregunta pide demostrativo de LUGAR."
+      },
+      {
+        "text": "あの",
+        "correct": false,
+        "explanation": "あの es modificador (要 + sustantivo: あの店). No funciona solo con です."
+      }
     ]
   },
   {
     "id": "U2A-005",
     "cat": "Distinción",
     "q": "Estás en la entrada del centro comercial y preguntás por algo cerca de vos. ¿Qué demostrativo de lugar usarías para 'aquí'?",
-    "correct": "ここ",
-    "explanation": "Sistema こ/そ/あ/ど para lugares: ここ (aquí, cerca de mí) / そこ (ahí, cerca del otro) / あそこ (allá, lejos de ambos) / どこ (¿dónde?).",
     "opts": [
-      {"text": "ここ", "correct": true, "reason": "Correcta. ここ es 'aquí' (cerca del hablante)."},
-      {"text": "そこ", "correct": false, "reason": "そこ es 'ahí' (cerca del interlocutor), no de quien habla."},
-      {"text": "あそこ", "correct": false, "reason": "あそこ es 'allá' (lejos de ambos), no cerca."},
-      {"text": "どこ", "correct": false, "reason": "どこ es interrogativo '¿dónde?', no afirmación."}
+      {
+        "text": "ここ",
+        "correct": true,
+        "explanation": "Sistema こ/そ/あ/ど para lugares: ここ (aquí, cerca de mí) / そこ (ahí, cerca del otro) / あそこ (allá, lejos de ambos) / どこ (¿dónde?). Correcta. ここ es 'aquí' (cerca del hablante)."
+      },
+      {
+        "text": "そこ",
+        "correct": false,
+        "explanation": "そこ es 'ahí' (cerca del interlocutor), no de quien habla."
+      },
+      {
+        "text": "あそこ",
+        "correct": false,
+        "explanation": "あそこ es 'allá' (lejos de ambos), no cerca."
+      },
+      {
+        "text": "どこ",
+        "correct": false,
+        "explanation": "どこ es interrogativo '¿dónde?', no afirmación."
+      }
     ]
   },
   {
     "id": "U2A-006",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 地下 (el subsuelo)?",
-    "correct": "ちか",
-    "explanation": "地 (ち, 'tierra') + 下 (か, 'abajo') = ちか, 'subsuelo/sótano'. Lectura on'yomi en ambos kanji.",
     "opts": [
-      {"text": "ちか", "correct": true, "reason": "Correcta. On'yomi estándar."},
-      {"text": "ちが", "correct": false, "reason": "下 no toma rendaku (か → が) en esta palabra; permanece か."},
-      {"text": "じか", "correct": false, "reason": "じか es lectura de otros compuestos (ej. 直 'directo'), no de 地下."},
-      {"text": "じげ", "correct": false, "reason": "げ es otra lectura de 下 (ej. 下水 げすい 'aguas residuales'), pero no en 地下."}
+      {
+        "text": "ちか",
+        "correct": true,
+        "explanation": "地 (ち, 'tierra') + 下 (か, 'abajo') = ちか, 'subsuelo/sótano'. Lectura on'yomi en ambos kanji. Correcta. On'yomi estándar."
+      },
+      {
+        "text": "ちが",
+        "correct": false,
+        "explanation": "下 no toma rendaku (か → が) en esta palabra; permanece か."
+      },
+      {
+        "text": "じか",
+        "correct": false,
+        "explanation": "じか es lectura de otros compuestos (ej. 直 'directo'), no de 地下."
+      },
+      {
+        "text": "じげ",
+        "correct": false,
+        "explanation": "げ es otra lectura de 下 (ej. 下水 げすい 'aguas residuales'), pero no en 地下."
+      }
     ]
   },
   {
     "id": "U2A-007",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 喫煙所?",
-    "correct": "きつえんじょ",
-    "explanation": "喫 (きつ) + 煙 (えん, 'humo') + 所 (じょ, 'lugar', con rendaku de しょ → じょ) = きつえんじょ, 'área de fumadores'.",
     "opts": [
-      {"text": "きつえんじょ", "correct": true, "reason": "Correcta. Lectura on'yomi con rendaku en 所."},
-      {"text": "きつえんしょ", "correct": false, "reason": "所 toma rendaku aquí (しょ → じょ). Sin el dakuten queda incompleta."},
-      {"text": "きっえんじょ", "correct": false, "reason": "El sokuon っ no aparece en esta palabra; la primera sílaba es きつ entera."},
-      {"text": "きえんじょ", "correct": false, "reason": "Falta la sílaba つ. La lectura completa es きつ, no き."}
+      {
+        "text": "きつえんじょ",
+        "correct": true,
+        "explanation": "喫 (きつ) + 煙 (えん, 'humo') + 所 (じょ, 'lugar', con rendaku de しょ → じょ) = きつえんじょ, 'área de fumadores'. Correcta. Lectura on'yomi con rendaku en 所."
+      },
+      {
+        "text": "きつえんしょ",
+        "correct": false,
+        "explanation": "所 toma rendaku aquí (しょ → じょ). Sin el dakuten queda incompleta."
+      },
+      {
+        "text": "きっえんじょ",
+        "correct": false,
+        "explanation": "El sokuon っ no aparece en esta palabra; la primera sílaba es きつ entera."
+      },
+      {
+        "text": "きえんじょ",
+        "correct": false,
+        "explanation": "Falta la sílaba つ. La lectura completa es きつ, no き."
+      }
     ]
   },
   {
     "id": "U2A-008",
     "cat": "Contadores",
     "q": "¿Cómo se dice correctamente '3er piso'?",
-    "correct": "さんがい",
-    "explanation": "El contador 階 (かい) toma rendaku con ciertos números: 3階 = さんがい (rendaku de か → が tras さん). Esta es una de las irregularidades clave del contador.",
     "opts": [
-      {"text": "さんがい", "correct": true, "reason": "Correcta. Rendaku obligatorio tras さん."},
-      {"text": "さんかい", "correct": false, "reason": "Sin rendaku la pronunciación suena artificial. Aunque algunos hablantes la usan, la forma estándar es さんがい."},
-      {"text": "さんぱい", "correct": false, "reason": "ぱい no es lectura del contador 階; es de 杯 ('vaso/copa')."},
-      {"text": "さんばい", "correct": false, "reason": "ばい no es lectura de 階; es de 倍 ('veces') o 杯."}
+      {
+        "text": "さんがい",
+        "correct": true,
+        "explanation": "El contador 階 (かい) toma rendaku con ciertos números: 3階 = さんがい (rendaku de か → が tras さん). Esta es una de las irregularidades clave del contador. Correcta. Rendaku obligatorio tras さん."
+      },
+      {
+        "text": "さんかい",
+        "correct": false,
+        "explanation": "Sin rendaku la pronunciación suena artificial. Aunque algunos hablantes la usan, la forma estándar es さんがい."
+      },
+      {
+        "text": "さんぱい",
+        "correct": false,
+        "explanation": "ぱい no es lectura del contador 階; es de 杯 ('vaso/copa')."
+      },
+      {
+        "text": "さんばい",
+        "correct": false,
+        "explanation": "ばい no es lectura de 階; es de 倍 ('veces') o 杯."
+      }
     ]
   },
   {
     "id": "U2A-009",
     "cat": "Contadores",
     "q": "¿Cuál es la lectura correcta de 1階?",
-    "correct": "いっかい",
-    "explanation": "1 (いち) + 階 (かい): la ち se asimila al か → sokuon → いっかい. Misma regla fonética que 1歳.",
     "opts": [
-      {"text": "いっかい", "correct": true, "reason": "Correcta. Asimilación con sokuon."},
-      {"text": "いちかい", "correct": false, "reason": "Sin sokuon; la regla fonética hace obligatoria la asimilación いっかい."},
-      {"text": "ひとかい", "correct": false, "reason": "ひと es lectura nativa, no se usa con 階. Se usa いち."},
-      {"text": "いちがい", "correct": false, "reason": "El rendaku ocurre con 3階 (さんがい), no con 1階. 1階 mantiene かい con sokuon."}
+      {
+        "text": "いっかい",
+        "correct": true,
+        "explanation": "1 (いち) + 階 (かい): la ち se asimila al か → sokuon → いっかい. Misma regla fonética que 1歳. Correcta. Asimilación con sokuon."
+      },
+      {
+        "text": "いちかい",
+        "correct": false,
+        "explanation": "Sin sokuon; la regla fonética hace obligatoria la asimilación いっかい."
+      },
+      {
+        "text": "ひとかい",
+        "correct": false,
+        "explanation": "ひと es lectura nativa, no se usa con 階. Se usa いち."
+      },
+      {
+        "text": "いちがい",
+        "correct": false,
+        "explanation": "El rendaku ocurre con 3階 (さんがい), no con 1階. 1階 mantiene かい con sokuon."
+      }
     ]
   },
   {
     "id": "U2A-010",
     "cat": "Contadores",
     "q": "¿Cuál es la lectura correcta de 6階?",
-    "correct": "ろっかい",
-    "explanation": "6 (ろく) + 階 (かい): la く se asimila al か → sokuon → ろっかい. Mismo patrón que 6時 (ろくじ se mantiene, pero con contadores ka- toma sokuon).",
     "opts": [
-      {"text": "ろっかい", "correct": true, "reason": "Correcta. Asimilación de ろく + か → ろっか."},
-      {"text": "ろくかい", "correct": false, "reason": "Sin sokuon; la pronunciación natural exige la asimilación."},
-      {"text": "ろくがい", "correct": false, "reason": "El rendaku no ocurre tras ろく ante 階; se exige sokuon."},
-      {"text": "ろっがい", "correct": false, "reason": "Mezcla sokuon con rendaku; ninguna pronunciación japonesa real."}
+      {
+        "text": "ろっかい",
+        "correct": true,
+        "explanation": "6 (ろく) + 階 (かい): la く se asimila al か → sokuon → ろっかい. Mismo patrón que 6時 (ろくじ se mantiene, pero con contadores ka- toma sokuon). Correcta. Asimilación de ろく + か → ろっか."
+      },
+      {
+        "text": "ろくかい",
+        "correct": false,
+        "explanation": "Sin sokuon; la pronunciación natural exige la asimilación."
+      },
+      {
+        "text": "ろくがい",
+        "correct": false,
+        "explanation": "El rendaku no ocurre tras ろく ante 階; se exige sokuon."
+      },
+      {
+        "text": "ろっがい",
+        "correct": false,
+        "explanation": "Mezcla sokuon con rendaku; ninguna pronunciación japonesa real."
+      }
     ]
   },
   {
     "id": "U2A-011",
     "cat": "Contadores",
     "q": "¿Cómo se pregunta '¿En qué piso?'?",
-    "correct": "なんがいですか",
-    "explanation": "何 (なん antes de が/d/t/n) + 階 con rendaku (がい) + ですか. Notá que 何 se lee なん aquí, y 階 toma rendaku tras なん.",
     "opts": [
-      {"text": "なんがいですか", "correct": true, "reason": "Correcta. Lectura なん + rendaku がい."},
-      {"text": "なにかいですか", "correct": false, "reason": "なに se usa antes de otras consonantes, no antes de contadores. Y falta el rendaku."},
-      {"text": "どこかいですか", "correct": false, "reason": "どこ es '¿dónde?' (lugar), no se combina con contador 階."},
-      {"text": "なんのかいですか", "correct": false, "reason": "の no va entre 何 y un contador. なん + 階 directo (con rendaku)."}
+      {
+        "text": "なんがいですか",
+        "correct": true,
+        "explanation": "何 (なん antes de が/d/t/n) + 階 con rendaku (がい) + ですか. Notá que 何 se lee なん aquí, y 階 toma rendaku tras なん. Correcta. Lectura なん + rendaku がい."
+      },
+      {
+        "text": "なにかいですか",
+        "correct": false,
+        "explanation": "なに se usa antes de otras consonantes, no antes de contadores. Y falta el rendaku."
+      },
+      {
+        "text": "どこかいですか",
+        "correct": false,
+        "explanation": "どこ es '¿dónde?' (lugar), no se combina con contador 階."
+      },
+      {
+        "text": "なんのかいですか",
+        "correct": false,
+        "explanation": "の no va entre 何 y un contador. なん + 階 directo (con rendaku)."
+      }
     ]
   },
   {
     "id": "U2A-012",
     "cat": "Contadores",
     "q": "¿Cuál es la lectura correcta de 10階?",
-    "correct": "じゅっかい",
-    "explanation": "10 (じゅう) + 階: la う se contrae y se asimila → sokuon → じゅっかい. También aceptado: じっかい (más formal/antiguo).",
     "opts": [
-      {"text": "じゅっかい", "correct": true, "reason": "Correcta. Pronunciación natural moderna."},
-      {"text": "じゅうかい", "correct": false, "reason": "Sin sokuon es entendible pero no es la forma natural; la regla fonética prefiere じゅっかい."},
-      {"text": "とおかい", "correct": false, "reason": "とお es lectura nativa de 10 (10日 = とおか), no se usa con 階."},
-      {"text": "じゅうがい", "correct": false, "reason": "El rendaku no aplica aquí; se exige sokuon: じゅっかい."}
+      {
+        "text": "じゅっかい",
+        "correct": true,
+        "explanation": "10 (じゅう) + 階: la う se contrae y se asimila → sokuon → じゅっかい. También aceptado: じっかい (más formal/antiguo). Correcta. Pronunciación natural moderna."
+      },
+      {
+        "text": "じゅうかい",
+        "correct": false,
+        "explanation": "Sin sokuon es entendible pero no es la forma natural; la regla fonética prefiere じゅっかい."
+      },
+      {
+        "text": "とおかい",
+        "correct": false,
+        "explanation": "とお es lectura nativa de 10 (10日 = とおか), no se usa con 階."
+      },
+      {
+        "text": "じゅうがい",
+        "correct": false,
+        "explanation": "El rendaku no aplica aquí; se exige sokuon: じゅっかい."
+      }
     ]
   },
   {
     "id": "U2A-013",
     "cat": "Contadores",
     "q": "¿Cómo se dice 'subsuelo 1' (primer sótano)?",
-    "correct": "ちかいっかい",
-    "explanation": "Estructura: 地下 (ちか, subsuelo) + 1階 (いっかい, piso 1) = ちかいっかい. Mantiene la asimilación de 1階.",
     "opts": [
-      {"text": "ちかいっかい", "correct": true, "reason": "Correcta. Composición 地下 + 1階."},
-      {"text": "ちかいちかい", "correct": false, "reason": "Falta el sokuon: 1階 = いっかい (con っ), no いちかい."},
-      {"text": "ちかさんがい", "correct": false, "reason": "さんがい es 3階, no 1階. La pregunta pide piso 1."},
-      {"text": "したいっかい", "correct": false, "reason": "した es lectura nativa de 下 ('abajo' general), no se usa para subsuelo. La palabra correcta es 地下 (ちか)."}
+      {
+        "text": "ちかいっかい",
+        "correct": true,
+        "explanation": "Estructura: 地下 (ちか, subsuelo) + 1階 (いっかい, piso 1) = ちかいっかい. Mantiene la asimilación de 1階. Correcta. Composición 地下 + 1階."
+      },
+      {
+        "text": "ちかいちかい",
+        "correct": false,
+        "explanation": "Falta el sokuon: 1階 = いっかい (con っ), no いちかい."
+      },
+      {
+        "text": "ちかさんがい",
+        "correct": false,
+        "explanation": "さんがい es 3階, no 1階. La pregunta pide piso 1."
+      },
+      {
+        "text": "したいっかい",
+        "correct": false,
+        "explanation": "した es lectura nativa de 下 ('abajo' general), no se usa para subsuelo. La palabra correcta es 地下 (ちか)."
+      }
     ]
   },
   {
     "id": "U2A-014",
     "cat": "Diálogo",
     "q": "En una tienda preguntás dónde queda la caja. ¿Cuál es la oración correcta?",
-    "correct": "すみません、レジは どこですか。",
-    "explanation": "すみません para llamar la atención educadamente + レジ (caja) + は + どこですか.",
     "opts": [
-      {"text": "すみません、レジは どこですか。", "correct": true, "reason": "Correcta. Apertura cortés + pregunta de ubicación."},
-      {"text": "すみません、レジは なんですか。", "correct": false, "reason": "なんですか pregunta '¿qué es?', no la ubicación. Sería 'qué es la caja'."},
-      {"text": "ありがとう、レジは どこですか。", "correct": false, "reason": "ありがとう = 'gracias'. No se usa para llamar la atención antes de preguntar."},
-      {"text": "すみません、レジは どれですか。", "correct": false, "reason": "どれ es '¿cuál de varios?', no '¿dónde?'. Inadecuado para preguntar lugar."}
+      {
+        "text": "すみません、レジは どこですか。",
+        "correct": true,
+        "explanation": "すみません para llamar la atención educadamente + レジ (caja) + は + どこですか. Correcta. Apertura cortés + pregunta de ubicación."
+      },
+      {
+        "text": "すみません、レジは なんですか。",
+        "correct": false,
+        "explanation": "なんですか pregunta '¿qué es?', no la ubicación. Sería 'qué es la caja'."
+      },
+      {
+        "text": "ありがとう、レジは どこですか。",
+        "correct": false,
+        "explanation": "ありがとう = 'gracias'. No se usa para llamar la atención antes de preguntar."
+      },
+      {
+        "text": "すみません、レジは どれですか。",
+        "correct": false,
+        "explanation": "どれ es '¿cuál de varios?', no '¿dónde?'. Inadecuado para preguntar lugar."
+      }
     ]
   },
   {
     "id": "U2A-015",
     "cat": "Vocabulario",
     "q": "¿Qué significa 100円ショップ (ひゃくえんショップ)?",
-    "correct": "Tienda de 100 yenes",
-    "explanation": "100円ショップ es el equivalente japonés del 'todo a 1 dólar': tienda donde la mayoría de productos cuestan 100 yenes. Daiso es la cadena más conocida.",
     "opts": [
-      {"text": "Tienda de 100 yenes", "correct": true, "reason": "Correcta. Concepto comercial específico japonés."},
-      {"text": "Tienda con 100 productos", "correct": false, "reason": "Falso: 100 se refiere al PRECIO en yenes, no a la cantidad de productos."},
-      {"text": "Kiosco", "correct": false, "reason": "'Kiosco' japonés sería キオスク. 100円ショップ es más amplio: utensilios, papelería, snacks, etc."},
-      {"text": "Tienda de conveniencia", "correct": false, "reason": "'Tienda de conveniencia' es コンビニ (de 'convenience'). Concepto distinto."}
+      {
+        "text": "Tienda de 100 yenes",
+        "correct": true,
+        "explanation": "100円ショップ es el equivalente japonés del 'todo a 1 dólar': tienda donde la mayoría de productos cuestan 100 yenes. Daiso es la cadena más conocida. Correcta. Concepto comercial específico japonés."
+      },
+      {
+        "text": "Tienda con 100 productos",
+        "correct": false,
+        "explanation": "Falso: 100 se refiere al PRECIO en yenes, no a la cantidad de productos."
+      },
+      {
+        "text": "Kiosco",
+        "correct": false,
+        "explanation": "'Kiosco' japonés sería キオスク. 100円ショップ es más amplio: utensilios, papelería, snacks, etc."
+      },
+      {
+        "text": "Tienda de conveniencia",
+        "correct": false,
+        "explanation": "'Tienda de conveniencia' es コンビニ (de 'convenience'). Concepto distinto."
+      }
     ]
   },
   {
     "id": "U2A-016",
     "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre そこ y そちら?",
-    "correct": "そちら es la forma formal/educada de そこ",
-    "explanation": "Sistema paralelo: ここ/そこ/あそこ (casual) ↔ こちら/そちら/あちら (formal). Empleados de tienda usan la versión cortés.",
     "opts": [
-      {"text": "そちら es la forma formal/educada de そこ", "correct": true, "reason": "Correcta. Distinción de registro de cortesía."},
-      {"text": "そちら indica más lejos que そこ", "correct": false, "reason": "Falso: ambos refieren a la misma distancia ('cerca del interlocutor'). Difieren en cortesía."},
-      {"text": "そちら se usa solo para personas", "correct": false, "reason": "そちら se usa para lugares y direcciones; aunque también puede aludir a personas formalmente, no es exclusivo."},
-      {"text": "No hay diferencia, son sinónimos exactos", "correct": false, "reason": "Hay diferencia clara de registro."}
+      {
+        "text": "そちら es la forma formal/educada de そこ",
+        "correct": true,
+        "explanation": "Sistema paralelo: ここ/そこ/あそこ (casual) ↔ こちら/そちら/あちら (formal). Empleados de tienda usan la versión cortés. Correcta. Distinción de registro de cortesía."
+      },
+      {
+        "text": "そちら indica más lejos que そこ",
+        "correct": false,
+        "explanation": "Falso: ambos refieren a la misma distancia ('cerca del interlocutor'). Difieren en cortesía."
+      },
+      {
+        "text": "そちら se usa solo para personas",
+        "correct": false,
+        "explanation": "そちら se usa para lugares y direcciones; aunque también puede aludir a personas formalmente, no es exclusivo."
+      },
+      {
+        "text": "No hay diferencia, son sinónimos exactos",
+        "correct": false,
+        "explanation": "Hay diferencia clara de registro."
+      }
     ]
   },
   {
     "id": "U2A-017",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'información' (mostrador de informes)?",
-    "correct": "インフォメーション",
-    "explanation": "インフォメーション viene del inglés 'information'. Notá las vocales largas y la transcripción de 'tion' como ション.",
     "opts": [
-      {"text": "インフォメーション", "correct": true, "reason": "Correcta. Transcripción estándar."},
-      {"text": "インフォマーション", "correct": false, "reason": "Transcripción incorrecta de la vocal media: メー (no マー)."},
-      {"text": "インフォルメーション", "correct": false, "reason": "Mezcla con español 'información'; el japonés sigue el inglés sin la 'l'."},
-      {"text": "アナウンス", "correct": false, "reason": "アナウンス es 'announcement/anuncio' (acción de anunciar), no el mostrador."}
+      {
+        "text": "インフォメーション",
+        "correct": true,
+        "explanation": "インフォメーション viene del inglés 'information'. Notá las vocales largas y la transcripción de 'tion' como ション. Correcta. Transcripción estándar."
+      },
+      {
+        "text": "インフォマーション",
+        "correct": false,
+        "explanation": "Transcripción incorrecta de la vocal media: メー (no マー)."
+      },
+      {
+        "text": "インフォルメーション",
+        "correct": false,
+        "explanation": "Mezcla con español 'información'; el japonés sigue el inglés sin la 'l'."
+      },
+      {
+        "text": "アナウンス",
+        "correct": false,
+        "explanation": "アナウンス es 'announcement/anuncio' (acción de anunciar), no el mostrador."
+      }
     ]
   },
   {
     "id": "U2A-018",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Por aquí' (forma educada, señalando cerca)?",
-    "correct": "こちらです",
-    "explanation": "こちら es la versión formal de ここ (aquí). Empleados usan こちらです al guiar a clientes.",
     "opts": [
-      {"text": "こちらです", "correct": true, "reason": "Correcta. Forma educada de servicio."},
-      {"text": "ここです", "correct": false, "reason": "Es entendible pero más casual. En servicio formal se prefiere こちらです."},
-      {"text": "これです", "correct": false, "reason": "これ es 'esto' (objeto), no lugar. La pregunta pide indicación de LUGAR."},
-      {"text": "こっちです", "correct": false, "reason": "こっち es la versión MUY casual de こちら, inadecuada para servicio formal."}
+      {
+        "text": "こちらです",
+        "correct": true,
+        "explanation": "こちら es la versión formal de ここ (aquí). Empleados usan こちらです al guiar a clientes. Correcta. Forma educada de servicio."
+      },
+      {
+        "text": "ここです",
+        "correct": false,
+        "explanation": "Es entendible pero más casual. En servicio formal se prefiere こちらです."
+      },
+      {
+        "text": "これです",
+        "correct": false,
+        "explanation": "これ es 'esto' (objeto), no lugar. La pregunta pide indicación de LUGAR."
+      },
+      {
+        "text": "こっちです",
+        "correct": false,
+        "explanation": "こっち es la versión MUY casual de こちら, inadecuada para servicio formal."
+      }
     ]
   },
   {
     "id": "U2A-019",
     "cat": "Diálogo",
     "q": "Cliente: すみません、スーパーは なんがいですか。 Empleado: ___. ¿Cuál es la respuesta natural si el supermercado está en el subsuelo?",
-    "correct": "ちかいっかいです",
-    "explanation": "Para indicar el subsuelo se combina 地下 + número de piso: 地下1階 = ちかいっかい (subsuelo 1).",
     "opts": [
-      {"text": "ちかいっかいです", "correct": true, "reason": "Correcta. Composición precisa 地下 + 1階."},
-      {"text": "ちかです", "correct": false, "reason": "Solo ちか sin nivel específico es ambiguo (¿qué subsuelo?). Falta el número de piso."},
-      {"text": "したかいです", "correct": false, "reason": "した no se usa con 階 para subsuelos. La palabra es 地下 (ちか)."},
-      {"text": "ちかさんがいです", "correct": false, "reason": "さんがい sería '3er subsuelo'. La pregunta es genérica 'subsuelo' (= 1°)."}
+      {
+        "text": "ちかいっかいです",
+        "correct": true,
+        "explanation": "Para indicar el subsuelo se combina 地下 + número de piso: 地下1階 = ちかいっかい (subsuelo 1). Correcta. Composición precisa 地下 + 1階."
+      },
+      {
+        "text": "ちかです",
+        "correct": false,
+        "explanation": "Solo ちか sin nivel específico es ambiguo (¿qué subsuelo?). Falta el número de piso."
+      },
+      {
+        "text": "したかいです",
+        "correct": false,
+        "explanation": "した no se usa con 階 para subsuelos. La palabra es 地下 (ちか)."
+      },
+      {
+        "text": "ちかさんがいです",
+        "correct": false,
+        "explanation": "さんがい sería '3er subsuelo'. La pregunta es genérica 'subsuelo' (= 1°)."
+      }
     ]
   },
   {
     "id": "U2A-020",
     "cat": "Partículas",
     "q": "カメラは___どこですか。¿Qué partícula falta?",
-    "correct": "(ninguna, va directo)",
-    "explanation": "Después de は + sustantivo de tema, el interrogativo de lugar どこ va directamente sin partícula intermedia. La estructura es: [sust]は [どこ] ですか.",
     "opts": [
-      {"text": "(ninguna, va directo)", "correct": true, "reason": "Correcta. La partícula は ya está; どこ va directo antes de です."},
-      {"text": "を", "correct": false, "reason": "を es objeto directo de verbo, no aplicable acá."},
-      {"text": "の", "correct": false, "reason": "の conecta sustantivos. どこ no es modificador de カメラ, es predicado."},
-      {"text": "が", "correct": false, "reason": "は y が no se acumulan. La pregunta ya tiene は."}
+      {
+        "text": "(ninguna, va directo)",
+        "correct": true,
+        "explanation": "Después de は + sustantivo de tema, el interrogativo de lugar どこ va directamente sin partícula intermedia. La estructura es: [sust]は [どこ] ですか. Correcta. La partícula は ya está; どこ va directo antes de です."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "explanation": "を es objeto directo de verbo, no aplicable acá."
+      },
+      {
+        "text": "の",
+        "correct": false,
+        "explanation": "の conecta sustantivos. どこ no es modificador de カメラ, es predicado."
+      },
+      {
+        "text": "が",
+        "correct": false,
+        "explanation": "は y が no se acumulan. La pregunta ya tiene は."
+      }
     ]
   },
   {
     "id": "U2A-021",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 何階?",
-    "correct": "なんがい",
-    "explanation": "何 (なん antes de contadores con sonidos compatibles) + 階 (con rendaku がい tras なん) = なんがい.",
     "opts": [
-      {"text": "なんがい", "correct": true, "reason": "Correcta. Lectura なん + rendaku がい."},
-      {"text": "なにかい", "correct": false, "reason": "なに no se usa antes de contadores; se usa なん. Y falta el rendaku."},
-      {"text": "なんかい", "correct": false, "reason": "Sin rendaku; el contador 階 toma が tras なん por convención fonética."},
-      {"text": "なんがいじ", "correct": false, "reason": "じ no es parte de la palabra; el contador es 階 sin más sufijo."}
+      {
+        "text": "なんがい",
+        "correct": true,
+        "explanation": "何 (なん antes de contadores con sonidos compatibles) + 階 (con rendaku がい tras なん) = なんがい. Correcta. Lectura なん + rendaku がい."
+      },
+      {
+        "text": "なにかい",
+        "correct": false,
+        "explanation": "なに no se usa antes de contadores; se usa なん. Y falta el rendaku."
+      },
+      {
+        "text": "なんかい",
+        "correct": false,
+        "explanation": "Sin rendaku; el contador 階 toma が tras なん por convención fonética."
+      },
+      {
+        "text": "なんがいじ",
+        "correct": false,
+        "explanation": "じ no es parte de la palabra; el contador es 階 sin más sufijo."
+      }
     ]
   },
   {
     "id": "U2A-022",
     "cat": "Vocabulario",
     "q": "¿Qué significa レジ?",
-    "correct": "Caja registradora",
-    "explanation": "レジ es abreviatura de レジスター (del inglés 'register'). Es donde se paga en una tienda o supermercado.",
     "opts": [
-      {"text": "Caja registradora", "correct": true, "reason": "Correcta. Punto de pago."},
-      {"text": "Restaurante", "correct": false, "reason": "'Restaurante' es レストラン. Suenan parecido pero distintos."},
-      {"text": "Registro de ingreso", "correct": false, "reason": "Eso sería 受付 (うけつけ) o チェックイン. レジ es específicamente la caja de pago."},
-      {"text": "Recepción", "correct": false, "reason": "'Recepción' es 受付 (うけつけ) o フロント. レジ es para pagos."}
+      {
+        "text": "Caja registradora",
+        "correct": true,
+        "explanation": "レジ es abreviatura de レジスター (del inglés 'register'). Es donde se paga en una tienda o supermercado. Correcta. Punto de pago."
+      },
+      {
+        "text": "Restaurante",
+        "correct": false,
+        "explanation": "'Restaurante' es レストラン. Suenan parecido pero distintos."
+      },
+      {
+        "text": "Registro de ingreso",
+        "correct": false,
+        "explanation": "Eso sería 受付 (うけつけ) o チェックイン. レジ es específicamente la caja de pago."
+      },
+      {
+        "text": "Recepción",
+        "correct": false,
+        "explanation": "'Recepción' es 受付 (うけつけ) o フロント. レジ es para pagos."
+      }
     ]
   },
   {
     "id": "U2A-023",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'escalera mecánica'?",
-    "correct": "エスカレーター",
-    "explanation": "エスカレーター viene del inglés 'escalator'. Notá las dos vocales largas similares a エレベーター.",
     "opts": [
-      {"text": "エスカレーター", "correct": true, "reason": "Correcta. Préstamo del inglés 'escalator'."},
-      {"text": "エレベーター", "correct": false, "reason": "エレベーター es 'ascensor/elevator', no escalera mecánica. Confusión típica."},
-      {"text": "ステアス", "correct": false, "reason": "ステアス no es palabra usada en japonés. 'Escaleras' (no mecánicas) es 階段 (かいだん)."},
-      {"text": "ラダー", "correct": false, "reason": "ラダー sería 'ladder' (escalera vertical/de mano), no escalera mecánica."}
+      {
+        "text": "エスカレーター",
+        "correct": true,
+        "explanation": "エスカレーター viene del inglés 'escalator'. Notá las dos vocales largas similares a エレベーター. Correcta. Préstamo del inglés 'escalator'."
+      },
+      {
+        "text": "エレベーター",
+        "correct": false,
+        "explanation": "エレベーター es 'ascensor/elevator', no escalera mecánica. Confusión típica."
+      },
+      {
+        "text": "ステアス",
+        "correct": false,
+        "explanation": "ステアス no es palabra usada en japonés. 'Escaleras' (no mecánicas) es 階段 (かいだん)."
+      },
+      {
+        "text": "ラダー",
+        "correct": false,
+        "explanation": "ラダー sería 'ladder' (escalera vertical/de mano), no escalera mecánica."
+      }
     ]
   },
   {
     "id": "U2A-024",
     "cat": "Distinción",
     "q": "Estás buscando algo y lo ves cerca de tu interlocutor. ¿Qué demostrativo de lugar usarías?",
-    "correct": "そこ",
-    "explanation": "そこ marca el espacio cercano AL INTERLOCUTOR (no al hablante). Es el segundo de la serie こ/そ/あ.",
     "opts": [
-      {"text": "そこ", "correct": true, "reason": "Correcta. そこ = lugar cercano al oyente."},
-      {"text": "ここ", "correct": false, "reason": "ここ es lugar cerca del hablante (yo), no del oyente."},
-      {"text": "あそこ", "correct": false, "reason": "あそこ es lugar lejos de ambos, no cerca de uno."},
-      {"text": "どこ", "correct": false, "reason": "どこ es interrogativo, no afirmación de ubicación."}
+      {
+        "text": "そこ",
+        "correct": true,
+        "explanation": "そこ marca el espacio cercano AL INTERLOCUTOR (no al hablante). Es el segundo de la serie こ/そ/あ. Correcta. そこ = lugar cercano al oyente."
+      },
+      {
+        "text": "ここ",
+        "correct": false,
+        "explanation": "ここ es lugar cerca del hablante (yo), no del oyente."
+      },
+      {
+        "text": "あそこ",
+        "correct": false,
+        "explanation": "あそこ es lugar lejos de ambos, no cerca de uno."
+      },
+      {
+        "text": "どこ",
+        "correct": false,
+        "explanation": "どこ es interrogativo, no afirmación de ubicación."
+      }
     ]
   },
   {
     "id": "U2A-025",
     "cat": "Diálogo",
     "q": "Un empleado formal quiere indicarte 'por allá (lejos)'. Dirá:",
-    "correct": "あちらです",
-    "explanation": "Empleados usan la serie formal こちら/そちら/あちら para indicar lugares con cortesía hacia el cliente.",
     "opts": [
-      {"text": "あちらです", "correct": true, "reason": "Correcta. Forma formal de 'por allá'."},
-      {"text": "あそこです", "correct": false, "reason": "あそこ es entendible pero casual; un empleado formal usa あちら."},
-      {"text": "あれです", "correct": false, "reason": "あれ = 'aquello' (objeto), no lugar. La pregunta pide ubicación."},
-      {"text": "あっちです", "correct": false, "reason": "あっち es la versión MUY casual de あちら, inadecuada en servicio."}
+      {
+        "text": "あちらです",
+        "correct": true,
+        "explanation": "Empleados usan la serie formal こちら/そちら/あちら para indicar lugares con cortesía hacia el cliente. Correcta. Forma formal de 'por allá'."
+      },
+      {
+        "text": "あそこです",
+        "correct": false,
+        "explanation": "あそこ es entendible pero casual; un empleado formal usa あちら."
+      },
+      {
+        "text": "あれです",
+        "correct": false,
+        "explanation": "あれ = 'aquello' (objeto), no lugar. La pregunta pide ubicación."
+      },
+      {
+        "text": "あっちです",
+        "correct": false,
+        "explanation": "あっち es la versión MUY casual de あちら, inadecuada en servicio."
+      }
     ]
   },
   {
     "id": "U2A-026",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo se dice 'El baño está ahí (cerca tuyo)' usando forma casual?",
-    "correct": "トイレは そこです。",
-    "explanation": "そこ corresponde al 'ahí' español (cerca del interlocutor). Estructura: [tema]は + lugar + です.",
     "opts": [
-      {"text": "トイレは そこです。", "correct": true, "reason": "Correcta. そこ = ahí (cerca de vos)."},
-      {"text": "トイレは ここです。", "correct": false, "reason": "ここ = 'aquí' (cerca del hablante), no del interlocutor."},
-      {"text": "トイレは あそこです。", "correct": false, "reason": "あそこ = 'allá' (lejos de ambos), no cerca."},
-      {"text": "トイレは どこです。", "correct": false, "reason": "どこ es interrogativo y le falta か final. No es afirmación."}
+      {
+        "text": "トイレは そこです。",
+        "correct": true,
+        "explanation": "そこ corresponde al 'ahí' español (cerca del interlocutor). Estructura: [tema]は + lugar + です. Correcta. そこ = ahí (cerca de vos)."
+      },
+      {
+        "text": "トイレは ここです。",
+        "correct": false,
+        "explanation": "ここ = 'aquí' (cerca del hablante), no del interlocutor."
+      },
+      {
+        "text": "トイレは あそこです。",
+        "correct": false,
+        "explanation": "あそこ = 'allá' (lejos de ambos), no cerca."
+      },
+      {
+        "text": "トイレは どこです。",
+        "correct": false,
+        "explanation": "どこ es interrogativo y le falta か final. No es afirmación."
+      }
     ]
   },
   {
     "id": "U2A-027",
     "cat": "Vocabulario",
     "q": "¿Qué significa ATM en el contexto japonés?",
-    "correct": "Cajero automático",
-    "explanation": "ATM (エーティーエム) en japonés se usa igual que en inglés/español: máquina automática para retirar/depositar dinero.",
     "opts": [
-      {"text": "Cajero automático", "correct": true, "reason": "Correcta. Es el mismo significado universal."},
-      {"text": "Máquina expendedora", "correct": false, "reason": "'Máquina expendedora' es 自動販売機 (じどうはんばいき) o 自販機 (じはんき)."},
-      {"text": "Máquina de tickets", "correct": false, "reason": "'Máquina de tickets' es 券売機 (けんばいき) o チケット販売機."},
-      {"text": "Panel informativo", "correct": false, "reason": "'Panel informativo' es 案内板 (あんないばん) o ディスプレイ."}
+      {
+        "text": "Cajero automático",
+        "correct": true,
+        "explanation": "ATM (エーティーエム) en japonés se usa igual que en inglés/español: máquina automática para retirar/depositar dinero. Correcta. Es el mismo significado universal."
+      },
+      {
+        "text": "Máquina expendedora",
+        "correct": false,
+        "explanation": "'Máquina expendedora' es 自動販売機 (じどうはんばいき) o 自販機 (じはんき)."
+      },
+      {
+        "text": "Máquina de tickets",
+        "correct": false,
+        "explanation": "'Máquina de tickets' es 券売機 (けんばいき) o チケット販売機."
+      },
+      {
+        "text": "Panel informativo",
+        "correct": false,
+        "explanation": "'Panel informativo' es 案内板 (あんないばん) o ディスプレイ."
+      }
     ]
   },
   {
     "id": "U2A-028",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 地下1階?",
-    "correct": "ちかいっかい",
-    "explanation": "地下 (ちか) + 1階 (いっかい) = ちかいっかい. Mantiene la asimilación con sokuon de 1階.",
     "opts": [
-      {"text": "ちかいっかい", "correct": true, "reason": "Correcta. Composición exacta."},
-      {"text": "ちかいちかい", "correct": false, "reason": "Falta el sokuon: 1階 = いっかい (con っ), no いちかい."},
-      {"text": "じかいっかい", "correct": false, "reason": "地 se lee ち, no じ, en 地下."},
-      {"text": "ちげいっかい", "correct": false, "reason": "下 se lee か (no げ) en 地下."}
+      {
+        "text": "ちかいっかい",
+        "correct": true,
+        "explanation": "地下 (ちか) + 1階 (いっかい) = ちかいっかい. Mantiene la asimilación con sokuon de 1階. Correcta. Composición exacta."
+      },
+      {
+        "text": "ちかいちかい",
+        "correct": false,
+        "explanation": "Falta el sokuon: 1階 = いっかい (con っ), no いちかい."
+      },
+      {
+        "text": "じかいっかい",
+        "correct": false,
+        "explanation": "地 se lee ち, no じ, en 地下."
+      },
+      {
+        "text": "ちげいっかい",
+        "correct": false,
+        "explanation": "下 se lee か (no げ) en 地下."
+      }
     ]
   },
   {
     "id": "U2A-029",
     "cat": "Diálogo",
     "q": "Para llamar la atención de un empleado antes de preguntar, ¿qué palabra usás?",
-    "correct": "すみません",
-    "explanation": "すみません tiene múltiples usos pragmáticos: aquí funciona como '¡disculpe!' para iniciar interacción educadamente con un desconocido.",
     "opts": [
-      {"text": "すみません", "correct": true, "reason": "Correcta. Marcador de apertura cortés."},
-      {"text": "ありがとう", "correct": false, "reason": "ありがとう = 'gracias'. Se usa al final, no para iniciar."},
-      {"text": "こんにちは", "correct": false, "reason": "こんにちは = 'buenas tardes'. Es saludo general, no llamada específica."},
-      {"text": "どうも", "correct": false, "reason": "どうも es ambiguo y muy casual; no es la fórmula clara para captar atención."}
+      {
+        "text": "すみません",
+        "correct": true,
+        "explanation": "すみません tiene múltiples usos pragmáticos: aquí funciona como '¡disculpe!' para iniciar interacción educadamente con un desconocido. Correcta. Marcador de apertura cortés."
+      },
+      {
+        "text": "ありがとう",
+        "correct": false,
+        "explanation": "ありがとう = 'gracias'. Se usa al final, no para iniciar."
+      },
+      {
+        "text": "こんにちは",
+        "correct": false,
+        "explanation": "こんにちは = 'buenas tardes'. Es saludo general, no llamada específica."
+      },
+      {
+        "text": "どうも",
+        "correct": false,
+        "explanation": "どうも es ambiguo y muy casual; no es la fórmula clara para captar atención."
+      }
     ]
   },
   {
     "id": "U2A-030",
     "cat": "Diálogo",
     "q": "A: すみません、トイレは どこですか。 B: ___. ¿Qué opción suena más natural de parte del empleado señalando lejos?",
-    "correct": "あちらです。",
-    "explanation": "Como empleado en contexto formal, あちらです es la forma cortés y profesional de indicar 'por allá'.",
     "opts": [
-      {"text": "あちらです。", "correct": true, "reason": "Correcta. Forma formal apropiada en servicio."},
-      {"text": "あれです。", "correct": false, "reason": "あれ = 'aquello' (objeto), no lugar. No responde a どこ ('dónde')."},
-      {"text": "あのです。", "correct": false, "reason": "あの es modificador y no funciona solo (debería ir + sustantivo)."},
-      {"text": "あっちです。", "correct": false, "reason": "あっち es muy casual, inadecuado para empleado formal con cliente."}
+      {
+        "text": "あちらです。",
+        "correct": true,
+        "explanation": "Como empleado en contexto formal, あちらです es la forma cortés y profesional de indicar 'por allá'. Correcta. Forma formal apropiada en servicio."
+      },
+      {
+        "text": "あれです。",
+        "correct": false,
+        "explanation": "あれ = 'aquello' (objeto), no lugar. No responde a どこ ('dónde')."
+      },
+      {
+        "text": "あのです。",
+        "correct": false,
+        "explanation": "あの es modificador y no funciona solo (debería ir + sustantivo)."
+      },
+      {
+        "text": "あっちです。",
+        "correct": false,
+        "explanation": "あっち es muy casual, inadecuado para empleado formal con cliente."
+      }
     ]
   },
   {
     "id": "U2A-031",
     "cat": "Vocabulario",
     "q": "¿Qué significa 靴屋 (くつや)?",
-    "correct": "Zapatería",
-    "explanation": "靴 (くつ, 'zapato') + 屋 (や, 'tienda') = くつや, 'zapatería'. El sufijo 屋 forma nombres de tiendas especializadas.",
     "opts": [
-      {"text": "Zapatería", "correct": true, "reason": "Correcta. Patrón [producto]+屋 = tienda de ese producto."},
-      {"text": "Tienda de ropa", "correct": false, "reason": "'Tienda de ropa' es 服屋 (ふくや) o 洋服店 (ようふくてん). 靴 es zapato."},
-      {"text": "Lavandería", "correct": false, "reason": "'Lavandería' es クリーニング屋 o 洗濯屋. 靴屋 es específico de calzado."},
-      {"text": "Pastelería", "correct": false, "reason": "'Pastelería' es ケーキ屋 (けーきや) o 菓子屋."}
+      {
+        "text": "Zapatería",
+        "correct": true,
+        "explanation": "靴 (くつ, 'zapato') + 屋 (や, 'tienda') = くつや, 'zapatería'. El sufijo 屋 forma nombres de tiendas especializadas. Correcta. Patrón [producto]+屋 = tienda de ese producto."
+      },
+      {
+        "text": "Tienda de ropa",
+        "correct": false,
+        "explanation": "'Tienda de ropa' es 服屋 (ふくや) o 洋服店 (ようふくてん). 靴 es zapato."
+      },
+      {
+        "text": "Lavandería",
+        "correct": false,
+        "explanation": "'Lavandería' es クリーニング屋 o 洗濯屋. 靴屋 es específico de calzado."
+      },
+      {
+        "text": "Pastelería",
+        "correct": false,
+        "explanation": "'Pastelería' es ケーキ屋 (けーきや) o 菓子屋."
+      }
     ]
   },
   {
     "id": "U2A-032",
     "cat": "Vocabulario",
     "q": "¿Qué significa el sufijo ～屋 (や) después de un producto?",
-    "correct": "Tienda de ~",
-    "explanation": "屋 (や) sufijado a un producto/servicio forma 'tienda especializada en ~': 本屋 (librería), 花屋 (florería), パン屋 (panadería), etc.",
     "opts": [
-      {"text": "Tienda de ~", "correct": true, "reason": "Correcta. Función productiva de 屋 como sufijo comercial."},
-      {"text": "Casa de ~", "correct": false, "reason": "Aunque 屋 originalmente significa 'techo/casa', como sufijo comercial significa 'tienda'."},
-      {"text": "Calle de ~", "correct": false, "reason": "'Calle' es 通り (とおり) o 道 (みち). 屋 no es 'calle'."},
-      {"text": "Fábrica de ~", "correct": false, "reason": "'Fábrica' es 工場 (こうじょう). 屋 es para venta minorista."}
+      {
+        "text": "Tienda de ~",
+        "correct": true,
+        "explanation": "屋 (や) sufijado a un producto/servicio forma 'tienda especializada en ~': 本屋 (librería), 花屋 (florería), パン屋 (panadería), etc. Correcta. Función productiva de 屋 como sufijo comercial."
+      },
+      {
+        "text": "Casa de ~",
+        "correct": false,
+        "explanation": "Aunque 屋 originalmente significa 'techo/casa', como sufijo comercial significa 'tienda'."
+      },
+      {
+        "text": "Calle de ~",
+        "correct": false,
+        "explanation": "'Calle' es 通り (とおり) o 道 (みち). 屋 no es 'calle'."
+      },
+      {
+        "text": "Fábrica de ~",
+        "correct": false,
+        "explanation": "'Fábrica' es 工場 (こうじょう). 屋 es para venta minorista."
+      }
     ]
   },
   {
     "id": "U2A-033",
     "cat": "Traducción JP→ES",
     "q": "ケーキ屋は 1階です。 ¿Qué significa esta oración?",
-    "correct": "La pastelería está en el 1er piso",
-    "explanation": "ケーキ屋 (pastelería) + は (tema) + 1階 (1er piso) + です. Estructura simple AはBです.",
     "opts": [
-      {"text": "La pastelería está en el 1er piso", "correct": true, "reason": "Correcta. Traducción literal y precisa."},
-      {"text": "La torta está en el 1er piso", "correct": false, "reason": "ケーキ屋 (con 屋) es 'pastelería' (tienda), no 'torta' que sería ケーキ sola."},
-      {"text": "Hay una pastelería por 1 yen", "correct": false, "reason": "1階 es '1er piso', no 'precio'. 'Por 1 yen' sería 1円 (いちえん)."},
-      {"text": "La pastelería es el 1er lugar", "correct": false, "reason": "1階 específicamente es 'piso 1', no '1er lugar' general."}
+      {
+        "text": "La pastelería está en el 1er piso",
+        "correct": true,
+        "explanation": "ケーキ屋 (pastelería) + は (tema) + 1階 (1er piso) + です. Estructura simple AはBです. Correcta. Traducción literal y precisa."
+      },
+      {
+        "text": "La torta está en el 1er piso",
+        "correct": false,
+        "explanation": "ケーキ屋 (con 屋) es 'pastelería' (tienda), no 'torta' que sería ケーキ sola."
+      },
+      {
+        "text": "Hay una pastelería por 1 yen",
+        "correct": false,
+        "explanation": "1階 es '1er piso', no 'precio'. 'Por 1 yen' sería 1円 (いちえん)."
+      },
+      {
+        "text": "La pastelería es el 1er lugar",
+        "correct": false,
+        "explanation": "1階 específicamente es 'piso 1', no '1er lugar' general."
+      }
     ]
   },
   {
     "id": "U2A-034",
     "cat": "Contadores",
     "q": "¿Cuál es la lectura correcta de 8階?",
-    "correct": "はっかい",
-    "explanation": "8 (はち) + 階 (かい): la ち se asimila → sokuon → はっかい. Misma regla que 1階, 6階, 10階.",
     "opts": [
-      {"text": "はっかい", "correct": true, "reason": "Correcta. Asimilación con sokuon estándar."},
-      {"text": "はちかい", "correct": false, "reason": "Sin sokuon; la regla fonética hace obligatoria la asimilación."},
-      {"text": "はちがい", "correct": false, "reason": "El rendaku no aplica con はち + 階; se exige sokuon, no rendaku."},
-      {"text": "やっかい", "correct": false, "reason": "や es lectura nativa de 8 (やっつ), no se usa con 階."}
+      {
+        "text": "はっかい",
+        "correct": true,
+        "explanation": "8 (はち) + 階 (かい): la ち se asimila → sokuon → はっかい. Misma regla que 1階, 6階, 10階. Correcta. Asimilación con sokuon estándar."
+      },
+      {
+        "text": "はちかい",
+        "correct": false,
+        "explanation": "Sin sokuon; la regla fonética hace obligatoria la asimilación."
+      },
+      {
+        "text": "はちがい",
+        "correct": false,
+        "explanation": "El rendaku no aplica con はち + 階; se exige sokuon, no rendaku."
+      },
+      {
+        "text": "やっかい",
+        "correct": false,
+        "explanation": "や es lectura nativa de 8 (やっつ), no se usa con 階."
+      }
     ]
   },
   {
     "id": "U2A-035",
     "cat": "Distinción",
     "q": "¿Cuál es la diferencia principal entre ここ y これ?",
-    "correct": "ここ = aquí (lugar); これ = esto (objeto)",
-    "explanation": "Ambos comparten el prefijo こ~ (cercano al hablante) pero pertenecen a series distintas: ここ es de lugares, これ es de objetos/cosas.",
     "opts": [
-      {"text": "ここ = aquí (lugar); これ = esto (objeto)", "correct": true, "reason": "Correcta. Distinción categorial fundamental."},
-      {"text": "ここ se usa con cosas; これ con personas", "correct": false, "reason": "Invertido y simplista. ここ es lugar; これ es objeto, no persona."},
-      {"text": "Son sinónimos totales", "correct": false, "reason": "Son categorías distintas (lugar vs. objeto)."},
-      {"text": "ここ es formal; これ es casual", "correct": false, "reason": "No es cuestión de formalidad sino de categoría semántica."}
+      {
+        "text": "ここ = aquí (lugar); これ = esto (objeto)",
+        "correct": true,
+        "explanation": "Ambos comparten el prefijo こ~ (cercano al hablante) pero pertenecen a series distintas: ここ es de lugares, これ es de objetos/cosas. Correcta. Distinción categorial fundamental."
+      },
+      {
+        "text": "ここ se usa con cosas; これ con personas",
+        "correct": false,
+        "explanation": "Invertido y simplista. ここ es lugar; これ es objeto, no persona."
+      },
+      {
+        "text": "Son sinónimos totales",
+        "correct": false,
+        "explanation": "Son categorías distintas (lugar vs. objeto)."
+      },
+      {
+        "text": "ここ es formal; これ es casual",
+        "correct": false,
+        "explanation": "No es cuestión de formalidad sino de categoría semántica."
+      }
     ]
   },
   {
     "id": "U2A-036",
     "cat": "Diálogo",
     "q": "En un centro comercial preguntás por la cafetería. ¿Qué oración es correcta y natural?",
-    "correct": "すみません、喫茶店は どこですか。",
-    "explanation": "Apertura cortés (すみません) + sustantivo + は + どこですか (¿dónde?).",
     "opts": [
-      {"text": "すみません、喫茶店は どこですか。", "correct": true, "reason": "Correcta. Estructura completa y cortés."},
-      {"text": "すみません、喫茶店は なんですか。", "correct": false, "reason": "なんですか pregunta '¿qué es?' (definición), no la ubicación."},
-      {"text": "すみません、喫茶店は だれですか。", "correct": false, "reason": "だれ = '¿quién?'. No aplicable a una cafetería."},
-      {"text": "すみません、喫茶店は いくらですか。", "correct": false, "reason": "いくら = '¿cuánto cuesta?'. La pregunta es por ubicación, no precio."}
+      {
+        "text": "すみません、喫茶店は どこですか。",
+        "correct": true,
+        "explanation": "Apertura cortés (すみません) + sustantivo + は + どこですか (¿dónde?). Correcta. Estructura completa y cortés."
+      },
+      {
+        "text": "すみません、喫茶店は なんですか。",
+        "correct": false,
+        "explanation": "なんですか pregunta '¿qué es?' (definición), no la ubicación."
+      },
+      {
+        "text": "すみません、喫茶店は だれですか。",
+        "correct": false,
+        "explanation": "だれ = '¿quién?'. No aplicable a una cafetería."
+      },
+      {
+        "text": "すみません、喫茶店は いくらですか。",
+        "correct": false,
+        "explanation": "いくら = '¿cuánto cuesta?'. La pregunta es por ubicación, no precio."
+      }
     ]
   },
   {
     "id": "U2A-037",
     "cat": "Vocabulario",
     "q": "¿Qué significa サカイでんき (サカイ電器)?",
-    "correct": "Tienda de electrónica Sakai",
-    "explanation": "サカイ (Sakai, nombre propio) + 電器 (でんき, 'electrónica/electrodomésticos') = nombre comercial de tienda especializada.",
     "opts": [
-      {"text": "Tienda de electrónica Sakai", "correct": true, "reason": "Correcta. Composición [marca]+電器."},
-      {"text": "Restaurante Sakai", "correct": false, "reason": "Restaurante sería サカイ レストラン o サカイ食堂. 電器 indica electrónica."},
-      {"text": "Electricista Sakai", "correct": false, "reason": "Electricista es 電気工事士 (でんきこうじし). 電器 (con 器) es para tienda de aparatos."},
-      {"text": "Empresa eléctrica Sakai", "correct": false, "reason": "Empresa eléctrica (proveedor) es 電力会社 (でんりょくがいしゃ). 電器 es para venta minorista de electrodomésticos."}
+      {
+        "text": "Tienda de electrónica Sakai",
+        "correct": true,
+        "explanation": "サカイ (Sakai, nombre propio) + 電器 (でんき, 'electrónica/electrodomésticos') = nombre comercial de tienda especializada. Correcta. Composición [marca]+電器."
+      },
+      {
+        "text": "Restaurante Sakai",
+        "correct": false,
+        "explanation": "Restaurante sería サカイ レストラン o サカイ食堂. 電器 indica electrónica."
+      },
+      {
+        "text": "Electricista Sakai",
+        "correct": false,
+        "explanation": "Electricista es 電気工事士 (でんきこうじし). 電器 (con 器) es para tienda de aparatos."
+      },
+      {
+        "text": "Empresa eléctrica Sakai",
+        "correct": false,
+        "explanation": "Empresa eléctrica (proveedor) es 電力会社 (でんりょくがいしゃ). 電器 es para venta minorista de electrodomésticos."
+      }
     ]
   },
   {
     "id": "U2A-038",
     "cat": "Contadores",
     "q": "Si algo está en el piso 4, decís:",
-    "correct": "よんかいです",
-    "explanation": "Para 4階 se usa よん (no し ni よ): よんかい. No toma sokuon ni rendaku.",
     "opts": [
-      {"text": "よんかいです", "correct": true, "reason": "Correcta. Lectura natural de 4階."},
-      {"text": "しかいです", "correct": false, "reason": "し es lectura válida de 4 pero se evita por sonar como 死 ('muerte'), especialmente en pisos. Y よんかい es más natural."},
-      {"text": "よんがいです", "correct": false, "reason": "El rendaku ocurre con さん (さんがい), no con よん."},
-      {"text": "よっかいです", "correct": false, "reason": "よっか es 'día 4 del mes' (4日), no 4階."}
+      {
+        "text": "よんかいです",
+        "correct": true,
+        "explanation": "Para 4階 se usa よん (no し ni よ): よんかい. No toma sokuon ni rendaku. Correcta. Lectura natural de 4階."
+      },
+      {
+        "text": "しかいです",
+        "correct": false,
+        "explanation": "し es lectura válida de 4 pero se evita por sonar como 死 ('muerte'), especialmente en pisos. Y よんかい es más natural."
+      },
+      {
+        "text": "よんがいです",
+        "correct": false,
+        "explanation": "El rendaku ocurre con さん (さんがい), no con よん."
+      },
+      {
+        "text": "よっかいです",
+        "correct": false,
+        "explanation": "よっか es 'día 4 del mes' (4日), no 4階."
+      }
     ]
   },
   {
     "id": "U2A-039",
     "cat": "Diálogo",
     "q": "Al agradecer la información de un empleado, la frase más apropiada es:",
-    "correct": "ありがとうございます",
-    "explanation": "ありがとうございます es la forma formal de agradecimiento, apropiada hacia un empleado que te ha ayudado.",
     "opts": [
-      {"text": "ありがとうございます", "correct": true, "reason": "Correcta. Agradecimiento formal estándar."},
-      {"text": "すみません", "correct": false, "reason": "すみません es 'disculpe'; aunque puede expresar gratitud por molestia, ありがとうございます es más claro y formal."},
-      {"text": "おねがいします", "correct": false, "reason": "おねがいします = 'por favor (pido)'; es para pedir, no agradecer."},
-      {"text": "どうぞ", "correct": false, "reason": "どうぞ = 'por favor/adelante'; es para ofrecer, no agradecer."}
+      {
+        "text": "ありがとうございます",
+        "correct": true,
+        "explanation": "ありがとうございます es la forma formal de agradecimiento, apropiada hacia un empleado que te ha ayudado. Correcta. Agradecimiento formal estándar."
+      },
+      {
+        "text": "すみません",
+        "correct": false,
+        "explanation": "すみません es 'disculpe'; aunque puede expresar gratitud por molestia, ありがとうございます es más claro y formal."
+      },
+      {
+        "text": "おねがいします",
+        "correct": false,
+        "explanation": "おねがいします = 'por favor (pido)'; es para pedir, no agradecer."
+      },
+      {
+        "text": "どうぞ",
+        "correct": false,
+        "explanation": "どうぞ = 'por favor/adelante'; es para ofrecer, no agradecer."
+      }
     ]
   },
   {
     "id": "U2A-040",
     "cat": "Distinción",
     "q": "Emparejá correctamente: CASUAL → FORMAL",
-    "correct": "ここ → こちら",
-    "explanation": "Sistema de cortesía: ここ (casual) ↔ こちら (formal). こっち es aún MÁS casual que ここ.",
     "opts": [
-      {"text": "ここ → こちら", "correct": true, "reason": "Correcta. ここ es neutro, こちら es formal."},
-      {"text": "ここ → こっち", "correct": false, "reason": "Invertido el sentido: こっち es MÁS casual que ここ, no más formal."},
-      {"text": "こちら → ここ", "correct": false, "reason": "Invertido: la pregunta pide casual → formal, no al revés."},
-      {"text": "こちら → こっち", "correct": false, "reason": "こちら es ya el formal; こっち es muy casual. Está al revés."}
+      {
+        "text": "ここ → こちら",
+        "correct": true,
+        "explanation": "Sistema de cortesía: ここ (casual) ↔ こちら (formal). こっち es aún MÁS casual que ここ. Correcta. ここ es neutro, こちら es formal."
+      },
+      {
+        "text": "ここ → こっち",
+        "correct": false,
+        "explanation": "Invertido el sentido: こっち es MÁS casual que ここ, no más formal."
+      },
+      {
+        "text": "こちら → ここ",
+        "correct": false,
+        "explanation": "Invertido: la pregunta pide casual → formal, no al revés."
+      },
+      {
+        "text": "こちら → こっち",
+        "correct": false,
+        "explanation": "こちら es ya el formal; こっち es muy casual. Está al revés."
+      }
     ]
   },
   {
     "id": "U2A-041",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 店員?",
-    "correct": "てんいん",
-    "explanation": "店 (てん, 'tienda') + 員 (いん, 'miembro/empleado') = てんいん, 'empleado de tienda'.",
     "opts": [
-      {"text": "てんいん", "correct": true, "reason": "Correcta. On'yomi estándar de cada kanji."},
-      {"text": "てんえん", "correct": false, "reason": "員 se lee いん, no えん. えん es 円 (yen) o 園 (jardín)."},
-      {"text": "みせいん", "correct": false, "reason": "みせ es la kun'yomi de 店 cuando va sola. En este compuesto se usa la on'yomi てん."},
-      {"text": "てんじん", "correct": false, "reason": "じん es lectura de 人 (persona), no de 員."}
+      {
+        "text": "てんいん",
+        "correct": true,
+        "explanation": "店 (てん, 'tienda') + 員 (いん, 'miembro/empleado') = てんいん, 'empleado de tienda'. Correcta. On'yomi estándar de cada kanji."
+      },
+      {
+        "text": "てんえん",
+        "correct": false,
+        "explanation": "員 se lee いん, no えん. えん es 円 (yen) o 園 (jardín)."
+      },
+      {
+        "text": "みせいん",
+        "correct": false,
+        "explanation": "みせ es la kun'yomi de 店 cuando va sola. En este compuesto se usa la on'yomi てん."
+      },
+      {
+        "text": "てんじん",
+        "correct": false,
+        "explanation": "じん es lectura de 人 (persona), no de 員."
+      }
     ]
   },
   {
     "id": "U2A-042",
     "cat": "Vocabulario",
     "q": "¿Qué significa 店員 (てんいん)?",
-    "correct": "Empleado (de tienda)",
-    "explanation": "店員 designa específicamente al trabajador de un comercio: cajero, dependiente, etc. Distinto de 社員 (empleado de empresa) o 公務員 (funcionario público).",
     "opts": [
-      {"text": "Empleado (de tienda)", "correct": true, "reason": "Correcta. Empleado del sector comercial."},
-      {"text": "Tienda", "correct": false, "reason": "'Tienda' es 店 (みせ) sola. 店員 es la PERSONA que trabaja allí."},
-      {"text": "Dueño", "correct": false, "reason": "'Dueño/propietario' es 店長 (てんちょう, gerente) o オーナー. 店員 es subordinado."},
-      {"text": "Cliente", "correct": false, "reason": "'Cliente' es お客 / お客様 (おきゃく/おきゃくさま). 店員 es el que atiende, no el cliente."}
+      {
+        "text": "Empleado (de tienda)",
+        "correct": true,
+        "explanation": "店員 designa específicamente al trabajador de un comercio: cajero, dependiente, etc. Distinto de 社員 (empleado de empresa) o 公務員 (funcionario público). Correcta. Empleado del sector comercial."
+      },
+      {
+        "text": "Tienda",
+        "correct": false,
+        "explanation": "'Tienda' es 店 (みせ) sola. 店員 es la PERSONA que trabaja allí."
+      },
+      {
+        "text": "Dueño",
+        "correct": false,
+        "explanation": "'Dueño/propietario' es 店長 (てんちょう, gerente) o オーナー. 店員 es subordinado."
+      },
+      {
+        "text": "Cliente",
+        "correct": false,
+        "explanation": "'Cliente' es お客 / お客様 (おきゃく/おきゃくさま). 店員 es el que atiende, no el cliente."
+      }
     ]
   },
   {
     "id": "U2A-043",
     "cat": "Gramática",
     "q": "Poné en orden: は / どこ / スーパー / ですか",
-    "correct": "スーパー は どこ ですか",
-    "explanation": "Orden japonés: TEMA + は + INTERROGATIVO + ですか. El verbo va al final.",
     "opts": [
-      {"text": "スーパー は どこ ですか", "correct": true, "reason": "Correcta. Estructura canónica AはBですか."},
-      {"text": "どこ スーパー は ですか", "correct": false, "reason": "は debe ir DESPUÉS del tema (スーパー), no antes."},
-      {"text": "スーパー どこ は ですか", "correct": false, "reason": "は debe ir junto al sustantivo que marca como tema, no entre el predicado y です."},
-      {"text": "は スーパー どこ ですか", "correct": false, "reason": "は nunca puede ir al inicio absoluto; siempre marca un sustantivo previo."}
+      {
+        "text": "スーパー は どこ ですか",
+        "correct": true,
+        "explanation": "Orden japonés: TEMA + は + INTERROGATIVO + ですか. El verbo va al final. Correcta. Estructura canónica AはBですか."
+      },
+      {
+        "text": "どこ スーパー は ですか",
+        "correct": false,
+        "explanation": "は debe ir DESPUÉS del tema (スーパー), no antes."
+      },
+      {
+        "text": "スーパー どこ は ですか",
+        "correct": false,
+        "explanation": "は debe ir junto al sustantivo que marca como tema, no entre el predicado y です."
+      },
+      {
+        "text": "は スーパー どこ ですか",
+        "correct": false,
+        "explanation": "は nunca puede ir al inicio absoluto; siempre marca un sustantivo previo."
+      }
     ]
   },
   {
     "id": "U2A-044",
     "cat": "Gramática",
     "q": "¿Cuál de estas NO es una palabra para 'aquí/ahí/allí' en japonés?",
-    "correct": "そっち",
-    "explanation": "そっち SÍ es palabra de 'lugar' pero es la versión MUY casual de そこ/そちら. La pregunta busca distinguirla: las tres opciones (ここ, そこ, あそこ) son las estándar; そっち es casual y atípica para esta pregunta. Aunque es válida, en sentido estricto el examen quizá quiera marcar las 'estándar'.",
     "opts": [
-      {"text": "そっち", "correct": true, "reason": "Correcta como respuesta (es la palabra DIFERENCIADA): es la versión casual, no la forma estándar."},
-      {"text": "ここ", "correct": false, "reason": "ここ SÍ es palabra estándar de 'aquí'."},
-      {"text": "そこ", "correct": false, "reason": "そこ SÍ es palabra estándar de 'ahí'."},
-      {"text": "あそこ", "correct": false, "reason": "あそこ SÍ es palabra estándar de 'allá'."}
+      {
+        "text": "そっち",
+        "correct": true,
+        "explanation": "そっち SÍ es palabra de 'lugar' pero es la versión MUY casual de そこ/そちら. La pregunta busca distinguirla: las tres opciones (ここ, そこ, あそこ) son las estándar; そっち es casual y atípica para esta pregunta. Aunque es válida, en sentido estricto el examen quizá quiera marcar las 'estándar'. Correcta como respuesta (es la palabra DIFERENCIADA): es la versión casual, no la forma estándar."
+      },
+      {
+        "text": "ここ",
+        "correct": false,
+        "explanation": "ここ SÍ es palabra estándar de 'aquí'."
+      },
+      {
+        "text": "そこ",
+        "correct": false,
+        "explanation": "そこ SÍ es palabra estándar de 'ahí'."
+      },
+      {
+        "text": "あそこ",
+        "correct": false,
+        "explanation": "あそこ SÍ es palabra estándar de 'allá'."
+      }
     ]
   },
   {
     "id": "U2A-045",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 地下?",
-    "correct": "Subsuelo / sótano",
-    "explanation": "地 ('tierra') + 下 ('abajo') = 'bajo tierra'. Designa el espacio bajo el nivel del suelo (sótanos, subsuelos comerciales, etc.).",
     "opts": [
-      {"text": "Subsuelo / sótano", "correct": true, "reason": "Correcta. Significado central."},
-      {"text": "Subterráneo (metro)", "correct": false, "reason": "'Metro/subte' es 地下鉄 (ちかてつ, 'tren subterráneo'). 地下 solo es el espacio."},
-      {"text": "Debajo del suelo (la tierra)", "correct": false, "reason": "Aunque literal, 地下 ya consolidó el sentido espacial 'subsuelo' en contexto de edificios."},
-      {"text": "Piso bajo", "correct": false, "reason": "'Piso bajo / planta baja' es 1階 (いっかい). 地下 es BAJO el suelo, no la planta baja."}
+      {
+        "text": "Subsuelo / sótano",
+        "correct": true,
+        "explanation": "地 ('tierra') + 下 ('abajo') = 'bajo tierra'. Designa el espacio bajo el nivel del suelo (sótanos, subsuelos comerciales, etc.). Correcta. Significado central."
+      },
+      {
+        "text": "Subterráneo (metro)",
+        "correct": false,
+        "explanation": "'Metro/subte' es 地下鉄 (ちかてつ, 'tren subterráneo'). 地下 solo es el espacio."
+      },
+      {
+        "text": "Debajo del suelo (la tierra)",
+        "correct": false,
+        "explanation": "Aunque literal, 地下 ya consolidó el sentido espacial 'subsuelo' en contexto de edificios."
+      },
+      {
+        "text": "Piso bajo",
+        "correct": false,
+        "explanation": "'Piso bajo / planta baja' es 1階 (いっかい). 地下 es BAJO el suelo, no la planta baja."
+      }
     ]
   },
   {
     "id": "U2A-046",
     "cat": "Vocabulario",
     "q": "¿Qué significa スーパー?",
-    "correct": "Supermercado",
-    "explanation": "スーパー es abreviatura de スーパーマーケット (del inglés 'supermarket'). En japonés cotidiano se usa solo スーパー.",
     "opts": [
-      {"text": "Supermercado", "correct": true, "reason": "Correcta. Abreviatura común."},
-      {"text": "Superior", "correct": false, "reason": "'Superior (rango/calidad)' es 上司 (じょうし) o 優れた. スーパー es el comercio."},
-      {"text": "Super héroe", "correct": false, "reason": "'Superhéroe' es スーパーヒーロー o ヒーロー. スーパー sola es comercio."},
-      {"text": "Excelente", "correct": false, "reason": "'Excelente' es 素晴らしい (すばらしい) o 最高 (さいこう). スーパー solo se usa como abreviatura del comercio."}
+      {
+        "text": "Supermercado",
+        "correct": true,
+        "explanation": "スーパー es abreviatura de スーパーマーケット (del inglés 'supermarket'). En japonés cotidiano se usa solo スーパー. Correcta. Abreviatura común."
+      },
+      {
+        "text": "Superior",
+        "correct": false,
+        "explanation": "'Superior (rango/calidad)' es 上司 (じょうし) o 優れた. スーパー es el comercio."
+      },
+      {
+        "text": "Super héroe",
+        "correct": false,
+        "explanation": "'Superhéroe' es スーパーヒーロー o ヒーロー. スーパー sola es comercio."
+      },
+      {
+        "text": "Excelente",
+        "correct": false,
+        "explanation": "'Excelente' es 素晴らしい (すばらしい) o 最高 (さいこう). スーパー solo se usa como abreviatura del comercio."
+      }
     ]
   },
   {
     "id": "U2A-047",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo preguntás formalmente '¿Dónde queda la librería?'?",
-    "correct": "本屋は どこですか。",
-    "explanation": "本屋 (librería, 'tienda de libros') + は + どこ + ですか. Estructura estándar de pregunta de ubicación.",
     "opts": [
-      {"text": "本屋は どこですか。", "correct": true, "reason": "Correcta. Sustantivo correcto + pregunta de lugar."},
-      {"text": "本は どこですか。", "correct": false, "reason": "本 = 'libro' (objeto). Sin 屋 sería '¿dónde está el libro?', no la librería."},
-      {"text": "本屋は どれですか。", "correct": false, "reason": "どれ es '¿cuál (de varios)?', no '¿dónde?'. Requiere opciones visibles."},
-      {"text": "本屋は なんがいですか。", "correct": false, "reason": "なんがい pregunta '¿en qué piso?', más específico. La pregunta general es どこ."}
+      {
+        "text": "本屋は どこですか。",
+        "correct": true,
+        "explanation": "本屋 (librería, 'tienda de libros') + は + どこ + ですか. Estructura estándar de pregunta de ubicación. Correcta. Sustantivo correcto + pregunta de lugar."
+      },
+      {
+        "text": "本は どこですか。",
+        "correct": false,
+        "explanation": "本 = 'libro' (objeto). Sin 屋 sería '¿dónde está el libro?', no la librería."
+      },
+      {
+        "text": "本屋は どれですか。",
+        "correct": false,
+        "explanation": "どれ es '¿cuál (de varios)?', no '¿dónde?'. Requiere opciones visibles."
+      },
+      {
+        "text": "本屋は なんがいですか。",
+        "correct": false,
+        "explanation": "なんがい pregunta '¿en qué piso?', más específico. La pregunta general es どこ."
+      }
     ]
   },
   {
     "id": "U2A-048",
     "cat": "Vocabulario",
     "q": "¿Qué son ここ, そこ, あそこ, どこ?",
-    "correct": "Pronombres de lugar (aquí/ahí/allí/dónde)",
-    "explanation": "Forman la serie こ/そ/あ/ど para LUGARES. Hay series paralelas para objetos (これ/それ/あれ/どれ), modificadores (この/その/あの/どの) y formales (こちら/そちら/あちら/どちら).",
     "opts": [
-      {"text": "Pronombres de lugar (aquí/ahí/allí/dónde)", "correct": true, "reason": "Correcta. Serie deíctica de lugar."},
-      {"text": "Pronombres de objetos", "correct": false, "reason": "Esos son これ/それ/あれ/どれ. Los de la pregunta refieren a LUGARES."},
-      {"text": "Pronombres personales", "correct": false, "reason": "Pronombres personales son 私, あなた, 彼, etc. No son deícticos de lugar."},
-      {"text": "Partículas de lugar", "correct": false, "reason": "Las partículas de lugar son に, で, へ. ここ etc. son sustantivos/pronombres, no partículas."}
+      {
+        "text": "Pronombres de lugar (aquí/ahí/allí/dónde)",
+        "correct": true,
+        "explanation": "Forman la serie こ/そ/あ/ど para LUGARES. Hay series paralelas para objetos (これ/それ/あれ/どれ), modificadores (この/その/あの/どの) y formales (こちら/そちら/あちら/どちら). Correcta. Serie deíctica de lugar."
+      },
+      {
+        "text": "Pronombres de objetos",
+        "correct": false,
+        "explanation": "Esos son これ/それ/あれ/どれ. Los de la pregunta refieren a LUGARES."
+      },
+      {
+        "text": "Pronombres personales",
+        "correct": false,
+        "explanation": "Pronombres personales son 私, あなた, 彼, etc. No son deícticos de lugar."
+      },
+      {
+        "text": "Partículas de lugar",
+        "correct": false,
+        "explanation": "Las partículas de lugar son に, で, へ. ここ etc. son sustantivos/pronombres, no partículas."
+      }
     ]
   },
   {
     "id": "U2A-049",
     "cat": "Traducción JP→ES",
     "q": "エスカレーターは あちらです。",
-    "correct": "La escalera mecánica está por allá (lejos, formal)",
-    "explanation": "エスカレーター (escalera mecánica) + は + あちら (allá, formal) + です. Frase típica de servicio en centros comerciales.",
     "opts": [
-      {"text": "La escalera mecánica está por allá (lejos, formal)", "correct": true, "reason": "Correcta. Traducción precisa con matiz formal."},
-      {"text": "La escalera mecánica está por ahí (cerca)", "correct": false, "reason": "'Por ahí' (cerca del oyente) sería そちら, no あちら."},
-      {"text": "La escalera mecánica es aquella", "correct": false, "reason": "'Aquella' (objeto) sería あれ. あちら es lugar/dirección."},
-      {"text": "La escalera mecánica está aquí", "correct": false, "reason": "'Aquí' (cerca del hablante) sería こちら, no あちら."}
+      {
+        "text": "La escalera mecánica está por allá (lejos, formal)",
+        "correct": true,
+        "explanation": "エスカレーター (escalera mecánica) + は + あちら (allá, formal) + です. Frase típica de servicio en centros comerciales. Correcta. Traducción precisa con matiz formal."
+      },
+      {
+        "text": "La escalera mecánica está por ahí (cerca)",
+        "correct": false,
+        "explanation": "'Por ahí' (cerca del oyente) sería そちら, no あちら."
+      },
+      {
+        "text": "La escalera mecánica es aquella",
+        "correct": false,
+        "explanation": "'Aquella' (objeto) sería あれ. あちら es lugar/dirección."
+      },
+      {
+        "text": "La escalera mecánica está aquí",
+        "correct": false,
+        "explanation": "'Aquí' (cerca del hablante) sería こちら, no あちら."
+      }
     ]
   },
   {
     "id": "U2A-050",
     "cat": "Contadores",
     "q": "¿Cuál es la lectura de 9階?",
-    "correct": "きゅうかい",
-    "explanation": "9 (きゅう) + 階 (かい) = きゅうかい. No hay sokuon ni rendaku con きゅう.",
     "opts": [
-      {"text": "きゅうかい", "correct": true, "reason": "Correcta. Lectura regular sin alteración."},
-      {"text": "きゅうがい", "correct": false, "reason": "El rendaku no aplica con きゅう ante 階 (sí con さん)."},
-      {"text": "くかい", "correct": false, "reason": "く es lectura tradicional de 9 que se usa en 9月 (くがつ) y 9時 (くじ), pero no con 階."},
-      {"text": "きゅっかい", "correct": false, "reason": "El sokuon no aplica con きゅう ante 階."}
+      {
+        "text": "きゅうかい",
+        "correct": true,
+        "explanation": "9 (きゅう) + 階 (かい) = きゅうかい. No hay sokuon ni rendaku con きゅう. Correcta. Lectura regular sin alteración."
+      },
+      {
+        "text": "きゅうがい",
+        "correct": false,
+        "explanation": "El rendaku no aplica con きゅう ante 階 (sí con さん)."
+      },
+      {
+        "text": "くかい",
+        "correct": false,
+        "explanation": "く es lectura tradicional de 9 que se usa en 9月 (くがつ) y 9時 (くじ), pero no con 階."
+      },
+      {
+        "text": "きゅっかい",
+        "correct": false,
+        "explanation": "El sokuon no aplica con きゅう ante 階."
+      }
     ]
   },
   {
     "id": "U2A-051",
     "cat": "Diálogo",
     "q": "Completá: A: すみません、サカイでんきは ___ですか。 B: 4階です。",
-    "correct": "なんがい",
-    "explanation": "La respuesta '4階です' indica que A preguntaba el PISO. なんがい = '¿en qué piso?'.",
     "opts": [
-      {"text": "なんがい", "correct": true, "reason": "Correcta. Pregunta congruente con respuesta '4階'."},
-      {"text": "どこ", "correct": false, "reason": "どこ es genérica '¿dónde?'. La respuesta específica '4階' sugiere que se preguntó por el piso."},
-      {"text": "なに", "correct": false, "reason": "なに = '¿qué?'. Inadecuado para preguntar piso."},
-      {"text": "いつ", "correct": false, "reason": "いつ = '¿cuándo?'. Tiempo, no lugar."}
+      {
+        "text": "なんがい",
+        "correct": true,
+        "explanation": "La respuesta '4階です' indica que A preguntaba el PISO. なんがい = '¿en qué piso?'. Correcta. Pregunta congruente con respuesta '4階'."
+      },
+      {
+        "text": "どこ",
+        "correct": false,
+        "explanation": "どこ es genérica '¿dónde?'. La respuesta específica '4階' sugiere que se preguntó por el piso."
+      },
+      {
+        "text": "なに",
+        "correct": false,
+        "explanation": "なに = '¿qué?'. Inadecuado para preguntar piso."
+      },
+      {
+        "text": "いつ",
+        "correct": false,
+        "explanation": "いつ = '¿cuándo?'. Tiempo, no lugar."
+      }
     ]
   },
   {
     "id": "U2A-052",
     "cat": "Distinción",
     "q": "Tu interlocutor está lejos y vos también estás lejos del objeto. ¿Qué palabra usás?",
-    "correct": "あそこ",
-    "explanation": "あそこ marca el espacio LEJANO de ambos hablantes. Es el tercer término de la serie こ/そ/あ.",
     "opts": [
-      {"text": "あそこ", "correct": true, "reason": "Correcta. あそこ = lejos de ambos."},
-      {"text": "そこ", "correct": false, "reason": "そこ es lugar cerca del oyente, no lejos de ambos."},
-      {"text": "ここ", "correct": false, "reason": "ここ es lugar cerca del hablante, no lejos de ambos."},
-      {"text": "どこ", "correct": false, "reason": "どこ es interrogativo, no afirmación."}
+      {
+        "text": "あそこ",
+        "correct": true,
+        "explanation": "あそこ marca el espacio LEJANO de ambos hablantes. Es el tercer término de la serie こ/そ/あ. Correcta. あそこ = lejos de ambos."
+      },
+      {
+        "text": "そこ",
+        "correct": false,
+        "explanation": "そこ es lugar cerca del oyente, no lejos de ambos."
+      },
+      {
+        "text": "ここ",
+        "correct": false,
+        "explanation": "ここ es lugar cerca del hablante, no lejos de ambos."
+      },
+      {
+        "text": "どこ",
+        "correct": false,
+        "explanation": "どこ es interrogativo, no afirmación."
+      }
     ]
   },
   {
     "id": "U2A-053",
     "cat": "Distinción",
     "q": "Una empleada de tienda diría a un cliente (formal):",
-    "correct": "トイレは こちらです。",
-    "explanation": "En servicio formal, los empleados usan la serie cortés こちら/そちら/あちら hacia clientes.",
     "opts": [
-      {"text": "トイレは こちらです。", "correct": true, "reason": "Correcta. Forma cortés apropiada para servicio."},
-      {"text": "トイレは ここだよ。", "correct": false, "reason": "ここ + だよ es muy casual e informal: inadecuado para hablar con cliente."},
-      {"text": "トイレは こっちです。", "correct": false, "reason": "こっち es la versión muy casual, inadecuada en servicio formal."},
-      {"text": "トイレは ここ!", "correct": false, "reason": "Sin です es informal/abrupto, inadecuado en servicio."}
+      {
+        "text": "トイレは こちらです。",
+        "correct": true,
+        "explanation": "En servicio formal, los empleados usan la serie cortés こちら/そちら/あちら hacia clientes. Correcta. Forma cortés apropiada para servicio."
+      },
+      {
+        "text": "トイレは ここだよ。",
+        "correct": false,
+        "explanation": "ここ + だよ es muy casual e informal: inadecuado para hablar con cliente."
+      },
+      {
+        "text": "トイレは こっちです。",
+        "correct": false,
+        "explanation": "こっち es la versión muy casual, inadecuada en servicio formal."
+      },
+      {
+        "text": "トイレは ここ!",
+        "correct": false,
+        "explanation": "Sin です es informal/abrupto, inadecuado en servicio."
+      }
     ]
   },
   {
     "id": "U2A-054",
     "cat": "Diálogo",
     "q": "Estás perdido en un shopping. Para llamar la atención de un empleado educadamente, empezás con:",
-    "correct": "すみません",
-    "explanation": "すみません es la fórmula educada universal para iniciar interacción con un desconocido (empleado, transeúnte, etc.).",
     "opts": [
-      {"text": "すみません", "correct": true, "reason": "Correcta. Fórmula estándar de apertura cortés."},
-      {"text": "はい", "correct": false, "reason": "はい = 'sí' (respuesta afirmativa); no se usa para iniciar."},
-      {"text": "ちょっと", "correct": false, "reason": "ちょっと puede usarse en contexto familiar ('un momento') pero es muy casual y suena descortés con desconocidos."},
-      {"text": "おい", "correct": false, "reason": "おい = '¡eh!/¡oye!' es muy grosero, especialmente con extraños o empleados."}
+      {
+        "text": "すみません",
+        "correct": true,
+        "explanation": "すみません es la fórmula educada universal para iniciar interacción con un desconocido (empleado, transeúnte, etc.). Correcta. Fórmula estándar de apertura cortés."
+      },
+      {
+        "text": "はい",
+        "correct": false,
+        "explanation": "はい = 'sí' (respuesta afirmativa); no se usa para iniciar."
+      },
+      {
+        "text": "ちょっと",
+        "correct": false,
+        "explanation": "ちょっと puede usarse en contexto familiar ('un momento') pero es muy casual y suena descortés con desconocidos."
+      },
+      {
+        "text": "おい",
+        "correct": false,
+        "explanation": "おい = '¡eh!/¡oye!' es muy grosero, especialmente con extraños o empleados."
+      }
     ]
   },
   {
     "id": "U2A-055",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 何階ですか?",
-    "correct": "なんがいですか",
-    "explanation": "何 se lee なん antes de です y contadores nasalizables. 階 toma rendaku tras なん → がい.",
     "opts": [
-      {"text": "なんがいですか", "correct": true, "reason": "Correcta. なん + rendaku がい."},
-      {"text": "なにかいですか", "correct": false, "reason": "なに no se usa antes de contadores; se usa なん. Y falta rendaku."},
-      {"text": "なんかいですか", "correct": false, "reason": "Sin rendaku; el contador 階 toma が tras なん."},
-      {"text": "どかいですか", "correct": false, "reason": "ど no es lectura de 何. Y falta partícula な."}
+      {
+        "text": "なんがいですか",
+        "correct": true,
+        "explanation": "何 se lee なん antes de です y contadores nasalizables. 階 toma rendaku tras なん → がい. Correcta. なん + rendaku がい."
+      },
+      {
+        "text": "なにかいですか",
+        "correct": false,
+        "explanation": "なに no se usa antes de contadores; se usa なん. Y falta rendaku."
+      },
+      {
+        "text": "なんかいですか",
+        "correct": false,
+        "explanation": "Sin rendaku; el contador 階 toma が tras なん."
+      },
+      {
+        "text": "どかいですか",
+        "correct": false,
+        "explanation": "ど no es lectura de 何. Y falta partícula な."
+      }
     ]
   },
   {
     "id": "U2A-056",
     "cat": "Gramática",
     "q": "Un cliente dice: この スーパーは 何階ですか。 ¿Es correcta la oración?",
-    "correct": "No — se usaría 'スーパーは 何階ですか' (sin この) si se pregunta por el piso del supermercado",
-    "explanation": "この (modificador 'este') requiere que el supermercado esté visible/cercano para señalar. En el contexto típico de pregunta sobre dónde está, sobra el この.",
     "opts": [
-      {"text": "No — se usaría 'スーパーは 何階ですか' (sin この) si se pregunta por el piso del supermercado", "correct": true, "reason": "Correcta. この sobra cuando preguntás dónde queda algo."},
-      {"text": "Sí, es perfecta", "correct": false, "reason": "Es gramatical pero pragmáticamente raro: この implica que ya hay un supermercado señalado, contradiciendo la pregunta."},
-      {"text": "No — falta の después de この", "correct": false, "reason": "この YA es modificador completo (の va incorporada). No requiere agregar の."},
-      {"text": "No — se usa どこ en vez de 何階", "correct": false, "reason": "何階 está bien para preguntar piso. La cuestión no es ese punto."}
+      {
+        "text": "No — se usaría 'スーパーは 何階ですか' (sin この) si se pregunta por el piso del supermercado",
+        "correct": true,
+        "explanation": "この (modificador 'este') requiere que el supermercado esté visible/cercano para señalar. En el contexto típico de pregunta sobre dónde está, sobra el この. Correcta. この sobra cuando preguntás dónde queda algo."
+      },
+      {
+        "text": "Sí, es perfecta",
+        "correct": false,
+        "explanation": "Es gramatical pero pragmáticamente raro: この implica que ya hay un supermercado señalado, contradiciendo la pregunta."
+      },
+      {
+        "text": "No — falta の después de この",
+        "correct": false,
+        "explanation": "この YA es modificador completo (の va incorporada). No requiere agregar の."
+      },
+      {
+        "text": "No — se usa どこ en vez de 何階",
+        "correct": false,
+        "explanation": "何階 está bien para preguntar piso. La cuestión no es ese punto."
+      }
     ]
   },
   {
     "id": "U2A-057",
     "cat": "Vocabulario",
     "q": "¿Qué significa トイレ?",
-    "correct": "Baño",
-    "explanation": "トイレ viene del inglés 'toilet'. Es la palabra cotidiana y neutral. Más formal: お手洗い (おてあらい).",
     "opts": [
-      {"text": "Baño", "correct": true, "reason": "Correcta. Préstamo común."},
-      {"text": "Toalla", "correct": false, "reason": "'Toalla' es タオル. Suena similar pero es palabra distinta."},
-      {"text": "Torre", "correct": false, "reason": "'Torre' es タワー (de 'tower'). Palabra distinta."},
-      {"text": "Tour", "correct": false, "reason": "'Tour' es ツアー. Palabra distinta."}
+      {
+        "text": "Baño",
+        "correct": true,
+        "explanation": "トイレ viene del inglés 'toilet'. Es la palabra cotidiana y neutral. Más formal: お手洗い (おてあらい). Correcta. Préstamo común."
+      },
+      {
+        "text": "Toalla",
+        "correct": false,
+        "explanation": "'Toalla' es タオル. Suena similar pero es palabra distinta."
+      },
+      {
+        "text": "Torre",
+        "correct": false,
+        "explanation": "'Torre' es タワー (de 'tower'). Palabra distinta."
+      },
+      {
+        "text": "Tour",
+        "correct": false,
+        "explanation": "'Tour' es ツアー. Palabra distinta."
+      }
     ]
   },
   {
     "id": "U2A-058",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'restaurante' en japonés?",
-    "correct": "レストラン",
-    "explanation": "レストラン viene del francés 'restaurant' (vía inglés). Es el préstamo estándar para restaurantes occidentales. Para japoneses tradicionales: 食堂 (しょくどう).",
     "opts": [
-      {"text": "レストラン", "correct": true, "reason": "Correcta. Transcripción estándar."},
-      {"text": "レスタウラン", "correct": false, "reason": "Calco fonético español; el japonés sigue la pronunciación inglesa/francesa."},
-      {"text": "レス", "correct": false, "reason": "レス (de 'less') es 'sin/menos' como sufijo, no restaurante."},
-      {"text": "リストラン", "correct": false, "reason": "Transcripción italiana incorrecta. El japonés usa レストラン."}
+      {
+        "text": "レストラン",
+        "correct": true,
+        "explanation": "レストラン viene del francés 'restaurant' (vía inglés). Es el préstamo estándar para restaurantes occidentales. Para japoneses tradicionales: 食堂 (しょくどう). Correcta. Transcripción estándar."
+      },
+      {
+        "text": "レスタウラン",
+        "correct": false,
+        "explanation": "Calco fonético español; el japonés sigue la pronunciación inglesa/francesa."
+      },
+      {
+        "text": "レス",
+        "correct": false,
+        "explanation": "レス (de 'less') es 'sin/menos' como sufijo, no restaurante."
+      },
+      {
+        "text": "リストラン",
+        "correct": false,
+        "explanation": "Transcripción italiana incorrecta. El japonés usa レストラン."
+      }
     ]
   },
   {
     "id": "U2A-059",
     "cat": "Partículas",
     "q": "カメラ___ どこですか。¿Qué partícula completa?",
-    "correct": "は",
-    "explanation": "は marca el TEMA de la pregunta: '(en cuanto a la cámara), ¿dónde está?'. Es la partícula estándar.",
     "opts": [
-      {"text": "は", "correct": true, "reason": "Correcta. Marca el tema de la pregunta."},
-      {"text": "を", "correct": false, "reason": "を es objeto directo de verbo, incompatible con です."},
-      {"text": "の", "correct": false, "reason": "の conecta sustantivos. どこ no es modificador de カメラ aquí."},
-      {"text": "が", "correct": false, "reason": "が daría énfasis o información nueva. En pregunta neutra de ubicación se usa は."}
+      {
+        "text": "は",
+        "correct": true,
+        "explanation": "は marca el TEMA de la pregunta: '(en cuanto a la cámara), ¿dónde está?'. Es la partícula estándar. Correcta. Marca el tema de la pregunta."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "explanation": "を es objeto directo de verbo, incompatible con です."
+      },
+      {
+        "text": "の",
+        "correct": false,
+        "explanation": "の conecta sustantivos. どこ no es modificador de カメラ aquí."
+      },
+      {
+        "text": "が",
+        "correct": false,
+        "explanation": "が daría énfasis o información nueva. En pregunta neutra de ubicación se usa は."
+      }
     ]
   },
   {
     "id": "U2A-060",
     "cat": "Vocabulario",
     "q": "¿Qué significa カメラ?",
-    "correct": "Cámara",
-    "explanation": "カメラ viene del inglés 'camera'. Designa cualquier tipo de cámara (fotográfica, video, vigilancia).",
     "opts": [
-      {"text": "Cámara", "correct": true, "reason": "Correcta. Préstamo estándar."},
-      {"text": "Camarero", "correct": false, "reason": "'Camarero/mesero' es ウェイター o 店員 (てんいん). カメラ es el aparato."},
-      {"text": "Camarín", "correct": false, "reason": "'Camarín/probador' es 試着室 (しちゃくしつ). Sin relación."},
-      {"text": "Camilla", "correct": false, "reason": "'Camilla' es 担架 (たんか). Sin relación."}
+      {
+        "text": "Cámara",
+        "correct": true,
+        "explanation": "カメラ viene del inglés 'camera'. Designa cualquier tipo de cámara (fotográfica, video, vigilancia). Correcta. Préstamo estándar."
+      },
+      {
+        "text": "Camarero",
+        "correct": false,
+        "explanation": "'Camarero/mesero' es ウェイター o 店員 (てんいん). カメラ es el aparato."
+      },
+      {
+        "text": "Camarín",
+        "correct": false,
+        "explanation": "'Camarín/probador' es 試着室 (しちゃくしつ). Sin relación."
+      },
+      {
+        "text": "Camilla",
+        "correct": false,
+        "explanation": "'Camilla' es 担架 (たんか). Sin relación."
+      }
     ]
   },
   {
     "id": "U2A-061",
     "cat": "Diálogo",
     "q": "A: ケーキ屋は なんがいですか。 B: ___。 (La pastelería está en el 1er piso)",
-    "correct": "いっかいです",
-    "explanation": "1階 = いっかい (con sokuon). La respuesta natural a '¿en qué piso?' es solo el piso + です.",
     "opts": [
-      {"text": "いっかいです", "correct": true, "reason": "Correcta. Lectura correcta de 1階 con sokuon."},
-      {"text": "いちかいです", "correct": false, "reason": "Sin sokuon; la regla fonética hace obligatoria la asimilación いっかい."},
-      {"text": "ひとかいです", "correct": false, "reason": "ひと es lectura nativa de 1, no se usa con 階 (se usa いち)."},
-      {"text": "だいいっかいです", "correct": false, "reason": "だい (第) se usa para ordinales abstractos (第1 'el primero/el #1'), no para pisos."}
+      {
+        "text": "いっかいです",
+        "correct": true,
+        "explanation": "1階 = いっかい (con sokuon). La respuesta natural a '¿en qué piso?' es solo el piso + です. Correcta. Lectura correcta de 1階 con sokuon."
+      },
+      {
+        "text": "いちかいです",
+        "correct": false,
+        "explanation": "Sin sokuon; la regla fonética hace obligatoria la asimilación いっかい."
+      },
+      {
+        "text": "ひとかいです",
+        "correct": false,
+        "explanation": "ひと es lectura nativa de 1, no se usa con 階 (se usa いち)."
+      },
+      {
+        "text": "だいいっかいです",
+        "correct": false,
+        "explanation": "だい (第) se usa para ordinales abstractos (第1 'el primero/el #1'), no para pisos."
+      }
     ]
   },
   {
     "id": "U2A-062",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 本屋?",
-    "correct": "Librería",
-    "explanation": "本 (libro) + 屋 (tienda) = librería. Patrón [producto]+屋 muy productivo.",
     "opts": [
-      {"text": "Librería", "correct": true, "reason": "Correcta. Tienda de libros."},
-      {"text": "Tienda principal", "correct": false, "reason": "'Tienda principal' es 本店 (ほんてん, con 店, no 屋). Aunque 本 puede significar 'principal/raíz', en este compuesto es 'libro'."},
-      {"text": "Libro original", "correct": false, "reason": "'Libro original' es 原本 (げんぽん) o 原作. 本屋 es la tienda."},
-      {"text": "Casa del libro", "correct": false, "reason": "Aunque literal podría sonar así, 屋 como sufijo comercial significa 'tienda', no 'casa'."}
+      {
+        "text": "Librería",
+        "correct": true,
+        "explanation": "本 (libro) + 屋 (tienda) = librería. Patrón [producto]+屋 muy productivo. Correcta. Tienda de libros."
+      },
+      {
+        "text": "Tienda principal",
+        "correct": false,
+        "explanation": "'Tienda principal' es 本店 (ほんてん, con 店, no 屋). Aunque 本 puede significar 'principal/raíz', en este compuesto es 'libro'."
+      },
+      {
+        "text": "Libro original",
+        "correct": false,
+        "explanation": "'Libro original' es 原本 (げんぽん) o 原作. 本屋 es la tienda."
+      },
+      {
+        "text": "Casa del libro",
+        "correct": false,
+        "explanation": "Aunque literal podría sonar así, 屋 como sufijo comercial significa 'tienda', no 'casa'."
+      }
     ]
   },
   {
     "id": "U2A-063",
     "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre どこ y どちら?",
-    "correct": "どちら es la versión formal/educada de どこ",
-    "explanation": "Misma información (lugar) pero diferente nivel de cortesía. どちら también puede ser '¿cuál de dos?' en otros contextos.",
     "opts": [
-      {"text": "どちら es la versión formal/educada de どこ", "correct": true, "reason": "Correcta. Distinción de registro."},
-      {"text": "どちら se usa para personas; どこ para lugares", "correct": false, "reason": "どちら también se usa para lugares, no solo personas. La distinción principal es de cortesía."},
-      {"text": "どちら pregunta 'cuál' y どこ pregunta 'dónde', no son equivalentes", "correct": false, "reason": "Aunque どちら también puede ser 'cuál de dos', en contexto de lugar es equivalente a どこ formal."},
-      {"text": "Son totalmente intercambiables sin diferencia", "correct": false, "reason": "Sí hay diferencia: la cortesía."}
+      {
+        "text": "どちら es la versión formal/educada de どこ",
+        "correct": true,
+        "explanation": "Misma información (lugar) pero diferente nivel de cortesía. どちら también puede ser '¿cuál de dos?' en otros contextos. Correcta. Distinción de registro."
+      },
+      {
+        "text": "どちら se usa para personas; どこ para lugares",
+        "correct": false,
+        "explanation": "どちら también se usa para lugares, no solo personas. La distinción principal es de cortesía."
+      },
+      {
+        "text": "どちら pregunta 'cuál' y どこ pregunta 'dónde', no son equivalentes",
+        "correct": false,
+        "explanation": "Aunque どちら también puede ser 'cuál de dos', en contexto de lugar es equivalente a どこ formal."
+      },
+      {
+        "text": "Son totalmente intercambiables sin diferencia",
+        "correct": false,
+        "explanation": "Sí hay diferencia: la cortesía."
+      }
     ]
   },
   {
     "id": "U2A-064",
     "cat": "Contadores",
     "q": "¿Cómo se dice '5to piso'?",
-    "correct": "ごかい",
-    "explanation": "5 (ご) + 階 (かい) = ごかい. No toma sokuon ni rendaku.",
     "opts": [
-      {"text": "ごかい", "correct": true, "reason": "Correcta. Lectura regular sin alteración."},
-      {"text": "ごがい", "correct": false, "reason": "El rendaku no aplica con ご ante 階 (sí con さん)."},
-      {"text": "いつかい", "correct": false, "reason": "いつ es lectura nativa (いつつ), no se usa con 階."},
-      {"text": "ごっかい", "correct": false, "reason": "El sokuon no aplica con ご ante 階."}
+      {
+        "text": "ごかい",
+        "correct": true,
+        "explanation": "5 (ご) + 階 (かい) = ごかい. No toma sokuon ni rendaku. Correcta. Lectura regular sin alteración."
+      },
+      {
+        "text": "ごがい",
+        "correct": false,
+        "explanation": "El rendaku no aplica con ご ante 階 (sí con さん)."
+      },
+      {
+        "text": "いつかい",
+        "correct": false,
+        "explanation": "いつ es lectura nativa (いつつ), no se usa con 階."
+      },
+      {
+        "text": "ごっかい",
+        "correct": false,
+        "explanation": "El sokuon no aplica con ご ante 階."
+      }
     ]
   },
   {
     "id": "U2A-065",
     "cat": "Contadores",
     "q": "¿Cómo se dice '7mo piso'?",
-    "correct": "ななかい",
-    "explanation": "7階 toma なな + かい. Aunque しちかい también existe, ななかい se prefiere para evitar ambigüedad con 1階 (いっかい) y 4階, además de evitar la asociación negativa de し.",
     "opts": [
-      {"text": "ななかい", "correct": true, "reason": "Correcta. Forma preferida natural."},
-      {"text": "しちかい", "correct": false, "reason": "Es entendible y existe, pero se prefiere ななかい por claridad y evitar し."},
-      {"text": "ななっかい", "correct": false, "reason": "El sokuon no aplica con なな ante 階."},
-      {"text": "ななが い", "correct": false, "reason": "El rendaku no aplica con なな ante 階, y el espacio es incorrecto."}
+      {
+        "text": "ななかい",
+        "correct": true,
+        "explanation": "7階 toma なな + かい. Aunque しちかい también existe, ななかい se prefiere para evitar ambigüedad con 1階 (いっかい) y 4階, además de evitar la asociación negativa de し. Correcta. Forma preferida natural."
+      },
+      {
+        "text": "しちかい",
+        "correct": false,
+        "explanation": "Es entendible y existe, pero se prefiere ななかい por claridad y evitar し."
+      },
+      {
+        "text": "ななっかい",
+        "correct": false,
+        "explanation": "El sokuon no aplica con なな ante 階."
+      },
+      {
+        "text": "ななが い",
+        "correct": false,
+        "explanation": "El rendaku no aplica con なな ante 階, y el espacio es incorrecto."
+      }
     ]
   },
   {
     "id": "U2A-066",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo decís 'Disculpe, ¿dónde está el cajero automático?' formalmente?",
-    "correct": "すみません、ATMは どこですか。",
-    "explanation": "Apertura cortés (すみません) + ATM (préstamo) + は + どこ + ですか.",
     "opts": [
-      {"text": "すみません、ATMは どこですか。", "correct": true, "reason": "Correcta. Estructura completa cortés."},
-      {"text": "ごめんなさい、ATMは なんですか。", "correct": false, "reason": "ごめんなさい es disculpa por error, no para llamar atención. Y なんですか es '¿qué es?', no '¿dónde?'."},
-      {"text": "すみません、ATMは だれですか。", "correct": false, "reason": "だれ = '¿quién?'. Inaplicable a un cajero."},
-      {"text": "すみません、ATMは なんがいですか。", "correct": false, "reason": "なんがい pregunta el piso específicamente; la pregunta general de ubicación es どこ."}
+      {
+        "text": "すみません、ATMは どこですか。",
+        "correct": true,
+        "explanation": "Apertura cortés (すみません) + ATM (préstamo) + は + どこ + ですか. Correcta. Estructura completa cortés."
+      },
+      {
+        "text": "ごめんなさい、ATMは なんですか。",
+        "correct": false,
+        "explanation": "ごめんなさい es disculpa por error, no para llamar atención. Y なんですか es '¿qué es?', no '¿dónde?'."
+      },
+      {
+        "text": "すみません、ATMは だれですか。",
+        "correct": false,
+        "explanation": "だれ = '¿quién?'. Inaplicable a un cajero."
+      },
+      {
+        "text": "すみません、ATMは なんがいですか。",
+        "correct": false,
+        "explanation": "なんがい pregunta el piso específicamente; la pregunta general de ubicación es どこ."
+      }
     ]
   },
   {
     "id": "U2A-067",
     "cat": "Diálogo",
     "q": "Señalás un objeto cerca de vos y el empleado lo mira. Vos decís:",
-    "correct": "これ は なんですか。",
-    "explanation": "これ = 'esto' (objeto cerca del hablante). Para preguntar qué es: これは 何ですか. La pregunta apunta al OBJETO, no al lugar.",
     "opts": [
-      {"text": "これ は なんですか。", "correct": true, "reason": "Correcta. これ = esto (objeto cercano)."},
-      {"text": "ここ は なんですか。", "correct": false, "reason": "ここ es lugar (aquí), no objeto. Sería '¿qué es este lugar?'."},
-      {"text": "この は なんですか。", "correct": false, "reason": "この es modificador y necesita un sustantivo después (この本, この物). No funciona solo."},
-      {"text": "それ は なんですか。", "correct": false, "reason": "それ es 'eso' (cerca del oyente), no del hablante. Si vos lo señalás cerca tuyo, es これ."}
+      {
+        "text": "これ は なんですか。",
+        "correct": true,
+        "explanation": "これ = 'esto' (objeto cerca del hablante). Para preguntar qué es: これは 何ですか. La pregunta apunta al OBJETO, no al lugar. Correcta. これ = esto (objeto cercano)."
+      },
+      {
+        "text": "ここ は なんですか。",
+        "correct": false,
+        "explanation": "ここ es lugar (aquí), no objeto. Sería '¿qué es este lugar?'."
+      },
+      {
+        "text": "この は なんですか。",
+        "correct": false,
+        "explanation": "この es modificador y necesita un sustantivo después (この本, この物). No funciona solo."
+      },
+      {
+        "text": "それ は なんですか。",
+        "correct": false,
+        "explanation": "それ es 'eso' (cerca del oyente), no del hablante. Si vos lo señalás cerca tuyo, es これ."
+      }
     ]
   },
   {
     "id": "U2A-068",
     "cat": "Gramática",
     "q": "¿Cuál es el demostrativo de lugar que NO existe?",
-    "correct": "こっこ",
-    "explanation": "Las palabras correctas son ここ/そこ/あそこ/どこ. こっこ no existe en japonés (sería una mezcla incorrecta del sokuon).",
     "opts": [
-      {"text": "こっこ", "correct": true, "reason": "Correcta como respuesta (es la INEXISTENTE)."},
-      {"text": "ここ", "correct": false, "reason": "ここ SÍ existe: 'aquí'."},
-      {"text": "そこ", "correct": false, "reason": "そこ SÍ existe: 'ahí'."},
-      {"text": "あそこ", "correct": false, "reason": "あそこ SÍ existe: 'allá'."}
+      {
+        "text": "こっこ",
+        "correct": true,
+        "explanation": "Las palabras correctas son ここ/そこ/あそこ/どこ. こっこ no existe en japonés (sería una mezcla incorrecta del sokuon). Correcta como respuesta (es la INEXISTENTE)."
+      },
+      {
+        "text": "ここ",
+        "correct": false,
+        "explanation": "ここ SÍ existe: 'aquí'."
+      },
+      {
+        "text": "そこ",
+        "correct": false,
+        "explanation": "そこ SÍ existe: 'ahí'."
+      },
+      {
+        "text": "あそこ",
+        "correct": false,
+        "explanation": "あそこ SÍ existe: 'allá'."
+      }
     ]
   },
   {
     "id": "U2A-069",
     "cat": "Vocabulario",
     "q": "¿Qué significa ニコニコショッピングビル?",
-    "correct": "Nombre propio: Edificio comercial Nikoniko",
-    "explanation": "ニコニコ (sonrisa, onomatopeya) + ショッピング (shopping) + ビル (edificio) = nombre comercial específico de un edificio del libro.",
     "opts": [
-      {"text": "Nombre propio: Edificio comercial Nikoniko", "correct": true, "reason": "Correcta. Es nombre propio del libro Dekiru."},
-      {"text": "Una tienda famosa de Tokio", "correct": false, "reason": "Es solo un nombre ficticio del libro de texto, no una tienda real famosa."},
-      {"text": "Tipo de shopping en Japón", "correct": false, "reason": "No designa una categoría sino un nombre concreto."},
-      {"text": "Tienda de electrónica", "correct": false, "reason": "No tiene relación con electrónica; es un edificio comercial genérico."}
+      {
+        "text": "Nombre propio: Edificio comercial Nikoniko",
+        "correct": true,
+        "explanation": "ニコニコ (sonrisa, onomatopeya) + ショッピング (shopping) + ビル (edificio) = nombre comercial específico de un edificio del libro. Correcta. Es nombre propio del libro Dekiru."
+      },
+      {
+        "text": "Una tienda famosa de Tokio",
+        "correct": false,
+        "explanation": "Es solo un nombre ficticio del libro de texto, no una tienda real famosa."
+      },
+      {
+        "text": "Tipo de shopping en Japón",
+        "correct": false,
+        "explanation": "No designa una categoría sino un nombre concreto."
+      },
+      {
+        "text": "Tienda de electrónica",
+        "correct": false,
+        "explanation": "No tiene relación con electrónica; es un edificio comercial genérico."
+      }
     ]
   },
   {
     "id": "U2A-070",
     "cat": "Vocabulario",
     "q": "ビル en japonés significa:",
-    "correct": "Edificio",
-    "explanation": "ビル es abreviatura de ビルディング (del inglés 'building'). Designa edificios modernos de varios pisos.",
     "opts": [
-      {"text": "Edificio", "correct": true, "reason": "Correcta. Préstamo del inglés 'building'."},
-      {"text": "Bill (nombre)", "correct": false, "reason": "El nombre 'Bill' se transcribe igual ビル, pero como sustantivo común significa 'edificio'."},
-      {"text": "Billete", "correct": false, "reason": "'Billete (de banco)' es お札 (おさつ); 'boleto' es 切符 (きっぷ). No es ビル."},
-      {"text": "Bar", "correct": false, "reason": "'Bar' es バー. Suena similar pero es palabra distinta."}
+      {
+        "text": "Edificio",
+        "correct": true,
+        "explanation": "ビル es abreviatura de ビルディング (del inglés 'building'). Designa edificios modernos de varios pisos. Correcta. Préstamo del inglés 'building'."
+      },
+      {
+        "text": "Bill (nombre)",
+        "correct": false,
+        "explanation": "El nombre 'Bill' se transcribe igual ビル, pero como sustantivo común significa 'edificio'."
+      },
+      {
+        "text": "Billete",
+        "correct": false,
+        "explanation": "'Billete (de banco)' es お札 (おさつ); 'boleto' es 切符 (きっぷ). No es ビル."
+      },
+      {
+        "text": "Bar",
+        "correct": false,
+        "explanation": "'Bar' es バー. Suena similar pero es palabra distinta."
+      }
     ]
   }
 ]

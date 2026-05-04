@@ -3,28 +3,26 @@
     "id": "U4A-001",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 北?",
-    "correct": "Norte",
-    "explanation": "北 (きた) = 'norte'. Punto cardinal. En compuestos toma la lectura ほく (北海道 ほっかいどう).",
     "opts": [
       {
         "text": "Norte",
         "correct": true,
-        "reason": "Correcta. Significado del kanji 北."
+        "explanation": "北 (きた) = 'norte'. Punto cardinal. En compuestos toma la lectura ほく (北海道 ほっかいどう). Correcta. Significado del kanji 北."
       },
       {
         "text": "Sur",
         "correct": false,
-        "reason": "'Sur' es 南 (みなみ), kanji distinto."
+        "explanation": "'Sur' es 南 (みなみ), kanji distinto."
       },
       {
         "text": "Este",
         "correct": false,
-        "reason": "'Este' es 東 (ひがし), kanji distinto."
+        "explanation": "'Este' es 東 (ひがし), kanji distinto."
       },
       {
         "text": "Oeste",
         "correct": false,
-        "reason": "'Oeste' es 西 (にし), kanji distinto."
+        "explanation": "'Oeste' es 西 (にし), kanji distinto."
       }
     ]
   },
@@ -32,28 +30,26 @@
     "id": "U4A-002",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 南?",
-    "correct": "Sur",
-    "explanation": "南 (みなみ) = 'sur'. En compuestos toma なん (南米 なんべい 'Sudamérica').",
     "opts": [
       {
         "text": "Norte",
         "correct": false,
-        "reason": "'Norte' es 北 (きた), kanji distinto."
+        "explanation": "'Norte' es 北 (きた), kanji distinto."
       },
       {
         "text": "Sur",
         "correct": true,
-        "reason": "Correcta. Significado del kanji 南."
+        "explanation": "南 (みなみ) = 'sur'. En compuestos toma なん (南米 なんべい 'Sudamérica'). Correcta. Significado del kanji 南."
       },
       {
         "text": "Este",
         "correct": false,
-        "reason": "'Este' es 東 (ひがし), kanji distinto."
+        "explanation": "'Este' es 東 (ひがし), kanji distinto."
       },
       {
         "text": "Centro",
         "correct": false,
-        "reason": "'Centro' es 中心 (ちゅうしん), compuesto distinto."
+        "explanation": "'Centro' es 中心 (ちゅうしん), compuesto distinto."
       }
     ]
   },
@@ -61,28 +57,26 @@
     "id": "U4A-003",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 東?",
-    "correct": "Este",
-    "explanation": "東 (ひがし) = 'este'. En compuestos toma とう (東京 とうきょう 'Tokio').",
     "opts": [
       {
         "text": "Oeste",
         "correct": false,
-        "reason": "'Oeste' es 西 (にし); confusión común con 東."
+        "explanation": "'Oeste' es 西 (にし); confusión común con 東."
       },
       {
         "text": "Norte",
         "correct": false,
-        "reason": "'Norte' es 北 (きた)."
+        "explanation": "'Norte' es 北 (きた)."
       },
       {
         "text": "Este",
         "correct": true,
-        "reason": "Correcta. Significado del kanji 東."
+        "explanation": "東 (ひがし) = 'este'. En compuestos toma とう (東京 とうきょう 'Tokio'). Correcta. Significado del kanji 東."
       },
       {
         "text": "Sur",
         "correct": false,
-        "reason": "'Sur' es 南 (みなみ)."
+        "explanation": "'Sur' es 南 (みなみ)."
       }
     ]
   },
@@ -90,28 +84,26 @@
     "id": "U4A-004",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 西?",
-    "correct": "Oeste",
-    "explanation": "西 (にし) = 'oeste'. En compuestos toma せい o さい (西洋 せいよう 'Occidente').",
     "opts": [
       {
         "text": "Este",
         "correct": false,
-        "reason": "'Este' es 東 (ひがし); confusión común con 西."
+        "explanation": "'Este' es 東 (ひがし); confusión común con 西."
       },
       {
         "text": "Oeste",
         "correct": true,
-        "reason": "Correcta. Significado del kanji 西."
+        "explanation": "西 (にし) = 'oeste'. En compuestos toma せい o さい (西洋 せいよう 'Occidente'). Correcta. Significado del kanji 西."
       },
       {
         "text": "Centro",
         "correct": false,
-        "reason": "'Centro' es 中心 (ちゅうしん)."
+        "explanation": "'Centro' es 中心 (ちゅうしん)."
       },
       {
         "text": "Sur",
         "correct": false,
-        "reason": "'Sur' es 南 (みなみ)."
+        "explanation": "'Sur' es 南 (みなみ)."
       }
     ]
   },
@@ -119,28 +111,26 @@
     "id": "U4A-005",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 中心?",
-    "correct": "Centro",
-    "explanation": "中 ('medio') + 心 ('corazón') = 中心 (ちゅうしん) 'centro'. Distinto de 中央 (ちゅうおう), que también significa centro pero con matiz más 'central/oficial'.",
     "opts": [
       {
         "text": "Norte",
         "correct": false,
-        "reason": "'Norte' es 北 (きた)."
+        "explanation": "'Norte' es 北 (きた)."
       },
       {
         "text": "Sur",
         "correct": false,
-        "reason": "'Sur' es 南 (みなみ)."
+        "explanation": "'Sur' es 南 (みなみ)."
       },
       {
         "text": "Centro",
         "correct": true,
-        "reason": "Correcta. Análisis literal 'medio del corazón'."
+        "explanation": "中 ('medio') + 心 ('corazón') = 中心 (ちゅうしん) 'centro'. Distinto de 中央 (ちゅうおう), que también significa centro pero con matiz más 'central/oficial'. Correcta. Análisis literal 'medio del corazón'."
       },
       {
         "text": "Medio de transporte",
         "correct": false,
-        "reason": "'Medio de transporte' sería 交通手段 (こうつうしゅだん). Confusión por la palabra 'medio'."
+        "explanation": "'Medio de transporte' sería 交通手段 (こうつうしゅだん). Confusión por la palabra 'medio'."
       }
     ]
   },
@@ -148,28 +138,26 @@
     "id": "U4A-006",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 北?",
-    "correct": "きた",
-    "explanation": "北 sola se lee きた (kun'yomi). En compuestos toma ほく (北海道) o ぺい (敗北 はいぼく).",
     "opts": [
       {
         "text": "きた",
         "correct": true,
-        "reason": "Correcta. Kun'yomi cuando va sola."
+        "explanation": "北 sola se lee きた (kun'yomi). En compuestos toma ほく (北海道) o ぺい (敗北 はいぼく). Correcta. Kun'yomi cuando va sola."
       },
       {
         "text": "みなみ",
         "correct": false,
-        "reason": "みなみ es 南 ('sur'), kanji distinto."
+        "explanation": "みなみ es 南 ('sur'), kanji distinto."
       },
       {
         "text": "にし",
         "correct": false,
-        "reason": "にし es 西 ('oeste'), kanji distinto."
+        "explanation": "にし es 西 ('oeste'), kanji distinto."
       },
       {
         "text": "ほく",
         "correct": false,
-        "reason": "ほく es la on'yomi, usada en compuestos (北海道), no cuando 北 va sola."
+        "explanation": "ほく es la on'yomi, usada en compuestos (北海道), no cuando 北 va sola."
       }
     ]
   },
@@ -177,28 +165,26 @@
     "id": "U4A-007",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 南?",
-    "correct": "みなみ",
-    "explanation": "南 sola se lee みなみ (kun'yomi). En compuestos toma なん.",
     "opts": [
       {
         "text": "みなみ",
         "correct": true,
-        "reason": "Correcta. Kun'yomi cuando va sola."
+        "explanation": "南 sola se lee みなみ (kun'yomi). En compuestos toma なん. Correcta. Kun'yomi cuando va sola."
       },
       {
         "text": "きた",
         "correct": false,
-        "reason": "きた es 北 ('norte'), kanji distinto."
+        "explanation": "きた es 北 ('norte'), kanji distinto."
       },
       {
         "text": "なん",
         "correct": false,
-        "reason": "なん es la on'yomi en compuestos (南米 なんべい), no cuando 南 va sola."
+        "explanation": "なん es la on'yomi en compuestos (南米 なんべい), no cuando 南 va sola."
       },
       {
         "text": "なな",
         "correct": false,
-        "reason": "なな es lectura de 7 (七), no de 南."
+        "explanation": "なな es lectura de 7 (七), no de 南."
       }
     ]
   },
@@ -206,28 +192,26 @@
     "id": "U4A-008",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 東?",
-    "correct": "ひがし",
-    "explanation": "東 sola se lee ひがし (kun'yomi). En compuestos toma とう (東京).",
     "opts": [
       {
         "text": "ひがし",
         "correct": true,
-        "reason": "Correcta. Kun'yomi cuando va sola."
+        "explanation": "東 sola se lee ひがし (kun'yomi). En compuestos toma とう (東京). Correcta. Kun'yomi cuando va sola."
       },
       {
         "text": "にし",
         "correct": false,
-        "reason": "にし es 西 ('oeste'), kanji distinto."
+        "explanation": "にし es 西 ('oeste'), kanji distinto."
       },
       {
         "text": "とう",
         "correct": false,
-        "reason": "とう es la on'yomi en compuestos (東京), no cuando 東 va sola."
+        "explanation": "とう es la on'yomi en compuestos (東京), no cuando 東 va sola."
       },
       {
         "text": "あずま",
         "correct": false,
-        "reason": "あずま es lectura especial de 東 en nombres propios o uso poético, no la lectura cotidiana."
+        "explanation": "あずま es lectura especial de 東 en nombres propios o uso poético, no la lectura cotidiana."
       }
     ]
   },
@@ -235,28 +219,26 @@
     "id": "U4A-009",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 西?",
-    "correct": "にし",
-    "explanation": "西 sola se lee にし (kun'yomi). En compuestos toma せい (西洋) o さい (関西 かんさい).",
     "opts": [
       {
         "text": "にし",
         "correct": true,
-        "reason": "Correcta. Kun'yomi cuando va sola."
+        "explanation": "西 sola se lee にし (kun'yomi). En compuestos toma せい (西洋) o さい (関西 かんさい). Correcta. Kun'yomi cuando va sola."
       },
       {
         "text": "ひがし",
         "correct": false,
-        "reason": "ひがし es 東 ('este'), kanji distinto."
+        "explanation": "ひがし es 東 ('este'), kanji distinto."
       },
       {
         "text": "せい",
         "correct": false,
-        "reason": "せい es la on'yomi en compuestos (西洋 せいよう), no cuando 西 va sola."
+        "explanation": "せい es la on'yomi en compuestos (西洋 せいよう), no cuando 西 va sola."
       },
       {
         "text": "さい",
         "correct": false,
-        "reason": "さい es otra on'yomi en compuestos regionales (関西 かんさい), no cuando 西 va sola."
+        "explanation": "さい es otra on'yomi en compuestos regionales (関西 かんさい), no cuando 西 va sola."
       }
     ]
   },
@@ -264,28 +246,26 @@
     "id": "U4A-010",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 中心?",
-    "correct": "ちゅうしん",
-    "explanation": "中 (ちゅう) + 心 (しん) = ちゅうしん 'centro'. On'yomi en ambos kanji.",
     "opts": [
       {
         "text": "ちゅうしん",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "中 (ちゅう) + 心 (しん) = ちゅうしん 'centro'. On'yomi en ambos kanji. Correcta. On'yomi estándar."
       },
       {
         "text": "まんなか",
         "correct": false,
-        "reason": "まんなか se escribe 真ん中 ('justo en el medio'), kanji distinto."
+        "explanation": "まんなか se escribe 真ん中 ('justo en el medio'), kanji distinto."
       },
       {
         "text": "なか",
         "correct": false,
-        "reason": "なか es la kun'yomi de 中 sola; en 中心 se usa la on'yomi ちゅう."
+        "explanation": "なか es la kun'yomi de 中 sola; en 中心 se usa la on'yomi ちゅう."
       },
       {
         "text": "ちゅうおう",
         "correct": false,
-        "reason": "ちゅうおう es 中央 (también 'centro'), pero kanji distinto al final (央, no 心)."
+        "explanation": "ちゅうおう es 中央 (también 'centro'), pero kanji distinto al final (央, no 心)."
       }
     ]
   },
@@ -293,28 +273,26 @@
     "id": "U4A-011",
     "cat": "Traducción ES→JP",
     "q": "¿Cuál es el kanji de 'Norte'?",
-    "correct": "北",
-    "explanation": "El kanji 北 representa 'norte'. Recordá que 北海道 ('Hokkaido') está al norte de Japón.",
     "opts": [
       {
         "text": "北",
         "correct": true,
-        "reason": "Correcta. Kanji de 'norte'."
+        "explanation": "El kanji 北 representa 'norte'. Recordá que 北海道 ('Hokkaido') está al norte de Japón. Correcta. Kanji de 'norte'."
       },
       {
         "text": "南",
         "correct": false,
-        "reason": "南 es 'sur', opuesto a 'norte'."
+        "explanation": "南 es 'sur', opuesto a 'norte'."
       },
       {
         "text": "東",
         "correct": false,
-        "reason": "東 es 'este'."
+        "explanation": "東 es 'este'."
       },
       {
         "text": "西",
         "correct": false,
-        "reason": "西 es 'oeste'."
+        "explanation": "西 es 'oeste'."
       }
     ]
   },
@@ -322,28 +300,26 @@
     "id": "U4A-012",
     "cat": "Traducción ES→JP",
     "q": "¿Cuál es el kanji de 'Sur'?",
-    "correct": "南",
-    "explanation": "El kanji 南 representa 'sur'. Recordá que 沖縄 (Okinawa) está al sur de Japón.",
     "opts": [
       {
         "text": "南",
         "correct": true,
-        "reason": "Correcta. Kanji de 'sur'."
+        "explanation": "El kanji 南 representa 'sur'. Recordá que 沖縄 (Okinawa) está al sur de Japón. Correcta. Kanji de 'sur'."
       },
       {
         "text": "北",
         "correct": false,
-        "reason": "北 es 'norte', opuesto a 'sur'."
+        "explanation": "北 es 'norte', opuesto a 'sur'."
       },
       {
         "text": "西",
         "correct": false,
-        "reason": "西 es 'oeste'."
+        "explanation": "西 es 'oeste'."
       },
       {
         "text": "東",
         "correct": false,
-        "reason": "東 es 'este'."
+        "explanation": "東 es 'este'."
       }
     ]
   },
@@ -351,28 +327,26 @@
     "id": "U4A-013",
     "cat": "Traducción ES→JP",
     "q": "¿Cuál es el kanji de 'Este'?",
-    "correct": "東",
-    "explanation": "El kanji 東 representa 'este'. Aparece en 東京 (Tokio = 'capital del este').",
     "opts": [
       {
         "text": "東",
         "correct": true,
-        "reason": "Correcta. Kanji de 'este'."
+        "explanation": "El kanji 東 representa 'este'. Aparece en 東京 (Tokio = 'capital del este'). Correcta. Kanji de 'este'."
       },
       {
         "text": "西",
         "correct": false,
-        "reason": "西 es 'oeste', opuesto a 'este'."
+        "explanation": "西 es 'oeste', opuesto a 'este'."
       },
       {
         "text": "南",
         "correct": false,
-        "reason": "南 es 'sur'."
+        "explanation": "南 es 'sur'."
       },
       {
         "text": "北",
         "correct": false,
-        "reason": "北 es 'norte'."
+        "explanation": "北 es 'norte'."
       }
     ]
   },
@@ -380,28 +354,26 @@
     "id": "U4A-014",
     "cat": "Traducción ES→JP",
     "q": "¿Cuál es el kanji de 'Oeste'?",
-    "correct": "西",
-    "explanation": "El kanji 西 representa 'oeste'. Aparece en 関西 (Kansai, región oeste de Japón).",
     "opts": [
       {
         "text": "西",
         "correct": true,
-        "reason": "Correcta. Kanji de 'oeste'."
+        "explanation": "El kanji 西 representa 'oeste'. Aparece en 関西 (Kansai, región oeste de Japón). Correcta. Kanji de 'oeste'."
       },
       {
         "text": "東",
         "correct": false,
-        "reason": "東 es 'este', opuesto a 'oeste'."
+        "explanation": "東 es 'este', opuesto a 'oeste'."
       },
       {
         "text": "南",
         "correct": false,
-        "reason": "南 es 'sur'."
+        "explanation": "南 es 'sur'."
       },
       {
         "text": "中",
         "correct": false,
-        "reason": "中 es 'medio/centro', no 'oeste'."
+        "explanation": "中 es 'medio/centro', no 'oeste'."
       }
     ]
   },
@@ -409,28 +381,26 @@
     "id": "U4A-015",
     "cat": "Traducción ES→JP",
     "q": "¿Cuál es el kanji/compuesto para 'Centro'?",
-    "correct": "中心",
-    "explanation": "中心 (ちゅうしん) es el compuesto estándar para 'centro'. También existe 中央 (ちゅうおう) con matiz más oficial/central.",
     "opts": [
       {
         "text": "中心",
         "correct": true,
-        "reason": "Correcta. 中 ('medio') + 心 ('corazón') = centro."
+        "explanation": "中心 (ちゅうしん) es el compuesto estándar para 'centro'. También existe 中央 (ちゅうおう) con matiz más oficial/central. Correcta. 中 ('medio') + 心 ('corazón') = centro."
       },
       {
         "text": "中央",
         "correct": false,
-        "reason": "中央 también significa 'centro' pero es más formal/oficial. La pregunta apunta al básico 中心."
+        "explanation": "中央 también significa 'centro' pero es más formal/oficial. La pregunta apunta al básico 中心."
       },
       {
         "text": "真中",
         "correct": false,
-        "reason": "真中 (まんなか) significa 'justo en el medio' (más coloquial, requiere 真ん中 con ん)."
+        "explanation": "真中 (まんなか) significa 'justo en el medio' (más coloquial, requiere 真ん中 con ん)."
       },
       {
         "text": "東中",
         "correct": false,
-        "reason": "東中 no es compuesto estándar; sería 'medio del este', sin sentido como 'centro'."
+        "explanation": "東中 no es compuesto estándar; sería 'medio del este', sin sentido como 'centro'."
       }
     ]
   },
@@ -438,28 +408,26 @@
     "id": "U4A-016",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 電車?",
-    "correct": "Tren (eléctrico)",
-    "explanation": "電 ('electricidad') + 車 ('vehículo') = 電車, el tren eléctrico común. Es el medio de transporte urbano más usado en Japón.",
     "opts": [
       {
         "text": "Tren bala",
         "correct": false,
-        "reason": "'Tren bala' es 新幹線 (しんかんせん); 電車 es el tren común urbano."
+        "explanation": "'Tren bala' es 新幹線 (しんかんせん); 電車 es el tren común urbano."
       },
       {
         "text": "Tren (eléctrico)",
         "correct": true,
-        "reason": "Correcta. Tren eléctrico común."
+        "explanation": "電 ('electricidad') + 車 ('vehículo') = 電車, el tren eléctrico común. Es el medio de transporte urbano más usado en Japón. Correcta. Tren eléctrico común."
       },
       {
         "text": "Subte",
         "correct": false,
-        "reason": "'Subte/metro' es 地下鉄 (ちかてつ)."
+        "explanation": "'Subte/metro' es 地下鉄 (ちかてつ)."
       },
       {
         "text": "Avión",
         "correct": false,
-        "reason": "'Avión' es 飛行機 (ひこうき); 車 indica vehículo terrestre."
+        "explanation": "'Avión' es 飛行機 (ひこうき); 車 indica vehículo terrestre."
       }
     ]
   },
@@ -467,28 +435,26 @@
     "id": "U4A-017",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 新幹線?",
-    "correct": "Tren bala",
-    "explanation": "新 ('nuevo') + 幹 ('tronco/línea principal') + 線 ('línea') = 新幹線, el tren de alta velocidad japonés.",
     "opts": [
       {
         "text": "Tren bala",
         "correct": true,
-        "reason": "Correcta. Tren de alta velocidad."
+        "explanation": "新 ('nuevo') + 幹 ('tronco/línea principal') + 線 ('línea') = 新幹線, el tren de alta velocidad japonés. Correcta. Tren de alta velocidad."
       },
       {
         "text": "Tren común",
         "correct": false,
-        "reason": "'Tren común (eléctrico)' es 電車 (でんしゃ)."
+        "explanation": "'Tren común (eléctrico)' es 電車 (でんしゃ)."
       },
       {
         "text": "Avión",
         "correct": false,
-        "reason": "'Avión' es 飛行機 (ひこうき)."
+        "explanation": "'Avión' es 飛行機 (ひこうき)."
       },
       {
         "text": "Subte",
         "correct": false,
-        "reason": "'Subte' es 地下鉄 (ちかてつ)."
+        "explanation": "'Subte' es 地下鉄 (ちかてつ)."
       }
     ]
   },
@@ -496,28 +462,26 @@
     "id": "U4A-018",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 地下鉄?",
-    "correct": "Subte / metro",
-    "explanation": "地下 ('subterráneo') + 鉄 ('hierro/ferrocarril') = 地下鉄, el metro urbano subterráneo.",
     "opts": [
       {
         "text": "Subte / metro",
         "correct": true,
-        "reason": "Correcta. Tren subterráneo urbano."
+        "explanation": "地下 ('subterráneo') + 鉄 ('hierro/ferrocarril') = 地下鉄, el metro urbano subterráneo. Correcta. Tren subterráneo urbano."
       },
       {
         "text": "Tren",
         "correct": false,
-        "reason": "'Tren' general es 電車 (でんしゃ); 地下鉄 es específicamente subterráneo."
+        "explanation": "'Tren' general es 電車 (でんしゃ); 地下鉄 es específicamente subterráneo."
       },
       {
         "text": "Estación subterránea",
         "correct": false,
-        "reason": "'Estación subterránea' sería 地下駅 (ちかえき). 地下鉄 es el sistema/tren."
+        "explanation": "'Estación subterránea' sería 地下駅 (ちかえき). 地下鉄 es el sistema/tren."
       },
       {
         "text": "Túnel",
         "correct": false,
-        "reason": "'Túnel' es トンネル o 地下道 (ちかどう)."
+        "explanation": "'Túnel' es トンネル o 地下道 (ちかどう)."
       }
     ]
   },
@@ -525,28 +489,26 @@
     "id": "U4A-019",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 飛行機?",
-    "correct": "Avión",
-    "explanation": "飛 ('volar') + 行 ('ir') + 機 ('máquina') = 飛行機, 'máquina que vuela' = avión.",
     "opts": [
       {
         "text": "Avión",
         "correct": true,
-        "reason": "Correcta. Análisis literal 'máquina voladora'."
+        "explanation": "飛 ('volar') + 行 ('ir') + 機 ('máquina') = 飛行機, 'máquina que vuela' = avión. Correcta. Análisis literal 'máquina voladora'."
       },
       {
         "text": "Barco",
         "correct": false,
-        "reason": "'Barco' es 船 (ふね) o 舟. 飛 implica vuelo, no navegación."
+        "explanation": "'Barco' es 船 (ふね) o 舟. 飛 implica vuelo, no navegación."
       },
       {
         "text": "Helicóptero",
         "correct": false,
-        "reason": "'Helicóptero' es ヘリコプター. 飛行機 es avión de ala fija."
+        "explanation": "'Helicóptero' es ヘリコプター. 飛行機 es avión de ala fija."
       },
       {
         "text": "Tren bala",
         "correct": false,
-        "reason": "'Tren bala' es 新幹線; el 飛 indica vuelo, no transporte terrestre."
+        "explanation": "'Tren bala' es 新幹線; el 飛 indica vuelo, no transporte terrestre."
       }
     ]
   },
@@ -554,28 +516,26 @@
     "id": "U4A-020",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 車?",
-    "correct": "Auto",
-    "explanation": "車 (くるま) sola = 'auto/coche'. En compuestos toma しゃ (電車 でんしゃ, 自動車 じどうしゃ).",
     "opts": [
       {
         "text": "Auto",
         "correct": true,
-        "reason": "Correcta. Vehículo a motor de cuatro ruedas."
+        "explanation": "車 (くるま) sola = 'auto/coche'. En compuestos toma しゃ (電車 でんしゃ, 自動車 じどうしゃ). Correcta. Vehículo a motor de cuatro ruedas."
       },
       {
         "text": "Bicicleta",
         "correct": false,
-        "reason": "'Bicicleta' es 自転車 (じてんしゃ), un compuesto distinto."
+        "explanation": "'Bicicleta' es 自転車 (じてんしゃ), un compuesto distinto."
       },
       {
         "text": "Colectivo",
         "correct": false,
-        "reason": "'Colectivo/bus' es バス (préstamo del inglés)."
+        "explanation": "'Colectivo/bus' es バス (préstamo del inglés)."
       },
       {
         "text": "Tren",
         "correct": false,
-        "reason": "'Tren' es 電車 (でんしゃ); 車 sola es auto, sin 電."
+        "explanation": "'Tren' es 電車 (でんしゃ); 車 sola es auto, sin 電."
       }
     ]
   },
@@ -583,28 +543,26 @@
     "id": "U4A-021",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 自転車?",
-    "correct": "Bicicleta",
-    "explanation": "自 ('propio') + 転 ('girar') + 車 ('vehículo') = 自転車, 'vehículo que gira por uno mismo' = bicicleta. NO confundir con 自動車 (auto, 'vehículo automático').",
     "opts": [
       {
         "text": "Bicicleta",
         "correct": true,
-        "reason": "Correcta. Vehículo a propulsión humana."
+        "explanation": "自 ('propio') + 転 ('girar') + 車 ('vehículo') = 自転車, 'vehículo que gira por uno mismo' = bicicleta. NO confundir con 自動車 (auto, 'vehículo automático'). Correcta. Vehículo a propulsión humana."
       },
       {
         "text": "Auto",
         "correct": false,
-        "reason": "'Auto' es 自動車 (じどうしゃ): 自'propio' + 動'movimiento' + 車. Confusión por similitud."
+        "explanation": "'Auto' es 自動車 (じどうしゃ): 自'propio' + 動'movimiento' + 車. Confusión por similitud."
       },
       {
         "text": "Moto",
         "correct": false,
-        "reason": "'Moto' es バイク o オートバイ. 自転車 es a pedales."
+        "explanation": "'Moto' es バイク o オートバイ. 自転車 es a pedales."
       },
       {
         "text": "Taxi",
         "correct": false,
-        "reason": "'Taxi' es タクシー. 自転車 no es vehículo motorizado."
+        "explanation": "'Taxi' es タクシー. 自転車 no es vehículo motorizado."
       }
     ]
   },
@@ -612,28 +570,26 @@
     "id": "U4A-022",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 歩いて?",
-    "correct": "Caminando",
-    "explanation": "歩いて (あるいて) es la forma -te del verbo 歩く ('caminar'). Como medio de transporte significa 'caminando/a pie'. NO lleva partícula で.",
     "opts": [
       {
         "text": "Caminando",
         "correct": true,
-        "reason": "Correcta. Forma -te como gerundio/medio."
+        "explanation": "歩いて (あるいて) es la forma -te del verbo 歩く ('caminar'). Como medio de transporte significa 'caminando/a pie'. NO lleva partícula で. Correcta. Forma -te como gerundio/medio."
       },
       {
         "text": "Corriendo",
         "correct": false,
-        "reason": "'Corriendo' es 走って (はしって), del verbo 走る."
+        "explanation": "'Corriendo' es 走って (はしって), del verbo 走る."
       },
       {
         "text": "Rápido",
         "correct": false,
-        "reason": "'Rápido' es 速く (はやく) o 早く. 歩いて es 'caminando', no velocidad."
+        "explanation": "'Rápido' es 速く (はやく) o 早く. 歩いて es 'caminando', no velocidad."
       },
       {
         "text": "A pie desnudo",
         "correct": false,
-        "reason": "'Descalzo' sería 裸足で (はだしで). 歩いて solo significa 'caminando'."
+        "explanation": "'Descalzo' sería 裸足で (はだしで). 歩いて solo significa 'caminando'."
       }
     ]
   },
@@ -641,28 +597,26 @@
     "id": "U4A-023",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 電車?",
-    "correct": "でんしゃ",
-    "explanation": "電 (でん) + 車 (しゃ, on'yomi en compuestos) = でんしゃ.",
     "opts": [
       {
         "text": "でんしゃ",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "電 (でん) + 車 (しゃ, on'yomi en compuestos) = でんしゃ. Correcta. On'yomi estándar."
       },
       {
         "text": "でんき",
         "correct": false,
-        "reason": "でんき es 電気 ('electricidad'), kanji distinto al final."
+        "explanation": "でんき es 電気 ('electricidad'), kanji distinto al final."
       },
       {
         "text": "てんしゃ",
         "correct": false,
-        "reason": "電 toma dakuten でん, no てん (sin dakuten)."
+        "explanation": "電 toma dakuten でん, no てん (sin dakuten)."
       },
       {
         "text": "でんじ",
         "correct": false,
-        "reason": "じ no es lectura de 車; sí lo es しゃ."
+        "explanation": "じ no es lectura de 車; sí lo es しゃ."
       }
     ]
   },
@@ -670,28 +624,26 @@
     "id": "U4A-024",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 新幹線?",
-    "correct": "しんかんせん",
-    "explanation": "新 (しん) + 幹 (かん) + 線 (せん) = しんかんせん. On'yomi en los tres kanji.",
     "opts": [
       {
         "text": "しんかんせん",
         "correct": true,
-        "reason": "Correcta. On'yomi de los tres kanji."
+        "explanation": "新 (しん) + 幹 (かん) + 線 (せん) = しんかんせん. On'yomi en los tres kanji. Correcta. On'yomi de los tres kanji."
       },
       {
         "text": "しんきせん",
         "correct": false,
-        "reason": "幹 se lee かん, no き. き es lectura de otros kanji."
+        "explanation": "幹 se lee かん, no き. き es lectura de otros kanji."
       },
       {
         "text": "あたらしかんせん",
         "correct": false,
-        "reason": "あたらし es kun'yomi de 新 (新しい 'nuevo'); en compuestos se usa la on'yomi しん."
+        "explanation": "あたらし es kun'yomi de 新 (新しい 'nuevo'); en compuestos se usa la on'yomi しん."
       },
       {
         "text": "しんせん",
         "correct": false,
-        "reason": "Falta el 幹 (かん) intermedio: la palabra completa es しんかんせん."
+        "explanation": "Falta el 幹 (かん) intermedio: la palabra completa es しんかんせん."
       }
     ]
   },
@@ -699,28 +651,26 @@
     "id": "U4A-025",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 地下鉄?",
-    "correct": "ちかてつ",
-    "explanation": "地 (ち) + 下 (か) + 鉄 (てつ) = ちかてつ. On'yomi en los tres.",
     "opts": [
       {
         "text": "ちかてつ",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "地 (ち) + 下 (か) + 鉄 (てつ) = ちかてつ. On'yomi en los tres. Correcta. On'yomi estándar."
       },
       {
         "text": "ちげてつ",
         "correct": false,
-        "reason": "下 se lee か aquí, no げ. げ aparece en otros compuestos (下水 げすい)."
+        "explanation": "下 se lee か aquí, no げ. げ aparece en otros compuestos (下水 げすい)."
       },
       {
         "text": "じかてつ",
         "correct": false,
-        "reason": "地 se lee ち (sin dakuten), no じ."
+        "explanation": "地 se lee ち (sin dakuten), no じ."
       },
       {
         "text": "ちかどう",
         "correct": false,
-        "reason": "ちかどう es 地下道 ('paso subterráneo'), kanji distinto al final."
+        "explanation": "ちかどう es 地下道 ('paso subterráneo'), kanji distinto al final."
       }
     ]
   },
@@ -728,28 +678,26 @@
     "id": "U4A-026",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 飛行機?",
-    "correct": "ひこうき",
-    "explanation": "飛 (ひ) + 行 (こう) + 機 (き) = ひこうき.",
     "opts": [
       {
         "text": "ひこうき",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "飛 (ひ) + 行 (こう) + 機 (き) = ひこうき. Correcta. On'yomi estándar."
       },
       {
         "text": "ひぎょうき",
         "correct": false,
-        "reason": "行 se lee こう aquí, no ぎょう (de 行く / 銀行)."
+        "explanation": "行 se lee こう aquí, no ぎょう (de 行く / 銀行)."
       },
       {
         "text": "とびき",
         "correct": false,
-        "reason": "とび es kun'yomi de 飛 (飛ぶ 'volar'); en este compuesto se usa la on'yomi ひ."
+        "explanation": "とび es kun'yomi de 飛 (飛ぶ 'volar'); en este compuesto se usa la on'yomi ひ."
       },
       {
         "text": "ひこき",
         "correct": false,
-        "reason": "Falta la vocal larga: 行 es こう (con う), no こ."
+        "explanation": "Falta la vocal larga: 行 es こう (con う), no こ."
       }
     ]
   },
@@ -757,28 +705,26 @@
     "id": "U4A-027",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 車?",
-    "correct": "くるま",
-    "explanation": "車 sola se lee くるま (kun'yomi). En compuestos toma しゃ (電車 でんしゃ).",
     "opts": [
       {
         "text": "くるま",
         "correct": true,
-        "reason": "Correcta. Kun'yomi cuando va sola."
+        "explanation": "車 sola se lee くるま (kun'yomi). En compuestos toma しゃ (電車 でんしゃ). Correcta. Kun'yomi cuando va sola."
       },
       {
         "text": "しゃ",
         "correct": false,
-        "reason": "しゃ es la on'yomi en compuestos, no cuando 車 va sola."
+        "explanation": "しゃ es la on'yomi en compuestos, no cuando 車 va sola."
       },
       {
         "text": "じどう",
         "correct": false,
-        "reason": "じどう es 自動 ('automático'), parte de 自動車 (auto). No es lectura de 車 sola."
+        "explanation": "じどう es 自動 ('automático'), parte de 自動車 (auto). No es lectura de 車 sola."
       },
       {
         "text": "くま",
         "correct": false,
-        "reason": "くま es 'oso' (熊), kanji distinto. Sin sílaba る."
+        "explanation": "くま es 'oso' (熊), kanji distinto. Sin sílaba る."
       }
     ]
   },
@@ -786,28 +732,26 @@
     "id": "U4A-028",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 自転車?",
-    "correct": "じてんしゃ",
-    "explanation": "自 (じ) + 転 (てん) + 車 (しゃ) = じてんしゃ. On'yomi en los tres.",
     "opts": [
       {
         "text": "じてんしゃ",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "自 (じ) + 転 (てん) + 車 (しゃ) = じてんしゃ. On'yomi en los tres. Correcta. On'yomi estándar."
       },
       {
         "text": "じどうしゃ",
         "correct": false,
-        "reason": "じどうしゃ es 自動車 ('auto'), kanji distinto en el medio."
+        "explanation": "じどうしゃ es 自動車 ('auto'), kanji distinto en el medio."
       },
       {
         "text": "じてんき",
         "correct": false,
-        "reason": "き no es lectura de 車 en este compuesto; es しゃ."
+        "explanation": "き no es lectura de 車 en este compuesto; es しゃ."
       },
       {
         "text": "しんてんしゃ",
         "correct": false,
-        "reason": "しん no es lectura de 自; es じ."
+        "explanation": "しん no es lectura de 自; es じ."
       }
     ]
   },
@@ -815,28 +759,26 @@
     "id": "U4A-029",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 歩いて?",
-    "correct": "あるいて",
-    "explanation": "歩 (ある, kun'yomi del verbo 歩く) + いて (forma -te) = あるいて 'caminando'.",
     "opts": [
       {
         "text": "あるいて",
         "correct": true,
-        "reason": "Correcta. Forma -te del verbo 歩く."
+        "explanation": "歩 (ある, kun'yomi del verbo 歩く) + いて (forma -te) = あるいて 'caminando'. Correcta. Forma -te del verbo 歩く."
       },
       {
         "text": "ほいて",
         "correct": false,
-        "reason": "ほ es on'yomi de 歩 en compuestos (徒歩 とほ), pero en el verbo se usa kun'yomi ある."
+        "explanation": "ほ es on'yomi de 歩 en compuestos (徒歩 とほ), pero en el verbo se usa kun'yomi ある."
       },
       {
         "text": "はしって",
         "correct": false,
-        "reason": "はしって es la forma -te de 走る ('correr'), kanji distinto."
+        "explanation": "はしって es la forma -te de 走る ('correr'), kanji distinto."
       },
       {
         "text": "あゆいて",
         "correct": false,
-        "reason": "あゆ es lectura literaria/arcaica (歩む あゆむ); la lectura cotidiana del verbo 歩く es ある."
+        "explanation": "あゆ es lectura literaria/arcaica (歩む あゆむ); la lectura cotidiana del verbo 歩く es ある."
       }
     ]
   },
@@ -844,28 +786,26 @@
     "id": "U4A-030",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo se escribe 'tren bala' en japonés (kanji)?",
-    "correct": "新幹線",
-    "explanation": "新幹線 (しんかんせん) literalmente 'nueva línea principal' es el tren de alta velocidad japonés. Símbolo nacional desde 1964.",
     "opts": [
       {
         "text": "新幹線",
         "correct": true,
-        "reason": "Correcta. Compuesto estándar."
+        "explanation": "新幹線 (しんかんせん) literalmente 'nueva línea principal' es el tren de alta velocidad japonés. Símbolo nacional desde 1964. Correcta. Compuesto estándar."
       },
       {
         "text": "新電車",
         "correct": false,
-        "reason": "新電車 sería 'tren nuevo' literal, pero no es la palabra para 'tren bala'."
+        "explanation": "新電車 sería 'tren nuevo' literal, pero no es la palabra para 'tren bala'."
       },
       {
         "text": "新快速",
         "correct": false,
-        "reason": "新快速 (しんかいそく) existe pero es un servicio ferroviario rápido específico (de JR West), no el tren bala."
+        "explanation": "新快速 (しんかいそく) existe pero es un servicio ferroviario rápido específico (de JR West), no el tren bala."
       },
       {
         "text": "新線路",
         "correct": false,
-        "reason": "新線路 sería 'vía nueva', no el tren mismo."
+        "explanation": "新線路 sería 'vía nueva', no el tren mismo."
       }
     ]
   },
@@ -873,28 +813,26 @@
     "id": "U4A-031",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo se escribe 'avión' en japonés (kanji)?",
-    "correct": "飛行機",
-    "explanation": "飛行機 (ひこうき) literalmente 'máquina voladora' es la palabra estándar para avión.",
     "opts": [
       {
         "text": "飛行機",
         "correct": true,
-        "reason": "Correcta. Compuesto estándar."
+        "explanation": "飛行機 (ひこうき) literalmente 'máquina voladora' es la palabra estándar para avión. Correcta. Compuesto estándar."
       },
       {
         "text": "飛機",
         "correct": false,
-        "reason": "飛機 existe en chino pero no se usa en japonés moderno; falta 行."
+        "explanation": "飛機 existe en chino pero no se usa en japonés moderno; falta 行."
       },
       {
         "text": "飛船",
         "correct": false,
-        "reason": "飛船 (ひせん) sería 'aeronave/dirigible' literalmente; no es la palabra estándar de avión."
+        "explanation": "飛船 (ひせん) sería 'aeronave/dirigible' literalmente; no es la palabra estándar de avión."
       },
       {
         "text": "行機",
         "correct": false,
-        "reason": "Falta 飛 ('volar'); sin él, 行機 no es palabra estándar."
+        "explanation": "Falta 飛 ('volar'); sin él, 行機 no es palabra estándar."
       }
     ]
   },
@@ -902,28 +840,26 @@
     "id": "U4A-032",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo se escribe 'subte / metro' en japonés (kanji)?",
-    "correct": "地下鉄",
-    "explanation": "地下鉄 (ちかてつ) literalmente 'ferrocarril subterráneo' es la palabra estándar para metro.",
     "opts": [
       {
         "text": "地下鉄",
         "correct": true,
-        "reason": "Correcta. Compuesto estándar."
+        "explanation": "地下鉄 (ちかてつ) literalmente 'ferrocarril subterráneo' es la palabra estándar para metro. Correcta. Compuesto estándar."
       },
       {
         "text": "下地鉄",
         "correct": false,
-        "reason": "Orden invertido: 地下 es 'subterráneo', no 下地. 下地 (したじ) significa 'base/fondo'."
+        "explanation": "Orden invertido: 地下 es 'subterráneo', no 下地. 下地 (したじ) significa 'base/fondo'."
       },
       {
         "text": "地鉄",
         "correct": false,
-        "reason": "Falta 下: solo 地鉄 (ちてつ) existe pero designa 'tren regional', no metro."
+        "explanation": "Falta 下: solo 地鉄 (ちてつ) existe pero designa 'tren regional', no metro."
       },
       {
         "text": "電鉄",
         "correct": false,
-        "reason": "電鉄 (でんてつ) significa 'ferrocarril eléctrico' general (líneas privadas), no específicamente metro."
+        "explanation": "電鉄 (でんてつ) significa 'ferrocarril eléctrico' general (líneas privadas), no específicamente metro."
       }
     ]
   },
@@ -931,28 +867,26 @@
     "id": "U4A-033",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo se escribe 'bicicleta' en japonés (kanji)?",
-    "correct": "自転車",
-    "explanation": "自転車 (じてんしゃ) literalmente 'vehículo que gira por sí mismo'. NO confundir con 自動車 (auto).",
     "opts": [
       {
         "text": "自転車",
         "correct": true,
-        "reason": "Correcta. Compuesto estándar."
+        "explanation": "自転車 (じてんしゃ) literalmente 'vehículo que gira por sí mismo'. NO confundir con 自動車 (auto). Correcta. Compuesto estándar."
       },
       {
         "text": "自動車",
         "correct": false,
-        "reason": "自動車 (じどうしゃ) es 'auto/automóvil', no bicicleta. Confusión muy común por el 自~車."
+        "explanation": "自動車 (じどうしゃ) es 'auto/automóvil', no bicicleta. Confusión muy común por el 自~車."
       },
       {
         "text": "自行車",
         "correct": false,
-        "reason": "自行車 es la palabra china para bicicleta; en japonés se usa 自転車."
+        "explanation": "自行車 es la palabra china para bicicleta; en japonés se usa 自転車."
       },
       {
         "text": "転車",
         "correct": false,
-        "reason": "Falta 自 ('propio'). 転車 solo no es palabra estándar."
+        "explanation": "Falta 自 ('propio'). 転車 solo no es palabra estándar."
       }
     ]
   },
@@ -960,28 +894,26 @@
     "id": "U4A-034",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo se escribe 'auto' en japonés (kanji)?",
-    "correct": "車",
-    "explanation": "車 (くるま) sola es 'auto/coche'. Es la palabra cotidiana; 自動車 (じどうしゃ) es más formal.",
     "opts": [
       {
         "text": "車",
         "correct": true,
-        "reason": "Correcta. Kanji estándar para auto."
+        "explanation": "車 (くるま) sola es 'auto/coche'. Es la palabra cotidiana; 自動車 (じどうしゃ) es más formal. Correcta. Kanji estándar para auto."
       },
       {
         "text": "機",
         "correct": false,
-        "reason": "機 es 'máquina' general (parte de 飛行機, 機械), no auto."
+        "explanation": "機 es 'máquina' general (parte de 飛行機, 機械), no auto."
       },
       {
         "text": "船",
         "correct": false,
-        "reason": "船 (ふね) es 'barco', no auto."
+        "explanation": "船 (ふね) es 'barco', no auto."
       },
       {
         "text": "道",
         "correct": false,
-        "reason": "道 (みち) es 'camino', no el vehículo."
+        "explanation": "道 (みち) es 'camino', no el vehículo."
       }
     ]
   },
@@ -989,28 +921,26 @@
     "id": "U4A-035",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo se escribe 'tren (eléctrico)' en japonés (kanji)?",
-    "correct": "電車",
-    "explanation": "電車 (でんしゃ) literalmente 'vehículo eléctrico' es el tren común urbano.",
     "opts": [
       {
         "text": "電車",
         "correct": true,
-        "reason": "Correcta. Tren eléctrico común."
+        "explanation": "電車 (でんしゃ) literalmente 'vehículo eléctrico' es el tren común urbano. Correcta. Tren eléctrico común."
       },
       {
         "text": "汽車",
         "correct": false,
-        "reason": "汽車 (きしゃ) es 'tren de vapor' (uso histórico/arcaico). El moderno es 電車."
+        "explanation": "汽車 (きしゃ) es 'tren de vapor' (uso histórico/arcaico). El moderno es 電車."
       },
       {
         "text": "列車",
         "correct": false,
-        "reason": "列車 (れっしゃ) es 'tren' en sentido formal/genérico (incluye carga); el coloquial diario es 電車."
+        "explanation": "列車 (れっしゃ) es 'tren' en sentido formal/genérico (incluye carga); el coloquial diario es 電車."
       },
       {
         "text": "機車",
         "correct": false,
-        "reason": "機車 no es palabra estándar en japonés moderno."
+        "explanation": "機車 no es palabra estándar en japonés moderno."
       }
     ]
   },
@@ -1018,28 +948,26 @@
     "id": "U4A-036",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo se escribe 'colectivo/bus' en japonés?",
-    "correct": "バス",
-    "explanation": "バス viene del inglés 'bus'. Es la transcripción estándar en katakana.",
     "opts": [
       {
         "text": "バス",
         "correct": true,
-        "reason": "Correcta. Préstamo del inglés."
+        "explanation": "バス viene del inglés 'bus'. Es la transcripción estándar en katakana. Correcta. Préstamo del inglés."
       },
       {
         "text": "バン",
         "correct": false,
-        "reason": "バン es 'van' (vehículo más pequeño). バス es el colectivo grande."
+        "explanation": "バン es 'van' (vehículo más pequeño). バス es el colectivo grande."
       },
       {
         "text": "パス",
         "correct": false,
-        "reason": "パス viene de 'pass' (paso/aprobar/abono). Distinto fonéticamente (ぱ vs ば)."
+        "explanation": "パス viene de 'pass' (paso/aprobar/abono). Distinto fonéticamente (ぱ vs ば)."
       },
       {
         "text": "ビス",
         "correct": false,
-        "reason": "ビス no es palabra estándar; sería ビズ (bizz/business) o similar."
+        "explanation": "ビス no es palabra estándar; sería ビズ (bizz/business) o similar."
       }
     ]
   },
@@ -1047,28 +975,26 @@
     "id": "U4A-037",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo se escribe 'taxi' en japonés?",
-    "correct": "タクシー",
-    "explanation": "タクシー viene del inglés 'taxi'. Notá la vocal larga al final (ー).",
     "opts": [
       {
         "text": "タクシー",
         "correct": true,
-        "reason": "Correcta. Préstamo estándar."
+        "explanation": "タクシー viene del inglés 'taxi'. Notá la vocal larga al final (ー). Correcta. Préstamo estándar."
       },
       {
         "text": "トクシー",
         "correct": false,
-        "reason": "Vocal incorrecta al inicio: タ (ta), no ト (to)."
+        "explanation": "Vocal incorrecta al inicio: タ (ta), no ト (to)."
       },
       {
         "text": "タカシー",
         "correct": false,
-        "reason": "Vocal intermedia incorrecta: ク (ku), no カ (ka)."
+        "explanation": "Vocal intermedia incorrecta: ク (ku), no カ (ka)."
       },
       {
         "text": "タシクー",
         "correct": false,
-        "reason": "Orden de sílabas invertido: タクシー, no タシクー."
+        "explanation": "Orden de sílabas invertido: タクシー, no タシクー."
       }
     ]
   },
@@ -1076,28 +1002,26 @@
     "id": "U4A-038",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo se escribe 'caminando' en japonés (con kanji)?",
-    "correct": "歩いて",
-    "explanation": "歩いて es la forma -te del verbo 歩く ('caminar'). Se usa como medio de transporte SIN partícula で adicional.",
     "opts": [
       {
         "text": "歩いて",
         "correct": true,
-        "reason": "Correcta. Forma -te del verbo 歩く."
+        "explanation": "歩いて es la forma -te del verbo 歩く ('caminar'). Se usa como medio de transporte SIN partícula で adicional. Correcta. Forma -te del verbo 歩く."
       },
       {
         "text": "走いて",
         "correct": false,
-        "reason": "走 es 'correr' (はしる); su forma -te es 走って (はしって). Distinto kanji y verbo."
+        "explanation": "走 es 'correr' (はしる); su forma -te es 走って (はしって). Distinto kanji y verbo."
       },
       {
         "text": "行いて",
         "correct": false,
-        "reason": "行 (いく) es 'ir'; su forma -te es 行って (いって), no 行いて."
+        "explanation": "行 (いく) es 'ir'; su forma -te es 行って (いって), no 行いて."
       },
       {
         "text": "足いて",
         "correct": false,
-        "reason": "足 (あし) es 'pie' (sustantivo), no verbo. No tiene forma -te."
+        "explanation": "足 (あし) es 'pie' (sustantivo), no verbo. No tiene forma -te."
       }
     ]
   },
@@ -1105,28 +1029,26 @@
     "id": "U4A-039",
     "cat": "Kanji → Significado",
     "q": "¿Qué lugar es 北海道?",
-    "correct": "Hokkaido (isla norte de Japón)",
-    "explanation": "北海道 (ほっかいどう): 北 ('norte') + 海 ('mar') + 道 ('vía/región'). Es la isla principal más al norte de Japón.",
     "opts": [
       {
         "text": "Hokkaido (isla norte de Japón)",
         "correct": true,
-        "reason": "Correcta. Análisis literal 'región del mar del norte'."
+        "explanation": "北海道 (ほっかいどう): 北 ('norte') + 海 ('mar') + 道 ('vía/región'). Es la isla principal más al norte de Japón. Correcta. Análisis literal 'región del mar del norte'."
       },
       {
         "text": "Okinawa (isla sur)",
         "correct": false,
-        "reason": "Okinawa es 沖縄, en el extremo sur. Hokkaido está al norte."
+        "explanation": "Okinawa es 沖縄, en el extremo sur. Hokkaido está al norte."
       },
       {
         "text": "Tokio",
         "correct": false,
-        "reason": "Tokio es 東京, en la isla principal Honshu, no Hokkaido."
+        "explanation": "Tokio es 東京, en la isla principal Honshu, no Hokkaido."
       },
       {
         "text": "Kioto",
         "correct": false,
-        "reason": "Kioto es 京都, ciudad histórica en Honshu, no Hokkaido."
+        "explanation": "Kioto es 京都, ciudad histórica en Honshu, no Hokkaido."
       }
     ]
   },
@@ -1134,28 +1056,26 @@
     "id": "U4A-040",
     "cat": "Kanji → Significado",
     "q": "¿Qué lugar es 沖縄?",
-    "correct": "Okinawa (isla sur de Japón)",
-    "explanation": "沖縄 (おきなわ): 沖 ('mar abierto') + 縄 ('cuerda'). Archipiélago subtropical en el extremo sur de Japón.",
     "opts": [
       {
         "text": "Okinawa (isla sur de Japón)",
         "correct": true,
-        "reason": "Correcta. Archipiélago subtropical."
+        "explanation": "沖縄 (おきなわ): 沖 ('mar abierto') + 縄 ('cuerda'). Archipiélago subtropical en el extremo sur de Japón. Correcta. Archipiélago subtropical."
       },
       {
         "text": "Hokkaido",
         "correct": false,
-        "reason": "Hokkaido es 北海道, en el extremo norte (opuesto a Okinawa)."
+        "explanation": "Hokkaido es 北海道, en el extremo norte (opuesto a Okinawa)."
       },
       {
         "text": "Hiroshima",
         "correct": false,
-        "reason": "Hiroshima es 広島, en la isla principal Honshu."
+        "explanation": "Hiroshima es 広島, en la isla principal Honshu."
       },
       {
         "text": "Nara",
         "correct": false,
-        "reason": "Nara es 奈良, ciudad histórica cerca de Kioto en Honshu."
+        "explanation": "Nara es 奈良, ciudad histórica cerca de Kioto en Honshu."
       }
     ]
   },
@@ -1163,28 +1083,26 @@
     "id": "U4A-041",
     "cat": "Kanji → Significado",
     "q": "¿Qué lugar es 東京?",
-    "correct": "Tokio",
-    "explanation": "東京 (とうきょう): 東 ('este') + 京 ('capital') = 'capital del este'. Capital actual de Japón.",
     "opts": [
       {
         "text": "Tokio",
         "correct": true,
-        "reason": "Correcta. Capital actual."
+        "explanation": "東京 (とうきょう): 東 ('este') + 京 ('capital') = 'capital del este'. Capital actual de Japón. Correcta. Capital actual."
       },
       {
         "text": "Kioto",
         "correct": false,
-        "reason": "Kioto es 京都 (mismo kanji 京 pero distinto orden y significado: 'ciudad capital')."
+        "explanation": "Kioto es 京都 (mismo kanji 京 pero distinto orden y significado: 'ciudad capital')."
       },
       {
         "text": "Osaka",
         "correct": false,
-        "reason": "Osaka es 大阪, ciudad importante al oeste de Tokio."
+        "explanation": "Osaka es 大阪, ciudad importante al oeste de Tokio."
       },
       {
         "text": "Yokohama",
         "correct": false,
-        "reason": "Yokohama es 横浜, ciudad portuaria cerca de Tokio."
+        "explanation": "Yokohama es 横浜, ciudad portuaria cerca de Tokio."
       }
     ]
   },
@@ -1192,28 +1110,26 @@
     "id": "U4A-042",
     "cat": "Kanji → Significado",
     "q": "¿Qué lugar es 大阪?",
-    "correct": "Osaka",
-    "explanation": "大阪 (おおさか): 大 ('grande') + 阪 ('cuesta'). Segunda ciudad más grande de Japón, en la región Kansai.",
     "opts": [
       {
         "text": "Osaka",
         "correct": true,
-        "reason": "Correcta. Ciudad de Kansai."
+        "explanation": "大阪 (おおさか): 大 ('grande') + 阪 ('cuesta'). Segunda ciudad más grande de Japón, en la región Kansai. Correcta. Ciudad de Kansai."
       },
       {
         "text": "Ōta",
         "correct": false,
-        "reason": "Ōta (大田) es un barrio de Tokio, distinto a Osaka."
+        "explanation": "Ōta (大田) es un barrio de Tokio, distinto a Osaka."
       },
       {
         "text": "Oita",
         "correct": false,
-        "reason": "Oita (大分) es una prefectura en Kyushu, distinta de Osaka."
+        "explanation": "Oita (大分) es una prefectura en Kyushu, distinta de Osaka."
       },
       {
         "text": "Otaru",
         "correct": false,
-        "reason": "Otaru (小樽) es una ciudad portuaria en Hokkaido."
+        "explanation": "Otaru (小樽) es una ciudad portuaria en Hokkaido."
       }
     ]
   },
@@ -1221,28 +1137,26 @@
     "id": "U4A-043",
     "cat": "Kanji → Significado",
     "q": "¿Qué lugar es 京都?",
-    "correct": "Kioto",
-    "explanation": "京都 (きょうと): 京 ('capital') + 都 ('metrópolis'). Antigua capital imperial de Japón (794-1868).",
     "opts": [
       {
         "text": "Kioto",
         "correct": true,
-        "reason": "Correcta. Antigua capital imperial."
+        "explanation": "京都 (きょうと): 京 ('capital') + 都 ('metrópolis'). Antigua capital imperial de Japón (794-1868). Correcta. Antigua capital imperial."
       },
       {
         "text": "Tokio",
         "correct": false,
-        "reason": "Tokio es 東京 (mismo 京 pero como segundo kanji y con 東 'este')."
+        "explanation": "Tokio es 東京 (mismo 京 pero como segundo kanji y con 東 'este')."
       },
       {
         "text": "Kobe",
         "correct": false,
-        "reason": "Kobe es 神戸 (こうべ), ciudad portuaria cerca de Osaka."
+        "explanation": "Kobe es 神戸 (こうべ), ciudad portuaria cerca de Osaka."
       },
       {
         "text": "Hakata",
         "correct": false,
-        "reason": "Hakata es 博多 (はかた), parte de Fukuoka en Kyushu."
+        "explanation": "Hakata es 博多 (はかた), parte de Fukuoka en Kyushu."
       }
     ]
   },
@@ -1250,28 +1164,26 @@
     "id": "U4A-044",
     "cat": "Kanji → Significado",
     "q": "¿Qué lugar es 横浜?",
-    "correct": "Yokohama",
-    "explanation": "横浜 (よこはま): 横 ('horizontal/lateral') + 浜 ('playa/costa'). Ciudad portuaria al sur de Tokio.",
     "opts": [
       {
         "text": "Yokohama",
         "correct": true,
-        "reason": "Correcta. Ciudad portuaria de Kanagawa."
+        "explanation": "横浜 (よこはま): 横 ('horizontal/lateral') + 浜 ('playa/costa'). Ciudad portuaria al sur de Tokio. Correcta. Ciudad portuaria de Kanagawa."
       },
       {
         "text": "Yokosuka",
         "correct": false,
-        "reason": "Yokosuka es 横須賀 (よこすか), ciudad cercana pero distinta."
+        "explanation": "Yokosuka es 横須賀 (よこすか), ciudad cercana pero distinta."
       },
       {
         "text": "Hakata",
         "correct": false,
-        "reason": "Hakata es 博多, en Fukuoka (Kyushu)."
+        "explanation": "Hakata es 博多, en Fukuoka (Kyushu)."
       },
       {
         "text": "Hakodate",
         "correct": false,
-        "reason": "Hakodate es 函館, ciudad portuaria en Hokkaido."
+        "explanation": "Hakodate es 函館, ciudad portuaria en Hokkaido."
       }
     ]
   },
@@ -1279,28 +1191,26 @@
     "id": "U4A-045",
     "cat": "Kanji → Significado",
     "q": "¿Qué lugar es 広島?",
-    "correct": "Hiroshima",
-    "explanation": "広島 (ひろしま): 広 ('ancho') + 島 ('isla'). Ciudad histórica en la isla Honshu, conocida mundialmente por la bomba atómica de 1945.",
     "opts": [
       {
         "text": "Hiroshima",
         "correct": true,
-        "reason": "Correcta. Ciudad de Honshu."
+        "explanation": "広島 (ひろしま): 広 ('ancho') + 島 ('isla'). Ciudad histórica en la isla Honshu, conocida mundialmente por la bomba atómica de 1945. Correcta. Ciudad de Honshu."
       },
       {
         "text": "Himeji",
         "correct": false,
-        "reason": "Himeji es 姫路, conocida por su castillo blanco."
+        "explanation": "Himeji es 姫路, conocida por su castillo blanco."
       },
       {
         "text": "Fukushima",
         "correct": false,
-        "reason": "Fukushima es 福島, prefectura en el noreste."
+        "explanation": "Fukushima es 福島, prefectura en el noreste."
       },
       {
         "text": "Hakushima",
         "correct": false,
-        "reason": "Hakushima no es ciudad principal de Japón; podría confundirse con barrios menores."
+        "explanation": "Hakushima no es ciudad principal de Japón; podría confundirse con barrios menores."
       }
     ]
   },
@@ -1308,28 +1218,26 @@
     "id": "U4A-046",
     "cat": "Kanji → Significado",
     "q": "¿Qué lugar es 奈良?",
-    "correct": "Nara",
-    "explanation": "奈良 (なら): primera capital permanente de Japón (710-784), conocida por sus templos antiguos y ciervos del parque.",
     "opts": [
       {
         "text": "Nara",
         "correct": true,
-        "reason": "Correcta. Antigua capital con ciervos."
+        "explanation": "奈良 (なら): primera capital permanente de Japón (710-784), conocida por sus templos antiguos y ciervos del parque. Correcta. Antigua capital con ciervos."
       },
       {
         "text": "Nagano",
         "correct": false,
-        "reason": "Nagano es 長野, prefectura montañosa en el centro de Honshu."
+        "explanation": "Nagano es 長野, prefectura montañosa en el centro de Honshu."
       },
       {
         "text": "Nagoya",
         "correct": false,
-        "reason": "Nagoya es 名古屋, gran ciudad industrial en el centro de Japón."
+        "explanation": "Nagoya es 名古屋, gran ciudad industrial en el centro de Japón."
       },
       {
         "text": "Nikko",
         "correct": false,
-        "reason": "Nikko es 日光, ciudad de templos al norte de Tokio."
+        "explanation": "Nikko es 日光, ciudad de templos al norte de Tokio."
       }
     ]
   },
@@ -1337,28 +1245,26 @@
     "id": "U4A-047",
     "cat": "Kanji → Significado",
     "q": "¿Qué lugar es 姫路?",
-    "correct": "Himeji",
-    "explanation": "姫路 (ひめじ): 姫 ('princesa') + 路 ('camino'). Ciudad famosa por el castillo blanco 姫路城 (Patrimonio Mundial).",
     "opts": [
       {
         "text": "Himeji",
         "correct": true,
-        "reason": "Correcta. Ciudad del castillo blanco."
+        "explanation": "姫路 (ひめじ): 姫 ('princesa') + 路 ('camino'). Ciudad famosa por el castillo blanco 姫路城 (Patrimonio Mundial). Correcta. Ciudad del castillo blanco."
       },
       {
         "text": "Hiroshima",
         "correct": false,
-        "reason": "Hiroshima es 広島, ciudad distinta más al oeste."
+        "explanation": "Hiroshima es 広島, ciudad distinta más al oeste."
       },
       {
         "text": "Himi",
         "correct": false,
-        "reason": "Himi (氷見) es ciudad menor en Toyama, no la del castillo."
+        "explanation": "Himi (氷見) es ciudad menor en Toyama, no la del castillo."
       },
       {
         "text": "Hachiōji",
         "correct": false,
-        "reason": "Hachiōji (八王子) es ciudad satélite de Tokio."
+        "explanation": "Hachiōji (八王子) es ciudad satélite de Tokio."
       }
     ]
   },
@@ -1366,28 +1272,26 @@
     "id": "U4A-048",
     "cat": "Kanji → Significado",
     "q": "¿Qué lugar es 長野?",
-    "correct": "Nagano",
-    "explanation": "長野 (ながの): 長 ('largo') + 野 ('campo/llanura'). Prefectura montañosa, sede de los Juegos Olímpicos de Invierno 1998.",
     "opts": [
       {
         "text": "Nagano",
         "correct": true,
-        "reason": "Correcta. Prefectura montañosa."
+        "explanation": "長野 (ながの): 長 ('largo') + 野 ('campo/llanura'). Prefectura montañosa, sede de los Juegos Olímpicos de Invierno 1998. Correcta. Prefectura montañosa."
       },
       {
         "text": "Nagoya",
         "correct": false,
-        "reason": "Nagoya es 名古屋, ciudad industrial distinta."
+        "explanation": "Nagoya es 名古屋, ciudad industrial distinta."
       },
       {
         "text": "Nara",
         "correct": false,
-        "reason": "Nara es 奈良, antigua capital."
+        "explanation": "Nara es 奈良, antigua capital."
       },
       {
         "text": "Nagasaki",
         "correct": false,
-        "reason": "Nagasaki es 長崎 (también con 長 inicial), ciudad portuaria de Kyushu."
+        "explanation": "Nagasaki es 長崎 (también con 長 inicial), ciudad portuaria de Kyushu."
       }
     ]
   },
@@ -1395,28 +1299,26 @@
     "id": "U4A-049",
     "cat": "Kanji → Significado",
     "q": "¿Qué lugar es 日光?",
-    "correct": "Nikko",
-    "explanation": "日光 (にっこう): 日 ('sol') + 光 ('luz'). Ciudad de templos sintoístas en Tochigi, al norte de Tokio.",
     "opts": [
       {
         "text": "Nikko",
         "correct": true,
-        "reason": "Correcta. Ciudad de templos."
+        "explanation": "日光 (にっこう): 日 ('sol') + 光 ('luz'). Ciudad de templos sintoístas en Tochigi, al norte de Tokio. Correcta. Ciudad de templos."
       },
       {
         "text": "Niigata",
         "correct": false,
-        "reason": "Niigata es 新潟, prefectura costera en el mar de Japón."
+        "explanation": "Niigata es 新潟, prefectura costera en el mar de Japón."
       },
       {
         "text": "Nagano",
         "correct": false,
-        "reason": "Nagano es 長野, distinto kanji."
+        "explanation": "Nagano es 長野, distinto kanji."
       },
       {
         "text": "Nishinomiya",
         "correct": false,
-        "reason": "Nishinomiya (西宮) es ciudad cerca de Osaka."
+        "explanation": "Nishinomiya (西宮) es ciudad cerca de Osaka."
       }
     ]
   },
@@ -1424,28 +1326,26 @@
     "id": "U4A-050",
     "cat": "Kanji → Significado",
     "q": "¿Qué lugar es 日本?",
-    "correct": "Japón",
-    "explanation": "日本 (にほん o にっぽん): 日 ('sol') + 本 ('origen') = 'origen del sol'. Nombre del país.",
     "opts": [
       {
         "text": "Japón",
         "correct": true,
-        "reason": "Correcta. 'Tierra del sol naciente'."
+        "explanation": "日本 (にほん o にっぽん): 日 ('sol') + 本 ('origen') = 'origen del sol'. Nombre del país. Correcta. 'Tierra del sol naciente'."
       },
       {
         "text": "China",
         "correct": false,
-        "reason": "China es 中国 (ちゅうごく) en japonés."
+        "explanation": "China es 中国 (ちゅうごく) en japonés."
       },
       {
         "text": "Corea",
         "correct": false,
-        "reason": "Corea (del Sur) es 韓国 (かんこく); del Norte 北朝鮮."
+        "explanation": "Corea (del Sur) es 韓国 (かんこく); del Norte 北朝鮮."
       },
       {
         "text": "Taiwán",
         "correct": false,
-        "reason": "Taiwán es 台湾 (たいわん)."
+        "explanation": "Taiwán es 台湾 (たいわん)."
       }
     ]
   },
@@ -1453,28 +1353,26 @@
     "id": "U4A-051",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 北海道?",
-    "correct": "ほっかいどう",
-    "explanation": "北 (ほく → ほっ con sokuon) + 海 (かい) + 道 (どう). Notá el sokuon en la primera sílaba.",
     "opts": [
       {
         "text": "ほっかいどう",
         "correct": true,
-        "reason": "Correcta. Sokuon obligatorio en ほっ."
+        "explanation": "北 (ほく → ほっ con sokuon) + 海 (かい) + 道 (どう). Notá el sokuon en la primera sílaba. Correcta. Sokuon obligatorio en ほっ."
       },
       {
         "text": "ほくかいどう",
         "correct": false,
-        "reason": "Sin sokuon: la regla fonética obliga ほっかいどう."
+        "explanation": "Sin sokuon: la regla fonética obliga ほっかいどう."
       },
       {
         "text": "きたうみみち",
         "correct": false,
-        "reason": "Mezcla de kun'yomi (きた + うみ + みち); en este compuesto se usan on'yomi."
+        "explanation": "Mezcla de kun'yomi (きた + うみ + みち); en este compuesto se usan on'yomi."
       },
       {
         "text": "ほかいど",
         "correct": false,
-        "reason": "Falta el sokuon (っ) y la vocal larga (どう). La forma completa es ほっかいどう."
+        "explanation": "Falta el sokuon (っ) y la vocal larga (どう). La forma completa es ほっかいどう."
       }
     ]
   },
@@ -1482,28 +1380,26 @@
     "id": "U4A-052",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 沖縄?",
-    "correct": "おきなわ",
-    "explanation": "沖 (おき) + 縄 (なわ) = おきなわ. Nombre propio con kun'yomi.",
     "opts": [
       {
         "text": "おきなわ",
         "correct": true,
-        "reason": "Correcta. Nombre del archipiélago."
+        "explanation": "沖 (おき) + 縄 (なわ) = おきなわ. Nombre propio con kun'yomi. Correcta. Nombre del archipiélago."
       },
       {
         "text": "ちゅうなわ",
         "correct": false,
-        "reason": "ちゅう no es lectura de 沖. La lectura es おき."
+        "explanation": "ちゅう no es lectura de 沖. La lectura es おき."
       },
       {
         "text": "おけなわ",
         "correct": false,
-        "reason": "Vocal incorrecta: 沖 se lee おき, no おけ."
+        "explanation": "Vocal incorrecta: 沖 se lee おき, no おけ."
       },
       {
         "text": "おきじま",
         "correct": false,
-        "reason": "じま es lectura de 島 ('isla'); 縄 ('cuerda') se lee なわ. Confusión por el contexto isleño."
+        "explanation": "じま es lectura de 島 ('isla'); 縄 ('cuerda') se lee なわ. Confusión por el contexto isleño."
       }
     ]
   },
@@ -1511,28 +1407,26 @@
     "id": "U4A-053",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 東京?",
-    "correct": "とうきょう",
-    "explanation": "東 (とう) + 京 (きょう) = とうきょう. Doble vocal larga.",
     "opts": [
       {
         "text": "とうきょう",
         "correct": true,
-        "reason": "Correcta. On'yomi con dos vocales largas."
+        "explanation": "東 (とう) + 京 (きょう) = とうきょう. Doble vocal larga. Correcta. On'yomi con dos vocales largas."
       },
       {
         "text": "ひがしきょう",
         "correct": false,
-        "reason": "ひがし es kun'yomi de 東 sola; en compuestos se usa とう."
+        "explanation": "ひがし es kun'yomi de 東 sola; en compuestos se usa とう."
       },
       {
         "text": "とうけい",
         "correct": false,
-        "reason": "とうけい es 統計 ('estadística'), kanji distinto."
+        "explanation": "とうけい es 統計 ('estadística'), kanji distinto."
       },
       {
         "text": "とっきょう",
         "correct": false,
-        "reason": "El sokuon no aplica; la lectura es plana とうきょう."
+        "explanation": "El sokuon no aplica; la lectura es plana とうきょう."
       }
     ]
   },
@@ -1540,28 +1434,26 @@
     "id": "U4A-054",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 大阪?",
-    "correct": "おおさか",
-    "explanation": "大 (おお, kun'yomi 'grande') + 阪 (さか) = おおさか. Notá la vocal larga おお.",
     "opts": [
       {
         "text": "おおさか",
         "correct": true,
-        "reason": "Correcta. Vocal larga おお."
+        "explanation": "大 (おお, kun'yomi 'grande') + 阪 (さか) = おおさか. Notá la vocal larga おお. Correcta. Vocal larga おお."
       },
       {
         "text": "だいはん",
         "correct": false,
-        "reason": "だい es on'yomi de 大; en este nombre se usa la kun'yomi おお (con vocal larga)."
+        "explanation": "だい es on'yomi de 大; en este nombre se usa la kun'yomi おお (con vocal larga)."
       },
       {
         "text": "おさか",
         "correct": false,
-        "reason": "Falta la vocal larga: おお (con dos お), no お sola."
+        "explanation": "Falta la vocal larga: おお (con dos お), no お sola."
       },
       {
         "text": "だいさか",
         "correct": false,
-        "reason": "Mezcla on'yomi de 大 con kun'yomi de 阪. La lectura correcta usa おお."
+        "explanation": "Mezcla on'yomi de 大 con kun'yomi de 阪. La lectura correcta usa おお."
       }
     ]
   },
@@ -1569,28 +1461,26 @@
     "id": "U4A-055",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 京都?",
-    "correct": "きょうと",
-    "explanation": "京 (きょう) + 都 (と) = きょうと. Notá la vocal larga きょう.",
     "opts": [
       {
         "text": "きょうと",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "京 (きょう) + 都 (と) = きょうと. Notá la vocal larga きょう. Correcta. On'yomi estándar."
       },
       {
         "text": "けいと",
         "correct": false,
-        "reason": "けい es otra on'yomi de 京 (en 京浜 けいひん), pero en 京都 se usa きょう."
+        "explanation": "けい es otra on'yomi de 京 (en 京浜 けいひん), pero en 京都 se usa きょう."
       },
       {
         "text": "きょうとう",
         "correct": false,
-        "reason": "都 se lee と (corta), no とう (larga)."
+        "explanation": "都 se lee と (corta), no とう (larga)."
       },
       {
         "text": "きょうつ",
         "correct": false,
-        "reason": "都 se lee と, no つ. つ no es lectura de 都."
+        "explanation": "都 se lee と, no つ. つ no es lectura de 都."
       }
     ]
   },
@@ -1598,28 +1488,26 @@
     "id": "U4A-056",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 横浜?",
-    "correct": "よこはま",
-    "explanation": "横 (よこ) + 浜 (はま) = よこはま. Kun'yomi en ambos kanji (típico en nombres propios).",
     "opts": [
       {
         "text": "よこはま",
         "correct": true,
-        "reason": "Correcta. Kun'yomi estándar en nombre propio."
+        "explanation": "横 (よこ) + 浜 (はま) = よこはま. Kun'yomi en ambos kanji (típico en nombres propios). Correcta. Kun'yomi estándar en nombre propio."
       },
       {
         "text": "おうひん",
         "correct": false,
-        "reason": "おう es on'yomi de 横, ひん es on'yomi de 浜; pero en este nombre se usan kun'yomi よこ + はま."
+        "explanation": "おう es on'yomi de 横, ひん es on'yomi de 浜; pero en este nombre se usan kun'yomi よこ + はま."
       },
       {
         "text": "よこばま",
         "correct": false,
-        "reason": "El rendaku (はま → ばま) NO ocurre en 横浜; la lectura mantiene はま."
+        "explanation": "El rendaku (はま → ばま) NO ocurre en 横浜; la lectura mantiene はま."
       },
       {
         "text": "よこひん",
         "correct": false,
-        "reason": "ひん es on'yomi de 浜 en compuestos (海浜 かいひん); en este nombre se usa はま."
+        "explanation": "ひん es on'yomi de 浜 en compuestos (海浜 かいひん); en este nombre se usa はま."
       }
     ]
   },
@@ -1627,28 +1515,26 @@
     "id": "U4A-057",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 広島?",
-    "correct": "ひろしま",
-    "explanation": "広 (ひろ, kun'yomi 'ancho') + 島 (しま, kun'yomi 'isla') = ひろしま.",
     "opts": [
       {
         "text": "ひろしま",
         "correct": true,
-        "reason": "Correcta. Kun'yomi en ambos kanji."
+        "explanation": "広 (ひろ, kun'yomi 'ancho') + 島 (しま, kun'yomi 'isla') = ひろしま. Correcta. Kun'yomi en ambos kanji."
       },
       {
         "text": "ひろじま",
         "correct": false,
-        "reason": "El rendaku (しま → じま) NO ocurre en 広島; otros nombres sí (鹿児島 かごしま → con じ)."
+        "explanation": "El rendaku (しま → じま) NO ocurre en 広島; otros nombres sí (鹿児島 かごしま → con じ)."
       },
       {
         "text": "こうとう",
         "correct": false,
-        "reason": "こう es on'yomi de 広, とう es on'yomi de 島; pero en este nombre se usan kun'yomi."
+        "explanation": "こう es on'yomi de 広, とう es on'yomi de 島; pero en este nombre se usan kun'yomi."
       },
       {
         "text": "ひろとう",
         "correct": false,
-        "reason": "とう es on'yomi de 島; en 広島 se usa la kun'yomi しま."
+        "explanation": "とう es on'yomi de 島; en 広島 se usa la kun'yomi しま."
       }
     ]
   },
@@ -1656,28 +1542,26 @@
     "id": "U4A-058",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 奈良?",
-    "correct": "なら",
-    "explanation": "奈良 (なら): nombre propio con lectura especial. Los kanji no se descomponen con sus lecturas normales.",
     "opts": [
       {
         "text": "なら",
         "correct": true,
-        "reason": "Correcta. Lectura del nombre propio."
+        "explanation": "奈良 (なら): nombre propio con lectura especial. Los kanji no se descomponen con sus lecturas normales. Correcta. Lectura del nombre propio."
       },
       {
         "text": "ない",
         "correct": false,
-        "reason": "ない sería negación verbal o 無い; no es lectura de 奈良."
+        "explanation": "ない sería negación verbal o 無い; no es lectura de 奈良."
       },
       {
         "text": "なりょう",
         "correct": false,
-        "reason": "りょう no es lectura de 良 en este nombre (sí en 良い りょう raro)."
+        "explanation": "りょう no es lectura de 良 en este nombre (sí en 良い りょう raro)."
       },
       {
         "text": "なろう",
         "correct": false,
-        "reason": "ろう no es lectura de 良 en este nombre; aquí se lee ら."
+        "explanation": "ろう no es lectura de 良 en este nombre; aquí se lee ら."
       }
     ]
   },
@@ -1685,28 +1569,26 @@
     "id": "U4A-059",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 姫路?",
-    "correct": "ひめじ",
-    "explanation": "姫 (ひめ, 'princesa') + 路 (じ, con rendaku desde し) = ひめじ.",
     "opts": [
       {
         "text": "ひめじ",
         "correct": true,
-        "reason": "Correcta. Rendaku し → じ tras ひめ."
+        "explanation": "姫 (ひめ, 'princesa') + 路 (じ, con rendaku desde し) = ひめじ. Correcta. Rendaku し → じ tras ひめ."
       },
       {
         "text": "きめろ",
         "correct": false,
-        "reason": "き no es lectura de 姫; ろ no es lectura de 路 en nombres."
+        "explanation": "き no es lectura de 姫; ろ no es lectura de 路 en nombres."
       },
       {
         "text": "ひめろ",
         "correct": false,
-        "reason": "ろ no es lectura de 路 en este nombre; es じ con rendaku."
+        "explanation": "ろ no es lectura de 路 en este nombre; es じ con rendaku."
       },
       {
         "text": "ひろじ",
         "correct": false,
-        "reason": "ひろ es lectura de 広 ('ancho'), no de 姫."
+        "explanation": "ひろ es lectura de 広 ('ancho'), no de 姫."
       }
     ]
   },
@@ -1714,28 +1596,26 @@
     "id": "U4A-060",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 長野?",
-    "correct": "ながの",
-    "explanation": "長 (なが, kun'yomi 'largo') + 野 (の, kun'yomi 'campo') = ながの.",
     "opts": [
       {
         "text": "ながの",
         "correct": true,
-        "reason": "Correcta. Kun'yomi en ambos kanji."
+        "explanation": "長 (なが, kun'yomi 'largo') + 野 (の, kun'yomi 'campo') = ながの. Correcta. Kun'yomi en ambos kanji."
       },
       {
         "text": "ちょうや",
         "correct": false,
-        "reason": "ちょう es on'yomi de 長, や es lectura alternativa de 野; en este nombre se usan kun'yomi."
+        "explanation": "ちょう es on'yomi de 長, や es lectura alternativa de 野; en este nombre se usan kun'yomi."
       },
       {
         "text": "ながや",
         "correct": false,
-        "reason": "や es lectura alternativa de 野 en otros contextos; en 長野 se usa の."
+        "explanation": "や es lectura alternativa de 野 en otros contextos; en 長野 se usa の."
       },
       {
         "text": "ちょうの",
         "correct": false,
-        "reason": "ちょう es on'yomi de 長; en este nombre se usa la kun'yomi なが."
+        "explanation": "ちょう es on'yomi de 長; en este nombre se usa la kun'yomi なが."
       }
     ]
   },
@@ -1743,28 +1623,26 @@
     "id": "U4A-061",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 日光?",
-    "correct": "にっこう",
-    "explanation": "日 (にち → にっ con sokuon) + 光 (こう) = にっこう. Notá el sokuon obligatorio.",
     "opts": [
       {
         "text": "にっこう",
         "correct": true,
-        "reason": "Correcta. Sokuon en にっ."
+        "explanation": "日 (にち → にっ con sokuon) + 光 (こう) = にっこう. Notá el sokuon obligatorio. Correcta. Sokuon en にっ."
       },
       {
         "text": "にちこう",
         "correct": false,
-        "reason": "Sin sokuon: la asimilación にち → にっ es obligatoria antes de こう."
+        "explanation": "Sin sokuon: la asimilación にち → にっ es obligatoria antes de こう."
       },
       {
         "text": "ひかり",
         "correct": false,
-        "reason": "ひかり es la kun'yomi de 光 sola ('luz'); en compuestos se usa こう."
+        "explanation": "ひかり es la kun'yomi de 光 sola ('luz'); en compuestos se usa こう."
       },
       {
         "text": "にほん",
         "correct": false,
-        "reason": "にほん es 日本 ('Japón'), kanji distinto al final (本, no 光)."
+        "explanation": "にほん es 日本 ('Japón'), kanji distinto al final (本, no 光)."
       }
     ]
   },
@@ -1772,28 +1650,26 @@
     "id": "U4A-062",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 日本?",
-    "correct": "にほん",
-    "explanation": "日 (に) + 本 (ほん) = にほん. También se acepta にっぽん (más enfático/formal, ej. en deportes).",
     "opts": [
       {
         "text": "にほん",
         "correct": true,
-        "reason": "Correcta. Lectura cotidiana."
+        "explanation": "日 (に) + 本 (ほん) = にほん. También se acepta にっぽん (más enfático/formal, ej. en deportes). Correcta. Lectura cotidiana."
       },
       {
         "text": "にちほん",
         "correct": false,
-        "reason": "El sokuon ち se elide en にほん; にちほん no es estándar."
+        "explanation": "El sokuon ち se elide en にほん; にちほん no es estándar."
       },
       {
         "text": "ひぽん",
         "correct": false,
-        "reason": "ひ es kun'yomi de 日 (sola); en 日本 se usa に. Y ぽん requiere sokuon precedente."
+        "explanation": "ひ es kun'yomi de 日 (sola); en 日本 se usa に. Y ぽん requiere sokuon precedente."
       },
       {
         "text": "にち",
         "correct": false,
-        "reason": "Falta el segundo kanji 本; にち sola es solo la lectura de 日."
+        "explanation": "Falta el segundo kanji 本; にち sola es solo la lectura de 日."
       }
     ]
   },
@@ -1801,28 +1677,26 @@
     "id": "U4A-063",
     "cat": "Katakana",
     "q": "¿Qué lugar es バンコク?",
-    "correct": "Bangkok",
-    "explanation": "バンコク es la transcripción en katakana de 'Bangkok', capital de Tailandia.",
     "opts": [
       {
         "text": "Bangkok",
         "correct": true,
-        "reason": "Correcta. Capital de Tailandia."
+        "explanation": "バンコク es la transcripción en katakana de 'Bangkok', capital de Tailandia. Correcta. Capital de Tailandia."
       },
       {
         "text": "Pekín",
         "correct": false,
-        "reason": "Pekín es ペキン o 北京 (ペキン)."
+        "explanation": "Pekín es ペキン o 北京 (ペキン)."
       },
       {
         "text": "Seúl",
         "correct": false,
-        "reason": "Seúl es ソウル."
+        "explanation": "Seúl es ソウル."
       },
       {
         "text": "Sídney",
         "correct": false,
-        "reason": "Sídney es シドニー."
+        "explanation": "Sídney es シドニー."
       }
     ]
   },
@@ -1830,28 +1704,26 @@
     "id": "U4A-064",
     "cat": "Katakana",
     "q": "¿Qué lugar es アユタヤ?",
-    "correct": "Ayutaya (Tailandia)",
-    "explanation": "アユタヤ es la transcripción de 'Ayutthaya', antigua capital de Tailandia, sitio histórico.",
     "opts": [
       {
         "text": "Ayutaya (Tailandia)",
         "correct": true,
-        "reason": "Correcta. Sitio histórico tailandés."
+        "explanation": "アユタヤ es la transcripción de 'Ayutthaya', antigua capital de Tailandia, sitio histórico. Correcta. Sitio histórico tailandés."
       },
       {
         "text": "Bangkok",
         "correct": false,
-        "reason": "Bangkok es バンコク; Ayutaya es ciudad histórica al norte de Bangkok."
+        "explanation": "Bangkok es バンコク; Ayutaya es ciudad histórica al norte de Bangkok."
       },
       {
         "text": "Perth",
         "correct": false,
-        "reason": "Perth es パース; en Australia."
+        "explanation": "Perth es パース; en Australia."
       },
       {
         "text": "Moscú",
         "correct": false,
-        "reason": "Moscú es モスクワ."
+        "explanation": "Moscú es モスクワ."
       }
     ]
   },
@@ -1859,28 +1731,26 @@
     "id": "U4A-065",
     "cat": "Katakana",
     "q": "¿Qué lugar es シドニー?",
-    "correct": "Sídney",
-    "explanation": "シドニー es la transcripción de 'Sydney', ciudad costera de Australia.",
     "opts": [
       {
         "text": "Sídney",
         "correct": true,
-        "reason": "Correcta. Ciudad de Australia."
+        "explanation": "シドニー es la transcripción de 'Sydney', ciudad costera de Australia. Correcta. Ciudad de Australia."
       },
       {
         "text": "Seúl",
         "correct": false,
-        "reason": "Seúl es ソウル, distinta transcripción."
+        "explanation": "Seúl es ソウル, distinta transcripción."
       },
       {
         "text": "San Pablo",
         "correct": false,
-        "reason": "San Pablo (São Paulo) es サンパウロ."
+        "explanation": "San Pablo (São Paulo) es サンパウロ."
       },
       {
         "text": "Singapur",
         "correct": false,
-        "reason": "Singapur es シンガポール."
+        "explanation": "Singapur es シンガポール."
       }
     ]
   },
@@ -1888,28 +1758,26 @@
     "id": "U4A-066",
     "cat": "Katakana",
     "q": "¿Qué lugar es パース?",
-    "correct": "Perth",
-    "explanation": "パース es la transcripción de 'Perth', ciudad en el oeste de Australia.",
     "opts": [
       {
         "text": "Perth",
         "correct": true,
-        "reason": "Correcta. Ciudad del oeste de Australia."
+        "explanation": "パース es la transcripción de 'Perth', ciudad en el oeste de Australia. Correcta. Ciudad del oeste de Australia."
       },
       {
         "text": "París",
         "correct": false,
-        "reason": "París es パリ; transcripción más corta."
+        "explanation": "París es パリ; transcripción más corta."
       },
       {
         "text": "Praga",
         "correct": false,
-        "reason": "Praga es プラハ."
+        "explanation": "Praga es プラハ."
       },
       {
         "text": "Pekín",
         "correct": false,
-        "reason": "Pekín es ペキン o 北京."
+        "explanation": "Pekín es ペキン o 北京."
       }
     ]
   },
@@ -1917,28 +1785,26 @@
     "id": "U4A-067",
     "cat": "Katakana",
     "q": "¿Qué lugar es ソウル?",
-    "correct": "Seúl",
-    "explanation": "ソウル es la transcripción de 'Seoul', capital de Corea del Sur.",
     "opts": [
       {
         "text": "Seúl",
         "correct": true,
-        "reason": "Correcta. Capital coreana."
+        "explanation": "ソウル es la transcripción de 'Seoul', capital de Corea del Sur. Correcta. Capital coreana."
       },
       {
         "text": "Sídney",
         "correct": false,
-        "reason": "Sídney es シドニー."
+        "explanation": "Sídney es シドニー."
       },
       {
         "text": "Singapur",
         "correct": false,
-        "reason": "Singapur es シンガポール."
+        "explanation": "Singapur es シンガポール."
       },
       {
         "text": "Sofía",
         "correct": false,
-        "reason": "Sofía (Bulgaria) es ソフィア."
+        "explanation": "Sofía (Bulgaria) es ソフィア."
       }
     ]
   },
@@ -1946,28 +1812,26 @@
     "id": "U4A-068",
     "cat": "Katakana",
     "q": "¿Qué lugar es モスクワ?",
-    "correct": "Moscú",
-    "explanation": "モスクワ es la transcripción de 'Moskva' (ruso) / 'Moscow', capital de Rusia.",
     "opts": [
       {
         "text": "Moscú",
         "correct": true,
-        "reason": "Correcta. Capital de Rusia."
+        "explanation": "モスクワ es la transcripción de 'Moskva' (ruso) / 'Moscow', capital de Rusia. Correcta. Capital de Rusia."
       },
       {
         "text": "Madrid",
         "correct": false,
-        "reason": "Madrid es マドリード."
+        "explanation": "Madrid es マドリード."
       },
       {
         "text": "Milán",
         "correct": false,
-        "reason": "Milán es ミラノ (del italiano)."
+        "explanation": "Milán es ミラノ (del italiano)."
       },
       {
         "text": "Múnich",
         "correct": false,
-        "reason": "Múnich es ミュンヘン (del alemán München)."
+        "explanation": "Múnich es ミュンヘン (del alemán München)."
       }
     ]
   },
@@ -1975,28 +1839,26 @@
     "id": "U4A-069",
     "cat": "Katakana",
     "q": "¿Qué lugar es ニューヨーク?",
-    "correct": "Nueva York",
-    "explanation": "ニューヨーク es la transcripción de 'New York'. ニュー = 'new', ヨーク = 'York'.",
     "opts": [
       {
         "text": "Nueva York",
         "correct": true,
-        "reason": "Correcta. Transcripción de 'New York'."
+        "explanation": "ニューヨーク es la transcripción de 'New York'. ニュー = 'new', ヨーク = 'York'. Correcta. Transcripción de 'New York'."
       },
       {
         "text": "Nueva Delhi",
         "correct": false,
-        "reason": "Nueva Delhi es ニューデリー."
+        "explanation": "Nueva Delhi es ニューデリー."
       },
       {
         "text": "Nueva Orleans",
         "correct": false,
-        "reason": "Nueva Orleans es ニューオーリンズ."
+        "explanation": "Nueva Orleans es ニューオーリンズ."
       },
       {
         "text": "Nairobi",
         "correct": false,
-        "reason": "Nairobi es ナイロビ."
+        "explanation": "Nairobi es ナイロビ."
       }
     ]
   },
@@ -2004,28 +1866,26 @@
     "id": "U4A-070",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 駅?",
-    "correct": "Estación",
-    "explanation": "駅 (えき) = 'estación' (de tren, metro, etc.). Es uno de los kanji más vistos en señalización urbana japonesa.",
     "opts": [
       {
         "text": "Estación",
         "correct": true,
-        "reason": "Correcta. Punto de tren/metro."
+        "explanation": "駅 (えき) = 'estación' (de tren, metro, etc.). Es uno de los kanji más vistos en señalización urbana japonesa. Correcta. Punto de tren/metro."
       },
       {
         "text": "Casa",
         "correct": false,
-        "reason": "'Casa' es 家 (いえ/うち), kanji distinto."
+        "explanation": "'Casa' es 家 (いえ/うち), kanji distinto."
       },
       {
         "text": "Ciudad",
         "correct": false,
-        "reason": "'Ciudad/barrio' es 街 (まち) o 市 (し)."
+        "explanation": "'Ciudad/barrio' es 街 (まち) o 市 (し)."
       },
       {
         "text": "País",
         "correct": false,
-        "reason": "'País' es 国 (くに)."
+        "explanation": "'País' es 国 (くに)."
       }
     ]
   },
@@ -2033,28 +1893,26 @@
     "id": "U4A-071",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 駅?",
-    "correct": "えき",
-    "explanation": "駅 se lee えき (on'yomi). Es la lectura única común; no tiene kun'yomi cotidiana.",
     "opts": [
       {
         "text": "えき",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "駅 se lee えき (on'yomi). Es la lectura única común; no tiene kun'yomi cotidiana. Correcta. On'yomi estándar."
       },
       {
         "text": "みち",
         "correct": false,
-        "reason": "みち es 道 ('camino'), kanji distinto."
+        "explanation": "みち es 道 ('camino'), kanji distinto."
       },
       {
         "text": "まち",
         "correct": false,
-        "reason": "まち es 街/町 ('barrio/ciudad'), kanji distinto."
+        "explanation": "まち es 街/町 ('barrio/ciudad'), kanji distinto."
       },
       {
         "text": "いえ",
         "correct": false,
-        "reason": "いえ es 家 ('casa'), kanji distinto."
+        "explanation": "いえ es 家 ('casa'), kanji distinto."
       }
     ]
   },
@@ -2062,28 +1920,26 @@
     "id": "U4A-072",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 家?",
-    "correct": "Casa / hogar",
-    "explanation": "家 puede leerse いえ ('casa' como edificio) o うち ('hogar/casa' más casual/afectivo). Significado central: vivienda.",
     "opts": [
       {
         "text": "Casa / hogar",
         "correct": true,
-        "reason": "Correcta. Vivienda y por extensión hogar."
+        "explanation": "家 puede leerse いえ ('casa' como edificio) o うち ('hogar/casa' más casual/afectivo). Significado central: vivienda. Correcta. Vivienda y por extensión hogar."
       },
       {
         "text": "Oficina",
         "correct": false,
-        "reason": "'Oficina' es 事務所 (じむしょ) u オフィス."
+        "explanation": "'Oficina' es 事務所 (じむしょ) u オフィス."
       },
       {
         "text": "Escuela",
         "correct": false,
-        "reason": "'Escuela' es 学校 (がっこう)."
+        "explanation": "'Escuela' es 学校 (がっこう)."
       },
       {
         "text": "Adentro",
         "correct": false,
-        "reason": "'Adentro' es 中 (なか). 家 es la vivienda en sí."
+        "explanation": "'Adentro' es 中 (なか). 家 es la vivienda en sí."
       }
     ]
   },
@@ -2091,28 +1947,26 @@
     "id": "U4A-073",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 家 (uso casual)?",
-    "correct": "うち",
-    "explanation": "En uso casual/cotidiano, 家 se lee うち ('mi casa/hogar'). いえ es más neutro/objetivo (la casa como edificio). En contexto 'mi casa, mi familia': うち.",
     "opts": [
       {
         "text": "うち",
         "correct": true,
-        "reason": "Correcta. Lectura casual/afectiva."
+        "explanation": "En uso casual/cotidiano, 家 se lee うち ('mi casa/hogar'). いえ es más neutro/objetivo (la casa como edificio). En contexto 'mi casa, mi familia': うち. Correcta. Lectura casual/afectiva."
       },
       {
         "text": "か",
         "correct": false,
-        "reason": "か es on'yomi en compuestos (家族 かぞく 'familia'), no cuando 家 va sola."
+        "explanation": "か es on'yomi en compuestos (家族 かぞく 'familia'), no cuando 家 va sola."
       },
       {
         "text": "け",
         "correct": false,
-        "reason": "け es on'yomi rara (en nombres antiguos); no es la cotidiana."
+        "explanation": "け es on'yomi rara (en nombres antiguos); no es la cotidiana."
       },
       {
         "text": "や",
         "correct": false,
-        "reason": "や es lectura en compuestos como sufijo (本屋 ほんや 'librería'), no cuando 家 va sola."
+        "explanation": "や es lectura en compuestos como sufijo (本屋 ほんや 'librería'), no cuando 家 va sola."
       }
     ]
   },
@@ -2120,28 +1974,26 @@
     "id": "U4A-074",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 街 / まち?",
-    "correct": "Ciudad / barrio",
-    "explanation": "街/町 (まち) designa el barrio o la ciudad como espacio vivido (zona comercial, urbano). Distinto de 市 (し), que es 'ciudad' como unidad administrativa.",
     "opts": [
       {
         "text": "Ciudad / barrio",
         "correct": true,
-        "reason": "Correcta. Espacio urbano/barrio."
+        "explanation": "街/町 (まち) designa el barrio o la ciudad como espacio vivido (zona comercial, urbano). Distinto de 市 (し), que es 'ciudad' como unidad administrativa. Correcta. Espacio urbano/barrio."
       },
       {
         "text": "País",
         "correct": false,
-        "reason": "'País' es 国 (くに). まち es más pequeño que país."
+        "explanation": "'País' es 国 (くに). まち es más pequeño que país."
       },
       {
         "text": "Calle",
         "correct": false,
-        "reason": "'Calle' específica es 通り (とおり) o 道 (みち). まち es la zona en sí."
+        "explanation": "'Calle' específica es 通り (とおり) o 道 (みち). まち es la zona en sí."
       },
       {
         "text": "Pueblo lejano",
         "correct": false,
-        "reason": "'Pueblo lejano' sería 村 (むら) o 田舎 (いなか). まち incluye también ciudades."
+        "explanation": "'Pueblo lejano' sería 村 (むら) o 田舎 (いなか). まち incluye también ciudades."
       }
     ]
   },
@@ -2149,28 +2001,26 @@
     "id": "U4A-075",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 国?",
-    "correct": "País",
-    "explanation": "国 (くに) = 'país'. Aparece en muchos compuestos: 中国 (China), 韓国 (Corea), 外国 (extranjero).",
     "opts": [
       {
         "text": "País",
         "correct": true,
-        "reason": "Correcta. Nación/territorio nacional."
+        "explanation": "国 (くに) = 'país'. Aparece en muchos compuestos: 中国 (China), 韓国 (Corea), 外国 (extranjero). Correcta. Nación/territorio nacional."
       },
       {
         "text": "Ciudad",
         "correct": false,
-        "reason": "'Ciudad' es 街/町 (まち) o 市 (し)."
+        "explanation": "'Ciudad' es 街/町 (まち) o 市 (し)."
       },
       {
         "text": "Región",
         "correct": false,
-        "reason": "'Región' es 地方 (ちほう) o 地域 (ちいき)."
+        "explanation": "'Región' es 地方 (ちほう) o 地域 (ちいき)."
       },
       {
         "text": "Pueblo",
         "correct": false,
-        "reason": "'Pueblo' es 村 (むら). 国 es nación."
+        "explanation": "'Pueblo' es 村 (むら). 国 es nación."
       }
     ]
   },
@@ -2178,28 +2028,26 @@
     "id": "U4A-076",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 国?",
-    "correct": "くに",
-    "explanation": "国 sola se lee くに (kun'yomi). En compuestos toma こく (中国 ちゅうごく).",
     "opts": [
       {
         "text": "くに",
         "correct": true,
-        "reason": "Correcta. Kun'yomi cuando va sola."
+        "explanation": "国 sola se lee くに (kun'yomi). En compuestos toma こく (中国 ちゅうごく). Correcta. Kun'yomi cuando va sola."
       },
       {
         "text": "こく",
         "correct": false,
-        "reason": "こく es on'yomi en compuestos (中国 ちゅうごく), no cuando 国 va sola."
+        "explanation": "こく es on'yomi en compuestos (中国 ちゅうごく), no cuando 国 va sola."
       },
       {
         "text": "くら",
         "correct": false,
-        "reason": "くら es 倉 ('almacén'), kanji distinto."
+        "explanation": "くら es 倉 ('almacén'), kanji distinto."
       },
       {
         "text": "しま",
         "correct": false,
-        "reason": "しま es 島 ('isla'), kanji distinto."
+        "explanation": "しま es 島 ('isla'), kanji distinto."
       }
     ]
   },
@@ -2207,28 +2055,26 @@
     "id": "U4A-077",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 時間?",
-    "correct": "じかん",
-    "explanation": "時 (じ) + 間 (かん) = じかん. On'yomi en ambos.",
     "opts": [
       {
         "text": "じかん",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "時 (じ) + 間 (かん) = じかん. On'yomi en ambos. Correcta. On'yomi estándar."
       },
       {
         "text": "ときま",
         "correct": false,
-        "reason": "とき y ま son kun'yomi; en este compuesto se usan on'yomi."
+        "explanation": "とき y ま son kun'yomi; en este compuesto se usan on'yomi."
       },
       {
         "text": "じま",
         "correct": false,
-        "reason": "ま es kun'yomi de 間 sola; en 時間 se usa la on'yomi かん."
+        "explanation": "ま es kun'yomi de 間 sola; en 時間 se usa la on'yomi かん."
       },
       {
         "text": "じぶん",
         "correct": false,
-        "reason": "じぶん es 自分 ('uno mismo'), palabra distinta."
+        "explanation": "じぶん es 自分 ('uno mismo'), palabra distinta."
       }
     ]
   },
@@ -2236,28 +2082,26 @@
     "id": "U4A-078",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 時間?",
-    "correct": "Hora(s) / tiempo",
-    "explanation": "時間 indica DURACIÓN o tiempo abstracto. 2時間 = '2 horas (de duración)'. Distinto de 時 (時 sola = hora puntual).",
     "opts": [
       {
         "text": "Hora(s) / tiempo",
         "correct": true,
-        "reason": "Correcta. Duración temporal."
+        "explanation": "時間 indica DURACIÓN o tiempo abstracto. 2時間 = '2 horas (de duración)'. Distinto de 時 (時 sola = hora puntual). Correcta. Duración temporal."
       },
       {
         "text": "Minuto",
         "correct": false,
-        "reason": "'Minuto' es 分 (ふん/ぷん). 時間 es unidad mayor."
+        "explanation": "'Minuto' es 分 (ふん/ぷん). 時間 es unidad mayor."
       },
       {
         "text": "Día",
         "correct": false,
-        "reason": "'Día' es 日 (にち/ひ)."
+        "explanation": "'Día' es 日 (にち/ひ)."
       },
       {
         "text": "Semana",
         "correct": false,
-        "reason": "'Semana' es 週 (しゅう) o 週間 (しゅうかん)."
+        "explanation": "'Semana' es 週 (しゅう) o 週間 (しゅうかん)."
       }
     ]
   },
@@ -2265,28 +2109,26 @@
     "id": "U4A-079",
     "cat": "Partículas",
     "q": "シドニー＿＿オーストラリアの東です。 (Sídney está en el este de Australia) — ¿Qué partícula va?",
-    "correct": "は",
-    "explanation": "は marca el TEMA de la oración: 'En cuanto a Sídney, está en el este de Australia'. Patrón de ubicación: Aは Bの [cardinal] です.",
     "opts": [
       {
         "text": "は",
         "correct": true,
-        "reason": "Correcta. Marca el tema en estructura identificativa."
+        "explanation": "は marca el TEMA de la oración: 'En cuanto a Sídney, está en el este de Australia'. Patrón de ubicación: Aは Bの [cardinal] です. Correcta. Marca el tema en estructura identificativa."
       },
       {
         "text": "が",
         "correct": false,
-        "reason": "が daría énfasis ('SÍDNEY [no otra ciudad] está...'), inadecuado para presentación neutra."
+        "explanation": "が daría énfasis ('SÍDNEY [no otra ciudad] está...'), inadecuado para presentación neutra."
       },
       {
         "text": "の",
         "correct": false,
-        "reason": "の conecta sustantivos como modificador, no marca tema principal."
+        "explanation": "の conecta sustantivos como modificador, no marca tema principal."
       },
       {
         "text": "で",
         "correct": false,
-        "reason": "で marca medio o lugar de acción, incompatible con です identificativo."
+        "explanation": "で marca medio o lugar de acción, incompatible con です identificativo."
       }
     ]
   },
@@ -2294,28 +2136,26 @@
     "id": "U4A-080",
     "cat": "Partículas",
     "q": "北海道は日本＿＿北です。 — ¿Qué partícula corresponde?",
-    "correct": "の",
-    "explanation": "の conecta 日本 (Japón) con 北 (norte): 日本の北 = 'el norte de Japón'. Indica relación de pertenencia/ubicación.",
     "opts": [
       {
         "text": "の",
         "correct": true,
-        "reason": "Correcta. Conecta país con punto cardinal."
+        "explanation": "の conecta 日本 (Japón) con 北 (norte): 日本の北 = 'el norte de Japón'. Indica relación de pertenencia/ubicación. Correcta. Conecta país con punto cardinal."
       },
       {
         "text": "は",
         "correct": false,
-        "reason": "は ya está al inicio (北海道は); no se duplican は dentro de la misma oración."
+        "explanation": "は ya está al inicio (北海道は); no se duplican は dentro de la misma oración."
       },
       {
         "text": "を",
         "correct": false,
-        "reason": "を marca objeto directo, incompatible con です."
+        "explanation": "を marca objeto directo, incompatible con です."
       },
       {
         "text": "で",
         "correct": false,
-        "reason": "で marca medio/lugar de acción, no relación entre sustantivos."
+        "explanation": "で marca medio/lugar de acción, no relación entre sustantivos."
       }
     ]
   },
@@ -2323,28 +2163,26 @@
     "id": "U4A-081",
     "cat": "Partículas",
     "q": "東京＿＿沖縄まで飛行機で３時間です。 — ¿Qué partícula va al principio (origen)?",
-    "correct": "から",
-    "explanation": "から marca el ORIGEN del recorrido. Patrón XからYまで: から con el origen, まで con el destino.",
     "opts": [
       {
         "text": "から",
         "correct": true,
-        "reason": "Correcta. Marca el punto de partida."
+        "explanation": "から marca el ORIGEN del recorrido. Patrón XからYまで: から con el origen, まで con el destino. Correcta. Marca el punto de partida."
       },
       {
         "text": "まで",
         "correct": false,
-        "reason": "まで marca el FINAL ('hasta'), no el origen. Ya está usado con 沖縄."
+        "explanation": "まで marca el FINAL ('hasta'), no el origen. Ya está usado con 沖縄."
       },
       {
         "text": "に",
         "correct": false,
-        "reason": "に marca tiempo puntual o destino, no origen del recorrido."
+        "explanation": "に marca tiempo puntual o destino, no origen del recorrido."
       },
       {
         "text": "で",
         "correct": false,
-        "reason": "で marca medio de transporte (ya está usado con 飛行機), no origen."
+        "explanation": "で marca medio de transporte (ya está usado con 飛行機), no origen."
       }
     ]
   },
@@ -2352,28 +2190,26 @@
     "id": "U4A-082",
     "cat": "Partículas",
     "q": "東京から沖縄＿＿飛行機で３時間です。 — ¿Qué partícula va (destino)?",
-    "correct": "まで",
-    "explanation": "まで marca el DESTINO/punto final del recorrido. Complementa a から.",
     "opts": [
       {
         "text": "まで",
         "correct": true,
-        "reason": "Correcta. Marca el punto final."
+        "explanation": "まで marca el DESTINO/punto final del recorrido. Complementa a から. Correcta. Marca el punto final."
       },
       {
         "text": "から",
         "correct": false,
-        "reason": "から marca el INICIO; ya está usado con 東京."
+        "explanation": "から marca el INICIO; ya está usado con 東京."
       },
       {
         "text": "に",
         "correct": false,
-        "reason": "に con verbo de movimiento marca destino, pero acá no hay verbo de movimiento (es identificación con です); se usa まで."
+        "explanation": "に con verbo de movimiento marca destino, pero acá no hay verbo de movimiento (es identificación con です); se usa まで."
       },
       {
         "text": "へ",
         "correct": false,
-        "reason": "へ marca destino con verbos de movimiento; en estructura identificativa con duración se usa まで."
+        "explanation": "へ marca destino con verbos de movimiento; en estructura identificativa con duración se usa まで."
       }
     ]
   },
@@ -2381,28 +2217,26 @@
     "id": "U4A-083",
     "cat": "Partículas",
     "q": "東京から大阪までバス＿＿１０時間です。 — ¿Qué partícula marca el medio de transporte?",
-    "correct": "で",
-    "explanation": "で marca el MEDIO/instrumento. バスで = 'en colectivo'. Es la partícula clave de la unidad para transportes.",
     "opts": [
       {
         "text": "で",
         "correct": true,
-        "reason": "Correcta. Marca medio de transporte."
+        "explanation": "で marca el MEDIO/instrumento. バスで = 'en colectivo'. Es la partícula clave de la unidad para transportes. Correcta. Marca medio de transporte."
       },
       {
         "text": "に",
         "correct": false,
-        "reason": "に marca tiempo o destino, no medio. バスに sería 'al colectivo' (subir a)."
+        "explanation": "に marca tiempo o destino, no medio. バスに sería 'al colectivo' (subir a)."
       },
       {
         "text": "を",
         "correct": false,
-        "reason": "を marca objeto directo; el bus no es objeto de una acción acá."
+        "explanation": "を marca objeto directo; el bus no es objeto de una acción acá."
       },
       {
         "text": "へ",
         "correct": false,
-        "reason": "へ marca destino, no medio de transporte."
+        "explanation": "へ marca destino, no medio de transporte."
       }
     ]
   },
@@ -2410,28 +2244,26 @@
     "id": "U4A-084",
     "cat": "Partículas",
     "q": "家から駅＿＿歩いて１０分です。 — ¿Qué partícula va ahí?",
-    "correct": "まで",
-    "explanation": "まで marca el destino/punto final del recorrido. 家から駅まで = 'de casa hasta la estación'.",
     "opts": [
       {
         "text": "まで",
         "correct": true,
-        "reason": "Correcta. Marca el final del recorrido."
+        "explanation": "まで marca el destino/punto final del recorrido. 家から駅まで = 'de casa hasta la estación'. Correcta. Marca el final del recorrido."
       },
       {
         "text": "で",
         "correct": false,
-        "reason": "で marca medio/lugar de acción, no destino del recorrido."
+        "explanation": "で marca medio/lugar de acción, no destino del recorrido."
       },
       {
         "text": "から",
         "correct": false,
-        "reason": "から marca el INICIO; ya está usado con 家."
+        "explanation": "から marca el INICIO; ya está usado con 家."
       },
       {
         "text": "に",
         "correct": false,
-        "reason": "に no marca destino en este patrón identificativo; se usa まで."
+        "explanation": "に no marca destino en este patrón identificativo; se usa まで."
       }
     ]
   },
@@ -2439,28 +2271,26 @@
     "id": "U4A-085",
     "cat": "Partículas",
     "q": "東京＿＿日光＿＿車で２時間半です。 — ¿Qué partículas corresponden?",
-    "correct": "から / まで",
-    "explanation": "Patrón canónico XからYまで: から con el origen (東京), まで con el destino (日光).",
     "opts": [
       {
         "text": "から / まで",
         "correct": true,
-        "reason": "Correcta. Patrón canónico desde-hasta."
+        "explanation": "Patrón canónico XからYまで: から con el origen (東京), まで con el destino (日光). Correcta. Patrón canónico desde-hasta."
       },
       {
         "text": "に / で",
         "correct": false,
-        "reason": "に no marca origen; で no marca destino. Ambas partículas tienen otras funciones."
+        "explanation": "に no marca origen; で no marca destino. Ambas partículas tienen otras funciones."
       },
       {
         "text": "は / の",
         "correct": false,
-        "reason": "は marca tema y の conecta sustantivos; ninguna marca rango temporal/espacial."
+        "explanation": "は marca tema y の conecta sustantivos; ninguna marca rango temporal/espacial."
       },
       {
         "text": "で / を",
         "correct": false,
-        "reason": "で marca medio (usado con 車で más adelante); を marca objeto directo. No es el patrón rango."
+        "explanation": "で marca medio (usado con 車で más adelante); を marca objeto directo. No es el patrón rango."
       }
     ]
   },
@@ -2468,28 +2298,26 @@
     "id": "U4A-086",
     "cat": "Partículas",
     "q": "バンコクはタイ＿＿中心です。 — ¿Qué partícula va?",
-    "correct": "の",
-    "explanation": "の conecta タイ (Tailandia) con 中心 (centro): タイの中心 = 'el centro de Tailandia'.",
     "opts": [
       {
         "text": "の",
         "correct": true,
-        "reason": "Correcta. Relación país-ubicación."
+        "explanation": "の conecta タイ (Tailandia) con 中心 (centro): タイの中心 = 'el centro de Tailandia'. Correcta. Relación país-ubicación."
       },
       {
         "text": "は",
         "correct": false,
-        "reason": "は ya está usado al inicio (バンコクは); no se duplica."
+        "explanation": "は ya está usado al inicio (バンコクは); no se duplica."
       },
       {
         "text": "で",
         "correct": false,
-        "reason": "で marca medio/lugar de acción, no relación entre sustantivos."
+        "explanation": "で marca medio/lugar de acción, no relación entre sustantivos."
       },
       {
         "text": "が",
         "correct": false,
-        "reason": "が marca sujeto enfático, no relación de pertenencia."
+        "explanation": "が marca sujeto enfático, no relación de pertenencia."
       }
     ]
   },
@@ -2497,28 +2325,26 @@
     "id": "U4A-087",
     "cat": "Partículas",
     "q": "Si quiero decir 'en tren bala', ¿cómo lo marco?",
-    "correct": "新幹線で",
-    "explanation": "Para expresar medio de transporte se usa [transporte]で. 新幹線で = 'en/por tren bala'.",
     "opts": [
       {
         "text": "新幹線で",
         "correct": true,
-        "reason": "Correcta. で marca el medio de transporte."
+        "explanation": "Para expresar medio de transporte se usa [transporte]で. 新幹線で = 'en/por tren bala'. Correcta. で marca el medio de transporte."
       },
       {
         "text": "新幹線に",
         "correct": false,
-        "reason": "新幹線に sería 'al tren bala' (subir a) con verbos como 乗る; no es 'en tren bala' como medio."
+        "explanation": "新幹線に sería 'al tren bala' (subir a) con verbos como 乗る; no es 'en tren bala' como medio."
       },
       {
         "text": "新幹線を",
         "correct": false,
-        "reason": "新幹線を marcaría el tren como objeto directo (de un verbo transitivo); no expresa medio."
+        "explanation": "新幹線を marcaría el tren como objeto directo (de un verbo transitivo); no expresa medio."
       },
       {
         "text": "新幹線は",
         "correct": false,
-        "reason": "新幹線は marca el tren como tema, no como medio de transporte."
+        "explanation": "新幹線は marca el tren como tema, no como medio de transporte."
       }
     ]
   },
@@ -2526,28 +2352,26 @@
     "id": "U4A-088",
     "cat": "Partículas",
     "q": "Si quiero decir 'en avión', ¿cómo lo marco?",
-    "correct": "飛行機で",
-    "explanation": "Misma regla: medio de transporte con で. 飛行機で = 'en avión'.",
     "opts": [
       {
         "text": "飛行機で",
         "correct": true,
-        "reason": "Correcta. で marca el medio."
+        "explanation": "Misma regla: medio de transporte con で. 飛行機で = 'en avión'. Correcta. で marca el medio."
       },
       {
         "text": "飛行機に",
         "correct": false,
-        "reason": "飛行機に sería 'al avión' (subir a). No expresa medio."
+        "explanation": "飛行機に sería 'al avión' (subir a). No expresa medio."
       },
       {
         "text": "飛行機を",
         "correct": false,
-        "reason": "飛行機を marcaría el avión como objeto, no medio."
+        "explanation": "飛行機を marcaría el avión como objeto, no medio."
       },
       {
         "text": "飛行機へ",
         "correct": false,
-        "reason": "飛行機へ sería 'hacia el avión' (destino), no medio."
+        "explanation": "飛行機へ sería 'hacia el avión' (destino), no medio."
       }
     ]
   },
@@ -2555,28 +2379,26 @@
     "id": "U4A-089",
     "cat": "Partículas",
     "q": "Si quiero decir 'en subte', ¿cómo lo marco?",
-    "correct": "地下鉄で",
-    "explanation": "Misma regla: medio de transporte con で. 地下鉄で = 'en subte/metro'.",
     "opts": [
       {
         "text": "地下鉄で",
         "correct": true,
-        "reason": "Correcta. で marca el medio."
+        "explanation": "Misma regla: medio de transporte con で. 地下鉄で = 'en subte/metro'. Correcta. で marca el medio."
       },
       {
         "text": "地下鉄に",
         "correct": false,
-        "reason": "地下鉄に sería 'al subte' (subir a). No expresa medio."
+        "explanation": "地下鉄に sería 'al subte' (subir a). No expresa medio."
       },
       {
         "text": "地下鉄を",
         "correct": false,
-        "reason": "地下鉄を marcaría el subte como objeto, no medio."
+        "explanation": "地下鉄を marcaría el subte como objeto, no medio."
       },
       {
         "text": "地下鉄へ",
         "correct": false,
-        "reason": "地下鉄へ sería 'hacia el subte' (destino), no medio."
+        "explanation": "地下鉄へ sería 'hacia el subte' (destino), no medio."
       }
     ]
   },
@@ -2584,28 +2406,26 @@
     "id": "U4A-090",
     "cat": "Partículas",
     "q": "¿Cuál es la forma correcta para decir 'caminando'?",
-    "correct": "歩いて (sin で)",
-    "explanation": "歩いて ya es la forma -te del verbo 歩く ('caminar'). Como medio funciona POR SÍ MISMO, sin agregar で. EXCEPCIÓN al patrón [transporte]で.",
     "opts": [
       {
         "text": "歩いて (sin で)",
         "correct": true,
-        "reason": "Correcta. Forma -te ya cumple la función de medio."
+        "explanation": "歩いて ya es la forma -te del verbo 歩く ('caminar'). Como medio funciona POR SÍ MISMO, sin agregar で. EXCEPCIÓN al patrón [transporte]で. Correcta. Forma -te ya cumple la función de medio."
       },
       {
         "text": "歩いてで",
         "correct": false,
-        "reason": "Doble marcador: 歩いて ya es forma -te; agregar で es redundante e incorrecto."
+        "explanation": "Doble marcador: 歩いて ya es forma -te; agregar で es redundante e incorrecto."
       },
       {
         "text": "歩くで",
         "correct": false,
-        "reason": "歩く es forma diccionario; no se combina directamente con で para medio. Se usa la forma -te."
+        "explanation": "歩く es forma diccionario; no se combina directamente con で para medio. Se usa la forma -te."
       },
       {
         "text": "歩きに",
         "correct": false,
-        "reason": "歩き es la raíz nominal del verbo; に no marca medio. Para medio se usa la forma -te 歩いて."
+        "explanation": "歩き es la raíz nominal del verbo; に no marca medio. Para medio se usa la forma -te 歩いて."
       }
     ]
   },
@@ -2613,28 +2433,26 @@
     "id": "U4A-091",
     "cat": "Partículas",
     "q": "モスクワはロシア＿＿西です。 — ¿Qué partícula va?",
-    "correct": "の",
-    "explanation": "の conecta ロシア (Rusia) con 西 (oeste): ロシアの西 = 'el oeste de Rusia'.",
     "opts": [
       {
         "text": "の",
         "correct": true,
-        "reason": "Correcta. Relación país-ubicación."
+        "explanation": "の conecta ロシア (Rusia) con 西 (oeste): ロシアの西 = 'el oeste de Rusia'. Correcta. Relación país-ubicación."
       },
       {
         "text": "は",
         "correct": false,
-        "reason": "は ya está usado al inicio (モスクワは); no se duplica."
+        "explanation": "は ya está usado al inicio (モスクワは); no se duplica."
       },
       {
         "text": "で",
         "correct": false,
-        "reason": "で no relaciona sustantivos; marca medio o lugar de acción."
+        "explanation": "で no relaciona sustantivos; marca medio o lugar de acción."
       },
       {
         "text": "から",
         "correct": false,
-        "reason": "から marca origen ('desde Rusia'), pero acá no se trata de movimiento sino de ubicación."
+        "explanation": "から marca origen ('desde Rusia'), pero acá no se trata de movimiento sino de ubicación."
       }
     ]
   },
@@ -2642,28 +2460,26 @@
     "id": "U4A-092",
     "cat": "Partículas",
     "q": "大阪から京都＿＿電車で３０分です。 — ¿Qué partícula completa 'hasta'?",
-    "correct": "まで",
-    "explanation": "まで marca el destino del recorrido. 京都まで = 'hasta Kioto'.",
     "opts": [
       {
         "text": "まで",
         "correct": true,
-        "reason": "Correcta. Marca el final del recorrido."
+        "explanation": "まで marca el destino del recorrido. 京都まで = 'hasta Kioto'. Correcta. Marca el final del recorrido."
       },
       {
         "text": "から",
         "correct": false,
-        "reason": "から marca el INICIO; ya está usado con 大阪."
+        "explanation": "から marca el INICIO; ya está usado con 大阪."
       },
       {
         "text": "に",
         "correct": false,
-        "reason": "に con destino requiere verbo de movimiento; acá hay identificación con duración (まで)."
+        "explanation": "に con destino requiere verbo de movimiento; acá hay identificación con duración (まで)."
       },
       {
         "text": "で",
         "correct": false,
-        "reason": "で marca medio (ya usado con 電車で), no destino."
+        "explanation": "で marca medio (ya usado con 電車で), no destino."
       }
     ]
   },
@@ -2671,28 +2487,26 @@
     "id": "U4A-093",
     "cat": "Gramática",
     "q": "¿Cómo se pregunta '¿Cuánto tiempo tarda?' en japonés?",
-    "correct": "どのくらいですか",
-    "explanation": "どのくらい pregunta '¿cuánto tiempo/qué tan lejos?'. Es la fórmula estándar para preguntar duración o distancia.",
     "opts": [
       {
         "text": "どのくらいですか",
         "correct": true,
-        "reason": "Correcta. Pregunta de duración/cantidad aproximada."
+        "explanation": "どのくらい pregunta '¿cuánto tiempo/qué tan lejos?'. Es la fórmula estándar para preguntar duración o distancia. Correcta. Pregunta de duración/cantidad aproximada."
       },
       {
         "text": "なんですか",
         "correct": false,
-        "reason": "なんですか pregunta '¿qué es?' (identidad), no duración."
+        "explanation": "なんですか pregunta '¿qué es?' (identidad), no duración."
       },
       {
         "text": "どこですか",
         "correct": false,
-        "reason": "どこですか pregunta '¿dónde?' (lugar), no duración."
+        "explanation": "どこですか pregunta '¿dónde?' (lugar), no duración."
       },
       {
         "text": "いつですか",
         "correct": false,
-        "reason": "いつですか pregunta '¿cuándo?' (momento), no duración."
+        "explanation": "いつですか pregunta '¿cuándo?' (momento), no duración."
       }
     ]
   },
@@ -2700,28 +2514,26 @@
     "id": "U4A-094",
     "cat": "Gramática",
     "q": "¿Qué significa くらい al final de una duración (ej: ３時間くらい)?",
-    "correct": "Aproximadamente",
-    "explanation": "くらい/ぐらい después de una cantidad indica 'aproximadamente'. Suaviza la precisión: 3時間くらい = 'unas 3 horas'.",
     "opts": [
       {
         "text": "Aproximadamente",
         "correct": true,
-        "reason": "Correcta. Suavizador de precisión."
+        "explanation": "くらい/ぐらい después de una cantidad indica 'aproximadamente'. Suaviza la precisión: 3時間くらい = 'unas 3 horas'. Correcta. Suavizador de precisión."
       },
       {
         "text": "Exactamente",
         "correct": false,
-        "reason": "'Exactamente' sería ちょうど o ぴったり. くらい indica imprecisión, no precisión."
+        "explanation": "'Exactamente' sería ちょうど o ぴったり. くらい indica imprecisión, no precisión."
       },
       {
         "text": "Más de",
         "correct": false,
-        "reason": "'Más de' es 〜以上 (いじょう). くらい no marca cota mínima."
+        "explanation": "'Más de' es 〜以上 (いじょう). くらい no marca cota mínima."
       },
       {
         "text": "Menos de",
         "correct": false,
-        "reason": "'Menos de' es 〜以下 (いか). くらい no marca cota máxima."
+        "explanation": "'Menos de' es 〜以下 (いか). くらい no marca cota máxima."
       }
     ]
   },
@@ -2729,28 +2541,26 @@
     "id": "U4A-095",
     "cat": "Gramática",
     "q": "¿Cómo se escribe '3 horas y media' usando kanji?",
-    "correct": "３時間半",
-    "explanation": "Patrón de duración: [número]時間 + 半. El 半 va DESPUÉS de 時間 (no entre el número y 時間).",
     "opts": [
       {
         "text": "３時間半",
         "correct": true,
-        "reason": "Correcta. Patrón estándar."
+        "explanation": "Patrón de duración: [número]時間 + 半. El 半 va DESPUÉS de 時間 (no entre el número y 時間). Correcta. Patrón estándar."
       },
       {
         "text": "３時半",
         "correct": false,
-        "reason": "3時半 sería 'las 3:30' (hora puntual), no '3 horas y media' (duración). Se confunde 時 con 時間."
+        "explanation": "3時半 sería 'las 3:30' (hora puntual), no '3 horas y media' (duración). Se confunde 時 con 時間."
       },
       {
         "text": "半３時間",
         "correct": false,
-        "reason": "Orden invertido: 半 va DESPUÉS, no antes."
+        "explanation": "Orden invertido: 半 va DESPUÉS, no antes."
       },
       {
         "text": "３時間はん",
         "correct": false,
-        "reason": "Mezcla kanji con hiragana innecesariamente: 半 es kanji estándar."
+        "explanation": "Mezcla kanji con hiragana innecesariamente: 半 es kanji estándar."
       }
     ]
   },
@@ -2758,28 +2568,26 @@
     "id": "U4A-096",
     "cat": "Gramática",
     "q": "¿Qué significa どのくらい?",
-    "correct": "¿Cuánto tiempo / qué tan lejos?",
-    "explanation": "どのくらい pregunta cantidad aproximada de tiempo o distancia. Se responde con duración + medio de transporte (ej: バスで30分くらいです).",
     "opts": [
       {
         "text": "¿Cuánto tiempo / qué tan lejos?",
         "correct": true,
-        "reason": "Correcta. Pregunta de cantidad aproximada."
+        "explanation": "どのくらい pregunta cantidad aproximada de tiempo o distancia. Se responde con duración + medio de transporte (ej: バスで30分くらいです). Correcta. Pregunta de cantidad aproximada."
       },
       {
         "text": "¿Dónde?",
         "correct": false,
-        "reason": "'¿Dónde?' es どこ."
+        "explanation": "'¿Dónde?' es どこ."
       },
       {
         "text": "¿Cuándo?",
         "correct": false,
-        "reason": "'¿Cuándo?' es いつ."
+        "explanation": "'¿Cuándo?' es いつ."
       },
       {
         "text": "¿Quién?",
         "correct": false,
-        "reason": "'¿Quién?' es だれ."
+        "explanation": "'¿Quién?' es だれ."
       }
     ]
   },
@@ -2787,28 +2595,26 @@
     "id": "U4A-097",
     "cat": "Gramática",
     "q": "¿Qué significa 半 al final de una hora (ej: ２時間半)?",
-    "correct": "Y media",
-    "explanation": "半 (はん) literalmente 'mitad' equivale a 30 minutos. 2時間半 = 2 horas y media (= 2 horas + 30 min).",
     "opts": [
       {
         "text": "Y media",
         "correct": true,
-        "reason": "Correcta. Equivale a +30 minutos."
+        "explanation": "半 (はん) literalmente 'mitad' equivale a 30 minutos. 2時間半 = 2 horas y media (= 2 horas + 30 min). Correcta. Equivale a +30 minutos."
       },
       {
         "text": "Menos cuarto",
         "correct": false,
-        "reason": "'Menos cuarto' es 15分前. 半 es +30, no -15."
+        "explanation": "'Menos cuarto' es 15分前. 半 es +30, no -15."
       },
       {
         "text": "Y cuarto",
         "correct": false,
-        "reason": "'Y cuarto' es 15分. 半 es +30, no +15."
+        "explanation": "'Y cuarto' es 15分. 半 es +30, no +15."
       },
       {
         "text": "En punto",
         "correct": false,
-        "reason": "'En punto' es ちょうど. 半 agrega media hora."
+        "explanation": "'En punto' es ちょうど. 半 agrega media hora."
       }
     ]
   },
@@ -2816,28 +2622,26 @@
     "id": "U4A-098",
     "cat": "Gramática",
     "q": "En la estructura '[Origen]から[Destino]まで[Transporte]で[Duración]', ¿qué marca で?",
-    "correct": "El medio de transporte",
-    "explanation": "En este patrón, で marca específicamente el MEDIO/instrumento usado para el recorrido (en bus, en avión, etc.).",
     "opts": [
       {
         "text": "El medio de transporte",
         "correct": true,
-        "reason": "Correcta. Función de で en este patrón."
+        "explanation": "En este patrón, で marca específicamente el MEDIO/instrumento usado para el recorrido (en bus, en avión, etc.). Correcta. Función de で en este patrón."
       },
       {
         "text": "El destino",
         "correct": false,
-        "reason": "El destino se marca con まで en este patrón."
+        "explanation": "El destino se marca con まで en este patrón."
       },
       {
         "text": "El origen",
         "correct": false,
-        "reason": "El origen se marca con から en este patrón."
+        "explanation": "El origen se marca con から en este patrón."
       },
       {
         "text": "La duración",
         "correct": false,
-        "reason": "La duración va sin partícula antes de です al final."
+        "explanation": "La duración va sin partícula antes de です al final."
       }
     ]
   },
@@ -2845,28 +2649,26 @@
     "id": "U4A-099",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 1分 (un minuto)?",
-    "correct": "いっぷん",
-    "explanation": "1 (いち) + 分 (ふん) toma sokuon + handakuten: いち + ふん → いっぷん. Lectura irregular obligatoria.",
     "opts": [
       {
         "text": "いっぷん",
         "correct": true,
-        "reason": "Correcta. Sokuon + handakuten."
+        "explanation": "1 (いち) + 分 (ふん) toma sokuon + handakuten: いち + ふん → いっぷん. Lectura irregular obligatoria. Correcta. Sokuon + handakuten."
       },
       {
         "text": "いちふん",
         "correct": false,
-        "reason": "Sin asimilación: la regla fonética obliga いっぷん."
+        "explanation": "Sin asimilación: la regla fonética obliga いっぷん."
       },
       {
         "text": "いちぷん",
         "correct": false,
-        "reason": "Falta el sokuon: いっぷん (con っ), no いちぷん."
+        "explanation": "Falta el sokuon: いっぷん (con っ), no いちぷん."
       },
       {
         "text": "ひとぷん",
         "correct": false,
-        "reason": "ひと es lectura nativa, no se usa con 分."
+        "explanation": "ひと es lectura nativa, no se usa con 分."
       }
     ]
   },
@@ -2874,28 +2676,26 @@
     "id": "U4A-100",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 3分?",
-    "correct": "さんぷん",
-    "explanation": "3 (さん) + 分 toma handakuten: ふん → ぷん tras さん. Sin sokuon.",
     "opts": [
       {
         "text": "さんぷん",
         "correct": true,
-        "reason": "Correcta. Handakuten obligatorio tras さん."
+        "explanation": "3 (さん) + 分 toma handakuten: ふん → ぷん tras さん. Sin sokuon. Correcta. Handakuten obligatorio tras さん."
       },
       {
         "text": "さんふん",
         "correct": false,
-        "reason": "Sin handakuten; tras さん, ふん → ぷん por regla fonética."
+        "explanation": "Sin handakuten; tras さん, ふん → ぷん por regla fonética."
       },
       {
         "text": "みっぷん",
         "correct": false,
-        "reason": "みっ es lectura nativa (みっつ), no se usa con 分."
+        "explanation": "みっ es lectura nativa (みっつ), no se usa con 分."
       },
       {
         "text": "さんみん",
         "correct": false,
-        "reason": "みん no es lectura de 分; podría confundir con préstamo 'minute'."
+        "explanation": "みん no es lectura de 分; podría confundir con préstamo 'minute'."
       }
     ]
   },
@@ -2903,28 +2703,26 @@
     "id": "U4A-101",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 6分?",
-    "correct": "ろっぷん",
-    "explanation": "6 (ろく) + 分 toma sokuon + handakuten: ろく + ふん → ろっぷん.",
     "opts": [
       {
         "text": "ろっぷん",
         "correct": true,
-        "reason": "Correcta. Sokuon + handakuten."
+        "explanation": "6 (ろく) + 分 toma sokuon + handakuten: ろく + ふん → ろっぷん. Correcta. Sokuon + handakuten."
       },
       {
         "text": "ろくふん",
         "correct": false,
-        "reason": "Sin asimilación; se exige sokuon + handakuten."
+        "explanation": "Sin asimilación; se exige sokuon + handakuten."
       },
       {
         "text": "ろくぷん",
         "correct": false,
-        "reason": "Falta el sokuon: ろっぷん (con っ), no ろくぷん."
+        "explanation": "Falta el sokuon: ろっぷん (con っ), no ろくぷん."
       },
       {
         "text": "ろっふん",
         "correct": false,
-        "reason": "Falta el handakuten: tras sokuon, ふん → ぷん."
+        "explanation": "Falta el handakuten: tras sokuon, ふん → ぷん."
       }
     ]
   },
@@ -2932,28 +2730,26 @@
     "id": "U4A-102",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 8分?",
-    "correct": "はっぷん",
-    "explanation": "8 (はち) + 分 toma sokuon + handakuten: はち + ふん → はっぷん.",
     "opts": [
       {
         "text": "はっぷん",
         "correct": true,
-        "reason": "Correcta. Sokuon + handakuten."
+        "explanation": "8 (はち) + 分 toma sokuon + handakuten: はち + ふん → はっぷん. Correcta. Sokuon + handakuten."
       },
       {
         "text": "はちふん",
         "correct": false,
-        "reason": "Sin asimilación; se exige sokuon + handakuten."
+        "explanation": "Sin asimilación; se exige sokuon + handakuten."
       },
       {
         "text": "はっふん",
         "correct": false,
-        "reason": "Falta el handakuten: tras sokuon, ふん → ぷん."
+        "explanation": "Falta el handakuten: tras sokuon, ふん → ぷん."
       },
       {
         "text": "やっぷん",
         "correct": false,
-        "reason": "や es lectura nativa de 8 (やっつ), no se usa con 分."
+        "explanation": "や es lectura nativa de 8 (やっつ), no se usa con 分."
       }
     ]
   },
@@ -2961,28 +2757,26 @@
     "id": "U4A-103",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 10分?",
-    "correct": "じゅっぷん",
-    "explanation": "10 (じゅう) + 分 toma sokuon + handakuten: じゅう + ふん → じゅっぷん. También se acepta じっぷん (más formal/antiguo).",
     "opts": [
       {
         "text": "じゅっぷん",
         "correct": true,
-        "reason": "Correcta. Pronunciación moderna estándar."
+        "explanation": "10 (じゅう) + 分 toma sokuon + handakuten: じゅう + ふん → じゅっぷん. También se acepta じっぷん (más formal/antiguo). Correcta. Pronunciación moderna estándar."
       },
       {
         "text": "じゅうふん",
         "correct": false,
-        "reason": "Sin asimilación; la regla fonética prefiere sokuon + handakuten."
+        "explanation": "Sin asimilación; la regla fonética prefiere sokuon + handakuten."
       },
       {
         "text": "とおぷん",
         "correct": false,
-        "reason": "とお es lectura nativa de 10 (10日), no se usa con 分."
+        "explanation": "とお es lectura nativa de 10 (10日), no se usa con 分."
       },
       {
         "text": "じゅうぷん",
         "correct": false,
-        "reason": "Sin sokuon: la lectura correcta es じゅっぷん (con っ)."
+        "explanation": "Sin sokuon: la lectura correcta es じゅっぷん (con っ)."
       }
     ]
   },
@@ -2990,28 +2784,26 @@
     "id": "U4A-104",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 4分?",
-    "correct": "よんぷん",
-    "explanation": "4 (よん) + 分 toma handakuten: ふん → ぷん tras よん. Misma regla que con さん.",
     "opts": [
       {
         "text": "よんぷん",
         "correct": true,
-        "reason": "Correcta. Handakuten tras よん."
+        "explanation": "4 (よん) + 分 toma handakuten: ふん → ぷん tras よん. Misma regla que con さん. Correcta. Handakuten tras よん."
       },
       {
         "text": "しふん",
         "correct": false,
-        "reason": "し se evita por sonar como 死 ('muerte'). Y sin handakuten."
+        "explanation": "し se evita por sonar como 死 ('muerte'). Y sin handakuten."
       },
       {
         "text": "よんふん",
         "correct": false,
-        "reason": "Falta el handakuten: tras よん, ふん → ぷん."
+        "explanation": "Falta el handakuten: tras よん, ふん → ぷん."
       },
       {
         "text": "よっぷん",
         "correct": false,
-        "reason": "El sokuon no aplica con よん delante de 分."
+        "explanation": "El sokuon no aplica con よん delante de 分."
       }
     ]
   },
@@ -3019,28 +2811,26 @@
     "id": "U4A-105",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 2分?",
-    "correct": "にふん",
-    "explanation": "2 (に) + 分 (ふん) = にふん. Sin alteración (に no toma handakuten).",
     "opts": [
       {
         "text": "にふん",
         "correct": true,
-        "reason": "Correcta. Lectura regular sin alteración."
+        "explanation": "2 (に) + 分 (ふん) = にふん. Sin alteración (に no toma handakuten). Correcta. Lectura regular sin alteración."
       },
       {
         "text": "にぷん",
         "correct": false,
-        "reason": "El handakuten ぷ se aplica tras sokuon (1, 6, 8, 10), no tras に."
+        "explanation": "El handakuten ぷ se aplica tras sokuon (1, 6, 8, 10), no tras に."
       },
       {
         "text": "ふたふん",
         "correct": false,
-        "reason": "ふた es lectura nativa, no se usa con 分."
+        "explanation": "ふた es lectura nativa, no se usa con 分."
       },
       {
         "text": "じぷん",
         "correct": false,
-        "reason": "じ no es lectura de 2; es lectura de じゅう (10) o de 時 (hora)."
+        "explanation": "じ no es lectura de 2; es lectura de じゅう (10) o de 時 (hora)."
       }
     ]
   },
@@ -3048,28 +2838,26 @@
     "id": "U4A-106",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 5分?",
-    "correct": "ごふん",
-    "explanation": "5 (ご) + 分 (ふん) = ごふん. Sin handakuten (ご no requiere alteración).",
     "opts": [
       {
         "text": "ごふん",
         "correct": true,
-        "reason": "Correcta. Lectura regular."
+        "explanation": "5 (ご) + 分 (ふん) = ごふん. Sin handakuten (ご no requiere alteración). Correcta. Lectura regular."
       },
       {
         "text": "ごぷん",
         "correct": false,
-        "reason": "El handakuten no aplica con ご en 分; queda ごふん."
+        "explanation": "El handakuten no aplica con ご en 分; queda ごふん."
       },
       {
         "text": "いつふん",
         "correct": false,
-        "reason": "いつ es lectura nativa (いつつ), no se usa con 分."
+        "explanation": "いつ es lectura nativa (いつつ), no se usa con 分."
       },
       {
         "text": "ごみん",
         "correct": false,
-        "reason": "みん no es lectura de 分."
+        "explanation": "みん no es lectura de 分."
       }
     ]
   },
@@ -3077,28 +2865,26 @@
     "id": "U4A-107",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 7分?",
-    "correct": "ななふん",
-    "explanation": "7 (なな) + 分 (ふん) = ななふん. Acá se prefiere なな (no しち) y sin alteración.",
     "opts": [
       {
         "text": "ななふん",
         "correct": true,
-        "reason": "Correcta. Lectura preferida con なな."
+        "explanation": "7 (なな) + 分 (ふん) = ななふん. Acá se prefiere なな (no しち) y sin alteración. Correcta. Lectura preferida con なな."
       },
       {
         "text": "しちふん",
         "correct": false,
-        "reason": "Aunque しち existe en otros contadores (時), en 分 se prefiere なな."
+        "explanation": "Aunque しち existe en otros contadores (時), en 分 se prefiere なな."
       },
       {
         "text": "ななぷん",
         "correct": false,
-        "reason": "El handakuten no aplica con なな; queda ななふん."
+        "explanation": "El handakuten no aplica con なな; queda ななふん."
       },
       {
         "text": "しちぷん",
         "correct": false,
-        "reason": "El handakuten no aplica con しち; y se prefiere なな."
+        "explanation": "El handakuten no aplica con しち; y se prefiere なな."
       }
     ]
   },
@@ -3106,28 +2892,26 @@
     "id": "U4A-108",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 9分?",
-    "correct": "きゅうふん",
-    "explanation": "9 (きゅう) + 分 (ふん) = きゅうふん. Sin alteración tras きゅう.",
     "opts": [
       {
         "text": "きゅうふん",
         "correct": true,
-        "reason": "Correcta. Lectura regular sin alteración."
+        "explanation": "9 (きゅう) + 分 (ふん) = きゅうふん. Sin alteración tras きゅう. Correcta. Lectura regular sin alteración."
       },
       {
         "text": "くふん",
         "correct": false,
-        "reason": "く es lectura tradicional usada en 9時 (くじ), no en 9分. Se usa きゅう."
+        "explanation": "く es lectura tradicional usada en 9時 (くじ), no en 9分. Se usa きゅう."
       },
       {
         "text": "きゅうぷん",
         "correct": false,
-        "reason": "El handakuten no aplica con きゅう en 分."
+        "explanation": "El handakuten no aplica con きゅう en 分."
       },
       {
         "text": "くぷん",
         "correct": false,
-        "reason": "Doble error: lectura incorrecta de 9 y handakuten incorrecto."
+        "explanation": "Doble error: lectura incorrecta de 9 y handakuten incorrecto."
       }
     ]
   },
@@ -3135,28 +2919,26 @@
     "id": "U4A-109",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 30分 (también equivale a 'media hora')?",
-    "correct": "さんじゅっぷん / 半",
-    "explanation": "30分 = さんじゅっぷん (30 minutos). Equivale a 半 (はん, 'media hora') en el contexto de relojes.",
     "opts": [
       {
         "text": "さんじゅっぷん / 半",
         "correct": true,
-        "reason": "Correcta. Dos formas válidas para 'media hora'."
+        "explanation": "30分 = さんじゅっぷん (30 minutos). Equivale a 半 (はん, 'media hora') en el contexto de relojes. Correcta. Dos formas válidas para 'media hora'."
       },
       {
         "text": "みじゅうぷん",
         "correct": false,
-        "reason": "み es lectura nativa de 3 (みっつ), no se usa con じゅう. Es さん."
+        "explanation": "み es lectura nativa de 3 (みっつ), no se usa con じゅう. Es さん."
       },
       {
         "text": "さんじゅうふん",
         "correct": false,
-        "reason": "Sin sokuon ni handakuten: la regla fonética prefiere さんじゅっぷん."
+        "explanation": "Sin sokuon ni handakuten: la regla fonética prefiere さんじゅっぷん."
       },
       {
         "text": "半ぷん",
         "correct": false,
-        "reason": "半 ya implica 30 minutos; agregar ぷん es redundante. 半 va sola tras 時."
+        "explanation": "半 ya implica 30 minutos; agregar ぷん es redundante. 半 va sola tras 時."
       }
     ]
   },
@@ -3164,28 +2946,26 @@
     "id": "U4A-110",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 20分?",
-    "correct": "にじゅっぷん",
-    "explanation": "20 (にじゅう) + 分 toma sokuon + handakuten al final: にじゅう + ふん → にじゅっぷん.",
     "opts": [
       {
         "text": "にじゅっぷん",
         "correct": true,
-        "reason": "Correcta. Sokuon + handakuten estándar."
+        "explanation": "20 (にじゅう) + 分 toma sokuon + handakuten al final: にじゅう + ふん → にじゅっぷん. Correcta. Sokuon + handakuten estándar."
       },
       {
         "text": "にじゅうふん",
         "correct": false,
-        "reason": "Sin asimilación; la regla fonética prefiere にじゅっぷん."
+        "explanation": "Sin asimilación; la regla fonética prefiere にじゅっぷん."
       },
       {
         "text": "ふたじゅっぷん",
         "correct": false,
-        "reason": "ふた es lectura nativa, no se usa con じゅう. Es に."
+        "explanation": "ふた es lectura nativa, no se usa con じゅう. Es に."
       },
       {
         "text": "にっぷん",
         "correct": false,
-        "reason": "Falta el じゅう (10): la cifra es 'dos-decenas-minutos', no 'dos-minutos con sokuon'."
+        "explanation": "Falta el じゅう (10): la cifra es 'dos-decenas-minutos', no 'dos-minutos con sokuon'."
       }
     ]
   },
@@ -3193,28 +2973,26 @@
     "id": "U4A-111",
     "cat": "Traducción ES→JP",
     "q": "'Nueva York está en el este de EE.UU.' — ¿Cuál es la oración correcta?",
-    "correct": "ニューヨークはアメリカの東です。",
-    "explanation": "Patrón de ubicación: [Ciudad]は + [País]の[Cardinal] + です. は marca el tema, の conecta país con punto cardinal.",
     "opts": [
       {
         "text": "ニューヨークはアメリカの東です。",
         "correct": true,
-        "reason": "Correcta. Patrón canónico AはBのCです."
+        "explanation": "Patrón de ubicación: [Ciudad]は + [País]の[Cardinal] + です. は marca el tema, の conecta país con punto cardinal. Correcta. Patrón canónico AはBのCです."
       },
       {
         "text": "ニューヨークがアメリカで東です。",
         "correct": false,
-        "reason": "が y で mal asignados: en presentación neutra se usa は; y で no relaciona país-cardinal."
+        "explanation": "が y で mal asignados: en presentación neutra se usa は; y で no relaciona país-cardinal."
       },
       {
         "text": "ニューヨークは東のアメリカです。",
         "correct": false,
-        "reason": "Orden invertido: el cardinal modifica al país (アメリカの東), no al revés. Esta versión diría 'NY es el este de EE.UU.', sin sentido."
+        "explanation": "Orden invertido: el cardinal modifica al país (アメリカの東), no al revés. Esta versión diría 'NY es el este de EE.UU.', sin sentido."
       },
       {
         "text": "ニューヨークにアメリカの東です。",
         "correct": false,
-        "reason": "に no marca tema; en oración identificativa con です se usa は."
+        "explanation": "に no marca tema; en oración identificativa con です se usa は."
       }
     ]
   },
@@ -3222,28 +3000,26 @@
     "id": "U4A-112",
     "cat": "Traducción ES→JP",
     "q": "'Moscú está en el oeste de Rusia' — ¿Cuál es correcta?",
-    "correct": "モスクワはロシアの西です。",
-    "explanation": "Mismo patrón: [Ciudad]は + [País]の[Cardinal] + です.",
     "opts": [
       {
         "text": "モスクワはロシアの西です。",
         "correct": true,
-        "reason": "Correcta. Patrón canónico."
+        "explanation": "Mismo patrón: [Ciudad]は + [País]の[Cardinal] + です. Correcta. Patrón canónico."
       },
       {
         "text": "モスクワがロシアの西です。",
         "correct": false,
-        "reason": "が daría énfasis innecesario; en presentación neutra se usa は."
+        "explanation": "が daría énfasis innecesario; en presentación neutra se usa は."
       },
       {
         "text": "モスクワは西のロシアです。",
         "correct": false,
-        "reason": "Orden invertido: 'Moscú es la Rusia del oeste' (sin sentido). El cardinal modifica al país (ロシアの西)."
+        "explanation": "Orden invertido: 'Moscú es la Rusia del oeste' (sin sentido). El cardinal modifica al país (ロシアの西)."
       },
       {
         "text": "モスクワにロシアで西です。",
         "correct": false,
-        "reason": "に y で mal asignados; estructura agramatical."
+        "explanation": "に y で mal asignados; estructura agramatical."
       }
     ]
   },
@@ -3251,28 +3027,26 @@
     "id": "U4A-113",
     "cat": "Traducción ES→JP",
     "q": "'Seúl está en el norte de Corea' — ¿Cuál es correcta?",
-    "correct": "ソウルは韓国の北です。",
-    "explanation": "Mismo patrón: [Ciudad]は + [País]の[Cardinal] + です.",
     "opts": [
       {
         "text": "ソウルは韓国の北です。",
         "correct": true,
-        "reason": "Correcta. Patrón canónico."
+        "explanation": "Mismo patrón: [Ciudad]は + [País]の[Cardinal] + です. Correcta. Patrón canónico."
       },
       {
         "text": "ソウルに韓国の北です。",
         "correct": false,
-        "reason": "に no marca tema; en oración identificativa se usa は."
+        "explanation": "に no marca tema; en oración identificativa se usa は."
       },
       {
         "text": "ソウルの北は韓国です。",
         "correct": false,
-        "reason": "Orden invertido: significaría 'el norte de Seúl es Corea', sin sentido (Seúl está EN Corea, no contiene a Corea)."
+        "explanation": "Orden invertido: significaría 'el norte de Seúl es Corea', sin sentido (Seúl está EN Corea, no contiene a Corea)."
       },
       {
         "text": "ソウルが北の韓国です。",
         "correct": false,
-        "reason": "Orden y partícula incorrectos: el cardinal modifica al país, no al revés."
+        "explanation": "Orden y partícula incorrectos: el cardinal modifica al país, no al revés."
       }
     ]
   },
@@ -3280,28 +3054,26 @@
     "id": "U4A-114",
     "cat": "Traducción ES→JP",
     "q": "'Bangkok está en el centro de Tailandia' — ¿Cuál es correcta?",
-    "correct": "バンコクはタイの中心です。",
-    "explanation": "Mismo patrón con 中心 (centro): [Ciudad]は + [País]の中心 + です.",
     "opts": [
       {
         "text": "バンコクはタイの中心です。",
         "correct": true,
-        "reason": "Correcta. Patrón canónico."
+        "explanation": "Mismo patrón con 中心 (centro): [Ciudad]は + [País]の中心 + です. Correcta. Patrón canónico."
       },
       {
         "text": "バンコクがタイで中心です。",
         "correct": false,
-        "reason": "が y で mal asignados: は marca tema y の relaciona país-ubicación."
+        "explanation": "が y で mal asignados: は marca tema y の relaciona país-ubicación."
       },
       {
         "text": "バンコクは中心のタイです。",
         "correct": false,
-        "reason": "Orden invertido: 'Bangkok es la Tailandia del centro', sin sentido."
+        "explanation": "Orden invertido: 'Bangkok es la Tailandia del centro', sin sentido."
       },
       {
         "text": "バンコクにタイの中心です。",
         "correct": false,
-        "reason": "に no marca tema; se usa は."
+        "explanation": "に no marca tema; se usa は."
       }
     ]
   },
@@ -3309,28 +3081,26 @@
     "id": "U4A-115",
     "cat": "Traducción ES→JP",
     "q": "'De Tokio a Hiroshima en shinkansen son ~4½ horas' — ¿Cuál es correcta?",
-    "correct": "東京から広島まで新幹線で４時間半くらいです。",
-    "explanation": "Estructura completa: [Origen]から[Destino]まで[Transporte]で[Duración]くらいです.",
     "opts": [
       {
         "text": "東京から広島まで新幹線で４時間半くらいです。",
         "correct": true,
-        "reason": "Correcta. Estructura canónica completa."
+        "explanation": "Estructura completa: [Origen]から[Destino]まで[Transporte]で[Duración]くらいです. Correcta. Estructura canónica completa."
       },
       {
         "text": "東京に広島で新幹線の４時間半です。",
         "correct": false,
-        "reason": "に no marca origen, で no marca destino, の no marca medio. Todas las partículas mal asignadas."
+        "explanation": "に no marca origen, で no marca destino, の no marca medio. Todas las partículas mal asignadas."
       },
       {
         "text": "東京の広島まで４時間半新幹線くらいです。",
         "correct": false,
-        "reason": "の entre 東京 y 広島 daría 'el Hiroshima de Tokio', sin sentido. El medio (新幹線) debe ir antes de la duración."
+        "explanation": "の entre 東京 y 広島 daría 'el Hiroshima de Tokio', sin sentido. El medio (新幹線) debe ir antes de la duración."
       },
       {
         "text": "東京で広島から新幹線に４時間半です。",
         "correct": false,
-        "reason": "で y から invertidos; に no marca medio. Estructura completamente desordenada."
+        "explanation": "で y から invertidos; に no marca medio. Estructura completamente desordenada."
       }
     ]
   },
@@ -3338,28 +3108,26 @@
     "id": "U4A-116",
     "cat": "Traducción ES→JP",
     "q": "'De Osaka a Kioto en tren son 30 minutos' — ¿Cuál es correcta?",
-    "correct": "大阪から京都まで電車で３０分です。",
-    "explanation": "Estructura: [Origen]から[Destino]まで[Transporte]で[Duración]です.",
     "opts": [
       {
         "text": "大阪から京都まで電車で３０分です。",
         "correct": true,
-        "reason": "Correcta. Estructura canónica."
+        "explanation": "Estructura: [Origen]から[Destino]まで[Transporte]で[Duración]です. Correcta. Estructura canónica."
       },
       {
         "text": "大阪の京都まで電車に３０分です。",
         "correct": false,
-        "reason": "の entre 大阪 y 京都 daría 'el Kioto de Osaka', sin sentido. に no marca medio."
+        "explanation": "の entre 大阪 y 京都 daría 'el Kioto de Osaka', sin sentido. に no marca medio."
       },
       {
         "text": "大阪で京都から電車は３０分です。",
         "correct": false,
-        "reason": "で y から invertidos; は no marca medio."
+        "explanation": "で y から invertidos; は no marca medio."
       },
       {
         "text": "大阪に京都まで電車を３０分です。",
         "correct": false,
-        "reason": "に no marca origen; を no marca medio (es objeto directo)."
+        "explanation": "に no marca origen; を no marca medio (es objeto directo)."
       }
     ]
   },
@@ -3367,28 +3135,26 @@
     "id": "U4A-117",
     "cat": "Traducción ES→JP",
     "q": "'De casa a la estación caminando son 10 minutos' — ¿Cuál es correcta?",
-    "correct": "家から駅まで歩いて１０分です。",
-    "explanation": "Estructura: [Origen]から[Destino]まで歩いて[Duración]です. 歩いて NO lleva で adicional (excepción del patrón).",
     "opts": [
       {
         "text": "家から駅まで歩いて１０分です。",
         "correct": true,
-        "reason": "Correcta. 歩いて sin で."
+        "explanation": "Estructura: [Origen]から[Destino]まで歩いて[Duración]です. 歩いて NO lleva で adicional (excepción del patrón). Correcta. 歩いて sin で."
       },
       {
         "text": "家に駅へ歩きで１０分です。",
         "correct": false,
-        "reason": "に y へ no marcan rango; 歩き es raíz nominal, no funciona con で como medio."
+        "explanation": "に y へ no marcan rango; 歩き es raíz nominal, no funciona con で como medio."
       },
       {
         "text": "家は駅まで歩いてで１０分です。",
         "correct": false,
-        "reason": "は no marca origen; y 歩いてで es agramatical (歩いて ya cumple la función, で sobra)."
+        "explanation": "は no marca origen; y 歩いてで es agramatical (歩いて ya cumple la función, で sobra)."
       },
       {
         "text": "家から駅で歩くまで１０分です。",
         "correct": false,
-        "reason": "で no marca destino; 歩く es forma diccionario y まで no se combina así con el verbo."
+        "explanation": "で no marca destino; 歩く es forma diccionario y まで no se combina así con el verbo."
       }
     ]
   },
@@ -3396,28 +3162,26 @@
     "id": "U4A-118",
     "cat": "Traducción ES→JP",
     "q": "'Hokkaido está en el norte de Japón' — ¿Cuál es correcta?",
-    "correct": "北海道は日本の北です。",
-    "explanation": "Patrón: [Lugar]は + [País]の[Cardinal] + です.",
     "opts": [
       {
         "text": "北海道は日本の北です。",
         "correct": true,
-        "reason": "Correcta. Patrón canónico."
+        "explanation": "Patrón: [Lugar]は + [País]の[Cardinal] + です. Correcta. Patrón canónico."
       },
       {
         "text": "北海道が日本で北です。",
         "correct": false,
-        "reason": "が y で mal asignados; se usa は + の."
+        "explanation": "が y で mal asignados; se usa は + の."
       },
       {
         "text": "北海道は北の日本です。",
         "correct": false,
-        "reason": "Orden invertido: 'Hokkaido es el Japón del norte', sin sentido (Hokkaido está EN Japón)."
+        "explanation": "Orden invertido: 'Hokkaido es el Japón del norte', sin sentido (Hokkaido está EN Japón)."
       },
       {
         "text": "北海道に日本の北です。",
         "correct": false,
-        "reason": "に no marca tema; se usa は."
+        "explanation": "に no marca tema; se usa は."
       }
     ]
   },
@@ -3425,28 +3189,26 @@
     "id": "U4A-119",
     "cat": "Traducción JP→ES",
     "q": "'東京から横浜まで電車で２５分くらいです' significa:",
-    "correct": "De Tokio a Yokohama en tren son unos 25 minutos.",
-    "explanation": "Estructura completa: 東京から横浜まで (rango) + 電車で (medio) + 25分くらい (duración aprox.) + です. くらい = 'aproximadamente'.",
     "opts": [
       {
         "text": "De Tokio a Yokohama en tren son unos 25 minutos.",
         "correct": true,
-        "reason": "Correcta. Traducción precisa con 'unos' por くらい."
+        "explanation": "Estructura completa: 東京から横浜まで (rango) + 電車で (medio) + 25分くらい (duración aprox.) + です. くらい = 'aproximadamente'. Correcta. Traducción precisa con 'unos' por くらい."
       },
       {
         "text": "De Tokio a Yokohama en colectivo son 25 minutos exactos.",
         "correct": false,
-        "reason": "電車 = tren, no colectivo (バス). Y くらい = 'unos/aprox.', no 'exactos'."
+        "explanation": "電車 = tren, no colectivo (バス). Y くらい = 'unos/aprox.', no 'exactos'."
       },
       {
         "text": "De Yokohama a Tokio en auto son 25 minutos.",
         "correct": false,
-        "reason": "Origen y destino invertidos: から va con 東京 (origen). Y 電車 ≠ auto."
+        "explanation": "Origen y destino invertidos: から va con 東京 (origen). Y 電車 ≠ auto."
       },
       {
         "text": "En Tokio hay un tren de Yokohama a las 25.",
         "correct": false,
-        "reason": "Mal análisis: から/まで marca rango (de-a), no 'hay un tren de'. 25分 es duración, no la hora."
+        "explanation": "Mal análisis: から/まで marca rango (de-a), no 'hay un tren de'. 25分 es duración, no la hora."
       }
     ]
   },
@@ -3454,28 +3216,26 @@
     "id": "U4A-120",
     "cat": "Traducción JP→ES",
     "q": "'北海道は日本の北です' significa:",
-    "correct": "Hokkaido está en el norte de Japón.",
-    "explanation": "Patrón [Lugar]は[País]の[Cardinal]です.",
     "opts": [
       {
         "text": "Hokkaido está en el norte de Japón.",
         "correct": true,
-        "reason": "Correcta. Traducción literal."
+        "explanation": "Patrón [Lugar]は[País]の[Cardinal]です. Correcta. Traducción literal."
       },
       {
         "text": "Hokkaido es una ciudad del sur.",
         "correct": false,
-        "reason": "北 = norte, no sur (南). Y 北海道 es una isla, no una ciudad."
+        "explanation": "北 = norte, no sur (南). Y 北海道 es una isla, no una ciudad."
       },
       {
         "text": "Japón está al norte de Hokkaido.",
         "correct": false,
-        "reason": "Sujeto invertido: 北海道 es el tema (は), Hokkaido está EN el norte de Japón (no Japón al norte de Hokkaido)."
+        "explanation": "Sujeto invertido: 北海道 es el tema (は), Hokkaido está EN el norte de Japón (no Japón al norte de Hokkaido)."
       },
       {
         "text": "Hokkaido y Japón son el norte.",
         "correct": false,
-        "reason": "Mal análisis: の no une 北海道 con 日本 como conjunción; 日本の北 = 'el norte de Japón'."
+        "explanation": "Mal análisis: の no une 北海道 con 日本 como conjunción; 日本の北 = 'el norte de Japón'."
       }
     ]
   },
@@ -3483,28 +3243,26 @@
     "id": "U4A-121",
     "cat": "Traducción JP→ES",
     "q": "'家から学校まで２０分です' significa:",
-    "correct": "De casa a la escuela son 20 minutos.",
-    "explanation": "Estructura: 家から学校まで (rango) + 20分 (duración) + です. Sin medio de transporte explícito.",
     "opts": [
       {
         "text": "De casa a la escuela son 20 minutos.",
         "correct": true,
-        "reason": "Correcta. Traducción literal."
+        "explanation": "Estructura: 家から学校まで (rango) + 20分 (duración) + です. Sin medio de transporte explícito. Correcta. Traducción literal."
       },
       {
         "text": "La escuela está a 20 minutos de la estación.",
         "correct": false,
-        "reason": "学校 = escuela, no estación (駅). Y el origen es 家 (casa), no 駅."
+        "explanation": "学校 = escuela, no estación (駅). Y el origen es 家 (casa), no 駅."
       },
       {
         "text": "Voy a la escuela en 20 pasos.",
         "correct": false,
-        "reason": "20分 = '20 minutos', no '20 pasos' (歩 ほ sería pasos). Y no hay verbo 'voy'."
+        "explanation": "20分 = '20 minutos', no '20 pasos' (歩 ほ sería pasos). Y no hay verbo 'voy'."
       },
       {
         "text": "Son las 8:20 en la escuela.",
         "correct": false,
-        "reason": "20分 sin 時 antes es 'duración', no 'hora puntual'. Y no hay '8'."
+        "explanation": "20分 sin 時 antes es 'duración', no 'hora puntual'. Y no hay '8'."
       }
     ]
   },
@@ -3512,28 +3270,26 @@
     "id": "U4A-122",
     "cat": "Traducción JP→ES",
     "q": "'東京から大阪までバスで１０時間です' significa:",
-    "correct": "De Tokio a Osaka en colectivo son 10 horas.",
-    "explanation": "Estructura: 東京から大阪まで (rango) + バスで (medio) + 10時間 (duración) + です.",
     "opts": [
       {
         "text": "De Tokio a Osaka en colectivo son 10 horas.",
         "correct": true,
-        "reason": "Correcta. Traducción literal."
+        "explanation": "Estructura: 東京から大阪まで (rango) + バスで (medio) + 10時間 (duración) + です. Correcta. Traducción literal."
       },
       {
         "text": "De Osaka a Tokio en tren son 10 horas.",
         "correct": false,
-        "reason": "Origen invertido: から va con 東京 (origen). バス = colectivo, no tren."
+        "explanation": "Origen invertido: から va con 東京 (origen). バス = colectivo, no tren."
       },
       {
         "text": "Tokio y Osaka están a 10 km en bus.",
         "correct": false,
-        "reason": "10時間 = '10 horas', no '10 km' (キロメートル sería km). から/まで = rango, no 'están a'."
+        "explanation": "10時間 = '10 horas', no '10 km' (キロメートル sería km). から/まで = rango, no 'están a'."
       },
       {
         "text": "En Osaka hay 10 colectivos a Tokio.",
         "correct": false,
-        "reason": "Mal análisis: la oración indica duración del trayecto, no cantidad de colectivos."
+        "explanation": "Mal análisis: la oración indica duración del trayecto, no cantidad de colectivos."
       }
     ]
   },
@@ -3541,28 +3297,26 @@
     "id": "U4A-123",
     "cat": "Traducción JP→ES",
     "q": "'沖縄は日本の南です' significa:",
-    "correct": "Okinawa está en el sur de Japón.",
-    "explanation": "Patrón [Lugar]は[País]の[Cardinal]です. 南 = sur.",
     "opts": [
       {
         "text": "Okinawa está en el sur de Japón.",
         "correct": true,
-        "reason": "Correcta. Traducción literal."
+        "explanation": "Patrón [Lugar]は[País]の[Cardinal]です. 南 = sur. Correcta. Traducción literal."
       },
       {
         "text": "Okinawa está al norte de Japón.",
         "correct": false,
-        "reason": "南 = sur, no norte (北). Confusión de cardinales."
+        "explanation": "南 = sur, no norte (北). Confusión de cardinales."
       },
       {
         "text": "El sur de Okinawa es Japón.",
         "correct": false,
-        "reason": "Sujeto invertido: 沖縄 es el tema (は), Okinawa está EN el sur de Japón."
+        "explanation": "Sujeto invertido: 沖縄 es el tema (は), Okinawa está EN el sur de Japón."
       },
       {
         "text": "Japón está en Okinawa del sur.",
         "correct": false,
-        "reason": "Mal análisis del orden: 日本の南 = 'el sur de Japón', no 'Okinawa del sur'."
+        "explanation": "Mal análisis del orden: 日本の南 = 'el sur de Japón', no 'Okinawa del sur'."
       }
     ]
   },
@@ -3570,28 +3324,26 @@
     "id": "U4A-124",
     "cat": "Traducción JP→ES",
     "q": "'パースはオーストラリアの西です' significa:",
-    "correct": "Perth está en el oeste de Australia.",
-    "explanation": "Patrón [Ciudad]は[País]の[Cardinal]です. 西 = oeste.",
     "opts": [
       {
         "text": "Perth está en el oeste de Australia.",
         "correct": true,
-        "reason": "Correcta. Traducción literal."
+        "explanation": "Patrón [Ciudad]は[País]の[Cardinal]です. 西 = oeste. Correcta. Traducción literal."
       },
       {
         "text": "Perth está en el este de Australia.",
         "correct": false,
-        "reason": "西 = oeste, no este (東). Confusión común; recordá 東京 (este) vs 西 (oeste)."
+        "explanation": "西 = oeste, no este (東). Confusión común; recordá 東京 (este) vs 西 (oeste)."
       },
       {
         "text": "Australia está al oeste de Perth.",
         "correct": false,
-        "reason": "Sujeto invertido: パース es el tema (は), Perth está EN el oeste de Australia."
+        "explanation": "Sujeto invertido: パース es el tema (は), Perth está EN el oeste de Australia."
       },
       {
         "text": "Perth y Australia están juntos.",
         "correct": false,
-        "reason": "Mal análisis: la oración indica ubicación específica, no 'estar juntos'."
+        "explanation": "Mal análisis: la oración indica ubicación específica, no 'estar juntos'."
       }
     ]
   },
@@ -3599,28 +3351,26 @@
     "id": "U4A-125",
     "cat": "Traducción JP→ES",
     "q": "'長野は日本の中心です' significa:",
-    "correct": "Nagano está en el medio/centro de Japón.",
-    "explanation": "Patrón [Lugar]は[País]の中心です. 中心 = centro/medio.",
     "opts": [
       {
         "text": "Nagano está en el medio/centro de Japón.",
         "correct": true,
-        "reason": "Correcta. Traducción literal."
+        "explanation": "Patrón [Lugar]は[País]の中心です. 中心 = centro/medio. Correcta. Traducción literal."
       },
       {
         "text": "Nagano es la capital de Japón.",
         "correct": false,
-        "reason": "'Capital' es 首都 (しゅと); 中心 es 'centro geográfico'. La capital actual es 東京."
+        "explanation": "'Capital' es 首都 (しゅと); 中心 es 'centro geográfico'. La capital actual es 東京."
       },
       {
         "text": "Japón está en el centro de Nagano.",
         "correct": false,
-        "reason": "Sujeto invertido: 長野 es el tema, Nagano está EN el centro de Japón."
+        "explanation": "Sujeto invertido: 長野 es el tema, Nagano está EN el centro de Japón."
       },
       {
         "text": "Nagano tiene un parque central.",
         "correct": false,
-        "reason": "Mal análisis: la oración no menciona parque (公園). 中心 acá es 'centro geográfico'."
+        "explanation": "Mal análisis: la oración no menciona parque (公園). 中心 acá es 'centro geográfico'."
       }
     ]
   },
@@ -3628,28 +3378,26 @@
     "id": "U4A-126",
     "cat": "Traducción JP→ES",
     "q": "'東京から日光まで車で２時間半です' significa:",
-    "correct": "De Tokio a Nikko en auto son 2 horas y media.",
-    "explanation": "Estructura completa: 東京から日光まで (rango) + 車で (medio) + 2時間半 (duración) + です.",
     "opts": [
       {
         "text": "De Tokio a Nikko en auto son 2 horas y media.",
         "correct": true,
-        "reason": "Correcta. Traducción literal con 半 = media hora."
+        "explanation": "Estructura completa: 東京から日光まで (rango) + 車で (medio) + 2時間半 (duración) + です. Correcta. Traducción literal con 半 = media hora."
       },
       {
         "text": "De Nikko a Tokio en tren son 2:30.",
         "correct": false,
-        "reason": "Origen invertido (から va con 東京). 車 = auto, no tren. 2時間半 = duración, no hora puntual '2:30'."
+        "explanation": "Origen invertido (から va con 東京). 車 = auto, no tren. 2時間半 = duración, no hora puntual '2:30'."
       },
       {
         "text": "El auto a Nikko sale a las 2:30.",
         "correct": false,
-        "reason": "2時間半 es 'duración' (2.5 horas), no 'hora puntual'. La oración no indica hora de salida."
+        "explanation": "2時間半 es 'duración' (2.5 horas), no 'hora puntual'. La oración no indica hora de salida."
       },
       {
         "text": "Nikko tiene 2 rutas a Tokio.",
         "correct": false,
-        "reason": "Mal análisis: '2時間半' es duración, no '2 rutas'. La oración indica el tiempo de viaje."
+        "explanation": "Mal análisis: '2時間半' es duración, no '2 rutas'. La oración indica el tiempo de viaje."
       }
     ]
   },
@@ -3657,28 +3405,26 @@
     "id": "U4A-127",
     "cat": "Diálogo",
     "q": "Un compañero te pregunta '家から会社までどのくらいですか'. ¿Qué te está preguntando?",
-    "correct": "Cuánto tardás de casa al trabajo.",
-    "explanation": "家から会社まで (rango casa-trabajo) + どのくらい (cuánto tiempo). Pregunta común sobre duración del trayecto.",
     "opts": [
       {
         "text": "Cuánto tardás de casa al trabajo.",
         "correct": true,
-        "reason": "Correcta. どのくらい pregunta duración."
+        "explanation": "家から会社まで (rango casa-trabajo) + どのくらい (cuánto tiempo). Pregunta común sobre duración del trayecto. Correcta. どのくらい pregunta duración."
       },
       {
         "text": "Dónde está tu casa.",
         "correct": false,
-        "reason": "Eso sería 家はどこですか. どのくらい no pregunta lugar."
+        "explanation": "Eso sería 家はどこですか. どのくらい no pregunta lugar."
       },
       {
         "text": "A qué hora entrás al trabajo.",
         "correct": false,
-        "reason": "Eso sería 何時に会社に行きますか. どのくらい es duración, no hora puntual."
+        "explanation": "Eso sería 何時に会社に行きますか. どのくらい es duración, no hora puntual."
       },
       {
         "text": "Qué hacés en tu casa.",
         "correct": false,
-        "reason": "Eso sería 家で何をしますか. La pregunta no es sobre actividades."
+        "explanation": "Eso sería 家で何をしますか. La pregunta no es sobre actividades."
       }
     ]
   },
@@ -3686,28 +3432,26 @@
     "id": "U4A-128",
     "cat": "Diálogo",
     "q": "Si respondo 'バスで３０分くらいです', estoy diciendo:",
-    "correct": "En colectivo son unos 30 minutos.",
-    "explanation": "バスで (medio) + 30分くらい (duración aproximada) + です. くらい = 'aproximadamente'.",
     "opts": [
       {
         "text": "En colectivo son unos 30 minutos.",
         "correct": true,
-        "reason": "Correcta. Respuesta típica con medio + duración aprox."
+        "explanation": "バスで (medio) + 30分くらい (duración aproximada) + です. くらい = 'aproximadamente'. Correcta. Respuesta típica con medio + duración aprox."
       },
       {
         "text": "El colectivo llega a las 30.",
         "correct": false,
-        "reason": "30分 sin 時 es duración, no hora. Y no hay verbo 'llegar' (着きます)."
+        "explanation": "30分 sin 時 es duración, no hora. Y no hay verbo 'llegar' (着きます)."
       },
       {
         "text": "Tengo 30 colectivos.",
         "correct": false,
-        "reason": "Mal análisis: バスで no es 'tengo bus'; es 'en/por bus' (medio)."
+        "explanation": "Mal análisis: バスで no es 'tengo bus'; es 'en/por bus' (medio)."
       },
       {
         "text": "Camino 30 minutos al colectivo.",
         "correct": false,
-        "reason": "No hay 歩いて (caminando) ni 行きます. La oración usa バスで como medio."
+        "explanation": "No hay 歩いて (caminando) ni 行きます. La oración usa バスで como medio."
       }
     ]
   },
@@ -3715,28 +3459,26 @@
     "id": "U4A-129",
     "cat": "Diálogo",
     "q": "'京都から大阪まで' — esta frase habla de:",
-    "correct": "Un recorrido de Kioto a Osaka.",
-    "explanation": "Patrón から/まで indica rango/recorrido. 京都から大阪まで = 'desde Kioto hasta Osaka'.",
     "opts": [
       {
         "text": "Un recorrido de Kioto a Osaka.",
         "correct": true,
-        "reason": "Correcta. Rango espacial origen-destino."
+        "explanation": "Patrón から/まで indica rango/recorrido. 京都から大阪まで = 'desde Kioto hasta Osaka'. Correcta. Rango espacial origen-destino."
       },
       {
         "text": "Una ciudad entre Kioto y Osaka.",
         "correct": false,
-        "reason": "から/まで marca extremos del recorrido, no una tercera ciudad intermedia."
+        "explanation": "から/まで marca extremos del recorrido, no una tercera ciudad intermedia."
       },
       {
         "text": "Una estación llamada Kyoto-Osaka.",
         "correct": false,
-        "reason": "から/まで no nombra estaciones; marca rango."
+        "explanation": "から/まで no nombra estaciones; marca rango."
       },
       {
         "text": "El nombre de un tren.",
         "correct": false,
-        "reason": "Los trenes japoneses tienen nombres como のぞみ, ひかり, no patrones から/まで."
+        "explanation": "Los trenes japoneses tienen nombres como のぞみ, ひかり, no patrones から/まで."
       }
     ]
   },
@@ -3744,28 +3486,26 @@
     "id": "U4A-130",
     "cat": "Diálogo",
     "q": "¿Qué transporte NO lleva la partícula で?",
-    "correct": "歩いて (caminando)",
-    "explanation": "歩いて ya es la forma -te del verbo 歩く. Funciona como medio POR SÍ MISMA, sin necesitar で. Es la única excepción al patrón [transporte]で.",
     "opts": [
       {
         "text": "歩いて (caminando)",
         "correct": true,
-        "reason": "Correcta como respuesta (es la EXCEPCIÓN): no lleva で."
+        "explanation": "歩いて ya es la forma -te del verbo 歩く. Funciona como medio POR SÍ MISMA, sin necesitar で. Es la única excepción al patrón [transporte]で. Correcta como respuesta (es la EXCEPCIÓN): no lleva で."
       },
       {
         "text": "飛行機",
         "correct": false,
-        "reason": "飛行機 SÍ lleva で: 飛行機で = 'en avión'."
+        "explanation": "飛行機 SÍ lleva で: 飛行機で = 'en avión'."
       },
       {
         "text": "車",
         "correct": false,
-        "reason": "車 SÍ lleva で: 車で = 'en auto'."
+        "explanation": "車 SÍ lleva で: 車で = 'en auto'."
       },
       {
         "text": "電車",
         "correct": false,
-        "reason": "電車 SÍ lleva で: 電車で = 'en tren'."
+        "explanation": "電車 SÍ lleva で: 電車で = 'en tren'."
       }
     ]
   },
@@ -3773,28 +3513,26 @@
     "id": "U4A-131",
     "cat": "Diálogo",
     "q": "Si alguien dice '飛行機で２時間くらいです', está hablando de:",
-    "correct": "Una duración de 2 horas aprox. en avión.",
-    "explanation": "飛行機で (medio: avión) + 2時間くらい (duración aprox.: ~2 horas) + です. Típica respuesta sobre tiempo de vuelo.",
     "opts": [
       {
         "text": "Una duración de 2 horas aprox. en avión.",
         "correct": true,
-        "reason": "Correcta. Duración + medio."
+        "explanation": "飛行機で (medio: avión) + 2時間くらい (duración aprox.: ~2 horas) + です. Típica respuesta sobre tiempo de vuelo. Correcta. Duración + medio."
       },
       {
         "text": "Un vuelo que sale a las 2.",
         "correct": false,
-        "reason": "2時間 = duración (2 horas), no hora puntual. Para 'a las 2' sería 2時に."
+        "explanation": "2時間 = duración (2 horas), no hora puntual. Para 'a las 2' sería 2時に."
       },
       {
         "text": "Un avión que aterriza en 2.",
         "correct": false,
-        "reason": "No hay verbo 'aterrizar' (着陸する). 2時間 es solo duración."
+        "explanation": "No hay verbo 'aterrizar' (着陸する). 2時間 es solo duración."
       },
       {
         "text": "Dos aviones de distintas clases.",
         "correct": false,
-        "reason": "Mal análisis: 2時間 es 'horas', no 'aviones'. Para '2 aviones' sería 飛行機が2つ/2機."
+        "explanation": "Mal análisis: 2時間 es 'horas', no 'aviones'. Para '2 aviones' sería 飛行機が2つ/2機."
       }
     ]
   },
@@ -3802,28 +3540,26 @@
     "id": "U4A-132",
     "cat": "Diálogo",
     "q": "En '東京から沖縄まで飛行機で３時間です', la palabra 'sale/origen' es:",
-    "correct": "東京",
-    "explanation": "から marca el ORIGEN del recorrido. 東京から = 'desde Tokio'. El origen del trayecto.",
     "opts": [
       {
         "text": "東京",
         "correct": true,
-        "reason": "Correcta. から marca el origen."
+        "explanation": "から marca el ORIGEN del recorrido. 東京から = 'desde Tokio'. El origen del trayecto. Correcta. から marca el origen."
       },
       {
         "text": "沖縄",
         "correct": false,
-        "reason": "沖縄 es el DESTINO (marcado con まで), no el origen."
+        "explanation": "沖縄 es el DESTINO (marcado con まで), no el origen."
       },
       {
         "text": "飛行機",
         "correct": false,
-        "reason": "飛行機 es el MEDIO (marcado con で), no origen ni destino."
+        "explanation": "飛行機 es el MEDIO (marcado con で), no origen ni destino."
       },
       {
         "text": "３時間",
         "correct": false,
-        "reason": "3時間 es la DURACIÓN del viaje, no un punto geográfico."
+        "explanation": "3時間 es la DURACIÓN del viaje, no un punto geográfico."
       }
     ]
   },
@@ -3831,28 +3567,26 @@
     "id": "U4A-133",
     "cat": "Diálogo",
     "q": "En '東京から沖縄まで飛行機で３時間です', el destino es:",
-    "correct": "沖縄",
-    "explanation": "まで marca el DESTINO/punto final del recorrido. 沖縄まで = 'hasta Okinawa'.",
     "opts": [
       {
         "text": "沖縄",
         "correct": true,
-        "reason": "Correcta. まで marca el destino."
+        "explanation": "まで marca el DESTINO/punto final del recorrido. 沖縄まで = 'hasta Okinawa'. Correcta. まで marca el destino."
       },
       {
         "text": "東京",
         "correct": false,
-        "reason": "東京 es el ORIGEN (marcado con から), no el destino."
+        "explanation": "東京 es el ORIGEN (marcado con から), no el destino."
       },
       {
         "text": "飛行機",
         "correct": false,
-        "reason": "飛行機 es el MEDIO, no destino."
+        "explanation": "飛行機 es el MEDIO, no destino."
       },
       {
         "text": "３時間",
         "correct": false,
-        "reason": "3時間 es la DURACIÓN, no un punto geográfico."
+        "explanation": "3時間 es la DURACIÓN, no un punto geográfico."
       }
     ]
   },
@@ -3860,28 +3594,26 @@
     "id": "U4A-134",
     "cat": "Diálogo",
     "q": "¿Cuál es la forma CORRECTA en japonés natural?",
-    "correct": "東京から大阪まで新幹線で２時間半くらいです。",
-    "explanation": "Estructura canónica completa: [Origen]から[Destino]まで[Transporte]で[Duración]くらいです.",
     "opts": [
       {
         "text": "東京から大阪まで新幹線で２時間半くらいです。",
         "correct": true,
-        "reason": "Correcta. Estructura canónica completa."
+        "explanation": "Estructura canónica completa: [Origen]から[Destino]まで[Transporte]で[Duración]くらいです. Correcta. Estructura canónica completa."
       },
       {
         "text": "東京は大阪を新幹線に２時間半くらいです。",
         "correct": false,
-        "reason": "は, を, に mal asignados: は marca tema, を objeto directo, に tiempo/destino. Ninguna marca rango."
+        "explanation": "は, を, に mal asignados: は marca tema, を objeto directo, に tiempo/destino. Ninguna marca rango."
       },
       {
         "text": "東京で大阪へ新幹線まで２時間半くらいです。",
         "correct": false,
-        "reason": "で no marca origen, へ no marca destino en este patrón, まで no marca medio. Todas mal asignadas."
+        "explanation": "で no marca origen, へ no marca destino en este patrón, まで no marca medio. Todas mal asignadas."
       },
       {
         "text": "東京の大阪から新幹線を２時間半くらい。",
         "correct": false,
-        "reason": "の y を mal asignados; falta です al final."
+        "explanation": "の y を mal asignados; falta です al final."
       }
     ]
   },
@@ -3889,28 +3621,26 @@
     "id": "U4A-135",
     "cat": "Diálogo",
     "q": "Un turista te pregunta '駅までどのくらいですか'. ¿Qué quiere saber?",
-    "correct": "Cuánto se tarda hasta la estación.",
-    "explanation": "駅まで (hasta la estación) + どのくらい (cuánto tiempo/distancia). Pregunta de duración del trayecto.",
     "opts": [
       {
         "text": "Cuánto se tarda hasta la estación.",
         "correct": true,
-        "reason": "Correcta. どのくらい pregunta duración."
+        "explanation": "駅まで (hasta la estación) + どのくらい (cuánto tiempo/distancia). Pregunta de duración del trayecto. Correcta. どのくらい pregunta duración."
       },
       {
         "text": "Dónde está la estación.",
         "correct": false,
-        "reason": "Eso sería 駅はどこですか. どのくらい no pregunta lugar."
+        "explanation": "Eso sería 駅はどこですか. どのくらい no pregunta lugar."
       },
       {
         "text": "El nombre de la estación.",
         "correct": false,
-        "reason": "Eso sería 駅の名前は何ですか."
+        "explanation": "Eso sería 駅の名前は何ですか."
       },
       {
         "text": "Si hay estación cerca.",
         "correct": false,
-        "reason": "Eso sería 近くに駅がありますか."
+        "explanation": "Eso sería 近くに駅がありますか."
       }
     ]
   },
@@ -3918,28 +3648,26 @@
     "id": "U4A-136",
     "cat": "Kanji → Significado",
     "q": "¿Cuál de estos kanji significa 'sur'?",
-    "correct": "南",
-    "explanation": "南 (みなみ) es el kanji de 'sur'. Aparece en 沖縄 (sur de Japón).",
     "opts": [
       {
         "text": "南",
         "correct": true,
-        "reason": "Correcta. Kanji de 'sur'."
+        "explanation": "南 (みなみ) es el kanji de 'sur'. Aparece en 沖縄 (sur de Japón). Correcta. Kanji de 'sur'."
       },
       {
         "text": "北",
         "correct": false,
-        "reason": "北 (きた) es 'norte', opuesto a sur."
+        "explanation": "北 (きた) es 'norte', opuesto a sur."
       },
       {
         "text": "東",
         "correct": false,
-        "reason": "東 (ひがし) es 'este'."
+        "explanation": "東 (ひがし) es 'este'."
       },
       {
         "text": "西",
         "correct": false,
-        "reason": "西 (にし) es 'oeste'."
+        "explanation": "西 (にし) es 'oeste'."
       }
     ]
   },
@@ -3947,28 +3675,26 @@
     "id": "U4A-137",
     "cat": "Kanji → Significado",
     "q": "¿Cuál de estos kanji NO es un punto cardinal?",
-    "correct": "時",
-    "explanation": "時 ('hora/tiempo') no es un punto cardinal. Los cuatro cardinales son: 北 (norte), 南 (sur), 東 (este), 西 (oeste).",
     "opts": [
       {
         "text": "時",
         "correct": true,
-        "reason": "Correcta como respuesta (NO es cardinal): es 'hora/tiempo'."
+        "explanation": "時 ('hora/tiempo') no es un punto cardinal. Los cuatro cardinales son: 北 (norte), 南 (sur), 東 (este), 西 (oeste). Correcta como respuesta (NO es cardinal): es 'hora/tiempo'."
       },
       {
         "text": "北",
         "correct": false,
-        "reason": "北 SÍ es cardinal: 'norte'."
+        "explanation": "北 SÍ es cardinal: 'norte'."
       },
       {
         "text": "南",
         "correct": false,
-        "reason": "南 SÍ es cardinal: 'sur'."
+        "explanation": "南 SÍ es cardinal: 'sur'."
       },
       {
         "text": "東",
         "correct": false,
-        "reason": "東 SÍ es cardinal: 'este'."
+        "explanation": "東 SÍ es cardinal: 'este'."
       }
     ]
   },
@@ -3976,28 +3702,26 @@
     "id": "U4A-138",
     "cat": "Kanji → Significado",
     "q": "¿Cuál de estos NO es un medio de transporte?",
-    "correct": "家",
-    "explanation": "家 (いえ/うち) significa 'casa'; es un lugar, no un medio de transporte. Los demás son vehículos.",
     "opts": [
       {
         "text": "家",
         "correct": true,
-        "reason": "Correcta como respuesta (NO es transporte): es 'casa'."
+        "explanation": "家 (いえ/うち) significa 'casa'; es un lugar, no un medio de transporte. Los demás son vehículos. Correcta como respuesta (NO es transporte): es 'casa'."
       },
       {
         "text": "車",
         "correct": false,
-        "reason": "車 SÍ es transporte: 'auto'."
+        "explanation": "車 SÍ es transporte: 'auto'."
       },
       {
         "text": "電車",
         "correct": false,
-        "reason": "電車 SÍ es transporte: 'tren eléctrico'."
+        "explanation": "電車 SÍ es transporte: 'tren eléctrico'."
       },
       {
         "text": "飛行機",
         "correct": false,
-        "reason": "飛行機 SÍ es transporte: 'avión'."
+        "explanation": "飛行機 SÍ es transporte: 'avión'."
       }
     ]
   },
@@ -4005,28 +3729,26 @@
     "id": "U4A-139",
     "cat": "Kanji → Significado",
     "q": "Entre estos, ¿cuál es una isla (地域) de Japón?",
-    "correct": "北海道",
-    "explanation": "北海道 es una de las cuatro islas principales de Japón (la más al norte). Las otras (東京, 京都, 奈良) son ciudades, no islas.",
     "opts": [
       {
         "text": "北海道",
         "correct": true,
-        "reason": "Correcta. Isla principal del norte."
+        "explanation": "北海道 es una de las cuatro islas principales de Japón (la más al norte). Las otras (東京, 京都, 奈良) son ciudades, no islas. Correcta. Isla principal del norte."
       },
       {
         "text": "東京",
         "correct": false,
-        "reason": "東京 es la capital (ciudad), no una isla. Está en la isla principal Honshu."
+        "explanation": "東京 es la capital (ciudad), no una isla. Está en la isla principal Honshu."
       },
       {
         "text": "京都",
         "correct": false,
-        "reason": "京都 es una ciudad histórica, no una isla. Está en Honshu."
+        "explanation": "京都 es una ciudad histórica, no una isla. Está en Honshu."
       },
       {
         "text": "奈良",
         "correct": false,
-        "reason": "奈良 es una ciudad cerca de Kioto, no una isla. Está en Honshu."
+        "explanation": "奈良 es una ciudad cerca de Kioto, no una isla. Está en Honshu."
       }
     ]
   },
@@ -4034,28 +3756,26 @@
     "id": "U4A-140",
     "cat": "Kanji → Significado",
     "q": "¿Cuál de estos lugares está en el sur de Japón?",
-    "correct": "沖縄",
-    "explanation": "沖縄 (Okinawa) es el archipiélago subtropical en el extremo sur de Japón. 北海道 está al norte; 長野 y 日光 están en el centro/norte de Honshu.",
     "opts": [
       {
         "text": "沖縄",
         "correct": true,
-        "reason": "Correcta. Extremo sur de Japón."
+        "explanation": "沖縄 (Okinawa) es el archipiélago subtropical en el extremo sur de Japón. 北海道 está al norte; 長野 y 日光 están en el centro/norte de Honshu. Correcta. Extremo sur de Japón."
       },
       {
         "text": "北海道",
         "correct": false,
-        "reason": "北海道 es la isla del NORTE, no del sur."
+        "explanation": "北海道 es la isla del NORTE, no del sur."
       },
       {
         "text": "長野",
         "correct": false,
-        "reason": "長野 está en el centro de Honshu (montañoso), no al sur."
+        "explanation": "長野 está en el centro de Honshu (montañoso), no al sur."
       },
       {
         "text": "日光",
         "correct": false,
-        "reason": "日光 está en Tochigi, al norte de Tokio (centro-norte de Honshu), no al sur."
+        "explanation": "日光 está en Tochigi, al norte de Tokio (centro-norte de Honshu), no al sur."
       }
     ]
   },
@@ -4063,28 +3783,26 @@
     "id": "U4A-141",
     "cat": "Gramática",
     "q": "'どのくらい' pregunta sobre:",
-    "correct": "Cantidad de tiempo o distancia aprox.",
-    "explanation": "どのくらい pregunta cantidad aproximada de tiempo o distancia. Se responde con duración + medio (ej: バスで30分くらいです).",
     "opts": [
       {
         "text": "Cantidad de tiempo o distancia aprox.",
         "correct": true,
-        "reason": "Correcta. Función central."
+        "explanation": "どのくらい pregunta cantidad aproximada de tiempo o distancia. Se responde con duración + medio (ej: バスで30分くらいです). Correcta. Función central."
       },
       {
         "text": "Un lugar concreto",
         "correct": false,
-        "reason": "'Lugar' es どこ, no どのくらい."
+        "explanation": "'Lugar' es どこ, no どのくらい."
       },
       {
         "text": "Una fecha",
         "correct": false,
-        "reason": "'Fecha/cuándo' es いつ, no どのくらい."
+        "explanation": "'Fecha/cuándo' es いつ, no どのくらい."
       },
       {
         "text": "El precio",
         "correct": false,
-        "reason": "'Precio' es いくら, no どのくらい (aunque pueden parecerse fonéticamente)."
+        "explanation": "'Precio' es いくら, no どのくらい (aunque pueden parecerse fonéticamente)."
       }
     ]
   },
@@ -4092,28 +3810,26 @@
     "id": "U4A-142",
     "cat": "Gramática",
     "q": "¿Cuál es la forma CORRECTA para 'en taxi'?",
-    "correct": "タクシーで",
-    "explanation": "Medio de transporte con で. Misma regla que con todos los vehículos motorizados.",
     "opts": [
       {
         "text": "タクシーで",
         "correct": true,
-        "reason": "Correcta. で marca el medio."
+        "explanation": "Medio de transporte con で. Misma regla que con todos los vehículos motorizados. Correcta. で marca el medio."
       },
       {
         "text": "タクシーに",
         "correct": false,
-        "reason": "タクシーに sería 'al taxi' (subir a) con verbos como 乗る; no es 'en taxi' como medio."
+        "explanation": "タクシーに sería 'al taxi' (subir a) con verbos como 乗る; no es 'en taxi' como medio."
       },
       {
         "text": "タクシーを",
         "correct": false,
-        "reason": "タクシーを marcaría el taxi como objeto directo, no medio."
+        "explanation": "タクシーを marcaría el taxi como objeto directo, no medio."
       },
       {
         "text": "タクシーへ",
         "correct": false,
-        "reason": "タクシーへ sería 'hacia el taxi' (destino), no medio."
+        "explanation": "タクシーへ sería 'hacia el taxi' (destino), no medio."
       }
     ]
   },
@@ -4121,28 +3837,26 @@
     "id": "U4A-143",
     "cat": "Gramática",
     "q": "¿Cuál es la forma CORRECTA para 'en bicicleta'?",
-    "correct": "自転車で",
-    "explanation": "Medio de transporte con で. Aunque la bicicleta no es motorizada, sigue la misma regla que los demás vehículos (excepto 歩いて).",
     "opts": [
       {
         "text": "自転車で",
         "correct": true,
-        "reason": "Correcta. で marca el medio."
+        "explanation": "Medio de transporte con で. Aunque la bicicleta no es motorizada, sigue la misma regla que los demás vehículos (excepto 歩いて). Correcta. で marca el medio."
       },
       {
         "text": "自転車に",
         "correct": false,
-        "reason": "自転車に sería 'a la bicicleta' (subir a), no medio."
+        "explanation": "自転車に sería 'a la bicicleta' (subir a), no medio."
       },
       {
         "text": "自転車を",
         "correct": false,
-        "reason": "自転車を marcaría la bicicleta como objeto directo, no medio."
+        "explanation": "自転車を marcaría la bicicleta como objeto directo, no medio."
       },
       {
         "text": "自転車歩いて",
         "correct": false,
-        "reason": "Combinación absurda: 自転車 (bici) y 歩いて (caminando) son medios distintos. No se mezclan."
+        "explanation": "Combinación absurda: 自転車 (bici) y 歩いて (caminando) son medios distintos. No se mezclan."
       }
     ]
   }

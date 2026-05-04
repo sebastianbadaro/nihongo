@@ -3,962 +3,1998 @@
     "id": "U1A-001",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Mucho gusto' al presentarse por primera vez?",
-    "correct": "はじめまして",
-    "explanation": "はじめまして viene de 初めて (はじめて, 'por primera vez') y es la fórmula fija para iniciar una presentación con alguien que no conocías.",
     "opts": [
-      {"text": "はじめまして", "correct": true, "reason": "Correcta. Es el saludo específico para una primera presentación."},
-      {"text": "こんにちは", "correct": false, "reason": "Significa 'buenas tardes/hola'. Es un saludo general durante el día, no específico para presentaciones."},
-      {"text": "さようなら", "correct": false, "reason": "Significa 'adiós'. Se usa al despedirse, no al conocer a alguien."},
-      {"text": "おはよう", "correct": false, "reason": "Significa 'buenos días' (informal). Es un saludo matinal, no una fórmula de presentación."}
+      {
+        "text": "はじめまして",
+        "correct": true,
+        "explanation": "はじめまして viene de 初めて (はじめて, 'por primera vez') y es la fórmula fija para iniciar una presentación con alguien que no conocías. Correcta. Es el saludo específico para una primera presentación."
+      },
+      {
+        "text": "こんにちは",
+        "correct": false,
+        "explanation": "Significa 'buenas tardes/hola'. Es un saludo general durante el día, no específico para presentaciones."
+      },
+      {
+        "text": "さようなら",
+        "correct": false,
+        "explanation": "Significa 'adiós'. Se usa al despedirse, no al conocer a alguien."
+      },
+      {
+        "text": "おはよう",
+        "correct": false,
+        "explanation": "Significa 'buenos días' (informal). Es un saludo matinal, no una fórmula de presentación."
+      }
     ]
   },
   {
     "id": "U1A-002",
     "cat": "Vocabulario",
     "q": "Al terminar una presentación, la frase de cortesía es:",
-    "correct": "どうぞ よろしく おねがいします",
-    "explanation": "どうぞ よろしく おねがいします significa literalmente 'por favor, le pido que (me trate) bien'. Es la fórmula obligatoria al cerrar una presentación.",
     "opts": [
-      {"text": "どうぞ よろしく おねがいします", "correct": true, "reason": "Correcta. Es la fórmula estándar para cerrar una presentación pidiendo buen trato futuro."},
-      {"text": "ありがとう ございます", "correct": false, "reason": "Significa 'muchas gracias'. Se usa para agradecer, no para cerrar presentaciones."},
-      {"text": "おやすみなさい", "correct": false, "reason": "Significa 'buenas noches' al despedirse antes de dormir. No tiene relación con presentaciones."},
-      {"text": "いただきます", "correct": false, "reason": "Es la frase que se dice antes de comer ('voy a recibir'). Contexto totalmente distinto."}
+      {
+        "text": "どうぞ よろしく おねがいします",
+        "correct": true,
+        "explanation": "どうぞ よろしく おねがいします significa literalmente 'por favor, le pido que (me trate) bien'. Es la fórmula obligatoria al cerrar una presentación. Correcta. Es la fórmula estándar para cerrar una presentación pidiendo buen trato futuro."
+      },
+      {
+        "text": "ありがとう ございます",
+        "correct": false,
+        "explanation": "Significa 'muchas gracias'. Se usa para agradecer, no para cerrar presentaciones."
+      },
+      {
+        "text": "おやすみなさい",
+        "correct": false,
+        "explanation": "Significa 'buenas noches' al despedirse antes de dormir. No tiene relación con presentaciones."
+      },
+      {
+        "text": "いただきます",
+        "correct": false,
+        "explanation": "Es la frase que se dice antes de comer ('voy a recibir'). Contexto totalmente distinto."
+      }
     ]
   },
   {
     "id": "U1A-003",
     "cat": "Diálogo",
     "q": "Después de que alguien te diga 'どうぞ よろしく おねがいします', ¿cómo respondés?",
-    "correct": "こちらこそ",
-    "explanation": "こちらこそ literalmente significa '(soy yo) de este lado quien (debe decirlo)', y equivale a 'igualmente / al contrario, yo' en español.",
     "opts": [
-      {"text": "こちらこそ", "correct": true, "reason": "Correcta. Es la respuesta natural y recíproca a よろしく おねがいします."},
-      {"text": "はい、そうです", "correct": false, "reason": "Significa 'sí, así es'. Sirve para confirmar afirmaciones, no para responder a un saludo de cortesía."},
-      {"text": "いいえ、ちがいます", "correct": false, "reason": "Significa 'no, está equivocado'. Se usa para negar una afirmación, no en este contexto."},
-      {"text": "ありがとう", "correct": false, "reason": "Significa 'gracias'. Aunque no es grosero, no es la respuesta esperada culturalmente: lo correcto es devolver el gesto con こちらこそ."}
+      {
+        "text": "こちらこそ",
+        "correct": true,
+        "explanation": "こちらこそ literalmente significa '(soy yo) de este lado quien (debe decirlo)', y equivale a 'igualmente / al contrario, yo' en español. Correcta. Es la respuesta natural y recíproca a よろしく おねがいします."
+      },
+      {
+        "text": "はい、そうです",
+        "correct": false,
+        "explanation": "Significa 'sí, así es'. Sirve para confirmar afirmaciones, no para responder a un saludo de cortesía."
+      },
+      {
+        "text": "いいえ、ちがいます",
+        "correct": false,
+        "explanation": "Significa 'no, está equivocado'. Se usa para negar una afirmación, no en este contexto."
+      },
+      {
+        "text": "ありがとう",
+        "correct": false,
+        "explanation": "Significa 'gracias'. Aunque no es grosero, no es la respuesta esperada culturalmente: lo correcto es devolver el gesto con こちらこそ."
+      }
     ]
   },
   {
     "id": "U1A-004",
     "cat": "Vocabulario",
     "q": "¿Qué significa literalmente こちらこそ?",
-    "correct": "Al contrario (yo también / igualmente)",
-    "explanation": "こちら = 'este lado / yo'; こそ = partícula enfática ('precisamente'). Juntos: 'soy yo precisamente quien (debe decirlo)'.",
     "opts": [
-      {"text": "Al contrario (yo también / igualmente)", "correct": true, "reason": "Correcta. Captura el sentido recíproco y enfático."},
-      {"text": "Por aquí", "correct": false, "reason": "'Por aquí' sería こちらへ o こちらです (indicando dirección). こそ no aporta sentido espacial."},
-      {"text": "Muchas gracias", "correct": false, "reason": "'Muchas gracias' es ありがとう ございます. こちらこそ no expresa agradecimiento."},
-      {"text": "De nada", "correct": false, "reason": "'De nada' es どういたしまして. No tiene relación con こちらこそ."}
+      {
+        "text": "Al contrario (yo también / igualmente)",
+        "correct": true,
+        "explanation": "こちら = 'este lado / yo'; こそ = partícula enfática ('precisamente'). Juntos: 'soy yo precisamente quien (debe decirlo)'. Correcta. Captura el sentido recíproco y enfático."
+      },
+      {
+        "text": "Por aquí",
+        "correct": false,
+        "explanation": "'Por aquí' sería こちらへ o こちらです (indicando dirección). こそ no aporta sentido espacial."
+      },
+      {
+        "text": "Muchas gracias",
+        "correct": false,
+        "explanation": "'Muchas gracias' es ありがとう ございます. こちらこそ no expresa agradecimiento."
+      },
+      {
+        "text": "De nada",
+        "correct": false,
+        "explanation": "'De nada' es どういたしまして. No tiene relación con こちらこそ."
+      }
     ]
   },
   {
     "id": "U1A-005",
     "cat": "Gramática",
     "q": "Completá: 私___ セバスチャンです。 (Yo soy Sebastián)",
-    "correct": "は",
-    "explanation": "は (pronunciada 'wa' como partícula) marca el TEMA de la oración: 'en cuanto a mí, soy Sebastián'. Es la partícula básica de presentación.",
     "opts": [
-      {"text": "は", "correct": true, "reason": "Correcta. は marca el tema/sujeto en oraciones de identificación A は B です."},
-      {"text": "を", "correct": false, "reason": "を marca el OBJETO DIRECTO de un verbo (ej. パンを食べる). No se usa con です."},
-      {"text": "が", "correct": false, "reason": "が marca el sujeto pero con énfasis o información nueva. Para presentarse simplemente, は es lo natural."},
-      {"text": "の", "correct": false, "reason": "の conecta dos sustantivos (posesión/relación). 私の セバスチャン significaría 'mi Sebastián', sin sentido aquí."}
+      {
+        "text": "は",
+        "correct": true,
+        "explanation": "は (pronunciada 'wa' como partícula) marca el TEMA de la oración: 'en cuanto a mí, soy Sebastián'. Es la partícula básica de presentación. Correcta. は marca el tema/sujeto en oraciones de identificación A は B です."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "explanation": "を marca el OBJETO DIRECTO de un verbo (ej. パンを食べる). No se usa con です."
+      },
+      {
+        "text": "が",
+        "correct": false,
+        "explanation": "が marca el sujeto pero con énfasis o información nueva. Para presentarse simplemente, は es lo natural."
+      },
+      {
+        "text": "の",
+        "correct": false,
+        "explanation": "の conecta dos sustantivos (posesión/relación). 私の セバスチャン significaría 'mi Sebastián', sin sentido aquí."
+      }
     ]
   },
   {
     "id": "U1A-006",
     "cat": "Partículas",
     "q": "¿Cómo se pronuncia la partícula は cuando es partícula de tema?",
-    "correct": "wa",
-    "explanation": "El kana は normalmente se lee 'ha', pero cuando funciona como PARTÍCULA de tema se pronuncia 'wa' por convención histórica.",
     "opts": [
-      {"text": "wa", "correct": true, "reason": "Correcta. Es la pronunciación obligatoria cuando は funciona como partícula."},
-      {"text": "ha", "correct": false, "reason": "'ha' es la lectura del kana は dentro de palabras (ej. はじめまして), pero NO cuando es partícula."},
-      {"text": "ba", "correct": false, "reason": "'ba' corresponde a ば (con dakuten ゛). Es un kana distinto."},
-      {"text": "pa", "correct": false, "reason": "'pa' corresponde a ぱ (con handakuten ゜). Es un kana distinto."}
+      {
+        "text": "wa",
+        "correct": true,
+        "explanation": "El kana は normalmente se lee 'ha', pero cuando funciona como PARTÍCULA de tema se pronuncia 'wa' por convención histórica. Correcta. Es la pronunciación obligatoria cuando は funciona como partícula."
+      },
+      {
+        "text": "ha",
+        "correct": false,
+        "explanation": "'ha' es la lectura del kana は dentro de palabras (ej. はじめまして), pero NO cuando es partícula."
+      },
+      {
+        "text": "ba",
+        "correct": false,
+        "explanation": "'ba' corresponde a ば (con dakuten ゛). Es un kana distinto."
+      },
+      {
+        "text": "pa",
+        "correct": false,
+        "explanation": "'pa' corresponde a ぱ (con handakuten ゜). Es un kana distinto."
+      }
     ]
   },
   {
     "id": "U1A-007",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 私?",
-    "correct": "わたし",
-    "explanation": "私 (わたし) es el pronombre de primera persona neutro y estándar tanto para hombres como mujeres en contextos cotidianos y formales.",
     "opts": [
-      {"text": "わたし", "correct": true, "reason": "Correcta. Es la lectura kun'yomi estándar de 私 como pronombre 'yo'."},
-      {"text": "わたく", "correct": false, "reason": "Forma incompleta. La lectura súper formal es わたくし (con し final), usada en contextos muy ceremoniosos."},
-      {"text": "わし", "correct": false, "reason": "わし es un pronombre dialectal/anticuado usado por hombres mayores. No es la lectura estándar de 私."},
-      {"text": "あたし", "correct": false, "reason": "あたし es un pronombre informal femenino, pero no se escribe con el kanji 私 en uso estándar."}
+      {
+        "text": "わたし",
+        "correct": true,
+        "explanation": "私 (わたし) es el pronombre de primera persona neutro y estándar tanto para hombres como mujeres en contextos cotidianos y formales. Correcta. Es la lectura kun'yomi estándar de 私 como pronombre 'yo'."
+      },
+      {
+        "text": "わたく",
+        "correct": false,
+        "explanation": "Forma incompleta. La lectura súper formal es わたくし (con し final), usada en contextos muy ceremoniosos."
+      },
+      {
+        "text": "わし",
+        "correct": false,
+        "explanation": "わし es un pronombre dialectal/anticuado usado por hombres mayores. No es la lectura estándar de 私."
+      },
+      {
+        "text": "あたし",
+        "correct": false,
+        "explanation": "あたし es un pronombre informal femenino, pero no se escribe con el kanji 私 en uso estándar."
+      }
     ]
   },
   {
     "id": "U1A-008",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 名前?",
-    "correct": "なまえ",
-    "explanation": "名 (な, 'nombre') + 前 (まえ, 'delante') = なまえ ('nombre'). Es una palabra compuesta de lectura kun'yomi.",
     "opts": [
-      {"text": "なまえ", "correct": true, "reason": "Correcta. Es la lectura estándar del compuesto."},
-      {"text": "なぜん", "correct": false, "reason": "Mezcla la kun'yomi de 名 (な) con la on'yomi de 前 (ぜん). Las lecturas no se combinan así en esta palabra."},
-      {"text": "めいまえ", "correct": false, "reason": "めい es la on'yomi de 名 (ej. 名刺 めいし 'tarjeta'), pero no se usa con まえ en esta palabra."},
-      {"text": "みょうじ", "correct": false, "reason": "みょうじ se escribe 名字 o 苗字 y significa 'apellido', no 'nombre'. Palabra distinta."}
+      {
+        "text": "なまえ",
+        "correct": true,
+        "explanation": "名 (な, 'nombre') + 前 (まえ, 'delante') = なまえ ('nombre'). Es una palabra compuesta de lectura kun'yomi. Correcta. Es la lectura estándar del compuesto."
+      },
+      {
+        "text": "なぜん",
+        "correct": false,
+        "explanation": "Mezcla la kun'yomi de 名 (な) con la on'yomi de 前 (ぜん). Las lecturas no se combinan así en esta palabra."
+      },
+      {
+        "text": "めいまえ",
+        "correct": false,
+        "explanation": "めい es la on'yomi de 名 (ej. 名刺 めいし 'tarjeta'), pero no se usa con まえ en esta palabra."
+      },
+      {
+        "text": "みょうじ",
+        "correct": false,
+        "explanation": "みょうじ se escribe 名字 o 苗字 y significa 'apellido', no 'nombre'. Palabra distinta."
+      }
     ]
   },
   {
     "id": "U1A-009",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 国?",
-    "correct": "くに",
-    "explanation": "国 tiene dos lecturas principales: くに (kun'yomi, palabra suelta = 'país') y こく (on'yomi, en compuestos: 中国 ちゅうごく).",
     "opts": [
-      {"text": "くに", "correct": true, "reason": "Correcta. Es la lectura kun'yomi cuando 国 va sola como sustantivo."},
-      {"text": "こく", "correct": false, "reason": "こく es la on'yomi y se usa en compuestos como 韓国 (かんこく), no cuando 国 está sola."},
-      {"text": "こうに", "correct": false, "reason": "Lectura inexistente. Mezcla incorrecta de sonidos."},
-      {"text": "くん", "correct": false, "reason": "くん es un sufijo honorífico (~君), no la lectura de 国."}
+      {
+        "text": "くに",
+        "correct": true,
+        "explanation": "国 tiene dos lecturas principales: くに (kun'yomi, palabra suelta = 'país') y こく (on'yomi, en compuestos: 中国 ちゅうごく). Correcta. Es la lectura kun'yomi cuando 国 va sola como sustantivo."
+      },
+      {
+        "text": "こく",
+        "correct": false,
+        "explanation": "こく es la on'yomi y se usa en compuestos como 韓国 (かんこく), no cuando 国 está sola."
+      },
+      {
+        "text": "こうに",
+        "correct": false,
+        "explanation": "Lectura inexistente. Mezcla incorrecta de sonidos."
+      },
+      {
+        "text": "くん",
+        "correct": false,
+        "explanation": "くん es un sufijo honorífico (~君), no la lectura de 国."
+      }
     ]
   },
   {
     "id": "U1A-010",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 仕事?",
-    "correct": "しごと",
-    "explanation": "仕 (し) + 事 (ごと, con rendaku de こと → ごと) = しごと, 'trabajo / ocupación'.",
     "opts": [
-      {"text": "しごと", "correct": true, "reason": "Correcta. La lectura se forma con rendaku (こと → ごと) al ser segundo elemento del compuesto."},
-      {"text": "しじ", "correct": false, "reason": "しじ se escribe 指示 ('instrucción') o 支持 ('apoyo'), palabras totalmente distintas."},
-      {"text": "じごと", "correct": false, "reason": "El primer kanji 仕 se lee し (sin dakuten). じ sería incorrecto al inicio."},
-      {"text": "しことう", "correct": false, "reason": "Lectura inventada. 事 no tiene lectura ことう en este contexto."}
+      {
+        "text": "しごと",
+        "correct": true,
+        "explanation": "仕 (し) + 事 (ごと, con rendaku de こと → ごと) = しごと, 'trabajo / ocupación'. Correcta. La lectura se forma con rendaku (こと → ごと) al ser segundo elemento del compuesto."
+      },
+      {
+        "text": "しじ",
+        "correct": false,
+        "explanation": "しじ se escribe 指示 ('instrucción') o 支持 ('apoyo'), palabras totalmente distintas."
+      },
+      {
+        "text": "じごと",
+        "correct": false,
+        "explanation": "El primer kanji 仕 se lee し (sin dakuten). じ sería incorrecto al inicio."
+      },
+      {
+        "text": "しことう",
+        "correct": false,
+        "explanation": "Lectura inventada. 事 no tiene lectura ことう en este contexto."
+      }
     ]
   },
   {
     "id": "U1A-011",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 仕事?",
-    "correct": "Trabajo / profesión",
-    "explanation": "仕事 abarca el concepto general de 'trabajo' como actividad laboral o profesión. Es la palabra estándar para hablar de en qué trabaja alguien.",
     "opts": [
-      {"text": "Trabajo / profesión", "correct": true, "reason": "Correcta. Significado central de 仕事."},
-      {"text": "Empresa", "correct": false, "reason": "'Empresa' es 会社 (かいしゃ). 仕事 es la actividad, no el lugar."},
-      {"text": "Oficina", "correct": false, "reason": "'Oficina' es 事務所 (じむしょ) u オフィス. 仕事 no se refiere al lugar físico."},
-      {"text": "Tarea doméstica", "correct": false, "reason": "'Tarea doméstica' es 家事 (かじ). 仕事 implica trabajo profesional/remunerado."}
+      {
+        "text": "Trabajo / profesión",
+        "correct": true,
+        "explanation": "仕事 abarca el concepto general de 'trabajo' como actividad laboral o profesión. Es la palabra estándar para hablar de en qué trabaja alguien. Correcta. Significado central de 仕事."
+      },
+      {
+        "text": "Empresa",
+        "correct": false,
+        "explanation": "'Empresa' es 会社 (かいしゃ). 仕事 es la actividad, no el lugar."
+      },
+      {
+        "text": "Oficina",
+        "correct": false,
+        "explanation": "'Oficina' es 事務所 (じむしょ) u オフィス. 仕事 no se refiere al lugar físico."
+      },
+      {
+        "text": "Tarea doméstica",
+        "correct": false,
+        "explanation": "'Tarea doméstica' es 家事 (かじ). 仕事 implica trabajo profesional/remunerado."
+      }
     ]
   },
   {
     "id": "U1A-012",
     "cat": "Gramática",
     "q": "¿Para qué se usa el prefijo お en palabras como お国, お仕事, お名前?",
-    "correct": "Para ser más cortés al preguntar por el interlocutor",
-    "explanation": "お~ es el prefijo honorífico (美化語/尊敬語). Eleva el respeto hacia la cosa o persona referida, especialmente cuando pertenece al interlocutor.",
     "opts": [
-      {"text": "Para ser más cortés al preguntar por el interlocutor", "correct": true, "reason": "Correcta. お~ marca cortesía y respeto, típico al preguntarle al otro por sus datos."},
-      {"text": "Para indicar posesión", "correct": false, "reason": "La posesión en japonés se marca con la partícula の, no con un prefijo."},
-      {"text": "Para pluralizar", "correct": false, "reason": "El japonés no pluraliza con prefijos. Existen sufijos como ~たち pero no お~."},
-      {"text": "Para formar pasado", "correct": false, "reason": "El pasado se forma con conjugación verbal (~ました, ~でした), no con prefijos en sustantivos."}
+      {
+        "text": "Para ser más cortés al preguntar por el interlocutor",
+        "correct": true,
+        "explanation": "お~ es el prefijo honorífico (美化語/尊敬語). Eleva el respeto hacia la cosa o persona referida, especialmente cuando pertenece al interlocutor. Correcta. お~ marca cortesía y respeto, típico al preguntarle al otro por sus datos."
+      },
+      {
+        "text": "Para indicar posesión",
+        "correct": false,
+        "explanation": "La posesión en japonés se marca con la partícula の, no con un prefijo."
+      },
+      {
+        "text": "Para pluralizar",
+        "correct": false,
+        "explanation": "El japonés no pluraliza con prefijos. Existen sufijos como ~たち pero no お~."
+      },
+      {
+        "text": "Para formar pasado",
+        "correct": false,
+        "explanation": "El pasado se forma con conjugación verbal (~ました, ~でした), no con prefijos en sustantivos."
+      }
     ]
   },
   {
     "id": "U1A-013",
     "cat": "Gramática",
     "q": "¿Cuándo NO se usa お delante de 国/仕事/名前?",
-    "correct": "Cuando hablás de vos mismo (mi nombre, mi trabajo)",
-    "explanation": "お~ es honorífico y eleva al referente. Aplicarlo a uno mismo sería auto-elevarse, lo cual va contra la cortesía japonesa (modestia).",
     "opts": [
-      {"text": "Cuando hablás de vos mismo (mi nombre, mi trabajo)", "correct": true, "reason": "Correcta. Decir 私のお名前... sería arrogante. Solo se omite el お para uno mismo."},
-      {"text": "En contextos formales", "correct": false, "reason": "Al revés: お~ es MÁS común en contextos formales, no menos."},
-      {"text": "Al escribir", "correct": false, "reason": "El uso de お~ no depende del medio (oral o escrito), sino de quién es el referente."},
-      {"text": "Al hablar por teléfono", "correct": false, "reason": "Al teléfono se usa lenguaje aún más cortés. お~ se mantiene o aumenta."}
+      {
+        "text": "Cuando hablás de vos mismo (mi nombre, mi trabajo)",
+        "correct": true,
+        "explanation": "お~ es honorífico y eleva al referente. Aplicarlo a uno mismo sería auto-elevarse, lo cual va contra la cortesía japonesa (modestia). Correcta. Decir 私のお名前... sería arrogante. Solo se omite el お para uno mismo."
+      },
+      {
+        "text": "En contextos formales",
+        "correct": false,
+        "explanation": "Al revés: お~ es MÁS común en contextos formales, no menos."
+      },
+      {
+        "text": "Al escribir",
+        "correct": false,
+        "explanation": "El uso de お~ no depende del medio (oral o escrito), sino de quién es el referente."
+      },
+      {
+        "text": "Al hablar por teléfono",
+        "correct": false,
+        "explanation": "Al teléfono se usa lenguaje aún más cortés. お~ se mantiene o aumenta."
+      }
     ]
   },
   {
     "id": "U1A-014",
     "cat": "Vocabulario",
     "q": "¿Cómo se pregunta '¿De qué país sos?' de manera educada?",
-    "correct": "お国は どちらですか。",
-    "explanation": "Fórmula educada: お国 (con honorífico) + は + どちら ('cuál', formal) + ですか. Literalmente: '¿En cuanto a su país, cuál es?'.",
     "opts": [
-      {"text": "お国は どちらですか。", "correct": true, "reason": "Correcta. Combina el honorífico お~ con どちら (forma educada de どこ)."},
-      {"text": "お国は どこですか。", "correct": false, "reason": "Aunque entendible, mezcla el honorífico お~ con どこ (más casual). Lo coherente con お~ es どちら."},
-      {"text": "国は 何ですか。", "correct": false, "reason": "何 ('qué') no se usa para países; suena raro. Y falta el お~ honorífico."},
-      {"text": "お国は だれですか。", "correct": false, "reason": "だれ significa '¿quién?'. No tiene sentido preguntar 'quién es tu país'."}
+      {
+        "text": "お国は どちらですか。",
+        "correct": true,
+        "explanation": "Fórmula educada: お国 (con honorífico) + は + どちら ('cuál', formal) + ですか. Literalmente: '¿En cuanto a su país, cuál es?'. Correcta. Combina el honorífico お~ con どちら (forma educada de どこ)."
+      },
+      {
+        "text": "お国は どこですか。",
+        "correct": false,
+        "explanation": "Aunque entendible, mezcla el honorífico お~ con どこ (más casual). Lo coherente con お~ es どちら."
+      },
+      {
+        "text": "国は 何ですか。",
+        "correct": false,
+        "explanation": "何 ('qué') no se usa para países; suena raro. Y falta el お~ honorífico."
+      },
+      {
+        "text": "お国は だれですか。",
+        "correct": false,
+        "explanation": "だれ significa '¿quién?'. No tiene sentido preguntar 'quién es tu país'."
+      }
     ]
   },
   {
     "id": "U1A-015",
     "cat": "Distinción",
     "q": "En contexto de presentaciones, ¿cuál es más educado: どちら o どこ?",
-    "correct": "どちら (es la versión formal/educada)",
-    "explanation": "どちら literalmente significa '¿hacia qué lado?' y se usa como versión cortés de どこ (¿dónde?) en presentaciones formales.",
     "opts": [
-      {"text": "どちら (es la versión formal/educada)", "correct": true, "reason": "Correcta. どちら es la opción cortés, ideal con お国 / お名前."},
-      {"text": "どこ (es la versión formal)", "correct": false, "reason": "Invertido. どこ es la versión más directa/casual; どちら es la formal."},
-      {"text": "Son exactamente iguales", "correct": false, "reason": "Tienen el mismo significado base ('dónde/cuál'), pero el registro de cortesía es distinto."},
-      {"text": "どちら es casual; どこ es formal", "correct": false, "reason": "Invertido. La regla mnemotécnica: 'どちら = cortés' por ser más indirecto."}
+      {
+        "text": "どちら (es la versión formal/educada)",
+        "correct": true,
+        "explanation": "どちら literalmente significa '¿hacia qué lado?' y se usa como versión cortés de どこ (¿dónde?) en presentaciones formales. Correcta. どちら es la opción cortés, ideal con お国 / お名前."
+      },
+      {
+        "text": "どこ (es la versión formal)",
+        "correct": false,
+        "explanation": "Invertido. どこ es la versión más directa/casual; どちら es la formal."
+      },
+      {
+        "text": "Son exactamente iguales",
+        "correct": false,
+        "explanation": "Tienen el mismo significado base ('dónde/cuál'), pero el registro de cortesía es distinto."
+      },
+      {
+        "text": "どちら es casual; どこ es formal",
+        "correct": false,
+        "explanation": "Invertido. La regla mnemotécnica: 'どちら = cortés' por ser más indirecto."
+      }
     ]
   },
   {
     "id": "U1A-016",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Soy argentino/a'?",
-    "correct": "アルゼンチン人です。",
-    "explanation": "Para nacionalidades se usa: [país en katakana] + 人 (じん) + です. アルゼンチン (país) + 人 = 'argentino'.",
     "opts": [
-      {"text": "アルゼンチン人です。", "correct": true, "reason": "Correcta. Estructura estándar país+人 para nacionalidades."},
-      {"text": "アルゼンチンです。", "correct": false, "reason": "Sin 人 significa 'soy Argentina (el país)', no 'soy argentino'."},
-      {"text": "アルゼンチンのです。", "correct": false, "reason": "の sin sustantivo siguiente queda incompleto. La frase no se cierra correctamente."},
-      {"text": "アルゼンチン国です。", "correct": false, "reason": "Significaría 'soy el país Argentina'. 国 no se agrega al hablar de nacionalidad."}
+      {
+        "text": "アルゼンチン人です。",
+        "correct": true,
+        "explanation": "Para nacionalidades se usa: [país en katakana] + 人 (じん) + です. アルゼンチン (país) + 人 = 'argentino'. Correcta. Estructura estándar país+人 para nacionalidades."
+      },
+      {
+        "text": "アルゼンチンです。",
+        "correct": false,
+        "explanation": "Sin 人 significa 'soy Argentina (el país)', no 'soy argentino'."
+      },
+      {
+        "text": "アルゼンチンのです。",
+        "correct": false,
+        "explanation": "の sin sustantivo siguiente queda incompleto. La frase no se cierra correctamente."
+      },
+      {
+        "text": "アルゼンチン国です。",
+        "correct": false,
+        "explanation": "Significaría 'soy el país Argentina'. 国 no se agrega al hablar de nacionalidad."
+      }
     ]
   },
   {
     "id": "U1A-017",
     "cat": "Gramática",
     "q": "El sufijo ~人 (じん) se usa para:",
-    "correct": "Formar nacionalidad (país + 人 = persona de ese país)",
-    "explanation": "~人 (じん) significa 'persona' y se sufija a un nombre de país para formar el gentilicio: 日本人, アメリカ人, etc.",
     "opts": [
-      {"text": "Formar nacionalidad (país + 人 = persona de ese país)", "correct": true, "reason": "Correcta. Es la función gramatical principal de ~人 en este contexto."},
-      {"text": "Formar plurales", "correct": false, "reason": "El plural se forma con ~たち o ~ら (ej. 学生たち), no con ~人."},
-      {"text": "Indicar respeto", "correct": false, "reason": "El respeto se marca con ~さん, ~様 u お~. ~人 es neutral."},
-      {"text": "Indicar idioma", "correct": false, "reason": "El idioma se forma con ~語 (ご): 日本語, 英語. ~人 es para personas."}
+      {
+        "text": "Formar nacionalidad (país + 人 = persona de ese país)",
+        "correct": true,
+        "explanation": "~人 (じん) significa 'persona' y se sufija a un nombre de país para formar el gentilicio: 日本人, アメリカ人, etc. Correcta. Es la función gramatical principal de ~人 en este contexto."
+      },
+      {
+        "text": "Formar plurales",
+        "correct": false,
+        "explanation": "El plural se forma con ~たち o ~ら (ej. 学生たち), no con ~人."
+      },
+      {
+        "text": "Indicar respeto",
+        "correct": false,
+        "explanation": "El respeto se marca con ~さん, ~様 u お~. ~人 es neutral."
+      },
+      {
+        "text": "Indicar idioma",
+        "correct": false,
+        "explanation": "El idioma se forma con ~語 (ご): 日本語, 英語. ~人 es para personas."
+      }
     ]
   },
   {
     "id": "U1A-018",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 日本?",
-    "correct": "にほん",
-    "explanation": "日本 tiene dos lecturas válidas: にほん (más común) y にっぽん (más enfática/oficial). En aprendizaje básico se usa にほん.",
     "opts": [
-      {"text": "にほん", "correct": true, "reason": "Correcta. Es la lectura estándar y de uso diario."},
-      {"text": "にっぽ", "correct": false, "reason": "Está incompleta y le falta el ん final. La forma enfática completa sería にっぽん."},
-      {"text": "にちほん", "correct": false, "reason": "Mezcla la on'yomi にち (de 日 sola) con ほん. En 日本 la lectura es にほん o にっぽん."},
-      {"text": "じっぽん", "correct": false, "reason": "Lectura inexistente. Aunque puede recordar a 'Japón' en español, no es japonés."}
+      {
+        "text": "にほん",
+        "correct": true,
+        "explanation": "日本 tiene dos lecturas válidas: にほん (más común) y にっぽん (más enfática/oficial). En aprendizaje básico se usa にほん. Correcta. Es la lectura estándar y de uso diario."
+      },
+      {
+        "text": "にっぽ",
+        "correct": false,
+        "explanation": "Está incompleta y le falta el ん final. La forma enfática completa sería にっぽん."
+      },
+      {
+        "text": "にちほん",
+        "correct": false,
+        "explanation": "Mezcla la on'yomi にち (de 日 sola) con ほん. En 日本 la lectura es にほん o にっぽん."
+      },
+      {
+        "text": "じっぽん",
+        "correct": false,
+        "explanation": "Lectura inexistente. Aunque puede recordar a 'Japón' en español, no es japonés."
+      }
     ]
   },
   {
     "id": "U1A-019",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 日本人?",
-    "correct": "にほんじん",
-    "explanation": "日本 (にほん) + 人 (じん, on'yomi en compuestos) = にほんじん, 'persona japonesa / japonés'.",
     "opts": [
-      {"text": "にほんじん", "correct": true, "reason": "Correcta. 人 toma su lectura on'yomi じん cuando se sufija a países."},
-      {"text": "にほんひと", "correct": false, "reason": "ひと es la lectura kun'yomi de 人 cuando va sola. En compuestos con países se usa じん."},
-      {"text": "にっぽんじん", "correct": false, "reason": "Es válida pero más enfática/formal. La lectura estándar y más frecuente es にほんじん."},
-      {"text": "じほんじん", "correct": false, "reason": "日 no se lee じ al inicio de 日本. Es に."}
+      {
+        "text": "にほんじん",
+        "correct": true,
+        "explanation": "日本 (にほん) + 人 (じん, on'yomi en compuestos) = にほんじん, 'persona japonesa / japonés'. Correcta. 人 toma su lectura on'yomi じん cuando se sufija a países."
+      },
+      {
+        "text": "にほんひと",
+        "correct": false,
+        "explanation": "ひと es la lectura kun'yomi de 人 cuando va sola. En compuestos con países se usa じん."
+      },
+      {
+        "text": "にっぽんじん",
+        "correct": false,
+        "explanation": "Es válida pero más enfática/formal. La lectura estándar y más frecuente es にほんじん."
+      },
+      {
+        "text": "じほんじん",
+        "correct": false,
+        "explanation": "日 no se lee じ al inicio de 日本. Es に."
+      }
     ]
   },
   {
     "id": "U1A-020",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Estados Unidos' en japonés?",
-    "correct": "アメリカ",
-    "explanation": "En japonés cotidiano, 'Estados Unidos' se dice アメリカ (del inglés 'America'). Para nacionalidad: アメリカ人.",
     "opts": [
-      {"text": "アメリカ", "correct": true, "reason": "Correcta. Es la palabra de uso común en katakana."},
-      {"text": "ユエス", "correct": false, "reason": "No es una palabra usada en japonés. Aunque exista 'US' en inglés, en japonés se dice アメリカ."},
-      {"text": "ベイコク", "correct": false, "reason": "米国 (べいこく) existe pero es término formal/escrito (prensa, política). En conversación se usa アメリカ."},
-      {"text": "エイコク", "correct": false, "reason": "英国 (えいこく) significa 'Reino Unido / Inglaterra', no Estados Unidos."}
+      {
+        "text": "アメリカ",
+        "correct": true,
+        "explanation": "En japonés cotidiano, 'Estados Unidos' se dice アメリカ (del inglés 'America'). Para nacionalidad: アメリカ人. Correcta. Es la palabra de uso común en katakana."
+      },
+      {
+        "text": "ユエス",
+        "correct": false,
+        "explanation": "No es una palabra usada en japonés. Aunque exista 'US' en inglés, en japonés se dice アメリカ."
+      },
+      {
+        "text": "ベイコク",
+        "correct": false,
+        "explanation": "米国 (べいこく) existe pero es término formal/escrito (prensa, política). En conversación se usa アメリカ."
+      },
+      {
+        "text": "エイコク",
+        "correct": false,
+        "explanation": "英国 (えいこく) significa 'Reino Unido / Inglaterra', no Estados Unidos."
+      }
     ]
   },
   {
     "id": "U1A-021",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Italia' en japonés?",
-    "correct": "イタリア",
-    "explanation": "Los nombres de países extranjeros se escriben en katakana adaptando la pronunciación. Italia → イタリア.",
     "opts": [
-      {"text": "イタリア", "correct": true, "reason": "Correcta. Es la transcripción estándar."},
-      {"text": "イタリー", "correct": false, "reason": "Se basa en el inglés 'Italy', pero en japonés se prefiere la forma derivada del italiano: イタリア."},
-      {"text": "イタリ", "correct": false, "reason": "Falta la vocal final ア. La forma completa es イタリア."},
-      {"text": "イトリア", "correct": false, "reason": "Cambia incorrectamente la primera vocal (タ → ト). No es la transcripción correcta."}
+      {
+        "text": "イタリア",
+        "correct": true,
+        "explanation": "Los nombres de países extranjeros se escriben en katakana adaptando la pronunciación. Italia → イタリア. Correcta. Es la transcripción estándar."
+      },
+      {
+        "text": "イタリー",
+        "correct": false,
+        "explanation": "Se basa en el inglés 'Italy', pero en japonés se prefiere la forma derivada del italiano: イタリア."
+      },
+      {
+        "text": "イタリ",
+        "correct": false,
+        "explanation": "Falta la vocal final ア. La forma completa es イタリア."
+      },
+      {
+        "text": "イトリア",
+        "correct": false,
+        "explanation": "Cambia incorrectamente la primera vocal (タ → ト). No es la transcripción correcta."
+      }
     ]
   },
   {
     "id": "U1A-022",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Australia' en japonés?",
-    "correct": "オーストラリア",
-    "explanation": "Australia → オーストラリア. Notá la marca de vocal larga ー después de オ.",
     "opts": [
-      {"text": "オーストラリア", "correct": true, "reason": "Correcta. Transcripción estándar con vocal larga ー."},
-      {"text": "オーストリア", "correct": false, "reason": "¡Atención! オーストリア significa 'Austria' (el país de Europa central), no Australia."},
-      {"text": "アウストラリア", "correct": false, "reason": "El sonido inicial /ɔː/ se transcribe オー en japonés, no アウ."},
-      {"text": "オーストラリヤ", "correct": false, "reason": "Se usa リア, no リヤ. リヤ no es la transcripción estándar."}
+      {
+        "text": "オーストラリア",
+        "correct": true,
+        "explanation": "Australia → オーストラリア. Notá la marca de vocal larga ー después de オ. Correcta. Transcripción estándar con vocal larga ー."
+      },
+      {
+        "text": "オーストリア",
+        "correct": false,
+        "explanation": "¡Atención! オーストリア significa 'Austria' (el país de Europa central), no Australia."
+      },
+      {
+        "text": "アウストラリア",
+        "correct": false,
+        "explanation": "El sonido inicial /ɔː/ se transcribe オー en japonés, no アウ."
+      },
+      {
+        "text": "オーストラリヤ",
+        "correct": false,
+        "explanation": "Se usa リア, no リヤ. リヤ no es la transcripción estándar."
+      }
     ]
   },
   {
     "id": "U1A-023",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Corea' en japonés?",
-    "correct": "韓国 (かんこく)",
-    "explanation": "韓国 (かんこく) se refiere específicamente a Corea del Sur. Es la forma estándar y neutra. 朝鮮 (ちょうせん) tiene connotaciones históricas/políticas distintas.",
     "opts": [
-      {"text": "韓国 (かんこく)", "correct": true, "reason": "Correcta. Es el nombre actual y estándar de Corea (del Sur) en japonés."},
-      {"text": "朝鮮 (ちょうせん)", "correct": false, "reason": "Hace referencia a la Corea histórica o a Corea del Norte (北朝鮮). No es la forma neutra para 'Corea' hoy."},
-      {"text": "コリア", "correct": false, "reason": "Aunque es entendible como préstamo, no se usa: el japonés tiene la palabra propia 韓国."},
-      {"text": "カンコック", "correct": false, "reason": "Transcripción incorrecta. La lectura es かんこく (sin 'ck' final) y se escribe en kanji o hiragana."}
+      {
+        "text": "韓国 (かんこく)",
+        "correct": true,
+        "explanation": "韓国 (かんこく) se refiere específicamente a Corea del Sur. Es la forma estándar y neutra. 朝鮮 (ちょうせん) tiene connotaciones históricas/políticas distintas. Correcta. Es el nombre actual y estándar de Corea (del Sur) en japonés."
+      },
+      {
+        "text": "朝鮮 (ちょうせん)",
+        "correct": false,
+        "explanation": "Hace referencia a la Corea histórica o a Corea del Norte (北朝鮮). No es la forma neutra para 'Corea' hoy."
+      },
+      {
+        "text": "コリア",
+        "correct": false,
+        "explanation": "Aunque es entendible como préstamo, no se usa: el japonés tiene la palabra propia 韓国."
+      },
+      {
+        "text": "カンコック",
+        "correct": false,
+        "explanation": "Transcripción incorrecta. La lectura es かんこく (sin 'ck' final) y se escribe en kanji o hiragana."
+      }
     ]
   },
   {
     "id": "U1A-024",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'China' en japonés?",
-    "correct": "中国 (ちゅうごく)",
-    "explanation": "中国 ('país del centro') es el nombre estándar de China en japonés. 中 (ちゅう) + 国 (ごく, con rendaku).",
     "opts": [
-      {"text": "中国 (ちゅうごく)", "correct": true, "reason": "Correcta. Forma estándar y neutra del nombre."},
-      {"text": "チャイナ", "correct": false, "reason": "El japonés tiene su propia palabra (中国), no se usa el préstamo del inglés."},
-      {"text": "中華 (ちゅうか)", "correct": false, "reason": "中華 se refiere a la cultura/civilización china (ej. 中華料理 'comida china'), no al país en sí."},
-      {"text": "しなごく", "correct": false, "reason": "支那 (しな) es un término histórico considerado ofensivo hoy. No se debe usar."}
+      {
+        "text": "中国 (ちゅうごく)",
+        "correct": true,
+        "explanation": "中国 ('país del centro') es el nombre estándar de China en japonés. 中 (ちゅう) + 国 (ごく, con rendaku). Correcta. Forma estándar y neutra del nombre."
+      },
+      {
+        "text": "チャイナ",
+        "correct": false,
+        "explanation": "El japonés tiene su propia palabra (中国), no se usa el préstamo del inglés."
+      },
+      {
+        "text": "中華 (ちゅうか)",
+        "correct": false,
+        "explanation": "中華 se refiere a la cultura/civilización china (ej. 中華料理 'comida china'), no al país en sí."
+      },
+      {
+        "text": "しなごく",
+        "correct": false,
+        "explanation": "支那 (しな) es un término histórico considerado ofensivo hoy. No se debe usar."
+      }
     ]
   },
   {
     "id": "U1A-025",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Rusia' en japonés?",
-    "correct": "ロシア",
-    "explanation": "Rusia → ロシア. Transcripción adaptada del nombre original. Para nacionalidad: ロシア人 (ろしあじん).",
     "opts": [
-      {"text": "ロシア", "correct": true, "reason": "Correcta. Es la transcripción estándar."},
-      {"text": "ルシア", "correct": false, "reason": "El sonido inicial es ロ (ro), no ル (ru), en la transcripción japonesa."},
-      {"text": "ロシヤ", "correct": false, "reason": "Forma anticuada. La grafía moderna estándar usa ア, no ヤ."},
-      {"text": "ラシア", "correct": false, "reason": "El sonido inicial no es ラ (ra) sino ロ (ro)."}
+      {
+        "text": "ロシア",
+        "correct": true,
+        "explanation": "Rusia → ロシア. Transcripción adaptada del nombre original. Para nacionalidad: ロシア人 (ろしあじん). Correcta. Es la transcripción estándar."
+      },
+      {
+        "text": "ルシア",
+        "correct": false,
+        "explanation": "El sonido inicial es ロ (ro), no ル (ru), en la transcripción japonesa."
+      },
+      {
+        "text": "ロシヤ",
+        "correct": false,
+        "explanation": "Forma anticuada. La grafía moderna estándar usa ア, no ヤ."
+      },
+      {
+        "text": "ラシア",
+        "correct": false,
+        "explanation": "El sonido inicial no es ラ (ra) sino ロ (ro)."
+      }
     ]
   },
   {
     "id": "U1A-026",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Tailandia' en japonés?",
-    "correct": "タイ",
-    "explanation": "Tailandia → タイ (de 'Thai'). En japonés se usa la forma corta del idioma original. Nacionalidad: タイ人 (たいじん).",
     "opts": [
-      {"text": "タイ", "correct": true, "reason": "Correcta. Forma corta y estándar."},
-      {"text": "タイランド", "correct": false, "reason": "Aunque sería transcripción de 'Thailand', el japonés usa la forma corta タイ."},
-      {"text": "タイコク", "correct": false, "reason": "タイ国 con 国 redundante no es uso estándar para este país en presentaciones."},
-      {"text": "サイ", "correct": false, "reason": "サイ significa 'rinoceronte' (犀) o 'edad' (歳). Nada que ver con Tailandia."}
+      {
+        "text": "タイ",
+        "correct": true,
+        "explanation": "Tailandia → タイ (de 'Thai'). En japonés se usa la forma corta del idioma original. Nacionalidad: タイ人 (たいじん). Correcta. Forma corta y estándar."
+      },
+      {
+        "text": "タイランド",
+        "correct": false,
+        "explanation": "Aunque sería transcripción de 'Thailand', el japonés usa la forma corta タイ."
+      },
+      {
+        "text": "タイコク",
+        "correct": false,
+        "explanation": "タイ国 con 国 redundante no es uso estándar para este país en presentaciones."
+      },
+      {
+        "text": "サイ",
+        "correct": false,
+        "explanation": "サイ significa 'rinoceronte' (犀) o 'edad' (歳). Nada que ver con Tailandia."
+      }
     ]
   },
   {
     "id": "U1A-027",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Brasil' en japonés?",
-    "correct": "ブラジル",
-    "explanation": "Brasil → ブラジル. Notá que se usa ジ (ji), no ジー larga ni シ.",
     "opts": [
-      {"text": "ブラジル", "correct": true, "reason": "Correcta. Transcripción estándar."},
-      {"text": "ブラゼル", "correct": false, "reason": "Se basaría en una pronunciación inglesa ('Brazel'), pero el japonés sigue la pronunciación portuguesa."},
-      {"text": "ブラジリア", "correct": false, "reason": "ブラジリア es la CAPITAL de Brasil (Brasilia), no el país."},
-      {"text": "ブラジール", "correct": false, "reason": "La vocal no es larga; se escribe ブラジル sin ー."}
+      {
+        "text": "ブラジル",
+        "correct": true,
+        "explanation": "Brasil → ブラジル. Notá que se usa ジ (ji), no ジー larga ni シ. Correcta. Transcripción estándar."
+      },
+      {
+        "text": "ブラゼル",
+        "correct": false,
+        "explanation": "Se basaría en una pronunciación inglesa ('Brazel'), pero el japonés sigue la pronunciación portuguesa."
+      },
+      {
+        "text": "ブラジリア",
+        "correct": false,
+        "explanation": "ブラジリア es la CAPITAL de Brasil (Brasilia), no el país."
+      },
+      {
+        "text": "ブラジール",
+        "correct": false,
+        "explanation": "La vocal no es larga; se escribe ブラジル sin ー."
+      }
     ]
   },
   {
     "id": "U1A-028",
     "cat": "Vocabulario",
     "q": "¿Cómo se pregunta '¿En qué trabajás?' de forma corta?",
-    "correct": "お仕事は？",
-    "explanation": "Es la versión coloquial educada: solo el sustantivo + は (con entonación ascendente) basta para preguntar. Sobreentiende '¿qué es?'.",
     "opts": [
-      {"text": "お仕事は？", "correct": true, "reason": "Correcta. La partícula は marca el tema y la entonación hace la pregunta."},
-      {"text": "お仕事が？", "correct": false, "reason": "が marca sujeto/foco, no se usa para preguntar abiertamente sobre un tema."},
-      {"text": "お仕事を？", "correct": false, "reason": "を marca objeto directo de un verbo. Sin verbo, no funciona."},
-      {"text": "お仕事に？", "correct": false, "reason": "に indica dirección/destino/tiempo. No tiene sentido como pregunta abierta sobre el trabajo."}
+      {
+        "text": "お仕事は？",
+        "correct": true,
+        "explanation": "Es la versión coloquial educada: solo el sustantivo + は (con entonación ascendente) basta para preguntar. Sobreentiende '¿qué es?'. Correcta. La partícula は marca el tema y la entonación hace la pregunta."
+      },
+      {
+        "text": "お仕事が？",
+        "correct": false,
+        "explanation": "が marca sujeto/foco, no se usa para preguntar abiertamente sobre un tema."
+      },
+      {
+        "text": "お仕事を？",
+        "correct": false,
+        "explanation": "を marca objeto directo de un verbo. Sin verbo, no funciona."
+      },
+      {
+        "text": "お仕事に？",
+        "correct": false,
+        "explanation": "に indica dirección/destino/tiempo. No tiene sentido como pregunta abierta sobre el trabajo."
+      }
     ]
   },
   {
     "id": "U1A-029",
     "cat": "Vocabulario",
     "q": "¿Qué significa 会社員 (かいしゃいん)?",
-    "correct": "Empleado de empresa",
-    "explanation": "会社 (かいしゃ, 'empresa') + 員 (いん, 'miembro/empleado') = 'empleado de empresa'. Es la profesión genérica de oficinista.",
     "opts": [
-      {"text": "Empleado de empresa", "correct": true, "reason": "Correcta. Significado literal y de uso."},
-      {"text": "Dueño de empresa", "correct": false, "reason": "'Dueño/presidente' es 社長 (しゃちょう). 会社員 es subordinado."},
-      {"text": "Jefe", "correct": false, "reason": "'Jefe' (de sección) es 部長 (ぶちょう) o 課長 (かちょう). 会社員 no implica jerarquía."},
-      {"text": "Secretaria", "correct": false, "reason": "'Secretaria' es 秘書 (ひしょ). Es una ocupación específica, no 会社員 genérico."}
+      {
+        "text": "Empleado de empresa",
+        "correct": true,
+        "explanation": "会社 (かいしゃ, 'empresa') + 員 (いん, 'miembro/empleado') = 'empleado de empresa'. Es la profesión genérica de oficinista. Correcta. Significado literal y de uso."
+      },
+      {
+        "text": "Dueño de empresa",
+        "correct": false,
+        "explanation": "'Dueño/presidente' es 社長 (しゃちょう). 会社員 es subordinado."
+      },
+      {
+        "text": "Jefe",
+        "correct": false,
+        "explanation": "'Jefe' (de sección) es 部長 (ぶちょう) o 課長 (かちょう). 会社員 no implica jerarquía."
+      },
+      {
+        "text": "Secretaria",
+        "correct": false,
+        "explanation": "'Secretaria' es 秘書 (ひしょ). Es una ocupación específica, no 会社員 genérico."
+      }
     ]
   },
   {
     "id": "U1A-030",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 会社員?",
-    "correct": "かいしゃいん",
-    "explanation": "会 (かい) + 社 (しゃ) + 員 (いん). Las tres lecturas son on'yomi en este compuesto sino-japonés.",
     "opts": [
-      {"text": "かいしゃいん", "correct": true, "reason": "Correcta. Combinación de on'yomi estándar."},
-      {"text": "かいしゃえん", "correct": false, "reason": "員 se lee いん, no えん. えん corresponde a 円 (yen) o 園."},
-      {"text": "かいじゃいん", "correct": false, "reason": "社 se lee しゃ (sin dakuten) en este compuesto, no じゃ."},
-      {"text": "えしゃいん", "correct": false, "reason": "会 se lee かい, no え. え es la kun'yomi de 絵 ('dibujo')."}
+      {
+        "text": "かいしゃいん",
+        "correct": true,
+        "explanation": "会 (かい) + 社 (しゃ) + 員 (いん). Las tres lecturas son on'yomi en este compuesto sino-japonés. Correcta. Combinación de on'yomi estándar."
+      },
+      {
+        "text": "かいしゃえん",
+        "correct": false,
+        "explanation": "員 se lee いん, no えん. えん corresponde a 円 (yen) o 園."
+      },
+      {
+        "text": "かいじゃいん",
+        "correct": false,
+        "explanation": "社 se lee しゃ (sin dakuten) en este compuesto, no じゃ."
+      },
+      {
+        "text": "えしゃいん",
+        "correct": false,
+        "explanation": "会 se lee かい, no え. え es la kun'yomi de 絵 ('dibujo')."
+      }
     ]
   },
   {
     "id": "U1A-031",
     "cat": "Vocabulario",
     "q": "¿Qué significa 学生 (がくせい)?",
-    "correct": "Estudiante",
-    "explanation": "学 (がく, 'aprender') + 生 (せい, 'persona/vida') = がくせい, 'estudiante'. Suele referirse a estudiantes universitarios o de secundaria/preparatoria.",
     "opts": [
-      {"text": "Estudiante", "correct": true, "reason": "Correcta. Significado central."},
-      {"text": "Escuela", "correct": false, "reason": "'Escuela' es 学校 (がっこう). 学生 es la persona, no la institución."},
-      {"text": "Profesor", "correct": false, "reason": "'Profesor' es 先生 (せんせい) o 教師 (きょうし). Roles opuestos al estudiante."},
-      {"text": "Alumno de primaria", "correct": false, "reason": "Específicamente 'alumno de primaria' es 小学生 (しょうがくせい). 学生 es genérico/superior."}
+      {
+        "text": "Estudiante",
+        "correct": true,
+        "explanation": "学 (がく, 'aprender') + 生 (せい, 'persona/vida') = がくせい, 'estudiante'. Suele referirse a estudiantes universitarios o de secundaria/preparatoria. Correcta. Significado central."
+      },
+      {
+        "text": "Escuela",
+        "correct": false,
+        "explanation": "'Escuela' es 学校 (がっこう). 学生 es la persona, no la institución."
+      },
+      {
+        "text": "Profesor",
+        "correct": false,
+        "explanation": "'Profesor' es 先生 (せんせい) o 教師 (きょうし). Roles opuestos al estudiante."
+      },
+      {
+        "text": "Alumno de primaria",
+        "correct": false,
+        "explanation": "Específicamente 'alumno de primaria' es 小学生 (しょうがくせい). 学生 es genérico/superior."
+      }
     ]
   },
   {
     "id": "U1A-032",
     "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre 先生 y 教師?",
-    "correct": "先生 se usa para dirigirse a ellos (título); 教師 es la profesión objetiva",
-    "explanation": "先生 es honorífico (no se usa para uno mismo); 教師 es la denominación profesional neutra. Un profesor dirá '私は教師です' pero los demás le dirán '〜先生'.",
     "opts": [
-      {"text": "先生 se usa para dirigirse a ellos (título); 教師 es la profesión objetiva", "correct": true, "reason": "Correcta. Distinción clave de uso pragmático."},
-      {"text": "先生 = profesor hombre; 教師 = profesora mujer", "correct": false, "reason": "Ningún término marca género. Esto es un error conceptual."},
-      {"text": "先生 = universitario; 教師 = secundario", "correct": false, "reason": "El nivel educativo no determina la elección. 先生 se usa para profesores, médicos, etc., a cualquier nivel."},
-      {"text": "Son intercambiables sin diferencia", "correct": false, "reason": "Hay diferencia clara: 先生 es título honorífico; 教師 es profesión neutra."}
+      {
+        "text": "先生 se usa para dirigirse a ellos (título); 教師 es la profesión objetiva",
+        "correct": true,
+        "explanation": "先生 es honorífico (no se usa para uno mismo); 教師 es la denominación profesional neutra. Un profesor dirá '私は教師です' pero los demás le dirán '〜先生'. Correcta. Distinción clave de uso pragmático."
+      },
+      {
+        "text": "先生 = profesor hombre; 教師 = profesora mujer",
+        "correct": false,
+        "explanation": "Ningún término marca género. Esto es un error conceptual."
+      },
+      {
+        "text": "先生 = universitario; 教師 = secundario",
+        "correct": false,
+        "explanation": "El nivel educativo no determina la elección. 先生 se usa para profesores, médicos, etc., a cualquier nivel."
+      },
+      {
+        "text": "Son intercambiables sin diferencia",
+        "correct": false,
+        "explanation": "Hay diferencia clara: 先生 es título honorífico; 教師 es profesión neutra."
+      }
     ]
   },
   {
     "id": "U1A-033",
     "cat": "Distinción",
     "q": "¿Podés presentarte diciendo '私は 先生です' si sos profesor?",
-    "correct": "No, lo correcto es 私は 教師です (先生 es título honorífico, no se usa para uno mismo)",
-    "explanation": "En japonés es de mala educación auto-aplicarse honoríficos. 先生 implica respeto del que habla hacia el referente; aplicárselo a uno mismo es presuntuoso.",
     "opts": [
-      {"text": "No, lo correcto es 私は 教師です (先生 es título honorífico, no se usa para uno mismo)", "correct": true, "reason": "Correcta. Regla clave de modestia (謙譲 けんじょう) en japonés."},
-      {"text": "Sí, es perfectamente correcto", "correct": false, "reason": "Es socialmente incorrecto: equivale a auto-titularse 'maestro'."},
-      {"text": "No, se dice 私は 教員です", "correct": false, "reason": "教員 (きょういん) existe y es válido (más formal/administrativo), pero la opción más común para presentarse es 教師."},
-      {"text": "Sí, pero solo en universidades", "correct": false, "reason": "El nivel educativo no cambia la regla: 先生 nunca se usa para uno mismo."}
+      {
+        "text": "No, lo correcto es 私は 教師です (先生 es título honorífico, no se usa para uno mismo)",
+        "correct": true,
+        "explanation": "En japonés es de mala educación auto-aplicarse honoríficos. 先生 implica respeto del que habla hacia el referente; aplicárselo a uno mismo es presuntuoso. Correcta. Regla clave de modestia (謙譲 けんじょう) en japonés."
+      },
+      {
+        "text": "Sí, es perfectamente correcto",
+        "correct": false,
+        "explanation": "Es socialmente incorrecto: equivale a auto-titularse 'maestro'."
+      },
+      {
+        "text": "No, se dice 私は 教員です",
+        "correct": false,
+        "explanation": "教員 (きょういん) existe y es válido (más formal/administrativo), pero la opción más común para presentarse es 教師."
+      },
+      {
+        "text": "Sí, pero solo en universidades",
+        "correct": false,
+        "explanation": "El nivel educativo no cambia la regla: 先生 nunca se usa para uno mismo."
+      }
     ]
   },
   {
     "id": "U1A-034",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 先生?",
-    "correct": "せんせい",
-    "explanation": "先 (せん, 'antes') + 生 (せい, 'nacido') = せんせい, 'el que nació antes' → maestro/profesional respetado.",
     "opts": [
-      {"text": "せんせい", "correct": true, "reason": "Correcta. On'yomi estándar."},
-      {"text": "せんじょう", "correct": false, "reason": "せんじょう es 戦場 ('campo de batalla'), palabra distinta."},
-      {"text": "せんせん", "correct": false, "reason": "Lectura inventada; no corresponde a 先生."},
-      {"text": "さきせい", "correct": false, "reason": "さき es la kun'yomi de 先 cuando va sola; en compuestos como 先生 se usa la on'yomi せん."}
+      {
+        "text": "せんせい",
+        "correct": true,
+        "explanation": "先 (せん, 'antes') + 生 (せい, 'nacido') = せんせい, 'el que nació antes' → maestro/profesional respetado. Correcta. On'yomi estándar."
+      },
+      {
+        "text": "せんじょう",
+        "correct": false,
+        "explanation": "せんじょう es 戦場 ('campo de batalla'), palabra distinta."
+      },
+      {
+        "text": "せんせん",
+        "correct": false,
+        "explanation": "Lectura inventada; no corresponde a 先生."
+      },
+      {
+        "text": "さきせい",
+        "correct": false,
+        "explanation": "さき es la kun'yomi de 先 cuando va sola; en compuestos como 先生 se usa la on'yomi せん."
+      }
     ]
   },
   {
     "id": "U1A-035",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 教師?",
-    "correct": "きょうし",
-    "explanation": "教 (きょう, 'enseñar') + 師 (し, 'maestro/experto') = きょうし.",
     "opts": [
-      {"text": "きょうし", "correct": true, "reason": "Correcta. On'yomi estándar de cada kanji."},
-      {"text": "きょうじ", "correct": false, "reason": "師 no toma rendaku aquí; se mantiene し."},
-      {"text": "こうし", "correct": false, "reason": "教 se lee きょう (vocal larga), no こう."},
-      {"text": "きょし", "correct": false, "reason": "Falta la vocal larga: きょう (con う), no きょ."}
+      {
+        "text": "きょうし",
+        "correct": true,
+        "explanation": "教 (きょう, 'enseñar') + 師 (し, 'maestro/experto') = きょうし. Correcta. On'yomi estándar de cada kanji."
+      },
+      {
+        "text": "きょうじ",
+        "correct": false,
+        "explanation": "師 no toma rendaku aquí; se mantiene し."
+      },
+      {
+        "text": "こうし",
+        "correct": false,
+        "explanation": "教 se lee きょう (vocal larga), no こう."
+      },
+      {
+        "text": "きょし",
+        "correct": false,
+        "explanation": "Falta la vocal larga: きょう (con う), no きょ."
+      }
     ]
   },
   {
     "id": "U1A-036",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 学生?",
-    "correct": "がくせい",
-    "explanation": "学 (がく) + 生 (せい). Lectura on'yomi compuesta estándar.",
     "opts": [
-      {"text": "がくせい", "correct": true, "reason": "Correcta. Lectura on'yomi de cada kanji."},
-      {"text": "がっせい", "correct": false, "reason": "El く de 学 no se asimila aquí. がっせい no corresponde a 学生."},
-      {"text": "がくしょう", "correct": false, "reason": "しょう no es lectura de 生 en esta palabra."},
-      {"text": "がくじょう", "correct": false, "reason": "じょう no es lectura de 生 aquí (corresponde a 場 'lugar')."}
+      {
+        "text": "がくせい",
+        "correct": true,
+        "explanation": "学 (がく) + 生 (せい). Lectura on'yomi compuesta estándar. Correcta. Lectura on'yomi de cada kanji."
+      },
+      {
+        "text": "がっせい",
+        "correct": false,
+        "explanation": "El く de 学 no se asimila aquí. がっせい no corresponde a 学生."
+      },
+      {
+        "text": "がくしょう",
+        "correct": false,
+        "explanation": "しょう no es lectura de 生 en esta palabra."
+      },
+      {
+        "text": "がくじょう",
+        "correct": false,
+        "explanation": "じょう no es lectura de 生 aquí (corresponde a 場 'lugar')."
+      }
     ]
   },
   {
     "id": "U1A-037",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 大学?",
-    "correct": "だいがく",
-    "explanation": "大 (だい, 'grande') + 学 (がく, 'estudio/aprender') = だいがく, 'universidad'.",
     "opts": [
-      {"text": "だいがく", "correct": true, "reason": "Correcta. On'yomi estándar de ambos kanji."},
-      {"text": "たいがく", "correct": false, "reason": "大 se lee だい en 大学. たい existe en otras palabras (大変 たいへん) pero no aquí."},
-      {"text": "だいかく", "correct": false, "reason": "学 mantiene su lectura がく con dakuten, no かく."},
-      {"text": "だいがっこう", "correct": false, "reason": "がっこう es 'escuela' (学校), kanji distinto. 大学 = だいがく solamente."}
+      {
+        "text": "だいがく",
+        "correct": true,
+        "explanation": "大 (だい, 'grande') + 学 (がく, 'estudio/aprender') = だいがく, 'universidad'. Correcta. On'yomi estándar de ambos kanji."
+      },
+      {
+        "text": "たいがく",
+        "correct": false,
+        "explanation": "大 se lee だい en 大学. たい existe en otras palabras (大変 たいへん) pero no aquí."
+      },
+      {
+        "text": "だいかく",
+        "correct": false,
+        "explanation": "学 mantiene su lectura がく con dakuten, no かく."
+      },
+      {
+        "text": "だいがっこう",
+        "correct": false,
+        "explanation": "がっこう es 'escuela' (学校), kanji distinto. 大学 = だいがく solamente."
+      }
     ]
   },
   {
     "id": "U1A-038",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 高校?",
-    "correct": "こうこう",
-    "explanation": "高 (こう, 'alto') + 校 (こう, 'escuela') = こうこう, abreviatura de 高等学校 (こうとうがっこう).",
     "opts": [
-      {"text": "こうこう", "correct": true, "reason": "Correcta. Doble こう es la lectura estándar."},
-      {"text": "たかこう", "correct": false, "reason": "たか es la kun'yomi de 高 sola (高い 'alto'). En compuesto se usa la on'yomi こう."},
-      {"text": "こうがく", "correct": false, "reason": "がく es la lectura de 学, no de 校. No es 高校."},
-      {"text": "こうっこう", "correct": false, "reason": "No hay sokuon (っ) en esta palabra. La lectura es directa こうこう."}
+      {
+        "text": "こうこう",
+        "correct": true,
+        "explanation": "高 (こう, 'alto') + 校 (こう, 'escuela') = こうこう, abreviatura de 高等学校 (こうとうがっこう). Correcta. Doble こう es la lectura estándar."
+      },
+      {
+        "text": "たかこう",
+        "correct": false,
+        "explanation": "たか es la kun'yomi de 高 sola (高い 'alto'). En compuesto se usa la on'yomi こう."
+      },
+      {
+        "text": "こうがく",
+        "correct": false,
+        "explanation": "がく es la lectura de 学, no de 校. No es 高校."
+      },
+      {
+        "text": "こうっこう",
+        "correct": false,
+        "explanation": "No hay sokuon (っ) en esta palabra. La lectura es directa こうこう."
+      }
     ]
   },
   {
     "id": "U1A-039",
     "cat": "Vocabulario",
     "q": "¿Qué significa 大学?",
-    "correct": "Universidad",
-    "explanation": "大学 (だいがく) literalmente 'gran enseñanza' = universidad. Para estudiantes universitarios: 大学生 (だいがくせい).",
     "opts": [
-      {"text": "Universidad", "correct": true, "reason": "Correcta. Es la traducción estándar."},
-      {"text": "Secundaria", "correct": false, "reason": "'Secundaria/preparatoria' es 高校 (こうこう). 中学校 (ちゅうがっこう) es la 'media'."},
-      {"text": "Escuela grande", "correct": false, "reason": "Aunque literalmente sea 'gran escuela', el sentido específico es 'universidad'."},
-      {"text": "Academia", "correct": false, "reason": "'Academia / curso' es 塾 (じゅく) o 専門学校. 大学 es específico."}
+      {
+        "text": "Universidad",
+        "correct": true,
+        "explanation": "大学 (だいがく) literalmente 'gran enseñanza' = universidad. Para estudiantes universitarios: 大学生 (だいがくせい). Correcta. Es la traducción estándar."
+      },
+      {
+        "text": "Secundaria",
+        "correct": false,
+        "explanation": "'Secundaria/preparatoria' es 高校 (こうこう). 中学校 (ちゅうがっこう) es la 'media'."
+      },
+      {
+        "text": "Escuela grande",
+        "correct": false,
+        "explanation": "Aunque literalmente sea 'gran escuela', el sentido específico es 'universidad'."
+      },
+      {
+        "text": "Academia",
+        "correct": false,
+        "explanation": "'Academia / curso' es 塾 (じゅく) o 専門学校. 大学 es específico."
+      }
     ]
   },
   {
     "id": "U1A-040",
     "cat": "Vocabulario",
     "q": "¿Qué significa 高校?",
-    "correct": "Escuela secundaria (bachillerato)",
-    "explanation": "高校 es la abreviatura de 高等学校 (こうとうがっこう), 'escuela de enseñanza superior' = bachillerato/preparatoria (15-18 años).",
     "opts": [
-      {"text": "Escuela secundaria (bachillerato)", "correct": true, "reason": "Correcta. Equivale a la educación media superior japonesa."},
-      {"text": "Universidad", "correct": false, "reason": "'Universidad' es 大学 (だいがく)."},
-      {"text": "Escuela primaria", "correct": false, "reason": "'Primaria' es 小学校 (しょうがっこう)."},
-      {"text": "Escuela técnica", "correct": false, "reason": "'Técnica/profesional' es 専門学校 (せんもんがっこう)."}
+      {
+        "text": "Escuela secundaria (bachillerato)",
+        "correct": true,
+        "explanation": "高校 es la abreviatura de 高等学校 (こうとうがっこう), 'escuela de enseñanza superior' = bachillerato/preparatoria (15-18 años). Correcta. Equivale a la educación media superior japonesa."
+      },
+      {
+        "text": "Universidad",
+        "correct": false,
+        "explanation": "'Universidad' es 大学 (だいがく)."
+      },
+      {
+        "text": "Escuela primaria",
+        "correct": false,
+        "explanation": "'Primaria' es 小学校 (しょうがっこう)."
+      },
+      {
+        "text": "Escuela técnica",
+        "correct": false,
+        "explanation": "'Técnica/profesional' es 専門学校 (せんもんがっこう)."
+      }
     ]
   },
   {
     "id": "U1A-041",
     "cat": "Vocabulario",
     "q": "¿Qué significa 日本語学校 (にほんごがっこう)?",
-    "correct": "Escuela de (idioma) japonés",
-    "explanation": "日本語 (idioma japonés) + 学校 (escuela) = escuela donde se enseña japonés (típicamente para extranjeros).",
     "opts": [
-      {"text": "Escuela de (idioma) japonés", "correct": true, "reason": "Correcta. Análisis literal de los componentes."},
-      {"text": "Escuela en Japón", "correct": false, "reason": "'Escuela en Japón' sería 日本の学校. Acá lo que se enseña es japonés, no es solo localización."},
-      {"text": "Escuela de Tokio", "correct": false, "reason": "'Escuela de Tokio' sería 東京の学校 (とうきょうのがっこう). 日本語 = idioma."},
-      {"text": "Escuela para japoneses", "correct": false, "reason": "El compuesto 日本語 marca el idioma como tema de estudio, no el público objetivo."}
+      {
+        "text": "Escuela de (idioma) japonés",
+        "correct": true,
+        "explanation": "日本語 (idioma japonés) + 学校 (escuela) = escuela donde se enseña japonés (típicamente para extranjeros). Correcta. Análisis literal de los componentes."
+      },
+      {
+        "text": "Escuela en Japón",
+        "correct": false,
+        "explanation": "'Escuela en Japón' sería 日本の学校. Acá lo que se enseña es japonés, no es solo localización."
+      },
+      {
+        "text": "Escuela de Tokio",
+        "correct": false,
+        "explanation": "'Escuela de Tokio' sería 東京の学校 (とうきょうのがっこう). 日本語 = idioma."
+      },
+      {
+        "text": "Escuela para japoneses",
+        "correct": false,
+        "explanation": "El compuesto 日本語 marca el idioma como tema de estudio, no el público objetivo."
+      }
     ]
   },
   {
     "id": "U1A-042",
     "cat": "Gramática",
     "q": "¿Cómo se dice 'Soy estudiante de la Universidad Fuji'?",
-    "correct": "ふじ大学の学生です。",
-    "explanation": "Estructura A の B です donde A modifica a B: 'estudiante (B) DE la universidad Fuji (A)'. La pertenencia/relación se marca con の.",
     "opts": [
-      {"text": "ふじ大学の学生です。", "correct": true, "reason": "Correcta. Orden lógico: el modificador (universidad) precede al núcleo (estudiante) con の."},
-      {"text": "ふじ大学は学生です。", "correct": false, "reason": "Significaría 'la universidad Fuji es estudiante' (la universidad sería el sujeto). Sin sentido."},
-      {"text": "ふじ大学で学生です。", "correct": false, "reason": "で indica lugar de acción ('en'), pero acá no hay verbo de acción. Se necesita の para conexión nominal."},
-      {"text": "学生のふじ大学です。", "correct": false, "reason": "Invierte el orden: significaría 'la universidad Fuji DE los estudiantes', sin sentido."}
+      {
+        "text": "ふじ大学の学生です。",
+        "correct": true,
+        "explanation": "Estructura A の B です donde A modifica a B: 'estudiante (B) DE la universidad Fuji (A)'. La pertenencia/relación se marca con の. Correcta. Orden lógico: el modificador (universidad) precede al núcleo (estudiante) con の."
+      },
+      {
+        "text": "ふじ大学は学生です。",
+        "correct": false,
+        "explanation": "Significaría 'la universidad Fuji es estudiante' (la universidad sería el sujeto). Sin sentido."
+      },
+      {
+        "text": "ふじ大学で学生です。",
+        "correct": false,
+        "explanation": "で indica lugar de acción ('en'), pero acá no hay verbo de acción. Se necesita の para conexión nominal."
+      },
+      {
+        "text": "学生のふじ大学です。",
+        "correct": false,
+        "explanation": "Invierte el orden: significaría 'la universidad Fuji DE los estudiantes', sin sentido."
+      }
     ]
   },
   {
     "id": "U1A-043",
     "cat": "Partículas",
     "q": "¿Cuál es el uso principal de la partícula の en '大学の学生'?",
-    "correct": "Conectar dos sustantivos (de / pertenencia)",
-    "explanation": "の es la partícula que une dos sustantivos donde el primero modifica al segundo. Equivalente al 'de' español o al genitivo.",
     "opts": [
-      {"text": "Conectar dos sustantivos (de / pertenencia)", "correct": true, "reason": "Correcta. Función gramatical básica de の."},
-      {"text": "Indicar objeto directo", "correct": false, "reason": "El objeto directo se marca con を, no con の."},
-      {"text": "Indicar tema", "correct": false, "reason": "El tema se marca con は, no con の."},
-      {"text": "Indicar dirección", "correct": false, "reason": "La dirección se marca con に o へ, no con の."}
+      {
+        "text": "Conectar dos sustantivos (de / pertenencia)",
+        "correct": true,
+        "explanation": "の es la partícula que une dos sustantivos donde el primero modifica al segundo. Equivalente al 'de' español o al genitivo. Correcta. Función gramatical básica de の."
+      },
+      {
+        "text": "Indicar objeto directo",
+        "correct": false,
+        "explanation": "El objeto directo se marca con を, no con の."
+      },
+      {
+        "text": "Indicar tema",
+        "correct": false,
+        "explanation": "El tema se marca con は, no con の."
+      },
+      {
+        "text": "Indicar dirección",
+        "correct": false,
+        "explanation": "La dirección se marca con に o へ, no con の."
+      }
     ]
   },
   {
     "id": "U1A-044",
     "cat": "Gramática",
     "q": "En la estructura AのB, ¿cuál es el sustantivo principal?",
-    "correct": "B (A lo modifica/describe)",
-    "explanation": "Regla clave: en japonés el modificador SIEMPRE precede al núcleo. En AのB, B es lo principal y A lo describe/limita.",
     "opts": [
-      {"text": "B (A lo modifica/describe)", "correct": true, "reason": "Correcta. Principio universal del orden 'modificador → núcleo' en japonés."},
-      {"text": "A (B lo modifica/describe)", "correct": false, "reason": "Invertido. En japonés el segundo elemento es siempre el principal."},
-      {"text": "Ambos igualmente importantes", "correct": false, "reason": "Hay jerarquía clara: B es el núcleo semántico."},
-      {"text": "Depende del contexto", "correct": false, "reason": "La regla es estructural y no depende del contexto."}
+      {
+        "text": "B (A lo modifica/describe)",
+        "correct": true,
+        "explanation": "Regla clave: en japonés el modificador SIEMPRE precede al núcleo. En AのB, B es lo principal y A lo describe/limita. Correcta. Principio universal del orden 'modificador → núcleo' en japonés."
+      },
+      {
+        "text": "A (B lo modifica/describe)",
+        "correct": false,
+        "explanation": "Invertido. En japonés el segundo elemento es siempre el principal."
+      },
+      {
+        "text": "Ambos igualmente importantes",
+        "correct": false,
+        "explanation": "Hay jerarquía clara: B es el núcleo semántico."
+      },
+      {
+        "text": "Depende del contexto",
+        "correct": false,
+        "explanation": "La regla es estructural y no depende del contexto."
+      }
     ]
   },
   {
     "id": "U1A-045",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'Empleado de la empresa ABE'?",
-    "correct": "ABEの社員です。",
-    "explanation": "Misma estructura AのB: la empresa (modificador) + の + 社員 (empleado, núcleo).",
     "opts": [
-      {"text": "ABEの社員です。", "correct": true, "reason": "Correcta. Patrón estándar [empresa]の社員."},
-      {"text": "社員のABEです。", "correct": false, "reason": "Invierte el orden: significaría 'ABE de los empleados', sin sentido."},
-      {"text": "ABEは社員です。", "correct": false, "reason": "Significaría 'ABE (la empresa) es empleado', incoherente."},
-      {"text": "ABEで社員です。", "correct": false, "reason": "で marca lugar de acción; sin verbo de acción no encaja. Se necesita の para relación nominal."}
+      {
+        "text": "ABEの社員です。",
+        "correct": true,
+        "explanation": "Misma estructura AのB: la empresa (modificador) + の + 社員 (empleado, núcleo). Correcta. Patrón estándar [empresa]の社員."
+      },
+      {
+        "text": "社員のABEです。",
+        "correct": false,
+        "explanation": "Invierte el orden: significaría 'ABE de los empleados', sin sentido."
+      },
+      {
+        "text": "ABEは社員です。",
+        "correct": false,
+        "explanation": "Significaría 'ABE (la empresa) es empleado', incoherente."
+      },
+      {
+        "text": "ABEで社員です。",
+        "correct": false,
+        "explanation": "で marca lugar de acción; sin verbo de acción no encaja. Se necesita の para relación nominal."
+      }
     ]
   },
   {
     "id": "U1A-046",
     "cat": "Vocabulario",
     "q": "¿Cómo se pregunta '¿Sos empleado de empresa?'?",
-    "correct": "会社員ですか。",
-    "explanation": "Para hacer preguntas en japonés se agrega か al final de una oración afirmativa: です → ですか.",
     "opts": [
-      {"text": "会社員ですか。", "correct": true, "reason": "Correcta. Estructura básica [sustantivo]+ですか."},
-      {"text": "会社員です。", "correct": false, "reason": "Es la afirmación 'soy empleado'. Falta か para que sea pregunta."},
-      {"text": "会社員ますか。", "correct": false, "reason": "ます se usa con verbos, no con sustantivos. Para sustantivos: です + か."},
-      {"text": "会社員だか。", "correct": false, "reason": "だ es la cópula informal y no se combina con か de pregunta cortés. Sería antinatural."}
+      {
+        "text": "会社員ですか。",
+        "correct": true,
+        "explanation": "Para hacer preguntas en japonés se agrega か al final de una oración afirmativa: です → ですか. Correcta. Estructura básica [sustantivo]+ですか."
+      },
+      {
+        "text": "会社員です。",
+        "correct": false,
+        "explanation": "Es la afirmación 'soy empleado'. Falta か para que sea pregunta."
+      },
+      {
+        "text": "会社員ますか。",
+        "correct": false,
+        "explanation": "ます se usa con verbos, no con sustantivos. Para sustantivos: です + か."
+      },
+      {
+        "text": "会社員だか。",
+        "correct": false,
+        "explanation": "だ es la cópula informal y no se combina con か de pregunta cortés. Sería antinatural."
+      }
     ]
   },
   {
     "id": "U1A-047",
     "cat": "Diálogo",
     "q": "Respuesta afirmativa completa a 会社員ですか:",
-    "correct": "はい、そうです。 / はい、会社員です。",
-    "explanation": "Dos formas válidas: la corta con そうです ('así es') o la completa repitiendo el sustantivo. Ambas son naturales.",
     "opts": [
-      {"text": "はい、そうです。 / はい、会社員です。", "correct": true, "reason": "Correcta. Ambas son las respuestas afirmativas estándar."},
-      {"text": "はい、します。", "correct": false, "reason": "します ('hago') se usa con verbos. Acá la pregunta es con です (cópula), no con un verbo de acción."},
-      {"text": "はい、あります。", "correct": false, "reason": "あります = 'hay/existe' para objetos inanimados. No responde a una pregunta de identidad."},
-      {"text": "はい、います。", "correct": false, "reason": "います = 'hay/está' para seres animados. No responde a 'eres ~?'."}
+      {
+        "text": "はい、そうです。 / はい、会社員です。",
+        "correct": true,
+        "explanation": "Dos formas válidas: la corta con そうです ('así es') o la completa repitiendo el sustantivo. Ambas son naturales. Correcta. Ambas son las respuestas afirmativas estándar."
+      },
+      {
+        "text": "はい、します。",
+        "correct": false,
+        "explanation": "します ('hago') se usa con verbos. Acá la pregunta es con です (cópula), no con un verbo de acción."
+      },
+      {
+        "text": "はい、あります。",
+        "correct": false,
+        "explanation": "あります = 'hay/existe' para objetos inanimados. No responde a una pregunta de identidad."
+      },
+      {
+        "text": "はい、います。",
+        "correct": false,
+        "explanation": "います = 'hay/está' para seres animados. No responde a 'eres ~?'."
+      }
     ]
   },
   {
     "id": "U1A-048",
     "cat": "Diálogo",
     "q": "Para decir 'No, no soy empleado de empresa', usás:",
-    "correct": "いいえ、会社員じゃ ありません。",
-    "explanation": "La negación de です es じゃ ありません (oral) o では ありません (formal escrito). じゃ es contracción coloquial de では.",
     "opts": [
-      {"text": "いいえ、会社員じゃ ありません。", "correct": true, "reason": "Correcta. Negación cortés estándar de です."},
-      {"text": "いいえ、会社員ないです。", "correct": false, "reason": "ない se usa con adjetivos en い o verbos, no se acopla así a sustantivos."},
-      {"text": "いいえ、会社員じゃない。", "correct": false, "reason": "Es la negación INFORMAL (sin desu). En contexto de presentaciones cortés se prefiere じゃ ありません."},
-      {"text": "いいえ、会社員でした。", "correct": false, "reason": "でした es PASADO afirmativo ('era'), no negación."}
+      {
+        "text": "いいえ、会社員じゃ ありません。",
+        "correct": true,
+        "explanation": "La negación de です es じゃ ありません (oral) o では ありません (formal escrito). じゃ es contracción coloquial de では. Correcta. Negación cortés estándar de です."
+      },
+      {
+        "text": "いいえ、会社員ないです。",
+        "correct": false,
+        "explanation": "ない se usa con adjetivos en い o verbos, no se acopla así a sustantivos."
+      },
+      {
+        "text": "いいえ、会社員じゃない。",
+        "correct": false,
+        "explanation": "Es la negación INFORMAL (sin desu). En contexto de presentaciones cortés se prefiere じゃ ありません."
+      },
+      {
+        "text": "いいえ、会社員でした。",
+        "correct": false,
+        "explanation": "でした es PASADO afirmativo ('era'), no negación."
+      }
     ]
   },
   {
     "id": "U1A-049",
     "cat": "Gramática",
     "q": "¿Cuál es una forma alternativa de 'じゃ ありません'?",
-    "correct": "じゃ ないです / では ありません",
-    "explanation": "Las cuatro formas equivalen en significado pero varían en formalidad: じゃないです (informal-cortés) ≈ じゃありません (cortés) ≈ ではないです ≈ ではありません (formal).",
     "opts": [
-      {"text": "じゃ ないです / では ありません", "correct": true, "reason": "Correcta. Ambas son alternativas válidas con distintos grados de formalidad."},
-      {"text": "じゃ います", "correct": false, "reason": "います es verbo de existencia para seres animados, no negación."},
-      {"text": "じゃ しません", "correct": false, "reason": "しません es 'no hago/haré', negación de un verbo, no de です."},
-      {"text": "じゃ できません", "correct": false, "reason": "できません es 'no puedo', verbo distinto."}
+      {
+        "text": "じゃ ないです / では ありません",
+        "correct": true,
+        "explanation": "Las cuatro formas equivalen en significado pero varían en formalidad: じゃないです (informal-cortés) ≈ じゃありません (cortés) ≈ ではないです ≈ ではありません (formal). Correcta. Ambas son alternativas válidas con distintos grados de formalidad."
+      },
+      {
+        "text": "じゃ います",
+        "correct": false,
+        "explanation": "います es verbo de existencia para seres animados, no negación."
+      },
+      {
+        "text": "じゃ しません",
+        "correct": false,
+        "explanation": "しません es 'no hago/haré', negación de un verbo, no de です."
+      },
+      {
+        "text": "じゃ できません",
+        "correct": false,
+        "explanation": "できません es 'no puedo', verbo distinto."
+      }
     ]
   },
   {
     "id": "U1A-050",
     "cat": "Gramática",
     "q": "¿Cuál es la versión MÁS FORMAL/escrita de 'じゃ ありません'?",
-    "correct": "では ありません",
-    "explanation": "では es la forma plena (de + は); じゃ es su contracción coloquial. En lengua escrita y discursos formales se prefiere では.",
     "opts": [
-      {"text": "では ありません", "correct": true, "reason": "Correcta. Es la forma plena/formal."},
-      {"text": "じゃ ないです", "correct": false, "reason": "Mezcla contracción coloquial (じゃ) con cópula directa (ないです). Es informal-cortés, no la más formal."},
-      {"text": "じゃ ない", "correct": false, "reason": "Forma totalmente informal/casual."},
-      {"text": "ちがう", "correct": false, "reason": "ちがう ('está equivocado') es un verbo distinto, también informal por sí solo."}
+      {
+        "text": "では ありません",
+        "correct": true,
+        "explanation": "では es la forma plena (de + は); じゃ es su contracción coloquial. En lengua escrita y discursos formales se prefiere では. Correcta. Es la forma plena/formal."
+      },
+      {
+        "text": "じゃ ないです",
+        "correct": false,
+        "explanation": "Mezcla contracción coloquial (じゃ) con cópula directa (ないです). Es informal-cortés, no la más formal."
+      },
+      {
+        "text": "じゃ ない",
+        "correct": false,
+        "explanation": "Forma totalmente informal/casual."
+      },
+      {
+        "text": "ちがう",
+        "correct": false,
+        "explanation": "ちがう ('está equivocado') es un verbo distinto, también informal por sí solo."
+      }
     ]
   },
   {
     "id": "U1A-051",
     "cat": "Vocabulario",
     "q": "Otra forma de decir 'No, no es así' es:",
-    "correct": "いいえ、ちがいます。",
-    "explanation": "ちがいます (de 違う 'estar equivocado/diferir') es una forma cortés de negar una afirmación o corregir, alternativa a じゃ ありません.",
     "opts": [
-      {"text": "いいえ、ちがいます。", "correct": true, "reason": "Correcta. Forma cortés y muy usada para corregir."},
-      {"text": "いいえ、ないです。", "correct": false, "reason": "ない sin sustantivo previo no funciona como respuesta. Falta antecedente."},
-      {"text": "いいえ、どうぞ。", "correct": false, "reason": "どうぞ = 'por favor / adelante'. No expresa negación."},
-      {"text": "いいえ、ありません。", "correct": false, "reason": "ありません ('no hay') sin sustantivo previo no es una negación coherente."}
+      {
+        "text": "いいえ、ちがいます。",
+        "correct": true,
+        "explanation": "ちがいます (de 違う 'estar equivocado/diferir') es una forma cortés de negar una afirmación o corregir, alternativa a じゃ ありません. Correcta. Forma cortés y muy usada para corregir."
+      },
+      {
+        "text": "いいえ、ないです。",
+        "correct": false,
+        "explanation": "ない sin sustantivo previo no funciona como respuesta. Falta antecedente."
+      },
+      {
+        "text": "いいえ、どうぞ。",
+        "correct": false,
+        "explanation": "どうぞ = 'por favor / adelante'. No expresa negación."
+      },
+      {
+        "text": "いいえ、ありません。",
+        "correct": false,
+        "explanation": "ありません ('no hay') sin sustantivo previo no es una negación coherente."
+      }
     ]
   },
   {
     "id": "U1A-052",
     "cat": "Gramática",
     "q": "¿Qué significa el sufijo ~さん?",
-    "correct": "Sr./Sra./Srta. (neutro, respeto)",
-    "explanation": "~さん es el honorífico estándar y neutro. Se aplica al nombre o apellido de otras personas, sin distinción de género ni estado civil.",
     "opts": [
-      {"text": "Sr./Sra./Srta. (neutro, respeto)", "correct": true, "reason": "Correcta. Es el honorífico genérico."},
-      {"text": "Dr./Dra. (médico)", "correct": false, "reason": "Para médicos se usa 先生 (せんせい), no さん."},
-      {"text": "Profesor/a", "correct": false, "reason": "Profesor también se trata con 先生, no con さん."},
-      {"text": "Jefe/a", "correct": false, "reason": "Para superiores se usa el cargo (部長, 課長) o 様 (formal). さん es neutro."}
+      {
+        "text": "Sr./Sra./Srta. (neutro, respeto)",
+        "correct": true,
+        "explanation": "~さん es el honorífico estándar y neutro. Se aplica al nombre o apellido de otras personas, sin distinción de género ni estado civil. Correcta. Es el honorífico genérico."
+      },
+      {
+        "text": "Dr./Dra. (médico)",
+        "correct": false,
+        "explanation": "Para médicos se usa 先生 (せんせい), no さん."
+      },
+      {
+        "text": "Profesor/a",
+        "correct": false,
+        "explanation": "Profesor también se trata con 先生, no con さん."
+      },
+      {
+        "text": "Jefe/a",
+        "correct": false,
+        "explanation": "Para superiores se usa el cargo (部長, 課長) o 様 (formal). さん es neutro."
+      }
     ]
   },
   {
     "id": "U1A-053",
     "cat": "Gramática",
     "q": "¿Podés usar ~さん con tu propio nombre (私は セバスチャンさんです)?",
-    "correct": "No, ~さん solo se usa para referirse a otros (nunca a uno mismo)",
-    "explanation": "Auto-aplicarse honoríficos (さん, 様, 先生) viola la regla de modestia japonesa. Lo correcto: 私は セバスチャンです (sin さん).",
     "opts": [
-      {"text": "No, ~さん solo se usa para referirse a otros (nunca a uno mismo)", "correct": true, "reason": "Correcta. Regla absoluta de cortesía."},
-      {"text": "Sí, siempre se puede", "correct": false, "reason": "Es socialmente inaceptable y suena arrogante."},
-      {"text": "Solo en contextos muy formales", "correct": false, "reason": "Cuanto más formal el contexto, MÁS importante evitar auto-honoríficos."},
-      {"text": "Solo si sos menor que el oyente", "correct": false, "reason": "La edad relativa no afecta esta regla. Nunca se usa para uno mismo."}
+      {
+        "text": "No, ~さん solo se usa para referirse a otros (nunca a uno mismo)",
+        "correct": true,
+        "explanation": "Auto-aplicarse honoríficos (さん, 様, 先生) viola la regla de modestia japonesa. Lo correcto: 私は セバスチャンです (sin さん). Correcta. Regla absoluta de cortesía."
+      },
+      {
+        "text": "Sí, siempre se puede",
+        "correct": false,
+        "explanation": "Es socialmente inaceptable y suena arrogante."
+      },
+      {
+        "text": "Solo en contextos muy formales",
+        "correct": false,
+        "explanation": "Cuanto más formal el contexto, MÁS importante evitar auto-honoríficos."
+      },
+      {
+        "text": "Solo si sos menor que el oyente",
+        "correct": false,
+        "explanation": "La edad relativa no afecta esta regla. Nunca se usa para uno mismo."
+      }
     ]
   },
   {
     "id": "U1A-054",
     "cat": "Diálogo",
     "q": "Completá el diálogo: A: お国は どちらですか。 B: ___.",
-    "correct": "アルゼンチン人です。",
-    "explanation": "Aunque la pregunta es 'お国は ¿どちら?', la respuesta natural en presentaciones es la NACIONALIDAD (con 人), no solo el país.",
     "opts": [
-      {"text": "アルゼンチン人です。", "correct": true, "reason": "Correcta. Convierte el dato del país en nacionalidad, lo natural en presentación."},
-      {"text": "アルゼンチンに です。", "correct": false, "reason": "に no se usa antes de です en este patrón. に indica destino/lugar con verbos."},
-      {"text": "アルゼンチンが です。", "correct": false, "reason": "が antes de です es agramatical."},
-      {"text": "アルゼンチンで です。", "correct": false, "reason": "で antes de です es agramatical en este contexto."}
+      {
+        "text": "アルゼンチン人です。",
+        "correct": true,
+        "explanation": "Aunque la pregunta es 'お国は ¿どちら?', la respuesta natural en presentaciones es la NACIONALIDAD (con 人), no solo el país. Correcta. Convierte el dato del país en nacionalidad, lo natural en presentación."
+      },
+      {
+        "text": "アルゼンチンに です。",
+        "correct": false,
+        "explanation": "に no se usa antes de です en este patrón. に indica destino/lugar con verbos."
+      },
+      {
+        "text": "アルゼンチンが です。",
+        "correct": false,
+        "explanation": "が antes de です es agramatical."
+      },
+      {
+        "text": "アルゼンチンで です。",
+        "correct": false,
+        "explanation": "で antes de です es agramatical en este contexto."
+      }
     ]
   },
   {
     "id": "U1A-055",
     "cat": "Diálogo",
     "q": "Completá: A: お仕事は 会社員ですか。 B: ___ (respuesta: No, soy profesor)",
-    "correct": "いいえ、会社員じゃ ありません。教師です。",
-    "explanation": "Para 'no, soy X (en su lugar)' se niega primero (じゃ ありません) y luego se da la información correcta (教師です).",
     "opts": [
-      {"text": "いいえ、会社員じゃ ありません。教師です。", "correct": true, "reason": "Correcta. Negación + corrección, patrón canónico."},
-      {"text": "はい、会社員です。", "correct": false, "reason": "はい = 'sí'. La consigna pide negación ('no, soy profesor')."},
-      {"text": "いいえ、会社員です。", "correct": false, "reason": "Contradicción interna: niega y luego afirma lo mismo."},
-      {"text": "はい、教師です。", "correct": false, "reason": "はい sería contradictorio (afirma ser empleado y luego dice profesor). Debe ir いいえ."}
+      {
+        "text": "いいえ、会社員じゃ ありません。教師です。",
+        "correct": true,
+        "explanation": "Para 'no, soy X (en su lugar)' se niega primero (じゃ ありません) y luego se da la información correcta (教師です). Correcta. Negación + corrección, patrón canónico."
+      },
+      {
+        "text": "はい、会社員です。",
+        "correct": false,
+        "explanation": "はい = 'sí'. La consigna pide negación ('no, soy profesor')."
+      },
+      {
+        "text": "いいえ、会社員です。",
+        "correct": false,
+        "explanation": "Contradicción interna: niega y luego afirma lo mismo."
+      },
+      {
+        "text": "はい、教師です。",
+        "correct": false,
+        "explanation": "はい sería contradictorio (afirma ser empleado y luego dice profesor). Debe ir いいえ."
+      }
     ]
   },
   {
     "id": "U1A-056",
     "cat": "Traducción ES→JP",
     "q": "'Yo soy Pak. Soy coreano.' se traduce:",
-    "correct": "私は パクです。韓国人です。",
-    "explanation": "Estructura: 私は + nombre + です. En la segunda oración no hace falta repetir 私は (sujeto sobreentendido).",
     "opts": [
-      {"text": "私は パクです。韓国人です。", "correct": true, "reason": "Correcta. Uso adecuado de は y omisión de sujeto en la 2ª oración."},
-      {"text": "私が パクです。韓国人です。", "correct": false, "reason": "が aquí daría énfasis ('yo soy Pak, no otro'), inadecuado para presentación neutra."},
-      {"text": "私は パクです。韓国です。", "correct": false, "reason": "韓国です sin 人 dice 'soy Corea', no 'soy coreano'."},
-      {"text": "私を パクです。韓国人です。", "correct": false, "reason": "を marca objeto directo de un verbo. No funciona con です."}
+      {
+        "text": "私は パクです。韓国人です。",
+        "correct": true,
+        "explanation": "Estructura: 私は + nombre + です. En la segunda oración no hace falta repetir 私は (sujeto sobreentendido). Correcta. Uso adecuado de は y omisión de sujeto en la 2ª oración."
+      },
+      {
+        "text": "私が パクです。韓国人です。",
+        "correct": false,
+        "explanation": "が aquí daría énfasis ('yo soy Pak, no otro'), inadecuado para presentación neutra."
+      },
+      {
+        "text": "私は パクです。韓国です。",
+        "correct": false,
+        "explanation": "韓国です sin 人 dice 'soy Corea', no 'soy coreano'."
+      },
+      {
+        "text": "私を パクです。韓国人です。",
+        "correct": false,
+        "explanation": "を marca objeto directo de un verbo. No funciona con です."
+      }
     ]
   },
   {
     "id": "U1A-057",
     "cat": "Gramática",
     "q": "Ordená los datos típicos de una presentación japonesa:",
-    "correct": "はじめまして → nombre → nacionalidad/trabajo → よろしく おねがいします",
-    "explanation": "Estructura cultural fija: saludo de apertura + identidad (nombre, nacionalidad, ocupación) + cierre con la fórmula よろしく.",
     "opts": [
-      {"text": "はじめまして → nombre → nacionalidad/trabajo → よろしく おねがいします", "correct": true, "reason": "Correcta. Es el orden canónico en cualquier presentación japonesa."},
-      {"text": "nombre → はじめまして → nacionalidad → よろしく", "correct": false, "reason": "はじめまして siempre va al INICIO, antes de cualquier otro dato."},
-      {"text": "よろしく → nombre → nacionalidad → はじめまして", "correct": false, "reason": "Invertido: よろしく cierra y はじめまして abre."},
-      {"text": "はじめまして → よろしく → nombre → nacionalidad", "correct": false, "reason": "よろしく no va antes de los datos personales; va al final como cierre."}
+      {
+        "text": "はじめまして → nombre → nacionalidad/trabajo → よろしく おねがいします",
+        "correct": true,
+        "explanation": "Estructura cultural fija: saludo de apertura + identidad (nombre, nacionalidad, ocupación) + cierre con la fórmula よろしく. Correcta. Es el orden canónico en cualquier presentación japonesa."
+      },
+      {
+        "text": "nombre → はじめまして → nacionalidad → よろしく",
+        "correct": false,
+        "explanation": "はじめまして siempre va al INICIO, antes de cualquier otro dato."
+      },
+      {
+        "text": "よろしく → nombre → nacionalidad → はじめまして",
+        "correct": false,
+        "explanation": "Invertido: よろしく cierra y はじめまして abre."
+      },
+      {
+        "text": "はじめまして → よろしく → nombre → nacionalidad",
+        "correct": false,
+        "explanation": "よろしく no va antes de los datos personales; va al final como cierre."
+      }
     ]
   },
   {
     "id": "U1A-058",
     "cat": "Vocabulario",
     "q": "¿Qué significa あのう?",
-    "correct": "Eh... / disculpe... (muletilla para iniciar frase educadamente)",
-    "explanation": "あのう (también あの…) es un marcador conversacional para tomar la palabra de forma cortés o ganar tiempo, similar al 'eh...' o 'esto...' del español.",
     "opts": [
-      {"text": "Eh... / disculpe... (muletilla para iniciar frase educadamente)", "correct": true, "reason": "Correcta. Función pragmática de marcador discursivo."},
-      {"text": "Allá (lugar)", "correct": false, "reason": "'Allá' es あそこ. あのう no es deíctico de lugar."},
-      {"text": "Aquél", "correct": false, "reason": "'Aquél' es あれ o あの (demostrativo). あのう es distinto: lleva alargamiento う."},
-      {"text": "Oh! (sorpresa)", "correct": false, "reason": "Sorpresa se expresa con あっ, ええっ, へえ. あのう es de iniciar discurso, no exclamación."}
+      {
+        "text": "Eh... / disculpe... (muletilla para iniciar frase educadamente)",
+        "correct": true,
+        "explanation": "あのう (también あの…) es un marcador conversacional para tomar la palabra de forma cortés o ganar tiempo, similar al 'eh...' o 'esto...' del español. Correcta. Función pragmática de marcador discursivo."
+      },
+      {
+        "text": "Allá (lugar)",
+        "correct": false,
+        "explanation": "'Allá' es あそこ. あのう no es deíctico de lugar."
+      },
+      {
+        "text": "Aquél",
+        "correct": false,
+        "explanation": "'Aquél' es あれ o あの (demostrativo). あのう es distinto: lleva alargamiento う."
+      },
+      {
+        "text": "Oh! (sorpresa)",
+        "correct": false,
+        "explanation": "Sorpresa se expresa con あっ, ええっ, へえ. あのう es de iniciar discurso, no exclamación."
+      }
     ]
   },
   {
     "id": "U1A-059",
     "cat": "Vocabulario",
     "q": "¿Qué significa そうですか?",
-    "correct": "Ah, ya veo / Ah sí? (reacción al recibir información)",
-    "explanation": "そうですか con entonación descendente es una reacción cortés ('ah, ya veo'); con entonación ascendente expresa duda o sorpresa leve.",
     "opts": [
-      {"text": "Ah, ya veo / Ah sí? (reacción al recibir información)", "correct": true, "reason": "Correcta. Es marcador de recepción de información."},
-      {"text": "Así es (confirmar)", "correct": false, "reason": "Eso sería そうです (sin か). El か lo convierte en pregunta/reacción."},
-      {"text": "¿Así es? (preguntando)", "correct": false, "reason": "Aunque la forma es interrogativa, el uso real es como reacción, no como pregunta literal."},
-      {"text": "Es verdad (énfasis)", "correct": false, "reason": "'Es verdad' sería 本当です (ほんとうです) o そうですよ con énfasis."}
+      {
+        "text": "Ah, ya veo / Ah sí? (reacción al recibir información)",
+        "correct": true,
+        "explanation": "そうですか con entonación descendente es una reacción cortés ('ah, ya veo'); con entonación ascendente expresa duda o sorpresa leve. Correcta. Es marcador de recepción de información."
+      },
+      {
+        "text": "Así es (confirmar)",
+        "correct": false,
+        "explanation": "Eso sería そうです (sin か). El か lo convierte en pregunta/reacción."
+      },
+      {
+        "text": "¿Así es? (preguntando)",
+        "correct": false,
+        "explanation": "Aunque la forma es interrogativa, el uso real es como reacción, no como pregunta literal."
+      },
+      {
+        "text": "Es verdad (énfasis)",
+        "correct": false,
+        "explanation": "'Es verdad' sería 本当です (ほんとうです) o そうですよ con énfasis."
+      }
     ]
   },
   {
     "id": "U1A-060",
     "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre そうです y そうですか?",
-    "correct": "そうです = 'Así es' (afirmar); そうですか = 'Ah, ya veo' (reaccionar)",
-    "explanation": "そうです afirma; そうですか recibe información. La か final cambia la función pragmática completamente.",
     "opts": [
-      {"text": "そうです = 'Así es' (afirmar); そうですか = 'Ah, ya veo' (reaccionar)", "correct": true, "reason": "Correcta. Distinción funcional clara."},
-      {"text": "そうです es pregunta; そうですか es afirmación", "correct": false, "reason": "Invertido. La partícula か es la que crea pregunta/reacción."},
-      {"text": "Son iguales", "correct": false, "reason": "Hay diferencia funcional clara: afirmar vs. reaccionar."},
-      {"text": "そうです es formal; そうですか es casual", "correct": false, "reason": "Ambas tienen el mismo nivel de formalidad (con です). La diferencia es funcional."}
+      {
+        "text": "そうです = 'Así es' (afirmar); そうですか = 'Ah, ya veo' (reaccionar)",
+        "correct": true,
+        "explanation": "そうです afirma; そうですか recibe información. La か final cambia la función pragmática completamente. Correcta. Distinción funcional clara."
+      },
+      {
+        "text": "そうです es pregunta; そうですか es afirmación",
+        "correct": false,
+        "explanation": "Invertido. La partícula か es la que crea pregunta/reacción."
+      },
+      {
+        "text": "Son iguales",
+        "correct": false,
+        "explanation": "Hay diferencia funcional clara: afirmar vs. reaccionar."
+      },
+      {
+        "text": "そうです es formal; そうですか es casual",
+        "correct": false,
+        "explanation": "Ambas tienen el mismo nivel de formalidad (con です). La diferencia es funcional."
+      }
     ]
   },
   {
     "id": "U1A-061",
     "cat": "Gramática",
     "q": "Poné en orden: セバスチャン / です / 私 / は",
-    "correct": "私 は セバスチャン です",
-    "explanation": "Orden japonés: SUJETO + は + COMPLEMENTO + です. El verbo (cópula) siempre va al final.",
     "opts": [
-      {"text": "私 は セバスチャン です", "correct": true, "reason": "Correcta. Orden canónico SOV / cópula final."},
-      {"text": "私 セバスチャン は です", "correct": false, "reason": "は debe ir DESPUÉS del sujeto al que marca, no antes del complemento."},
-      {"text": "は 私 セバスチャン です", "correct": false, "reason": "は nunca puede ir al inicio absoluto; siempre marca un sustantivo previo."},
-      {"text": "セバスチャン 私 は です", "correct": false, "reason": "El sujeto (私) debe ir antes de su partícula (は). Y el complemento (セバスチャン) va después."}
+      {
+        "text": "私 は セバスチャン です",
+        "correct": true,
+        "explanation": "Orden japonés: SUJETO + は + COMPLEMENTO + です. El verbo (cópula) siempre va al final. Correcta. Orden canónico SOV / cópula final."
+      },
+      {
+        "text": "私 セバスチャン は です",
+        "correct": false,
+        "explanation": "は debe ir DESPUÉS del sujeto al que marca, no antes del complemento."
+      },
+      {
+        "text": "は 私 セバスチャン です",
+        "correct": false,
+        "explanation": "は nunca puede ir al inicio absoluto; siempre marca un sustantivo previo."
+      },
+      {
+        "text": "セバスチャン 私 は です",
+        "correct": false,
+        "explanation": "El sujeto (私) debe ir antes de su partícula (は). Y el complemento (セバスチャン) va después."
+      }
     ]
   },
   {
     "id": "U1A-062",
     "cat": "Vocabulario",
     "q": "¿Qué significa 社員 (しゃいん)?",
-    "correct": "Empleado (de una empresa específica, normalmente precedida)",
-    "explanation": "社員 es el empleado en relación a una empresa concreta (ej. ABEの社員 = empleado de ABE). 会社員 es más general.",
     "opts": [
-      {"text": "Empleado (de una empresa específica, normalmente precedida)", "correct": true, "reason": "Correcta. Uso típico con nombre de empresa antepuesto."},
-      {"text": "Socio / accionista", "correct": false, "reason": "'Accionista' es 株主 (かぶぬし). 社員 es empleado, no propietario."},
-      {"text": "Jefe / supervisor", "correct": false, "reason": "Jefe es 上司 (じょうし) o cargos como 課長. 社員 no implica jerarquía."},
-      {"text": "Persona de la sociedad", "correct": false, "reason": "Aunque 社 puede significar 'sociedad', en 社員 se refiere a la empresa (会社), no a la sociedad civil."}
+      {
+        "text": "Empleado (de una empresa específica, normalmente precedida)",
+        "correct": true,
+        "explanation": "社員 es el empleado en relación a una empresa concreta (ej. ABEの社員 = empleado de ABE). 会社員 es más general. Correcta. Uso típico con nombre de empresa antepuesto."
+      },
+      {
+        "text": "Socio / accionista",
+        "correct": false,
+        "explanation": "'Accionista' es 株主 (かぶぬし). 社員 es empleado, no propietario."
+      },
+      {
+        "text": "Jefe / supervisor",
+        "correct": false,
+        "explanation": "Jefe es 上司 (じょうし) o cargos como 課長. 社員 no implica jerarquía."
+      },
+      {
+        "text": "Persona de la sociedad",
+        "correct": false,
+        "explanation": "Aunque 社 puede significar 'sociedad', en 社員 se refiere a la empresa (会社), no a la sociedad civil."
+      }
     ]
   },
   {
     "id": "U1A-063",
     "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre 会社員 y 社員?",
-    "correct": "会社員 = empleado de empresa (en general); 社員 = empleado de (empresa X) con nombre específico",
-    "explanation": "会社員 es la PROFESIÓN ('soy empleado'); 社員 requiere especificar la empresa (Googleの社員 = 'empleado de Google').",
     "opts": [
-      {"text": "会社員 = empleado de empresa (en general); 社員 = empleado de (empresa X) con nombre específico", "correct": true, "reason": "Correcta. Distinción de uso clave."},
-      {"text": "Son exactamente iguales", "correct": false, "reason": "Aunque relacionados, su uso típico es distinto."},
-      {"text": "会社員 es junior; 社員 es senior", "correct": false, "reason": "Ningún término marca jerarquía."},
-      {"text": "会社員 es japonés; 社員 es extranjero", "correct": false, "reason": "Ambas son palabras japonesas. La distinción es de uso, no de origen."}
+      {
+        "text": "会社員 = empleado de empresa (en general); 社員 = empleado de (empresa X) con nombre específico",
+        "correct": true,
+        "explanation": "会社員 es la PROFESIÓN ('soy empleado'); 社員 requiere especificar la empresa (Googleの社員 = 'empleado de Google'). Correcta. Distinción de uso clave."
+      },
+      {
+        "text": "Son exactamente iguales",
+        "correct": false,
+        "explanation": "Aunque relacionados, su uso típico es distinto."
+      },
+      {
+        "text": "会社員 es junior; 社員 es senior",
+        "correct": false,
+        "explanation": "Ningún término marca jerarquía."
+      },
+      {
+        "text": "会社員 es japonés; 社員 es extranjero",
+        "correct": false,
+        "explanation": "Ambas son palabras japonesas. La distinción es de uso, no de origen."
+      }
     ]
   },
   {
     "id": "U1A-064",
     "cat": "Traducción JP→ES",
     "q": "'あおぞら日本語学校の学生です。' significa:",
-    "correct": "Soy estudiante de la escuela de japonés Aozora",
-    "explanation": "Análisis: [あおぞら日本語学校] (la escuela) + の + [学生] + です. La estructura AのB indica pertenencia.",
     "opts": [
-      {"text": "Soy estudiante de la escuela de japonés Aozora", "correct": true, "reason": "Correcta. Traducción literal y natural."},
-      {"text": "Aozora es mi escuela de japonés", "correct": false, "reason": "Esa traducción cambiaría el sujeto. La frase es '(yo) soy estudiante', no '(la escuela) es mi escuela'."},
-      {"text": "La escuela de japonés Aozora tiene estudiantes", "correct": false, "reason": "No hay verbo de tener (ある/もつ). La estructura es AのB です = 'soy B de A'."},
-      {"text": "Soy Aozora, estudiante de japonés", "correct": false, "reason": "Aozora es la escuela, no el sujeto. Mal análisis del modificador con の."}
+      {
+        "text": "Soy estudiante de la escuela de japonés Aozora",
+        "correct": true,
+        "explanation": "Análisis: [あおぞら日本語学校] (la escuela) + の + [学生] + です. La estructura AのB indica pertenencia. Correcta. Traducción literal y natural."
+      },
+      {
+        "text": "Aozora es mi escuela de japonés",
+        "correct": false,
+        "explanation": "Esa traducción cambiaría el sujeto. La frase es '(yo) soy estudiante', no '(la escuela) es mi escuela'."
+      },
+      {
+        "text": "La escuela de japonés Aozora tiene estudiantes",
+        "correct": false,
+        "explanation": "No hay verbo de tener (ある/もつ). La estructura es AのB です = 'soy B de A'."
+      },
+      {
+        "text": "Soy Aozora, estudiante de japonés",
+        "correct": false,
+        "explanation": "Aozora es la escuela, no el sujeto. Mal análisis del modificador con の."
+      }
     ]
   },
   {
     "id": "U1A-065",
     "cat": "Gramática",
     "q": "私 ___ 韓国人です。 (Yo soy coreano)",
-    "correct": "は",
-    "explanation": "は marca el tema 'yo': '(en cuanto a) yo, soy coreano'. Es la partícula estándar de presentaciones.",
     "opts": [
-      {"text": "は", "correct": true, "reason": "Correcta. Tema de presentación neutra."},
-      {"text": "が", "correct": false, "reason": "が introduciría énfasis innecesario ('yo soy coreano, no otro'). En presentación neutra se usa は."},
-      {"text": "を", "correct": false, "reason": "を es objeto directo de verbo, no compatible con です."},
-      {"text": "に", "correct": false, "reason": "に es destino/tiempo/destinatario, no marca tema."}
+      {
+        "text": "は",
+        "correct": true,
+        "explanation": "は marca el tema 'yo': '(en cuanto a) yo, soy coreano'. Es la partícula estándar de presentaciones. Correcta. Tema de presentación neutra."
+      },
+      {
+        "text": "が",
+        "correct": false,
+        "explanation": "が introduciría énfasis innecesario ('yo soy coreano, no otro'). En presentación neutra se usa は."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "explanation": "を es objeto directo de verbo, no compatible con です."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "explanation": "に es destino/tiempo/destinatario, no marca tema."
+      }
     ]
   },
   {
     "id": "U1A-066",
     "cat": "Partículas",
     "q": "ふじ大学 ___ 学生です。 (Soy estudiante de la universidad Fuji)",
-    "correct": "の",
-    "explanation": "の conecta dos sustantivos en relación 'A pertenece a B / A modifica B'. ふじ大学の学生 = 'estudiante DE Fuji大学'.",
     "opts": [
-      {"text": "の", "correct": true, "reason": "Correcta. Conexión nominal AのB."},
-      {"text": "は", "correct": false, "reason": "は haría que la universidad sea el tema ('en cuanto a Fuji大学, es estudiante'), incoherente."},
-      {"text": "で", "correct": false, "reason": "で marca lugar de acción con verbo, no relación entre sustantivos."},
-      {"text": "に", "correct": false, "reason": "に marca destino/tiempo, no relación nominal."}
+      {
+        "text": "の",
+        "correct": true,
+        "explanation": "の conecta dos sustantivos en relación 'A pertenece a B / A modifica B'. ふじ大学の学生 = 'estudiante DE Fuji大学'. Correcta. Conexión nominal AのB."
+      },
+      {
+        "text": "は",
+        "correct": false,
+        "explanation": "は haría que la universidad sea el tema ('en cuanto a Fuji大学, es estudiante'), incoherente."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "explanation": "で marca lugar de acción con verbo, no relación entre sustantivos."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "explanation": "に marca destino/tiempo, no relación nominal."
+      }
     ]
   },
   {
     "id": "U1A-067",
     "cat": "Gramática",
     "q": "¿Cuál de estas oraciones es INCORRECTA?",
-    "correct": "私は 学生のふじ大学です。",
-    "explanation": "El orden modificador→núcleo está invertido: dice 'soy la universidad Fuji DE los estudiantes', sin sentido. Lo correcto es ふじ大学の学生です.",
     "opts": [
-      {"text": "私は 学生のふじ大学です。", "correct": true, "reason": "Correcta como respuesta (es la frase ERRÓNEA): tiene el orden invertido."},
-      {"text": "私は ふじ大学の学生です。", "correct": false, "reason": "Esta oración SÍ es correcta: 'soy estudiante de Fuji大学'."},
-      {"text": "私は 学生です。", "correct": false, "reason": "Esta oración SÍ es correcta y simple: 'soy estudiante'."},
-      {"text": "私は 韓国人の学生です。", "correct": false, "reason": "Esta oración SÍ es correcta: 'soy estudiante coreano'."}
+      {
+        "text": "私は 学生のふじ大学です。",
+        "correct": true,
+        "explanation": "El orden modificador→núcleo está invertido: dice 'soy la universidad Fuji DE los estudiantes', sin sentido. Lo correcto es ふじ大学の学生です. Correcta como respuesta (es la frase ERRÓNEA): tiene el orden invertido."
+      },
+      {
+        "text": "私は ふじ大学の学生です。",
+        "correct": false,
+        "explanation": "Esta oración SÍ es correcta: 'soy estudiante de Fuji大学'."
+      },
+      {
+        "text": "私は 学生です。",
+        "correct": false,
+        "explanation": "Esta oración SÍ es correcta y simple: 'soy estudiante'."
+      },
+      {
+        "text": "私は 韓国人の学生です。",
+        "correct": false,
+        "explanation": "Esta oración SÍ es correcta: 'soy estudiante coreano'."
+      }
     ]
   },
   {
     "id": "U1A-068",
     "cat": "Vocabulario",
     "q": "¿Cómo se pregunta '¿Cuál es tu nombre?' educadamente?",
-    "correct": "お名前は？ / お名前は 何ですか。",
-    "explanation": "Forma corta cortés: お名前は？ (con entonación). Forma completa: お名前は 何ですか. Ambas son aceptables.",
     "opts": [
-      {"text": "お名前は？ / お名前は 何ですか。", "correct": true, "reason": "Correcta. Ambas son fórmulas estándar educadas."},
-      {"text": "名前は どこですか。", "correct": false, "reason": "どこ ('dónde') es para lugares, no para nombres. Y falta el お~ honorífico."},
-      {"text": "名前は だれですか。", "correct": false, "reason": "だれ ('quién') no se usa para preguntar nombre. Y falta お~."},
-      {"text": "名前は いつですか。", "correct": false, "reason": "いつ ('cuándo') es temporal, no aplicable a nombres."}
+      {
+        "text": "お名前は？ / お名前は 何ですか。",
+        "correct": true,
+        "explanation": "Forma corta cortés: お名前は？ (con entonación). Forma completa: お名前は 何ですか. Ambas son aceptables. Correcta. Ambas son fórmulas estándar educadas."
+      },
+      {
+        "text": "名前は どこですか。",
+        "correct": false,
+        "explanation": "どこ ('dónde') es para lugares, no para nombres. Y falta el お~ honorífico."
+      },
+      {
+        "text": "名前は だれですか。",
+        "correct": false,
+        "explanation": "だれ ('quién') no se usa para preguntar nombre. Y falta お~."
+      },
+      {
+        "text": "名前は いつですか。",
+        "correct": false,
+        "explanation": "いつ ('cuándo') es temporal, no aplicable a nombres."
+      }
     ]
   },
   {
     "id": "U1A-069",
     "cat": "Gramática",
     "q": "Un empleado de Google diría '私は ___ の社員です。'. Completá:",
-    "correct": "Google",
-    "explanation": "El patrón [empresa]の社員 requiere el NOMBRE concreto de la empresa antes de の. Las palabras genéricas (会社, 仕事) no funcionan aquí.",
     "opts": [
-      {"text": "Google", "correct": true, "reason": "Correcta. El nombre específico de la empresa es lo que va antes de の."},
-      {"text": "会社", "correct": false, "reason": "会社の社員 sería redundante: 'empleado de empresa de empresa'. Para genérico se usa 会社員."},
-      {"text": "仕事", "correct": false, "reason": "仕事 = 'trabajo', no es una empresa. 仕事の社員 no tiene sentido."},
-      {"text": "オフィス", "correct": false, "reason": "オフィス = 'oficina' (lugar), no una empresa específica."}
+      {
+        "text": "Google",
+        "correct": true,
+        "explanation": "El patrón [empresa]の社員 requiere el NOMBRE concreto de la empresa antes de の. Las palabras genéricas (会社, 仕事) no funcionan aquí. Correcta. El nombre específico de la empresa es lo que va antes de の."
+      },
+      {
+        "text": "会社",
+        "correct": false,
+        "explanation": "会社の社員 sería redundante: 'empleado de empresa de empresa'. Para genérico se usa 会社員."
+      },
+      {
+        "text": "仕事",
+        "correct": false,
+        "explanation": "仕事 = 'trabajo', no es una empresa. 仕事の社員 no tiene sentido."
+      },
+      {
+        "text": "オフィス",
+        "correct": false,
+        "explanation": "オフィス = 'oficina' (lugar), no una empresa específica."
+      }
     ]
   },
   {
     "id": "U1A-070",
     "cat": "Vocabulario",
     "q": "¿Qué significa すみません en una presentación?",
-    "correct": "Perdón / disculpe (para llamar la atención o corregir)",
-    "explanation": "すみません tiene múltiples usos: disculparse, llamar la atención, agradecer (por molestia ocasionada). En presentaciones, suele iniciar una pregunta.",
     "opts": [
-      {"text": "Perdón / disculpe (para llamar la atención o corregir)", "correct": true, "reason": "Correcta. Es el uso pragmático más común al iniciar una interacción."},
-      {"text": "Gracias", "correct": false, "reason": "'Gracias' directo es ありがとう. Aunque すみません puede expresar gratitud por molestia, no es su sentido primario."},
-      {"text": "Lo siento mucho", "correct": false, "reason": "'Lo siento mucho' formal es 申し訳ありません (もうしわけありません). すみません es más leve y multiuso."},
-      {"text": "Por favor", "correct": false, "reason": "'Por favor' es おねがいします o どうぞ. すみません no es petición directa."}
+      {
+        "text": "Perdón / disculpe (para llamar la atención o corregir)",
+        "correct": true,
+        "explanation": "すみません tiene múltiples usos: disculparse, llamar la atención, agradecer (por molestia ocasionada). En presentaciones, suele iniciar una pregunta. Correcta. Es el uso pragmático más común al iniciar una interacción."
+      },
+      {
+        "text": "Gracias",
+        "correct": false,
+        "explanation": "'Gracias' directo es ありがとう. Aunque すみません puede expresar gratitud por molestia, no es su sentido primario."
+      },
+      {
+        "text": "Lo siento mucho",
+        "correct": false,
+        "explanation": "'Lo siento mucho' formal es 申し訳ありません (もうしわけありません). すみません es más leve y multiuso."
+      },
+      {
+        "text": "Por favor",
+        "correct": false,
+        "explanation": "'Por favor' es おねがいします o どうぞ. すみません no es petición directa."
+      }
     ]
   },
   {
     "id": "U1A-071",
     "cat": "Vocabulario",
     "q": "Cuando alguien de otro país dice 'アメリカ人です', se refiere principalmente a:",
-    "correct": "Ser de Estados Unidos (no de América Latina)",
-    "explanation": "En japonés アメリカ se refiere por defecto a Estados Unidos. Para latinoamericanos se usa el país específico (アルゼンチン人, メキシコ人, etc.).",
     "opts": [
-      {"text": "Ser de Estados Unidos (no de América Latina)", "correct": true, "reason": "Correcta. Convención de uso del término en japonés."},
-      {"text": "Ser de cualquier país de América", "correct": false, "reason": "Falso: los latinoamericanos especifican país (アルゼンチン人, ブラジル人...). アメリカ人 = EE.UU."},
-      {"text": "Ser de América del Norte", "correct": false, "reason": "Para Canadá se usa カナダ人, para México メキシコ人. アメリカ ≠ continente."},
-      {"text": "Hablar inglés americano", "correct": false, "reason": "El idioma se distingue con ~語 (英語). 人 marca origen, no idioma."}
+      {
+        "text": "Ser de Estados Unidos (no de América Latina)",
+        "correct": true,
+        "explanation": "En japonés アメリカ se refiere por defecto a Estados Unidos. Para latinoamericanos se usa el país específico (アルゼンチン人, メキシコ人, etc.). Correcta. Convención de uso del término en japonés."
+      },
+      {
+        "text": "Ser de cualquier país de América",
+        "correct": false,
+        "explanation": "Falso: los latinoamericanos especifican país (アルゼンチン人, ブラジル人...). アメリカ人 = EE.UU."
+      },
+      {
+        "text": "Ser de América del Norte",
+        "correct": false,
+        "explanation": "Para Canadá se usa カナダ人, para México メキシコ人. アメリカ ≠ continente."
+      },
+      {
+        "text": "Hablar inglés americano",
+        "correct": false,
+        "explanation": "El idioma se distingue con ~語 (英語). 人 marca origen, no idioma."
+      }
     ]
   },
   {
     "id": "U1A-072",
     "cat": "Diálogo",
     "q": "¿Cuál es la presentación más completa y natural?",
-    "correct": "はじめまして。私は セバスチャンです。アルゼンチン人です。どうぞ よろしく おねがいします。",
-    "explanation": "Una buena presentación contiene: saludo de apertura + nombre + nacionalidad/ocupación + cierre. Cada elemento es una oración completa con です.",
     "opts": [
-      {"text": "はじめまして。私は セバスチャンです。アルゼンチン人です。どうぞ よろしく おねがいします。", "correct": true, "reason": "Correcta. Estructura canónica completa con apertura, identidad y cierre."},
-      {"text": "セバスチャン アルゼンチン人 よろしく。", "correct": false, "reason": "Le faltan partículas, です y la apertura はじめまして. Telegráfica e incorrecta."},
-      {"text": "私 セバスチャン アルゼンチン人。", "correct": false, "reason": "Sin partículas (は) ni cópula (です). No es una oración japonesa correcta."},
-      {"text": "はじめまして セバスチャン アルゼンチンは 国です。", "correct": false, "reason": "'Argentina es país' es información trivial fuera de lugar. Falta 人 para nacionalidad."}
+      {
+        "text": "はじめまして。私は セバスチャンです。アルゼンチン人です。どうぞ よろしく おねがいします。",
+        "correct": true,
+        "explanation": "Una buena presentación contiene: saludo de apertura + nombre + nacionalidad/ocupación + cierre. Cada elemento es una oración completa con です. Correcta. Estructura canónica completa con apertura, identidad y cierre."
+      },
+      {
+        "text": "セバスチャン アルゼンチン人 よろしく。",
+        "correct": false,
+        "explanation": "Le faltan partículas, です y la apertura はじめまして. Telegráfica e incorrecta."
+      },
+      {
+        "text": "私 セバスチャン アルゼンチン人。",
+        "correct": false,
+        "explanation": "Sin partículas (は) ni cópula (です). No es una oración japonesa correcta."
+      },
+      {
+        "text": "はじめまして セバスチャン アルゼンチンは 国です。",
+        "correct": false,
+        "explanation": "'Argentina es país' es información trivial fuera de lugar. Falta 人 para nacionalidad."
+      }
     ]
   },
   {
     "id": "U1A-073",
     "cat": "Distinción",
     "q": "¿Cuál pregunta sobre el país es MÁS casual?",
-    "correct": "くには どこですか。",
-    "explanation": "Sin el honorífico お y con どこ (en vez de どちら), la pregunta es más directa y casual. Apropiada entre amigos.",
     "opts": [
-      {"text": "くには どこですか。", "correct": true, "reason": "Correcta. Es la versión más simple y directa, sin marcadores formales."},
-      {"text": "お国は どちらですか。", "correct": false, "reason": "Combina honorífico お~ con どちら formal. Es la versión EDUCADA, no casual."},
-      {"text": "お国さまは どちらで いらっしゃいますか。", "correct": false, "reason": "Doble honorífico (お~ + ~さま) + verbo respetuoso いらっしゃる: extremadamente formal."},
-      {"text": "国は いずこですか。", "correct": false, "reason": "いずこ es japonés literario/arcaico, no casual. Suena a poesía clásica."}
+      {
+        "text": "くには どこですか。",
+        "correct": true,
+        "explanation": "Sin el honorífico お y con どこ (en vez de どちら), la pregunta es más directa y casual. Apropiada entre amigos. Correcta. Es la versión más simple y directa, sin marcadores formales."
+      },
+      {
+        "text": "お国は どちらですか。",
+        "correct": false,
+        "explanation": "Combina honorífico お~ con どちら formal. Es la versión EDUCADA, no casual."
+      },
+      {
+        "text": "お国さまは どちらで いらっしゃいますか。",
+        "correct": false,
+        "explanation": "Doble honorífico (お~ + ~さま) + verbo respetuoso いらっしゃる: extremadamente formal."
+      },
+      {
+        "text": "国は いずこですか。",
+        "correct": false,
+        "explanation": "いずこ es japonés literario/arcaico, no casual. Suena a poesía clásica."
+      }
     ]
   },
   {
     "id": "U1A-074",
     "cat": "Gramática",
     "q": "¿Qué error tiene la oración '私は アルゼンチンです'? (queriendo decir 'soy argentino')",
-    "correct": "Faltaría 人: 'アルゼンチン人です' (si no, literalmente dice 'yo soy Argentina')",
-    "explanation": "Sin el sufijo 人 (じん), 'アルゼンチンです' equivale a decir 'soy Argentina (el país)'. El sufijo 人 convierte un país en nacionalidad.",
     "opts": [
-      {"text": "Faltaría 人: 'アルゼンチン人です' (si no, literalmente dice 'yo soy Argentina')", "correct": true, "reason": "Correcta. Es el error típico del hispanohablante."},
-      {"text": "Faltaría la partícula の", "correct": false, "reason": "の no convertiría país en nacionalidad. アルゼンチンの es 'de Argentina', sigue sin ser 'argentino'."},
-      {"text": "Debería ser アルゼンチンに", "correct": false, "reason": "に es partícula de destino/tiempo, no convierte sustantivos."},
-      {"text": "Es correcta sin cambios", "correct": false, "reason": "No es correcta: literalmente dice 'soy el país Argentina'."}
+      {
+        "text": "Faltaría 人: 'アルゼンチン人です' (si no, literalmente dice 'yo soy Argentina')",
+        "correct": true,
+        "explanation": "Sin el sufijo 人 (じん), 'アルゼンチンです' equivale a decir 'soy Argentina (el país)'. El sufijo 人 convierte un país en nacionalidad. Correcta. Es el error típico del hispanohablante."
+      },
+      {
+        "text": "Faltaría la partícula の",
+        "correct": false,
+        "explanation": "の no convertiría país en nacionalidad. アルゼンチンの es 'de Argentina', sigue sin ser 'argentino'."
+      },
+      {
+        "text": "Debería ser アルゼンチンに",
+        "correct": false,
+        "explanation": "に es partícula de destino/tiempo, no convierte sustantivos."
+      },
+      {
+        "text": "Es correcta sin cambios",
+        "correct": false,
+        "explanation": "No es correcta: literalmente dice 'soy el país Argentina'."
+      }
     ]
   }
 ]

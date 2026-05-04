@@ -3,949 +3,1971 @@
     "id": "U2B-001",
     "cat": "Diálogo",
     "q": "¿Cómo se pregunta '¿Cuánto cuesta?' en japonés?",
-    "correct": "いくらですか。",
-    "explanation": "いくら es el interrogativo específico para precio/cantidad monetaria. Combinado con ですか forma la pregunta canónica de precio.",
     "opts": [
-      {"text": "いくらですか。", "correct": true, "reason": "Correcta. いくら pregunta específicamente el precio."},
-      {"text": "どこですか。", "correct": false, "reason": "どこ = '¿dónde?' (lugar). No pregunta precio."},
-      {"text": "なんですか。", "correct": false, "reason": "なん = '¿qué?'. Pregunta identidad, no precio."},
-      {"text": "だれですか。", "correct": false, "reason": "だれ = '¿quién?'. Inaplicable a un objeto/precio."}
+      {
+        "text": "いくらですか。",
+        "correct": true,
+        "explanation": "いくら es el interrogativo específico para precio/cantidad monetaria. Combinado con ですか forma la pregunta canónica de precio. Correcta. いくら pregunta específicamente el precio."
+      },
+      {
+        "text": "どこですか。",
+        "correct": false,
+        "explanation": "どこ = '¿dónde?' (lugar). No pregunta precio."
+      },
+      {
+        "text": "なんですか。",
+        "correct": false,
+        "explanation": "なん = '¿qué?'. Pregunta identidad, no precio."
+      },
+      {
+        "text": "だれですか。",
+        "correct": false,
+        "explanation": "だれ = '¿quién?'. Inaplicable a un objeto/precio."
+      }
     ]
   },
   {
     "id": "U2B-002",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'yen' (moneda japonesa) en japonés?",
-    "correct": "円 (えん)",
-    "explanation": "円 (えん) literalmente 'círculo/redondo' es el nombre de la moneda japonesa. La forma escrita en kanji es la oficial.",
     "opts": [
-      {"text": "円 (えん)", "correct": true, "reason": "Correcta. Nombre oficial de la moneda."},
-      {"text": "元 (げん)", "correct": false, "reason": "元 (げん/ゲン) en español hace referencia al yuan chino, no a la moneda japonesa."},
-      {"text": "金 (きん)", "correct": false, "reason": "金 significa 'oro/dinero' genérico (お金 = 'dinero'), no específicamente 'yen'."},
-      {"text": "銭 (せん)", "correct": false, "reason": "銭 (せん) es una subdivisión histórica del yen (1 yen = 100 銭), pero ya no se usa en transacciones cotidianas."}
+      {
+        "text": "円 (えん)",
+        "correct": true,
+        "explanation": "円 (えん) literalmente 'círculo/redondo' es el nombre de la moneda japonesa. La forma escrita en kanji es la oficial. Correcta. Nombre oficial de la moneda."
+      },
+      {
+        "text": "元 (げん)",
+        "correct": false,
+        "explanation": "元 (げん/ゲン) en español hace referencia al yuan chino, no a la moneda japonesa."
+      },
+      {
+        "text": "金 (きん)",
+        "correct": false,
+        "explanation": "金 significa 'oro/dinero' genérico (お金 = 'dinero'), no específicamente 'yen'."
+      },
+      {
+        "text": "銭 (せん)",
+        "correct": false,
+        "explanation": "銭 (せん) es una subdivisión histórica del yen (1 yen = 100 銭), pero ya no se usa en transacciones cotidianas."
+      }
     ]
   },
   {
     "id": "U2B-003",
     "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre これ y この?",
-    "correct": "これ va solo (esto); この necesita un sustantivo después (este ~)",
-    "explanation": "これ es PRONOMBRE (sustantivo independiente: 'esto'). この es DETERMINANTE (modifica un sustantivo: 'este libro'). Distinción categorial fundamental en la serie こ/そ/あ/ど.",
     "opts": [
-      {"text": "これ va solo (esto); この necesita un sustantivo después (este ~)", "correct": true, "reason": "Correcta. Distinción categorial: pronombre vs. determinante."},
-      {"text": "この va solo; これ necesita sustantivo", "correct": false, "reason": "Invertido. これ es el que va solo; この requiere sustantivo."},
-      {"text": "Son idénticos", "correct": false, "reason": "Son categorías distintas con sintaxis distinta."},
-      {"text": "これ es formal; この es casual", "correct": false, "reason": "No es cuestión de formalidad sino de función gramatical."}
+      {
+        "text": "これ va solo (esto); この necesita un sustantivo después (este ~)",
+        "correct": true,
+        "explanation": "これ es PRONOMBRE (sustantivo independiente: 'esto'). この es DETERMINANTE (modifica un sustantivo: 'este libro'). Distinción categorial fundamental en la serie こ/そ/あ/ど. Correcta. Distinción categorial: pronombre vs. determinante."
+      },
+      {
+        "text": "この va solo; これ necesita sustantivo",
+        "correct": false,
+        "explanation": "Invertido. これ es el que va solo; この requiere sustantivo."
+      },
+      {
+        "text": "Son idénticos",
+        "correct": false,
+        "explanation": "Son categorías distintas con sintaxis distinta."
+      },
+      {
+        "text": "これ es formal; この es casual",
+        "correct": false,
+        "explanation": "No es cuestión de formalidad sino de función gramatical."
+      }
     ]
   },
   {
     "id": "U2B-004",
     "cat": "Gramática",
     "q": "Querés preguntar el precio del reloj que tenés en la mano. ¿Cómo decís 'este reloj'?",
-    "correct": "このとけい",
-    "explanation": "Para 'este reloj' (cerca del hablante): この (determinante) + とけい (sustantivo). この modifica directamente el sustantivo sin partícula.",
     "opts": [
-      {"text": "このとけい", "correct": true, "reason": "Correcta. Determinante この + sustantivo."},
-      {"text": "これとけい", "correct": false, "reason": "これ es pronombre, no se combina directamente con sustantivo. Para modificar se usa この."},
-      {"text": "そのとけい", "correct": false, "reason": "その = 'ese' (cerca del oyente). El reloj está en TU mano, así que es この."},
-      {"text": "これのとけい", "correct": false, "reason": "これの combinación inusual; significaría 'el reloj de esto', sin sentido. Para 'este reloj' es この directo."}
+      {
+        "text": "このとけい",
+        "correct": true,
+        "explanation": "Para 'este reloj' (cerca del hablante): この (determinante) + とけい (sustantivo). この modifica directamente el sustantivo sin partícula. Correcta. Determinante この + sustantivo."
+      },
+      {
+        "text": "これとけい",
+        "correct": false,
+        "explanation": "これ es pronombre, no se combina directamente con sustantivo. Para modificar se usa この."
+      },
+      {
+        "text": "そのとけい",
+        "correct": false,
+        "explanation": "その = 'ese' (cerca del oyente). El reloj está en TU mano, así que es この."
+      },
+      {
+        "text": "これのとけい",
+        "correct": false,
+        "explanation": "これの combinación inusual; significaría 'el reloj de esto', sin sentido. Para 'este reloj' es この directo."
+      }
     ]
   },
   {
     "id": "U2B-005",
     "cat": "Gramática",
     "q": "Querés preguntar por un objeto cerca del empleado. ¿Cómo decís 'ese pantalón'?",
-    "correct": "そのズボン",
-    "explanation": "Para 'ese' (cerca del oyente): その + sustantivo. その es el determinante de la serie そ.",
     "opts": [
-      {"text": "そのズボン", "correct": true, "reason": "Correcta. Determinante その + sustantivo."},
-      {"text": "それズボン", "correct": false, "reason": "それ es pronombre, no determinante. Para modificar a un sustantivo se usa その."},
-      {"text": "あのズボン", "correct": false, "reason": "あの = 'aquel' (lejos de ambos). El pantalón está cerca del EMPLEADO, así que es その."},
-      {"text": "ズボンそれ", "correct": false, "reason": "Orden invertido: el determinante (その) va ANTES del sustantivo en japonés."}
+      {
+        "text": "そのズボン",
+        "correct": true,
+        "explanation": "Para 'ese' (cerca del oyente): その + sustantivo. その es el determinante de la serie そ. Correcta. Determinante その + sustantivo."
+      },
+      {
+        "text": "それズボン",
+        "correct": false,
+        "explanation": "それ es pronombre, no determinante. Para modificar a un sustantivo se usa その."
+      },
+      {
+        "text": "あのズボン",
+        "correct": false,
+        "explanation": "あの = 'aquel' (lejos de ambos). El pantalón está cerca del EMPLEADO, así que es その."
+      },
+      {
+        "text": "ズボンそれ",
+        "correct": false,
+        "explanation": "Orden invertido: el determinante (その) va ANTES del sustantivo en japonés."
+      }
     ]
   },
   {
     "id": "U2B-006",
     "cat": "Gramática",
     "q": "Ves un objeto en una vitrina lejos. ¿Cómo decís 'aquella cartera'?",
-    "correct": "あのかばん",
-    "explanation": "Para 'aquel/aquella' (lejos de ambos): あの + sustantivo. あの es el determinante de la serie あ.",
     "opts": [
-      {"text": "あのかばん", "correct": true, "reason": "Correcta. Determinante あの + sustantivo."},
-      {"text": "あれかばん", "correct": false, "reason": "あれ es pronombre, no determinante. Para modificar a un sustantivo se usa あの."},
-      {"text": "そのかばん", "correct": false, "reason": "その = 'esa' (cerca del oyente). El objeto está LEJOS, así que es あの."},
-      {"text": "あれのかばん", "correct": false, "reason": "あれの es construcción inusual; significaría 'la cartera de aquello', sin sentido. Para 'aquella cartera' es あの directo."}
+      {
+        "text": "あのかばん",
+        "correct": true,
+        "explanation": "Para 'aquel/aquella' (lejos de ambos): あの + sustantivo. あの es el determinante de la serie あ. Correcta. Determinante あの + sustantivo."
+      },
+      {
+        "text": "あれかばん",
+        "correct": false,
+        "explanation": "あれ es pronombre, no determinante. Para modificar a un sustantivo se usa あの."
+      },
+      {
+        "text": "そのかばん",
+        "correct": false,
+        "explanation": "その = 'esa' (cerca del oyente). El objeto está LEJOS, así que es あの."
+      },
+      {
+        "text": "あれのかばん",
+        "correct": false,
+        "explanation": "あれの es construcción inusual; significaría 'la cartera de aquello', sin sentido. Para 'aquella cartera' es あの directo."
+      }
     ]
   },
   {
     "id": "U2B-007",
     "cat": "Vocabulario",
     "q": "¿Qué significa かばん?",
-    "correct": "Bolso / cartera / mochila",
-    "explanation": "かばん es término genérico para cualquier tipo de bolso/cartera/mochila para llevar cosas. Para tipos específicos: リュック (mochila), ハンドバッグ (cartera de mano), etc.",
     "opts": [
-      {"text": "Bolso / cartera / mochila", "correct": true, "reason": "Correcta. Término genérico inclusivo."},
-      {"text": "Cajón", "correct": false, "reason": "'Cajón (de mueble)' es 引き出し (ひきだし); 'caja' es 箱 (はこ). かばん es portátil."},
-      {"text": "Abrigo", "correct": false, "reason": "'Abrigo' es コート o 上着 (うわぎ). Prenda, no contenedor."},
-      {"text": "Bufanda", "correct": false, "reason": "'Bufanda' es マフラー. Accesorio de cuello, no contenedor."}
+      {
+        "text": "Bolso / cartera / mochila",
+        "correct": true,
+        "explanation": "かばん es término genérico para cualquier tipo de bolso/cartera/mochila para llevar cosas. Para tipos específicos: リュック (mochila), ハンドバッグ (cartera de mano), etc. Correcta. Término genérico inclusivo."
+      },
+      {
+        "text": "Cajón",
+        "correct": false,
+        "explanation": "'Cajón (de mueble)' es 引き出し (ひきだし); 'caja' es 箱 (はこ). かばん es portátil."
+      },
+      {
+        "text": "Abrigo",
+        "correct": false,
+        "explanation": "'Abrigo' es コート o 上着 (うわぎ). Prenda, no contenedor."
+      },
+      {
+        "text": "Bufanda",
+        "correct": false,
+        "explanation": "'Bufanda' es マフラー. Accesorio de cuello, no contenedor."
+      }
     ]
   },
   {
     "id": "U2B-008",
     "cat": "Vocabulario",
     "q": "¿Qué significa ズボン?",
-    "correct": "Pantalón",
-    "explanation": "ズボン viene del francés 'jupon'. Es la palabra estándar para 'pantalón' en japonés (también se usa パンツ pero puede causar confusión con 'ropa interior').",
     "opts": [
-      {"text": "Pantalón", "correct": true, "reason": "Correcta. Préstamo del francés."},
-      {"text": "Zapato", "correct": false, "reason": "'Zapato' es 靴 (くつ). Calzado, no prenda inferior."},
-      {"text": "Camisa", "correct": false, "reason": "'Camisa' es シャツ. Prenda superior."},
-      {"text": "Media", "correct": false, "reason": "'Media/calcetín' es 靴下 (くつした). Prenda interior."}
+      {
+        "text": "Pantalón",
+        "correct": true,
+        "explanation": "ズボン viene del francés 'jupon'. Es la palabra estándar para 'pantalón' en japonés (también se usa パンツ pero puede causar confusión con 'ropa interior'). Correcta. Préstamo del francés."
+      },
+      {
+        "text": "Zapato",
+        "correct": false,
+        "explanation": "'Zapato' es 靴 (くつ). Calzado, no prenda inferior."
+      },
+      {
+        "text": "Camisa",
+        "correct": false,
+        "explanation": "'Camisa' es シャツ. Prenda superior."
+      },
+      {
+        "text": "Media",
+        "correct": false,
+        "explanation": "'Media/calcetín' es 靴下 (くつした). Prenda interior."
+      }
     ]
   },
   {
     "id": "U2B-009",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'reloj' en japonés (kanji)?",
-    "correct": "時計",
-    "explanation": "時計 (とけい) literalmente 'medidor de tiempo' es el reloj. Cubre tanto el de pulsera como el de pared.",
     "opts": [
-      {"text": "時計", "correct": true, "reason": "Correcta. Es la palabra para 'reloj'."},
-      {"text": "時間", "correct": false, "reason": "時間 (じかん) es 'tiempo' como concepto/duración, no el aparato."},
-      {"text": "時刻", "correct": false, "reason": "時刻 (じこく) es 'momento/hora exacta', no el reloj físico."},
-      {"text": "計時", "correct": false, "reason": "El orden de los kanji está invertido; 計時 (けいじ) significaría 'medir tiempo' (acción), pero no es palabra de uso común."}
+      {
+        "text": "時計",
+        "correct": true,
+        "explanation": "時計 (とけい) literalmente 'medidor de tiempo' es el reloj. Cubre tanto el de pulsera como el de pared. Correcta. Es la palabra para 'reloj'."
+      },
+      {
+        "text": "時間",
+        "correct": false,
+        "explanation": "時間 (じかん) es 'tiempo' como concepto/duración, no el aparato."
+      },
+      {
+        "text": "時刻",
+        "correct": false,
+        "explanation": "時刻 (じこく) es 'momento/hora exacta', no el reloj físico."
+      },
+      {
+        "text": "計時",
+        "correct": false,
+        "explanation": "El orden de los kanji está invertido; 計時 (けいじ) significaría 'medir tiempo' (acción), pero no es palabra de uso común."
+      }
     ]
   },
   {
     "id": "U2B-010",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 時計?",
-    "correct": "とけい",
-    "explanation": "時計 es lectura especial (熟字訓 jukujikun): no se descompone en lecturas individuales de cada kanji. Se memoriza como un bloque.",
     "opts": [
-      {"text": "とけい", "correct": true, "reason": "Correcta. Lectura especial de jukujikun."},
-      {"text": "じけい", "correct": false, "reason": "じ es la on'yomi de 時 pero en 時計 NO se aplica; la lectura es jukujikun とけい."},
-      {"text": "ときけい", "correct": false, "reason": "とき es la kun'yomi de 時 sola, pero no se usa en 時計."},
-      {"text": "どけい", "correct": false, "reason": "Lectura inventada; el primer kanji se lee と, no ど."}
+      {
+        "text": "とけい",
+        "correct": true,
+        "explanation": "時計 es lectura especial (熟字訓 jukujikun): no se descompone en lecturas individuales de cada kanji. Se memoriza como un bloque. Correcta. Lectura especial de jukujikun."
+      },
+      {
+        "text": "じけい",
+        "correct": false,
+        "explanation": "じ es la on'yomi de 時 pero en 時計 NO se aplica; la lectura es jukujikun とけい."
+      },
+      {
+        "text": "ときけい",
+        "correct": false,
+        "explanation": "とき es la kun'yomi de 時 sola, pero no se usa en 時計."
+      },
+      {
+        "text": "どけい",
+        "correct": false,
+        "explanation": "Lectura inventada; el primer kanji se lee と, no ど."
+      }
     ]
   },
   {
     "id": "U2B-011",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 財布?",
-    "correct": "さいふ",
-    "explanation": "財 (さい, 'fortuna/dinero') + 布 (ふ, 'tela') = さいふ, 'billetera' (literalmente 'tela para guardar dinero').",
     "opts": [
-      {"text": "さいふ", "correct": true, "reason": "Correcta. On'yomi estándar."},
-      {"text": "ざいふ", "correct": false, "reason": "El primer kanji NO toma rendaku al inicio de palabra. Es さい."},
-      {"text": "さいほ", "correct": false, "reason": "ほ no es lectura de 布 en este compuesto; es ふ."},
-      {"text": "ざいほ", "correct": false, "reason": "Doble error: ni rendaku al inicio ni ほ para 布."}
+      {
+        "text": "さいふ",
+        "correct": true,
+        "explanation": "財 (さい, 'fortuna/dinero') + 布 (ふ, 'tela') = さいふ, 'billetera' (literalmente 'tela para guardar dinero'). Correcta. On'yomi estándar."
+      },
+      {
+        "text": "ざいふ",
+        "correct": false,
+        "explanation": "El primer kanji NO toma rendaku al inicio de palabra. Es さい."
+      },
+      {
+        "text": "さいほ",
+        "correct": false,
+        "explanation": "ほ no es lectura de 布 en este compuesto; es ふ."
+      },
+      {
+        "text": "ざいほ",
+        "correct": false,
+        "explanation": "Doble error: ni rendaku al inicio ni ほ para 布."
+      }
     ]
   },
   {
     "id": "U2B-012",
     "cat": "Vocabulario",
     "q": "¿Qué significa 財布 (さいふ)?",
-    "correct": "Billetera",
-    "explanation": "財布 designa la billetera/cartera para guardar dinero y tarjetas. Distinto de かばん (bolso general).",
     "opts": [
-      {"text": "Billetera", "correct": true, "reason": "Correcta. Específicamente para dinero."},
-      {"text": "Bolsillo", "correct": false, "reason": "'Bolsillo' es ポケット. 財布 es el accesorio que se guarda EN el bolsillo."},
-      {"text": "Mochila", "correct": false, "reason": "'Mochila' es リュック o バックパック. 財布 es más pequeño y específico para dinero."},
-      {"text": "Llavero", "correct": false, "reason": "'Llavero' es キーホルダー. 財布 es para dinero, no llaves."}
+      {
+        "text": "Billetera",
+        "correct": true,
+        "explanation": "財布 designa la billetera/cartera para guardar dinero y tarjetas. Distinto de かばん (bolso general). Correcta. Específicamente para dinero."
+      },
+      {
+        "text": "Bolsillo",
+        "correct": false,
+        "explanation": "'Bolsillo' es ポケット. 財布 es el accesorio que se guarda EN el bolsillo."
+      },
+      {
+        "text": "Mochila",
+        "correct": false,
+        "explanation": "'Mochila' es リュック o バックパック. 財布 es más pequeño y específico para dinero."
+      },
+      {
+        "text": "Llavero",
+        "correct": false,
+        "explanation": "'Llavero' es キーホルダー. 財布 es para dinero, no llaves."
+      }
     ]
   },
   {
     "id": "U2B-013",
     "cat": "Diálogo",
     "q": "Cliente: すみません。このTシャツは いくらですか。 Empleado: 3000円です。 ¿Qué está preguntando el cliente?",
-    "correct": "Cuánto cuesta esta remera",
-    "explanation": "Análisis: このTシャツ (esta remera) + は + いくら (¿cuánto?) + ですか. La pregunta apunta al precio.",
     "opts": [
-      {"text": "Cuánto cuesta esta remera", "correct": true, "reason": "Correcta. いくら pregunta específicamente el precio."},
-      {"text": "Dónde está esta remera", "correct": false, "reason": "Eso sería どこですか, no いくらですか."},
-      {"text": "Qué es esta remera", "correct": false, "reason": "Eso sería なんですか. La pregunta es por precio."},
-      {"text": "De quién es esta remera", "correct": false, "reason": "Eso sería だれのですか. La pregunta es por precio."}
+      {
+        "text": "Cuánto cuesta esta remera",
+        "correct": true,
+        "explanation": "Análisis: このTシャツ (esta remera) + は + いくら (¿cuánto?) + ですか. La pregunta apunta al precio. Correcta. いくら pregunta específicamente el precio."
+      },
+      {
+        "text": "Dónde está esta remera",
+        "correct": false,
+        "explanation": "Eso sería どこですか, no いくらですか."
+      },
+      {
+        "text": "Qué es esta remera",
+        "correct": false,
+        "explanation": "Eso sería なんですか. La pregunta es por precio."
+      },
+      {
+        "text": "De quién es esta remera",
+        "correct": false,
+        "explanation": "Eso sería だれのですか. La pregunta es por precio."
+      }
     ]
   },
   {
     "id": "U2B-014",
     "cat": "Gramática",
     "q": "Después de decidir qué comprar, para decir 'Entonces, me llevo eso', decís:",
-    "correct": "じゃ、それを ください。",
-    "explanation": "Estructura para pedir: [objeto]を ください. Para 'eso' (cerca del oyente/empleado) se usa それ + を.",
     "opts": [
-      {"text": "じゃ、それを ください。", "correct": true, "reason": "Correcta. Patrón ~を ください para pedir."},
-      {"text": "じゃ、それは ください。", "correct": false, "reason": "は marca tema, no objeto directo. Con ください se usa を."},
-      {"text": "じゃ、それの ください。", "correct": false, "reason": "の conecta sustantivos, no funciona como objeto directo."},
-      {"text": "じゃ、それで ください。", "correct": false, "reason": "で marca medio/lugar de acción, no objeto directo."}
+      {
+        "text": "じゃ、それを ください。",
+        "correct": true,
+        "explanation": "Estructura para pedir: [objeto]を ください. Para 'eso' (cerca del oyente/empleado) se usa それ + を. Correcta. Patrón ~を ください para pedir."
+      },
+      {
+        "text": "じゃ、それは ください。",
+        "correct": false,
+        "explanation": "は marca tema, no objeto directo. Con ください se usa を."
+      },
+      {
+        "text": "じゃ、それの ください。",
+        "correct": false,
+        "explanation": "の conecta sustantivos, no funciona como objeto directo."
+      },
+      {
+        "text": "じゃ、それで ください。",
+        "correct": false,
+        "explanation": "で marca medio/lugar de acción, no objeto directo."
+      }
     ]
   },
   {
     "id": "U2B-015",
     "cat": "Partículas",
     "q": "コーヒー___ ください。 (Un café, por favor) ¿Qué partícula falta?",
-    "correct": "を",
-    "explanation": "ください funciona como verbo de petición ('deme'); el objeto pedido se marca con を, partícula de objeto directo.",
     "opts": [
-      {"text": "を", "correct": true, "reason": "Correcta. Marca el objeto directo de ください."},
-      {"text": "は", "correct": false, "reason": "は marca tema, no objeto. Con ください se usa を."},
-      {"text": "が", "correct": false, "reason": "が marca sujeto, no objeto. Inaplicable con ください."},
-      {"text": "に", "correct": false, "reason": "に marca destino/destinatario; con ください sería 'a alguien', no 'algo'."}
+      {
+        "text": "を",
+        "correct": true,
+        "explanation": "ください funciona como verbo de petición ('deme'); el objeto pedido se marca con を, partícula de objeto directo. Correcta. Marca el objeto directo de ください."
+      },
+      {
+        "text": "は",
+        "correct": false,
+        "explanation": "は marca tema, no objeto. Con ください se usa を."
+      },
+      {
+        "text": "が",
+        "correct": false,
+        "explanation": "が marca sujeto, no objeto. Inaplicable con ください."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "explanation": "に marca destino/destinatario; con ください sería 'a alguien', no 'algo'."
+      }
     ]
   },
   {
     "id": "U2B-016",
     "cat": "Vocabulario",
     "q": "¿Qué significa じゃ al inicio de una respuesta?",
-    "correct": "Entonces / bueno (conector)",
-    "explanation": "じゃ es conector que introduce una decisión basada en información previa: 'entonces, en ese caso'. Versión informal de では.",
     "opts": [
-      {"text": "Entonces / bueno (conector)", "correct": true, "reason": "Correcta. Marcador de transición/conclusión."},
-      {"text": "No", "correct": false, "reason": "'No' es いいえ. じゃ no es negación."},
-      {"text": "Sí", "correct": false, "reason": "'Sí' es はい. じゃ no es afirmación."},
-      {"text": "Quizás", "correct": false, "reason": "'Quizás' es たぶん o かもしれない. じゃ no expresa duda."}
+      {
+        "text": "Entonces / bueno (conector)",
+        "correct": true,
+        "explanation": "じゃ es conector que introduce una decisión basada en información previa: 'entonces, en ese caso'. Versión informal de では. Correcta. Marcador de transición/conclusión."
+      },
+      {
+        "text": "No",
+        "correct": false,
+        "explanation": "'No' es いいえ. じゃ no es negación."
+      },
+      {
+        "text": "Sí",
+        "correct": false,
+        "explanation": "'Sí' es はい. じゃ no es afirmación."
+      },
+      {
+        "text": "Quizás",
+        "correct": false,
+        "explanation": "'Quizás' es たぶん o かもしれない. じゃ no expresa duda."
+      }
     ]
   },
   {
     "id": "U2B-017",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 3500 en japonés?",
-    "correct": "さんぜん ごひゃく",
-    "explanation": "3000 = さんぜん (rendaku de せん → ぜん tras さん). 500 = ごひゃく. Notá que 3000 es irregular con dakuten.",
     "opts": [
-      {"text": "さんぜん ごひゃく", "correct": true, "reason": "Correcta. Rendaku obligatorio en さんぜん."},
-      {"text": "さんせん ごひゃく", "correct": false, "reason": "Falta el rendaku: 3000 toma dakuten (せん → ぜん)."},
-      {"text": "さんぜん ごひ ゃく", "correct": false, "reason": "Espacio incorrecto en ごひゃく. La sílaba ひゃ es contracción yōon."},
-      {"text": "みっせん ごひゃく", "correct": false, "reason": "みっ es lectura nativa de 3 (みっつ), no se usa con せん. Es さん."}
+      {
+        "text": "さんぜん ごひゃく",
+        "correct": true,
+        "explanation": "3000 = さんぜん (rendaku de せん → ぜん tras さん). 500 = ごひゃく. Notá que 3000 es irregular con dakuten. Correcta. Rendaku obligatorio en さんぜん."
+      },
+      {
+        "text": "さんせん ごひゃく",
+        "correct": false,
+        "explanation": "Falta el rendaku: 3000 toma dakuten (せん → ぜん)."
+      },
+      {
+        "text": "さんぜん ごひ ゃく",
+        "correct": false,
+        "explanation": "Espacio incorrecto en ごひゃく. La sílaba ひゃ es contracción yōon."
+      },
+      {
+        "text": "みっせん ごひゃく",
+        "correct": false,
+        "explanation": "みっ es lectura nativa de 3 (みっつ), no se usa con せん. Es さん."
+      }
     ]
   },
   {
     "id": "U2B-018",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 800 en japonés?",
-    "correct": "はっぴゃく",
-    "explanation": "8 (はち) + 100 (ひゃく) toma asimilación con sokuon + handakuten: はち + ひゃく → はっぴゃく. Es uno de los irregulares de 100.",
     "opts": [
-      {"text": "はっぴゃく", "correct": true, "reason": "Correcta. Asimilación con sokuon + handakuten."},
-      {"text": "はちひゃく", "correct": false, "reason": "Sin asimilación; la regla fonética obliga はっぴゃく."},
-      {"text": "はちびゃく", "correct": false, "reason": "8 + 100 toma handakuten (ぴ), no dakuten (び)."},
-      {"text": "はっひゃく", "correct": false, "reason": "Falta el handakuten: ひゃく → ぴゃく tras sokuon."}
+      {
+        "text": "はっぴゃく",
+        "correct": true,
+        "explanation": "8 (はち) + 100 (ひゃく) toma asimilación con sokuon + handakuten: はち + ひゃく → はっぴゃく. Es uno de los irregulares de 100. Correcta. Asimilación con sokuon + handakuten."
+      },
+      {
+        "text": "はちひゃく",
+        "correct": false,
+        "explanation": "Sin asimilación; la regla fonética obliga はっぴゃく."
+      },
+      {
+        "text": "はちびゃく",
+        "correct": false,
+        "explanation": "8 + 100 toma handakuten (ぴ), no dakuten (び)."
+      },
+      {
+        "text": "はっひゃく",
+        "correct": false,
+        "explanation": "Falta el handakuten: ひゃく → ぴゃく tras sokuon."
+      }
     ]
   },
   {
     "id": "U2B-019",
     "cat": "Kanji → Lectura",
     "q": "¿Cuál es la lectura correcta de 300?",
-    "correct": "さんびゃく",
-    "explanation": "3 (さん) + 100 (ひゃく) toma rendaku con dakuten: ひゃく → びゃく tras さん. Es uno de los irregulares de 100.",
     "opts": [
-      {"text": "さんびゃく", "correct": true, "reason": "Correcta. Rendaku con dakuten obligatorio."},
-      {"text": "さんひゃく", "correct": false, "reason": "Falta el rendaku: ひゃく toma dakuten tras さん → びゃく."},
-      {"text": "さんぴゃく", "correct": false, "reason": "El handakuten (ぴ) se aplica tras sokuon (300 no tiene sokuon). 300 toma び con dakuten."},
-      {"text": "みつひゃく", "correct": false, "reason": "みつ es lectura nativa, no se usa con ひゃく. Es さん."}
+      {
+        "text": "さんびゃく",
+        "correct": true,
+        "explanation": "3 (さん) + 100 (ひゃく) toma rendaku con dakuten: ひゃく → びゃく tras さん. Es uno de los irregulares de 100. Correcta. Rendaku con dakuten obligatorio."
+      },
+      {
+        "text": "さんひゃく",
+        "correct": false,
+        "explanation": "Falta el rendaku: ひゃく toma dakuten tras さん → びゃく."
+      },
+      {
+        "text": "さんぴゃく",
+        "correct": false,
+        "explanation": "El handakuten (ぴ) se aplica tras sokuon (300 no tiene sokuon). 300 toma び con dakuten."
+      },
+      {
+        "text": "みつひゃく",
+        "correct": false,
+        "explanation": "みつ es lectura nativa, no se usa con ひゃく. Es さん."
+      }
     ]
   },
   {
     "id": "U2B-020",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 600?",
-    "correct": "ろっぴゃく",
-    "explanation": "6 (ろく) + 100 toma sokuon + handakuten: ろく + ひゃく → ろっぴゃく. Mismo patrón que 800.",
     "opts": [
-      {"text": "ろっぴゃく", "correct": true, "reason": "Correcta. Sokuon + handakuten."},
-      {"text": "ろくひゃく", "correct": false, "reason": "Sin asimilación; se exige sokuon + handakuten."},
-      {"text": "ろくびゃく", "correct": false, "reason": "El dakuten (び) se aplica tras さん (300), no tras ろく."},
-      {"text": "ろっぴゃき", "correct": false, "reason": "き no existe en esta palabra; es く al final."}
+      {
+        "text": "ろっぴゃく",
+        "correct": true,
+        "explanation": "6 (ろく) + 100 toma sokuon + handakuten: ろく + ひゃく → ろっぴゃく. Mismo patrón que 800. Correcta. Sokuon + handakuten."
+      },
+      {
+        "text": "ろくひゃく",
+        "correct": false,
+        "explanation": "Sin asimilación; se exige sokuon + handakuten."
+      },
+      {
+        "text": "ろくびゃく",
+        "correct": false,
+        "explanation": "El dakuten (び) se aplica tras さん (300), no tras ろく."
+      },
+      {
+        "text": "ろっぴゃき",
+        "correct": false,
+        "explanation": "き no existe en esta palabra; es く al final."
+      }
     ]
   },
   {
     "id": "U2B-021",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 3000?",
-    "correct": "さんぜん",
-    "explanation": "3 (さん) + 1000 (せん) toma rendaku: せん → ぜん. Es el irregular más conocido de los miles.",
     "opts": [
-      {"text": "さんぜん", "correct": true, "reason": "Correcta. Rendaku obligatorio."},
-      {"text": "さんせん", "correct": false, "reason": "Falta el rendaku: せん → ぜん tras さん."},
-      {"text": "みせん", "correct": false, "reason": "み es lectura nativa incompleta. En compuestos numéricos se usa さん."},
-      {"text": "さんぜい", "correct": false, "reason": "ぜい no es lectura de 千 (mil); es de 税 ('impuesto')."}
+      {
+        "text": "さんぜん",
+        "correct": true,
+        "explanation": "3 (さん) + 1000 (せん) toma rendaku: せん → ぜん. Es el irregular más conocido de los miles. Correcta. Rendaku obligatorio."
+      },
+      {
+        "text": "さんせん",
+        "correct": false,
+        "explanation": "Falta el rendaku: せん → ぜん tras さん."
+      },
+      {
+        "text": "みせん",
+        "correct": false,
+        "explanation": "み es lectura nativa incompleta. En compuestos numéricos se usa さん."
+      },
+      {
+        "text": "さんぜい",
+        "correct": false,
+        "explanation": "ぜい no es lectura de 千 (mil); es de 税 ('impuesto')."
+      }
     ]
   },
   {
     "id": "U2B-022",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 8000?",
-    "correct": "はっせん",
-    "explanation": "8 (はち) + 1000 toma sokuon: はち + せん → はっせん. Otro irregular de los miles.",
     "opts": [
-      {"text": "はっせん", "correct": true, "reason": "Correcta. Sokuon obligatorio."},
-      {"text": "はちせん", "correct": false, "reason": "Sin sokuon; la regla fonética obliga はっせん."},
-      {"text": "はっぜん", "correct": false, "reason": "El rendaku (ぜん) se aplica tras さん (3000), no tras はっ."},
-      {"text": "やっせん", "correct": false, "reason": "や es lectura nativa de 8 (やっつ), no se usa con せん. Es はち."}
+      {
+        "text": "はっせん",
+        "correct": true,
+        "explanation": "8 (はち) + 1000 toma sokuon: はち + せん → はっせん. Otro irregular de los miles. Correcta. Sokuon obligatorio."
+      },
+      {
+        "text": "はちせん",
+        "correct": false,
+        "explanation": "Sin sokuon; la regla fonética obliga はっせん."
+      },
+      {
+        "text": "はっぜん",
+        "correct": false,
+        "explanation": "El rendaku (ぜん) se aplica tras さん (3000), no tras はっ."
+      },
+      {
+        "text": "やっせん",
+        "correct": false,
+        "explanation": "や es lectura nativa de 8 (やっつ), no se usa con せん. Es はち."
+      }
     ]
   },
   {
     "id": "U2B-023",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se diría '4500 yenes' en japonés?",
-    "correct": "よんせん ごひゃく えん",
-    "explanation": "4000 = よんせん (4 toma よん, sin rendaku). 500 = ごひゃく. 円 = えん.",
     "opts": [
-      {"text": "よんせん ごひゃく えん", "correct": true, "reason": "Correcta. Lecturas estándar."},
-      {"text": "しせん ごひゃく えん", "correct": false, "reason": "し es lectura válida pero se prefiere よん por evitar 死 ('muerte')."},
-      {"text": "よんせん ごひゃく げん", "correct": false, "reason": "円 se lee えん, no げん. げん es 元 (yuan chino o 'origen')."},
-      {"text": "よんぜん ごひゃく えん", "correct": false, "reason": "El rendaku ぜん aplica tras さん (3000), no tras よん."}
+      {
+        "text": "よんせん ごひゃく えん",
+        "correct": true,
+        "explanation": "4000 = よんせん (4 toma よん, sin rendaku). 500 = ごひゃく. 円 = えん. Correcta. Lecturas estándar."
+      },
+      {
+        "text": "しせん ごひゃく えん",
+        "correct": false,
+        "explanation": "し es lectura válida pero se prefiere よん por evitar 死 ('muerte')."
+      },
+      {
+        "text": "よんせん ごひゃく げん",
+        "correct": false,
+        "explanation": "円 se lee えん, no げん. げん es 元 (yuan chino o 'origen')."
+      },
+      {
+        "text": "よんぜん ごひゃく えん",
+        "correct": false,
+        "explanation": "El rendaku ぜん aplica tras さん (3000), no tras よん."
+      }
     ]
   },
   {
     "id": "U2B-024",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se dice '10.000' (diez mil) en japonés?",
-    "correct": "いちまん",
-    "explanation": "El japonés tiene unidad propia para 10.000: 万 (まん). Por eso 10.000 = 1万 (いちまん), no 'diez mil'. Esto cambia la lógica numérica respecto al español.",
     "opts": [
-      {"text": "いちまん", "correct": true, "reason": "Correcta. 1万 es la unidad estándar."},
-      {"text": "じゅうせん", "correct": false, "reason": "じゅうせん no se usa: el japonés cambia a 万 (まん) en 10.000."},
-      {"text": "じゅうまん", "correct": false, "reason": "じゅうまん es 100.000 (10万), no 10.000."},
-      {"text": "いちじゅうまん", "correct": false, "reason": "Lectura inexistente. Es solo いちまん."}
+      {
+        "text": "いちまん",
+        "correct": true,
+        "explanation": "El japonés tiene unidad propia para 10.000: 万 (まん). Por eso 10.000 = 1万 (いちまん), no 'diez mil'. Esto cambia la lógica numérica respecto al español. Correcta. 1万 es la unidad estándar."
+      },
+      {
+        "text": "じゅうせん",
+        "correct": false,
+        "explanation": "じゅうせん no se usa: el japonés cambia a 万 (まん) en 10.000."
+      },
+      {
+        "text": "じゅうまん",
+        "correct": false,
+        "explanation": "じゅうまん es 100.000 (10万), no 10.000."
+      },
+      {
+        "text": "いちじゅうまん",
+        "correct": false,
+        "explanation": "Lectura inexistente. Es solo いちまん."
+      }
     ]
   },
   {
     "id": "U2B-025",
     "cat": "Gramática",
     "q": "Completá: このかばんは ___ ですか。 (¿Cuánto cuesta esta cartera?)",
-    "correct": "いくら",
-    "explanation": "Para preguntar precio se usa いくら antes de ですか.",
     "opts": [
-      {"text": "いくら", "correct": true, "reason": "Correcta. Interrogativo de precio."},
-      {"text": "どこ", "correct": false, "reason": "どこ = '¿dónde?'. Lugar, no precio."},
-      {"text": "なに", "correct": false, "reason": "なに = '¿qué?'. Identidad, no precio."},
-      {"text": "だれ", "correct": false, "reason": "だれ = '¿quién?'. Persona, no precio."}
+      {
+        "text": "いくら",
+        "correct": true,
+        "explanation": "Para preguntar precio se usa いくら antes de ですか. Correcta. Interrogativo de precio."
+      },
+      {
+        "text": "どこ",
+        "correct": false,
+        "explanation": "どこ = '¿dónde?'. Lugar, no precio."
+      },
+      {
+        "text": "なに",
+        "correct": false,
+        "explanation": "なに = '¿qué?'. Identidad, no precio."
+      },
+      {
+        "text": "だれ",
+        "correct": false,
+        "explanation": "だれ = '¿quién?'. Persona, no precio."
+      }
     ]
   },
   {
     "id": "U2B-026",
     "cat": "Diálogo",
     "q": "Cliente: あのとけいは いくらですか。 Empleado: 9000円です。 Cliente: ___、それを ください。",
-    "correct": "じゃ",
-    "explanation": "Tras escuchar el precio y decidir comprar, じゃ ('entonces') introduce la conclusión.",
     "opts": [
-      {"text": "じゃ", "correct": true, "reason": "Correcta. Marcador de decisión tras información."},
-      {"text": "はい", "correct": false, "reason": "はい = 'sí'. No es transición conclusiva."},
-      {"text": "もう", "correct": false, "reason": "もう = 'ya'. Indica algo terminado, no decisión."},
-      {"text": "そう", "correct": false, "reason": "そう = 'así (es)'. No introduce decisión de compra."}
+      {
+        "text": "じゃ",
+        "correct": true,
+        "explanation": "Tras escuchar el precio y decidir comprar, じゃ ('entonces') introduce la conclusión. Correcta. Marcador de decisión tras información."
+      },
+      {
+        "text": "はい",
+        "correct": false,
+        "explanation": "はい = 'sí'. No es transición conclusiva."
+      },
+      {
+        "text": "もう",
+        "correct": false,
+        "explanation": "もう = 'ya'. Indica algo terminado, no decisión."
+      },
+      {
+        "text": "そう",
+        "correct": false,
+        "explanation": "そう = 'así (es)'. No introduce decisión de compra."
+      }
     ]
   },
   {
     "id": "U2B-027",
     "cat": "Distinción",
     "q": "Si el empleado muestra un producto que está en su mostrador (cerca de él), ¿cómo te referís a él?",
-    "correct": "それ / そのN",
-    "explanation": "El producto está cerca del INTERLOCUTOR (empleado), por lo que el hablante usa la serie そ: それ (pronombre) o そのN (determinante).",
     "opts": [
-      {"text": "それ / そのN", "correct": true, "reason": "Correcta. Cerca del oyente."},
-      {"text": "これ / このN", "correct": false, "reason": "Esa serie es para objetos cerca del HABLANTE, no del oyente."},
-      {"text": "あれ / あのN", "correct": false, "reason": "Esa serie es para objetos LEJOS DE AMBOS. Si está en el mostrador del empleado, no aplica."},
-      {"text": "どれ / どのN", "correct": false, "reason": "Es interrogativa ('¿cuál?'), no afirmativa."}
+      {
+        "text": "それ / そのN",
+        "correct": true,
+        "explanation": "El producto está cerca del INTERLOCUTOR (empleado), por lo que el hablante usa la serie そ: それ (pronombre) o そのN (determinante). Correcta. Cerca del oyente."
+      },
+      {
+        "text": "これ / このN",
+        "correct": false,
+        "explanation": "Esa serie es para objetos cerca del HABLANTE, no del oyente."
+      },
+      {
+        "text": "あれ / あのN",
+        "correct": false,
+        "explanation": "Esa serie es para objetos LEJOS DE AMBOS. Si está en el mostrador del empleado, no aplica."
+      },
+      {
+        "text": "どれ / どのN",
+        "correct": false,
+        "explanation": "Es interrogativa ('¿cuál?'), no afirmativa."
+      }
     ]
   },
   {
     "id": "U2B-028",
     "cat": "Diálogo",
     "q": "Al entregarte un producto, el empleado dice:",
-    "correct": "どうぞ",
-    "explanation": "どうぞ se usa al ofrecer/entregar algo: 'aquí tiene/por favor'. Es la fórmula estándar de entrega.",
     "opts": [
-      {"text": "どうぞ", "correct": true, "reason": "Correcta. Fórmula de entrega/ofrecimiento."},
-      {"text": "どうも", "correct": false, "reason": "どうも es ambiguo (gracias/hola informal). No es para entregar."},
-      {"text": "いらっしゃいませ", "correct": false, "reason": "Es para RECIBIR al cliente al entrar, no para entregar productos."},
-      {"text": "おねがいします", "correct": false, "reason": "Es para PEDIR algo, no para entregar."}
+      {
+        "text": "どうぞ",
+        "correct": true,
+        "explanation": "どうぞ se usa al ofrecer/entregar algo: 'aquí tiene/por favor'. Es la fórmula estándar de entrega. Correcta. Fórmula de entrega/ofrecimiento."
+      },
+      {
+        "text": "どうも",
+        "correct": false,
+        "explanation": "どうも es ambiguo (gracias/hola informal). No es para entregar."
+      },
+      {
+        "text": "いらっしゃいませ",
+        "correct": false,
+        "explanation": "Es para RECIBIR al cliente al entrar, no para entregar productos."
+      },
+      {
+        "text": "おねがいします",
+        "correct": false,
+        "explanation": "Es para PEDIR algo, no para entregar."
+      }
     ]
   },
   {
     "id": "U2B-029",
     "cat": "Diálogo",
     "q": "¿Qué dice un empleado al cliente cuando entra a la tienda?",
-    "correct": "いらっしゃいませ",
-    "explanation": "いらっしゃいませ es la fórmula honorífica de bienvenida en comercios y restaurantes. Literal: 'venga (con respeto)'.",
     "opts": [
-      {"text": "いらっしゃいませ", "correct": true, "reason": "Correcta. Bienvenida estándar comercial."},
-      {"text": "おはようございます", "correct": false, "reason": "Es 'buenos días' general (matinal), no fórmula de bienvenida comercial."},
-      {"text": "こんにちは", "correct": false, "reason": "Es 'buenas tardes' general, no fórmula específica de servicio."},
-      {"text": "ありがとうございます", "correct": false, "reason": "Es agradecimiento; se usa al irse el cliente, no al entrar."}
+      {
+        "text": "いらっしゃいませ",
+        "correct": true,
+        "explanation": "いらっしゃいませ es la fórmula honorífica de bienvenida en comercios y restaurantes. Literal: 'venga (con respeto)'. Correcta. Bienvenida estándar comercial."
+      },
+      {
+        "text": "おはようございます",
+        "correct": false,
+        "explanation": "Es 'buenos días' general (matinal), no fórmula de bienvenida comercial."
+      },
+      {
+        "text": "こんにちは",
+        "correct": false,
+        "explanation": "Es 'buenas tardes' general, no fórmula específica de servicio."
+      },
+      {
+        "text": "ありがとうございます",
+        "correct": false,
+        "explanation": "Es agradecimiento; se usa al irse el cliente, no al entrar."
+      }
     ]
   },
   {
     "id": "U2B-030",
     "cat": "Traducción JP→ES",
     "q": "¿Qué significa いらっしゃいませ?",
-    "correct": "Bienvenido/a (a la tienda)",
-    "explanation": "いらっしゃいませ es la fórmula de bienvenida en comercios, derivada del verbo honorífico いらっしゃる ('venir/estar' formal).",
     "opts": [
-      {"text": "Bienvenido/a (a la tienda)", "correct": true, "reason": "Correcta. Función pragmática de saludo de bienvenida."},
-      {"text": "Por favor entre", "correct": false, "reason": "'Por favor entre' sería どうぞ お入りください. Implicación distinta."},
-      {"text": "Gracias por venir", "correct": false, "reason": "'Gracias por venir' sería ご来店ありがとうございます (más formal, al irse)."},
-      {"text": "¿En qué puedo ayudarlo?", "correct": false, "reason": "Eso sería 何か お探しですか o ご用件は. いらっしゃいませ es saludo, no ofrecimiento de ayuda."}
+      {
+        "text": "Bienvenido/a (a la tienda)",
+        "correct": true,
+        "explanation": "いらっしゃいませ es la fórmula de bienvenida en comercios, derivada del verbo honorífico いらっしゃる ('venir/estar' formal). Correcta. Función pragmática de saludo de bienvenida."
+      },
+      {
+        "text": "Por favor entre",
+        "correct": false,
+        "explanation": "'Por favor entre' sería どうぞ お入りください. Implicación distinta."
+      },
+      {
+        "text": "Gracias por venir",
+        "correct": false,
+        "explanation": "'Gracias por venir' sería ご来店ありがとうございます (más formal, al irse)."
+      },
+      {
+        "text": "¿En qué puedo ayudarlo?",
+        "correct": false,
+        "explanation": "Eso sería 何か お探しですか o ご用件は. いらっしゃいませ es saludo, no ofrecimiento de ayuda."
+      }
     ]
   },
   {
     "id": "U2B-031",
     "cat": "Diálogo",
     "q": "Vas a un negocio y querés preguntar por el precio de una cartera en un estante lejano. Decís:",
-    "correct": "あのかばんは いくらですか。",
-    "explanation": "Para 'aquella cartera (lejos)' se usa el determinante あの + sustantivo. Estructura: あの + かばん + は + いくらですか.",
     "opts": [
-      {"text": "あのかばんは いくらですか。", "correct": true, "reason": "Correcta. あの (determinante lejano) + sustantivo + pregunta."},
-      {"text": "あれかばんは いくらですか。", "correct": false, "reason": "あれ es pronombre, no determinante. Para modificar a un sustantivo se usa あの."},
-      {"text": "そのかばんは いくらですか。", "correct": false, "reason": "そのN es 'ese (cerca del empleado)'. Si la cartera está LEJOS, va あの."},
-      {"text": "このかばん いくらですか。", "correct": false, "reason": "この es para objetos cerca del hablante; y le falta la partícula は."}
+      {
+        "text": "あのかばんは いくらですか。",
+        "correct": true,
+        "explanation": "Para 'aquella cartera (lejos)' se usa el determinante あの + sustantivo. Estructura: あの + かばん + は + いくらですか. Correcta. あの (determinante lejano) + sustantivo + pregunta."
+      },
+      {
+        "text": "あれかばんは いくらですか。",
+        "correct": false,
+        "explanation": "あれ es pronombre, no determinante. Para modificar a un sustantivo se usa あの."
+      },
+      {
+        "text": "そのかばんは いくらですか。",
+        "correct": false,
+        "explanation": "そのN es 'ese (cerca del empleado)'. Si la cartera está LEJOS, va あの."
+      },
+      {
+        "text": "このかばん いくらですか。",
+        "correct": false,
+        "explanation": "この es para objetos cerca del hablante; y le falta la partícula は."
+      }
     ]
   },
   {
     "id": "U2B-032",
     "cat": "Gramática",
     "q": "¿Cuál oración es INCORRECTA?",
-    "correct": "この いくらですか。",
-    "explanation": "この es DETERMINANTE: requiere un sustantivo después. Sin sustantivo, queda incompleta y agramatical.",
     "opts": [
-      {"text": "この いくらですか。", "correct": true, "reason": "Correcta como respuesta (es la frase MAL formada): この sin sustantivo es agramatical."},
-      {"text": "これは いくらですか。", "correct": false, "reason": "Esta SÍ es correcta: これ es pronombre y va solo."},
-      {"text": "このTシャツは いくらですか。", "correct": false, "reason": "Esta SÍ es correcta: この + sustantivo (Tシャツ)."},
-      {"text": "それは いくらですか。", "correct": false, "reason": "Esta SÍ es correcta: それ es pronombre y va solo."}
+      {
+        "text": "この いくらですか。",
+        "correct": true,
+        "explanation": "この es DETERMINANTE: requiere un sustantivo después. Sin sustantivo, queda incompleta y agramatical. Correcta como respuesta (es la frase MAL formada): この sin sustantivo es agramatical."
+      },
+      {
+        "text": "これは いくらですか。",
+        "correct": false,
+        "explanation": "Esta SÍ es correcta: これ es pronombre y va solo."
+      },
+      {
+        "text": "このTシャツは いくらですか。",
+        "correct": false,
+        "explanation": "Esta SÍ es correcta: この + sustantivo (Tシャツ)."
+      },
+      {
+        "text": "それは いくらですか。",
+        "correct": false,
+        "explanation": "Esta SÍ es correcta: それ es pronombre y va solo."
+      }
     ]
   },
   {
     "id": "U2B-033",
     "cat": "Katakana",
     "q": "¿Qué significa Tシャツ?",
-    "correct": "Remera / camiseta",
-    "explanation": "Tシャツ combina la letra latina T (por la forma) + シャツ ('shirt'). Es la prenda informal de manga corta.",
     "opts": [
-      {"text": "Remera / camiseta", "correct": true, "reason": "Correcta. Prenda informal."},
-      {"text": "Camisa formal", "correct": false, "reason": "'Camisa formal' es ワイシャツ o 'Y-shirt'. Tシャツ es informal."},
-      {"text": "Saco", "correct": false, "reason": "'Saco/chaqueta' es ジャケット o 上着 (うわぎ)."},
-      {"text": "Tela", "correct": false, "reason": "'Tela' es 布 (ぬの) o 生地 (きじ). Tシャツ es la prenda terminada."}
+      {
+        "text": "Remera / camiseta",
+        "correct": true,
+        "explanation": "Tシャツ combina la letra latina T (por la forma) + シャツ ('shirt'). Es la prenda informal de manga corta. Correcta. Prenda informal."
+      },
+      {
+        "text": "Camisa formal",
+        "correct": false,
+        "explanation": "'Camisa formal' es ワイシャツ o 'Y-shirt'. Tシャツ es informal."
+      },
+      {
+        "text": "Saco",
+        "correct": false,
+        "explanation": "'Saco/chaqueta' es ジャケット o 上着 (うわぎ)."
+      },
+      {
+        "text": "Tela",
+        "correct": false,
+        "explanation": "'Tela' es 布 (ぬの) o 生地 (きじ). Tシャツ es la prenda terminada."
+      }
     ]
   },
   {
     "id": "U2B-034",
     "cat": "Números y Tiempo",
     "q": "'6500 yenes' se dice:",
-    "correct": "ろくせん ごひゃく えん",
-    "explanation": "6000 = ろくせん (6 sin alteración, せん regular). 500 = ごひゃく. 円 = えん.",
     "opts": [
-      {"text": "ろくせん ごひゃく えん", "correct": true, "reason": "Correcta. Lectura sin alteraciones."},
-      {"text": "ろっせん ごひゃく えん", "correct": false, "reason": "El sokuon ろっ aplica con 階 (ろっかい), no con せん. 6000 es ろくせん regular."},
-      {"text": "ろくせん ごびゃく えん", "correct": false, "reason": "500 es ごひゃく (sin rendaku); el rendaku ocurre en さんびゃく."},
-      {"text": "ろくぜん ごひゃく えん", "correct": false, "reason": "El rendaku ぜん aplica con さん (3000), no con ろく."}
+      {
+        "text": "ろくせん ごひゃく えん",
+        "correct": true,
+        "explanation": "6000 = ろくせん (6 sin alteración, せん regular). 500 = ごひゃく. 円 = えん. Correcta. Lectura sin alteraciones."
+      },
+      {
+        "text": "ろっせん ごひゃく えん",
+        "correct": false,
+        "explanation": "El sokuon ろっ aplica con 階 (ろっかい), no con せん. 6000 es ろくせん regular."
+      },
+      {
+        "text": "ろくせん ごびゃく えん",
+        "correct": false,
+        "explanation": "500 es ごひゃく (sin rendaku); el rendaku ocurre en さんびゃく."
+      },
+      {
+        "text": "ろくぜん ごひゃく えん",
+        "correct": false,
+        "explanation": "El rendaku ぜん aplica con さん (3000), no con ろく."
+      }
     ]
   },
   {
     "id": "U2B-035",
     "cat": "Diálogo",
     "q": "El cliente decidió comprar. La frase correcta es:",
-    "correct": "これをください。",
-    "explanation": "Estructura para pedir: [pronombre/sustantivo] + を + ください.",
     "opts": [
-      {"text": "これをください。", "correct": true, "reason": "Correcta. Patrón estándar de petición."},
-      {"text": "これはください。", "correct": false, "reason": "は marca tema; con ください se usa を (objeto directo)."},
-      {"text": "この ください。", "correct": false, "reason": "この sin sustantivo no es válido. Lo correcto es これ + を."},
-      {"text": "これで ください。", "correct": false, "reason": "で marca medio/lugar de acción, no objeto pedido."}
+      {
+        "text": "これをください。",
+        "correct": true,
+        "explanation": "Estructura para pedir: [pronombre/sustantivo] + を + ください. Correcta. Patrón estándar de petición."
+      },
+      {
+        "text": "これはください。",
+        "correct": false,
+        "explanation": "は marca tema; con ください se usa を (objeto directo)."
+      },
+      {
+        "text": "この ください。",
+        "correct": false,
+        "explanation": "この sin sustantivo no es válido. Lo correcto es これ + を."
+      },
+      {
+        "text": "これで ください。",
+        "correct": false,
+        "explanation": "で marca medio/lugar de acción, no objeto pedido."
+      }
     ]
   },
   {
     "id": "U2B-036",
     "cat": "Traducción ES→JP",
     "q": "Traducí: 'Ese pantalón cuesta 3800 yenes'",
-    "correct": "そのズボンは 3800円です。",
-    "explanation": "'Ese pantalón' = そのズボン (determinante その + sustantivo). 'cuesta 3800 yenes' = 3800円です.",
     "opts": [
-      {"text": "そのズボンは 3800円です。", "correct": true, "reason": "Correcta. Estructura completa con determinante."},
-      {"text": "それズボン は 3800円です。", "correct": false, "reason": "それ es pronombre; no se combina directamente con sustantivo. Se usa その."},
-      {"text": "そのズボンは 3800円ですか。", "correct": false, "reason": "El か final convierte la afirmación en pregunta; la consigna es afirmación."},
-      {"text": "そのは ズボン 3800円です。", "correct": false, "reason": "Orden incorrecto: その debe modificar directamente a ズボン antes de la partícula は."}
+      {
+        "text": "そのズボンは 3800円です。",
+        "correct": true,
+        "explanation": "'Ese pantalón' = そのズボン (determinante その + sustantivo). 'cuesta 3800 yenes' = 3800円です. Correcta. Estructura completa con determinante."
+      },
+      {
+        "text": "それズボン は 3800円です。",
+        "correct": false,
+        "explanation": "それ es pronombre; no se combina directamente con sustantivo. Se usa その."
+      },
+      {
+        "text": "そのズボンは 3800円ですか。",
+        "correct": false,
+        "explanation": "El か final convierte la afirmación en pregunta; la consigna es afirmación."
+      },
+      {
+        "text": "そのは ズボン 3800円です。",
+        "correct": false,
+        "explanation": "Orden incorrecto: その debe modificar directamente a ズボン antes de la partícula は."
+      }
     ]
   },
   {
     "id": "U2B-037",
     "cat": "Distinción",
     "q": "Elegí la oración correcta para decir 'Por favor, deme esto (cerca de mí)'",
-    "correct": "これを ください。",
-    "explanation": "'Esto (cerca del hablante)' = これ. Estructura de petición: これを ください.",
     "opts": [
-      {"text": "これを ください。", "correct": true, "reason": "Correcta. Pronombre + を + verbo de petición."},
-      {"text": "この ください。", "correct": false, "reason": "この sin sustantivo es incompleto y agramatical."},
-      {"text": "これは ください。", "correct": false, "reason": "は marca tema; con ください se usa を."},
-      {"text": "こちら ください。", "correct": false, "reason": "こちら es 'aquí' (lugar formal), no 'esto' (objeto). Y falta partícula を."}
+      {
+        "text": "これを ください。",
+        "correct": true,
+        "explanation": "'Esto (cerca del hablante)' = これ. Estructura de petición: これを ください. Correcta. Pronombre + を + verbo de petición."
+      },
+      {
+        "text": "この ください。",
+        "correct": false,
+        "explanation": "この sin sustantivo es incompleto y agramatical."
+      },
+      {
+        "text": "これは ください。",
+        "correct": false,
+        "explanation": "は marca tema; con ください se usa を."
+      },
+      {
+        "text": "こちら ください。",
+        "correct": false,
+        "explanation": "こちら es 'aquí' (lugar formal), no 'esto' (objeto). Y falta partícula を."
+      }
     ]
   },
   {
     "id": "U2B-038",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 紙 (かみ)?",
-    "correct": "Papel",
-    "explanation": "紙 (かみ) es 'papel' como material. Atención: hay homófonos como 髪 (cabello), 神 (dios), 上 (arriba) que también se leen かみ.",
     "opts": [
-      {"text": "Papel", "correct": true, "reason": "Correcta. Significado del kanji 紙."},
-      {"text": "Cabello", "correct": false, "reason": "'Cabello' es 髪 (かみ), kanji distinto homófono. Cuidado con la confusión."},
-      {"text": "Dios", "correct": false, "reason": "'Dios' es 神 (かみ), kanji distinto homófono."},
-      {"text": "Espejo", "correct": false, "reason": "'Espejo' es 鏡 (かがみ), no かみ."}
+      {
+        "text": "Papel",
+        "correct": true,
+        "explanation": "紙 (かみ) es 'papel' como material. Atención: hay homófonos como 髪 (cabello), 神 (dios), 上 (arriba) que también se leen かみ. Correcta. Significado del kanji 紙."
+      },
+      {
+        "text": "Cabello",
+        "correct": false,
+        "explanation": "'Cabello' es 髪 (かみ), kanji distinto homófono. Cuidado con la confusión."
+      },
+      {
+        "text": "Dios",
+        "correct": false,
+        "explanation": "'Dios' es 神 (かみ), kanji distinto homófono."
+      },
+      {
+        "text": "Espejo",
+        "correct": false,
+        "explanation": "'Espejo' es 鏡 (かがみ), no かみ."
+      }
     ]
   },
   {
     "id": "U2B-039",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 薬 (くすり)?",
-    "correct": "Medicina",
-    "explanation": "薬 (くすり) es 'medicina/medicamento'. Se usa para todo tipo de tratamientos farmacológicos.",
     "opts": [
-      {"text": "Medicina", "correct": true, "reason": "Correcta. Significado central."},
-      {"text": "Droga ilegal", "correct": false, "reason": "Aunque 薬物 (やくぶつ) se usa en contexto legal/policial, 薬 solo es 'medicina' en uso cotidiano."},
-      {"text": "Hierba", "correct": false, "reason": "'Hierba' es 草 (くさ) o ハーブ. 薬 es procesado/farmacéutico."},
-      {"text": "Veneno", "correct": false, "reason": "'Veneno' es 毒 (どく). Opuesto al sentido de 薬."}
+      {
+        "text": "Medicina",
+        "correct": true,
+        "explanation": "薬 (くすり) es 'medicina/medicamento'. Se usa para todo tipo de tratamientos farmacológicos. Correcta. Significado central."
+      },
+      {
+        "text": "Droga ilegal",
+        "correct": false,
+        "explanation": "Aunque 薬物 (やくぶつ) se usa en contexto legal/policial, 薬 solo es 'medicina' en uso cotidiano."
+      },
+      {
+        "text": "Hierba",
+        "correct": false,
+        "explanation": "'Hierba' es 草 (くさ) o ハーブ. 薬 es procesado/farmacéutico."
+      },
+      {
+        "text": "Veneno",
+        "correct": false,
+        "explanation": "'Veneno' es 毒 (どく). Opuesto al sentido de 薬."
+      }
     ]
   },
   {
     "id": "U2B-040",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 卵 (たまご)?",
-    "correct": "Huevo",
-    "explanation": "卵 (たまご) es 'huevo' (de gallina, usualmente). También puede significar 'larva/cría' en sentido figurado.",
     "opts": [
-      {"text": "Huevo", "correct": true, "reason": "Correcta. Significado central."},
-      {"text": "Manzana", "correct": false, "reason": "'Manzana' es りんご. Sin parecido."},
-      {"text": "Pelota", "correct": false, "reason": "'Pelota' es ボール o 球 (たま). Aunque たま está en たまご, no son lo mismo."},
-      {"text": "Redondo", "correct": false, "reason": "'Redondo (forma)' es 丸い (まるい). 卵 es el objeto."}
+      {
+        "text": "Huevo",
+        "correct": true,
+        "explanation": "卵 (たまご) es 'huevo' (de gallina, usualmente). También puede significar 'larva/cría' en sentido figurado. Correcta. Significado central."
+      },
+      {
+        "text": "Manzana",
+        "correct": false,
+        "explanation": "'Manzana' es りんご. Sin parecido."
+      },
+      {
+        "text": "Pelota",
+        "correct": false,
+        "explanation": "'Pelota' es ボール o 球 (たま). Aunque たま está en たまご, no son lo mismo."
+      },
+      {
+        "text": "Redondo",
+        "correct": false,
+        "explanation": "'Redondo (forma)' es 丸い (まるい). 卵 es el objeto."
+      }
     ]
   },
   {
     "id": "U2B-041",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 米 (こめ)?",
-    "correct": "Arroz (grano, sin cocer)",
-    "explanation": "米 (こめ) es el arroz crudo/grano. Cuando está cocido se llama ご飯 (gohan). El kanji 米 también significa 'EE.UU.' por abreviación de アメリカ → 米国.",
     "opts": [
-      {"text": "Arroz (grano, sin cocer)", "correct": true, "reason": "Correcta. Específicamente el grano crudo."},
-      {"text": "Arroz cocido", "correct": false, "reason": "'Arroz cocido' es ご飯 (ごはん). 米 es el grano antes de cocinar."},
-      {"text": "Maíz", "correct": false, "reason": "'Maíz' es トウモロコシ. Cereal distinto."},
-      {"text": "Trigo", "correct": false, "reason": "'Trigo' es 麦 (むぎ). Cereal distinto."}
+      {
+        "text": "Arroz (grano, sin cocer)",
+        "correct": true,
+        "explanation": "米 (こめ) es el arroz crudo/grano. Cuando está cocido se llama ご飯 (gohan). El kanji 米 también significa 'EE.UU.' por abreviación de アメリカ → 米国. Correcta. Específicamente el grano crudo."
+      },
+      {
+        "text": "Arroz cocido",
+        "correct": false,
+        "explanation": "'Arroz cocido' es ご飯 (ごはん). 米 es el grano antes de cocinar."
+      },
+      {
+        "text": "Maíz",
+        "correct": false,
+        "explanation": "'Maíz' es トウモロコシ. Cereal distinto."
+      },
+      {
+        "text": "Trigo",
+        "correct": false,
+        "explanation": "'Trigo' es 麦 (むぎ). Cereal distinto."
+      }
     ]
   },
   {
     "id": "U2B-042",
     "cat": "Vocabulario",
     "q": "¿Cómo se dice 'diccionario' en japonés?",
-    "correct": "辞書 (じしょ)",
-    "explanation": "辞書 (じしょ) es la palabra estándar para 'diccionario'. 辞 ('palabra') + 書 ('libro').",
     "opts": [
-      {"text": "辞書 (じしょ)", "correct": true, "reason": "Correcta. Palabra estándar."},
-      {"text": "事書 (じしょ)", "correct": false, "reason": "Aunque la lectura coincide, el kanji 事 ('asunto') es incorrecto. El correcto es 辞 ('palabra')."},
-      {"text": "字典 (じてん)", "correct": false, "reason": "字典 existe (diccionario de caracteres) pero es menos común. Lo estándar es 辞書."},
-      {"text": "本 (ほん)", "correct": false, "reason": "本 es 'libro' general, no específicamente diccionario."}
+      {
+        "text": "辞書 (じしょ)",
+        "correct": true,
+        "explanation": "辞書 (じしょ) es la palabra estándar para 'diccionario'. 辞 ('palabra') + 書 ('libro'). Correcta. Palabra estándar."
+      },
+      {
+        "text": "事書 (じしょ)",
+        "correct": false,
+        "explanation": "Aunque la lectura coincide, el kanji 事 ('asunto') es incorrecto. El correcto es 辞 ('palabra')."
+      },
+      {
+        "text": "字典 (じてん)",
+        "correct": false,
+        "explanation": "字典 existe (diccionario de caracteres) pero es menos común. Lo estándar es 辞書."
+      },
+      {
+        "text": "本 (ほん)",
+        "correct": false,
+        "explanation": "本 es 'libro' general, no específicamente diccionario."
+      }
     ]
   },
   {
     "id": "U2B-043",
     "cat": "Vocabulario",
     "q": "¿Qué significa 電子辞書 (でんしじしょ)?",
-    "correct": "Diccionario electrónico",
-    "explanation": "電子 (でんし, 'electrónico') + 辞書 (diccionario) = aparato dedicado para consultar palabras, muy común en estudiantes japoneses.",
     "opts": [
-      {"text": "Diccionario electrónico", "correct": true, "reason": "Correcta. Aparato específico."},
-      {"text": "Diccionario grande", "correct": false, "reason": "'Diccionario grande' sería 大辞典 (だいじてん). 電子 marca formato electrónico."},
-      {"text": "Diccionario bilingüe", "correct": false, "reason": "'Bilingüe' sería 二言語 o 和英 (japonés-inglés), 和西 (japonés-español)."},
-      {"text": "Computadora con diccionario", "correct": false, "reason": "電子辞書 es un aparato específico/dedicado, no una computadora completa."}
+      {
+        "text": "Diccionario electrónico",
+        "correct": true,
+        "explanation": "電子 (でんし, 'electrónico') + 辞書 (diccionario) = aparato dedicado para consultar palabras, muy común en estudiantes japoneses. Correcta. Aparato específico."
+      },
+      {
+        "text": "Diccionario grande",
+        "correct": false,
+        "explanation": "'Diccionario grande' sería 大辞典 (だいじてん). 電子 marca formato electrónico."
+      },
+      {
+        "text": "Diccionario bilingüe",
+        "correct": false,
+        "explanation": "'Bilingüe' sería 二言語 o 和英 (japonés-inglés), 和西 (japonés-español)."
+      },
+      {
+        "text": "Computadora con diccionario",
+        "correct": false,
+        "explanation": "電子辞書 es un aparato específico/dedicado, no una computadora completa."
+      }
     ]
   },
   {
     "id": "U2B-044",
     "cat": "Vocabulario",
     "q": "¿Qué significa 消しゴム (けしごむ)?",
-    "correct": "Goma de borrar",
-    "explanation": "消し (けし, de 消す 'borrar') + ゴム (de 'gum/rubber') = goma de borrar.",
     "opts": [
-      {"text": "Goma de borrar", "correct": true, "reason": "Correcta. Combinación verbo+préstamo."},
-      {"text": "Lápiz", "correct": false, "reason": "'Lápiz' es 鉛筆 (えんぴつ)."},
-      {"text": "Regla", "correct": false, "reason": "'Regla' es 定規 (じょうぎ) o ものさし."},
-      {"text": "Cinta", "correct": false, "reason": "'Cinta adhesiva' es テープ. Sin relación."}
+      {
+        "text": "Goma de borrar",
+        "correct": true,
+        "explanation": "消し (けし, de 消す 'borrar') + ゴム (de 'gum/rubber') = goma de borrar. Correcta. Combinación verbo+préstamo."
+      },
+      {
+        "text": "Lápiz",
+        "correct": false,
+        "explanation": "'Lápiz' es 鉛筆 (えんぴつ)."
+      },
+      {
+        "text": "Regla",
+        "correct": false,
+        "explanation": "'Regla' es 定規 (じょうぎ) o ものさし."
+      },
+      {
+        "text": "Cinta",
+        "correct": false,
+        "explanation": "'Cinta adhesiva' es テープ. Sin relación."
+      }
     ]
   },
   {
     "id": "U2B-045",
     "cat": "Vocabulario",
     "q": "¿Qué significa 携帯電話 (けいたいでんわ)?",
-    "correct": "Teléfono celular",
-    "explanation": "携帯 (けいたい, 'portátil') + 電話 (でんわ, 'teléfono') = teléfono móvil. Forma corta: 携帯 (けいたい). Forma moderna: ケータイ (en katakana) o スマホ (smartphone).",
     "opts": [
-      {"text": "Teléfono celular", "correct": true, "reason": "Correcta. 携帯 = portátil."},
-      {"text": "Teléfono fijo", "correct": false, "reason": "'Teléfono fijo' es 固定電話 (こていでんわ). 携帯 es lo opuesto."},
-      {"text": "Cable telefónico", "correct": false, "reason": "'Cable' es ケーブル o 電線. 携帯電話 es el aparato."},
-      {"text": "Teléfono público", "correct": false, "reason": "'Teléfono público' es 公衆電話 (こうしゅうでんわ)."}
+      {
+        "text": "Teléfono celular",
+        "correct": true,
+        "explanation": "携帯 (けいたい, 'portátil') + 電話 (でんわ, 'teléfono') = teléfono móvil. Forma corta: 携帯 (けいたい). Forma moderna: ケータイ (en katakana) o スマホ (smartphone). Correcta. 携帯 = portátil."
+      },
+      {
+        "text": "Teléfono fijo",
+        "correct": false,
+        "explanation": "'Teléfono fijo' es 固定電話 (こていでんわ). 携帯 es lo opuesto."
+      },
+      {
+        "text": "Cable telefónico",
+        "correct": false,
+        "explanation": "'Cable' es ケーブル o 電線. 携帯電話 es el aparato."
+      },
+      {
+        "text": "Teléfono público",
+        "correct": false,
+        "explanation": "'Teléfono público' es 公衆電話 (こうしゅうでんわ)."
+      }
     ]
   },
   {
     "id": "U2B-046",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 携帯電話?",
-    "correct": "けいたいでんわ",
-    "explanation": "携 (けい) + 帯 (たい) + 電 (でん) + 話 (わ) = けいたいでんわ. Lecturas on'yomi estándar.",
     "opts": [
-      {"text": "けいたいでんわ", "correct": true, "reason": "Correcta. On'yomi estándar."},
-      {"text": "けいだいでんわ", "correct": false, "reason": "帯 se lee たい (sin dakuten) en este compuesto."},
-      {"text": "けったいでんわ", "correct": false, "reason": "El primer kanji se lee けい (vocal larga), no けっ con sokuon."},
-      {"text": "きょうたいでんわ", "correct": false, "reason": "携 se lee けい, no きょう."}
+      {
+        "text": "けいたいでんわ",
+        "correct": true,
+        "explanation": "携 (けい) + 帯 (たい) + 電 (でん) + 話 (わ) = けいたいでんわ. Lecturas on'yomi estándar. Correcta. On'yomi estándar."
+      },
+      {
+        "text": "けいだいでんわ",
+        "correct": false,
+        "explanation": "帯 se lee たい (sin dakuten) en este compuesto."
+      },
+      {
+        "text": "けったいでんわ",
+        "correct": false,
+        "explanation": "El primer kanji se lee けい (vocal larga), no けっ con sokuon."
+      },
+      {
+        "text": "きょうたいでんわ",
+        "correct": false,
+        "explanation": "携 se lee けい, no きょう."
+      }
     ]
   },
   {
     "id": "U2B-047",
     "cat": "Katakana",
     "q": "¿Qué significa パソコン?",
-    "correct": "Computadora",
-    "explanation": "パソコン es abreviación de パーソナル コンピューター ('personal computer'). Es la palabra cotidiana para 'computadora' (PC).",
     "opts": [
-      {"text": "Computadora", "correct": true, "reason": "Correcta. Abreviación de 'personal computer'."},
-      {"text": "Password", "correct": false, "reason": "'Password' es パスワード. Suena distinto."},
-      {"text": "Panel de control", "correct": false, "reason": "'Panel de control' es コントロールパネル."},
-      {"text": "Pasillo", "correct": false, "reason": "'Pasillo' es 廊下 (ろうか) o 通路 (つうろ)."}
+      {
+        "text": "Computadora",
+        "correct": true,
+        "explanation": "パソコン es abreviación de パーソナル コンピューター ('personal computer'). Es la palabra cotidiana para 'computadora' (PC). Correcta. Abreviación de 'personal computer'."
+      },
+      {
+        "text": "Password",
+        "correct": false,
+        "explanation": "'Password' es パスワード. Suena distinto."
+      },
+      {
+        "text": "Panel de control",
+        "correct": false,
+        "explanation": "'Panel de control' es コントロールパネル."
+      },
+      {
+        "text": "Pasillo",
+        "correct": false,
+        "explanation": "'Pasillo' es 廊下 (ろうか) o 通路 (つうろ)."
+      }
     ]
   },
   {
     "id": "U2B-048",
     "cat": "Vocabulario",
     "q": "パソコン proviene de 'personal computer'. ¿Es verdadero?",
-    "correct": "Verdadero",
-    "explanation": "パソコン es la abreviación silábica de パーソナル(perso) + コンピューター(con) → パソコン. Acrónimo típico japonés.",
     "opts": [
-      {"text": "Verdadero", "correct": true, "reason": "Correcta. Etimología confirmada."},
-      {"text": "Falso, viene de 'password'", "correct": false, "reason": "Password es パスワード, otra palabra."},
-      {"text": "Falso, viene de 'panel control'", "correct": false, "reason": "No tiene relación etimológica con esa expresión."},
-      {"text": "Falso, es palabra japonesa nativa", "correct": false, "reason": "Es préstamo del inglés (gairaigo), por eso se escribe en katakana."}
+      {
+        "text": "Verdadero",
+        "correct": true,
+        "explanation": "パソコン es la abreviación silábica de パーソナル(perso) + コンピューター(con) → パソコン. Acrónimo típico japonés. Correcta. Etimología confirmada."
+      },
+      {
+        "text": "Falso, viene de 'password'",
+        "correct": false,
+        "explanation": "Password es パスワード, otra palabra."
+      },
+      {
+        "text": "Falso, viene de 'panel control'",
+        "correct": false,
+        "explanation": "No tiene relación etimológica con esa expresión."
+      },
+      {
+        "text": "Falso, es palabra japonesa nativa",
+        "correct": false,
+        "explanation": "Es préstamo del inglés (gairaigo), por eso se escribe en katakana."
+      }
     ]
   },
   {
     "id": "U2B-049",
     "cat": "Vocabulario",
     "q": "¿Qué significa ペン?",
-    "correct": "Pluma / lapicera",
-    "explanation": "ペン viene del inglés/holandés 'pen'. Designa cualquier instrumento de escritura con tinta (lapicera, bolígrafo, fibra).",
     "opts": [
-      {"text": "Pluma / lapicera", "correct": true, "reason": "Correcta. Préstamo estándar."},
-      {"text": "Lápiz", "correct": false, "reason": "'Lápiz' es 鉛筆 (えんぴつ). Diferente: lápiz tiene grafito; ペン tiene tinta."},
-      {"text": "Pincel", "correct": false, "reason": "'Pincel' es 筆 (ふで). Para caligrafía/pintura."},
-      {"text": "Crayón", "correct": false, "reason": "'Crayón' es クレヨン. Material distinto a tinta."}
+      {
+        "text": "Pluma / lapicera",
+        "correct": true,
+        "explanation": "ペン viene del inglés/holandés 'pen'. Designa cualquier instrumento de escritura con tinta (lapicera, bolígrafo, fibra). Correcta. Préstamo estándar."
+      },
+      {
+        "text": "Lápiz",
+        "correct": false,
+        "explanation": "'Lápiz' es 鉛筆 (えんぴつ). Diferente: lápiz tiene grafito; ペン tiene tinta."
+      },
+      {
+        "text": "Pincel",
+        "correct": false,
+        "explanation": "'Pincel' es 筆 (ふで). Para caligrafía/pintura."
+      },
+      {
+        "text": "Crayón",
+        "correct": false,
+        "explanation": "'Crayón' es クレヨン. Material distinto a tinta."
+      }
     ]
   },
   {
     "id": "U2B-050",
     "cat": "Vocabulario",
     "q": "¿Qué significa トイレットペーパー?",
-    "correct": "Papel higiénico",
-    "explanation": "トイレット ('toilet') + ペーパー ('paper') = papel higiénico. Préstamo estándar del inglés.",
     "opts": [
-      {"text": "Papel higiénico", "correct": true, "reason": "Correcta. Producto del baño."},
-      {"text": "Papel de toilet (toalla)", "correct": false, "reason": "Las toallas de baño son タオル. トイレットペーパー es específicamente el papel higiénico."},
-      {"text": "Papel de oficina", "correct": false, "reason": "'Papel de oficina' es コピー用紙 (こぴーようし). Distinto."},
-      {"text": "Servilleta", "correct": false, "reason": "'Servilleta' es ナプキン o ティッシュ. Diferente uso."}
+      {
+        "text": "Papel higiénico",
+        "correct": true,
+        "explanation": "トイレット ('toilet') + ペーパー ('paper') = papel higiénico. Préstamo estándar del inglés. Correcta. Producto del baño."
+      },
+      {
+        "text": "Papel de toilet (toalla)",
+        "correct": false,
+        "explanation": "Las toallas de baño son タオル. トイレットペーパー es específicamente el papel higiénico."
+      },
+      {
+        "text": "Papel de oficina",
+        "correct": false,
+        "explanation": "'Papel de oficina' es コピー用紙 (こぴーようし). Distinto."
+      },
+      {
+        "text": "Servilleta",
+        "correct": false,
+        "explanation": "'Servilleta' es ナプキン o ティッシュ. Diferente uso."
+      }
     ]
   },
   {
     "id": "U2B-051",
     "cat": "Diálogo",
     "q": "En un negocio, querés comparar 2 carteras. La frase que completa 'この かばんは 4500円です。 ___ は いくらですか。' (apuntando a otra cartera cerca del empleado):",
-    "correct": "そのかばん",
-    "explanation": "La primera cartera está cerca del hablante (この); la segunda está cerca del empleado, así que se usa その + sustantivo.",
     "opts": [
-      {"text": "そのかばん", "correct": true, "reason": "Correcta. Determinante その para objeto cerca del oyente."},
-      {"text": "あのかばん", "correct": false, "reason": "あの es para objetos LEJOS DE AMBOS, no cerca del empleado."},
-      {"text": "これかばん", "correct": false, "reason": "これ es pronombre, no se combina con sustantivo. Y la primera cartera ya es この."},
-      {"text": "このかばん", "correct": false, "reason": "Repetiría la del hablante; la pregunta es comparar con OTRA cartera, cerca del empleado."}
+      {
+        "text": "そのかばん",
+        "correct": true,
+        "explanation": "La primera cartera está cerca del hablante (この); la segunda está cerca del empleado, así que se usa その + sustantivo. Correcta. Determinante その para objeto cerca del oyente."
+      },
+      {
+        "text": "あのかばん",
+        "correct": false,
+        "explanation": "あの es para objetos LEJOS DE AMBOS, no cerca del empleado."
+      },
+      {
+        "text": "これかばん",
+        "correct": false,
+        "explanation": "これ es pronombre, no se combina con sustantivo. Y la primera cartera ya es この."
+      },
+      {
+        "text": "このかばん",
+        "correct": false,
+        "explanation": "Repetiría la del hablante; la pregunta es comparar con OTRA cartera, cerca del empleado."
+      }
     ]
   },
   {
     "id": "U2B-052",
     "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre これ/それ/あれ?",
-    "correct": "Cerca del hablante / cerca del oyente / lejos de ambos",
-    "explanation": "Sistema deíctico tripartito basado en proximidad: こ (yo) / そ (vos) / あ (lejos). El japonés diferencia más que el español (que solo tiene 2 niveles).",
     "opts": [
-      {"text": "Cerca del hablante / cerca del oyente / lejos de ambos", "correct": true, "reason": "Correcta. Sistema espacial tripartito."},
-      {"text": "Presente / pasado / futuro", "correct": false, "reason": "Falso: estas palabras son ESPACIALES, no temporales."},
-      {"text": "Formal / neutro / casual", "correct": false, "reason": "Falso: el registro de cortesía es paralelo (こちら/そちら/あちら), no la distinción こ/そ/あ."},
-      {"text": "Singular / plural / colectivo", "correct": false, "reason": "Falso: el japonés casi no marca número en estos pronombres."}
+      {
+        "text": "Cerca del hablante / cerca del oyente / lejos de ambos",
+        "correct": true,
+        "explanation": "Sistema deíctico tripartito basado en proximidad: こ (yo) / そ (vos) / あ (lejos). El japonés diferencia más que el español (que solo tiene 2 niveles). Correcta. Sistema espacial tripartito."
+      },
+      {
+        "text": "Presente / pasado / futuro",
+        "correct": false,
+        "explanation": "Falso: estas palabras son ESPACIALES, no temporales."
+      },
+      {
+        "text": "Formal / neutro / casual",
+        "correct": false,
+        "explanation": "Falso: el registro de cortesía es paralelo (こちら/そちら/あちら), no la distinción こ/そ/あ."
+      },
+      {
+        "text": "Singular / plural / colectivo",
+        "correct": false,
+        "explanation": "Falso: el japonés casi no marca número en estos pronombres."
+      }
     ]
   },
   {
     "id": "U2B-053",
     "cat": "Gramática",
     "q": "Poné en orden: ください / を / これ",
-    "correct": "これ を ください",
-    "explanation": "Orden japonés: OBJETO + を + VERBO. これ (objeto) + を (partícula) + ください (verbo de petición).",
     "opts": [
-      {"text": "これ を ください", "correct": true, "reason": "Correcta. Orden SOV estándar."},
-      {"text": "を これ ください", "correct": false, "reason": "を es partícula que sigue al sustantivo, no lo precede."},
-      {"text": "これ ください を", "correct": false, "reason": "を debe ir con su sustantivo (これ), no al final."},
-      {"text": "ください これ を", "correct": false, "reason": "El verbo va al final en japonés, no al inicio."}
+      {
+        "text": "これ を ください",
+        "correct": true,
+        "explanation": "Orden japonés: OBJETO + を + VERBO. これ (objeto) + を (partícula) + ください (verbo de petición). Correcta. Orden SOV estándar."
+      },
+      {
+        "text": "を これ ください",
+        "correct": false,
+        "explanation": "を es partícula que sigue al sustantivo, no lo precede."
+      },
+      {
+        "text": "これ ください を",
+        "correct": false,
+        "explanation": "を debe ir con su sustantivo (これ), no al final."
+      },
+      {
+        "text": "ください これ を",
+        "correct": false,
+        "explanation": "El verbo va al final en japonés, no al inicio."
+      }
     ]
   },
   {
     "id": "U2B-054",
     "cat": "Distinción",
     "q": "Al pedir algo a un empleado, ¿cuál es más cortés?",
-    "correct": "これを ください。",
-    "explanation": "ください es la forma cortés estándar de petición. ちょうだい/くれ son informales/abruptas.",
     "opts": [
-      {"text": "これを ください。", "correct": true, "reason": "Correcta. Forma cortés estándar."},
-      {"text": "これを ちょうだい。", "correct": false, "reason": "ちょうだい es informal, usado entre familia o amigos cercanos. Inadecuado con empleados."},
-      {"text": "これを くれ。", "correct": false, "reason": "くれ es imperativo masculino brusco, descortés. Solo entre íntimos masculinos."},
-      {"text": "これを もらう。", "correct": false, "reason": "もらう = 'recibo' (forma diccionario), no es petición. Habría que usar もらいます o もらえますか."}
+      {
+        "text": "これを ください。",
+        "correct": true,
+        "explanation": "ください es la forma cortés estándar de petición. ちょうだい/くれ son informales/abruptas. Correcta. Forma cortés estándar."
+      },
+      {
+        "text": "これを ちょうだい。",
+        "correct": false,
+        "explanation": "ちょうだい es informal, usado entre familia o amigos cercanos. Inadecuado con empleados."
+      },
+      {
+        "text": "これを くれ。",
+        "correct": false,
+        "explanation": "くれ es imperativo masculino brusco, descortés. Solo entre íntimos masculinos."
+      },
+      {
+        "text": "これを もらう。",
+        "correct": false,
+        "explanation": "もらう = 'recibo' (forma diccionario), no es petición. Habría que usar もらいます o もらえますか."
+      }
     ]
   },
   {
     "id": "U2B-055",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se dice '2400 yenes'?",
-    "correct": "にせん よんひゃく えん",
-    "explanation": "2000 = にせん (regular). 400 = よんひゃく (regular, sin rendaku). 円 = えん.",
     "opts": [
-      {"text": "にせん よんひゃく えん", "correct": true, "reason": "Correcta. Lecturas regulares."},
-      {"text": "にせん しひゃく えん", "correct": false, "reason": "Para 4 se prefiere よん, no し (asociado a 'muerte')."},
-      {"text": "にせん よんびゃく えん", "correct": false, "reason": "El rendaku びゃく aplica con さん (300), no con よん."},
-      {"text": "ふたせん よんひゃく えん", "correct": false, "reason": "ふた es lectura nativa de 2, no se usa con せん. Es に."}
+      {
+        "text": "にせん よんひゃく えん",
+        "correct": true,
+        "explanation": "2000 = にせん (regular). 400 = よんひゃく (regular, sin rendaku). 円 = えん. Correcta. Lecturas regulares."
+      },
+      {
+        "text": "にせん しひゃく えん",
+        "correct": false,
+        "explanation": "Para 4 se prefiere よん, no し (asociado a 'muerte')."
+      },
+      {
+        "text": "にせん よんびゃく えん",
+        "correct": false,
+        "explanation": "El rendaku びゃく aplica con さん (300), no con よん."
+      },
+      {
+        "text": "ふたせん よんひゃく えん",
+        "correct": false,
+        "explanation": "ふた es lectura nativa de 2, no se usa con せん. Es に."
+      }
     ]
   },
   {
     "id": "U2B-056",
     "cat": "Números y Tiempo",
     "q": "'15.800 yenes' se lee:",
-    "correct": "いちまん ごせん はっぴゃく えん",
-    "explanation": "15.800 = 1万 (いちまん) + 5000 (ごせん) + 800 (はっぴゃく). Notá la unidad 万 que parte el número en 'diez miles'.",
     "opts": [
-      {"text": "いちまん ごせん はっぴゃく えん", "correct": true, "reason": "Correcta. Composición con 万 + 千 + 百."},
-      {"text": "じゅうごせん はっぴゃく えん", "correct": false, "reason": "じゅうごせん no se usa: cuando llega a 10.000 se cambia a 万."},
-      {"text": "いちまん ごせん はちひゃく えん", "correct": false, "reason": "800 toma sokuon + handakuten: はっぴゃく (no はちひゃく)."},
-      {"text": "いちまん ごぜん はっぴゃく えん", "correct": false, "reason": "ぜん aplica con さん (3000), no con ご (5000). 5000 es ごせん."}
+      {
+        "text": "いちまん ごせん はっぴゃく えん",
+        "correct": true,
+        "explanation": "15.800 = 1万 (いちまん) + 5000 (ごせん) + 800 (はっぴゃく). Notá la unidad 万 que parte el número en 'diez miles'. Correcta. Composición con 万 + 千 + 百."
+      },
+      {
+        "text": "じゅうごせん はっぴゃく えん",
+        "correct": false,
+        "explanation": "じゅうごせん no se usa: cuando llega a 10.000 se cambia a 万."
+      },
+      {
+        "text": "いちまん ごせん はちひゃく えん",
+        "correct": false,
+        "explanation": "800 toma sokuon + handakuten: はっぴゃく (no はちひゃく)."
+      },
+      {
+        "text": "いちまん ごぜん はっぴゃく えん",
+        "correct": false,
+        "explanation": "ぜん aplica con さん (3000), no con ご (5000). 5000 es ごせん."
+      }
     ]
   },
   {
     "id": "U2B-057",
     "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre これ y この?",
-    "correct": "これ es pronombre (esto); この es prenominal (este + sust.)",
-    "explanation": "Distinción categorial fundamental: これ funciona solo como pronombre; この requiere obligatoriamente un sustantivo después.",
     "opts": [
-      {"text": "これ es pronombre (esto); この es prenominal (este + sust.)", "correct": true, "reason": "Correcta. Categorías gramaticales distintas."},
-      {"text": "この es pronombre; これ es prenominal", "correct": false, "reason": "Invertido."},
-      {"text": "これ es singular; この es plural", "correct": false, "reason": "El japonés no marca número en demostrativos así."},
-      {"text": "これ es formal; この es casual", "correct": false, "reason": "No es cuestión de formalidad sino de función."}
+      {
+        "text": "これ es pronombre (esto); この es prenominal (este + sust.)",
+        "correct": true,
+        "explanation": "Distinción categorial fundamental: これ funciona solo como pronombre; この requiere obligatoriamente un sustantivo después. Correcta. Categorías gramaticales distintas."
+      },
+      {
+        "text": "この es pronombre; これ es prenominal",
+        "correct": false,
+        "explanation": "Invertido."
+      },
+      {
+        "text": "これ es singular; この es plural",
+        "correct": false,
+        "explanation": "El japonés no marca número en demostrativos así."
+      },
+      {
+        "text": "これ es formal; この es casual",
+        "correct": false,
+        "explanation": "No es cuestión de formalidad sino de función."
+      }
     ]
   },
   {
     "id": "U2B-058",
     "cat": "Traducción ES→JP",
     "q": "'¿Cuánto cuesta aquella billetera?'",
-    "correct": "あのさいふは いくらですか。",
-    "explanation": "'Aquella billetera' = あの + さいふ (determinante + sustantivo). Pregunta de precio: いくらですか.",
     "opts": [
-      {"text": "あのさいふは いくらですか。", "correct": true, "reason": "Correcta. Determinante + sustantivo + pregunta."},
-      {"text": "あれさいふは いくらですか。", "correct": false, "reason": "あれ es pronombre, no se combina con sustantivo. Se usa あの."},
-      {"text": "あのさいふは いくらでしたか。", "correct": false, "reason": "でした es PASADO ('costaba'). La pregunta es presente."},
-      {"text": "あれは さいふ いくらですか。", "correct": false, "reason": "Estructura desordenada y sin partícula は después de さいふ."}
+      {
+        "text": "あのさいふは いくらですか。",
+        "correct": true,
+        "explanation": "'Aquella billetera' = あの + さいふ (determinante + sustantivo). Pregunta de precio: いくらですか. Correcta. Determinante + sustantivo + pregunta."
+      },
+      {
+        "text": "あれさいふは いくらですか。",
+        "correct": false,
+        "explanation": "あれ es pronombre, no se combina con sustantivo. Se usa あの."
+      },
+      {
+        "text": "あのさいふは いくらでしたか。",
+        "correct": false,
+        "explanation": "でした es PASADO ('costaba'). La pregunta es presente."
+      },
+      {
+        "text": "あれは さいふ いくらですか。",
+        "correct": false,
+        "explanation": "Estructura desordenada y sin partícula は después de さいふ."
+      }
     ]
   },
   {
     "id": "U2B-059",
     "cat": "Diálogo",
     "q": "El empleado te dice el precio. Para mostrar que entendiste y lo registraste, decís:",
-    "correct": "そうですか。",
-    "explanation": "そうですか expresa 'ah, ya veo' como reacción de recepción de información. Apropiado tras enterarse del precio.",
     "opts": [
-      {"text": "そうですか。", "correct": true, "reason": "Correcta. Marcador de recepción de información."},
-      {"text": "そうです。", "correct": false, "reason": "そうです afirma información PROPIA. No es reacción a información del otro."},
-      {"text": "そうですね。", "correct": false, "reason": "そうですね = 'así es, ¿no?' busca confirmación o expresa coincidencia, no recepción de info."},
-      {"text": "そうです か？", "correct": false, "reason": "Espacio antes de か es poco habitual en escritura; el sentido es el mismo que そうですか pero con grafía no estándar."}
+      {
+        "text": "そうですか。",
+        "correct": true,
+        "explanation": "そうですか expresa 'ah, ya veo' como reacción de recepción de información. Apropiado tras enterarse del precio. Correcta. Marcador de recepción de información."
+      },
+      {
+        "text": "そうです。",
+        "correct": false,
+        "explanation": "そうです afirma información PROPIA. No es reacción a información del otro."
+      },
+      {
+        "text": "そうですね。",
+        "correct": false,
+        "explanation": "そうですね = 'así es, ¿no?' busca confirmación o expresa coincidencia, no recepción de info."
+      },
+      {
+        "text": "そうです か？",
+        "correct": false,
+        "explanation": "Espacio antes de か es poco habitual en escritura; el sentido es el mismo que そうですか pero con grafía no estándar."
+      }
     ]
   },
   {
     "id": "U2B-060",
     "cat": "Gramática",
     "q": "¿Cuál es el orden típico de un diálogo de compra?",
-    "correct": "いらっしゃいませ → (preguntar precio) → そうですか → じゃ、~ください → どうぞ",
-    "explanation": "Estructura canónica de compra: bienvenida del empleado → consulta de precio → reacción del cliente → decisión de compra → entrega.",
     "opts": [
-      {"text": "いらっしゃいませ → (preguntar precio) → そうですか → じゃ、~ください → どうぞ", "correct": true, "reason": "Correcta. Secuencia natural de compra."},
-      {"text": "(preguntar precio) → いらっしゃいませ → じゃ、~ください → どうぞ", "correct": false, "reason": "いらっしゃいませ va al INICIO (al entrar el cliente), no después de preguntas."},
-      {"text": "いらっしゃいませ → じゃ、~ください → (preguntar precio) → どうぞ", "correct": false, "reason": "Lógicamente se pregunta el precio ANTES de decidir comprar (じゃ、~ください)."},
-      {"text": "どうぞ → (preguntar precio) → いらっしゃいませ → じゃ、~ください", "correct": false, "reason": "どうぞ se usa al ENTREGAR, no al inicio. Y いらっしゃいませ va al inicio."}
+      {
+        "text": "いらっしゃいませ → (preguntar precio) → そうですか → じゃ、~ください → どうぞ",
+        "correct": true,
+        "explanation": "Estructura canónica de compra: bienvenida del empleado → consulta de precio → reacción del cliente → decisión de compra → entrega. Correcta. Secuencia natural de compra."
+      },
+      {
+        "text": "(preguntar precio) → いらっしゃいませ → じゃ、~ください → どうぞ",
+        "correct": false,
+        "explanation": "いらっしゃいませ va al INICIO (al entrar el cliente), no después de preguntas."
+      },
+      {
+        "text": "いらっしゃいませ → じゃ、~ください → (preguntar precio) → どうぞ",
+        "correct": false,
+        "explanation": "Lógicamente se pregunta el precio ANTES de decidir comprar (じゃ、~ください)."
+      },
+      {
+        "text": "どうぞ → (preguntar precio) → いらっしゃいませ → じゃ、~ください",
+        "correct": false,
+        "explanation": "どうぞ se usa al ENTREGAR, no al inicio. Y いらっしゃいませ va al inicio."
+      }
     ]
   },
   {
     "id": "U2B-061",
     "cat": "Vocabulario",
     "q": "¿Qué significa ケーキ?",
-    "correct": "Torta / pastel",
-    "explanation": "ケーキ viene del inglés 'cake'. Designa tortas y pasteles dulces en general.",
     "opts": [
-      {"text": "Torta / pastel", "correct": true, "reason": "Correcta. Préstamo estándar."},
-      {"text": "Caja", "correct": false, "reason": "'Caja' es 箱 (はこ) o ボックス. Diferente."},
-      {"text": "Galletita", "correct": false, "reason": "'Galletita' es クッキー o ビスケット."},
-      {"text": "Helado", "correct": false, "reason": "'Helado' es アイスクリーム o アイス."}
+      {
+        "text": "Torta / pastel",
+        "correct": true,
+        "explanation": "ケーキ viene del inglés 'cake'. Designa tortas y pasteles dulces en general. Correcta. Préstamo estándar."
+      },
+      {
+        "text": "Caja",
+        "correct": false,
+        "explanation": "'Caja' es 箱 (はこ) o ボックス. Diferente."
+      },
+      {
+        "text": "Galletita",
+        "correct": false,
+        "explanation": "'Galletita' es クッキー o ビスケット."
+      },
+      {
+        "text": "Helado",
+        "correct": false,
+        "explanation": "'Helado' es アイスクリーム o アイス."
+      }
     ]
   },
   {
     "id": "U2B-062",
     "cat": "Vocabulario",
     "q": "¿Qué significa パン?",
-    "correct": "Pan",
-    "explanation": "パン (pan) viene del portugués 'pão', no del inglés. Es uno de los préstamos más antiguos del japonés (siglo XVI).",
     "opts": [
-      {"text": "Pan", "correct": true, "reason": "Correcta. Préstamo del portugués."},
-      {"text": "Olla", "correct": false, "reason": "'Olla' es 鍋 (なべ). Sin relación."},
-      {"text": "Panel", "correct": false, "reason": "'Panel' es パネル (con sufijo ル). Distinto."},
-      {"text": "Pantalla", "correct": false, "reason": "'Pantalla' es 画面 (がめん) o スクリーン."}
+      {
+        "text": "Pan",
+        "correct": true,
+        "explanation": "パン (pan) viene del portugués 'pão', no del inglés. Es uno de los préstamos más antiguos del japonés (siglo XVI). Correcta. Préstamo del portugués."
+      },
+      {
+        "text": "Olla",
+        "correct": false,
+        "explanation": "'Olla' es 鍋 (なべ). Sin relación."
+      },
+      {
+        "text": "Panel",
+        "correct": false,
+        "explanation": "'Panel' es パネル (con sufijo ル). Distinto."
+      },
+      {
+        "text": "Pantalla",
+        "correct": false,
+        "explanation": "'Pantalla' es 画面 (がめん) o スクリーン."
+      }
     ]
   },
   {
     "id": "U2B-063",
     "cat": "Vocabulario",
     "q": "パン (pan) viene del:",
-    "correct": "Portugués",
-    "explanation": "パン viene del portugués 'pão' (siglo XVI, contacto con misioneros portugueses). Es uno de los gairaigo más antiguos del japonés.",
     "opts": [
-      {"text": "Portugués", "correct": true, "reason": "Correcta. Préstamo histórico del portugués."},
-      {"text": "Inglés", "correct": false, "reason": "En inglés es 'bread'; パン no viene de allí."},
-      {"text": "Chino", "correct": false, "reason": "En chino, pan se traduce como 麺包 o similar; パン no viene del chino."},
-      {"text": "Francés", "correct": false, "reason": "En francés es 'pain', similar al portugués pero el préstamo japonés viene específicamente del portugués."}
+      {
+        "text": "Portugués",
+        "correct": true,
+        "explanation": "パン viene del portugués 'pão' (siglo XVI, contacto con misioneros portugueses). Es uno de los gairaigo más antiguos del japonés. Correcta. Préstamo histórico del portugués."
+      },
+      {
+        "text": "Inglés",
+        "correct": false,
+        "explanation": "En inglés es 'bread'; パン no viene de allí."
+      },
+      {
+        "text": "Chino",
+        "correct": false,
+        "explanation": "En chino, pan se traduce como 麺包 o similar; パン no viene del chino."
+      },
+      {
+        "text": "Francés",
+        "correct": false,
+        "explanation": "En francés es 'pain', similar al portugués pero el préstamo japonés viene específicamente del portugués."
+      }
     ]
   },
   {
     "id": "U2B-064",
     "cat": "Partículas",
     "q": "このかばん___ 5000円です。",
-    "correct": "は",
-    "explanation": "は marca el TEMA: '(en cuanto a) esta cartera, son 5000 yenes'. Patrón AはBです.",
     "opts": [
-      {"text": "は", "correct": true, "reason": "Correcta. Marca el tema en estructura A は B です."},
-      {"text": "を", "correct": false, "reason": "を es objeto directo de verbo, no compatible con です."},
-      {"text": "が", "correct": false, "reason": "が daría énfasis ('ESTA cartera, no otra'). En afirmación neutra se usa は."},
-      {"text": "の", "correct": false, "reason": "の conecta sustantivos. 5000円 no es modificador de かばん."}
+      {
+        "text": "は",
+        "correct": true,
+        "explanation": "は marca el TEMA: '(en cuanto a) esta cartera, son 5000 yenes'. Patrón AはBです. Correcta. Marca el tema en estructura A は B です."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "explanation": "を es objeto directo de verbo, no compatible con です."
+      },
+      {
+        "text": "が",
+        "correct": false,
+        "explanation": "が daría énfasis ('ESTA cartera, no otra'). En afirmación neutra se usa は."
+      },
+      {
+        "text": "の",
+        "correct": false,
+        "explanation": "の conecta sustantivos. 5000円 no es modificador de かばん."
+      }
     ]
   },
   {
     "id": "U2B-065",
     "cat": "Partículas",
     "q": "コーヒー___ ひとつ ください。",
-    "correct": "を",
-    "explanation": "コーヒー es objeto pedido; se marca con を. ひとつ ('uno') es contador. Patrón: [obj]を [cantidad] ください.",
     "opts": [
-      {"text": "を", "correct": true, "reason": "Correcta. Marca el objeto pedido."},
-      {"text": "は", "correct": false, "reason": "は marca tema, no objeto. Con ください se usa を."},
-      {"text": "が", "correct": false, "reason": "が marca sujeto, no objeto."},
-      {"text": "に", "correct": false, "reason": "に marca destino, no objeto pedido."}
+      {
+        "text": "を",
+        "correct": true,
+        "explanation": "コーヒー es objeto pedido; se marca con を. ひとつ ('uno') es contador. Patrón: [obj]を [cantidad] ください. Correcta. Marca el objeto pedido."
+      },
+      {
+        "text": "は",
+        "correct": false,
+        "explanation": "は marca tema, no objeto. Con ください se usa を."
+      },
+      {
+        "text": "が",
+        "correct": false,
+        "explanation": "が marca sujeto, no objeto."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "explanation": "に marca destino, no objeto pedido."
+      }
     ]
   },
   {
     "id": "U2B-066",
     "cat": "Gramática",
     "q": "¿Cuál de estas oraciones es correcta?",
-    "correct": "あれは いくらですか。",
-    "explanation": "Solo あれ es pronombre completo y compatible con は. Las otras opciones tienen errores estructurales.",
     "opts": [
-      {"text": "あれは いくらですか。", "correct": true, "reason": "Correcta. Pronombre + は + pregunta de precio."},
-      {"text": "あのは いくらですか。", "correct": false, "reason": "あの es determinante; necesita un sustantivo después. あの[N]は... está bien, pero あの は no."},
-      {"text": "あの は なんがいですか。", "correct": false, "reason": "Mismo problema: あの sin sustantivo. Y なんがい (piso) no aplica acá."},
-      {"text": "あれの いくらですか。", "correct": false, "reason": "あれの necesitaría sustantivo después; sin él queda incompleto."}
+      {
+        "text": "あれは いくらですか。",
+        "correct": true,
+        "explanation": "Solo あれ es pronombre completo y compatible con は. Las otras opciones tienen errores estructurales. Correcta. Pronombre + は + pregunta de precio."
+      },
+      {
+        "text": "あのは いくらですか。",
+        "correct": false,
+        "explanation": "あの es determinante; necesita un sustantivo después. あの[N]は... está bien, pero あの は no."
+      },
+      {
+        "text": "あの は なんがいですか。",
+        "correct": false,
+        "explanation": "Mismo problema: あの sin sustantivo. Y なんがい (piso) no aplica acá."
+      },
+      {
+        "text": "あれの いくらですか。",
+        "correct": false,
+        "explanation": "あれの necesitaría sustantivo después; sin él queda incompleto."
+      }
     ]
   },
   {
     "id": "U2B-067",
     "cat": "Kanji → Lectura",
     "q": "¿Cuál es la lectura correcta de 辞書?",
-    "correct": "じしょ",
-    "explanation": "辞 (じ) + 書 (しょ) = じしょ. On'yomi en ambos kanji.",
     "opts": [
-      {"text": "じしょ", "correct": true, "reason": "Correcta. On'yomi estándar."},
-      {"text": "じしょう", "correct": false, "reason": "Sobra la う final. La lectura es じしょ corta."},
-      {"text": "じじょ", "correct": false, "reason": "書 no toma rendaku (しょ → じょ) en esta palabra."},
-      {"text": "じしゅ", "correct": false, "reason": "しゅ no es lectura de 書 en este compuesto."}
+      {
+        "text": "じしょ",
+        "correct": true,
+        "explanation": "辞 (じ) + 書 (しょ) = じしょ. On'yomi en ambos kanji. Correcta. On'yomi estándar."
+      },
+      {
+        "text": "じしょう",
+        "correct": false,
+        "explanation": "Sobra la う final. La lectura es じしょ corta."
+      },
+      {
+        "text": "じじょ",
+        "correct": false,
+        "explanation": "書 no toma rendaku (しょ → じょ) en esta palabra."
+      },
+      {
+        "text": "じしゅ",
+        "correct": false,
+        "explanation": "しゅ no es lectura de 書 en este compuesto."
+      }
     ]
   },
   {
     "id": "U2B-068",
     "cat": "Diálogo",
     "q": "Cliente señala la remera que el empleado tiene en la mano: '___ Tシャツは いくらですか。'",
-    "correct": "その",
-    "explanation": "El objeto está en la mano del EMPLEADO (oyente), por lo que se usa el determinante その de la serie そ (cerca del oyente).",
     "opts": [
-      {"text": "その", "correct": true, "reason": "Correcta. Determinante para objeto cerca del oyente."},
-      {"text": "この", "correct": false, "reason": "この es para objeto cerca del HABLANTE, no del oyente."},
-      {"text": "あの", "correct": false, "reason": "あの es para objeto LEJOS DE AMBOS, no cerca del empleado."},
-      {"text": "どの", "correct": false, "reason": "どの es interrogativo ('¿cuál ~?'), no afirmación."}
+      {
+        "text": "その",
+        "correct": true,
+        "explanation": "El objeto está en la mano del EMPLEADO (oyente), por lo que se usa el determinante その de la serie そ (cerca del oyente). Correcta. Determinante para objeto cerca del oyente."
+      },
+      {
+        "text": "この",
+        "correct": false,
+        "explanation": "この es para objeto cerca del HABLANTE, no del oyente."
+      },
+      {
+        "text": "あの",
+        "correct": false,
+        "explanation": "あの es para objeto LEJOS DE AMBOS, no cerca del empleado."
+      },
+      {
+        "text": "どの",
+        "correct": false,
+        "explanation": "どの es interrogativo ('¿cuál ~?'), no afirmación."
+      }
     ]
   },
   {
     "id": "U2B-069",
     "cat": "Gramática",
     "q": "¿Cuál de estas palabras NO es un demostrativo prenominal (前の名詞)?",
-    "correct": "あれ",
-    "explanation": "Los prenominales (determinantes) son この/その/あの/どの. あれ es PRONOMBRE (va solo).",
     "opts": [
-      {"text": "あれ", "correct": true, "reason": "Correcta como respuesta (es la que NO es prenominal): あれ es pronombre."},
-      {"text": "この", "correct": false, "reason": "この SÍ es prenominal: requiere sustantivo después."},
-      {"text": "その", "correct": false, "reason": "その SÍ es prenominal: requiere sustantivo después."},
-      {"text": "あの", "correct": false, "reason": "あの SÍ es prenominal: requiere sustantivo después."}
+      {
+        "text": "あれ",
+        "correct": true,
+        "explanation": "Los prenominales (determinantes) son この/その/あの/どの. あれ es PRONOMBRE (va solo). Correcta como respuesta (es la que NO es prenominal): あれ es pronombre."
+      },
+      {
+        "text": "この",
+        "correct": false,
+        "explanation": "この SÍ es prenominal: requiere sustantivo después."
+      },
+      {
+        "text": "その",
+        "correct": false,
+        "explanation": "その SÍ es prenominal: requiere sustantivo después."
+      },
+      {
+        "text": "あの",
+        "correct": false,
+        "explanation": "あの SÍ es prenominal: requiere sustantivo después."
+      }
     ]
   },
   {
     "id": "U2B-070",
     "cat": "Diálogo",
     "q": "El cliente ve un precio caro. Para reaccionar sorprendido pero todavía educadamente dice:",
-    "correct": "そうですか…",
-    "explanation": "そうですか con entonación descendente y 余韻 ('eco de pausa') comunica recepción + leve sorpresa/decepción de manera cortés. La pausa con … sugiere reflexión.",
     "opts": [
-      {"text": "そうですか…", "correct": true, "reason": "Correcta. Reacción cortés con matiz de sorpresa."},
-      {"text": "ちがいます", "correct": false, "reason": "ちがいます = 'no es así'. Sería contradecir, no reaccionar."},
-      {"text": "どうぞ", "correct": false, "reason": "どうぞ = 'por favor/adelante'. No expresa sorpresa."},
-      {"text": "いらっしゃいませ", "correct": false, "reason": "Es saludo de empleado a cliente, no reacción del cliente."}
+      {
+        "text": "そうですか…",
+        "correct": true,
+        "explanation": "そうですか con entonación descendente y 余韻 ('eco de pausa') comunica recepción + leve sorpresa/decepción de manera cortés. La pausa con … sugiere reflexión. Correcta. Reacción cortés con matiz de sorpresa."
+      },
+      {
+        "text": "ちがいます",
+        "correct": false,
+        "explanation": "ちがいます = 'no es así'. Sería contradecir, no reaccionar."
+      },
+      {
+        "text": "どうぞ",
+        "correct": false,
+        "explanation": "どうぞ = 'por favor/adelante'. No expresa sorpresa."
+      },
+      {
+        "text": "いらっしゃいませ",
+        "correct": false,
+        "explanation": "Es saludo de empleado a cliente, no reacción del cliente."
+      }
     ]
   },
   {
     "id": "U2B-071",
     "cat": "Diálogo",
     "q": "A: この ペンは いくらですか。 B: 150円です。 A: ___、それを ください。",
-    "correct": "じゃ",
-    "explanation": "じゃ ('entonces') marca la transición de la información (precio) a la decisión (comprar).",
     "opts": [
-      {"text": "じゃ", "correct": true, "reason": "Correcta. Marcador de decisión tras información."},
-      {"text": "もう", "correct": false, "reason": "もう = 'ya'. No introduce decisión."},
-      {"text": "はい", "correct": false, "reason": "はい = 'sí'. No es transición a decisión."},
-      {"text": "あ", "correct": false, "reason": "あ = exclamación de sorpresa/atención momentánea, no transición a decisión."}
+      {
+        "text": "じゃ",
+        "correct": true,
+        "explanation": "じゃ ('entonces') marca la transición de la información (precio) a la decisión (comprar). Correcta. Marcador de decisión tras información."
+      },
+      {
+        "text": "もう",
+        "correct": false,
+        "explanation": "もう = 'ya'. No introduce decisión."
+      },
+      {
+        "text": "はい",
+        "correct": false,
+        "explanation": "はい = 'sí'. No es transición a decisión."
+      },
+      {
+        "text": "あ",
+        "correct": false,
+        "explanation": "あ = exclamación de sorpresa/atención momentánea, no transición a decisión."
+      }
     ]
   },
   {
     "id": "U2B-072",
     "cat": "Distinción",
     "q": "¿Cuál de estas palabras significa 'goma de borrar'?",
-    "correct": "消しゴム",
-    "explanation": "消しゴム combina 消し (de 消す 'borrar') + ゴム ('goma/rubber'). Es la palabra estándar.",
     "opts": [
-      {"text": "消しゴム", "correct": true, "reason": "Correcta. Compuesto verbo+sustantivo."},
-      {"text": "紙", "correct": false, "reason": "紙 (かみ) es 'papel', no goma."},
-      {"text": "ペン", "correct": false, "reason": "ペン es 'lapicera', no goma."},
-      {"text": "米", "correct": false, "reason": "米 (こめ) es 'arroz', no goma."}
+      {
+        "text": "消しゴム",
+        "correct": true,
+        "explanation": "消しゴム combina 消し (de 消す 'borrar') + ゴム ('goma/rubber'). Es la palabra estándar. Correcta. Compuesto verbo+sustantivo."
+      },
+      {
+        "text": "紙",
+        "correct": false,
+        "explanation": "紙 (かみ) es 'papel', no goma."
+      },
+      {
+        "text": "ペン",
+        "correct": false,
+        "explanation": "ペン es 'lapicera', no goma."
+      },
+      {
+        "text": "米",
+        "correct": false,
+        "explanation": "米 (こめ) es 'arroz', no goma."
+      }
     ]
   },
   {
     "id": "U2B-073",
     "cat": "Traducción ES→JP",
     "q": "Elegí cómo preguntar '¿Cuánto cuestan estos pantalones (que tengo puestos)?'",
-    "correct": "このズボンは いくらですか。",
-    "explanation": "Estos pantalones están en uso por el hablante (= cerca del hablante), así que se usa el determinante この + ズボン.",
     "opts": [
-      {"text": "このズボンは いくらですか。", "correct": true, "reason": "Correcta. Determinante + sustantivo + pregunta de precio."},
-      {"text": "これズボンは いくらですか。", "correct": false, "reason": "これ es pronombre; no se combina directo con sustantivo. Se usa この."},
-      {"text": "このはズボン いくらですか。", "correct": false, "reason": "Orden incorrecto: は debe ir después del sustantivo completo (このズボン), no después del determinante solo."},
-      {"text": "このズボン は いくらか。", "correct": false, "reason": "いくらか sin です es muy informal y abrupto. La forma cortés requiere ですか."}
+      {
+        "text": "このズボンは いくらですか。",
+        "correct": true,
+        "explanation": "Estos pantalones están en uso por el hablante (= cerca del hablante), así que se usa el determinante この + ズボン. Correcta. Determinante + sustantivo + pregunta de precio."
+      },
+      {
+        "text": "これズボンは いくらですか。",
+        "correct": false,
+        "explanation": "これ es pronombre; no se combina directo con sustantivo. Se usa この."
+      },
+      {
+        "text": "このはズボン いくらですか。",
+        "correct": false,
+        "explanation": "Orden incorrecto: は debe ir después del sustantivo completo (このズボン), no después del determinante solo."
+      },
+      {
+        "text": "このズボン は いくらか。",
+        "correct": false,
+        "explanation": "いくらか sin です es muy informal y abrupto. La forma cortés requiere ですか."
+      }
     ]
   }
 ]

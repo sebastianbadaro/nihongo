@@ -903,14 +903,9 @@ function selectAnswer(btn, chosen, q) {
   const feedback = document.getElementById('q-feedback');
   feedback.classList.remove('hidden', 'right', 'wrong');
 
-  const reasonHtml = chosen.reason
-    ? `<div class="feedback-reason">${chosen.reason}</div>`
-    : '';
-  const explanationHtml = q.explanation
-    ? `<div class="feedback-explanation">💡 ${q.explanation}</div>`
-    : '';
-  const detailHtml = (reasonHtml || explanationHtml)
-    ? `<div class="feedback-detail">${reasonHtml}${explanationHtml}</div>`
+  const correctText = (q.opts.find(o => o.correct === true) || {}).text || '';
+  const detailHtml = chosen.explanation
+    ? `<div class="feedback-detail"><div class="feedback-reason">${chosen.explanation}</div></div>`
     : '';
 
   if (isCorrect) {
@@ -921,12 +916,12 @@ function selectAnswer(btn, chosen, q) {
   } else {
     btn.classList.add('incorrect');
     feedback.classList.add('wrong');
-    feedback.innerHTML = `<strong>❌ 不正解。</strong> La respuesta correcta era: <b class="jp">${q.correct}</b>${detailHtml}`;
+    feedback.innerHTML = `<strong>❌ 不正解。</strong> La respuesta correcta era: <b class="jp">${correctText}</b>${detailHtml}`;
     buttons.forEach(b => {
-      if (b.textContent === q.correct) b.classList.add('correct');
+      if (b.textContent === correctText) b.classList.add('correct');
     });
   }
-  answers.push({id: q.id, q: q.q, chosen: chosen.text, correct: q.correct, isCorrect});
+  answers.push({id: q.id, q: q.q, chosen: chosen.text, correct: correctText, isCorrect});
   document.getElementById('q-score').textContent = `Aciertos: ${score}`;
   document.getElementById('next-btn').classList.remove('hidden');
   document.getElementById('next-btn').textContent = (currentIdx === currentQuiz.length - 1) ? 'Ver resultado 🏁' : 'Siguiente →';

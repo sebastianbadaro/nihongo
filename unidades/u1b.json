@@ -3,910 +3,1890 @@
     "id": "U1B-001",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 誕生日?",
-    "correct": "たんじょうび",
-    "explanation": "誕 (たん, 'nacer') + 生 (じょう, 'nacer/vida') + 日 (び, 'día') = たんじょうび, 'cumpleaños'. El 日 final toma rendaku (ひ → び).",
     "opts": [
-      {"text": "たんじょうび", "correct": true, "reason": "Correcta. Lectura estándar con rendaku en 日 (ひ → び)."},
-      {"text": "たんせいび", "correct": false, "reason": "せい es la otra on'yomi de 生 (ej. 学生 がくせい), pero en 誕生日 se usa じょう."},
-      {"text": "たんじょび", "correct": false, "reason": "Falta la vocal larga: 生 se lee じょう (con う), no じょ."},
-      {"text": "たんじょうひ", "correct": false, "reason": "El 日 final sufre rendaku y pasa a び (con dakuten), no ひ."}
+      {
+        "text": "たんじょうび",
+        "correct": true,
+        "explanation": "誕 (たん, 'nacer') + 生 (じょう, 'nacer/vida') + 日 (び, 'día') = たんじょうび, 'cumpleaños'. El 日 final toma rendaku (ひ → び). Correcta. Lectura estándar con rendaku en 日 (ひ → び)."
+      },
+      {
+        "text": "たんせいび",
+        "correct": false,
+        "explanation": "せい es la otra on'yomi de 生 (ej. 学生 がくせい), pero en 誕生日 se usa じょう."
+      },
+      {
+        "text": "たんじょび",
+        "correct": false,
+        "explanation": "Falta la vocal larga: 生 se lee じょう (con う), no じょ."
+      },
+      {
+        "text": "たんじょうひ",
+        "correct": false,
+        "explanation": "El 日 final sufre rendaku y pasa a び (con dakuten), no ひ."
+      }
     ]
   },
   {
     "id": "U1B-002",
     "cat": "Vocabulario",
     "q": "¿Qué significa 誕生日?",
-    "correct": "Cumpleaños",
-    "explanation": "誕生 (たんじょう) significa 'nacimiento' y 日 (び) 'día'. Juntos: 'día del nacimiento' = cumpleaños.",
     "opts": [
-      {"text": "Cumpleaños", "correct": true, "reason": "Correcta. Es el significado central."},
-      {"text": "Aniversario", "correct": false, "reason": "'Aniversario' es 記念日 (きねんび). 誕生日 es específicamente del nacimiento personal."},
-      {"text": "Día festivo", "correct": false, "reason": "'Día festivo' es 祝日 (しゅくじつ) o 休日 (きゅうじつ). Concepto distinto."},
-      {"text": "Fecha de nacimiento (formal)", "correct": false, "reason": "'Fecha de nacimiento' formal sería 生年月日 (せいねんがっぴ). 誕生日 es el día que se celebra cada año."}
+      {
+        "text": "Cumpleaños",
+        "correct": true,
+        "explanation": "誕生 (たんじょう) significa 'nacimiento' y 日 (び) 'día'. Juntos: 'día del nacimiento' = cumpleaños. Correcta. Es el significado central."
+      },
+      {
+        "text": "Aniversario",
+        "correct": false,
+        "explanation": "'Aniversario' es 記念日 (きねんび). 誕生日 es específicamente del nacimiento personal."
+      },
+      {
+        "text": "Día festivo",
+        "correct": false,
+        "explanation": "'Día festivo' es 祝日 (しゅくじつ) o 休日 (きゅうじつ). Concepto distinto."
+      },
+      {
+        "text": "Fecha de nacimiento (formal)",
+        "correct": false,
+        "explanation": "'Fecha de nacimiento' formal sería 生年月日 (せいねんがっぴ). 誕生日 es el día que se celebra cada año."
+      }
     ]
   },
   {
     "id": "U1B-003",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se pregunta '¿Cuándo es tu cumpleaños?'?",
-    "correct": "お誕生日は いつですか。",
-    "explanation": "Estructura: お誕生日 (cumpleaños, con honorífico) + は (tema) + いつ (cuándo) + ですか. La pregunta canónica para fechas.",
     "opts": [
-      {"text": "お誕生日は いつですか。", "correct": true, "reason": "Correcta. いつ = '¿cuándo?' es el interrogativo de tiempo."},
-      {"text": "お誕生日は どこですか。", "correct": false, "reason": "どこ pregunta '¿dónde?' (lugar). Un cumpleaños no tiene lugar, tiene fecha."},
-      {"text": "お誕生日は 何ですか。", "correct": false, "reason": "何 pregunta '¿qué?'. Sería '¿qué es un cumpleaños?', no la fecha."},
-      {"text": "お誕生日は だれですか。", "correct": false, "reason": "だれ pregunta '¿quién?'. Inadecuado para fechas."}
+      {
+        "text": "お誕生日は いつですか。",
+        "correct": true,
+        "explanation": "Estructura: お誕生日 (cumpleaños, con honorífico) + は (tema) + いつ (cuándo) + ですか. La pregunta canónica para fechas. Correcta. いつ = '¿cuándo?' es el interrogativo de tiempo."
+      },
+      {
+        "text": "お誕生日は どこですか。",
+        "correct": false,
+        "explanation": "どこ pregunta '¿dónde?' (lugar). Un cumpleaños no tiene lugar, tiene fecha."
+      },
+      {
+        "text": "お誕生日は 何ですか。",
+        "correct": false,
+        "explanation": "何 pregunta '¿qué?'. Sería '¿qué es un cumpleaños?', no la fecha."
+      },
+      {
+        "text": "お誕生日は だれですか。",
+        "correct": false,
+        "explanation": "だれ pregunta '¿quién?'. Inadecuado para fechas."
+      }
     ]
   },
   {
     "id": "U1B-004",
     "cat": "Vocabulario",
     "q": "¿Qué significa いつ?",
-    "correct": "Cuándo",
-    "explanation": "いつ es el pronombre interrogativo de tiempo, equivalente a '¿cuándo?' en español. Es invariable y no necesita partícula propia.",
     "opts": [
-      {"text": "Cuándo", "correct": true, "reason": "Correcta. Interrogativo de tiempo."},
-      {"text": "Dónde", "correct": false, "reason": "'Dónde' es どこ (informal) o どちら (formal)."},
-      {"text": "Cuánto", "correct": false, "reason": "'Cuánto' (cantidad) es いくら (precio) o いくつ (cantidad/edad)."},
-      {"text": "Cuál", "correct": false, "reason": "'Cuál' es どれ (de varios) o どの+sustantivo."}
+      {
+        "text": "Cuándo",
+        "correct": true,
+        "explanation": "いつ es el pronombre interrogativo de tiempo, equivalente a '¿cuándo?' en español. Es invariable y no necesita partícula propia. Correcta. Interrogativo de tiempo."
+      },
+      {
+        "text": "Dónde",
+        "correct": false,
+        "explanation": "'Dónde' es どこ (informal) o どちら (formal)."
+      },
+      {
+        "text": "Cuánto",
+        "correct": false,
+        "explanation": "'Cuánto' (cantidad) es いくら (precio) o いくつ (cantidad/edad)."
+      },
+      {
+        "text": "Cuál",
+        "correct": false,
+        "explanation": "'Cuál' es どれ (de varios) o どの+sustantivo."
+      }
     ]
   },
   {
     "id": "U1B-005",
     "cat": "Números y Tiempo",
     "q": "¿Cuál es el sufijo para decir la edad?",
-    "correct": "～歳 (さい)",
-    "explanation": "～歳 (さい) es el contador de años cumplidos. Se sufija al número: 20歳 (にじゅっさい), 35歳, etc.",
     "opts": [
-      {"text": "～歳 (さい)", "correct": true, "reason": "Correcta. Es el contador estándar de edad."},
-      {"text": "～才 (さい)", "correct": false, "reason": "才 también se lee さい y es válido como simplificación, pero el kanji oficial es 歳. Es la respuesta menos correcta entre las dos."},
-      {"text": "～年 (ねん)", "correct": false, "reason": "年 (ねん) es contador de años (períodos), no de edad. Ej. 3年 = '3 años (de duración)'."},
-      {"text": "～代 (だい)", "correct": false, "reason": "～代 indica DÉCADAS de edad (20代 = 'veintipico'), no edad exacta."}
+      {
+        "text": "～歳 (さい)",
+        "correct": true,
+        "explanation": "～歳 (さい) es el contador de años cumplidos. Se sufija al número: 20歳 (にじゅっさい), 35歳, etc. Correcta. Es el contador estándar de edad."
+      },
+      {
+        "text": "～才 (さい)",
+        "correct": false,
+        "explanation": "才 también se lee さい y es válido como simplificación, pero el kanji oficial es 歳. Es la respuesta menos correcta entre las dos."
+      },
+      {
+        "text": "～年 (ねん)",
+        "correct": false,
+        "explanation": "年 (ねん) es contador de años (períodos), no de edad. Ej. 3年 = '3 años (de duración)'."
+      },
+      {
+        "text": "～代 (だい)",
+        "correct": false,
+        "explanation": "～代 indica DÉCADAS de edad (20代 = 'veintipico'), no edad exacta."
+      }
     ]
   },
   {
     "id": "U1B-006",
     "cat": "Kanji → Lectura",
     "q": "歳 y 才 ambos se leen さい y significan 'años (de edad)'. ¿Cuál es la diferencia?",
-    "correct": "歳 es el kanji formal/correcto; 才 es simplificado/escrito a mano",
-    "explanation": "歳 es el kanji oficial y formal; 才 (originalmente 'talento') se usa como abreviatura informal por tener menos trazos. En documentos oficiales se prefiere 歳.",
     "opts": [
-      {"text": "歳 es el kanji formal/correcto; 才 es simplificado/escrito a mano", "correct": true, "reason": "Correcta. Distinción de registro y formalidad."},
-      {"text": "歳 es para niños; 才 para adultos", "correct": false, "reason": "Ningún kanji marca edad del referente. La diferencia es de formalidad."},
-      {"text": "歳 es antiguo; 才 es moderno", "correct": false, "reason": "Invertido. 歳 sigue siendo la forma estándar; 才 es la simplificación de uso cotidiano."},
-      {"text": "Son kanjis totalmente distintos", "correct": false, "reason": "En el contexto de edad funcionan como equivalentes (才 sustituye a 歳). El significado es el mismo."}
+      {
+        "text": "歳 es el kanji formal/correcto; 才 es simplificado/escrito a mano",
+        "correct": true,
+        "explanation": "歳 es el kanji oficial y formal; 才 (originalmente 'talento') se usa como abreviatura informal por tener menos trazos. En documentos oficiales se prefiere 歳. Correcta. Distinción de registro y formalidad."
+      },
+      {
+        "text": "歳 es para niños; 才 para adultos",
+        "correct": false,
+        "explanation": "Ningún kanji marca edad del referente. La diferencia es de formalidad."
+      },
+      {
+        "text": "歳 es antiguo; 才 es moderno",
+        "correct": false,
+        "explanation": "Invertido. 歳 sigue siendo la forma estándar; 才 es la simplificación de uso cotidiano."
+      },
+      {
+        "text": "Son kanjis totalmente distintos",
+        "correct": false,
+        "explanation": "En el contexto de edad funcionan como equivalentes (才 sustituye a 歳). El significado es el mismo."
+      }
     ]
   },
   {
     "id": "U1B-007",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 1歳?",
-    "correct": "いっさい",
-    "explanation": "Cuando 1 (いち) precede a 歳 (さい), la ち se asimila al さ siguiente y se forma sokuon (っ): いち + さい → いっさい.",
     "opts": [
-      {"text": "いっさい", "correct": true, "reason": "Correcta. Asimilación fonética estándar (sokuon)."},
-      {"text": "いちさい", "correct": false, "reason": "Sin la asimilación. La regla fonética hace obligatorio いっさい."},
-      {"text": "いっせい", "correct": false, "reason": "せい no es lectura de 歳. Esa lectura corresponde a otros kanji como 生."},
-      {"text": "ひとさい", "correct": false, "reason": "ひと es la lectura nativa de 一 (uno) cuando va sola. Con contadores se usa いち."}
+      {
+        "text": "いっさい",
+        "correct": true,
+        "explanation": "Cuando 1 (いち) precede a 歳 (さい), la ち se asimila al さ siguiente y se forma sokuon (っ): いち + さい → いっさい. Correcta. Asimilación fonética estándar (sokuon)."
+      },
+      {
+        "text": "いちさい",
+        "correct": false,
+        "explanation": "Sin la asimilación. La regla fonética hace obligatorio いっさい."
+      },
+      {
+        "text": "いっせい",
+        "correct": false,
+        "explanation": "せい no es lectura de 歳. Esa lectura corresponde a otros kanji como 生."
+      },
+      {
+        "text": "ひとさい",
+        "correct": false,
+        "explanation": "ひと es la lectura nativa de 一 (uno) cuando va sola. Con contadores se usa いち."
+      }
     ]
   },
   {
     "id": "U1B-008",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 8歳?",
-    "correct": "はっさい",
-    "explanation": "8 (はち) + 歳 (さい): la ち se asimila → はっさい. Misma regla fonética que 1歳, 10歳.",
     "opts": [
-      {"text": "はっさい", "correct": true, "reason": "Correcta. Asimilación de はち + さい."},
-      {"text": "はちさい", "correct": false, "reason": "Sin asimilación. La regla fonética hace obligatorio はっさい."},
-      {"text": "やっさい", "correct": false, "reason": "や (やっつ) es la lectura nativa de 8. Con contadores se usa はち."},
-      {"text": "はっせい", "correct": false, "reason": "せい no es lectura de 歳. Confunde con 生."}
+      {
+        "text": "はっさい",
+        "correct": true,
+        "explanation": "8 (はち) + 歳 (さい): la ち se asimila → はっさい. Misma regla fonética que 1歳, 10歳. Correcta. Asimilación de はち + さい."
+      },
+      {
+        "text": "はちさい",
+        "correct": false,
+        "explanation": "Sin asimilación. La regla fonética hace obligatorio はっさい."
+      },
+      {
+        "text": "やっさい",
+        "correct": false,
+        "explanation": "や (やっつ) es la lectura nativa de 8. Con contadores se usa はち."
+      },
+      {
+        "text": "はっせい",
+        "correct": false,
+        "explanation": "せい no es lectura de 歳. Confunde con 生."
+      }
     ]
   },
   {
     "id": "U1B-009",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 10歳?",
-    "correct": "じゅっさい",
-    "explanation": "10 (じゅう) + 歳: en pronunciación natural じゅう se acorta y la う se asimila → じゅっさい. También se acepta じっさい en registro formal.",
     "opts": [
-      {"text": "じゅっさい", "correct": true, "reason": "Correcta. Pronunciación natural y más usada."},
-      {"text": "じゅうさい", "correct": false, "reason": "La forma con vocal larga existe pero no es la pronunciación natural cotidiana, que adopta sokuon."},
-      {"text": "とうさい", "correct": false, "reason": "とう no es lectura válida de 10 con contadores. La lectura nativa とお solo se usa en algunos compuestos especiales (10日 = とおか)."},
-      {"text": "とおさい", "correct": false, "reason": "Confunde la lectura de 10日 con la de 10歳. Para edad se usa じゅっさい."}
+      {
+        "text": "じゅっさい",
+        "correct": true,
+        "explanation": "10 (じゅう) + 歳: en pronunciación natural じゅう se acorta y la う se asimila → じゅっさい. También se acepta じっさい en registro formal. Correcta. Pronunciación natural y más usada."
+      },
+      {
+        "text": "じゅうさい",
+        "correct": false,
+        "explanation": "La forma con vocal larga existe pero no es la pronunciación natural cotidiana, que adopta sokuon."
+      },
+      {
+        "text": "とうさい",
+        "correct": false,
+        "explanation": "とう no es lectura válida de 10 con contadores. La lectura nativa とお solo se usa en algunos compuestos especiales (10日 = とおか)."
+      },
+      {
+        "text": "とおさい",
+        "correct": false,
+        "explanation": "Confunde la lectura de 10日 con la de 10歳. Para edad se usa じゅっさい."
+      }
     ]
   },
   {
     "id": "U1B-010",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se dice '20 años' de manera tradicional (muy común, irregular)?",
-    "correct": "はたち",
-    "explanation": "はたち (二十歳) es la lectura tradicional y especial para 20 años de edad, asociada a la mayoría de edad. No sigue el patrón regular にじゅっさい.",
     "opts": [
-      {"text": "はたち", "correct": true, "reason": "Correcta. Lectura especial heredada del japonés clásico."},
-      {"text": "にじゅうさい", "correct": false, "reason": "Forma 'regular' aunque comprensible; en uso real para 20 años se prefiere はたち, sobre todo culturalmente."},
-      {"text": "はつかさい", "correct": false, "reason": "はつか significa 'día 20 del mes' (20日), no '20 años'. Confusión típica."},
-      {"text": "にじゅっさい", "correct": false, "reason": "Es entendible y se usa para otros 20 (ej. 'a los 20 y pico'), pero no para 'cumplir 20' tradicional."}
+      {
+        "text": "はたち",
+        "correct": true,
+        "explanation": "はたち (二十歳) es la lectura tradicional y especial para 20 años de edad, asociada a la mayoría de edad. No sigue el patrón regular にじゅっさい. Correcta. Lectura especial heredada del japonés clásico."
+      },
+      {
+        "text": "にじゅうさい",
+        "correct": false,
+        "explanation": "Forma 'regular' aunque comprensible; en uso real para 20 años se prefiere はたち, sobre todo culturalmente."
+      },
+      {
+        "text": "はつかさい",
+        "correct": false,
+        "explanation": "はつか significa 'día 20 del mes' (20日), no '20 años'. Confusión típica."
+      },
+      {
+        "text": "にじゅっさい",
+        "correct": false,
+        "explanation": "Es entendible y se usa para otros 20 (ej. 'a los 20 y pico'), pero no para 'cumplir 20' tradicional."
+      }
     ]
   },
   {
     "id": "U1B-011",
     "cat": "Números y Tiempo",
     "q": "A los 20 años, los japoneses usan はたち. ¿Por qué es importante esta edad culturalmente?",
-    "correct": "Es la edad tradicional de mayoría de edad (成人)",
-    "explanation": "成人 (せいじん, 'adulto') marca el ingreso a la adultez. Hay una ceremonia nacional (成人の日) el segundo lunes de enero. Aunque desde 2022 la edad legal bajó a 18, culturalmente 20 sigue siendo significativo.",
     "opts": [
-      {"text": "Es la edad tradicional de mayoría de edad (成人)", "correct": true, "reason": "Correcta. Hito cultural marcado por una ceremonia oficial."},
-      {"text": "Es cuando terminan la universidad", "correct": false, "reason": "La universidad típicamente se termina a los 22, no a los 20."},
-      {"text": "Es cuando pueden casarse", "correct": false, "reason": "La edad legal de matrimonio actualmente es 18 (antes era 16/18). No se asocia a はたち."},
-      {"text": "No tiene significado especial", "correct": false, "reason": "Tiene un significado cultural y ceremonial muy marcado."}
+      {
+        "text": "Es la edad tradicional de mayoría de edad (成人)",
+        "correct": true,
+        "explanation": "成人 (せいじん, 'adulto') marca el ingreso a la adultez. Hay una ceremonia nacional (成人の日) el segundo lunes de enero. Aunque desde 2022 la edad legal bajó a 18, culturalmente 20 sigue siendo significativo. Correcta. Hito cultural marcado por una ceremonia oficial."
+      },
+      {
+        "text": "Es cuando terminan la universidad",
+        "correct": false,
+        "explanation": "La universidad típicamente se termina a los 22, no a los 20."
+      },
+      {
+        "text": "Es cuando pueden casarse",
+        "correct": false,
+        "explanation": "La edad legal de matrimonio actualmente es 18 (antes era 16/18). No se asocia a はたち."
+      },
+      {
+        "text": "No tiene significado especial",
+        "correct": false,
+        "explanation": "Tiene un significado cultural y ceremonial muy marcado."
+      }
     ]
   },
   {
     "id": "U1B-012",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se dice '34 años'?",
-    "correct": "さんじゅうよん さい",
-    "explanation": "Para 34 se usa さんじゅう (30) + よん (4) + さい. La lectura よん (no し) se prefiere para evitar la asociación negativa de し ('muerte').",
     "opts": [
-      {"text": "さんじゅうよん さい", "correct": true, "reason": "Correcta. Uso natural con よん para 4."},
-      {"text": "さんじゅうし さい", "correct": false, "reason": "し es lectura válida de 4 pero se evita por sonar como 死 ('muerte'). Para edades se prefiere よん."},
-      {"text": "みじゅうよん さい", "correct": false, "reason": "み es la lectura nativa de 3 (みっつ). Con números compuestos se usa さん."},
-      {"text": "さんじゅうよっさい", "correct": false, "reason": "La asimilación con sokuon ocurre con 1, 8, 10 ante さい, no con 4. Lo correcto es よん さい (sin っ)."}
+      {
+        "text": "さんじゅうよん さい",
+        "correct": true,
+        "explanation": "Para 34 se usa さんじゅう (30) + よん (4) + さい. La lectura よん (no し) se prefiere para evitar la asociación negativa de し ('muerte'). Correcta. Uso natural con よん para 4."
+      },
+      {
+        "text": "さんじゅうし さい",
+        "correct": false,
+        "explanation": "し es lectura válida de 4 pero se evita por sonar como 死 ('muerte'). Para edades se prefiere よん."
+      },
+      {
+        "text": "みじゅうよん さい",
+        "correct": false,
+        "explanation": "み es la lectura nativa de 3 (みっつ). Con números compuestos se usa さん."
+      },
+      {
+        "text": "さんじゅうよっさい",
+        "correct": false,
+        "explanation": "La asimilación con sokuon ocurre con 1, 8, 10 ante さい, no con 4. Lo correcto es よん さい (sin っ)."
+      }
     ]
   },
   {
     "id": "U1B-013",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se pregunta '¿Cuántos años tenés?' (forma neutra)?",
-    "correct": "何歳ですか。 / おいくつですか。",
-    "explanation": "何歳ですか (なんさいですか) usa el interrogativo 何 ('cuánto/qué') + 歳. おいくつですか es la versión más educada con el honorífico お~.",
     "opts": [
-      {"text": "何歳ですか。 / おいくつですか。", "correct": true, "reason": "Correcta. Ambas son formas estándar."},
-      {"text": "何才 がありますか。", "correct": false, "reason": "が あります significa 'hay/tener (objeto)'. La edad NO se 'tiene' en japonés; se ES (です)."},
-      {"text": "何日です か。", "correct": false, "reason": "何日 (なんにち) pregunta '¿qué día (del mes)?', no la edad."},
-      {"text": "どこ歳ですか。", "correct": false, "reason": "どこ es '¿dónde?'. No tiene sentido con 歳."}
+      {
+        "text": "何歳ですか。 / おいくつですか。",
+        "correct": true,
+        "explanation": "何歳ですか (なんさいですか) usa el interrogativo 何 ('cuánto/qué') + 歳. おいくつですか es la versión más educada con el honorífico お~. Correcta. Ambas son formas estándar."
+      },
+      {
+        "text": "何才 がありますか。",
+        "correct": false,
+        "explanation": "が あります significa 'hay/tener (objeto)'. La edad NO se 'tiene' en japonés; se ES (です)."
+      },
+      {
+        "text": "何日です か。",
+        "correct": false,
+        "explanation": "何日 (なんにち) pregunta '¿qué día (del mes)?', no la edad."
+      },
+      {
+        "text": "どこ歳ですか。",
+        "correct": false,
+        "explanation": "どこ es '¿dónde?'. No tiene sentido con 歳."
+      }
     ]
   },
   {
     "id": "U1B-014",
     "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre 何歳ですか y おいくつですか?",
-    "correct": "何歳 es directo (neutro); おいくつ es más educado/suave",
-    "explanation": "おいくつ usa el honorífico お~ y un eufemismo (いくつ = '¿cuántos?'). Preguntar la edad directamente puede ser invasivo, por lo que おいくつ es más diplomático.",
     "opts": [
-      {"text": "何歳 es directo (neutro); おいくつ es más educado/suave", "correct": true, "reason": "Correcta. Distinción de registro de cortesía."},
-      {"text": "何歳 es formal; おいくつ es casual", "correct": false, "reason": "Invertido. おいくつ es la versión MÁS formal y suave."},
-      {"text": "何歳 es para adultos; おいくつ para niños", "correct": false, "reason": "El destinatario no determina la elección. Curiosamente, a niños se les suele preguntar 何歳 directo."},
-      {"text": "Son intercambiables sin diferencia", "correct": false, "reason": "Hay diferencia clara de cortesía."}
+      {
+        "text": "何歳 es directo (neutro); おいくつ es más educado/suave",
+        "correct": true,
+        "explanation": "おいくつ usa el honorífico お~ y un eufemismo (いくつ = '¿cuántos?'). Preguntar la edad directamente puede ser invasivo, por lo que おいくつ es más diplomático. Correcta. Distinción de registro de cortesía."
+      },
+      {
+        "text": "何歳 es formal; おいくつ es casual",
+        "correct": false,
+        "explanation": "Invertido. おいくつ es la versión MÁS formal y suave."
+      },
+      {
+        "text": "何歳 es para adultos; おいくつ para niños",
+        "correct": false,
+        "explanation": "El destinatario no determina la elección. Curiosamente, a niños se les suele preguntar 何歳 directo."
+      },
+      {
+        "text": "Son intercambiables sin diferencia",
+        "correct": false,
+        "explanation": "Hay diferencia clara de cortesía."
+      }
     ]
   },
   {
     "id": "U1B-015",
     "cat": "Vocabulario",
     "q": "¿Cómo sería más educado preguntar la edad a un adulto que no conocés?",
-    "correct": "おいくつですか。",
-    "explanation": "おいくつ es la forma cortés y suave por excelencia. Preguntar la edad es delicado culturalmente, por lo que conviene esta opción con desconocidos.",
     "opts": [
-      {"text": "おいくつですか。", "correct": true, "reason": "Correcta. Forma más diplomática y cortés."},
-      {"text": "何歳ですか。", "correct": false, "reason": "Es entendible pero más directo. Con un desconocido adulto puede sonar abrupto."},
-      {"text": "いつですか。", "correct": false, "reason": "いつ pregunta '¿cuándo?' (tiempo). No corresponde a edad."},
-      {"text": "年は?", "correct": false, "reason": "年 (とし) coloquial para 'edad' funciona pero es directo y le falta お~. Inadecuado para desconocidos."}
+      {
+        "text": "おいくつですか。",
+        "correct": true,
+        "explanation": "おいくつ es la forma cortés y suave por excelencia. Preguntar la edad es delicado culturalmente, por lo que conviene esta opción con desconocidos. Correcta. Forma más diplomática y cortés."
+      },
+      {
+        "text": "何歳ですか。",
+        "correct": false,
+        "explanation": "Es entendible pero más directo. Con un desconocido adulto puede sonar abrupto."
+      },
+      {
+        "text": "いつですか。",
+        "correct": false,
+        "explanation": "いつ pregunta '¿cuándo?' (tiempo). No corresponde a edad."
+      },
+      {
+        "text": "年は?",
+        "correct": false,
+        "explanation": "年 (とし) coloquial para 'edad' funciona pero es directo y le falta お~. Inadecuado para desconocidos."
+      }
     ]
   },
   {
     "id": "U1B-016",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 1月?",
-    "correct": "いちがつ",
-    "explanation": "Para los meses se usa siempre número (lectura on'yomi) + がつ. 1月 = いち + がつ.",
     "opts": [
-      {"text": "いちがつ", "correct": true, "reason": "Correcta. Patrón estándar para meses."},
-      {"text": "ひとつき", "correct": false, "reason": "ひとつき significa 'un mes (de duración)', no 'enero' (el mes). Para mes del calendario se usa がつ."},
-      {"text": "いっがつ", "correct": false, "reason": "El sokuon (っ) no aparece en 1月. La pronunciación es directa いちがつ."},
-      {"text": "いちげつ", "correct": false, "reason": "げつ es otra on'yomi de 月 pero no se usa para nombrar meses del calendario; se usa en otros compuestos (一月 ichigetsu existe pero como 'un mes' general, no 'enero')."}
+      {
+        "text": "いちがつ",
+        "correct": true,
+        "explanation": "Para los meses se usa siempre número (lectura on'yomi) + がつ. 1月 = いち + がつ. Correcta. Patrón estándar para meses."
+      },
+      {
+        "text": "ひとつき",
+        "correct": false,
+        "explanation": "ひとつき significa 'un mes (de duración)', no 'enero' (el mes). Para mes del calendario se usa がつ."
+      },
+      {
+        "text": "いっがつ",
+        "correct": false,
+        "explanation": "El sokuon (っ) no aparece en 1月. La pronunciación es directa いちがつ."
+      },
+      {
+        "text": "いちげつ",
+        "correct": false,
+        "explanation": "げつ es otra on'yomi de 月 pero no se usa para nombrar meses del calendario; se usa en otros compuestos (一月 ichigetsu existe pero como 'un mes' general, no 'enero')."
+      }
     ]
   },
   {
     "id": "U1B-017",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 4月?",
-    "correct": "しがつ",
-    "explanation": "4月 es IRREGULAR: usa し (no よん, ni よ). Es uno de los tres meses irregulares (4, 7, 9) que conservan lecturas antiguas.",
     "opts": [
-      {"text": "しがつ", "correct": true, "reason": "Correcta. Lectura irregular fija."},
-      {"text": "よんがつ", "correct": false, "reason": "Aunque よん es la lectura más común de 4 hoy en día, en el nombre del mes se mantiene la antigua し."},
-      {"text": "よがつ", "correct": false, "reason": "よ es lectura de 4 en algunos contadores (ej. 4時 よじ), pero no en meses."},
-      {"text": "よっかがつ", "correct": false, "reason": "よっか es 'día 4 del mes' (4日), no 'abril'."}
+      {
+        "text": "しがつ",
+        "correct": true,
+        "explanation": "4月 es IRREGULAR: usa し (no よん, ni よ). Es uno de los tres meses irregulares (4, 7, 9) que conservan lecturas antiguas. Correcta. Lectura irregular fija."
+      },
+      {
+        "text": "よんがつ",
+        "correct": false,
+        "explanation": "Aunque よん es la lectura más común de 4 hoy en día, en el nombre del mes se mantiene la antigua し."
+      },
+      {
+        "text": "よがつ",
+        "correct": false,
+        "explanation": "よ es lectura de 4 en algunos contadores (ej. 4時 よじ), pero no en meses."
+      },
+      {
+        "text": "よっかがつ",
+        "correct": false,
+        "explanation": "よっか es 'día 4 del mes' (4日), no 'abril'."
+      }
     ]
   },
   {
     "id": "U1B-018",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 7月?",
-    "correct": "しちがつ",
-    "explanation": "7月 es IRREGULAR: usa しち (no なな). Junto con 4月 y 9月, son los tres meses con lectura tradicional fija.",
     "opts": [
-      {"text": "しちがつ", "correct": true, "reason": "Correcta. Lectura tradicional irregular."},
-      {"text": "なながつ", "correct": false, "reason": "なな es la lectura más común de 7, pero en meses se mantiene しち."},
-      {"text": "なのがつ", "correct": false, "reason": "なのか es 'día 7 del mes' (7日), no 'julio'."},
-      {"text": "ひちがつ", "correct": false, "reason": "ひち es una pronunciación dialectal/coloquial de しち, no la forma estándar."}
+      {
+        "text": "しちがつ",
+        "correct": true,
+        "explanation": "7月 es IRREGULAR: usa しち (no なな). Junto con 4月 y 9月, son los tres meses con lectura tradicional fija. Correcta. Lectura tradicional irregular."
+      },
+      {
+        "text": "なながつ",
+        "correct": false,
+        "explanation": "なな es la lectura más común de 7, pero en meses se mantiene しち."
+      },
+      {
+        "text": "なのがつ",
+        "correct": false,
+        "explanation": "なのか es 'día 7 del mes' (7日), no 'julio'."
+      },
+      {
+        "text": "ひちがつ",
+        "correct": false,
+        "explanation": "ひち es una pronunciación dialectal/coloquial de しち, no la forma estándar."
+      }
     ]
   },
   {
     "id": "U1B-019",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 9月?",
-    "correct": "くがつ",
-    "explanation": "9月 es IRREGULAR: usa く (no きゅう). Forma parte del trío irregular junto con 4月 y 7月.",
     "opts": [
-      {"text": "くがつ", "correct": true, "reason": "Correcta. Lectura tradicional fija."},
-      {"text": "きゅうがつ", "correct": false, "reason": "きゅう es lectura común de 9 hoy, pero en meses se mantiene la antigua く."},
-      {"text": "ここのがつ", "correct": false, "reason": "ここのか es 'día 9 del mes' (9日), no 'septiembre'."},
-      {"text": "きゅうげつ", "correct": false, "reason": "Doble error: lectura incorrecta de 9 y de 月 para meses."}
+      {
+        "text": "くがつ",
+        "correct": true,
+        "explanation": "9月 es IRREGULAR: usa く (no きゅう). Forma parte del trío irregular junto con 4月 y 7月. Correcta. Lectura tradicional fija."
+      },
+      {
+        "text": "きゅうがつ",
+        "correct": false,
+        "explanation": "きゅう es lectura común de 9 hoy, pero en meses se mantiene la antigua く."
+      },
+      {
+        "text": "ここのがつ",
+        "correct": false,
+        "explanation": "ここのか es 'día 9 del mes' (9日), no 'septiembre'."
+      },
+      {
+        "text": "きゅうげつ",
+        "correct": false,
+        "explanation": "Doble error: lectura incorrecta de 9 y de 月 para meses."
+      }
     ]
   },
   {
     "id": "U1B-020",
     "cat": "Números y Tiempo",
     "q": "Los meses 4, 7 y 9 tienen lecturas IRREGULARES. ¿Cuál NO es irregular?",
-    "correct": "5月 (ごがつ)",
-    "explanation": "5月 sigue el patrón regular: ご (lectura común de 5) + がつ. Solo 4, 7 y 9 conservan lecturas antiguas (し, しち, く).",
     "opts": [
-      {"text": "5月 (ごがつ)", "correct": true, "reason": "Correcta. ご es la lectura natural y común de 5; sigue el patrón regular."},
-      {"text": "4月 (しがつ)", "correct": false, "reason": "Es IRREGULAR: usa し en vez de よん. La pregunta pide la NO irregular."},
-      {"text": "7月 (しちがつ)", "correct": false, "reason": "Es IRREGULAR: usa しち en vez de なな."},
-      {"text": "9月 (くがつ)", "correct": false, "reason": "Es IRREGULAR: usa く en vez de きゅう."}
+      {
+        "text": "5月 (ごがつ)",
+        "correct": true,
+        "explanation": "5月 sigue el patrón regular: ご (lectura común de 5) + がつ. Solo 4, 7 y 9 conservan lecturas antiguas (し, しち, く). Correcta. ご es la lectura natural y común de 5; sigue el patrón regular."
+      },
+      {
+        "text": "4月 (しがつ)",
+        "correct": false,
+        "explanation": "Es IRREGULAR: usa し en vez de よん. La pregunta pide la NO irregular."
+      },
+      {
+        "text": "7月 (しちがつ)",
+        "correct": false,
+        "explanation": "Es IRREGULAR: usa しち en vez de なな."
+      },
+      {
+        "text": "9月 (くがつ)",
+        "correct": false,
+        "explanation": "Es IRREGULAR: usa く en vez de きゅう."
+      }
     ]
   },
   {
     "id": "U1B-021",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se dice 'marzo'?",
-    "correct": "さんがつ",
-    "explanation": "3月 sigue el patrón regular: さん (3) + がつ. No hay sokuon ni alteración.",
     "opts": [
-      {"text": "さんがつ", "correct": true, "reason": "Correcta. Patrón regular."},
-      {"text": "みっつがつ", "correct": false, "reason": "みっつ es la lectura nativa contadora ('tres'), no se usa para meses."},
-      {"text": "みがつ", "correct": false, "reason": "み es lectura nativa de 3 incompleta. En meses se usa la on'yomi さん."},
-      {"text": "さんげつ", "correct": false, "reason": "げつ no se usa para meses del calendario."}
+      {
+        "text": "さんがつ",
+        "correct": true,
+        "explanation": "3月 sigue el patrón regular: さん (3) + がつ. No hay sokuon ni alteración. Correcta. Patrón regular."
+      },
+      {
+        "text": "みっつがつ",
+        "correct": false,
+        "explanation": "みっつ es la lectura nativa contadora ('tres'), no se usa para meses."
+      },
+      {
+        "text": "みがつ",
+        "correct": false,
+        "explanation": "み es lectura nativa de 3 incompleta. En meses se usa la on'yomi さん."
+      },
+      {
+        "text": "さんげつ",
+        "correct": false,
+        "explanation": "げつ no se usa para meses del calendario."
+      }
     ]
   },
   {
     "id": "U1B-022",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se dice 'octubre'?",
-    "correct": "じゅうがつ",
-    "explanation": "10月: じゅう (10) + がつ. Sin sokuon (no es じゅっがつ ni じっがつ).",
     "opts": [
-      {"text": "じゅうがつ", "correct": true, "reason": "Correcta. Lectura regular sin asimilación."},
-      {"text": "とうがつ", "correct": false, "reason": "とう no es lectura de 10 con contadores."},
-      {"text": "とおがつ", "correct": false, "reason": "とお es lectura nativa de 10 y se usa en 10日 (とおか), pero no en meses."},
-      {"text": "じゅっがつ", "correct": false, "reason": "El sokuon NO se aplica delante de が, solo delante de consonantes sordas (k, s, t, p)."}
+      {
+        "text": "じゅうがつ",
+        "correct": true,
+        "explanation": "10月: じゅう (10) + がつ. Sin sokuon (no es じゅっがつ ni じっがつ). Correcta. Lectura regular sin asimilación."
+      },
+      {
+        "text": "とうがつ",
+        "correct": false,
+        "explanation": "とう no es lectura de 10 con contadores."
+      },
+      {
+        "text": "とおがつ",
+        "correct": false,
+        "explanation": "とお es lectura nativa de 10 y se usa en 10日 (とおか), pero no en meses."
+      },
+      {
+        "text": "じゅっがつ",
+        "correct": false,
+        "explanation": "El sokuon NO se aplica delante de が, solo delante de consonantes sordas (k, s, t, p)."
+      }
     ]
   },
   {
     "id": "U1B-023",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se dice 'noviembre'?",
-    "correct": "じゅういちがつ",
-    "explanation": "11月: じゅういち (11) + がつ. Sin asimilación porque がつ empieza con sonido sonoro.",
     "opts": [
-      {"text": "じゅういちがつ", "correct": true, "reason": "Correcta. Lectura regular."},
-      {"text": "じゅういっがつ", "correct": false, "reason": "El sokuon (っ) no aparece ante sonidos sonoros como が."},
-      {"text": "じゅうひとがつ", "correct": false, "reason": "ひと es lectura nativa de 1, no usada en meses. Se usa いち."},
-      {"text": "じゅういちげつ", "correct": false, "reason": "げつ no se usa para meses del calendario."}
+      {
+        "text": "じゅういちがつ",
+        "correct": true,
+        "explanation": "11月: じゅういち (11) + がつ. Sin asimilación porque がつ empieza con sonido sonoro. Correcta. Lectura regular."
+      },
+      {
+        "text": "じゅういっがつ",
+        "correct": false,
+        "explanation": "El sokuon (っ) no aparece ante sonidos sonoros como が."
+      },
+      {
+        "text": "じゅうひとがつ",
+        "correct": false,
+        "explanation": "ひと es lectura nativa de 1, no usada en meses. Se usa いち."
+      },
+      {
+        "text": "じゅういちげつ",
+        "correct": false,
+        "explanation": "げつ no se usa para meses del calendario."
+      }
     ]
   },
   {
     "id": "U1B-024",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se dice 'agosto'?",
-    "correct": "はちがつ",
-    "explanation": "8月: はち (8) + がつ. Sin asimilación porque がつ empieza con sonido sonoro.",
     "opts": [
-      {"text": "はちがつ", "correct": true, "reason": "Correcta. Lectura regular."},
-      {"text": "はっがつ", "correct": false, "reason": "El sokuon NO ocurre ante が (consonante sonora). Sí ocurre en 8歳 (はっさい) ante さ (sorda)."},
-      {"text": "やがつ", "correct": false, "reason": "や es lectura nativa de 8 (やっつ), no usada en meses."},
-      {"text": "はちげつ", "correct": false, "reason": "げつ no se usa para meses del calendario."}
+      {
+        "text": "はちがつ",
+        "correct": true,
+        "explanation": "8月: はち (8) + がつ. Sin asimilación porque がつ empieza con sonido sonoro. Correcta. Lectura regular."
+      },
+      {
+        "text": "はっがつ",
+        "correct": false,
+        "explanation": "El sokuon NO ocurre ante が (consonante sonora). Sí ocurre en 8歳 (はっさい) ante さ (sorda)."
+      },
+      {
+        "text": "やがつ",
+        "correct": false,
+        "explanation": "や es lectura nativa de 8 (やっつ), no usada en meses."
+      },
+      {
+        "text": "はちげつ",
+        "correct": false,
+        "explanation": "げつ no se usa para meses del calendario."
+      }
     ]
   },
   {
     "id": "U1B-025",
     "cat": "Números y Tiempo",
     "q": "Del 1 al 10 del mes, los días se leen de forma IRREGULAR. ¿Cuál es la lectura de 1日 (día 1)?",
-    "correct": "ついたち",
-    "explanation": "ついたち (一日) es completamente irregular y proviene del japonés antiguo (originalmente つきたち, 'comienzo del mes/luna'). No es analizable.",
     "opts": [
-      {"text": "ついたち", "correct": true, "reason": "Correcta. Lectura especial fija."},
-      {"text": "いちにち", "correct": false, "reason": "いちにち significa 'un día (de duración)', no 'el día 1 del mes'."},
-      {"text": "ひとにち", "correct": false, "reason": "Lectura inexistente. ひとひ podría existir literario, pero no para fechas."},
-      {"text": "いちひ", "correct": false, "reason": "Lectura inventada. Para 'día 1 del mes' se usa ついたち."}
+      {
+        "text": "ついたち",
+        "correct": true,
+        "explanation": "ついたち (一日) es completamente irregular y proviene del japonés antiguo (originalmente つきたち, 'comienzo del mes/luna'). No es analizable. Correcta. Lectura especial fija."
+      },
+      {
+        "text": "いちにち",
+        "correct": false,
+        "explanation": "いちにち significa 'un día (de duración)', no 'el día 1 del mes'."
+      },
+      {
+        "text": "ひとにち",
+        "correct": false,
+        "explanation": "Lectura inexistente. ひとひ podría existir literario, pero no para fechas."
+      },
+      {
+        "text": "いちひ",
+        "correct": false,
+        "explanation": "Lectura inventada. Para 'día 1 del mes' se usa ついたち."
+      }
     ]
   },
   {
     "id": "U1B-026",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 2日 (día 2)?",
-    "correct": "ふつか",
-    "explanation": "ふつか (二日) usa la lectura nativa ふた (de ふたつ) + か (contador antiguo de días). Es irregular como casi todos del 1-10.",
     "opts": [
-      {"text": "ふつか", "correct": true, "reason": "Correcta. Lectura nativa con contador antiguo か."},
-      {"text": "にっか", "correct": false, "reason": "Lectura inventada. Mezcla incorrectamente."},
-      {"text": "ふたにち", "correct": false, "reason": "Combinación nativa + contador chino que no existe en este contexto."},
-      {"text": "にかい", "correct": false, "reason": "にかい significa '2 veces' o 'segundo piso'. Contador distinto."}
+      {
+        "text": "ふつか",
+        "correct": true,
+        "explanation": "ふつか (二日) usa la lectura nativa ふた (de ふたつ) + か (contador antiguo de días). Es irregular como casi todos del 1-10. Correcta. Lectura nativa con contador antiguo か."
+      },
+      {
+        "text": "にっか",
+        "correct": false,
+        "explanation": "Lectura inventada. Mezcla incorrectamente."
+      },
+      {
+        "text": "ふたにち",
+        "correct": false,
+        "explanation": "Combinación nativa + contador chino que no existe en este contexto."
+      },
+      {
+        "text": "にかい",
+        "correct": false,
+        "explanation": "にかい significa '2 veces' o 'segundo piso'. Contador distinto."
+      }
     ]
   },
   {
     "id": "U1B-027",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 3日 (día 3)?",
-    "correct": "みっか",
-    "explanation": "みっか (三日) usa la lectura nativa み (con sokuon) + か. Patrón irregular nativo del 1-10.",
     "opts": [
-      {"text": "みっか", "correct": true, "reason": "Correcta. Lectura nativa con sokuon."},
-      {"text": "さんにち", "correct": false, "reason": "さんにち podría aparecer en contextos formales/escritos, pero la lectura estándar es みっか."},
-      {"text": "みつにち", "correct": false, "reason": "Mezcla mal nativa y contador. La forma correcta es みっか."},
-      {"text": "みか", "correct": false, "reason": "Falta el sokuon (っ). La lectura correcta tiene asimilación: みっか."}
+      {
+        "text": "みっか",
+        "correct": true,
+        "explanation": "みっか (三日) usa la lectura nativa み (con sokuon) + か. Patrón irregular nativo del 1-10. Correcta. Lectura nativa con sokuon."
+      },
+      {
+        "text": "さんにち",
+        "correct": false,
+        "explanation": "さんにち podría aparecer en contextos formales/escritos, pero la lectura estándar es みっか."
+      },
+      {
+        "text": "みつにち",
+        "correct": false,
+        "explanation": "Mezcla mal nativa y contador. La forma correcta es みっか."
+      },
+      {
+        "text": "みか",
+        "correct": false,
+        "explanation": "Falta el sokuon (っ). La lectura correcta tiene asimilación: みっか."
+      }
     ]
   },
   {
     "id": "U1B-028",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 4日 (día 4)?",
-    "correct": "よっか",
-    "explanation": "よっか (四日) usa lectura nativa よ + sokuon + か. Irregular como el resto del 1-10.",
     "opts": [
-      {"text": "よっか", "correct": true, "reason": "Correcta. Lectura nativa con sokuon."},
-      {"text": "よんにち", "correct": false, "reason": "Combina よん (chino) + にち, lo cual no existe para días del 1-10."},
-      {"text": "しにち", "correct": false, "reason": "し + にち no es lectura usada para días."},
-      {"text": "よんか", "correct": false, "reason": "Falta el sokuon. La forma correcta tiene asimilación: よっか."}
+      {
+        "text": "よっか",
+        "correct": true,
+        "explanation": "よっか (四日) usa lectura nativa よ + sokuon + か. Irregular como el resto del 1-10. Correcta. Lectura nativa con sokuon."
+      },
+      {
+        "text": "よんにち",
+        "correct": false,
+        "explanation": "Combina よん (chino) + にち, lo cual no existe para días del 1-10."
+      },
+      {
+        "text": "しにち",
+        "correct": false,
+        "explanation": "し + にち no es lectura usada para días."
+      },
+      {
+        "text": "よんか",
+        "correct": false,
+        "explanation": "Falta el sokuon. La forma correcta tiene asimilación: よっか."
+      }
     ]
   },
   {
     "id": "U1B-029",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 5日 (día 5)?",
-    "correct": "いつか",
-    "explanation": "いつか (五日) usa la lectura nativa いつ (de いつつ) + か. Patrón irregular nativo.",
     "opts": [
-      {"text": "いつか", "correct": true, "reason": "Correcta. Lectura nativa con contador antiguo か."},
-      {"text": "ごにち", "correct": false, "reason": "ご + にち no es la lectura para 5 del mes; suena formal pero no se usa."},
-      {"text": "ごっか", "correct": false, "reason": "Lectura inventada. ご no toma sokuon en este contexto."},
-      {"text": "いつにち", "correct": false, "reason": "Mezcla nativa + chino no usada para fechas."}
+      {
+        "text": "いつか",
+        "correct": true,
+        "explanation": "いつか (五日) usa la lectura nativa いつ (de いつつ) + か. Patrón irregular nativo. Correcta. Lectura nativa con contador antiguo か."
+      },
+      {
+        "text": "ごにち",
+        "correct": false,
+        "explanation": "ご + にち no es la lectura para 5 del mes; suena formal pero no se usa."
+      },
+      {
+        "text": "ごっか",
+        "correct": false,
+        "explanation": "Lectura inventada. ご no toma sokuon en este contexto."
+      },
+      {
+        "text": "いつにち",
+        "correct": false,
+        "explanation": "Mezcla nativa + chino no usada para fechas."
+      }
     ]
   },
   {
     "id": "U1B-030",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 6日 (día 6)?",
-    "correct": "むいか",
-    "explanation": "むいか (六日) usa la lectura nativa む + いか. Irregular como el resto del 1-10.",
     "opts": [
-      {"text": "むいか", "correct": true, "reason": "Correcta. Lectura nativa irregular fija."},
-      {"text": "ろくにち", "correct": false, "reason": "ろく + にち no es la lectura estándar. Para días del mes 1-10 se usa nativa + か."},
-      {"text": "むっか", "correct": false, "reason": "Lectura inventada. Para 6日 se mantiene むいか sin sokuon."},
-      {"text": "むにち", "correct": false, "reason": "Mezcla nativa + chino que no existe para días."}
+      {
+        "text": "むいか",
+        "correct": true,
+        "explanation": "むいか (六日) usa la lectura nativa む + いか. Irregular como el resto del 1-10. Correcta. Lectura nativa irregular fija."
+      },
+      {
+        "text": "ろくにち",
+        "correct": false,
+        "explanation": "ろく + にち no es la lectura estándar. Para días del mes 1-10 se usa nativa + か."
+      },
+      {
+        "text": "むっか",
+        "correct": false,
+        "explanation": "Lectura inventada. Para 6日 se mantiene むいか sin sokuon."
+      },
+      {
+        "text": "むにち",
+        "correct": false,
+        "explanation": "Mezcla nativa + chino que no existe para días."
+      }
     ]
   },
   {
     "id": "U1B-031",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 7日 (día 7)?",
-    "correct": "なのか",
-    "explanation": "なのか (七日) usa la lectura nativa なの + か. Notá que no es なな como en otros contextos.",
     "opts": [
-      {"text": "なのか", "correct": true, "reason": "Correcta. Lectura nativa especial."},
-      {"text": "しちにち", "correct": false, "reason": "しち + にち no se usa para días del mes."},
-      {"text": "ななにち", "correct": false, "reason": "Mezcla incorrecta. Para 7日 se usa なのか."},
-      {"text": "ななか", "correct": false, "reason": "なな + か no es la forma. La correcta es なのか (con la sílaba の)."}
+      {
+        "text": "なのか",
+        "correct": true,
+        "explanation": "なのか (七日) usa la lectura nativa なの + か. Notá que no es なな como en otros contextos. Correcta. Lectura nativa especial."
+      },
+      {
+        "text": "しちにち",
+        "correct": false,
+        "explanation": "しち + にち no se usa para días del mes."
+      },
+      {
+        "text": "ななにち",
+        "correct": false,
+        "explanation": "Mezcla incorrecta. Para 7日 se usa なのか."
+      },
+      {
+        "text": "ななか",
+        "correct": false,
+        "explanation": "なな + か no es la forma. La correcta es なのか (con la sílaba の)."
+      }
     ]
   },
   {
     "id": "U1B-032",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 8日 (día 8)?",
-    "correct": "ようか",
-    "explanation": "ようか (八日) es irregular y proviene del japonés antiguo. No tiene relación obvia con や (8 nativo) ni はち (8 chino).",
     "opts": [
-      {"text": "ようか", "correct": true, "reason": "Correcta. Lectura especial heredada."},
-      {"text": "はちにち", "correct": false, "reason": "はち + にち no se usa para días del mes 1-10."},
-      {"text": "はっか", "correct": false, "reason": "Lectura inventada. Para 8日 se usa ようか."},
-      {"text": "やっか", "correct": false, "reason": "Lectura inventada. La nativa や no se usa así para fechas."}
+      {
+        "text": "ようか",
+        "correct": true,
+        "explanation": "ようか (八日) es irregular y proviene del japonés antiguo. No tiene relación obvia con や (8 nativo) ni はち (8 chino). Correcta. Lectura especial heredada."
+      },
+      {
+        "text": "はちにち",
+        "correct": false,
+        "explanation": "はち + にち no se usa para días del mes 1-10."
+      },
+      {
+        "text": "はっか",
+        "correct": false,
+        "explanation": "Lectura inventada. Para 8日 se usa ようか."
+      },
+      {
+        "text": "やっか",
+        "correct": false,
+        "explanation": "Lectura inventada. La nativa や no se usa así para fechas."
+      }
     ]
   },
   {
     "id": "U1B-033",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 9日 (día 9)?",
-    "correct": "ここのか",
-    "explanation": "ここのか (九日) usa la lectura nativa ここの (de ここのつ, '9') + か. Patrón irregular nativo.",
     "opts": [
-      {"text": "ここのか", "correct": true, "reason": "Correcta. Lectura nativa irregular."},
-      {"text": "きゅうにち", "correct": false, "reason": "きゅう + にち no se usa para 9 del mes."},
-      {"text": "くにち", "correct": false, "reason": "Lectura inexistente. La irregular es ここのか."},
-      {"text": "くっか", "correct": false, "reason": "Lectura inventada con sokuon que no aplica aquí."}
+      {
+        "text": "ここのか",
+        "correct": true,
+        "explanation": "ここのか (九日) usa la lectura nativa ここの (de ここのつ, '9') + か. Patrón irregular nativo. Correcta. Lectura nativa irregular."
+      },
+      {
+        "text": "きゅうにち",
+        "correct": false,
+        "explanation": "きゅう + にち no se usa para 9 del mes."
+      },
+      {
+        "text": "くにち",
+        "correct": false,
+        "explanation": "Lectura inexistente. La irregular es ここのか."
+      },
+      {
+        "text": "くっか",
+        "correct": false,
+        "explanation": "Lectura inventada con sokuon que no aplica aquí."
+      }
     ]
   },
   {
     "id": "U1B-034",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 10日 (día 10)?",
-    "correct": "とおか",
-    "explanation": "とおか (十日) cierra la serie irregular del 1-10 con la lectura nativa とお + か.",
     "opts": [
-      {"text": "とおか", "correct": true, "reason": "Correcta. Lectura nativa con vocal larga お."},
-      {"text": "じゅうにち", "correct": false, "reason": "じゅう + にち no se usa para 10 del mes; sí desde el 11 en adelante."},
-      {"text": "とか", "correct": false, "reason": "Falta la vocal larga: la lectura correcta es とお (con dos お), no と."},
-      {"text": "とうか", "correct": false, "reason": "La vocal larga se escribe とお (no とう) en esta palabra; とう sería la transcripción para otra palabra."}
+      {
+        "text": "とおか",
+        "correct": true,
+        "explanation": "とおか (十日) cierra la serie irregular del 1-10 con la lectura nativa とお + か. Correcta. Lectura nativa con vocal larga お."
+      },
+      {
+        "text": "じゅうにち",
+        "correct": false,
+        "explanation": "じゅう + にち no se usa para 10 del mes; sí desde el 11 en adelante."
+      },
+      {
+        "text": "とか",
+        "correct": false,
+        "explanation": "Falta la vocal larga: la lectura correcta es とお (con dos お), no と."
+      },
+      {
+        "text": "とうか",
+        "correct": false,
+        "explanation": "La vocal larga se escribe とお (no とう) en esta palabra; とう sería la transcripción para otra palabra."
+      }
     ]
   },
   {
     "id": "U1B-035",
     "cat": "Números y Tiempo",
     "q": "Del 11 en adelante, los días se leen como número + にち, con excepción de algunos. ¿Cómo se lee 14日?",
-    "correct": "じゅうよっか",
-    "explanation": "14日 es la principal EXCEPCIÓN entre 11-31: usa よっか (como en 4日) en vez de じゅうよんにち. La regla: cuando el último dígito es 4, suele usarse よっか.",
     "opts": [
-      {"text": "じゅうよっか", "correct": true, "reason": "Correcta. Excepción heredada del patrón nativo よっか."},
-      {"text": "じゅうよんにち", "correct": false, "reason": "Forma 'regular' que NO se usa para 14日; el irregular よっか se mantiene."},
-      {"text": "じゅうしにち", "correct": false, "reason": "し + にち no es la lectura usada."},
-      {"text": "じゅうよっかにち", "correct": false, "reason": "Doble contador (よっか + にち), redundante e incorrecto."}
+      {
+        "text": "じゅうよっか",
+        "correct": true,
+        "explanation": "14日 es la principal EXCEPCIÓN entre 11-31: usa よっか (como en 4日) en vez de じゅうよんにち. La regla: cuando el último dígito es 4, suele usarse よっか. Correcta. Excepción heredada del patrón nativo よっか."
+      },
+      {
+        "text": "じゅうよんにち",
+        "correct": false,
+        "explanation": "Forma 'regular' que NO se usa para 14日; el irregular よっか se mantiene."
+      },
+      {
+        "text": "じゅうしにち",
+        "correct": false,
+        "explanation": "し + にち no es la lectura usada."
+      },
+      {
+        "text": "じゅうよっかにち",
+        "correct": false,
+        "explanation": "Doble contador (よっか + にち), redundante e incorrecto."
+      }
     ]
   },
   {
     "id": "U1B-036",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 20日 (día 20)?",
-    "correct": "はつか",
-    "explanation": "20日 es completamente irregular: はつか (二十日). No usa にじゅう ni el patrón regular.",
     "opts": [
-      {"text": "はつか", "correct": true, "reason": "Correcta. Lectura tradicional fija."},
-      {"text": "にじゅうにち", "correct": false, "reason": "Forma 'regular' que NO se usa: 20日 conserva la lectura tradicional はつか."},
-      {"text": "はたち", "correct": false, "reason": "はたち significa '20 AÑOS DE EDAD' (二十歳), no 'día 20 del mes'. Confusión típica."},
-      {"text": "にじゅっか", "correct": false, "reason": "Lectura inventada. La irregular es はつか."}
+      {
+        "text": "はつか",
+        "correct": true,
+        "explanation": "20日 es completamente irregular: はつか (二十日). No usa にじゅう ni el patrón regular. Correcta. Lectura tradicional fija."
+      },
+      {
+        "text": "にじゅうにち",
+        "correct": false,
+        "explanation": "Forma 'regular' que NO se usa: 20日 conserva la lectura tradicional はつか."
+      },
+      {
+        "text": "はたち",
+        "correct": false,
+        "explanation": "はたち significa '20 AÑOS DE EDAD' (二十歳), no 'día 20 del mes'. Confusión típica."
+      },
+      {
+        "text": "にじゅっか",
+        "correct": false,
+        "explanation": "Lectura inventada. La irregular es はつか."
+      }
     ]
   },
   {
     "id": "U1B-037",
     "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre はたち y はつか?",
-    "correct": "はたち = 20 años de edad; はつか = día 20 del mes",
-    "explanation": "Aunque suenan similares, son palabras distintas: はたち (二十歳, edad) y はつか (二十日, fecha). Es uno de los errores más comunes para hispanohablantes.",
     "opts": [
-      {"text": "はたち = 20 años de edad; はつか = día 20 del mes", "correct": true, "reason": "Correcta. Distinción semántica fundamental."},
-      {"text": "Son iguales", "correct": false, "reason": "Son completamente distintas en significado."},
-      {"text": "はたち es antigua; はつか es moderna", "correct": false, "reason": "Ambas son tradicionales y siguen vigentes en sus respectivos contextos."},
-      {"text": "はたち es del este; はつか del oeste", "correct": false, "reason": "No hay diferencia dialectal; la diferencia es de significado."}
+      {
+        "text": "はたち = 20 años de edad; はつか = día 20 del mes",
+        "correct": true,
+        "explanation": "Aunque suenan similares, son palabras distintas: はたち (二十歳, edad) y はつか (二十日, fecha). Es uno de los errores más comunes para hispanohablantes. Correcta. Distinción semántica fundamental."
+      },
+      {
+        "text": "Son iguales",
+        "correct": false,
+        "explanation": "Son completamente distintas en significado."
+      },
+      {
+        "text": "はたち es antigua; はつか es moderna",
+        "correct": false,
+        "explanation": "Ambas son tradicionales y siguen vigentes en sus respectivos contextos."
+      },
+      {
+        "text": "はたち es del este; はつか del oeste",
+        "correct": false,
+        "explanation": "No hay diferencia dialectal; la diferencia es de significado."
+      }
     ]
   },
   {
     "id": "U1B-038",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 24日?",
-    "correct": "にじゅうよっか",
-    "explanation": "24日 sigue la excepción de よっか (como 4日 y 14日). Cuando el último dígito es 4, se mantiene la forma nativa.",
     "opts": [
-      {"text": "にじゅうよっか", "correct": true, "reason": "Correcta. Excepción del último-dígito-4."},
-      {"text": "にじゅうよんにち", "correct": false, "reason": "Forma 'regular' que NO se usa: 24日 mantiene la irregular よっか."},
-      {"text": "にじゅうしにち", "correct": false, "reason": "し + にち no es la lectura usada."},
-      {"text": "にじゅうよんか", "correct": false, "reason": "Falta el sokuon: la forma correcta es よっか, no よんか."}
+      {
+        "text": "にじゅうよっか",
+        "correct": true,
+        "explanation": "24日 sigue la excepción de よっか (como 4日 y 14日). Cuando el último dígito es 4, se mantiene la forma nativa. Correcta. Excepción del último-dígito-4."
+      },
+      {
+        "text": "にじゅうよんにち",
+        "correct": false,
+        "explanation": "Forma 'regular' que NO se usa: 24日 mantiene la irregular よっか."
+      },
+      {
+        "text": "にじゅうしにち",
+        "correct": false,
+        "explanation": "し + にち no es la lectura usada."
+      },
+      {
+        "text": "にじゅうよんか",
+        "correct": false,
+        "explanation": "Falta el sokuon: la forma correcta es よっか, no よんか."
+      }
     ]
   },
   {
     "id": "U1B-039",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 15日?",
-    "correct": "じゅうごにち",
-    "explanation": "15日 sigue el patrón regular: じゅうご (15) + にち. No es excepción (las excepciones son 14, 20, 24).",
     "opts": [
-      {"text": "じゅうごにち", "correct": true, "reason": "Correcta. Patrón regular del 11 en adelante."},
-      {"text": "じゅうごか", "correct": false, "reason": "El contador か solo se usa con lectura nativa (1-10) o en excepciones (14, 20, 24)."},
-      {"text": "じゅうごひ", "correct": false, "reason": "ひ (lectura nativa de 日) no se usa como sufijo de fecha."},
-      {"text": "じゅうごび", "correct": false, "reason": "び (rendaku de ひ) tampoco es contador de fechas."}
+      {
+        "text": "じゅうごにち",
+        "correct": true,
+        "explanation": "15日 sigue el patrón regular: じゅうご (15) + にち. No es excepción (las excepciones son 14, 20, 24). Correcta. Patrón regular del 11 en adelante."
+      },
+      {
+        "text": "じゅうごか",
+        "correct": false,
+        "explanation": "El contador か solo se usa con lectura nativa (1-10) o en excepciones (14, 20, 24)."
+      },
+      {
+        "text": "じゅうごひ",
+        "correct": false,
+        "explanation": "ひ (lectura nativa de 日) no se usa como sufijo de fecha."
+      },
+      {
+        "text": "じゅうごび",
+        "correct": false,
+        "explanation": "び (rendaku de ひ) tampoco es contador de fechas."
+      }
     ]
   },
   {
     "id": "U1B-040",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 30日?",
-    "correct": "さんじゅうにち",
-    "explanation": "30日: さんじゅう (30) + にち. Patrón regular sin excepción.",
     "opts": [
-      {"text": "さんじゅうにち", "correct": true, "reason": "Correcta. Patrón regular."},
-      {"text": "さんじゅうか", "correct": false, "reason": "El contador か no se usa con 30."},
-      {"text": "さんじゅっか", "correct": false, "reason": "Lectura inventada. El 30 no toma sokuon ante にち."},
-      {"text": "みじゅうにち", "correct": false, "reason": "み (nativa de 3) no se usa en compuestos numéricos. Es さん."}
+      {
+        "text": "さんじゅうにち",
+        "correct": true,
+        "explanation": "30日: さんじゅう (30) + にち. Patrón regular sin excepción. Correcta. Patrón regular."
+      },
+      {
+        "text": "さんじゅうか",
+        "correct": false,
+        "explanation": "El contador か no se usa con 30."
+      },
+      {
+        "text": "さんじゅっか",
+        "correct": false,
+        "explanation": "Lectura inventada. El 30 no toma sokuon ante にち."
+      },
+      {
+        "text": "みじゅうにち",
+        "correct": false,
+        "explanation": "み (nativa de 3) no se usa en compuestos numéricos. Es さん."
+      }
     ]
   },
   {
     "id": "U1B-041",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se dice '16 de abril'?",
-    "correct": "4月16日 (しがつ じゅうろくにち)",
-    "explanation": "Orden japonés: MES (大) + DÍA (小). 4月 (しがつ, irregular) + 16日 (じゅうろくにち, regular).",
     "opts": [
-      {"text": "4月16日 (しがつ じゅうろくにち)", "correct": true, "reason": "Correcta. Lecturas correctas y orden mes→día."},
-      {"text": "4月16日 (しがつ じゅうろっか)", "correct": false, "reason": "Para 16日 NO se usa か, sino にち. Solo el día 6 (むいか) y similares usan か."},
-      {"text": "16月4日 (じゅうろくがつ よっか)", "correct": false, "reason": "Invierte el orden y los componentes. Además 16月 no existe (solo 12 meses)."},
-      {"text": "4月16日 (よんがつ じゅうろくにち)", "correct": false, "reason": "4月 NO se lee よんがつ; es irregular: しがつ."}
+      {
+        "text": "4月16日 (しがつ じゅうろくにち)",
+        "correct": true,
+        "explanation": "Orden japonés: MES (大) + DÍA (小). 4月 (しがつ, irregular) + 16日 (じゅうろくにち, regular). Correcta. Lecturas correctas y orden mes→día."
+      },
+      {
+        "text": "4月16日 (しがつ じゅうろっか)",
+        "correct": false,
+        "explanation": "Para 16日 NO se usa か, sino にち. Solo el día 6 (むいか) y similares usan か."
+      },
+      {
+        "text": "16月4日 (じゅうろくがつ よっか)",
+        "correct": false,
+        "explanation": "Invierte el orden y los componentes. Además 16月 no existe (solo 12 meses)."
+      },
+      {
+        "text": "4月16日 (よんがつ じゅうろくにち)",
+        "correct": false,
+        "explanation": "4月 NO se lee よんがつ; es irregular: しがつ."
+      }
     ]
   },
   {
     "id": "U1B-042",
     "cat": "Números y Tiempo",
     "q": "En japonés, ¿cuál es el orden de una fecha?",
-    "correct": "Mes + Día (4月16日)",
-    "explanation": "Japonés sigue el orden de mayor a menor: AÑO → MES → DÍA. Para fechas cortas: MES + DÍA. Es el orden inverso al español 'día/mes'.",
     "opts": [
-      {"text": "Mes + Día (4月16日)", "correct": true, "reason": "Correcta. Orden japonés de grande a chico."},
-      {"text": "Día + Mes (16日4月)", "correct": false, "reason": "Es el orden ESPAÑOL ('16 de abril'), invertido al japonés."},
-      {"text": "Día + Mes + Año", "correct": false, "reason": "Es el orden europeo, no japonés."},
-      {"text": "Año + Día + Mes", "correct": false, "reason": "Orden inventado, no usado en ninguna convención."}
+      {
+        "text": "Mes + Día (4月16日)",
+        "correct": true,
+        "explanation": "Japonés sigue el orden de mayor a menor: AÑO → MES → DÍA. Para fechas cortas: MES + DÍA. Es el orden inverso al español 'día/mes'. Correcta. Orden japonés de grande a chico."
+      },
+      {
+        "text": "Día + Mes (16日4月)",
+        "correct": false,
+        "explanation": "Es el orden ESPAÑOL ('16 de abril'), invertido al japonés."
+      },
+      {
+        "text": "Día + Mes + Año",
+        "correct": false,
+        "explanation": "Es el orden europeo, no japonés."
+      },
+      {
+        "text": "Año + Día + Mes",
+        "correct": false,
+        "explanation": "Orden inventado, no usado en ninguna convención."
+      }
     ]
   },
   {
     "id": "U1B-043",
     "cat": "Diálogo",
     "q": "A: お誕生日は いつですか。 B: ___. (Respuesta: 28 de mayo)",
-    "correct": "5月28日です。",
-    "explanation": "Respuesta directa con la fecha + です. No se necesita partícula entre fecha y です.",
     "opts": [
-      {"text": "5月28日です。", "correct": true, "reason": "Correcta. Fecha + です, estructura simple."},
-      {"text": "5月28日に です。", "correct": false, "reason": "に no se usa antes de です; に marca tiempo cuando hay verbo de acción ('hacer ALGO el día X')."},
-      {"text": "28日5月です。", "correct": false, "reason": "Orden invertido. En japonés va MES + DÍA, no día+mes."},
-      {"text": "5月28にち です。", "correct": false, "reason": "Mezcla escritura: si se escribe 28日, debe quedar el kanji. La separación 28 + にち rompe la convención."}
+      {
+        "text": "5月28日です。",
+        "correct": true,
+        "explanation": "Respuesta directa con la fecha + です. No se necesita partícula entre fecha y です. Correcta. Fecha + です, estructura simple."
+      },
+      {
+        "text": "5月28日に です。",
+        "correct": false,
+        "explanation": "に no se usa antes de です; に marca tiempo cuando hay verbo de acción ('hacer ALGO el día X')."
+      },
+      {
+        "text": "28日5月です。",
+        "correct": false,
+        "explanation": "Orden invertido. En japonés va MES + DÍA, no día+mes."
+      },
+      {
+        "text": "5月28にち です。",
+        "correct": false,
+        "explanation": "Mezcla escritura: si se escribe 28日, debe quedar el kanji. La separación 28 + にち rompe la convención."
+      }
     ]
   },
   {
     "id": "U1B-044",
     "cat": "Diálogo",
     "q": "A: お誕生日は いつですか。 B: ___. (Respuesta: 14 de julio)",
-    "correct": "7月14日 (しちがつ じゅうよっか) です。",
-    "explanation": "7月 = しちがつ (irregular) y 14日 = じゅうよっか (excepción del último-dígito-4).",
     "opts": [
-      {"text": "7月14日 (しちがつ じゅうよっか) です。", "correct": true, "reason": "Correcta. Ambas lecturas irregulares correctas."},
-      {"text": "7月14日 (しちがつ じゅうよんにち) です。", "correct": false, "reason": "14日 NO es じゅうよんにち; es la excepción じゅうよっか."},
-      {"text": "7月14日 (ななつがつ じゅうよっか) です。", "correct": false, "reason": "ななつ es lectura nativa de 7 con contador つ, no se usa para meses. Es しちがつ."},
-      {"text": "7月14日 (ひちがつ じゅうよんか) です。", "correct": false, "reason": "ひち es dialectal/incorrecto y よんか falta el sokuon."}
+      {
+        "text": "7月14日 (しちがつ じゅうよっか) です。",
+        "correct": true,
+        "explanation": "7月 = しちがつ (irregular) y 14日 = じゅうよっか (excepción del último-dígito-4). Correcta. Ambas lecturas irregulares correctas."
+      },
+      {
+        "text": "7月14日 (しちがつ じゅうよんにち) です。",
+        "correct": false,
+        "explanation": "14日 NO es じゅうよんにち; es la excepción じゅうよっか."
+      },
+      {
+        "text": "7月14日 (ななつがつ じゅうよっか) です。",
+        "correct": false,
+        "explanation": "ななつ es lectura nativa de 7 con contador つ, no se usa para meses. Es しちがつ."
+      },
+      {
+        "text": "7月14日 (ひちがつ じゅうよんか) です。",
+        "correct": false,
+        "explanation": "ひち es dialectal/incorrecto y よんか falta el sokuon."
+      }
     ]
   },
   {
     "id": "U1B-045",
     "cat": "Diálogo",
     "q": "A: お誕生日は いつですか。 B: ___. (Respuesta: 20 de abril)",
-    "correct": "4月20日 (しがつ はつか) です。",
-    "explanation": "4月 = しがつ (irregular). 20日 = はつか (totalmente irregular). Atención: NO confundir con はたち que es 20 años de edad.",
     "opts": [
-      {"text": "4月20日 (しがつ はつか) です。", "correct": true, "reason": "Correcta. Ambas lecturas irregulares correctas."},
-      {"text": "4月20日 (しがつ にじゅうにち) です。", "correct": false, "reason": "20日 mantiene la lectura irregular はつか, no la regular にじゅうにち."},
-      {"text": "4月20日 (よんがつ はつか) です。", "correct": false, "reason": "4月 NO se lee よんがつ; es irregular: しがつ."},
-      {"text": "4月20日 (しがつ はたち) です。", "correct": false, "reason": "¡Error típico! はたち es '20 AÑOS de edad', no 'día 20'. Para fecha es はつか."}
+      {
+        "text": "4月20日 (しがつ はつか) です。",
+        "correct": true,
+        "explanation": "4月 = しがつ (irregular). 20日 = はつか (totalmente irregular). Atención: NO confundir con はたち que es 20 años de edad. Correcta. Ambas lecturas irregulares correctas."
+      },
+      {
+        "text": "4月20日 (しがつ にじゅうにち) です。",
+        "correct": false,
+        "explanation": "20日 mantiene la lectura irregular はつか, no la regular にじゅうにち."
+      },
+      {
+        "text": "4月20日 (よんがつ はつか) です。",
+        "correct": false,
+        "explanation": "4月 NO se lee よんがつ; es irregular: しがつ."
+      },
+      {
+        "text": "4月20日 (しがつ はたち) です。",
+        "correct": false,
+        "explanation": "¡Error típico! はたち es '20 AÑOS de edad', no 'día 20'. Para fecha es はつか."
+      }
     ]
   },
   {
     "id": "U1B-046",
     "cat": "Diálogo",
     "q": "A: お誕生日は いつですか。 B: ___. (Respuesta: 10 de septiembre)",
-    "correct": "9月10日 (くがつ とおか) です。",
-    "explanation": "9月 = くがつ (irregular). 10日 = とおか (irregular del 1-10).",
     "opts": [
-      {"text": "9月10日 (くがつ とおか) です。", "correct": true, "reason": "Correcta. Ambas lecturas irregulares correctas."},
-      {"text": "9月10日 (くがつ じゅうにち) です。", "correct": false, "reason": "10日 NO se lee じゅうにち; mantiene la irregular とおか."},
-      {"text": "9月10日 (きゅうがつ とおか) です。", "correct": false, "reason": "9月 NO se lee きゅうがつ; es irregular: くがつ."},
-      {"text": "9月10日 (くがつ じゅっか) です。", "correct": false, "reason": "じゅっか no es lectura válida de 10日."}
+      {
+        "text": "9月10日 (くがつ とおか) です。",
+        "correct": true,
+        "explanation": "9月 = くがつ (irregular). 10日 = とおか (irregular del 1-10). Correcta. Ambas lecturas irregulares correctas."
+      },
+      {
+        "text": "9月10日 (くがつ じゅうにち) です。",
+        "correct": false,
+        "explanation": "10日 NO se lee じゅうにち; mantiene la irregular とおか."
+      },
+      {
+        "text": "9月10日 (きゅうがつ とおか) です。",
+        "correct": false,
+        "explanation": "9月 NO se lee きゅうがつ; es irregular: くがつ."
+      },
+      {
+        "text": "9月10日 (くがつ じゅっか) です。",
+        "correct": false,
+        "explanation": "じゅっか no es lectura válida de 10日."
+      }
     ]
   },
   {
     "id": "U1B-047",
     "cat": "Partículas",
     "q": "私の 誕生日___ 4月16日です。",
-    "correct": "は",
-    "explanation": "は marca el TEMA: 'mi cumpleaños (es el tema), es el 16 de abril'. Es la partícula estándar para fórmula AはBです.",
     "opts": [
-      {"text": "は", "correct": true, "reason": "Correcta. Marca el tema en estructura A は B です."},
-      {"text": "が", "correct": false, "reason": "が daría énfasis ('MI cumpleaños [no otro] es el 16'). En oración neutra se usa は."},
-      {"text": "を", "correct": false, "reason": "を marca objeto directo de un verbo, incompatible con です."},
-      {"text": "に", "correct": false, "reason": "に sería 'en/al', y se usa con verbo de acción y tiempo, no antes de です de identificación."}
+      {
+        "text": "は",
+        "correct": true,
+        "explanation": "は marca el TEMA: 'mi cumpleaños (es el tema), es el 16 de abril'. Es la partícula estándar para fórmula AはBです. Correcta. Marca el tema en estructura A は B です."
+      },
+      {
+        "text": "が",
+        "correct": false,
+        "explanation": "が daría énfasis ('MI cumpleaños [no otro] es el 16'). En oración neutra se usa は."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "explanation": "を marca objeto directo de un verbo, incompatible con です."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "explanation": "に sería 'en/al', y se usa con verbo de acción y tiempo, no antes de です de identificación."
+      }
     ]
   },
   {
     "id": "U1B-048",
     "cat": "Diálogo",
     "q": "A: お誕生日は いつですか。 B: 4月16日です。 A: ___。 (reacción cortés)",
-    "correct": "そうですか。",
-    "explanation": "そうですか expresa 'ah, ya veo' como reacción al recibir información. Es la respuesta natural y educada en presentaciones.",
     "opts": [
-      {"text": "そうですか。", "correct": true, "reason": "Correcta. Marcador de recepción cortés de información."},
-      {"text": "ちがいます。", "correct": false, "reason": "ちがいます = 'no es así' (negación). No corresponde reaccionar negando algo que el otro dijo de sí mismo."},
-      {"text": "はい、そうです。", "correct": false, "reason": "そうです afirma información propia. El que reacciona no afirma nada propio aquí."},
-      {"text": "いいえ。", "correct": false, "reason": "いいえ = 'no'. Sin sentido como reacción al cumpleaños del otro."}
+      {
+        "text": "そうですか。",
+        "correct": true,
+        "explanation": "そうですか expresa 'ah, ya veo' como reacción al recibir información. Es la respuesta natural y educada en presentaciones. Correcta. Marcador de recepción cortés de información."
+      },
+      {
+        "text": "ちがいます。",
+        "correct": false,
+        "explanation": "ちがいます = 'no es así' (negación). No corresponde reaccionar negando algo que el otro dijo de sí mismo."
+      },
+      {
+        "text": "はい、そうです。",
+        "correct": false,
+        "explanation": "そうです afirma información propia. El que reacciona no afirma nada propio aquí."
+      },
+      {
+        "text": "いいえ。",
+        "correct": false,
+        "explanation": "いいえ = 'no'. Sin sentido como reacción al cumpleaños del otro."
+      }
     ]
   },
   {
     "id": "U1B-049",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se dice 'Mi cumpleaños es el 16 de abril'?",
-    "correct": "私の 誕生日は 4月16日です。",
-    "explanation": "Estructura: 私の (mi) + 誕生日 (cumpleaños) + は (tema) + 4月16日 (16 abril) + です. La partícula の indica 'mi'.",
     "opts": [
-      {"text": "私の 誕生日は 4月16日です。", "correct": true, "reason": "Correcta. Estructura completa y natural."},
-      {"text": "私は 誕生日 4月16日です。", "correct": false, "reason": "Le falta una partícula entre 誕生日 y la fecha. Sin の no queda claro 'mi cumpleaños'."},
-      {"text": "私が 誕生日は 4月16日です。", "correct": false, "reason": "Doble marcación de tema (が + は) es incorrecta; suena forzado. Lo correcto es 私の."},
-      {"text": "私を 誕生日は 4月16日です。", "correct": false, "reason": "を marca objeto directo de verbo, no posesión. Lo correcto es 私の."}
+      {
+        "text": "私の 誕生日は 4月16日です。",
+        "correct": true,
+        "explanation": "Estructura: 私の (mi) + 誕生日 (cumpleaños) + は (tema) + 4月16日 (16 abril) + です. La partícula の indica 'mi'. Correcta. Estructura completa y natural."
+      },
+      {
+        "text": "私は 誕生日 4月16日です。",
+        "correct": false,
+        "explanation": "Le falta una partícula entre 誕生日 y la fecha. Sin の no queda claro 'mi cumpleaños'."
+      },
+      {
+        "text": "私が 誕生日は 4月16日です。",
+        "correct": false,
+        "explanation": "Doble marcación de tema (が + は) es incorrecta; suena forzado. Lo correcto es 私の."
+      },
+      {
+        "text": "私を 誕生日は 4月16日です。",
+        "correct": false,
+        "explanation": "を marca objeto directo de verbo, no posesión. Lo correcto es 私の."
+      }
     ]
   },
   {
     "id": "U1B-050",
     "cat": "Diálogo",
     "q": "¿Qué pregunta uno sobre el cumpleaños de OTRA persona?",
-    "correct": "Bさんの お誕生日は いつですか。",
-    "explanation": "Estructura: [Persona]さんの (de [persona]) + お誕生日 (con honorífico al ser de otro) + は + いつ + ですか.",
     "opts": [
-      {"text": "Bさんの お誕生日は いつですか。", "correct": true, "reason": "Correcta. Posesión con の + honorífico お~ + tema は + interrogativo."},
-      {"text": "Bさんは お誕生日 いつですか。", "correct": false, "reason": "Falta partícula は después de 誕生日 para marcar el tema completo de la pregunta."},
-      {"text": "Bの お誕生日 いつですか。", "correct": false, "reason": "Sin さん (descortés) y sin は (gramática incompleta)."},
-      {"text": "お誕生日 Bさんは いつですか。", "correct": false, "reason": "Orden invertido: la posesión 'Bさんの' debe ir ANTES del sustantivo poseído (お誕生日)."}
+      {
+        "text": "Bさんの お誕生日は いつですか。",
+        "correct": true,
+        "explanation": "Estructura: [Persona]さんの (de [persona]) + お誕生日 (con honorífico al ser de otro) + は + いつ + ですか. Correcta. Posesión con の + honorífico お~ + tema は + interrogativo."
+      },
+      {
+        "text": "Bさんは お誕生日 いつですか。",
+        "correct": false,
+        "explanation": "Falta partícula は después de 誕生日 para marcar el tema completo de la pregunta."
+      },
+      {
+        "text": "Bの お誕生日 いつですか。",
+        "correct": false,
+        "explanation": "Sin さん (descortés) y sin は (gramática incompleta)."
+      },
+      {
+        "text": "お誕生日 Bさんは いつですか。",
+        "correct": false,
+        "explanation": "Orden invertido: la posesión 'Bさんの' debe ir ANTES del sustantivo poseído (お誕生日)."
+      }
     ]
   },
   {
     "id": "U1B-051",
     "cat": "Vocabulario",
     "q": "¿Qué significa el kanji 月 en ~月?",
-    "correct": "Mes (también luna)",
-    "explanation": "El kanji 月 tiene dos significados base: 'luna' (sentido original) y 'mes'. La asociación viene del calendario lunar tradicional.",
     "opts": [
-      {"text": "Mes (también luna)", "correct": true, "reason": "Correcta. Cubre ambos sentidos del kanji."},
-      {"text": "Solo luna", "correct": false, "reason": "También significa 'mes', uso muy frecuente: 1月, 今月, etc."},
-      {"text": "Solo mes", "correct": false, "reason": "El significado original es 'luna' (お月さま 'la luna')."},
-      {"text": "Año", "correct": false, "reason": "'Año' es 年 (ねん/とし), kanji distinto."}
+      {
+        "text": "Mes (también luna)",
+        "correct": true,
+        "explanation": "El kanji 月 tiene dos significados base: 'luna' (sentido original) y 'mes'. La asociación viene del calendario lunar tradicional. Correcta. Cubre ambos sentidos del kanji."
+      },
+      {
+        "text": "Solo luna",
+        "correct": false,
+        "explanation": "También significa 'mes', uso muy frecuente: 1月, 今月, etc."
+      },
+      {
+        "text": "Solo mes",
+        "correct": false,
+        "explanation": "El significado original es 'luna' (お月さま 'la luna')."
+      },
+      {
+        "text": "Año",
+        "correct": false,
+        "explanation": "'Año' es 年 (ねん/とし), kanji distinto."
+      }
     ]
   },
   {
     "id": "U1B-052",
     "cat": "Vocabulario",
     "q": "¿Qué significa el kanji 日 en ~日?",
-    "correct": "Día (también sol)",
-    "explanation": "El kanji 日 tiene dos significados base: 'sol' (sentido original, pictográfico) y 'día'. La asociación es natural (un día = un ciclo solar).",
     "opts": [
-      {"text": "Día (también sol)", "correct": true, "reason": "Correcta. Cubre ambos sentidos del kanji."},
-      {"text": "Solo día", "correct": false, "reason": "El significado original es 'sol' (太陽 たいよう, también 日 solo)."},
-      {"text": "Solo sol", "correct": false, "reason": "También significa 'día', uso muy frecuente: 今日, 毎日, 1日."},
-      {"text": "Fecha", "correct": false, "reason": "'Fecha' como concepto es 日付 (ひづけ); 日 solo es 'día'."}
+      {
+        "text": "Día (también sol)",
+        "correct": true,
+        "explanation": "El kanji 日 tiene dos significados base: 'sol' (sentido original, pictográfico) y 'día'. La asociación es natural (un día = un ciclo solar). Correcta. Cubre ambos sentidos del kanji."
+      },
+      {
+        "text": "Solo día",
+        "correct": false,
+        "explanation": "El significado original es 'sol' (太陽 たいよう, también 日 solo)."
+      },
+      {
+        "text": "Solo sol",
+        "correct": false,
+        "explanation": "También significa 'día', uso muy frecuente: 今日, 毎日, 1日."
+      },
+      {
+        "text": "Fecha",
+        "correct": false,
+        "explanation": "'Fecha' como concepto es 日付 (ひづけ); 日 solo es 'día'."
+      }
     ]
   },
   {
     "id": "U1B-053",
     "cat": "Distinción",
     "q": "Si tenés 20 años, ¿qué es más natural decir?",
-    "correct": "はたちです。",
-    "explanation": "はたち es la lectura tradicional y culturalmente preferida para 20 años. Marca el momento de mayoría de edad y se siente más natural que la forma compuesta.",
     "opts": [
-      {"text": "はたちです。", "correct": true, "reason": "Correcta. Lectura tradicional y natural."},
-      {"text": "にじゅっさいです。", "correct": false, "reason": "Es entendible pero menos natural para 20 exactos. Se usa más para edades 21+ (にじゅういっさい...)."},
-      {"text": "にじゅうさいです。", "correct": false, "reason": "Variante sin sokuon, también entendible pero menos natural que はたち para 20 años."},
-      {"text": "にじゅう才です。", "correct": false, "reason": "Mezcla número arábigo + kanji. Y no usa la forma tradicional はたち."}
+      {
+        "text": "はたちです。",
+        "correct": true,
+        "explanation": "はたち es la lectura tradicional y culturalmente preferida para 20 años. Marca el momento de mayoría de edad y se siente más natural que la forma compuesta. Correcta. Lectura tradicional y natural."
+      },
+      {
+        "text": "にじゅっさいです。",
+        "correct": false,
+        "explanation": "Es entendible pero menos natural para 20 exactos. Se usa más para edades 21+ (にじゅういっさい...)."
+      },
+      {
+        "text": "にじゅうさいです。",
+        "correct": false,
+        "explanation": "Variante sin sokuon, también entendible pero menos natural que はたち para 20 años."
+      },
+      {
+        "text": "にじゅう才です。",
+        "correct": false,
+        "explanation": "Mezcla número arábigo + kanji. Y no usa la forma tradicional はたち."
+      }
     ]
   },
   {
     "id": "U1B-054",
     "cat": "Distinción",
     "q": "¿Cómo se dice '21 años'?",
-    "correct": "にじゅういっさい",
-    "explanation": "Para 21 ya no se usa はたち (que es solo 20). Se forma con にじゅう + いっさい (con sokuon como en 1歳).",
     "opts": [
-      {"text": "にじゅういっさい", "correct": true, "reason": "Correcta. Sokuon en いち+さい → いっさい."},
-      {"text": "にじゅういちさい", "correct": false, "reason": "Falta el sokuon obligatorio: いち + さい → いっさい."},
-      {"text": "にじゅうひとさい", "correct": false, "reason": "ひと es lectura nativa, no se usa con 歳 (que toma いち)."},
-      {"text": "はたちいち", "correct": false, "reason": "はたち es solo 20 exactos, no se compone con +1. Para 21 se usa にじゅういっさい."}
+      {
+        "text": "にじゅういっさい",
+        "correct": true,
+        "explanation": "Para 21 ya no se usa はたち (que es solo 20). Se forma con にじゅう + いっさい (con sokuon como en 1歳). Correcta. Sokuon en いち+さい → いっさい."
+      },
+      {
+        "text": "にじゅういちさい",
+        "correct": false,
+        "explanation": "Falta el sokuon obligatorio: いち + さい → いっさい."
+      },
+      {
+        "text": "にじゅうひとさい",
+        "correct": false,
+        "explanation": "ひと es lectura nativa, no se usa con 歳 (que toma いち)."
+      },
+      {
+        "text": "はたちいち",
+        "correct": false,
+        "explanation": "はたち es solo 20 exactos, no se compone con +1. Para 21 se usa にじゅういっさい."
+      }
     ]
   },
   {
     "id": "U1B-055",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 歳?",
-    "correct": "Años (de edad) / contador de años cumplidos",
-    "explanation": "歳 es específicamente el contador de años de edad cumplidos. Se diferencia de 年 (período/duración) y 才 (su simplificación informal).",
     "opts": [
-      {"text": "Años (de edad) / contador de años cumplidos", "correct": true, "reason": "Correcta. Función específica del contador."},
-      {"text": "Tiempo", "correct": false, "reason": "'Tiempo' general es 時間 (じかん) o 時 (とき). 歳 es específico de edad."},
-      {"text": "Vida", "correct": false, "reason": "'Vida' es 生 (せい) o 命 (いのち). 歳 cuenta años, no vida."},
-      {"text": "Mes", "correct": false, "reason": "'Mes' es 月 (げつ/がつ). Kanji y significado distintos."}
+      {
+        "text": "Años (de edad) / contador de años cumplidos",
+        "correct": true,
+        "explanation": "歳 es específicamente el contador de años de edad cumplidos. Se diferencia de 年 (período/duración) y 才 (su simplificación informal). Correcta. Función específica del contador."
+      },
+      {
+        "text": "Tiempo",
+        "correct": false,
+        "explanation": "'Tiempo' general es 時間 (じかん) o 時 (とき). 歳 es específico de edad."
+      },
+      {
+        "text": "Vida",
+        "correct": false,
+        "explanation": "'Vida' es 生 (せい) o 命 (いのち). 歳 cuenta años, no vida."
+      },
+      {
+        "text": "Mes",
+        "correct": false,
+        "explanation": "'Mes' es 月 (げつ/がつ). Kanji y significado distintos."
+      }
     ]
   },
   {
     "id": "U1B-056",
     "cat": "Gramática",
     "q": "En una presentación típica, ¿cuál es el orden común de las preguntas sobre datos?",
-    "correct": "Nombre → País → Trabajo → Edad → Cumpleaños",
-    "explanation": "El orden tradicional va de lo más esencial/público (nombre, país) a lo más personal (edad, cumpleaños). La edad se pregunta más adelante por ser sensible.",
     "opts": [
-      {"text": "Nombre → País → Trabajo → Edad → Cumpleaños", "correct": true, "reason": "Correcta. Orden de menos a más privado."},
-      {"text": "Edad → Nombre → Cumpleaños → País", "correct": false, "reason": "Empezar por edad sería invasivo en cultura japonesa."},
-      {"text": "Trabajo → Edad → Nombre → País", "correct": false, "reason": "El nombre siempre se pregunta primero, no después."},
-      {"text": "Cumpleaños → Edad → País → Nombre", "correct": false, "reason": "Orden invertido. El nombre va primero, no último."}
+      {
+        "text": "Nombre → País → Trabajo → Edad → Cumpleaños",
+        "correct": true,
+        "explanation": "El orden tradicional va de lo más esencial/público (nombre, país) a lo más personal (edad, cumpleaños). La edad se pregunta más adelante por ser sensible. Correcta. Orden de menos a más privado."
+      },
+      {
+        "text": "Edad → Nombre → Cumpleaños → País",
+        "correct": false,
+        "explanation": "Empezar por edad sería invasivo en cultura japonesa."
+      },
+      {
+        "text": "Trabajo → Edad → Nombre → País",
+        "correct": false,
+        "explanation": "El nombre siempre se pregunta primero, no después."
+      },
+      {
+        "text": "Cumpleaños → Edad → País → Nombre",
+        "correct": false,
+        "explanation": "Orden invertido. El nombre va primero, no último."
+      }
     ]
   },
   {
     "id": "U1B-057",
     "cat": "Traducción ES→JP",
     "q": "'Tengo 34 años' se dice:",
-    "correct": "34歳です。",
-    "explanation": "En japonés la edad NO se 'tiene' (no se usa あります ni もっています). Se dice [edad]+です = '(yo) soy/estoy en [X] años'.",
     "opts": [
-      {"text": "34歳です。", "correct": true, "reason": "Correcta. Estructura japonesa estándar."},
-      {"text": "34歳が あります。", "correct": false, "reason": "あります significa 'haber' (existencia), no 'tener edad'. Calco directo del español incorrecto."},
-      {"text": "34歳で います。", "correct": false, "reason": "います es 'estar' para seres animados, no se usa con edad. Y で no aplica aquí."},
-      {"text": "34歳に なります。", "correct": false, "reason": "なります = 'me convierto en/cumplo'. Significaría 'voy a cumplir 34', no 'tengo 34'."}
+      {
+        "text": "34歳です。",
+        "correct": true,
+        "explanation": "En japonés la edad NO se 'tiene' (no se usa あります ni もっています). Se dice [edad]+です = '(yo) soy/estoy en [X] años'. Correcta. Estructura japonesa estándar."
+      },
+      {
+        "text": "34歳が あります。",
+        "correct": false,
+        "explanation": "あります significa 'haber' (existencia), no 'tener edad'. Calco directo del español incorrecto."
+      },
+      {
+        "text": "34歳で います。",
+        "correct": false,
+        "explanation": "います es 'estar' para seres animados, no se usa con edad. Y で no aplica aquí."
+      },
+      {
+        "text": "34歳に なります。",
+        "correct": false,
+        "explanation": "なります = 'me convierto en/cumplo'. Significaría 'voy a cumplir 34', no 'tengo 34'."
+      }
     ]
   },
   {
     "id": "U1B-058",
     "cat": "Traducción ES→JP",
     "q": "'Mi cumpleaños es el 14 de julio' se dice:",
-    "correct": "私の 誕生日は 7月14日です。",
-    "explanation": "私の (mi) + 誕生日 (cumpleaños) + は (tema) + 7月14日 (14 julio) + です. Patrón AはBです con posesión vía の.",
     "opts": [
-      {"text": "私の 誕生日は 7月14日です。", "correct": true, "reason": "Correcta. Estructura completa y natural."},
-      {"text": "私の 誕生日を 7月14日です。", "correct": false, "reason": "を marca objeto directo de verbo. No funciona con です de identificación."},
-      {"text": "私は 誕生日 7月14日に です。", "correct": false, "reason": "に antes de です no es válido en este patrón. Y falta の/は en lugar correcto."},
-      {"text": "7月14日は 私の 誕生日に あります。", "correct": false, "reason": "Calco español de 'tener'. La fecha no 'tiene' al cumpleaños; el cumpleaños ES la fecha."}
+      {
+        "text": "私の 誕生日は 7月14日です。",
+        "correct": true,
+        "explanation": "私の (mi) + 誕生日 (cumpleaños) + は (tema) + 7月14日 (14 julio) + です. Patrón AはBです con posesión vía の. Correcta. Estructura completa y natural."
+      },
+      {
+        "text": "私の 誕生日を 7月14日です。",
+        "correct": false,
+        "explanation": "を marca objeto directo de verbo. No funciona con です de identificación."
+      },
+      {
+        "text": "私は 誕生日 7月14日に です。",
+        "correct": false,
+        "explanation": "に antes de です no es válido en este patrón. Y falta の/は en lugar correcto."
+      },
+      {
+        "text": "7月14日は 私の 誕生日に あります。",
+        "correct": false,
+        "explanation": "Calco español de 'tener'. La fecha no 'tiene' al cumpleaños; el cumpleaños ES la fecha."
+      }
     ]
   },
   {
     "id": "U1B-059",
     "cat": "Diálogo",
     "q": "A: Bさんの お誕生日は いつですか。 B: 10月4日です。 A: ___. ¿Cuál es la reacción natural?",
-    "correct": "そうですか。",
-    "explanation": "Después de recibir información personal del otro, la reacción cortés es そうですか ('ah, ya veo').",
     "opts": [
-      {"text": "そうですか。", "correct": true, "reason": "Correcta. Reacción cortés a información recibida."},
-      {"text": "いいえ、ちがいます。", "correct": false, "reason": "ちがいます niega; sin sentido contradecir al otro sobre su propio cumpleaños."},
-      {"text": "はい、そうです。", "correct": false, "reason": "そうです afirma información propia o algo dicho. Aquí el otro dijo el dato, no se afirma nada propio."},
-      {"text": "おねがいします。", "correct": false, "reason": "おねがいします = 'por favor (pido)'. Sin sentido como reacción a una fecha."}
+      {
+        "text": "そうですか。",
+        "correct": true,
+        "explanation": "Después de recibir información personal del otro, la reacción cortés es そうですか ('ah, ya veo'). Correcta. Reacción cortés a información recibida."
+      },
+      {
+        "text": "いいえ、ちがいます。",
+        "correct": false,
+        "explanation": "ちがいます niega; sin sentido contradecir al otro sobre su propio cumpleaños."
+      },
+      {
+        "text": "はい、そうです。",
+        "correct": false,
+        "explanation": "そうです afirma información propia o algo dicho. Aquí el otro dijo el dato, no se afirma nada propio."
+      },
+      {
+        "text": "おねがいします。",
+        "correct": false,
+        "explanation": "おねがいします = 'por favor (pido)'. Sin sentido como reacción a una fecha."
+      }
     ]
   },
   {
     "id": "U1B-060",
     "cat": "Gramática",
     "q": "¿Cuál de estos NO es correcto para decir tu edad?",
-    "correct": "私の 歳は 30です。",
-    "explanation": "Aunque gramaticalmente parece formado, en japonés natural NO se dice '私の歳は X です' para edad. Lo natural es '(私は) Xさいです'.",
     "opts": [
-      {"text": "私の 歳は 30です。", "correct": true, "reason": "Correcta como respuesta (es la frase MAL formada): construcción no usada en japonés natural."},
-      {"text": "30歳です。", "correct": false, "reason": "Esta SÍ es correcta y muy natural ('soy 30 años')."},
-      {"text": "私は 30歳です。", "correct": false, "reason": "Esta SÍ es correcta y completa ('yo soy 30 años')."},
-      {"text": "さんじゅっさいです。", "correct": false, "reason": "Esta SÍ es correcta y natural en lectura kana."}
+      {
+        "text": "私の 歳は 30です。",
+        "correct": true,
+        "explanation": "Aunque gramaticalmente parece formado, en japonés natural NO se dice '私の歳は X です' para edad. Lo natural es '(私は) Xさいです'. Correcta como respuesta (es la frase MAL formada): construcción no usada en japonés natural."
+      },
+      {
+        "text": "30歳です。",
+        "correct": false,
+        "explanation": "Esta SÍ es correcta y muy natural ('soy 30 años')."
+      },
+      {
+        "text": "私は 30歳です。",
+        "correct": false,
+        "explanation": "Esta SÍ es correcta y completa ('yo soy 30 años')."
+      },
+      {
+        "text": "さんじゅっさいです。",
+        "correct": false,
+        "explanation": "Esta SÍ es correcta y natural en lectura kana."
+      }
     ]
   },
   {
     "id": "U1B-061",
     "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre じゅっさい y じゅうさい?",
-    "correct": "じゅっさい es la pronunciación correcta/natural (10歳)",
-    "explanation": "En japonés moderno hablado, 10歳 se pronuncia con sokuon: じゅっさい. La forma じゅうさい (sin sokuon) es menos natural aunque comprensible.",
     "opts": [
-      {"text": "じゅっさい es la pronunciación correcta/natural (10歳)", "correct": true, "reason": "Correcta. Es la pronunciación natural del japonés moderno."},
-      {"text": "じゅうさい es la correcta", "correct": false, "reason": "Invertido. La forma natural es con sokuon: じゅっさい."},
-      {"text": "Son totalmente intercambiables", "correct": false, "reason": "Aunque ambas se entienden, じゅっさい es claramente la forma estándar."},
-      {"text": "じゅっさい es antigua", "correct": false, "reason": "じっさい (con i) sería arcaica; じゅっさい (con yu) es la forma moderna."}
+      {
+        "text": "じゅっさい es la pronunciación correcta/natural (10歳)",
+        "correct": true,
+        "explanation": "En japonés moderno hablado, 10歳 se pronuncia con sokuon: じゅっさい. La forma じゅうさい (sin sokuon) es menos natural aunque comprensible. Correcta. Es la pronunciación natural del japonés moderno."
+      },
+      {
+        "text": "じゅうさい es la correcta",
+        "correct": false,
+        "explanation": "Invertido. La forma natural es con sokuon: じゅっさい."
+      },
+      {
+        "text": "Son totalmente intercambiables",
+        "correct": false,
+        "explanation": "Aunque ambas se entienden, じゅっさい es claramente la forma estándar."
+      },
+      {
+        "text": "じゅっさい es antigua",
+        "correct": false,
+        "explanation": "じっさい (con i) sería arcaica; じゅっさい (con yu) es la forma moderna."
+      }
     ]
   },
   {
     "id": "U1B-062",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 2月?",
-    "correct": "にがつ",
-    "explanation": "2月: に (2) + がつ. Patrón regular sin alteración fonética.",
     "opts": [
-      {"text": "にがつ", "correct": true, "reason": "Correcta. Patrón regular."},
-      {"text": "ふたつき", "correct": false, "reason": "ふたつき significa '2 meses (de duración)', no 'febrero'. Para mes calendario se usa がつ."},
-      {"text": "にっがつ", "correct": false, "reason": "Sokuon (っ) no aplica delante de が. Pronunciación inventada."},
-      {"text": "にげつ", "correct": false, "reason": "げつ no se usa para meses del calendario; se usa がつ."}
+      {
+        "text": "にがつ",
+        "correct": true,
+        "explanation": "2月: に (2) + がつ. Patrón regular sin alteración fonética. Correcta. Patrón regular."
+      },
+      {
+        "text": "ふたつき",
+        "correct": false,
+        "explanation": "ふたつき significa '2 meses (de duración)', no 'febrero'. Para mes calendario se usa がつ."
+      },
+      {
+        "text": "にっがつ",
+        "correct": false,
+        "explanation": "Sokuon (っ) no aplica delante de が. Pronunciación inventada."
+      },
+      {
+        "text": "にげつ",
+        "correct": false,
+        "explanation": "げつ no se usa para meses del calendario; se usa がつ."
+      }
     ]
   },
   {
     "id": "U1B-063",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 5月?",
-    "correct": "ごがつ",
-    "explanation": "5月: ご (5) + がつ. Patrón regular.",
     "opts": [
-      {"text": "ごがつ", "correct": true, "reason": "Correcta. Patrón regular."},
-      {"text": "いつがつ", "correct": false, "reason": "いつ es lectura nativa de 5 (いつつ), no se usa para meses (se usa la on'yomi ご)."},
-      {"text": "ごっがつ", "correct": false, "reason": "Sokuon no aplica delante de が. Pronunciación inventada."},
-      {"text": "ごげつ", "correct": false, "reason": "げつ no se usa para meses del calendario."}
+      {
+        "text": "ごがつ",
+        "correct": true,
+        "explanation": "5月: ご (5) + がつ. Patrón regular. Correcta. Patrón regular."
+      },
+      {
+        "text": "いつがつ",
+        "correct": false,
+        "explanation": "いつ es lectura nativa de 5 (いつつ), no se usa para meses (se usa la on'yomi ご)."
+      },
+      {
+        "text": "ごっがつ",
+        "correct": false,
+        "explanation": "Sokuon no aplica delante de が. Pronunciación inventada."
+      },
+      {
+        "text": "ごげつ",
+        "correct": false,
+        "explanation": "げつ no se usa para meses del calendario."
+      }
     ]
   },
   {
     "id": "U1B-064",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 6月?",
-    "correct": "ろくがつ",
-    "explanation": "6月: ろく (6) + がつ. Patrón regular sin alteración.",
     "opts": [
-      {"text": "ろくがつ", "correct": true, "reason": "Correcta. Patrón regular."},
-      {"text": "ろっがつ", "correct": false, "reason": "Sokuon no aplica delante de が."},
-      {"text": "ろくげつ", "correct": false, "reason": "げつ no se usa para meses del calendario."},
-      {"text": "むがつ", "correct": false, "reason": "む es lectura nativa de 6 (むっつ), no se usa para meses."}
+      {
+        "text": "ろくがつ",
+        "correct": true,
+        "explanation": "6月: ろく (6) + がつ. Patrón regular sin alteración. Correcta. Patrón regular."
+      },
+      {
+        "text": "ろっがつ",
+        "correct": false,
+        "explanation": "Sokuon no aplica delante de が."
+      },
+      {
+        "text": "ろくげつ",
+        "correct": false,
+        "explanation": "げつ no se usa para meses del calendario."
+      },
+      {
+        "text": "むがつ",
+        "correct": false,
+        "explanation": "む es lectura nativa de 6 (むっつ), no se usa para meses."
+      }
     ]
   },
   {
     "id": "U1B-065",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 12月?",
-    "correct": "じゅうにがつ",
-    "explanation": "12月: じゅうに (12) + がつ. Patrón regular.",
     "opts": [
-      {"text": "じゅうにがつ", "correct": true, "reason": "Correcta. Patrón regular."},
-      {"text": "じゅうにげつ", "correct": false, "reason": "げつ no se usa para meses del calendario."},
-      {"text": "じゅうふたがつ", "correct": false, "reason": "ふた es lectura nativa de 2, no se usa en compuestos para meses."},
-      {"text": "じゅうにっがつ", "correct": false, "reason": "Sokuon no aplica delante de が."}
+      {
+        "text": "じゅうにがつ",
+        "correct": true,
+        "explanation": "12月: じゅうに (12) + がつ. Patrón regular. Correcta. Patrón regular."
+      },
+      {
+        "text": "じゅうにげつ",
+        "correct": false,
+        "explanation": "げつ no se usa para meses del calendario."
+      },
+      {
+        "text": "じゅうふたがつ",
+        "correct": false,
+        "explanation": "ふた es lectura nativa de 2, no se usa en compuestos para meses."
+      },
+      {
+        "text": "じゅうにっがつ",
+        "correct": false,
+        "explanation": "Sokuon no aplica delante de が."
+      }
     ]
   },
   {
     "id": "U1B-066",
     "cat": "Vocabulario",
     "q": "¿Cuál es la forma genérica de usar いつですか?",
-    "correct": "Para preguntar '¿Cuándo es ~?' sobre un evento",
-    "explanation": "いつ es el interrogativo de TIEMPO. Combinado con [evento]は ... ですか, pregunta cuándo ocurre algo.",
     "opts": [
-      {"text": "Para preguntar '¿Cuándo es ~?' sobre un evento", "correct": true, "reason": "Correcta. Función central del interrogativo いつ."},
-      {"text": "Para preguntar '¿Dónde está ~?'", "correct": false, "reason": "'Dónde' es どこ/どちら, no いつ."},
-      {"text": "Para preguntar '¿Qué es ~?'", "correct": false, "reason": "'Qué' es 何 (なん/なに), no いつ."},
-      {"text": "Para preguntar '¿Cuánto cuesta ~?'", "correct": false, "reason": "'Cuánto cuesta' es いくらですか, no いつですか."}
+      {
+        "text": "Para preguntar '¿Cuándo es ~?' sobre un evento",
+        "correct": true,
+        "explanation": "いつ es el interrogativo de TIEMPO. Combinado con [evento]は ... ですか, pregunta cuándo ocurre algo. Correcta. Función central del interrogativo いつ."
+      },
+      {
+        "text": "Para preguntar '¿Dónde está ~?'",
+        "correct": false,
+        "explanation": "'Dónde' es どこ/どちら, no いつ."
+      },
+      {
+        "text": "Para preguntar '¿Qué es ~?'",
+        "correct": false,
+        "explanation": "'Qué' es 何 (なん/なに), no いつ."
+      },
+      {
+        "text": "Para preguntar '¿Cuánto cuesta ~?'",
+        "correct": false,
+        "explanation": "'Cuánto cuesta' es いくらですか, no いつですか."
+      }
     ]
   },
   {
     "id": "U1B-067",
     "cat": "Gramática",
     "q": "Del día 11 al 31, ¿cuáles tienen lectura irregular?",
-    "correct": "14日 (じゅうよっか), 20日 (はつか), 24日 (にじゅうよっか)",
-    "explanation": "Las únicas excepciones del 11-31 son: 14, 20 y 24. Todas las demás siguen el patrón regular [número]+にち.",
     "opts": [
-      {"text": "14日 (じゅうよっか), 20日 (はつか), 24日 (にじゅうよっか)", "correct": true, "reason": "Correcta. Lista completa de irregulares 11-31."},
-      {"text": "Todos los pares", "correct": false, "reason": "Falso. Solo 14, 20, 24 son irregulares; otros pares como 12, 16, 18, 22... son regulares."},
-      {"text": "Solo el 20", "correct": false, "reason": "También 14 y 24 son irregulares."},
-      {"text": "Todos tienen lectura regular con ~にち", "correct": false, "reason": "Falso: 14, 20 y 24 son excepciones."}
+      {
+        "text": "14日 (じゅうよっか), 20日 (はつか), 24日 (にじゅうよっか)",
+        "correct": true,
+        "explanation": "Las únicas excepciones del 11-31 son: 14, 20 y 24. Todas las demás siguen el patrón regular [número]+にち. Correcta. Lista completa de irregulares 11-31."
+      },
+      {
+        "text": "Todos los pares",
+        "correct": false,
+        "explanation": "Falso. Solo 14, 20, 24 son irregulares; otros pares como 12, 16, 18, 22... son regulares."
+      },
+      {
+        "text": "Solo el 20",
+        "correct": false,
+        "explanation": "También 14 y 24 son irregulares."
+      },
+      {
+        "text": "Todos tienen lectura regular con ~にち",
+        "correct": false,
+        "explanation": "Falso: 14, 20 y 24 son excepciones."
+      }
     ]
   },
   {
     "id": "U1B-068",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se diría '25 de diciembre' (Navidad)?",
-    "correct": "12月25日 (じゅうにがつ にじゅうごにち)",
-    "explanation": "12月 = じゅうにがつ (regular) + 25日 = にじゅうごにち (regular). 25 no es excepción (las excepciones son 14, 20, 24).",
     "opts": [
-      {"text": "12月25日 (じゅうにがつ にじゅうごにち)", "correct": true, "reason": "Correcta. Ambas lecturas regulares."},
-      {"text": "12月25日 (じゅうにがつ にじゅうごか)", "correct": false, "reason": "El contador か no se usa para 25; se usa にち."},
-      {"text": "12月25日 (じゅうにげつ にじゅうごにち)", "correct": false, "reason": "げつ no se usa para meses del calendario."},
-      {"text": "25日12月", "correct": false, "reason": "Orden invertido (estilo español). En japonés es MES + DÍA."}
+      {
+        "text": "12月25日 (じゅうにがつ にじゅうごにち)",
+        "correct": true,
+        "explanation": "12月 = じゅうにがつ (regular) + 25日 = にじゅうごにち (regular). 25 no es excepción (las excepciones son 14, 20, 24). Correcta. Ambas lecturas regulares."
+      },
+      {
+        "text": "12月25日 (じゅうにがつ にじゅうごか)",
+        "correct": false,
+        "explanation": "El contador か no se usa para 25; se usa にち."
+      },
+      {
+        "text": "12月25日 (じゅうにげつ にじゅうごにち)",
+        "correct": false,
+        "explanation": "げつ no se usa para meses del calendario."
+      },
+      {
+        "text": "25日12月",
+        "correct": false,
+        "explanation": "Orden invertido (estilo español). En japonés es MES + DÍA."
+      }
     ]
   },
   {
     "id": "U1B-069",
     "cat": "Vocabulario",
     "q": "¿Qué significa クリスマス?",
-    "correct": "Navidad",
-    "explanation": "クリスマス es la transcripción en katakana del inglés 'Christmas'. Aunque Japón no es mayoritariamente cristiano, la fiesta se celebra comercialmente.",
     "opts": [
-      {"text": "Navidad", "correct": true, "reason": "Correcta. Préstamo del inglés Christmas."},
-      {"text": "Cristiano", "correct": false, "reason": "'Cristiano' es キリスト教徒 (キリストきょうと) o クリスチャン. Conceptos relacionados pero distintos."},
-      {"text": "Crystal", "correct": false, "reason": "クリスタル es 'crystal'. Suena similar pero la transcripción es distinta."},
-      {"text": "Crisis", "correct": false, "reason": "'Crisis' es 危機 (きき) o クライシス. Sin relación."}
+      {
+        "text": "Navidad",
+        "correct": true,
+        "explanation": "クリスマス es la transcripción en katakana del inglés 'Christmas'. Aunque Japón no es mayoritariamente cristiano, la fiesta se celebra comercialmente. Correcta. Préstamo del inglés Christmas."
+      },
+      {
+        "text": "Cristiano",
+        "correct": false,
+        "explanation": "'Cristiano' es キリスト教徒 (キリストきょうと) o クリスチャン. Conceptos relacionados pero distintos."
+      },
+      {
+        "text": "Crystal",
+        "correct": false,
+        "explanation": "クリスタル es 'crystal'. Suena similar pero la transcripción es distinta."
+      },
+      {
+        "text": "Crisis",
+        "correct": false,
+        "explanation": "'Crisis' es 危機 (きき) o クライシス. Sin relación."
+      }
     ]
   },
   {
     "id": "U1B-070",
     "cat": "Vocabulario",
     "q": "¿Qué significa la expresión お誕生日 おめでとう ございます?",
-    "correct": "¡Feliz cumpleaños! (educado)",
-    "explanation": "おめでとう ございます es la fórmula formal para felicitar (cumpleaños, bodas, año nuevo). お誕生日 + おめでとう = '¡Feliz cumpleaños!' formal.",
     "opts": [
-      {"text": "¡Feliz cumpleaños! (educado)", "correct": true, "reason": "Correcta. Fórmula estándar formal de felicitación."},
-      {"text": "¿Cuándo es tu cumpleaños?", "correct": false, "reason": "Esa pregunta sería 'お誕生日は いつですか'. La frase con おめでとう es felicitación, no pregunta."},
-      {"text": "Mi cumpleaños es pronto", "correct": false, "reason": "No menciona el propio cumpleaños ni 'pronto' (もうすぐ)."},
-      {"text": "Perdón por olvidar tu cumpleaños", "correct": false, "reason": "Esa frase usaría すみません/ごめんなさい + 忘れる. おめでとう es felicitación, no disculpa."}
+      {
+        "text": "¡Feliz cumpleaños! (educado)",
+        "correct": true,
+        "explanation": "おめでとう ございます es la fórmula formal para felicitar (cumpleaños, bodas, año nuevo). お誕生日 + おめでとう = '¡Feliz cumpleaños!' formal. Correcta. Fórmula estándar formal de felicitación."
+      },
+      {
+        "text": "¿Cuándo es tu cumpleaños?",
+        "correct": false,
+        "explanation": "Esa pregunta sería 'お誕生日は いつですか'. La frase con おめでとう es felicitación, no pregunta."
+      },
+      {
+        "text": "Mi cumpleaños es pronto",
+        "correct": false,
+        "explanation": "No menciona el propio cumpleaños ni 'pronto' (もうすぐ)."
+      },
+      {
+        "text": "Perdón por olvidar tu cumpleaños",
+        "correct": false,
+        "explanation": "Esa frase usaría すみません/ごめんなさい + 忘れる. おめでとう es felicitación, no disculpa."
+      }
     ]
   }
 ]

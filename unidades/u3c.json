@@ -3,28 +3,26 @@
     "id": "U3C-001",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 朝?",
-    "correct": "Mañana",
-    "explanation": "朝 (あさ) = 'mañana' (período del día). Distinto de 明日 (あした, 'mañana' = día siguiente).",
     "opts": [
       {
         "text": "Mañana",
         "correct": true,
-        "reason": "Correcta. Período matutino."
+        "explanation": "朝 (あさ) = 'mañana' (período del día). Distinto de 明日 (あした, 'mañana' = día siguiente). Correcta. Período matutino."
       },
       {
         "text": "Noche",
         "correct": false,
-        "reason": "'Noche' es 夜 (よる)."
+        "explanation": "'Noche' es 夜 (よる)."
       },
       {
         "text": "Mediodía",
         "correct": false,
-        "reason": "'Mediodía' es 昼 (ひる)."
+        "explanation": "'Mediodía' es 昼 (ひる)."
       },
       {
         "text": "Tarde",
         "correct": false,
-        "reason": "'Tarde' es 夕方 (ゆうがた)."
+        "explanation": "'Tarde' es 夕方 (ゆうがた)."
       }
     ]
   },
@@ -32,28 +30,26 @@
     "id": "U3C-002",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 夜?",
-    "correct": "Noche",
-    "explanation": "夜 (よる) = 'noche'. Período desde el atardecer hasta la madrugada.",
     "opts": [
       {
         "text": "Noche",
         "correct": true,
-        "reason": "Correcta. Período nocturno."
+        "explanation": "夜 (よる) = 'noche'. Período desde el atardecer hasta la madrugada. Correcta. Período nocturno."
       },
       {
         "text": "Mañana",
         "correct": false,
-        "reason": "'Mañana' es 朝."
+        "explanation": "'Mañana' es 朝."
       },
       {
         "text": "Tarde",
         "correct": false,
-        "reason": "'Tarde' es 夕方."
+        "explanation": "'Tarde' es 夕方."
       },
       {
         "text": "Mediodía",
         "correct": false,
-        "reason": "'Mediodía' es 昼."
+        "explanation": "'Mediodía' es 昼."
       }
     ]
   },
@@ -61,28 +57,26 @@
     "id": "U3C-003",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 毎日?",
-    "correct": "Todos los días",
-    "explanation": "毎 ('cada') + 日 ('día') = 毎日 'todos los días'. Adverbio de frecuencia que NO toma に.",
     "opts": [
       {
         "text": "Todos los días",
         "correct": true,
-        "reason": "Correcta. Adverbio de frecuencia diaria."
+        "explanation": "毎 ('cada') + 日 ('día') = 毎日 'todos los días'. Adverbio de frecuencia que NO toma に. Correcta. Adverbio de frecuencia diaria."
       },
       {
         "text": "Todas las mañanas",
         "correct": false,
-        "reason": "'Todas las mañanas' es 毎朝 (まいあさ)."
+        "explanation": "'Todas las mañanas' es 毎朝 (まいあさ)."
       },
       {
         "text": "Todas las noches",
         "correct": false,
-        "reason": "'Todas las noches' es 毎晩 (まいばん)."
+        "explanation": "'Todas las noches' es 毎晩 (まいばん)."
       },
       {
         "text": "Cada semana",
         "correct": false,
-        "reason": "'Cada semana' es 毎週 (まいしゅう)."
+        "explanation": "'Cada semana' es 毎週 (まいしゅう)."
       }
     ]
   },
@@ -90,28 +84,26 @@
     "id": "U3C-004",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 毎朝?",
-    "correct": "Todas las mañanas",
-    "explanation": "毎 ('cada') + 朝 ('mañana') = 毎朝 'todas las mañanas'. NO toma に.",
     "opts": [
       {
         "text": "Todas las mañanas",
         "correct": true,
-        "reason": "Correcta. Frecuencia matutina."
+        "explanation": "毎 ('cada') + 朝 ('mañana') = 毎朝 'todas las mañanas'. NO toma に. Correcta. Frecuencia matutina."
       },
       {
         "text": "Todas las noches",
         "correct": false,
-        "reason": "'Todas las noches' es 毎晩."
+        "explanation": "'Todas las noches' es 毎晩."
       },
       {
         "text": "Todos los días",
         "correct": false,
-        "reason": "'Todos los días' es 毎日."
+        "explanation": "'Todos los días' es 毎日."
       },
       {
         "text": "Cada tarde",
         "correct": false,
-        "reason": "No hay una forma estándar con 毎+夕."
+        "explanation": "No hay una forma estándar con 毎+夕."
       }
     ]
   },
@@ -119,28 +111,26 @@
     "id": "U3C-005",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 毎晩?",
-    "correct": "Todas las noches",
-    "explanation": "毎 ('cada') + 晩 ('noche/atardecer') = 毎晩 'todas las noches'. NO toma に.",
     "opts": [
       {
         "text": "Todas las noches",
         "correct": true,
-        "reason": "Correcta. Frecuencia nocturna."
+        "explanation": "毎 ('cada') + 晩 ('noche/atardecer') = 毎晩 'todas las noches'. NO toma に. Correcta. Frecuencia nocturna."
       },
       {
         "text": "Todas las mañanas",
         "correct": false,
-        "reason": "'Todas las mañanas' es 毎朝."
+        "explanation": "'Todas las mañanas' es 毎朝."
       },
       {
         "text": "Todos los días",
         "correct": false,
-        "reason": "'Todos los días' es 毎日."
+        "explanation": "'Todos los días' es 毎日."
       },
       {
         "text": "Cada fin de semana",
         "correct": false,
-        "reason": "'Cada fin de semana' es 毎週末 (まいしゅうまつ)."
+        "explanation": "'Cada fin de semana' es 毎週末 (まいしゅうまつ)."
       }
     ]
   },
@@ -148,28 +138,26 @@
     "id": "U3C-006",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 朝ご飯?",
-    "correct": "Desayuno",
-    "explanation": "朝 ('mañana') + ご飯 ('comida/arroz') = 朝ご飯 'desayuno'. Patrón [período]+ご飯.",
     "opts": [
       {
         "text": "Desayuno",
         "correct": true,
-        "reason": "Correcta. Comida matutina."
+        "explanation": "朝 ('mañana') + ご飯 ('comida/arroz') = 朝ご飯 'desayuno'. Patrón [período]+ご飯. Correcta. Comida matutina."
       },
       {
         "text": "Almuerzo",
         "correct": false,
-        "reason": "'Almuerzo' es 昼ご飯."
+        "explanation": "'Almuerzo' es 昼ご飯."
       },
       {
         "text": "Cena",
         "correct": false,
-        "reason": "'Cena' es 晩ご飯."
+        "explanation": "'Cena' es 晩ご飯."
       },
       {
         "text": "Merienda",
         "correct": false,
-        "reason": "'Merienda' es おやつ."
+        "explanation": "'Merienda' es おやつ."
       }
     ]
   },
@@ -177,28 +165,26 @@
     "id": "U3C-007",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 昼ご飯?",
-    "correct": "Almuerzo",
-    "explanation": "昼 ('mediodía') + ご飯 ('comida') = 昼ご飯 'almuerzo'.",
     "opts": [
       {
         "text": "Almuerzo",
         "correct": true,
-        "reason": "Correcta. Comida del mediodía."
+        "explanation": "昼 ('mediodía') + ご飯 ('comida') = 昼ご飯 'almuerzo'. Correcta. Comida del mediodía."
       },
       {
         "text": "Desayuno",
         "correct": false,
-        "reason": "'Desayuno' es 朝ご飯."
+        "explanation": "'Desayuno' es 朝ご飯."
       },
       {
         "text": "Cena",
         "correct": false,
-        "reason": "'Cena' es 晩ご飯."
+        "explanation": "'Cena' es 晩ご飯."
       },
       {
         "text": "Merienda",
         "correct": false,
-        "reason": "'Merienda' es おやつ."
+        "explanation": "'Merienda' es おやつ."
       }
     ]
   },
@@ -206,28 +192,26 @@
     "id": "U3C-008",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 晩ご飯?",
-    "correct": "Cena",
-    "explanation": "晩 ('atardecer/noche') + ご飯 ('comida') = 晩ご飯 'cena'.",
     "opts": [
       {
         "text": "Cena",
         "correct": true,
-        "reason": "Correcta. Comida nocturna."
+        "explanation": "晩 ('atardecer/noche') + ご飯 ('comida') = 晩ご飯 'cena'. Correcta. Comida nocturna."
       },
       {
         "text": "Desayuno",
         "correct": false,
-        "reason": "'Desayuno' es 朝ご飯."
+        "explanation": "'Desayuno' es 朝ご飯."
       },
       {
         "text": "Almuerzo",
         "correct": false,
-        "reason": "'Almuerzo' es 昼ご飯."
+        "explanation": "'Almuerzo' es 昼ご飯."
       },
       {
         "text": "Merienda",
         "correct": false,
-        "reason": "'Merienda' es おやつ."
+        "explanation": "'Merienda' es おやつ."
       }
     ]
   },
@@ -235,28 +219,26 @@
     "id": "U3C-009",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 会社?",
-    "correct": "Empresa",
-    "explanation": "会 ('reunión') + 社 ('sociedad') = 会社 'empresa/compañía'.",
     "opts": [
       {
         "text": "Empresa",
         "correct": true,
-        "reason": "Correcta. Significado central."
+        "explanation": "会 ('reunión') + 社 ('sociedad') = 会社 'empresa/compañía'. Correcta. Significado central."
       },
       {
         "text": "Escuela",
         "correct": false,
-        "reason": "'Escuela' es 学校 (がっこう)."
+        "explanation": "'Escuela' es 学校 (がっこう)."
       },
       {
         "text": "Hospital",
         "correct": false,
-        "reason": "'Hospital' es 病院."
+        "explanation": "'Hospital' es 病院."
       },
       {
         "text": "Banco",
         "correct": false,
-        "reason": "'Banco' es 銀行."
+        "explanation": "'Banco' es 銀行."
       }
     ]
   },
@@ -264,28 +246,26 @@
     "id": "U3C-010",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 学校?",
-    "correct": "Escuela",
-    "explanation": "学 ('aprender') + 校 ('establecimiento') = 学校 'escuela'.",
     "opts": [
       {
         "text": "Escuela",
         "correct": true,
-        "reason": "Correcta. Significado central."
+        "explanation": "学 ('aprender') + 校 ('establecimiento') = 学校 'escuela'. Correcta. Significado central."
       },
       {
         "text": "Empresa",
         "correct": false,
-        "reason": "'Empresa' es 会社."
+        "explanation": "'Empresa' es 会社."
       },
       {
         "text": "Biblioteca",
         "correct": false,
-        "reason": "'Biblioteca' es 図書館."
+        "explanation": "'Biblioteca' es 図書館."
       },
       {
         "text": "Universidad",
         "correct": false,
-        "reason": "'Universidad' es 大学 (だいがく). 学校 es más general."
+        "explanation": "'Universidad' es 大学 (だいがく). 学校 es más general."
       }
     ]
   },
@@ -293,28 +273,26 @@
     "id": "U3C-011",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 牛乳?",
-    "correct": "Leche",
-    "explanation": "牛 ('vaca') + 乳 ('leche/mama') = 牛乳 'leche (de vaca)'. La bebida de consumo diario.",
     "opts": [
       {
         "text": "Leche",
         "correct": true,
-        "reason": "Correcta. Leche de vaca."
+        "explanation": "牛 ('vaca') + 乳 ('leche/mama') = 牛乳 'leche (de vaca)'. La bebida de consumo diario. Correcta. Leche de vaca."
       },
       {
         "text": "Queso",
         "correct": false,
-        "reason": "'Queso' es チーズ."
+        "explanation": "'Queso' es チーズ."
       },
       {
         "text": "Yogur",
         "correct": false,
-        "reason": "'Yogur' es ヨーグルト."
+        "explanation": "'Yogur' es ヨーグルト."
       },
       {
         "text": "Manteca",
         "correct": false,
-        "reason": "'Manteca' es バター."
+        "explanation": "'Manteca' es バター."
       }
     ]
   },
@@ -322,28 +300,26 @@
     "id": "U3C-012",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 果物?",
-    "correct": "Frutas",
-    "explanation": "果 ('fruto') + 物 ('cosa') = 果物 'frutas'. Categoría general de frutas.",
     "opts": [
       {
         "text": "Frutas",
         "correct": true,
-        "reason": "Correcta. Categoría general."
+        "explanation": "果 ('fruto') + 物 ('cosa') = 果物 'frutas'. Categoría general de frutas. Correcta. Categoría general."
       },
       {
         "text": "Verduras",
         "correct": false,
-        "reason": "'Verduras' es 野菜 (やさい)."
+        "explanation": "'Verduras' es 野菜 (やさい)."
       },
       {
         "text": "Ensalada",
         "correct": false,
-        "reason": "'Ensalada' es サラダ."
+        "explanation": "'Ensalada' es サラダ."
       },
       {
         "text": "Dulces",
         "correct": false,
-        "reason": "'Dulces' es お菓子 (おかし) o スイーツ."
+        "explanation": "'Dulces' es お菓子 (おかし) o スイーツ."
       }
     ]
   },
@@ -351,28 +327,26 @@
     "id": "U3C-013",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 新聞?",
-    "correct": "Diario / periódico",
-    "explanation": "新 ('nuevo') + 聞 ('oír/información') = 新聞 'diario/periódico'. Publicación impresa con noticias.",
     "opts": [
       {
         "text": "Diario / periódico",
         "correct": true,
-        "reason": "Correcta. Publicación de noticias."
+        "explanation": "新 ('nuevo') + 聞 ('oír/información') = 新聞 'diario/periódico'. Publicación impresa con noticias. Correcta. Publicación de noticias."
       },
       {
         "text": "Revista",
         "correct": false,
-        "reason": "'Revista' es 雑誌 (ざっし)."
+        "explanation": "'Revista' es 雑誌 (ざっし)."
       },
       {
         "text": "Libro",
         "correct": false,
-        "reason": "'Libro' es 本 (ほん)."
+        "explanation": "'Libro' es 本 (ほん)."
       },
       {
         "text": "Televisión",
         "correct": false,
-        "reason": "'Televisión' es テレビ."
+        "explanation": "'Televisión' es テレビ."
       }
     ]
   },
@@ -380,28 +354,26 @@
     "id": "U3C-014",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 何も?",
-    "correct": "Nada (en negativas)",
-    "explanation": "何 ('qué') + も ('también/incluso') combinado con verbo negativo = 'nada'. Patrón 何も + Vません.",
     "opts": [
       {
         "text": "Nada (en negativas)",
         "correct": true,
-        "reason": "Correcta. Universalidad negada."
+        "explanation": "何 ('qué') + も ('también/incluso') combinado con verbo negativo = 'nada'. Patrón 何も + Vません. Correcta. Universalidad negada."
       },
       {
         "text": "Todo",
         "correct": false,
-        "reason": "'Todo' es 全部 (ぜんぶ) o 何でも (afirmativo)."
+        "explanation": "'Todo' es 全部 (ぜんぶ) o 何でも (afirmativo)."
       },
       {
         "text": "Algo",
         "correct": false,
-        "reason": "'Algo' es 何か (なにか)."
+        "explanation": "'Algo' es 何か (なにか)."
       },
       {
         "text": "Qué",
         "correct": false,
-        "reason": "'Qué' aislado es 何 (なに/なん). Con も cambia a 'nada'."
+        "explanation": "'Qué' aislado es 何 (なに/なん). Con も cambia a 'nada'."
       }
     ]
   },
@@ -409,28 +381,26 @@
     "id": "U3C-015",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 朝?",
-    "correct": "あさ",
-    "explanation": "朝 sola se lee あさ (kun'yomi).",
     "opts": [
       {
         "text": "あさ",
         "correct": true,
-        "reason": "Correcta. Kun'yomi estándar."
+        "explanation": "朝 sola se lee あさ (kun'yomi). Correcta. Kun'yomi estándar."
       },
       {
         "text": "よる",
         "correct": false,
-        "reason": "よる es 夜 ('noche'), kanji distinto."
+        "explanation": "よる es 夜 ('noche'), kanji distinto."
       },
       {
         "text": "ひる",
         "correct": false,
-        "reason": "ひる es 昼 ('mediodía'), kanji distinto."
+        "explanation": "ひる es 昼 ('mediodía'), kanji distinto."
       },
       {
         "text": "ゆう",
         "correct": false,
-        "reason": "ゆう es 夕 ('atardecer'), kanji distinto."
+        "explanation": "ゆう es 夕 ('atardecer'), kanji distinto."
       }
     ]
   },
@@ -438,28 +408,26 @@
     "id": "U3C-016",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 夜?",
-    "correct": "よる",
-    "explanation": "夜 sola se lee よる (kun'yomi). En compuestos toma や (夜景 やけい 'vista nocturna').",
     "opts": [
       {
         "text": "よる",
         "correct": true,
-        "reason": "Correcta. Kun'yomi cuando va sola."
+        "explanation": "夜 sola se lee よる (kun'yomi). En compuestos toma や (夜景 やけい 'vista nocturna'). Correcta. Kun'yomi cuando va sola."
       },
       {
         "text": "あさ",
         "correct": false,
-        "reason": "あさ es 朝 ('mañana')."
+        "explanation": "あさ es 朝 ('mañana')."
       },
       {
         "text": "ひる",
         "correct": false,
-        "reason": "ひる es 昼 ('mediodía')."
+        "explanation": "ひる es 昼 ('mediodía')."
       },
       {
         "text": "ばん",
         "correct": false,
-        "reason": "ばん es lectura de 晩 ('atardecer'); 夜 se lee よる."
+        "explanation": "ばん es lectura de 晩 ('atardecer'); 夜 se lee よる."
       }
     ]
   },
@@ -467,28 +435,26 @@
     "id": "U3C-017",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 毎日?",
-    "correct": "まいにち",
-    "explanation": "毎 (まい) + 日 (にち) = まいにち.",
     "opts": [
       {
         "text": "まいにち",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "毎 (まい) + 日 (にち) = まいにち. Correcta. On'yomi estándar."
       },
       {
         "text": "まいあさ",
         "correct": false,
-        "reason": "まいあさ es 毎朝 ('todas las mañanas')."
+        "explanation": "まいあさ es 毎朝 ('todas las mañanas')."
       },
       {
         "text": "まいばん",
         "correct": false,
-        "reason": "まいばん es 毎晩 ('todas las noches')."
+        "explanation": "まいばん es 毎晩 ('todas las noches')."
       },
       {
         "text": "まいしゅう",
         "correct": false,
-        "reason": "まいしゅう es 毎週 ('cada semana')."
+        "explanation": "まいしゅう es 毎週 ('cada semana')."
       }
     ]
   },
@@ -496,28 +462,26 @@
     "id": "U3C-018",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 毎朝?",
-    "correct": "まいあさ",
-    "explanation": "毎 (まい, on'yomi) + 朝 (あさ, kun'yomi) = まいあさ. Mezcla on+kun.",
     "opts": [
       {
         "text": "まいあさ",
         "correct": true,
-        "reason": "Correcta. Mezcla on+kun estándar."
+        "explanation": "毎 (まい, on'yomi) + 朝 (あさ, kun'yomi) = まいあさ. Mezcla on+kun. Correcta. Mezcla on+kun estándar."
       },
       {
         "text": "まいにち",
         "correct": false,
-        "reason": "まいにち es 毎日."
+        "explanation": "まいにち es 毎日."
       },
       {
         "text": "まいばん",
         "correct": false,
-        "reason": "まいばん es 毎晩."
+        "explanation": "まいばん es 毎晩."
       },
       {
         "text": "まいよる",
         "correct": false,
-        "reason": "まいよる no es una combinación estándar; lo correcto es 毎晩 まいばん."
+        "explanation": "まいよる no es una combinación estándar; lo correcto es 毎晩 まいばん."
       }
     ]
   },
@@ -525,28 +489,26 @@
     "id": "U3C-019",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 毎晩?",
-    "correct": "まいばん",
-    "explanation": "毎 (まい) + 晩 (ばん) = まいばん. On'yomi en ambos.",
     "opts": [
       {
         "text": "まいばん",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "毎 (まい) + 晩 (ばん) = まいばん. On'yomi en ambos. Correcta. On'yomi estándar."
       },
       {
         "text": "まいあさ",
         "correct": false,
-        "reason": "まいあさ es 毎朝."
+        "explanation": "まいあさ es 毎朝."
       },
       {
         "text": "まいにち",
         "correct": false,
-        "reason": "まいにち es 毎日."
+        "explanation": "まいにち es 毎日."
       },
       {
         "text": "まいよる",
         "correct": false,
-        "reason": "まいよる no es estándar; se usa 毎晩 まいばん."
+        "explanation": "まいよる no es estándar; se usa 毎晩 まいばん."
       }
     ]
   },
@@ -554,28 +516,26 @@
     "id": "U3C-020",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 朝ご飯?",
-    "correct": "あさごはん",
-    "explanation": "朝 (あさ) + ご飯 (ごはん) = あさごはん. Notá el rendaku ご en ご飯 (cortesía).",
     "opts": [
       {
         "text": "あさごはん",
         "correct": true,
-        "reason": "Correcta. Lectura estándar."
+        "explanation": "朝 (あさ) + ご飯 (ごはん) = あさごはん. Notá el rendaku ご en ご飯 (cortesía). Correcta. Lectura estándar."
       },
       {
         "text": "ひるごはん",
         "correct": false,
-        "reason": "ひるごはん es 昼ご飯 ('almuerzo')."
+        "explanation": "ひるごはん es 昼ご飯 ('almuerzo')."
       },
       {
         "text": "ばんごはん",
         "correct": false,
-        "reason": "ばんごはん es 晩ご飯 ('cena')."
+        "explanation": "ばんごはん es 晩ご飯 ('cena')."
       },
       {
         "text": "あさめし",
         "correct": false,
-        "reason": "あさめし es la versión coloquial/masculina de 'desayuno', pero la lectura del kanji con ご飯 es あさごはん."
+        "explanation": "あさめし es la versión coloquial/masculina de 'desayuno', pero la lectura del kanji con ご飯 es あさごはん."
       }
     ]
   },
@@ -583,28 +543,26 @@
     "id": "U3C-021",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 昼ご飯?",
-    "correct": "ひるごはん",
-    "explanation": "昼 (ひる) + ご飯 (ごはん) = ひるごはん.",
     "opts": [
       {
         "text": "ひるごはん",
         "correct": true,
-        "reason": "Correcta. Lectura estándar."
+        "explanation": "昼 (ひる) + ご飯 (ごはん) = ひるごはん. Correcta. Lectura estándar."
       },
       {
         "text": "あさごはん",
         "correct": false,
-        "reason": "あさごはん es 朝ご飯 ('desayuno')."
+        "explanation": "あさごはん es 朝ご飯 ('desayuno')."
       },
       {
         "text": "ばんごはん",
         "correct": false,
-        "reason": "ばんごはん es 晩ご飯 ('cena')."
+        "explanation": "ばんごはん es 晩ご飯 ('cena')."
       },
       {
         "text": "ちゅうごはん",
         "correct": false,
-        "reason": "ちゅう es on'yomi de 昼 en compuestos; con ご飯 se usa kun'yomi ひる."
+        "explanation": "ちゅう es on'yomi de 昼 en compuestos; con ご飯 se usa kun'yomi ひる."
       }
     ]
   },
@@ -612,28 +570,26 @@
     "id": "U3C-022",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 晩ご飯?",
-    "correct": "ばんごはん",
-    "explanation": "晩 (ばん) + ご飯 (ごはん) = ばんごはん.",
     "opts": [
       {
         "text": "ばんごはん",
         "correct": true,
-        "reason": "Correcta. Lectura estándar."
+        "explanation": "晩 (ばん) + ご飯 (ごはん) = ばんごはん. Correcta. Lectura estándar."
       },
       {
         "text": "あさごはん",
         "correct": false,
-        "reason": "あさごはん es 朝ご飯 ('desayuno')."
+        "explanation": "あさごはん es 朝ご飯 ('desayuno')."
       },
       {
         "text": "ひるごはん",
         "correct": false,
-        "reason": "ひるごはん es 昼ご飯 ('almuerzo')."
+        "explanation": "ひるごはん es 昼ご飯 ('almuerzo')."
       },
       {
         "text": "よるごはん",
         "correct": false,
-        "reason": "よるごはん no es estándar; se usa ばんごはん con 晩."
+        "explanation": "よるごはん no es estándar; se usa ばんごはん con 晩."
       }
     ]
   },
@@ -641,28 +597,26 @@
     "id": "U3C-023",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 会社?",
-    "correct": "かいしゃ",
-    "explanation": "会 (かい) + 社 (しゃ) = かいしゃ. On'yomi en ambos.",
     "opts": [
       {
         "text": "かいしゃ",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "会 (かい) + 社 (しゃ) = かいしゃ. On'yomi en ambos. Correcta. On'yomi estándar."
       },
       {
         "text": "がっこう",
         "correct": false,
-        "reason": "がっこう es 学校 ('escuela')."
+        "explanation": "がっこう es 学校 ('escuela')."
       },
       {
         "text": "びょういん",
         "correct": false,
-        "reason": "びょういん es 病院 ('hospital')."
+        "explanation": "びょういん es 病院 ('hospital')."
       },
       {
         "text": "かいしょ",
         "correct": false,
-        "reason": "しょ no es lectura de 社 en este compuesto; es しゃ."
+        "explanation": "しょ no es lectura de 社 en este compuesto; es しゃ."
       }
     ]
   },
@@ -670,28 +624,26 @@
     "id": "U3C-024",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 学校?",
-    "correct": "がっこう",
-    "explanation": "学 (がく → がっ con sokuon) + 校 (こう) = がっこう. Notá el sokuon.",
     "opts": [
       {
         "text": "がっこう",
         "correct": true,
-        "reason": "Correcta. On'yomi con sokuon."
+        "explanation": "学 (がく → がっ con sokuon) + 校 (こう) = がっこう. Notá el sokuon. Correcta. On'yomi con sokuon."
       },
       {
         "text": "かいしゃ",
         "correct": false,
-        "reason": "かいしゃ es 会社 ('empresa')."
+        "explanation": "かいしゃ es 会社 ('empresa')."
       },
       {
         "text": "がくこう",
         "correct": false,
-        "reason": "Falta el sokuon: la lectura correcta es がっこう con っ."
+        "explanation": "Falta el sokuon: la lectura correcta es がっこう con っ."
       },
       {
         "text": "がっきょう",
         "correct": false,
-        "reason": "きょう no es lectura de 校; es こう."
+        "explanation": "きょう no es lectura de 校; es こう."
       }
     ]
   },
@@ -699,28 +651,26 @@
     "id": "U3C-025",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 牛乳?",
-    "correct": "ぎゅうにゅう",
-    "explanation": "牛 (ぎゅう) + 乳 (にゅう) = ぎゅうにゅう. Doble vocal larga.",
     "opts": [
       {
         "text": "ぎゅうにゅう",
         "correct": true,
-        "reason": "Correcta. On'yomi con doble vocal larga."
+        "explanation": "牛 (ぎゅう) + 乳 (にゅう) = ぎゅうにゅう. Doble vocal larga. Correcta. On'yomi con doble vocal larga."
       },
       {
         "text": "うしにゅう",
         "correct": false,
-        "reason": "うし es kun'yomi de 牛 sola; en compuesto se usa ぎゅう."
+        "explanation": "うし es kun'yomi de 牛 sola; en compuesto se usa ぎゅう."
       },
       {
         "text": "ぎゅうにく",
         "correct": false,
-        "reason": "ぎゅうにく es 牛肉 ('carne de vaca'); distinto de 牛乳."
+        "explanation": "ぎゅうにく es 牛肉 ('carne de vaca'); distinto de 牛乳."
       },
       {
         "text": "ぎゅうちち",
         "correct": false,
-        "reason": "ちち es kun'yomi de 乳 sola; en compuesto se usa にゅう."
+        "explanation": "ちち es kun'yomi de 乳 sola; en compuesto se usa にゅう."
       }
     ]
   },
@@ -728,28 +678,26 @@
     "id": "U3C-026",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 果物?",
-    "correct": "くだもの",
-    "explanation": "果物 se lee くだもの (jukujikun, lectura especial como bloque). No se descompone sílaba por sílaba.",
     "opts": [
       {
         "text": "くだもの",
         "correct": true,
-        "reason": "Correcta. Lectura especial jukujikun."
+        "explanation": "果物 se lee くだもの (jukujikun, lectura especial como bloque). No se descompone sílaba por sílaba. Correcta. Lectura especial jukujikun."
       },
       {
         "text": "かぶつ",
         "correct": false,
-        "reason": "かぶつ sería on'yomi hipotética pero no se usa."
+        "explanation": "かぶつ sería on'yomi hipotética pero no se usa."
       },
       {
         "text": "はたもの",
         "correct": false,
-        "reason": "Lectura inventada."
+        "explanation": "Lectura inventada."
       },
       {
         "text": "かもの",
         "correct": false,
-        "reason": "Lectura incorrecta; la correcta es くだもの."
+        "explanation": "Lectura incorrecta; la correcta es くだもの."
       }
     ]
   },
@@ -757,28 +705,26 @@
     "id": "U3C-027",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 新聞?",
-    "correct": "しんぶん",
-    "explanation": "新 (しん) + 聞 (ぶん, con rendaku) = しんぶん.",
     "opts": [
       {
         "text": "しんぶん",
         "correct": true,
-        "reason": "Correcta. On'yomi con rendaku."
+        "explanation": "新 (しん) + 聞 (ぶん, con rendaku) = しんぶん. Correcta. On'yomi con rendaku."
       },
       {
         "text": "しんもん",
         "correct": false,
-        "reason": "もん es otra on'yomi de 聞 (en 聞答), pero en 新聞 es ぶん."
+        "explanation": "もん es otra on'yomi de 聞 (en 聞答), pero en 新聞 es ぶん."
       },
       {
         "text": "あたぶん",
         "correct": false,
-        "reason": "あた no es lectura de 新; la kun'yomi es あたら(しい)."
+        "explanation": "あた no es lectura de 新; la kun'yomi es あたら(しい)."
       },
       {
         "text": "にいぶん",
         "correct": false,
-        "reason": "にい no es lectura estándar de 新 en compuestos."
+        "explanation": "にい no es lectura estándar de 新 en compuestos."
       }
     ]
   },
@@ -786,28 +732,26 @@
     "id": "U3C-028",
     "cat": "Katakana",
     "q": "¿Qué significa コンビニ?",
-    "correct": "Kiosco 24hs / tienda de conveniencia",
-    "explanation": "コンビニ es abreviatura de コンビニエンスストア ('convenience store'). Tiendas como Lawson, 7-Eleven, FamilyMart.",
     "opts": [
       {
         "text": "Kiosco 24hs / tienda de conveniencia",
         "correct": true,
-        "reason": "Correcta. Abreviatura estándar."
+        "explanation": "コンビニ es abreviatura de コンビニエンスストア ('convenience store'). Tiendas como Lawson, 7-Eleven, FamilyMart. Correcta. Abreviatura estándar."
       },
       {
         "text": "Supermercado",
         "correct": false,
-        "reason": "'Supermercado' es スーパー; コンビニ es más pequeño."
+        "explanation": "'Supermercado' es スーパー; コンビニ es más pequeño."
       },
       {
         "text": "Restaurante",
         "correct": false,
-        "reason": "'Restaurante' es レストラン."
+        "explanation": "'Restaurante' es レストラン."
       },
       {
         "text": "Cafetería",
         "correct": false,
-        "reason": "'Cafetería' es 喫茶店 o カフェ."
+        "explanation": "'Cafetería' es 喫茶店 o カフェ."
       }
     ]
   },
@@ -815,28 +759,26 @@
     "id": "U3C-029",
     "cat": "Katakana",
     "q": "¿Qué significa サラダ?",
-    "correct": "Ensalada",
-    "explanation": "サラダ viene del inglés 'salad'.",
     "opts": [
       {
         "text": "Ensalada",
         "correct": true,
-        "reason": "Correcta. Préstamo del inglés."
+        "explanation": "サラダ viene del inglés 'salad'. Correcta. Préstamo del inglés."
       },
       {
         "text": "Sopa",
         "correct": false,
-        "reason": "'Sopa' es スープ."
+        "explanation": "'Sopa' es スープ."
       },
       {
         "text": "Pescado",
         "correct": false,
-        "reason": "'Pescado' es 魚 (さかな)."
+        "explanation": "'Pescado' es 魚 (さかな)."
       },
       {
         "text": "Postre",
         "correct": false,
-        "reason": "'Postre' es デザート."
+        "explanation": "'Postre' es デザート."
       }
     ]
   },
@@ -844,28 +786,26 @@
     "id": "U3C-030",
     "cat": "Katakana",
     "q": "¿Qué significa チーズ?",
-    "correct": "Queso",
-    "explanation": "チーズ viene del inglés 'cheese'.",
     "opts": [
       {
         "text": "Queso",
         "correct": true,
-        "reason": "Correcta. Préstamo del inglés."
+        "explanation": "チーズ viene del inglés 'cheese'. Correcta. Préstamo del inglés."
       },
       {
         "text": "Leche",
         "correct": false,
-        "reason": "'Leche' es 牛乳 o ミルク."
+        "explanation": "'Leche' es 牛乳 o ミルク."
       },
       {
         "text": "Manteca",
         "correct": false,
-        "reason": "'Manteca' es バター."
+        "explanation": "'Manteca' es バター."
       },
       {
         "text": "Yogur",
         "correct": false,
-        "reason": "'Yogur' es ヨーグルト."
+        "explanation": "'Yogur' es ヨーグルト."
       }
     ]
   },
@@ -873,28 +813,26 @@
     "id": "U3C-031",
     "cat": "Katakana",
     "q": "¿Qué significa インターネット?",
-    "correct": "Internet",
-    "explanation": "インターネット es la transcripción del inglés 'internet'.",
     "opts": [
       {
         "text": "Internet",
         "correct": true,
-        "reason": "Correcta. Transcripción directa."
+        "explanation": "インターネット es la transcripción del inglés 'internet'. Correcta. Transcripción directa."
       },
       {
         "text": "Televisión",
         "correct": false,
-        "reason": "'Televisión' es テレビ."
+        "explanation": "'Televisión' es テレビ."
       },
       {
         "text": "Radio",
         "correct": false,
-        "reason": "'Radio' es ラジオ."
+        "explanation": "'Radio' es ラジオ."
       },
       {
         "text": "Teléfono",
         "correct": false,
-        "reason": "'Teléfono' es 電話 (でんわ)."
+        "explanation": "'Teléfono' es 電話 (でんわ)."
       }
     ]
   },
@@ -902,28 +840,26 @@
     "id": "U3C-032",
     "cat": "Katakana",
     "q": "¿Qué significa テレビ?",
-    "correct": "Televisión",
-    "explanation": "テレビ es abreviatura de テレビジョン ('television').",
     "opts": [
       {
         "text": "Televisión",
         "correct": true,
-        "reason": "Correcta. Abreviatura estándar."
+        "explanation": "テレビ es abreviatura de テレビジョン ('television'). Correcta. Abreviatura estándar."
       },
       {
         "text": "Internet",
         "correct": false,
-        "reason": "'Internet' es インターネット."
+        "explanation": "'Internet' es インターネット."
       },
       {
         "text": "Radio",
         "correct": false,
-        "reason": "'Radio' es ラジオ."
+        "explanation": "'Radio' es ラジオ."
       },
       {
         "text": "Teléfono",
         "correct": false,
-        "reason": "'Teléfono' es 電話."
+        "explanation": "'Teléfono' es 電話."
       }
     ]
   },
@@ -931,28 +867,26 @@
     "id": "U3C-033",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 買います?",
-    "correct": "Comprar",
-    "explanation": "買います (かいます) = 'comprar'. Verbo Grupo 1.",
     "opts": [
       {
         "text": "Comprar",
         "correct": true,
-        "reason": "Correcta. Verbo transaccional básico."
+        "explanation": "買います (かいます) = 'comprar'. Verbo Grupo 1. Correcta. Verbo transaccional básico."
       },
       {
         "text": "Vender",
         "correct": false,
-        "reason": "'Vender' es 売ります (うります)."
+        "explanation": "'Vender' es 売ります (うります)."
       },
       {
         "text": "Leer",
         "correct": false,
-        "reason": "'Leer' es 読みます."
+        "explanation": "'Leer' es 読みます."
       },
       {
         "text": "Escuchar",
         "correct": false,
-        "reason": "'Escuchar' es 聞きます."
+        "explanation": "'Escuchar' es 聞きます."
       }
     ]
   },
@@ -960,28 +894,26 @@
     "id": "U3C-034",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 聞きます?",
-    "correct": "Escuchar / preguntar",
-    "explanation": "聞きます (ききます) tiene doble significado: 'escuchar' (música, noticias) y 'preguntar' (a alguien).",
     "opts": [
       {
         "text": "Escuchar / preguntar",
         "correct": true,
-        "reason": "Correcta. Polisemia del verbo."
+        "explanation": "聞きます (ききます) tiene doble significado: 'escuchar' (música, noticias) y 'preguntar' (a alguien). Correcta. Polisemia del verbo."
       },
       {
         "text": "Hablar",
         "correct": false,
-        "reason": "'Hablar' es 話します (はなします)."
+        "explanation": "'Hablar' es 話します (はなします)."
       },
       {
         "text": "Leer",
         "correct": false,
-        "reason": "'Leer' es 読みます."
+        "explanation": "'Leer' es 読みます."
       },
       {
         "text": "Mirar",
         "correct": false,
-        "reason": "'Mirar' es 見ます."
+        "explanation": "'Mirar' es 見ます."
       }
     ]
   },
@@ -989,28 +921,26 @@
     "id": "U3C-035",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 働きます?",
-    "correct": "Trabajar",
-    "explanation": "働きます (はたらきます) = 'trabajar'. Verbo Grupo 1.",
     "opts": [
       {
         "text": "Trabajar",
         "correct": true,
-        "reason": "Correcta. Actividad laboral."
+        "explanation": "働きます (はたらきます) = 'trabajar'. Verbo Grupo 1. Correcta. Actividad laboral."
       },
       {
         "text": "Estudiar",
         "correct": false,
-        "reason": "'Estudiar' es 勉強します."
+        "explanation": "'Estudiar' es 勉強します."
       },
       {
         "text": "Descansar",
         "correct": false,
-        "reason": "'Descansar' es 休みます (やすみます)."
+        "explanation": "'Descansar' es 休みます (やすみます)."
       },
       {
         "text": "Caminar",
         "correct": false,
-        "reason": "'Caminar' es 歩きます (あるきます)."
+        "explanation": "'Caminar' es 歩きます (あるきます)."
       }
     ]
   },
@@ -1018,28 +948,26 @@
     "id": "U3C-036",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 読みます?",
-    "correct": "Leer",
-    "explanation": "読みます (よみます) = 'leer'. Se usa con libros, diarios, revistas, etc.",
     "opts": [
       {
         "text": "Leer",
         "correct": true,
-        "reason": "Correcta. Acción de lectura."
+        "explanation": "読みます (よみます) = 'leer'. Se usa con libros, diarios, revistas, etc. Correcta. Acción de lectura."
       },
       {
         "text": "Escribir",
         "correct": false,
-        "reason": "'Escribir' es 書きます (かきます)."
+        "explanation": "'Escribir' es 書きます (かきます)."
       },
       {
         "text": "Escuchar",
         "correct": false,
-        "reason": "'Escuchar' es 聞きます."
+        "explanation": "'Escuchar' es 聞きます."
       },
       {
         "text": "Comprar",
         "correct": false,
-        "reason": "'Comprar' es 買います."
+        "explanation": "'Comprar' es 買います."
       }
     ]
   },
@@ -1047,28 +975,26 @@
     "id": "U3C-037",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 起きます?",
-    "correct": "Levantarse",
-    "explanation": "起きます (おきます) = 'levantarse (de la cama)'. Verbo Grupo 2.",
     "opts": [
       {
         "text": "Levantarse",
         "correct": true,
-        "reason": "Correcta. Acción matutina."
+        "explanation": "起きます (おきます) = 'levantarse (de la cama)'. Verbo Grupo 2. Correcta. Acción matutina."
       },
       {
         "text": "Acostarse",
         "correct": false,
-        "reason": "'Acostarse' es 寝ます (ねます); acción opuesta."
+        "explanation": "'Acostarse' es 寝ます (ねます); acción opuesta."
       },
       {
         "text": "Sentarse",
         "correct": false,
-        "reason": "'Sentarse' es 座ります (すわります)."
+        "explanation": "'Sentarse' es 座ります (すわります)."
       },
       {
         "text": "Salir",
         "correct": false,
-        "reason": "'Salir' es 出ます (でます) o 出かけます."
+        "explanation": "'Salir' es 出ます (でます) o 出かけます."
       }
     ]
   },
@@ -1076,28 +1002,26 @@
     "id": "U3C-038",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 寝ます?",
-    "correct": "Acostarse / dormir",
-    "explanation": "寝ます (ねます) = 'acostarse/dormir'. Cubre tanto la acción de irse a la cama como el estado de dormir.",
     "opts": [
       {
         "text": "Acostarse / dormir",
         "correct": true,
-        "reason": "Correcta. Significado polisémico."
+        "explanation": "寝ます (ねます) = 'acostarse/dormir'. Cubre tanto la acción de irse a la cama como el estado de dormir. Correcta. Significado polisémico."
       },
       {
         "text": "Levantarse",
         "correct": false,
-        "reason": "'Levantarse' es 起きます; opuesto."
+        "explanation": "'Levantarse' es 起きます; opuesto."
       },
       {
         "text": "Descansar",
         "correct": false,
-        "reason": "'Descansar' es 休みます."
+        "explanation": "'Descansar' es 休みます."
       },
       {
         "text": "Sentarse",
         "correct": false,
-        "reason": "'Sentarse' es 座ります."
+        "explanation": "'Sentarse' es 座ります."
       }
     ]
   },
@@ -1105,28 +1029,26 @@
     "id": "U3C-039",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 勉強します?",
-    "correct": "Estudiar",
-    "explanation": "勉強 ('estudio') + します ('hacer') = 勉強します 'estudiar'. Verbo compuesto del Grupo 3.",
     "opts": [
       {
         "text": "Estudiar",
         "correct": true,
-        "reason": "Correcta. Verbo compuesto con する."
+        "explanation": "勉強 ('estudio') + します ('hacer') = 勉強します 'estudiar'. Verbo compuesto del Grupo 3. Correcta. Verbo compuesto con する."
       },
       {
         "text": "Trabajar",
         "correct": false,
-        "reason": "'Trabajar' es 働きます."
+        "explanation": "'Trabajar' es 働きます."
       },
       {
         "text": "Enseñar",
         "correct": false,
-        "reason": "'Enseñar' es 教えます (おしえます)."
+        "explanation": "'Enseñar' es 教えます (おしえます)."
       },
       {
         "text": "Practicar",
         "correct": false,
-        "reason": "'Practicar' es 練習します (れんしゅうします)."
+        "explanation": "'Practicar' es 練習します (れんしゅうします)."
       }
     ]
   },
@@ -1134,28 +1056,26 @@
     "id": "U3C-040",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 来ます?",
-    "correct": "Venir",
-    "explanation": "来ます (きます) = 'venir'. Verbo Grupo 3 (irregular junto con する).",
     "opts": [
       {
         "text": "Venir",
         "correct": true,
-        "reason": "Correcta. Movimiento hacia el hablante."
+        "explanation": "来ます (きます) = 'venir'. Verbo Grupo 3 (irregular junto con する). Correcta. Movimiento hacia el hablante."
       },
       {
         "text": "Ir",
         "correct": false,
-        "reason": "'Ir' es 行きます; movimiento opuesto."
+        "explanation": "'Ir' es 行きます; movimiento opuesto."
       },
       {
         "text": "Salir",
         "correct": false,
-        "reason": "'Salir' es 出ます."
+        "explanation": "'Salir' es 出ます."
       },
       {
         "text": "Entrar",
         "correct": false,
-        "reason": "'Entrar' es 入ります (はいります)."
+        "explanation": "'Entrar' es 入ります (はいります)."
       }
     ]
   },
@@ -1163,28 +1083,26 @@
     "id": "U3C-041",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 買います?",
-    "correct": "かいます",
-    "explanation": "買 (か, kun'yomi) + います = かいます.",
     "opts": [
       {
         "text": "かいます",
         "correct": true,
-        "reason": "Correcta. Kun'yomi del verbo."
+        "explanation": "買 (か, kun'yomi) + います = かいます. Correcta. Kun'yomi del verbo."
       },
       {
         "text": "はいります",
         "correct": false,
-        "reason": "はいります es 入ります ('entrar'), kanji distinto."
+        "explanation": "はいります es 入ります ('entrar'), kanji distinto."
       },
       {
         "text": "かえります",
         "correct": false,
-        "reason": "かえります es 帰ります ('volver')."
+        "explanation": "かえります es 帰ります ('volver')."
       },
       {
         "text": "かきます",
         "correct": false,
-        "reason": "かきます es 書きます ('escribir')."
+        "explanation": "かきます es 書きます ('escribir')."
       }
     ]
   },
@@ -1192,28 +1110,26 @@
     "id": "U3C-042",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 聞きます?",
-    "correct": "ききます",
-    "explanation": "聞 (き, kun'yomi) + きます = ききます.",
     "opts": [
       {
         "text": "ききます",
         "correct": true,
-        "reason": "Correcta. Kun'yomi del verbo."
+        "explanation": "聞 (き, kun'yomi) + きます = ききます. Correcta. Kun'yomi del verbo."
       },
       {
         "text": "きります",
         "correct": false,
-        "reason": "きります es 切ります ('cortar')."
+        "explanation": "きります es 切ります ('cortar')."
       },
       {
         "text": "きめます",
         "correct": false,
-        "reason": "きめます es 決めます ('decidir')."
+        "explanation": "きめます es 決めます ('decidir')."
       },
       {
         "text": "きかます",
         "correct": false,
-        "reason": "Lectura inventada."
+        "explanation": "Lectura inventada."
       }
     ]
   },
@@ -1221,28 +1137,26 @@
     "id": "U3C-043",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 働きます?",
-    "correct": "はたらきます",
-    "explanation": "働 (はたら, kun'yomi) + きます = はたらきます.",
     "opts": [
       {
         "text": "はたらきます",
         "correct": true,
-        "reason": "Correcta. Kun'yomi del verbo."
+        "explanation": "働 (はたら, kun'yomi) + きます = はたらきます. Correcta. Kun'yomi del verbo."
       },
       {
         "text": "うごきます",
         "correct": false,
-        "reason": "うごきます es 動きます ('moverse')."
+        "explanation": "うごきます es 動きます ('moverse')."
       },
       {
         "text": "あるきます",
         "correct": false,
-        "reason": "あるきます es 歩きます ('caminar')."
+        "explanation": "あるきます es 歩きます ('caminar')."
       },
       {
         "text": "たたきます",
         "correct": false,
-        "reason": "たたきます es 叩きます ('golpear')."
+        "explanation": "たたきます es 叩きます ('golpear')."
       }
     ]
   },
@@ -1250,28 +1164,26 @@
     "id": "U3C-044",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 読みます?",
-    "correct": "よみます",
-    "explanation": "読 (よ, kun'yomi) + みます = よみます.",
     "opts": [
       {
         "text": "よみます",
         "correct": true,
-        "reason": "Correcta. Kun'yomi del verbo."
+        "explanation": "読 (よ, kun'yomi) + みます = よみます. Correcta. Kun'yomi del verbo."
       },
       {
         "text": "のみます",
         "correct": false,
-        "reason": "のみます es 飲みます ('beber'). Confusión fonética común."
+        "explanation": "のみます es 飲みます ('beber'). Confusión fonética común."
       },
       {
         "text": "やすみます",
         "correct": false,
-        "reason": "やすみます es 休みます ('descansar')."
+        "explanation": "やすみます es 休みます ('descansar')."
       },
       {
         "text": "よびます",
         "correct": false,
-        "reason": "よびます es 呼びます ('llamar')."
+        "explanation": "よびます es 呼びます ('llamar')."
       }
     ]
   },
@@ -1279,28 +1191,26 @@
     "id": "U3C-045",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 起きます?",
-    "correct": "おきます",
-    "explanation": "起 (お, kun'yomi) + きます = おきます. Verbo Grupo 2.",
     "opts": [
       {
         "text": "おきます",
         "correct": true,
-        "reason": "Correcta. Kun'yomi del verbo."
+        "explanation": "起 (お, kun'yomi) + きます = おきます. Verbo Grupo 2. Correcta. Kun'yomi del verbo."
       },
       {
         "text": "おくります",
         "correct": false,
-        "reason": "おくります es 送ります ('enviar')."
+        "explanation": "おくります es 送ります ('enviar')."
       },
       {
         "text": "おこります",
         "correct": false,
-        "reason": "おこります es 怒ります ('enojarse')."
+        "explanation": "おこります es 怒ります ('enojarse')."
       },
       {
         "text": "おきます",
         "correct": false,
-        "reason": "Duplicado de la correcta (error en original)."
+        "explanation": "Duplicado de la correcta (error en original)."
       }
     ]
   },
@@ -1308,28 +1218,26 @@
     "id": "U3C-046",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 寝ます?",
-    "correct": "ねます",
-    "explanation": "寝 (ね, kun'yomi) + ます = ねます. Verbo Grupo 2.",
     "opts": [
       {
         "text": "ねます",
         "correct": true,
-        "reason": "Correcta. Kun'yomi del verbo."
+        "explanation": "寝 (ね, kun'yomi) + ます = ねます. Verbo Grupo 2. Correcta. Kun'yomi del verbo."
       },
       {
         "text": "やすみます",
         "correct": false,
-        "reason": "やすみます es 休みます ('descansar')."
+        "explanation": "やすみます es 休みます ('descansar')."
       },
       {
         "text": "ねりまます",
         "correct": false,
-        "reason": "Lectura inventada."
+        "explanation": "Lectura inventada."
       },
       {
         "text": "しんます",
         "correct": false,
-        "reason": "しん es on'yomi de 寝; no se usa en el verbo."
+        "explanation": "しん es on'yomi de 寝; no se usa en el verbo."
       }
     ]
   },
@@ -1337,28 +1245,26 @@
     "id": "U3C-047",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 来ます?",
-    "correct": "きます",
-    "explanation": "来 tiene lectura irregular como verbo: き (no くる en forma -ます). Verbo Grupo 3 irregular.",
     "opts": [
       {
         "text": "きます",
         "correct": true,
-        "reason": "Correcta. Lectura irregular del Grupo 3."
+        "explanation": "来 tiene lectura irregular como verbo: き (no くる en forma -ます). Verbo Grupo 3 irregular. Correcta. Lectura irregular del Grupo 3."
       },
       {
         "text": "くます",
         "correct": false,
-        "reason": "く es la raíz del diccionario (くる) pero en forma -ます se lee き."
+        "explanation": "く es la raíz del diccionario (くる) pero en forma -ます se lee き."
       },
       {
         "text": "らいます",
         "correct": false,
-        "reason": "らい es on'yomi de 来 en compuestos (来年 らいねん), no en el verbo."
+        "explanation": "らい es on'yomi de 来 en compuestos (来年 らいねん), no en el verbo."
       },
       {
         "text": "こます",
         "correct": false,
-        "reason": "こ es lectura de 来 en otros contextos (来る), no con ます."
+        "explanation": "こ es lectura de 来 en otros contextos (来る), no con ます."
       }
     ]
   },
@@ -1366,23 +1272,21 @@
     "id": "U3C-048",
     "cat": "Verbos",
     "q": "¿A qué grupo pertenece 買います［買う］?",
-    "correct": "Grupo 1",
-    "explanation": "買う termina en う (no en -える/-いる). Es godan (Grupo 1).",
     "opts": [
       {
         "text": "Grupo 1",
         "correct": true,
-        "reason": "Correcta. Terminación -う = Grupo 1."
+        "explanation": "買う termina en う (no en -える/-いる). Es godan (Grupo 1). Correcta. Terminación -う = Grupo 1."
       },
       {
         "text": "Grupo 2",
         "correct": false,
-        "reason": "Grupo 2 serían verbos -える/-いる como 食べる, 見る."
+        "explanation": "Grupo 2 serían verbos -える/-いる como 食べる, 見る."
       },
       {
         "text": "Grupo 3 (irregular)",
         "correct": false,
-        "reason": "Solo する y 来る son Grupo 3."
+        "explanation": "Solo する y 来る son Grupo 3."
       }
     ]
   },
@@ -1390,23 +1294,21 @@
     "id": "U3C-049",
     "cat": "Verbos",
     "q": "¿A qué grupo pertenece 聞きます［聞く］?",
-    "correct": "Grupo 1",
-    "explanation": "聞く termina en く. Es godan (Grupo 1).",
     "opts": [
       {
         "text": "Grupo 1",
         "correct": true,
-        "reason": "Correcta. Terminación -く = Grupo 1."
+        "explanation": "聞く termina en く. Es godan (Grupo 1). Correcta. Terminación -く = Grupo 1."
       },
       {
         "text": "Grupo 2",
         "correct": false,
-        "reason": "Grupo 2 serían -える/-いる."
+        "explanation": "Grupo 2 serían -える/-いる."
       },
       {
         "text": "Grupo 3 (irregular)",
         "correct": false,
-        "reason": "Solo する y 来る."
+        "explanation": "Solo する y 来る."
       }
     ]
   },
@@ -1414,23 +1316,21 @@
     "id": "U3C-050",
     "cat": "Verbos",
     "q": "¿A qué grupo pertenece 働きます［働く］?",
-    "correct": "Grupo 1",
-    "explanation": "働く termina en く. Es godan (Grupo 1).",
     "opts": [
       {
         "text": "Grupo 1",
         "correct": true,
-        "reason": "Correcta. Terminación -く = Grupo 1."
+        "explanation": "働く termina en く. Es godan (Grupo 1). Correcta. Terminación -く = Grupo 1."
       },
       {
         "text": "Grupo 2",
         "correct": false,
-        "reason": "Grupo 2 serían -える/-いる."
+        "explanation": "Grupo 2 serían -える/-いる."
       },
       {
         "text": "Grupo 3 (irregular)",
         "correct": false,
-        "reason": "Solo する y 来る."
+        "explanation": "Solo する y 来る."
       }
     ]
   },
@@ -1438,23 +1338,21 @@
     "id": "U3C-051",
     "cat": "Verbos",
     "q": "¿A qué grupo pertenece 読みます［読む］?",
-    "correct": "Grupo 1",
-    "explanation": "読む termina en む. Es godan (Grupo 1).",
     "opts": [
       {
         "text": "Grupo 1",
         "correct": true,
-        "reason": "Correcta. Terminación -む = Grupo 1."
+        "explanation": "読む termina en む. Es godan (Grupo 1). Correcta. Terminación -む = Grupo 1."
       },
       {
         "text": "Grupo 2",
         "correct": false,
-        "reason": "Grupo 2 serían -える/-いる."
+        "explanation": "Grupo 2 serían -える/-いる."
       },
       {
         "text": "Grupo 3 (irregular)",
         "correct": false,
-        "reason": "Solo する y 来る."
+        "explanation": "Solo する y 来る."
       }
     ]
   },
@@ -1462,23 +1360,21 @@
     "id": "U3C-052",
     "cat": "Verbos",
     "q": "¿A qué grupo pertenece 起きます［起きる］?",
-    "correct": "Grupo 2",
-    "explanation": "起きる termina en -きる (-いる). Es ichidan (Grupo 2).",
     "opts": [
       {
         "text": "Grupo 2",
         "correct": true,
-        "reason": "Correcta. Terminación -きる = Grupo 2."
+        "explanation": "起きる termina en -きる (-いる). Es ichidan (Grupo 2). Correcta. Terminación -きる = Grupo 2."
       },
       {
         "text": "Grupo 1",
         "correct": false,
-        "reason": "Aunque -いる a veces es Grupo 1, 起きる es confirmado Grupo 2."
+        "explanation": "Aunque -いる a veces es Grupo 1, 起きる es confirmado Grupo 2."
       },
       {
         "text": "Grupo 3 (irregular)",
         "correct": false,
-        "reason": "Solo する y 来る."
+        "explanation": "Solo する y 来る."
       }
     ]
   },
@@ -1486,23 +1382,21 @@
     "id": "U3C-053",
     "cat": "Verbos",
     "q": "¿A qué grupo pertenece 寝ます［寝る］?",
-    "correct": "Grupo 2",
-    "explanation": "寝る termina en -ねる (-える). Es ichidan (Grupo 2).",
     "opts": [
       {
         "text": "Grupo 2",
         "correct": true,
-        "reason": "Correcta. Terminación -える = Grupo 2."
+        "explanation": "寝る termina en -ねる (-える). Es ichidan (Grupo 2). Correcta. Terminación -える = Grupo 2."
       },
       {
         "text": "Grupo 1",
         "correct": false,
-        "reason": "寝る es Grupo 2 confirmado."
+        "explanation": "寝る es Grupo 2 confirmado."
       },
       {
         "text": "Grupo 3 (irregular)",
         "correct": false,
-        "reason": "Solo する y 来る."
+        "explanation": "Solo する y 来る."
       }
     ]
   },
@@ -1510,23 +1404,21 @@
     "id": "U3C-054",
     "cat": "Verbos",
     "q": "¿A qué grupo pertenece 勉強します［勉強する］?",
-    "correct": "Grupo 3 (irregular)",
-    "explanation": "勉強する es compuesto de [sustantivo]+する. する es Grupo 3 irregular.",
     "opts": [
       {
         "text": "Grupo 3 (irregular)",
         "correct": true,
-        "reason": "Correcta. する siempre es Grupo 3."
+        "explanation": "勉強する es compuesto de [sustantivo]+する. する es Grupo 3 irregular. Correcta. する siempre es Grupo 3."
       },
       {
         "text": "Grupo 1",
         "correct": false,
-        "reason": "する no es godan."
+        "explanation": "する no es godan."
       },
       {
         "text": "Grupo 2",
         "correct": false,
-        "reason": "する no es ichidan."
+        "explanation": "する no es ichidan."
       }
     ]
   },
@@ -1534,23 +1426,21 @@
     "id": "U3C-055",
     "cat": "Verbos",
     "q": "¿A qué grupo pertenece 来ます［来る］?",
-    "correct": "Grupo 3 (irregular)",
-    "explanation": "来る (くる) es el otro verbo irregular junto con する. Grupo 3.",
     "opts": [
       {
         "text": "Grupo 3 (irregular)",
         "correct": true,
-        "reason": "Correcta. Uno de los dos irregulares."
+        "explanation": "来る (くる) es el otro verbo irregular junto con する. Grupo 3. Correcta. Uno de los dos irregulares."
       },
       {
         "text": "Grupo 1",
         "correct": false,
-        "reason": "来る no es godan."
+        "explanation": "来る no es godan."
       },
       {
         "text": "Grupo 2",
         "correct": false,
-        "reason": "来る no es ichidan."
+        "explanation": "来る no es ichidan."
       }
     ]
   },
@@ -1558,28 +1448,26 @@
     "id": "U3C-056",
     "cat": "Verbos",
     "q": "En la sección どんな毎日, Vます se usa para expresar:",
-    "correct": "Hábitos y rutinas",
-    "explanation": "En contexto de rutinas diarias, la forma -ます expresa acciones habituales que se repiten regularmente.",
     "opts": [
       {
         "text": "Hábitos y rutinas",
         "correct": true,
-        "reason": "Correcta. Función principal en este contexto."
+        "explanation": "En contexto de rutinas diarias, la forma -ます expresa acciones habituales que se repiten regularmente. Correcta. Función principal en este contexto."
       },
       {
         "text": "Solo planes futuros",
         "correct": false,
-        "reason": "-ます también expresa planes, pero en esta sección el foco es hábitos."
+        "explanation": "-ます también expresa planes, pero en esta sección el foco es hábitos."
       },
       {
         "text": "Solo acciones pasadas",
         "correct": false,
-        "reason": "Pasado es -ました, no -ます."
+        "explanation": "Pasado es -ました, no -ます."
       },
       {
         "text": "Deseos",
         "correct": false,
-        "reason": "Deseos se expresan con -たいです, no con -ます."
+        "explanation": "Deseos se expresan con -たいです, no con -ます."
       }
     ]
   },
@@ -1587,28 +1475,26 @@
     "id": "U3C-057",
     "cat": "Verbos",
     "q": "¿Cuál es la forma negativa de 起きます?",
-    "correct": "起きません",
-    "explanation": "ます → ません para negar. 起きません = 'no me levanto'.",
     "opts": [
       {
         "text": "起きません",
         "correct": true,
-        "reason": "Correcta. Patrón estándar Vません."
+        "explanation": "ます → ません para negar. 起きません = 'no me levanto'. Correcta. Patrón estándar Vません."
       },
       {
         "text": "起きないます",
         "correct": false,
-        "reason": "Mezcla incorrecta de forma plana + ます."
+        "explanation": "Mezcla incorrecta de forma plana + ます."
       },
       {
         "text": "起きますない",
         "correct": false,
-        "reason": "ない no va después de ます."
+        "explanation": "ない no va después de ます."
       },
       {
         "text": "起きましぇん",
         "correct": false,
-        "reason": "Transcripción inventada; la sílaba correcta es せ."
+        "explanation": "Transcripción inventada; la sílaba correcta es せ."
       }
     ]
   },
@@ -1616,28 +1502,26 @@
     "id": "U3C-058",
     "cat": "Verbos",
     "q": "¿Cuál es la forma negativa de 読みます?",
-    "correct": "読みません",
-    "explanation": "ます → ません. 読みません = 'no leo'.",
     "opts": [
       {
         "text": "読みません",
         "correct": true,
-        "reason": "Correcta. Patrón estándar."
+        "explanation": "ます → ません. 読みません = 'no leo'. Correcta. Patrón estándar."
       },
       {
         "text": "読まません",
         "correct": false,
-        "reason": "ま no se inserta; ません reemplaza a ます directamente."
+        "explanation": "ま no se inserta; ません reemplaza a ます directamente."
       },
       {
         "text": "読みないます",
         "correct": false,
-        "reason": "Mezcla incorrecta."
+        "explanation": "Mezcla incorrecta."
       },
       {
         "text": "読みますない",
         "correct": false,
-        "reason": "ない no va después de ます."
+        "explanation": "ない no va después de ます."
       }
     ]
   },
@@ -1645,28 +1529,26 @@
     "id": "U3C-059",
     "cat": "Verbos",
     "q": "¿Cuál es la forma negativa de 買います?",
-    "correct": "買いません",
-    "explanation": "ます → ません. 買いません = 'no compro'.",
     "opts": [
       {
         "text": "買いません",
         "correct": true,
-        "reason": "Correcta. Patrón estándar."
+        "explanation": "ます → ません. 買いません = 'no compro'. Correcta. Patrón estándar."
       },
       {
         "text": "買わません",
         "correct": false,
-        "reason": "わ es la raíz negativa plana (買わない) pero en -ます se mantiene い: 買います → 買いません."
+        "explanation": "わ es la raíz negativa plana (買わない) pero en -ます se mantiene い: 買います → 買いません."
       },
       {
         "text": "買いないます",
         "correct": false,
-        "reason": "Mezcla incorrecta."
+        "explanation": "Mezcla incorrecta."
       },
       {
         "text": "買いますない",
         "correct": false,
-        "reason": "ない no va después de ます."
+        "explanation": "ない no va después de ます."
       }
     ]
   },
@@ -1674,28 +1556,26 @@
     "id": "U3C-060",
     "cat": "Verbos",
     "q": "¿Cuál es la forma negativa de 寝ます?",
-    "correct": "寝ません",
-    "explanation": "ます → ません. 寝ません = 'no me acuesto/no duermo'.",
     "opts": [
       {
         "text": "寝ません",
         "correct": true,
-        "reason": "Correcta. Patrón estándar."
+        "explanation": "ます → ません. 寝ません = 'no me acuesto/no duermo'. Correcta. Patrón estándar."
       },
       {
         "text": "寝ないます",
         "correct": false,
-        "reason": "Mezcla incorrecta."
+        "explanation": "Mezcla incorrecta."
       },
       {
         "text": "寝ますない",
         "correct": false,
-        "reason": "ない no va después de ます."
+        "explanation": "ない no va después de ます."
       },
       {
         "text": "寝なません",
         "correct": false,
-        "reason": "なま no se inserta; ません reemplaza directamente."
+        "explanation": "なま no se inserta; ません reemplaza directamente."
       }
     ]
   },
@@ -1703,28 +1583,26 @@
     "id": "U3C-061",
     "cat": "Partículas",
     "q": "En '毎朝６時に起きます', ¿qué indica la partícula に?",
-    "correct": "El momento puntual de la acción",
-    "explanation": "に marca un punto temporal específico. 6時に = 'a las 6'. Se usa con horas, días, fechas. No se usa con 毎日, 朝, 夜, etc.",
     "opts": [
       {
         "text": "El momento puntual de la acción",
         "correct": true,
-        "reason": "Correcta. Función temporal de に."
+        "explanation": "に marca un punto temporal específico. 6時に = 'a las 6'. Se usa con horas, días, fechas. No se usa con 毎日, 朝, 夜, etc. Correcta. Función temporal de に."
       },
       {
         "text": "El destino",
         "correct": false,
-        "reason": "Destino es へ o に con verbos de movimiento; acá marca tiempo."
+        "explanation": "Destino es へ o に con verbos de movimiento; acá marca tiempo."
       },
       {
         "text": "El lugar de la acción",
         "correct": false,
-        "reason": "Lugar de acción es で."
+        "explanation": "Lugar de acción es で."
       },
       {
         "text": "El objeto directo",
         "correct": false,
-        "reason": "Objeto directo es を."
+        "explanation": "Objeto directo es を."
       }
     ]
   },
@@ -1732,28 +1610,26 @@
     "id": "U3C-062",
     "cat": "Partículas",
     "q": "¿Cuál es correcta? '7時___朝ご飯を食べます'",
-    "correct": "に",
-    "explanation": "7時 es hora puntual → requiere に. 7時に = 'a las 7'.",
     "opts": [
       {
         "text": "に",
         "correct": true,
-        "reason": "Correcta. Hora puntual."
+        "explanation": "7時 es hora puntual → requiere に. 7時に = 'a las 7'. Correcta. Hora puntual."
       },
       {
         "text": "を",
         "correct": false,
-        "reason": "を marca objeto directo, no tiempo."
+        "explanation": "を marca objeto directo, no tiempo."
       },
       {
         "text": "で",
         "correct": false,
-        "reason": "で marca lugar de acción, no tiempo."
+        "explanation": "で marca lugar de acción, no tiempo."
       },
       {
         "text": "へ",
         "correct": false,
-        "reason": "へ marca destino, no tiempo."
+        "explanation": "へ marca destino, no tiempo."
       }
     ]
   },
@@ -1761,28 +1637,26 @@
     "id": "U3C-063",
     "cat": "Partículas",
     "q": "¿Se usa に con 毎朝? Ejemplo: '毎朝___起きます'",
-    "correct": "No, con 毎朝 no se usa に",
-    "explanation": "毎朝, 毎日, 毎晩, 朝, 夜, 今日 son adverbios temporales que NO llevan に. Ya marcan tiempo por sí mismos.",
     "opts": [
       {
         "text": "No, con 毎朝 no se usa に",
         "correct": true,
-        "reason": "Correcta. Regla específica de estos adverbios."
+        "explanation": "毎朝, 毎日, 毎晩, 朝, 夜, 今日 son adverbios temporales que NO llevan に. Ya marcan tiempo por sí mismos. Correcta. Regla específica de estos adverbios."
       },
       {
         "text": "Sí, siempre se necesita に",
         "correct": false,
-        "reason": "Falso para este grupo de palabras."
+        "explanation": "Falso para este grupo de palabras."
       },
       {
         "text": "Solo a veces, depende del verbo",
         "correct": false,
-        "reason": "No depende del verbo sino de la expresión temporal."
+        "explanation": "No depende del verbo sino de la expresión temporal."
       },
       {
         "text": "Se usa を en su lugar",
         "correct": false,
-        "reason": "を no marca tiempo."
+        "explanation": "を no marca tiempo."
       }
     ]
   },
@@ -1790,28 +1664,26 @@
     "id": "U3C-064",
     "cat": "Partículas",
     "q": "En '会社で働きます', ¿qué indica で?",
-    "correct": "El lugar donde ocurre la acción",
-    "explanation": "で marca el LUGAR donde se realiza una acción. 会社で = 'en la empresa (donde trabajo)'.",
     "opts": [
       {
         "text": "El lugar donde ocurre la acción",
         "correct": true,
-        "reason": "Correcta. Función de で con acción."
+        "explanation": "で marca el LUGAR donde se realiza una acción. 会社で = 'en la empresa (donde trabajo)'. Correcta. Función de で con acción."
       },
       {
         "text": "El destino adonde va",
         "correct": false,
-        "reason": "Destino es へ."
+        "explanation": "Destino es へ."
       },
       {
         "text": "El objeto de la acción",
         "correct": false,
-        "reason": "Objeto es を."
+        "explanation": "Objeto es を."
       },
       {
         "text": "El momento de la acción",
         "correct": false,
-        "reason": "Momento es に."
+        "explanation": "Momento es に."
       }
     ]
   },
@@ -1819,28 +1691,26 @@
     "id": "U3C-065",
     "cat": "Partículas",
     "q": "¿Cuál es correcta? 'うち___テレビを見ます'",
-    "correct": "で",
-    "explanation": "見る (ver) es acción; el lugar donde se ve la tele se marca con で. うちで = 'en casa'.",
     "opts": [
       {
         "text": "で",
         "correct": true,
-        "reason": "Correcta. Lugar de acción."
+        "explanation": "見る (ver) es acción; el lugar donde se ve la tele se marca con で. うちで = 'en casa'. Correcta. Lugar de acción."
       },
       {
         "text": "へ",
         "correct": false,
-        "reason": "へ marca destino, no lugar de acción."
+        "explanation": "へ marca destino, no lugar de acción."
       },
       {
         "text": "に",
         "correct": false,
-        "reason": "に no marca lugar de acción con verbos de este tipo."
+        "explanation": "に no marca lugar de acción con verbos de este tipo."
       },
       {
         "text": "を",
         "correct": false,
-        "reason": "を ya marca テレビ (objeto); no marca lugar."
+        "explanation": "を ya marca テレビ (objeto); no marca lugar."
       }
     ]
   },
@@ -1848,28 +1718,26 @@
     "id": "U3C-066",
     "cat": "Partículas",
     "q": "¿Cuál es correcta? 'コンビニ___牛乳を買います'",
-    "correct": "で",
-    "explanation": "買う (comprar) es acción; el lugar donde se compra se marca con で. コンビニで = 'en el kiosco'.",
     "opts": [
       {
         "text": "で",
         "correct": true,
-        "reason": "Correcta. Lugar de la acción de comprar."
+        "explanation": "買う (comprar) es acción; el lugar donde se compra se marca con で. コンビニで = 'en el kiosco'. Correcta. Lugar de la acción de comprar."
       },
       {
         "text": "へ",
         "correct": false,
-        "reason": "へ marca destino de movimiento."
+        "explanation": "へ marca destino de movimiento."
       },
       {
         "text": "を",
         "correct": false,
-        "reason": "を ya marca 牛乳 (objeto)."
+        "explanation": "を ya marca 牛乳 (objeto)."
       },
       {
         "text": "に",
         "correct": false,
-        "reason": "に no marca lugar de acción aquí."
+        "explanation": "に no marca lugar de acción aquí."
       }
     ]
   },
@@ -1877,28 +1745,26 @@
     "id": "U3C-067",
     "cat": "Partículas",
     "q": "En '新聞を読みます', ¿qué indica を?",
-    "correct": "El objeto directo de la acción",
-    "explanation": "を marca lo que se lee (新聞 = diario). Es el OBJETO DIRECTO del verbo 読む (leer).",
     "opts": [
       {
         "text": "El objeto directo de la acción",
         "correct": true,
-        "reason": "Correcta. Función de を."
+        "explanation": "を marca lo que se lee (新聞 = diario). Es el OBJETO DIRECTO del verbo 読む (leer). Correcta. Función de を."
       },
       {
         "text": "El lugar de la acción",
         "correct": false,
-        "reason": "Lugar es で."
+        "explanation": "Lugar es で."
       },
       {
         "text": "El destino",
         "correct": false,
-        "reason": "Destino es へ."
+        "explanation": "Destino es へ."
       },
       {
         "text": "El tiempo",
         "correct": false,
-        "reason": "Tiempo es に."
+        "explanation": "Tiempo es に."
       }
     ]
   },
@@ -1906,28 +1772,26 @@
     "id": "U3C-068",
     "cat": "Partículas",
     "q": "¿Cuál es correcta? '朝ご飯___食べます'",
-    "correct": "を",
-    "explanation": "朝ご飯 es OBJETO de 食べる (comer). Se marca con を.",
     "opts": [
       {
         "text": "を",
         "correct": true,
-        "reason": "Correcta. Objeto directo."
+        "explanation": "朝ご飯 es OBJETO de 食べる (comer). Se marca con を. Correcta. Objeto directo."
       },
       {
         "text": "で",
         "correct": false,
-        "reason": "で marca lugar, no objeto."
+        "explanation": "で marca lugar, no objeto."
       },
       {
         "text": "に",
         "correct": false,
-        "reason": "に marca tiempo o destino."
+        "explanation": "に marca tiempo o destino."
       },
       {
         "text": "へ",
         "correct": false,
-        "reason": "へ marca destino de movimiento."
+        "explanation": "へ marca destino de movimiento."
       }
     ]
   },
@@ -1935,28 +1799,26 @@
     "id": "U3C-069",
     "cat": "Partículas",
     "q": "¿Cuál es correcta? 'CD___聞きます'",
-    "correct": "を",
-    "explanation": "CD es OBJETO de 聞く (escuchar). Se marca con を.",
     "opts": [
       {
         "text": "を",
         "correct": true,
-        "reason": "Correcta. Objeto directo."
+        "explanation": "CD es OBJETO de 聞く (escuchar). Se marca con を. Correcta. Objeto directo."
       },
       {
         "text": "で",
         "correct": false,
-        "reason": "で marca lugar, no objeto."
+        "explanation": "で marca lugar, no objeto."
       },
       {
         "text": "に",
         "correct": false,
-        "reason": "に marca tiempo o destino."
+        "explanation": "に marca tiempo o destino."
       },
       {
         "text": "が",
         "correct": false,
-        "reason": "が marca sujeto, no objeto."
+        "explanation": "が marca sujeto, no objeto."
       }
     ]
   },
@@ -1964,28 +1826,26 @@
     "id": "U3C-070",
     "cat": "Gramática",
     "q": "¿Qué significa '何も買いません'?",
-    "correct": "No compro nada",
-    "explanation": "Patrón 何も + Vません = 'no V nada'. も convierte 何 en universalidad negada.",
     "opts": [
       {
         "text": "No compro nada",
         "correct": true,
-        "reason": "Correcta. Universalidad negada."
+        "explanation": "Patrón 何も + Vません = 'no V nada'. も convierte 何 en universalidad negada. Correcta. Universalidad negada."
       },
       {
         "text": "Compro algo",
         "correct": false,
-        "reason": "'Algo' sería 何か + afirmativo."
+        "explanation": "'Algo' sería 何か + afirmativo."
       },
       {
         "text": "¿Qué compro?",
         "correct": false,
-        "reason": "Pregunta sería 何を買いますか (con を y か)."
+        "explanation": "Pregunta sería 何を買いますか (con を y か)."
       },
       {
         "text": "Compro todo",
         "correct": false,
-        "reason": "'Todo' sería 全部買います."
+        "explanation": "'Todo' sería 全部買います."
       }
     ]
   },
@@ -1993,28 +1853,26 @@
     "id": "U3C-071",
     "cat": "Gramática",
     "q": "¿Qué significa '何も食べません'?",
-    "correct": "No como nada",
-    "explanation": "Mismo patrón: 何も + 食べません = 'no como nada'.",
     "opts": [
       {
         "text": "No como nada",
         "correct": true,
-        "reason": "Correcta. Universalidad negada."
+        "explanation": "Mismo patrón: 何も + 食べません = 'no como nada'. Correcta. Universalidad negada."
       },
       {
         "text": "Como algo",
         "correct": false,
-        "reason": "'Algo' sería 何か食べます."
+        "explanation": "'Algo' sería 何か食べます."
       },
       {
         "text": "¿Qué como?",
         "correct": false,
-        "reason": "Pregunta sería 何を食べますか."
+        "explanation": "Pregunta sería 何を食べますか."
       },
       {
         "text": "Como todo",
         "correct": false,
-        "reason": "'Todo' sería 全部食べます."
+        "explanation": "'Todo' sería 全部食べます."
       }
     ]
   },
@@ -2022,28 +1880,26 @@
     "id": "U3C-072",
     "cat": "Gramática",
     "q": "¿Cómo se dice 'No leo nada'?",
-    "correct": "何も読みません",
-    "explanation": "Patrón: 何も + 読みません. も reemplaza a を en negación total.",
     "opts": [
       {
         "text": "何も読みません",
         "correct": true,
-        "reason": "Correcta. Patrón estándar."
+        "explanation": "Patrón: 何も + 読みません. も reemplaza a を en negación total. Correcta. Patrón estándar."
       },
       {
         "text": "何を読みません",
         "correct": false,
-        "reason": "を + negativo no expresa 'nada'; solo niega una acción con objeto indefinido."
+        "explanation": "を + negativo no expresa 'nada'; solo niega una acción con objeto indefinido."
       },
       {
         "text": "何も読みます",
         "correct": false,
-        "reason": "Afirmativo; 何も + afirmativo es agramatical/incoherente."
+        "explanation": "Afirmativo; 何も + afirmativo es agramatical/incoherente."
       },
       {
         "text": "何か読みません",
         "correct": false,
-        "reason": "何か = 'algo'; con negativo sería '¿no lees algo?', no 'nada'."
+        "explanation": "何か = 'algo'; con negativo sería '¿no lees algo?', no 'nada'."
       }
     ]
   },
@@ -2051,28 +1907,26 @@
     "id": "U3C-073",
     "cat": "Gramática",
     "q": "¿Qué significa 'どこへも行きません'?",
-    "correct": "No voy a ningún lado",
-    "explanation": "Patrón: どこへも + 行きません. も universaliza la negación del destino.",
     "opts": [
       {
         "text": "No voy a ningún lado",
         "correct": true,
-        "reason": "Correcta. Universalidad negada de lugar."
+        "explanation": "Patrón: どこへも + 行きません. も universaliza la negación del destino. Correcta. Universalidad negada de lugar."
       },
       {
         "text": "Voy a algún lado",
         "correct": false,
-        "reason": "'A algún lado' sería どこかへ行きます (afirmativo)."
+        "explanation": "'A algún lado' sería どこかへ行きます (afirmativo)."
       },
       {
         "text": "¿A dónde voy?",
         "correct": false,
-        "reason": "Pregunta sería どこへ行きますか."
+        "explanation": "Pregunta sería どこへ行きますか."
       },
       {
         "text": "Voy a todos lados",
         "correct": false,
-        "reason": "'A todos lados' sería どこへでも行きます."
+        "explanation": "'A todos lados' sería どこへでも行きます."
       }
     ]
   },
@@ -2080,28 +1934,26 @@
     "id": "U3C-074",
     "cat": "Gramática",
     "q": "¿Cómo se dice 'No voy a ninguna parte' en japonés?",
-    "correct": "どこへも行きません",
-    "explanation": "Estructura fija: どこへも + Vません para negación universal de lugar.",
     "opts": [
       {
         "text": "どこへも行きません",
         "correct": true,
-        "reason": "Correcta. Estructura fija."
+        "explanation": "Estructura fija: どこへも + Vません para negación universal de lugar. Correcta. Estructura fija."
       },
       {
         "text": "どこを行きません",
         "correct": false,
-        "reason": "を no marca destino con 行く; y falta も."
+        "explanation": "を no marca destino con 行く; y falta も."
       },
       {
         "text": "どこへ行きません",
         "correct": false,
-        "reason": "Sin も no expresa 'ninguna parte'."
+        "explanation": "Sin も no expresa 'ninguna parte'."
       },
       {
         "text": "どこも行きます",
         "correct": false,
-        "reason": "Afirmativo; además falta へ."
+        "explanation": "Afirmativo; además falta へ."
       }
     ]
   },
@@ -2109,28 +1961,26 @@
     "id": "U3C-075",
     "cat": "Gramática",
     "q": "¿Qué significa 'NやNなど'?",
-    "correct": "N y N, etc. (lista no exhaustiva)",
-    "explanation": "や une sustantivos en lista ABIERTA (hay más que no se mencionan). Opuesto a と (lista cerrada). など ('etcétera') refuerza la apertura.",
     "opts": [
       {
         "text": "N y N, etc. (lista no exhaustiva)",
         "correct": true,
-        "reason": "Correcta. Lista abierta con や."
+        "explanation": "や une sustantivos en lista ABIERTA (hay más que no se mencionan). Opuesto a と (lista cerrada). など ('etcétera') refuerza la apertura. Correcta. Lista abierta con や."
       },
       {
         "text": "N y N (lista completa)",
         "correct": false,
-        "reason": "Lista completa es con と, no や."
+        "explanation": "Lista completa es con と, no や."
       },
       {
         "text": "N o N (una de las dos)",
         "correct": false,
-        "reason": "'O' (alternativa) es か, no や."
+        "explanation": "'O' (alternativa) es か, no や."
       },
       {
         "text": "N con N (juntas)",
         "correct": false,
-        "reason": "'Con' sería と o で, no や."
+        "explanation": "'Con' sería と o で, no や."
       }
     ]
   },
@@ -2138,28 +1988,26 @@
     "id": "U3C-076",
     "cat": "Gramática",
     "q": "En 'サラダやチーズなどを食べます', や indica:",
-    "correct": "Una enumeración parcial ('entre otras cosas')",
-    "explanation": "や lista ejemplos representativos sin agotar la lista. Implica que hay más cosas que no se mencionan.",
     "opts": [
       {
         "text": "Una enumeración parcial ('entre otras cosas')",
         "correct": true,
-        "reason": "Correcta. Función central de や."
+        "explanation": "や lista ejemplos representativos sin agotar la lista. Implica que hay más cosas que no se mencionan. Correcta. Función central de や."
       },
       {
         "text": "Una lista completa",
         "correct": false,
-        "reason": "Lista completa es con と."
+        "explanation": "Lista completa es con と."
       },
       {
         "text": "Una disyunción ('o')",
         "correct": false,
-        "reason": "'O' es か."
+        "explanation": "'O' es か."
       },
       {
         "text": "Una causa",
         "correct": false,
-        "reason": "Causa es から."
+        "explanation": "Causa es から."
       }
     ]
   },
@@ -2167,28 +2015,26 @@
     "id": "U3C-077",
     "cat": "Gramática",
     "q": "¿Cuál es la diferencia entre と y や al listar cosas?",
-    "correct": "と lista todo; や lista solo algunos ejemplos",
-    "explanation": "と indica lista CERRADA (mencionás todo). や indica lista ABIERTA (mencionás algunos y hay más).",
     "opts": [
       {
         "text": "と lista todo; や lista solo algunos ejemplos",
         "correct": true,
-        "reason": "Correcta. Distinción cerrada vs. abierta."
+        "explanation": "と indica lista CERRADA (mencionás todo). や indica lista ABIERTA (mencionás algunos y hay más). Correcta. Distinción cerrada vs. abierta."
       },
       {
         "text": "Son iguales",
         "correct": false,
-        "reason": "Tienen funciones distintas."
+        "explanation": "Tienen funciones distintas."
       },
       {
         "text": "と es informal; や es formal",
         "correct": false,
-        "reason": "No es cuestión de registro."
+        "explanation": "No es cuestión de registro."
       },
       {
         "text": "と es para personas; や para cosas",
         "correct": false,
-        "reason": "Ambos se usan con cualquier sustantivo."
+        "explanation": "Ambos se usan con cualquier sustantivo."
       }
     ]
   },
@@ -2196,28 +2042,26 @@
     "id": "U3C-078",
     "cat": "Diálogo",
     "q": "¿Cómo se dice 'Me levanto a las 6 todas las mañanas'?",
-    "correct": "毎朝6時に起きます",
-    "explanation": "毎朝 (sin に) + 6時に (hora puntual con に) + 起きます.",
     "opts": [
       {
         "text": "毎朝6時に起きます",
         "correct": true,
-        "reason": "Correcta. に con hora, sin に con 毎朝."
+        "explanation": "毎朝 (sin に) + 6時に (hora puntual con に) + 起きます. Correcta. に con hora, sin に con 毎朝."
       },
       {
         "text": "毎朝6時で起きます",
         "correct": false,
-        "reason": "で no marca tiempo puntual."
+        "explanation": "で no marca tiempo puntual."
       },
       {
         "text": "毎朝6時を起きます",
         "correct": false,
-        "reason": "を no marca tiempo."
+        "explanation": "を no marca tiempo."
       },
       {
         "text": "毎朝6時へ起きます",
         "correct": false,
-        "reason": "へ no marca tiempo."
+        "explanation": "へ no marca tiempo."
       }
     ]
   },
@@ -2225,28 +2069,26 @@
     "id": "U3C-079",
     "cat": "Diálogo",
     "q": "¿Cómo se dice 'Trabajo en una empresa'?",
-    "correct": "会社で働きます",
-    "explanation": "会社で (lugar de la acción) + 働きます (trabajar).",
     "opts": [
       {
         "text": "会社で働きます",
         "correct": true,
-        "reason": "Correcta. で marca lugar de acción."
+        "explanation": "会社で (lugar de la acción) + 働きます (trabajar). Correcta. で marca lugar de acción."
       },
       {
         "text": "会社に働きます",
         "correct": false,
-        "reason": "に no marca lugar de acción con 働く en este nivel."
+        "explanation": "に no marca lugar de acción con 働く en este nivel."
       },
       {
         "text": "会社を働きます",
         "correct": false,
-        "reason": "を no marca lugar."
+        "explanation": "を no marca lugar."
       },
       {
         "text": "会社へ働きます",
         "correct": false,
-        "reason": "へ marca destino; trabajar no es verbo de movimiento."
+        "explanation": "へ marca destino; trabajar no es verbo de movimiento."
       }
     ]
   },
@@ -2254,28 +2096,26 @@
     "id": "U3C-080",
     "cat": "Diálogo",
     "q": "¿Cómo se dice 'A la noche miro la tele'?",
-    "correct": "夜、テレビを見ます",
-    "explanation": "夜 (sin に) + テレビを (objeto) + 見ます.",
     "opts": [
       {
         "text": "夜、テレビを見ます",
         "correct": true,
-        "reason": "Correcta. 夜 sin に, テレビ con を."
+        "explanation": "夜 (sin に) + テレビを (objeto) + 見ます. Correcta. 夜 sin に, テレビ con を."
       },
       {
         "text": "夜、テレビで見ます",
         "correct": false,
-        "reason": "で no marca objeto; テレビ necesita を."
+        "explanation": "で no marca objeto; テレビ necesita を."
       },
       {
         "text": "夜に、テレビに見ます",
         "correct": false,
-        "reason": "夜 no lleva に, y テレビ lleva を no に."
+        "explanation": "夜 no lleva に, y テレビ lleva を no に."
       },
       {
         "text": "夜、テレビが見ます",
         "correct": false,
-        "reason": "が marca sujeto; テレビ no es sujeto de 見る."
+        "explanation": "が marca sujeto; テレビ no es sujeto de 見る."
       }
     ]
   },
@@ -2283,28 +2123,26 @@
     "id": "U3C-081",
     "cat": "Diálogo",
     "q": "¿Cómo se dice 'A las 7 desayuno'?",
-    "correct": "7時に朝ご飯を食べます",
-    "explanation": "7時に (hora puntual) + 朝ご飯を (objeto) + 食べます.",
     "opts": [
       {
         "text": "7時に朝ご飯を食べます",
         "correct": true,
-        "reason": "Correcta. に con hora, を con objeto."
+        "explanation": "7時に (hora puntual) + 朝ご飯を (objeto) + 食べます. Correcta. に con hora, を con objeto."
       },
       {
         "text": "7時で朝ご飯を食べます",
         "correct": false,
-        "reason": "で no marca hora; marca lugar."
+        "explanation": "で no marca hora; marca lugar."
       },
       {
         "text": "7時を朝ご飯に食べます",
         "correct": false,
-        "reason": "Partículas invertidas."
+        "explanation": "Partículas invertidas."
       },
       {
         "text": "7時朝ご飯で食べます",
         "correct": false,
-        "reason": "Falta に con 7時; で no marca objeto."
+        "explanation": "Falta に con 7時; で no marca objeto."
       }
     ]
   },
@@ -2312,28 +2150,26 @@
     "id": "U3C-082",
     "cat": "Diálogo",
     "q": "¿Cómo se dice 'Leo el diario todas las mañanas'?",
-    "correct": "毎朝新聞を読みます",
-    "explanation": "毎朝 (sin に) + 新聞を (objeto) + 読みます.",
     "opts": [
       {
         "text": "毎朝新聞を読みます",
         "correct": true,
-        "reason": "Correcta. を con objeto."
+        "explanation": "毎朝 (sin に) + 新聞を (objeto) + 読みます. Correcta. を con objeto."
       },
       {
         "text": "毎朝新聞で読みます",
         "correct": false,
-        "reason": "で marca lugar, no objeto."
+        "explanation": "で marca lugar, no objeto."
       },
       {
         "text": "毎朝新聞に読みます",
         "correct": false,
-        "reason": "に no marca objeto directo."
+        "explanation": "に no marca objeto directo."
       },
       {
         "text": "毎朝新聞が読みます",
         "correct": false,
-        "reason": "が marca sujeto, no objeto."
+        "explanation": "が marca sujeto, no objeto."
       }
     ]
   },
@@ -2341,28 +2177,26 @@
     "id": "U3C-083",
     "cat": "Partículas",
     "q": "Completá: '学校___行きます' (destino)",
-    "correct": "へ",
-    "explanation": "行きます es verbo de movimiento; el destino se marca con へ.",
     "opts": [
       {
         "text": "へ",
         "correct": true,
-        "reason": "Correcta. Destino con verbo de movimiento."
+        "explanation": "行きます es verbo de movimiento; el destino se marca con へ. Correcta. Destino con verbo de movimiento."
       },
       {
         "text": "で",
         "correct": false,
-        "reason": "で marca lugar de acción, no destino."
+        "explanation": "で marca lugar de acción, no destino."
       },
       {
         "text": "を",
         "correct": false,
-        "reason": "を marca objeto."
+        "explanation": "を marca objeto."
       },
       {
         "text": "に",
         "correct": false,
-        "reason": "に también puede marcar destino, pero la pregunta indica へ."
+        "explanation": "に también puede marcar destino, pero la pregunta indica へ."
       }
     ]
   },
@@ -2370,28 +2204,26 @@
     "id": "U3C-084",
     "cat": "Partículas",
     "q": "Completá: '学校___勉強します' (lugar de acción)",
-    "correct": "で",
-    "explanation": "勉強する es acción; el lugar donde se estudia se marca con で.",
     "opts": [
       {
         "text": "で",
         "correct": true,
-        "reason": "Correcta. Lugar de la acción."
+        "explanation": "勉強する es acción; el lugar donde se estudia se marca con で. Correcta. Lugar de la acción."
       },
       {
         "text": "へ",
         "correct": false,
-        "reason": "へ marca destino, no lugar de acción."
+        "explanation": "へ marca destino, no lugar de acción."
       },
       {
         "text": "を",
         "correct": false,
-        "reason": "を marca objeto."
+        "explanation": "を marca objeto."
       },
       {
         "text": "に",
         "correct": false,
-        "reason": "に no marca lugar de acción aquí."
+        "explanation": "に no marca lugar de acción aquí."
       }
     ]
   },
@@ -2399,28 +2231,26 @@
     "id": "U3C-085",
     "cat": "Partículas",
     "q": "Completá: '6時___起きます' (hora puntual)",
-    "correct": "に",
-    "explanation": "6時 es hora puntual; に marca el momento exacto.",
     "opts": [
       {
         "text": "に",
         "correct": true,
-        "reason": "Correcta. Hora puntual."
+        "explanation": "6時 es hora puntual; に marca el momento exacto. Correcta. Hora puntual."
       },
       {
         "text": "で",
         "correct": false,
-        "reason": "で marca lugar."
+        "explanation": "で marca lugar."
       },
       {
         "text": "を",
         "correct": false,
-        "reason": "を marca objeto."
+        "explanation": "を marca objeto."
       },
       {
         "text": "へ",
         "correct": false,
-        "reason": "へ marca destino."
+        "explanation": "へ marca destino."
       }
     ]
   },
@@ -2428,28 +2258,26 @@
     "id": "U3C-086",
     "cat": "Partículas",
     "q": "Completá: '本___読みます' (objeto directo)",
-    "correct": "を",
-    "explanation": "本 es objeto de 読む (leer). Se marca con を.",
     "opts": [
       {
         "text": "を",
         "correct": true,
-        "reason": "Correcta. Objeto directo."
+        "explanation": "本 es objeto de 読む (leer). Se marca con を. Correcta. Objeto directo."
       },
       {
         "text": "で",
         "correct": false,
-        "reason": "で marca lugar."
+        "explanation": "で marca lugar."
       },
       {
         "text": "に",
         "correct": false,
-        "reason": "に marca tiempo o destino."
+        "explanation": "に marca tiempo o destino."
       },
       {
         "text": "へ",
         "correct": false,
-        "reason": "へ marca destino."
+        "explanation": "へ marca destino."
       }
     ]
   },
@@ -2457,28 +2285,26 @@
     "id": "U3C-087",
     "cat": "Partículas",
     "q": "En '9時から5時まで働きます', ¿qué indican から y まで?",
-    "correct": "Desde las 9 hasta las 5",
-    "explanation": "から = 'desde' (inicio) + まで = 'hasta' (final). Rango temporal.",
     "opts": [
       {
         "text": "Desde las 9 hasta las 5",
         "correct": true,
-        "reason": "Correcta. Rango temporal."
+        "explanation": "から = 'desde' (inicio) + まで = 'hasta' (final). Rango temporal. Correcta. Rango temporal."
       },
       {
         "text": "A las 9 y a las 5",
         "correct": false,
-        "reason": "'A las 9 y a las 5' serían dos puntos (con に), no rango."
+        "explanation": "'A las 9 y a las 5' serían dos puntos (con に), no rango."
       },
       {
         "text": "En las 9 o en las 5",
         "correct": false,
-        "reason": "'O' sería か, no から/まで."
+        "explanation": "'O' sería か, no から/まで."
       },
       {
         "text": "Antes de las 9, después de las 5",
         "correct": false,
-        "reason": "Invertido: から indica inicio, no 'antes de'."
+        "explanation": "Invertido: から indica inicio, no 'antes de'."
       }
     ]
   },
@@ -2486,28 +2312,26 @@
     "id": "U3C-088",
     "cat": "Traducción JP→ES",
     "q": "Traducí: '毎朝、牛乳を飲みます。'",
-    "correct": "Todas las mañanas tomo leche.",
-    "explanation": "毎朝 (todas las mañanas) + 牛乳を (leche, objeto) + 飲みます (beber).",
     "opts": [
       {
         "text": "Todas las mañanas tomo leche.",
         "correct": true,
-        "reason": "Correcta. Traducción directa."
+        "explanation": "毎朝 (todas las mañanas) + 牛乳を (leche, objeto) + 飲みます (beber). Correcta. Traducción directa."
       },
       {
         "text": "Todas las noches tomo leche.",
         "correct": false,
-        "reason": "毎朝 = mañanas, no noches (毎晩)."
+        "explanation": "毎朝 = mañanas, no noches (毎晩)."
       },
       {
         "text": "Todas las mañanas compro leche.",
         "correct": false,
-        "reason": "飲みます = beber/tomar, no comprar (買います)."
+        "explanation": "飲みます = beber/tomar, no comprar (買います)."
       },
       {
         "text": "Todos los días tomo agua.",
         "correct": false,
-        "reason": "毎朝 = mañanas (no 毎日). 牛乳 = leche, no agua (水)."
+        "explanation": "毎朝 = mañanas (no 毎日). 牛乳 = leche, no agua (水)."
       }
     ]
   },
@@ -2515,28 +2339,26 @@
     "id": "U3C-089",
     "cat": "Traducción JP→ES",
     "q": "Traducí: '会社で働きます。'",
-    "correct": "Trabajo en una empresa.",
-    "explanation": "会社で (en la empresa) + 働きます (trabajo).",
     "opts": [
       {
         "text": "Trabajo en una empresa.",
         "correct": true,
-        "reason": "Correcta. Traducción directa."
+        "explanation": "会社で (en la empresa) + 働きます (trabajo). Correcta. Traducción directa."
       },
       {
         "text": "Voy a una empresa.",
         "correct": false,
-        "reason": "'Voy' sería 行きます; 働きます = trabajar."
+        "explanation": "'Voy' sería 行きます; 働きます = trabajar."
       },
       {
         "text": "Estudio en una empresa.",
         "correct": false,
-        "reason": "'Estudio' sería 勉強します."
+        "explanation": "'Estudio' sería 勉強します."
       },
       {
         "text": "Trabajo en la escuela.",
         "correct": false,
-        "reason": "会社 = empresa, no 学校 (escuela)."
+        "explanation": "会社 = empresa, no 学校 (escuela)."
       }
     ]
   },
@@ -2544,28 +2366,26 @@
     "id": "U3C-090",
     "cat": "Traducción JP→ES",
     "q": "Traducí: '夜、インターネットを見ます。'",
-    "correct": "A la noche miro internet.",
-    "explanation": "夜 (a la noche) + インターネットを (internet, objeto) + 見ます (miro).",
     "opts": [
       {
         "text": "A la noche miro internet.",
         "correct": true,
-        "reason": "Correcta. Traducción directa."
+        "explanation": "夜 (a la noche) + インターネットを (internet, objeto) + 見ます (miro). Correcta. Traducción directa."
       },
       {
         "text": "A la mañana miro internet.",
         "correct": false,
-        "reason": "夜 = noche, no 朝 (mañana)."
+        "explanation": "夜 = noche, no 朝 (mañana)."
       },
       {
         "text": "A la noche leo el diario.",
         "correct": false,
-        "reason": "インターネット = internet, no 新聞 (diario)."
+        "explanation": "インターネット = internet, no 新聞 (diario)."
       },
       {
         "text": "A la noche escucho internet.",
         "correct": false,
-        "reason": "見ます = mirar, no 聞きます (escuchar)."
+        "explanation": "見ます = mirar, no 聞きます (escuchar)."
       }
     ]
   },
@@ -2573,28 +2393,26 @@
     "id": "U3C-091",
     "cat": "Traducción JP→ES",
     "q": "Traducí: '何も食べません。'",
-    "correct": "No como nada.",
-    "explanation": "何も + 食べません = universalidad negada.",
     "opts": [
       {
         "text": "No como nada.",
         "correct": true,
-        "reason": "Correcta. Patrón de negación total."
+        "explanation": "何も + 食べません = universalidad negada. Correcta. Patrón de negación total."
       },
       {
         "text": "Como algo.",
         "correct": false,
-        "reason": "'Algo' sería 何か食べます (afirmativo)."
+        "explanation": "'Algo' sería 何か食べます (afirmativo)."
       },
       {
         "text": "¿Qué como?",
         "correct": false,
-        "reason": "Pregunta sería 何を食べますか."
+        "explanation": "Pregunta sería 何を食べますか."
       },
       {
         "text": "No bebo nada.",
         "correct": false,
-        "reason": "食べます = comer, no 飲みます (beber)."
+        "explanation": "食べます = comer, no 飲みます (beber)."
       }
     ]
   },
@@ -2602,28 +2420,26 @@
     "id": "U3C-092",
     "cat": "Traducción JP→ES",
     "q": "Traducí: 'どこへも行きません。'",
-    "correct": "No voy a ningún lado.",
-    "explanation": "どこへも + 行きません = negación universal de destino.",
     "opts": [
       {
         "text": "No voy a ningún lado.",
         "correct": true,
-        "reason": "Correcta. Negación universal."
+        "explanation": "どこへも + 行きません = negación universal de destino. Correcta. Negación universal."
       },
       {
         "text": "Voy a algún lado.",
         "correct": false,
-        "reason": "'A algún lado' sería どこかへ行きます."
+        "explanation": "'A algún lado' sería どこかへ行きます."
       },
       {
         "text": "¿A dónde voy?",
         "correct": false,
-        "reason": "Pregunta sería どこへ行きますか."
+        "explanation": "Pregunta sería どこへ行きますか."
       },
       {
         "text": "No vengo de ningún lado.",
         "correct": false,
-        "reason": "行きます = ir, no 来ます (venir). Y 'de ningún lado' sería どこからも来ません."
+        "explanation": "行きます = ir, no 来ます (venir). Y 'de ningún lado' sería どこからも来ません."
       }
     ]
   },
@@ -2631,28 +2447,26 @@
     "id": "U3C-093",
     "cat": "Traducción JP→ES",
     "q": "Traducí: '果物やサラダなどを食べます。'",
-    "correct": "Como frutas, ensalada, etc.",
-    "explanation": "果物やサラダなど (frutas, ensalada, etc., lista abierta con や/など) + を食べます.",
     "opts": [
       {
         "text": "Como frutas, ensalada, etc.",
         "correct": true,
-        "reason": "Correcta. や/など = lista abierta."
+        "explanation": "果物やサラダなど (frutas, ensalada, etc., lista abierta con や/など) + を食べます. Correcta. や/など = lista abierta."
       },
       {
         "text": "Como frutas y ensalada (solo eso).",
         "correct": false,
-        "reason": "'Solo eso' sería con と (lista cerrada), no や."
+        "explanation": "'Solo eso' sería con と (lista cerrada), no や."
       },
       {
         "text": "Compro frutas y ensalada.",
         "correct": false,
-        "reason": "食べます = comer, no 買います (comprar)."
+        "explanation": "食べます = comer, no 買います (comprar)."
       },
       {
         "text": "No como frutas ni ensalada.",
         "correct": false,
-        "reason": "Es afirmativo (食べます), no negativo."
+        "explanation": "Es afirmativo (食べます), no negativo."
       }
     ]
   },
@@ -2660,28 +2474,26 @@
     "id": "U3C-094",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo se dice 'Me levanto a las 7'?",
-    "correct": "7時に起きます",
-    "explanation": "7時に (hora puntual) + 起きます.",
     "opts": [
       {
         "text": "7時に起きます",
         "correct": true,
-        "reason": "Correcta. に con hora puntual."
+        "explanation": "7時に (hora puntual) + 起きます. Correcta. に con hora puntual."
       },
       {
         "text": "7時で起きます",
         "correct": false,
-        "reason": "で no marca hora."
+        "explanation": "で no marca hora."
       },
       {
         "text": "7時を起きます",
         "correct": false,
-        "reason": "を no marca hora."
+        "explanation": "を no marca hora."
       },
       {
         "text": "7時へ起きます",
         "correct": false,
-        "reason": "へ no marca hora."
+        "explanation": "へ no marca hora."
       }
     ]
   },
@@ -2689,28 +2501,26 @@
     "id": "U3C-095",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo se dice 'Me acuesto a las 11'?",
-    "correct": "11時に寝ます",
-    "explanation": "11時に (hora) + 寝ます (acostarse).",
     "opts": [
       {
         "text": "11時に寝ます",
         "correct": true,
-        "reason": "Correcta. に con hora puntual."
+        "explanation": "11時に (hora) + 寝ます (acostarse). Correcta. に con hora puntual."
       },
       {
         "text": "11時で寝ます",
         "correct": false,
-        "reason": "で no marca hora."
+        "explanation": "で no marca hora."
       },
       {
         "text": "11時を寝ます",
         "correct": false,
-        "reason": "を no marca hora."
+        "explanation": "を no marca hora."
       },
       {
         "text": "11時寝ります",
         "correct": false,
-        "reason": "寝ります no existe; la forma correcta es 寝ます."
+        "explanation": "寝ります no existe; la forma correcta es 寝ます."
       }
     ]
   },
@@ -2718,28 +2528,26 @@
     "id": "U3C-096",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo se dice 'Todas las noches leo'?",
-    "correct": "毎晩本を読みます",
-    "explanation": "毎晩 (todas las noches, sin に) + 本を (objeto) + 読みます.",
     "opts": [
       {
         "text": "毎晩本を読みます",
         "correct": true,
-        "reason": "Correcta. を con objeto."
+        "explanation": "毎晩 (todas las noches, sin に) + 本を (objeto) + 読みます. Correcta. を con objeto."
       },
       {
         "text": "毎朝本を読みます",
         "correct": false,
-        "reason": "毎朝 = mañanas; la pregunta dice noches (毎晩)."
+        "explanation": "毎朝 = mañanas; la pregunta dice noches (毎晩)."
       },
       {
         "text": "毎晩本で読みます",
         "correct": false,
-        "reason": "で no marca objeto."
+        "explanation": "で no marca objeto."
       },
       {
         "text": "毎晩本に読みます",
         "correct": false,
-        "reason": "に no marca objeto directo."
+        "explanation": "に no marca objeto directo."
       }
     ]
   },
@@ -2747,28 +2555,26 @@
     "id": "U3C-097",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo se dice 'Estudio en la escuela'?",
-    "correct": "学校で勉強します",
-    "explanation": "学校で (lugar de la acción) + 勉強します.",
     "opts": [
       {
         "text": "学校で勉強します",
         "correct": true,
-        "reason": "Correcta. で con lugar de acción."
+        "explanation": "学校で (lugar de la acción) + 勉強します. Correcta. で con lugar de acción."
       },
       {
         "text": "学校に勉強します",
         "correct": false,
-        "reason": "に no marca lugar de acción con estudiar."
+        "explanation": "に no marca lugar de acción con estudiar."
       },
       {
         "text": "学校を勉強します",
         "correct": false,
-        "reason": "を marca objeto, no lugar."
+        "explanation": "を marca objeto, no lugar."
       },
       {
         "text": "学校へ勉強します",
         "correct": false,
-        "reason": "へ marca destino; estudiar no es movimiento."
+        "explanation": "へ marca destino; estudiar no es movimiento."
       }
     ]
   },
@@ -2776,28 +2582,26 @@
     "id": "U3C-098",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo se dice 'No compro nada'?",
-    "correct": "何も買いません",
-    "explanation": "何も + 買いません = negación total.",
     "opts": [
       {
         "text": "何も買いません",
         "correct": true,
-        "reason": "Correcta. Patrón estándar."
+        "explanation": "何も + 買いません = negación total. Correcta. Patrón estándar."
       },
       {
         "text": "何を買いません",
         "correct": false,
-        "reason": "を + negativo no expresa 'nada'."
+        "explanation": "を + negativo no expresa 'nada'."
       },
       {
         "text": "何も買います",
         "correct": false,
-        "reason": "Afirmativo; contradicción con 何も."
+        "explanation": "Afirmativo; contradicción con 何も."
       },
       {
         "text": "何か買いません",
         "correct": false,
-        "reason": "何か = 'algo'; no es 'nada'."
+        "explanation": "何か = 'algo'; no es 'nada'."
       }
     ]
   },
@@ -2805,28 +2609,26 @@
     "id": "U3C-099",
     "cat": "Traducción ES→JP",
     "q": "¿Cómo se dice 'Compro leche y queso, etc.'?",
-    "correct": "牛乳やチーズなどを買います",
-    "explanation": "や (lista abierta) + など ('etc.') + を買います.",
     "opts": [
       {
         "text": "牛乳やチーズなどを買います",
         "correct": true,
-        "reason": "Correcta. や+など para lista abierta."
+        "explanation": "や (lista abierta) + など ('etc.') + を買います. Correcta. や+など para lista abierta."
       },
       {
         "text": "牛乳とチーズなどを買います",
         "correct": false,
-        "reason": "と es lista cerrada; con など el correcto es や."
+        "explanation": "と es lista cerrada; con など el correcto es や."
       },
       {
         "text": "牛乳やチーズを買います",
         "correct": false,
-        "reason": "Sin など falta el 'etc.' que indica apertura."
+        "explanation": "Sin など falta el 'etc.' que indica apertura."
       },
       {
         "text": "牛乳でチーズなど買います",
         "correct": false,
-        "reason": "で no une sustantivos en lista; falta を."
+        "explanation": "で no une sustantivos en lista; falta を."
       }
     ]
   },
@@ -2834,28 +2636,26 @@
     "id": "U3C-100",
     "cat": "Diálogo",
     "q": "Si querés preguntar '¿Todos los días vas a la escuela?', decís:",
-    "correct": "毎日、学校へ行きますか。",
-    "explanation": "毎日 (sin に) + 学校へ (destino) + 行きますか.",
     "opts": [
       {
         "text": "毎日、学校へ行きますか。",
         "correct": true,
-        "reason": "Correcta. Estructura estándar."
+        "explanation": "毎日 (sin に) + 学校へ (destino) + 行きますか. Correcta. Estructura estándar."
       },
       {
         "text": "毎日、学校で行きますか。",
         "correct": false,
-        "reason": "で no marca destino con 行く."
+        "explanation": "で no marca destino con 行く."
       },
       {
         "text": "毎日、学校を行きますか。",
         "correct": false,
-        "reason": "を no marca destino."
+        "explanation": "を no marca destino."
       },
       {
         "text": "毎日、学校に行きますか。",
         "correct": false,
-        "reason": "に también es válido como destino, pero la pregunta original usa へ. Ambas serían aceptables en uso real."
+        "explanation": "に también es válido como destino, pero la pregunta original usa へ. Ambas serían aceptables en uso real."
       }
     ]
   },
@@ -2863,28 +2663,26 @@
     "id": "U3C-101",
     "cat": "Diálogo",
     "q": "Si te preguntan '毎日、新聞を読みますか' y sí leés, respondés:",
-    "correct": "はい、読みます。",
-    "explanation": "Respuesta afirmativa corta: はい + verbo sin repetir objeto (ya implícito).",
     "opts": [
       {
         "text": "はい、読みます。",
         "correct": true,
-        "reason": "Correcta. Afirmación corta estándar."
+        "explanation": "Respuesta afirmativa corta: はい + verbo sin repetir objeto (ya implícito). Correcta. Afirmación corta estándar."
       },
       {
         "text": "はい、読みません。",
         "correct": false,
-        "reason": "ません es negativo; contradice はい."
+        "explanation": "ません es negativo; contradice はい."
       },
       {
         "text": "はい、読むます。",
         "correct": false,
-        "reason": "Forma diccionario (読む) + ます es agramatical. Es 読みます."
+        "explanation": "Forma diccionario (読む) + ます es agramatical. Es 読みます."
       },
       {
         "text": "はい、読みです。",
         "correct": false,
-        "reason": "です no se combina con raíz verbal así."
+        "explanation": "です no se combina con raíz verbal así."
       }
     ]
   },
@@ -2892,28 +2690,26 @@
     "id": "U3C-102",
     "cat": "Diálogo",
     "q": "Si te preguntan '毎日、朝ご飯を食べますか' y no comés, respondés:",
-    "correct": "いいえ、食べません。",
-    "explanation": "Respuesta negativa: いいえ + verbo en forma negativa cortés.",
     "opts": [
       {
         "text": "いいえ、食べません。",
         "correct": true,
-        "reason": "Correcta. Negación cortés."
+        "explanation": "Respuesta negativa: いいえ + verbo en forma negativa cortés. Correcta. Negación cortés."
       },
       {
         "text": "いいえ、食べます。",
         "correct": false,
-        "reason": "Afirmativo; contradice いいえ."
+        "explanation": "Afirmativo; contradice いいえ."
       },
       {
         "text": "いいえ、食べないます。",
         "correct": false,
-        "reason": "Mezcla incorrecta de forma plana + ます."
+        "explanation": "Mezcla incorrecta de forma plana + ます."
       },
       {
         "text": "いいえ、食べるません。",
         "correct": false,
-        "reason": "Forma diccionario + ません es agramatical."
+        "explanation": "Forma diccionario + ません es agramatical."
       }
     ]
   },
@@ -2921,28 +2717,26 @@
     "id": "U3C-103",
     "cat": "Diálogo",
     "q": "Si querés decir 'El fin de semana no voy a ningún lado', decís:",
-    "correct": "週末、どこへも行きません。",
-    "explanation": "週末 (sin に) + どこへも (a ningún lado) + 行きません.",
     "opts": [
       {
         "text": "週末、どこへも行きません。",
         "correct": true,
-        "reason": "Correcta. Estructura completa."
+        "explanation": "週末 (sin に) + どこへも (a ningún lado) + 行きません. Correcta. Estructura completa."
       },
       {
         "text": "週末、どこを行きません。",
         "correct": false,
-        "reason": "を no marca destino; falta も."
+        "explanation": "を no marca destino; falta も."
       },
       {
         "text": "週末、どこへ行きません。",
         "correct": false,
-        "reason": "Sin も no expresa 'ningún lado'."
+        "explanation": "Sin も no expresa 'ningún lado'."
       },
       {
         "text": "週末、どこでも行きません。",
         "correct": false,
-        "reason": "どこでも = 'en cualquier lugar' (afirmativo); no da 'ningún lado'."
+        "explanation": "どこでも = 'en cualquier lugar' (afirmativo); no da 'ningún lado'."
       }
     ]
   },
@@ -2950,28 +2744,26 @@
     "id": "U3C-104",
     "cat": "Diálogo",
     "q": "'9時から5時まで会社で働きます' significa:",
-    "correct": "Trabajo en la empresa de 9 a 5",
-    "explanation": "9時から5時まで (rango) + 会社で (lugar) + 働きます (trabajar).",
     "opts": [
       {
         "text": "Trabajo en la empresa de 9 a 5",
         "correct": true,
-        "reason": "Correcta. Traducción completa."
+        "explanation": "9時から5時まで (rango) + 会社で (lugar) + 働きます (trabajar). Correcta. Traducción completa."
       },
       {
         "text": "Estudio en la empresa de 9 a 5",
         "correct": false,
-        "reason": "働きます = trabajar, no 勉強します (estudiar)."
+        "explanation": "働きます = trabajar, no 勉強します (estudiar)."
       },
       {
         "text": "Voy a la empresa a las 9 y a las 5",
         "correct": false,
-        "reason": "から/まで marca rango, no dos puntos separados."
+        "explanation": "から/まで marca rango, no dos puntos separados."
       },
       {
         "text": "Trabajo en la escuela de 9 a 5",
         "correct": false,
-        "reason": "会社 = empresa, no 学校 (escuela)."
+        "explanation": "会社 = empresa, no 学校 (escuela)."
       }
     ]
   },
@@ -2979,28 +2771,26 @@
     "id": "U3C-105",
     "cat": "Gramática",
     "q": "¿Cuál es el orden correcto para decir 'Me levanto a las 6 todas las mañanas'?",
-    "correct": "毎朝 6時に 起きます",
-    "explanation": "Orden estándar: adverbio temporal + hora con に + verbo.",
     "opts": [
       {
         "text": "毎朝 6時に 起きます",
         "correct": true,
-        "reason": "Correcta. Orden T-T-V estándar."
+        "explanation": "Orden estándar: adverbio temporal + hora con に + verbo. Correcta. Orden T-T-V estándar."
       },
       {
         "text": "起きます 毎朝 6時に",
         "correct": false,
-        "reason": "El verbo va al final en japonés."
+        "explanation": "El verbo va al final en japonés."
       },
       {
         "text": "6時に 起きます 毎朝",
         "correct": false,
-        "reason": "毎朝 va antes de la hora específica."
+        "explanation": "毎朝 va antes de la hora específica."
       },
       {
         "text": "毎朝 起きます 6時に",
         "correct": false,
-        "reason": "El verbo va al final."
+        "explanation": "El verbo va al final."
       }
     ]
   },
@@ -3008,28 +2798,26 @@
     "id": "U3C-106",
     "cat": "Gramática",
     "q": "¿Cuál es el orden correcto para 'En la empresa leo el diario'?",
-    "correct": "会社で 新聞を 読みます",
-    "explanation": "Orden: lugar(で) + objeto(を) + verbo.",
     "opts": [
       {
         "text": "会社で 新聞を 読みます",
         "correct": true,
-        "reason": "Correcta. Orden L-O-V estándar."
+        "explanation": "Orden: lugar(で) + objeto(を) + verbo. Correcta. Orden L-O-V estándar."
       },
       {
         "text": "新聞を 読みます 会社で",
         "correct": false,
-        "reason": "El verbo va al final; lugar antes del objeto."
+        "explanation": "El verbo va al final; lugar antes del objeto."
       },
       {
         "text": "読みます 会社で 新聞を",
         "correct": false,
-        "reason": "El verbo va al final."
+        "explanation": "El verbo va al final."
       },
       {
         "text": "会社を 新聞で 読みます",
         "correct": false,
-        "reason": "Partículas invertidas: 会社 con で, 新聞 con を."
+        "explanation": "Partículas invertidas: 会社 con で, 新聞 con を."
       }
     ]
   },
@@ -3037,28 +2825,26 @@
     "id": "U3C-107",
     "cat": "Gramática",
     "q": "¿Cuál es el orden correcto para 'Estudio japonés en la escuela de 9 a 12'?",
-    "correct": "9時から12時まで 学校で 日本語を 勉強します",
-    "explanation": "Orden: rango temporal + lugar(で) + objeto(を) + verbo. La jerarquía es Tiempo > Lugar > Objeto > Verbo.",
     "opts": [
       {
         "text": "9時から12時まで 学校で 日本語を 勉強します",
         "correct": true,
-        "reason": "Correcta. Orden T-L-O-V."
+        "explanation": "Orden: rango temporal + lugar(で) + objeto(を) + verbo. La jerarquía es Tiempo > Lugar > Objeto > Verbo. Correcta. Orden T-L-O-V."
       },
       {
         "text": "学校で 勉強します 9時から12時まで 日本語を",
         "correct": false,
-        "reason": "El verbo va al final."
+        "explanation": "El verbo va al final."
       },
       {
         "text": "日本語を 9時から12時まで 勉強します 学校で",
         "correct": false,
-        "reason": "El verbo va al final; lugar fuera de posición."
+        "explanation": "El verbo va al final; lugar fuera de posición."
       },
       {
         "text": "勉強します 学校で 日本語を 9時から12時まで",
         "correct": false,
-        "reason": "El verbo va al final."
+        "explanation": "El verbo va al final."
       }
     ]
   },
@@ -3066,28 +2852,26 @@
     "id": "U3C-108",
     "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre '学校へ行きます' y '学校で勉強します'?",
-    "correct": "へ indica destino; で indica lugar donde se realiza la acción",
-    "explanation": "Distinción clave: へ con verbos de movimiento (ir, venir) marca DESTINO; で con verbos de acción (estudiar, trabajar, comer) marca LUGAR DE LA ACCIÓN.",
     "opts": [
       {
         "text": "へ indica destino; で indica lugar donde se realiza la acción",
         "correct": true,
-        "reason": "Correcta. Distinción fundamental."
+        "explanation": "Distinción clave: へ con verbos de movimiento (ir, venir) marca DESTINO; で con verbos de acción (estudiar, trabajar, comer) marca LUGAR DE LA ACCIÓN. Correcta. Distinción fundamental."
       },
       {
         "text": "Son iguales",
         "correct": false,
-        "reason": "Son funciones distintas."
+        "explanation": "Son funciones distintas."
       },
       {
         "text": "へ es más formal que で",
         "correct": false,
-        "reason": "No es cuestión de formalidad sino de función."
+        "explanation": "No es cuestión de formalidad sino de función."
       },
       {
         "text": "で indica destino; へ indica lugar de acción",
         "correct": false,
-        "reason": "Invertido."
+        "explanation": "Invertido."
       }
     ]
   },
@@ -3095,28 +2879,26 @@
     "id": "U3C-109",
     "cat": "Gramática",
     "q": "¿Se usa に con '毎日'?",
-    "correct": "No, 毎日 no lleva に porque no es una hora puntual",
-    "explanation": "毎日, 毎朝, 毎晩, 朝, 夜, 今日, 明日, 昨日 son adverbios temporales que NO toman に.",
     "opts": [
       {
         "text": "No, 毎日 no lleva に porque no es una hora puntual",
         "correct": true,
-        "reason": "Correcta. Regla de los adverbios temporales."
+        "explanation": "毎日, 毎朝, 毎晩, 朝, 夜, 今日, 明日, 昨日 son adverbios temporales que NO toman に. Correcta. Regla de los adverbios temporales."
       },
       {
         "text": "Sí, siempre se necesita に",
         "correct": false,
-        "reason": "Falso para este grupo de palabras."
+        "explanation": "Falso para este grupo de palabras."
       },
       {
         "text": "Solo los lunes",
         "correct": false,
-        "reason": "Irrelevante; la regla aplica a 毎日, no a días de la semana."
+        "explanation": "Irrelevante; la regla aplica a 毎日, no a días de la semana."
       },
       {
         "text": "Depende del verbo",
         "correct": false,
-        "reason": "No depende del verbo sino de la palabra temporal."
+        "explanation": "No depende del verbo sino de la palabra temporal."
       }
     ]
   },
@@ -3124,28 +2906,26 @@
     "id": "U3C-110",
     "cat": "Gramática",
     "q": "¿Cuándo se usa に con expresiones de tiempo?",
-    "correct": "Con horas puntuales (7時に) y días específicos",
-    "explanation": "に se usa con: horas (7時に), días de la semana (月曜日に), fechas (1月15日に), períodos definidos (夏休みに). NO con: 毎日, 朝, 夜, 今日, 明日, 昨日.",
     "opts": [
       {
         "text": "Con horas puntuales (7時に) y días específicos",
         "correct": true,
-        "reason": "Correcta. Regla de に temporal."
+        "explanation": "に se usa con: horas (7時に), días de la semana (月曜日に), fechas (1月15日に), períodos definidos (夏休みに). NO con: 毎日, 朝, 夜, 今日, 明日, 昨日. Correcta. Regla de に temporal."
       },
       {
         "text": "Con todas las expresiones de tiempo",
         "correct": false,
-        "reason": "Falso: hay un grupo que no lo toma."
+        "explanation": "Falso: hay un grupo que no lo toma."
       },
       {
         "text": "Solo con 毎日, 毎朝, etc.",
         "correct": false,
-        "reason": "Justamente esos NO toman に."
+        "explanation": "Justamente esos NO toman に."
       },
       {
         "text": "Nunca se usa に con tiempo",
         "correct": false,
-        "reason": "Falso: に es esencial con horas y fechas."
+        "explanation": "Falso: に es esencial con horas y fechas."
       }
     ]
   },
@@ -3153,28 +2933,26 @@
     "id": "U3C-111",
     "cat": "Gramática",
     "q": "En '何も買いません', ¿por qué se usa も y no を?",
-    "correct": "も reemplaza a を en la negación total (nada)",
-    "explanation": "Cuando se quiere expresar 'nada' (何も), la partícula も REEMPLAZA a を. No se combina: 何をも es incorrecto en uso moderno.",
     "opts": [
       {
         "text": "も reemplaza a を en la negación total (nada)",
         "correct": true,
-        "reason": "Correcta. Regla de sustitución."
+        "explanation": "Cuando se quiere expresar 'nada' (何も), la partícula も REEMPLAZA a を. No se combina: 何をも es incorrecto en uso moderno. Correcta. Regla de sustitución."
       },
       {
         "text": "Son intercambiables",
         "correct": false,
-        "reason": "Tienen funciones distintas."
+        "explanation": "Tienen funciones distintas."
       },
       {
         "text": "も es más formal",
         "correct": false,
-        "reason": "No es cuestión de formalidad sino de función gramatical."
+        "explanation": "No es cuestión de formalidad sino de función gramatical."
       },
       {
         "text": "を solo se usa en afirmativas",
         "correct": false,
-        "reason": "を también se usa en negativas simples (コーヒーを飲みません)."
+        "explanation": "を también se usa en negativas simples (コーヒーを飲みません)."
       }
     ]
   },
@@ -3182,28 +2960,26 @@
     "id": "U3C-112",
     "cat": "Distinción",
     "q": "¿Cuál es la diferencia entre 何も〜ません y 何を〜ますか?",
-    "correct": "何も＋negativo = 'nada'; 何を＋ますか = '¿qué?'",
-    "explanation": "何も + verbo negativo = 'no V nada'. 何を + verbo + か = '¿qué V?'. も cambia el sentido completamente.",
     "opts": [
       {
         "text": "何も＋negativo = 'nada'; 何を＋ますか = '¿qué?'",
         "correct": true,
-        "reason": "Correcta. Distinción funcional."
+        "explanation": "何も + verbo negativo = 'no V nada'. 何を + verbo + か = '¿qué V?'. も cambia el sentido completamente. Correcta. Distinción funcional."
       },
       {
         "text": "Son sinónimos",
         "correct": false,
-        "reason": "Tienen significados opuestos."
+        "explanation": "Tienen significados opuestos."
       },
       {
         "text": "何も es pregunta; 何を es respuesta",
         "correct": false,
-        "reason": "Invertido: 何を…か es pregunta."
+        "explanation": "Invertido: 何を…か es pregunta."
       },
       {
         "text": "何を es negativo; 何も es positivo",
         "correct": false,
-        "reason": "Invertido."
+        "explanation": "Invertido."
       }
     ]
   },
@@ -3211,28 +2987,26 @@
     "id": "U3C-113",
     "cat": "Gramática",
     "q": "En 'どこへも行きません', ¿qué partículas se combinan?",
-    "correct": "へ (destino) + も (negación total) → a ningún lado",
-    "explanation": "Las partículas se apilan: どこ + へ (destino) + も (universalidad). Con verbo negativo → 'a ningún lado'.",
     "opts": [
       {
         "text": "へ (destino) + も (negación total) → a ningún lado",
         "correct": true,
-        "reason": "Correcta. Apilamiento de partículas."
+        "explanation": "Las partículas se apilan: どこ + へ (destino) + も (universalidad). Con verbo negativo → 'a ningún lado'. Correcta. Apilamiento de partículas."
       },
       {
         "text": "へ + も = también al destino",
         "correct": false,
-        "reason": "Con verbo negativo, も expresa 'ningún', no 'también'."
+        "explanation": "Con verbo negativo, も expresa 'ningún', no 'también'."
       },
       {
         "text": "で + も = en ningún lugar",
         "correct": false,
-        "reason": "La oración usa へ, no で. Y también tendría sentido distinto."
+        "explanation": "La oración usa へ, no で. Y también tendría sentido distinto."
       },
       {
         "text": "に + も = en ningún momento",
         "correct": false,
-        "reason": "La oración es de lugar (へ), no de tiempo (に)."
+        "explanation": "La oración es de lugar (へ), no de tiempo (に)."
       }
     ]
   },
@@ -3240,28 +3014,26 @@
     "id": "U3C-114",
     "cat": "Diálogo",
     "q": "A: '毎日、牛乳を飲みますか。' B: Sí → ¿qué responde B?",
-    "correct": "はい、飲みます。",
-    "explanation": "Respuesta afirmativa: はい + verbo sin repetir objeto.",
     "opts": [
       {
         "text": "はい、飲みます。",
         "correct": true,
-        "reason": "Correcta. Afirmación cortés."
+        "explanation": "Respuesta afirmativa: はい + verbo sin repetir objeto. Correcta. Afirmación cortés."
       },
       {
         "text": "はい、飲みません。",
         "correct": false,
-        "reason": "ません es negativo; contradice はい."
+        "explanation": "ません es negativo; contradice はい."
       },
       {
         "text": "はい、飲むます。",
         "correct": false,
-        "reason": "飲む + ます es agramatical; la forma correcta es 飲みます."
+        "explanation": "飲む + ます es agramatical; la forma correcta es 飲みます."
       },
       {
         "text": "はい、飲みです。",
         "correct": false,
-        "reason": "です no se combina con raíz verbal."
+        "explanation": "です no se combina con raíz verbal."
       }
     ]
   },
@@ -3269,28 +3041,26 @@
     "id": "U3C-115",
     "cat": "Diálogo",
     "q": "A: '毎朝、何時に起きますか。' B: A las 6 → ¿qué responde B?",
-    "correct": "6時に起きます。",
-    "explanation": "Respuesta con la hora + に + verbo.",
     "opts": [
       {
         "text": "6時に起きます。",
         "correct": true,
-        "reason": "Correcta. に con hora puntual."
+        "explanation": "Respuesta con la hora + に + verbo. Correcta. に con hora puntual."
       },
       {
         "text": "6時で起きます。",
         "correct": false,
-        "reason": "で no marca hora."
+        "explanation": "で no marca hora."
       },
       {
         "text": "6時を起きます。",
         "correct": false,
-        "reason": "を no marca hora."
+        "explanation": "を no marca hora."
       },
       {
         "text": "6時起きます。",
         "correct": false,
-        "reason": "Falta に; aunque en habla casual se omite, la forma correcta lleva に."
+        "explanation": "Falta に; aunque en habla casual se omite, la forma correcta lleva に."
       }
     ]
   },
@@ -3298,28 +3068,26 @@
     "id": "U3C-116",
     "cat": "Diálogo",
     "q": "A: '晩ご飯に何を食べますか。' B: Ensalada y queso → ¿qué responde?",
-    "correct": "サラダやチーズなどを食べます。",
-    "explanation": "Lista abierta con や/など + を + 食べます.",
     "opts": [
       {
         "text": "サラダやチーズなどを食べます。",
         "correct": true,
-        "reason": "Correcta. Lista abierta con や/など."
+        "explanation": "Lista abierta con や/など + を + 食べます. Correcta. Lista abierta con や/など."
       },
       {
         "text": "サラダをチーズを食べます。",
         "correct": false,
-        "reason": "No se pueden duplicar を; y falta conjunción."
+        "explanation": "No se pueden duplicar を; y falta conjunción."
       },
       {
         "text": "サラダでチーズを食べます。",
         "correct": false,
-        "reason": "で no une sustantivos en lista."
+        "explanation": "で no une sustantivos en lista."
       },
       {
         "text": "サラダにチーズなど食べます。",
         "correct": false,
-        "reason": "に no une sustantivos; falta を."
+        "explanation": "に no une sustantivos; falta を."
       }
     ]
   },
@@ -3327,28 +3095,26 @@
     "id": "U3C-117",
     "cat": "Diálogo",
     "q": "A: '週末、何をしますか。' B: Nada → ¿qué responde?",
-    "correct": "何もしません。",
-    "explanation": "Respuesta con negación total: 何も + しません.",
     "opts": [
       {
         "text": "何もしません。",
         "correct": true,
-        "reason": "Correcta. Negación total."
+        "explanation": "Respuesta con negación total: 何も + しません. Correcta. Negación total."
       },
       {
         "text": "何をしません。",
         "correct": false,
-        "reason": "を + negativo no expresa 'nada'; mo reemplaza a を."
+        "explanation": "を + negativo no expresa 'nada'; mo reemplaza a を."
       },
       {
         "text": "何もします。",
         "correct": false,
-        "reason": "Afirmativo; incoherente con 何も."
+        "explanation": "Afirmativo; incoherente con 何も."
       },
       {
         "text": "何がしません。",
         "correct": false,
-        "reason": "が no expresa 'nada'."
+        "explanation": "が no expresa 'nada'."
       }
     ]
   },
@@ -3356,28 +3122,26 @@
     "id": "U3C-118",
     "cat": "Diálogo",
     "q": "A: '週末、どこへ行きますか。' B: A ningún lado → ¿qué responde?",
-    "correct": "どこへも行きません。",
-    "explanation": "Negación universal de destino: どこへも + 行きません.",
     "opts": [
       {
         "text": "どこへも行きません。",
         "correct": true,
-        "reason": "Correcta. Negación universal."
+        "explanation": "Negación universal de destino: どこへも + 行きません. Correcta. Negación universal."
       },
       {
         "text": "どこを行きません。",
         "correct": false,
-        "reason": "を no marca destino; falta も."
+        "explanation": "を no marca destino; falta も."
       },
       {
         "text": "どこへ行きません。",
         "correct": false,
-        "reason": "Sin も no expresa 'ningún lado'."
+        "explanation": "Sin も no expresa 'ningún lado'."
       },
       {
         "text": "どこでも行きません。",
         "correct": false,
-        "reason": "どこでも = 'en cualquier lugar' (sentido distinto)."
+        "explanation": "どこでも = 'en cualquier lugar' (sentido distinto)."
       }
     ]
   },
@@ -3385,28 +3149,26 @@
     "id": "U3C-119",
     "cat": "Diálogo",
     "q": "A: 'うちで何をしますか。' B: Miro la tele y leo → ¿qué responde?",
-    "correct": "テレビを見ます。本を読みます。",
-    "explanation": "Dos oraciones simples con を: テレビを見ます (miro tele) + 本を読みます (leo libros).",
     "opts": [
       {
         "text": "テレビを見ます。本を読みます。",
         "correct": true,
-        "reason": "Correcta. Dos oraciones simples."
+        "explanation": "Dos oraciones simples con を: テレビを見ます (miro tele) + 本を読みます (leo libros). Correcta. Dos oraciones simples."
       },
       {
         "text": "テレビで見ます。本で読みます。",
         "correct": false,
-        "reason": "で no marca objeto; se usa を."
+        "explanation": "で no marca objeto; se usa を."
       },
       {
         "text": "テレビに見ます。本に読みます。",
         "correct": false,
-        "reason": "に no marca objeto directo."
+        "explanation": "に no marca objeto directo."
       },
       {
         "text": "テレビが見ます。本が読みます。",
         "correct": false,
-        "reason": "が marca sujeto, no objeto."
+        "explanation": "が marca sujeto, no objeto."
       }
     ]
   }

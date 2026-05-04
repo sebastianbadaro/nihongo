@@ -3,28 +3,26 @@
     "id": "U4B-001",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 大きい?",
-    "correct": "Grande",
-    "explanation": "大きい (おおきい) es un adjetivo い que describe TAMAÑO grande. Distinto de 多い (cantidad mucha) o 高い (alto).",
     "opts": [
       {
         "text": "Grande",
         "correct": true,
-        "reason": "Correcta. Adjetivo de tamaño."
+        "explanation": "大きい (おおきい) es un adjetivo い que describe TAMAÑO grande. Distinto de 多い (cantidad mucha) o 高い (alto). Correcta. Adjetivo de tamaño."
       },
       {
         "text": "Pequeño",
         "correct": false,
-        "reason": "'Pequeño' es 小さい (ちいさい), opuesto a 大きい."
+        "explanation": "'Pequeño' es 小さい (ちいさい), opuesto a 大きい."
       },
       {
         "text": "Alto",
         "correct": false,
-        "reason": "'Alto' es 高い (たかい). Aunque relacionado, 大きい se enfoca en VOLUMEN/área general."
+        "explanation": "'Alto' es 高い (たかい). Aunque relacionado, 大きい se enfoca en VOLUMEN/área general."
       },
       {
         "text": "Nuevo",
         "correct": false,
-        "reason": "'Nuevo' es 新しい (あたらしい), atributo distinto."
+        "explanation": "'Nuevo' es 新しい (あたらしい), atributo distinto."
       }
     ]
   },
@@ -32,28 +30,26 @@
     "id": "U4B-002",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 小さい?",
-    "correct": "Pequeño",
-    "explanation": "小さい (ちいさい) es un adjetivo い que describe tamaño pequeño. Opuesto directo de 大きい.",
     "opts": [
       {
         "text": "Pequeño",
         "correct": true,
-        "reason": "Correcta. Adjetivo de tamaño reducido."
+        "explanation": "小さい (ちいさい) es un adjetivo い que describe tamaño pequeño. Opuesto directo de 大きい. Correcta. Adjetivo de tamaño reducido."
       },
       {
         "text": "Grande",
         "correct": false,
-        "reason": "'Grande' es 大きい, opuesto a 小さい."
+        "explanation": "'Grande' es 大きい, opuesto a 小さい."
       },
       {
         "text": "Poco",
         "correct": false,
-        "reason": "'Poco' (cantidad) es 少ない (すくない); 小さい se refiere a TAMAÑO, no cantidad."
+        "explanation": "'Poco' (cantidad) es 少ない (すくない); 小さい se refiere a TAMAÑO, no cantidad."
       },
       {
         "text": "Bajo",
         "correct": false,
-        "reason": "'Bajo (estatura/altura)' es 低い (ひくい). 小さい es de tamaño general."
+        "explanation": "'Bajo (estatura/altura)' es 低い (ひくい). 小さい es de tamaño general."
       }
     ]
   },
@@ -61,28 +57,26 @@
     "id": "U4B-003",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 高い?",
-    "correct": "Alto / Caro",
-    "explanation": "高い (たかい) tiene doble significado: 'alto' (en altura) y 'caro' (en precio). El contexto desambigua.",
     "opts": [
       {
         "text": "Alto / Caro",
         "correct": true,
-        "reason": "Correcta. Polisemia común."
+        "explanation": "高い (たかい) tiene doble significado: 'alto' (en altura) y 'caro' (en precio). El contexto desambigua. Correcta. Polisemia común."
       },
       {
         "text": "Bajo / Barato",
         "correct": false,
-        "reason": "'Bajo/barato' es 低い (ひくい) o 安い (やすい), opuestos a 高い."
+        "explanation": "'Bajo/barato' es 低い (ひくい) o 安い (やすい), opuestos a 高い."
       },
       {
         "text": "Grande",
         "correct": false,
-        "reason": "'Grande' es 大きい. 高い específicamente es altura/precio."
+        "explanation": "'Grande' es 大きい. 高い específicamente es altura/precio."
       },
       {
         "text": "Antiguo",
         "correct": false,
-        "reason": "'Antiguo' es 古い (ふるい), atributo distinto."
+        "explanation": "'Antiguo' es 古い (ふるい), atributo distinto."
       }
     ]
   },
@@ -90,28 +84,26 @@
     "id": "U4B-004",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 古い?",
-    "correct": "Antiguo / Viejo",
-    "explanation": "古い (ふるい) describe cosas (objetos, edificios, costumbres) que son antiguas. Para personas mayores se usa 年上 o 高齢.",
     "opts": [
       {
         "text": "Antiguo / Viejo",
         "correct": true,
-        "reason": "Correcta. Adjetivo para cosas con antigüedad."
+        "explanation": "古い (ふるい) describe cosas (objetos, edificios, costumbres) que son antiguas. Para personas mayores se usa 年上 o 高齢. Correcta. Adjetivo para cosas con antigüedad."
       },
       {
         "text": "Nuevo",
         "correct": false,
-        "reason": "'Nuevo' es 新しい (あたらしい), opuesto a 古い."
+        "explanation": "'Nuevo' es 新しい (あたらしい), opuesto a 古い."
       },
       {
         "text": "Alto",
         "correct": false,
-        "reason": "'Alto' es 高い."
+        "explanation": "'Alto' es 高い."
       },
       {
         "text": "Pequeño",
         "correct": false,
-        "reason": "'Pequeño' es 小さい."
+        "explanation": "'Pequeño' es 小さい."
       }
     ]
   },
@@ -119,28 +111,26 @@
     "id": "U4B-005",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 新しい?",
-    "correct": "Nuevo",
-    "explanation": "新しい (あたらしい) describe cosas recientes/nuevas. Aparece también en 新幹線 (tren bala 'nueva línea principal').",
     "opts": [
       {
         "text": "Nuevo",
         "correct": true,
-        "reason": "Correcta. Adjetivo de novedad."
+        "explanation": "新しい (あたらしい) describe cosas recientes/nuevas. Aparece también en 新幹線 (tren bala 'nueva línea principal'). Correcta. Adjetivo de novedad."
       },
       {
         "text": "Antiguo",
         "correct": false,
-        "reason": "'Antiguo' es 古い, opuesto a 新しい."
+        "explanation": "'Antiguo' es 古い, opuesto a 新しい."
       },
       {
         "text": "Lindo",
         "correct": false,
-        "reason": "'Lindo/limpio' es きれい, atributo distinto."
+        "explanation": "'Lindo/limpio' es きれい, atributo distinto."
       },
       {
         "text": "Famoso",
         "correct": false,
-        "reason": "'Famoso' es 有名 (ゆうめい)."
+        "explanation": "'Famoso' es 有名 (ゆうめい)."
       }
     ]
   },
@@ -148,28 +138,26 @@
     "id": "U4B-006",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 多い?",
-    "correct": "Mucho/s (cantidad)",
-    "explanation": "多い (おおい) describe CANTIDAD grande. Distinto de 大きい (tamaño). Ej: 人が多い = 'hay mucha gente'.",
     "opts": [
       {
         "text": "Mucho/s (cantidad)",
         "correct": true,
-        "reason": "Correcta. Adjetivo de cantidad alta."
+        "explanation": "多い (おおい) describe CANTIDAD grande. Distinto de 大きい (tamaño). Ej: 人が多い = 'hay mucha gente'. Correcta. Adjetivo de cantidad alta."
       },
       {
         "text": "Poco/s",
         "correct": false,
-        "reason": "'Pocos' es 少ない (すくない), opuesto a 多い."
+        "explanation": "'Pocos' es 少ない (すくない), opuesto a 多い."
       },
       {
         "text": "Grande",
         "correct": false,
-        "reason": "'Grande' (tamaño) es 大きい. 多い es CANTIDAD, no tamaño. Confusión común."
+        "explanation": "'Grande' (tamaño) es 大きい. 多い es CANTIDAD, no tamaño. Confusión común."
       },
       {
         "text": "Pesado",
         "correct": false,
-        "reason": "'Pesado' es 重い (おもい). 多い es cantidad, no peso."
+        "explanation": "'Pesado' es 重い (おもい). 多い es cantidad, no peso."
       }
     ]
   },
@@ -177,28 +165,26 @@
     "id": "U4B-007",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 少ない?",
-    "correct": "Poco/s (cantidad)",
-    "explanation": "少ない (すくない) describe CANTIDAD escasa. Opuesto a 多い. Ej: 人が少ない = 'hay poca gente'.",
     "opts": [
       {
         "text": "Poco/s (cantidad)",
         "correct": true,
-        "reason": "Correcta. Adjetivo de cantidad escasa."
+        "explanation": "少ない (すくない) describe CANTIDAD escasa. Opuesto a 多い. Ej: 人が少ない = 'hay poca gente'. Correcta. Adjetivo de cantidad escasa."
       },
       {
         "text": "Mucho/s",
         "correct": false,
-        "reason": "'Mucho' es 多い, opuesto a 少ない."
+        "explanation": "'Mucho' es 多い, opuesto a 少ない."
       },
       {
         "text": "Pequeño",
         "correct": false,
-        "reason": "'Pequeño' (tamaño) es 小さい. 少ない es CANTIDAD, no tamaño."
+        "explanation": "'Pequeño' (tamaño) es 小さい. 少ない es CANTIDAD, no tamaño."
       },
       {
         "text": "Menor",
         "correct": false,
-        "reason": "'Menor' (edad/jerarquía) sería 年下 (としした). 少ない es cantidad."
+        "explanation": "'Menor' (edad/jerarquía) sería 年下 (としした). 少ない es cantidad."
       }
     ]
   },
@@ -206,28 +192,26 @@
     "id": "U4B-008",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 大きい?",
-    "correct": "おおきい",
-    "explanation": "大 (おお, kun'yomi 'grande') + きい (okurigana). Notá la vocal larga inicial おお.",
     "opts": [
       {
         "text": "おおきい",
         "correct": true,
-        "reason": "Correcta. Vocal larga obligatoria."
+        "explanation": "大 (おお, kun'yomi 'grande') + きい (okurigana). Notá la vocal larga inicial おお. Correcta. Vocal larga obligatoria."
       },
       {
         "text": "だいきい",
         "correct": false,
-        "reason": "だい es on'yomi de 大 (en compuestos: 大学 だいがく); en el adjetivo se usa kun'yomi おお."
+        "explanation": "だい es on'yomi de 大 (en compuestos: 大学 だいがく); en el adjetivo se usa kun'yomi おお."
       },
       {
         "text": "たいきい",
         "correct": false,
-        "reason": "たい es otra on'yomi de 大 (大切 たいせつ); no se usa en este adjetivo."
+        "explanation": "たい es otra on'yomi de 大 (大切 たいせつ); no se usa en este adjetivo."
       },
       {
         "text": "おきい",
         "correct": false,
-        "reason": "Falta la vocal larga: おお (con dos お), no お sola."
+        "explanation": "Falta la vocal larga: おお (con dos お), no お sola."
       }
     ]
   },
@@ -235,28 +219,26 @@
     "id": "U4B-009",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 小さい?",
-    "correct": "ちいさい",
-    "explanation": "小 (ちい, kun'yomi 'pequeño') + さい (okurigana). Notá la vocal larga ちい.",
     "opts": [
       {
         "text": "ちいさい",
         "correct": true,
-        "reason": "Correcta. Vocal larga obligatoria."
+        "explanation": "小 (ちい, kun'yomi 'pequeño') + さい (okurigana). Notá la vocal larga ちい. Correcta. Vocal larga obligatoria."
       },
       {
         "text": "しょうさい",
         "correct": false,
-        "reason": "しょう es on'yomi de 小 (en compuestos: 小学校 しょうがっこう); en el adjetivo se usa kun'yomi ちい."
+        "explanation": "しょう es on'yomi de 小 (en compuestos: 小学校 しょうがっこう); en el adjetivo se usa kun'yomi ちい."
       },
       {
         "text": "こさい",
         "correct": false,
-        "reason": "こ es lectura de 小 en algunos compuestos (小鳥 ことり 'pajarito'), pero no en el adjetivo."
+        "explanation": "こ es lectura de 小 en algunos compuestos (小鳥 ことり 'pajarito'), pero no en el adjetivo."
       },
       {
         "text": "ちさい",
         "correct": false,
-        "reason": "Falta la vocal larga: ちい (con dos い), no ち sola."
+        "explanation": "Falta la vocal larga: ちい (con dos い), no ち sola."
       }
     ]
   },
@@ -264,28 +246,26 @@
     "id": "U4B-010",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 高い?",
-    "correct": "たかい",
-    "explanation": "高 (たか, kun'yomi 'alto') + い (okurigana).",
     "opts": [
       {
         "text": "たかい",
         "correct": true,
-        "reason": "Correcta. Kun'yomi del adjetivo."
+        "explanation": "高 (たか, kun'yomi 'alto') + い (okurigana). Correcta. Kun'yomi del adjetivo."
       },
       {
         "text": "こうい",
         "correct": false,
-        "reason": "こう es on'yomi de 高 (高校 こうこう); en el adjetivo se usa kun'yomi たか."
+        "explanation": "こう es on'yomi de 高 (高校 こうこう); en el adjetivo se usa kun'yomi たか."
       },
       {
         "text": "たっかい",
         "correct": false,
-        "reason": "El sokuon (っ) no aplica acá; la lectura es plana たかい."
+        "explanation": "El sokuon (っ) no aplica acá; la lectura es plana たかい."
       },
       {
         "text": "たい",
         "correct": false,
-        "reason": "Falta la sílaba か: la lectura completa es たかい."
+        "explanation": "Falta la sílaba か: la lectura completa es たかい."
       }
     ]
   },
@@ -293,28 +273,26 @@
     "id": "U4B-011",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 古い?",
-    "correct": "ふるい",
-    "explanation": "古 (ふる, kun'yomi 'antiguo') + い (okurigana).",
     "opts": [
       {
         "text": "ふるい",
         "correct": true,
-        "reason": "Correcta. Kun'yomi del adjetivo."
+        "explanation": "古 (ふる, kun'yomi 'antiguo') + い (okurigana). Correcta. Kun'yomi del adjetivo."
       },
       {
         "text": "こい",
         "correct": false,
-        "reason": "こ es on'yomi de 古 (古典 こてん 'clásicos'); en el adjetivo se usa kun'yomi ふる."
+        "explanation": "こ es on'yomi de 古 (古典 こてん 'clásicos'); en el adjetivo se usa kun'yomi ふる."
       },
       {
         "text": "ふるう",
         "correct": false,
-        "reason": "ふるう es 振るう ('agitar'), verbo distinto. La terminación del adjetivo es い, no う."
+        "explanation": "ふるう es 振るう ('agitar'), verbo distinto. La terminación del adjetivo es い, no う."
       },
       {
         "text": "ふい",
         "correct": false,
-        "reason": "Falta la sílaba る: la lectura completa es ふるい."
+        "explanation": "Falta la sílaba る: la lectura completa es ふるい."
       }
     ]
   },
@@ -322,28 +300,26 @@
     "id": "U4B-012",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 新しい?",
-    "correct": "あたらしい",
-    "explanation": "新 (あたら, kun'yomi 'nuevo') + しい (okurigana). Notá las dos sílabas finales し+い.",
     "opts": [
       {
         "text": "あたらしい",
         "correct": true,
-        "reason": "Correcta. Kun'yomi del adjetivo."
+        "explanation": "新 (あたら, kun'yomi 'nuevo') + しい (okurigana). Notá las dos sílabas finales し+い. Correcta. Kun'yomi del adjetivo."
       },
       {
         "text": "しんしい",
         "correct": false,
-        "reason": "しん es on'yomi de 新 (en compuestos: 新幹線); en el adjetivo se usa kun'yomi あたら."
+        "explanation": "しん es on'yomi de 新 (en compuestos: 新幹線); en el adjetivo se usa kun'yomi あたら."
       },
       {
         "text": "あらたしい",
         "correct": false,
-        "reason": "Lectura inventada/arcaica; あらた existe en 新た (forma alternativa) pero no se combina así con しい."
+        "explanation": "Lectura inventada/arcaica; あらた existe en 新た (forma alternativa) pero no se combina así con しい."
       },
       {
         "text": "にいしい",
         "correct": false,
-        "reason": "にい es lectura nominal antigua (新潟 にいがた), no del adjetivo."
+        "explanation": "にい es lectura nominal antigua (新潟 にいがた), no del adjetivo."
       }
     ]
   },
@@ -351,28 +327,26 @@
     "id": "U4B-013",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 多い?",
-    "correct": "おおい",
-    "explanation": "多 (おお, kun'yomi 'mucho') + い (okurigana). Notá la vocal larga おお, igual que en 大きい.",
     "opts": [
       {
         "text": "おおい",
         "correct": true,
-        "reason": "Correcta. Vocal larga obligatoria."
+        "explanation": "多 (おお, kun'yomi 'mucho') + い (okurigana). Notá la vocal larga おお, igual que en 大きい. Correcta. Vocal larga obligatoria."
       },
       {
         "text": "たい",
         "correct": false,
-        "reason": "た es on'yomi de 多 (多分 たぶん 'probablemente'); en el adjetivo se usa kun'yomi おお."
+        "explanation": "た es on'yomi de 多 (多分 たぶん 'probablemente'); en el adjetivo se usa kun'yomi おお."
       },
       {
         "text": "おおきい",
         "correct": false,
-        "reason": "おおきい es 大きい ('grande'), kanji distinto. Confusión común por la vocal larga inicial."
+        "explanation": "おおきい es 大きい ('grande'), kanji distinto. Confusión común por la vocal larga inicial."
       },
       {
         "text": "おうい",
         "correct": false,
-        "reason": "La vocal larga es おお (no おう). おう sería otra escritura para vocal larga pero no aplica acá."
+        "explanation": "La vocal larga es おお (no おう). おう sería otra escritura para vocal larga pero no aplica acá."
       }
     ]
   },
@@ -380,28 +354,26 @@
     "id": "U4B-014",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 少ない?",
-    "correct": "すくない",
-    "explanation": "少 (すく, kun'yomi 'poco') + ない (okurigana).",
     "opts": [
       {
         "text": "すくない",
         "correct": true,
-        "reason": "Correcta. Kun'yomi del adjetivo."
+        "explanation": "少 (すく, kun'yomi 'poco') + ない (okurigana). Correcta. Kun'yomi del adjetivo."
       },
       {
         "text": "しょうない",
         "correct": false,
-        "reason": "しょう es on'yomi de 少 (少々 しょうしょう); en el adjetivo se usa kun'yomi すく."
+        "explanation": "しょう es on'yomi de 少 (少々 しょうしょう); en el adjetivo se usa kun'yomi すく."
       },
       {
         "text": "すこない",
         "correct": false,
-        "reason": "Vocal incorrecta: すく (con く), no すこ. すこ existe en すこし ('un poco') con し final."
+        "explanation": "Vocal incorrecta: すく (con く), no すこ. すこ existe en すこし ('un poco') con し final."
       },
       {
         "text": "すない",
         "correct": false,
-        "reason": "Falta la sílaba く: la lectura completa es すくない."
+        "explanation": "Falta la sílaba く: la lectura completa es すくない."
       }
     ]
   },
@@ -409,28 +381,26 @@
     "id": "U4B-015",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 有名な?",
-    "correct": "Famoso/a",
-    "explanation": "有名 (ゆうめい): 有 ('existir/tener') + 名 ('nombre') = 'tener nombre' = famoso. Es adjetivo な, requiere な para modificar sustantivos.",
     "opts": [
       {
         "text": "Famoso/a",
         "correct": true,
-        "reason": "Correcta. Análisis literal 'tener nombre'."
+        "explanation": "有名 (ゆうめい): 有 ('existir/tener') + 名 ('nombre') = 'tener nombre' = famoso. Es adjetivo な, requiere な para modificar sustantivos. Correcta. Análisis literal 'tener nombre'."
       },
       {
         "text": "Concurrido",
         "correct": false,
-        "reason": "'Concurrido/animado' es にぎやか, atributo distinto."
+        "explanation": "'Concurrido/animado' es にぎやか, atributo distinto."
       },
       {
         "text": "Tranquilo",
         "correct": false,
-        "reason": "'Tranquilo' es 静か (しずか)."
+        "explanation": "'Tranquilo' es 静か (しずか)."
       },
       {
         "text": "Lindo",
         "correct": false,
-        "reason": "'Lindo/limpio' es きれい."
+        "explanation": "'Lindo/limpio' es きれい."
       }
     ]
   },
@@ -438,28 +408,26 @@
     "id": "U4B-016",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa にぎやかな?",
-    "correct": "Concurrido, animado",
-    "explanation": "にぎやか describe lugares con mucho movimiento, gente, vida. Adjetivo な típico de ciudades comerciales.",
     "opts": [
       {
         "text": "Concurrido, animado",
         "correct": true,
-        "reason": "Correcta. Lugar con movimiento/gente."
+        "explanation": "にぎやか describe lugares con mucho movimiento, gente, vida. Adjetivo な típico de ciudades comerciales. Correcta. Lugar con movimiento/gente."
       },
       {
         "text": "Tranquilo",
         "correct": false,
-        "reason": "'Tranquilo' es 静か, opuesto a にぎやか."
+        "explanation": "'Tranquilo' es 静か, opuesto a にぎやか."
       },
       {
         "text": "Famoso",
         "correct": false,
-        "reason": "'Famoso' es 有名. にぎやか se refiere a movimiento, no fama."
+        "explanation": "'Famoso' es 有名. にぎやか se refiere a movimiento, no fama."
       },
       {
         "text": "Sucio",
         "correct": false,
-        "reason": "'Sucio' es 汚い (きたない). にぎやか no implica suciedad."
+        "explanation": "'Sucio' es 汚い (きたない). にぎやか no implica suciedad."
       }
     ]
   },
@@ -467,28 +435,26 @@
     "id": "U4B-017",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 静かな?",
-    "correct": "Tranquilo, silencioso",
-    "explanation": "静か (しずか) describe lugares o ambientes con poco ruido/movimiento. Adjetivo な opuesto a にぎやか.",
     "opts": [
       {
         "text": "Tranquilo, silencioso",
         "correct": true,
-        "reason": "Correcta. Adjetivo de calma."
+        "explanation": "静か (しずか) describe lugares o ambientes con poco ruido/movimiento. Adjetivo な opuesto a にぎやか. Correcta. Adjetivo de calma."
       },
       {
         "text": "Ruidoso",
         "correct": false,
-        "reason": "'Ruidoso' es うるさい o 騒がしい (さわがしい), opuesto a 静か."
+        "explanation": "'Ruidoso' es うるさい o 騒がしい (さわがしい), opuesto a 静か."
       },
       {
         "text": "Vacío",
         "correct": false,
-        "reason": "'Vacío' es 空 (から) o 空っぽ. 静か se refiere a sonido, no a falta de contenido."
+        "explanation": "'Vacío' es 空 (から) o 空っぽ. 静か se refiere a sonido, no a falta de contenido."
       },
       {
         "text": "Limpio",
         "correct": false,
-        "reason": "'Limpio' es きれい. 静か es sobre sonido."
+        "explanation": "'Limpio' es きれい. 静か es sobre sonido."
       }
     ]
   },
@@ -496,28 +462,26 @@
     "id": "U4B-018",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa きれいな?",
-    "correct": "Lindo/a / Limpio/a",
-    "explanation": "きれい tiene doble sentido: 'lindo/bonito' (estética) y 'limpio' (orden/higiene). Aunque termina en い, es adjetivo な (excepción importante).",
     "opts": [
       {
         "text": "Lindo/a / Limpio/a",
         "correct": true,
-        "reason": "Correcta. Polisemia estándar."
+        "explanation": "きれい tiene doble sentido: 'lindo/bonito' (estética) y 'limpio' (orden/higiene). Aunque termina en い, es adjetivo な (excepción importante). Correcta. Polisemia estándar."
       },
       {
         "text": "Sucio",
         "correct": false,
-        "reason": "'Sucio' es 汚い (きたない), opuesto."
+        "explanation": "'Sucio' es 汚い (きたない), opuesto."
       },
       {
         "text": "Feo",
         "correct": false,
-        "reason": "'Feo' es 醜い (みにくい) o ぶさいく."
+        "explanation": "'Feo' es 醜い (みにくい) o ぶさいく."
       },
       {
         "text": "Nuevo",
         "correct": false,
-        "reason": "'Nuevo' es 新しい. きれい no implica novedad."
+        "explanation": "'Nuevo' es 新しい. きれい no implica novedad."
       }
     ]
   },
@@ -525,28 +489,26 @@
     "id": "U4B-019",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 有名?",
-    "correct": "ゆうめい",
-    "explanation": "有 (ゆう) + 名 (めい) = ゆうめい. On'yomi en ambos kanji.",
     "opts": [
       {
         "text": "ゆうめい",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "有 (ゆう) + 名 (めい) = ゆうめい. On'yomi en ambos kanji. Correcta. On'yomi estándar."
       },
       {
         "text": "ゆめい",
         "correct": false,
-        "reason": "Falta la vocal larga: ゆう (con う), no ゆ."
+        "explanation": "Falta la vocal larga: ゆう (con う), no ゆ."
       },
       {
         "text": "ゆうな",
         "correct": false,
-        "reason": "な es kun'yomi de 名 (名前 なまえ); en compuestos formales se usa めい."
+        "explanation": "な es kun'yomi de 名 (名前 なまえ); en compuestos formales se usa めい."
       },
       {
         "text": "ありめい",
         "correct": false,
-        "reason": "あり es kun'yomi de 有 (verbo 有る); en el compuesto se usa la on'yomi ゆう."
+        "explanation": "あり es kun'yomi de 有 (verbo 有る); en el compuesto se usa la on'yomi ゆう."
       }
     ]
   },
@@ -554,28 +516,26 @@
     "id": "U4B-020",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 静か?",
-    "correct": "しずか",
-    "explanation": "静 (しず, kun'yomi) + か (okurigana). Notá el dakuten en ず.",
     "opts": [
       {
         "text": "しずか",
         "correct": true,
-        "reason": "Correcta. Kun'yomi del adjetivo."
+        "explanation": "静 (しず, kun'yomi) + か (okurigana). Notá el dakuten en ず. Correcta. Kun'yomi del adjetivo."
       },
       {
         "text": "せいか",
         "correct": false,
-        "reason": "せい es on'yomi de 静 (en compuestos: 静止 せいし); en el adjetivo se usa kun'yomi しず."
+        "explanation": "せい es on'yomi de 静 (en compuestos: 静止 せいし); en el adjetivo se usa kun'yomi しず."
       },
       {
         "text": "しずけ",
         "correct": false,
-        "reason": "Lectura incorrecta del okurigana: la palabra es 静か (しずか), no しずけ. しずけさ es el sustantivo derivado ('silencio')."
+        "explanation": "Lectura incorrecta del okurigana: la palabra es 静か (しずか), no しずけ. しずけさ es el sustantivo derivado ('silencio')."
       },
       {
         "text": "しか",
         "correct": false,
-        "reason": "Falta la sílaba ず: la lectura completa es しずか."
+        "explanation": "Falta la sílaba ず: la lectura completa es しずか."
       }
     ]
   },
@@ -583,28 +543,26 @@
     "id": "U4B-021",
     "cat": "Adjetivos",
     "q": "¿De qué tipo es 大きい?",
-    "correct": "い-adjetivo",
-    "explanation": "大きい termina en い y es adjetivo: por lo tanto es い-adjetivo. Su negativo se forma con -くない (大きくない).",
     "opts": [
       {
         "text": "い-adjetivo",
         "correct": true,
-        "reason": "Correcta. Termina en い y modifica directamente al sustantivo (大きい公園)."
+        "explanation": "大きい termina en い y es adjetivo: por lo tanto es い-adjetivo. Su negativo se forma con -くない (大きくない). Correcta. Termina en い y modifica directamente al sustantivo (大きい公園)."
       },
       {
         "text": "な-adjetivo",
         "correct": false,
-        "reason": "Los な-adj requieren な para modificar sustantivos (静かな町). 大きい va directo (大きい公園)."
+        "explanation": "Los な-adj requieren な para modificar sustantivos (静かな町). 大きい va directo (大きい公園)."
       },
       {
         "text": "Sustantivo",
         "correct": false,
-        "reason": "Los sustantivos no terminan en い de esta forma; 大きい conjuga (大きくない)."
+        "explanation": "Los sustantivos no terminan en い de esta forma; 大きい conjuga (大きくない)."
       },
       {
         "text": "Verbo",
         "correct": false,
-        "reason": "Los verbos terminan en う/く/ぐ/す/etc. en forma diccionario, no en い."
+        "explanation": "Los verbos terminan en う/く/ぐ/す/etc. en forma diccionario, no en い."
       }
     ]
   },
@@ -612,28 +570,26 @@
     "id": "U4B-022",
     "cat": "Adjetivos",
     "q": "¿De qué tipo es 有名?",
-    "correct": "な-adjetivo",
-    "explanation": "有名 NO termina en い (termina en consonante い nominal), es な-adjetivo. Para modificar sustantivos se agrega な: 有名な町.",
     "opts": [
       {
         "text": "な-adjetivo",
         "correct": true,
-        "reason": "Correcta. Requiere な para modificar (有名な町)."
+        "explanation": "有名 NO termina en い (termina en consonante い nominal), es な-adjetivo. Para modificar sustantivos se agrega な: 有名な町. Correcta. Requiere な para modificar (有名な町)."
       },
       {
         "text": "い-adjetivo",
         "correct": false,
-        "reason": "い-adj termina en い como parte del adjetivo (大きい). 有名 termina en sílaba い nominal sin valor adjetival."
+        "explanation": "い-adj termina en い como parte del adjetivo (大きい). 有名 termina en sílaba い nominal sin valor adjetival."
       },
       {
         "text": "Sustantivo",
         "correct": false,
-        "reason": "Aunque puede funcionar como sustantivo abstracto, en contexto de modificar 'fame' es な-adjetivo."
+        "explanation": "Aunque puede funcionar como sustantivo abstracto, en contexto de modificar 'fame' es な-adjetivo."
       },
       {
         "text": "Verbo",
         "correct": false,
-        "reason": "No es verbo; no conjuga como tal."
+        "explanation": "No es verbo; no conjuga como tal."
       }
     ]
   },
@@ -641,28 +597,26 @@
     "id": "U4B-023",
     "cat": "Adjetivos",
     "q": "¿De qué tipo es きれい? (¡ojo, termina en い pero no lo es!)",
-    "correct": "な-adjetivo",
-    "explanation": "きれい (きれい) es la EXCEPCIÓN clásica: termina en い pero es な-adjetivo. Para modificar sustantivos: きれいな海. Su negativo: きれいじゃない (no きれくない).",
     "opts": [
       {
         "text": "な-adjetivo",
         "correct": true,
-        "reason": "Correcta. Excepción importante (junto con 嫌い きらい)."
+        "explanation": "きれい (きれい) es la EXCEPCIÓN clásica: termina en い pero es な-adjetivo. Para modificar sustantivos: きれいな海. Su negativo: きれいじゃない (no きれくない). Correcta. Excepción importante (junto con 嫌い きらい)."
       },
       {
         "text": "い-adjetivo",
         "correct": false,
-        "reason": "Aunque termina en い, es な-adj. Confusión muy común que el examen pone a prueba."
+        "explanation": "Aunque termina en い, es な-adj. Confusión muy común que el examen pone a prueba."
       },
       {
         "text": "Sustantivo",
         "correct": false,
-        "reason": "Funciona como adjetivo, no sustantivo."
+        "explanation": "Funciona como adjetivo, no sustantivo."
       },
       {
         "text": "Verbo",
         "correct": false,
-        "reason": "No es verbo; no conjuga como tal."
+        "explanation": "No es verbo; no conjuga como tal."
       }
     ]
   },
@@ -670,28 +624,26 @@
     "id": "U4B-024",
     "cat": "Adjetivos",
     "q": "¿De qué tipo es 新しい?",
-    "correct": "い-adjetivo",
-    "explanation": "新しい termina en い y es adjetivo. Negativo: 新しくない. Modifica directamente: 新しいビル.",
     "opts": [
       {
         "text": "い-adjetivo",
         "correct": true,
-        "reason": "Correcta. Termina en い con función adjetival."
+        "explanation": "新しい termina en い y es adjetivo. Negativo: 新しくない. Modifica directamente: 新しいビル. Correcta. Termina en い con función adjetival."
       },
       {
         "text": "な-adjetivo",
         "correct": false,
-        "reason": "Los な-adj requieren な (静かな町); 新しい va directo (新しいビル)."
+        "explanation": "Los な-adj requieren な (静かな町); 新しい va directo (新しいビル)."
       },
       {
         "text": "Sustantivo",
         "correct": false,
-        "reason": "No es sustantivo; conjuga (新しくない)."
+        "explanation": "No es sustantivo; conjuga (新しくない)."
       },
       {
         "text": "Verbo",
         "correct": false,
-        "reason": "No es verbo."
+        "explanation": "No es verbo."
       }
     ]
   },
@@ -699,28 +651,26 @@
     "id": "U4B-025",
     "cat": "Adjetivos",
     "q": "¿De qué tipo es 静か?",
-    "correct": "な-adjetivo",
-    "explanation": "静か termina en か (no en い adjetival). Es な-adjetivo: 静かな町. Negativo: 静かじゃない.",
     "opts": [
       {
         "text": "な-adjetivo",
         "correct": true,
-        "reason": "Correcta. Requiere な para modificar."
+        "explanation": "静か termina en か (no en い adjetival). Es な-adjetivo: 静かな町. Negativo: 静かじゃない. Correcta. Requiere な para modificar."
       },
       {
         "text": "い-adjetivo",
         "correct": false,
-        "reason": "No termina en い adjetival; termina en か."
+        "explanation": "No termina en い adjetival; termina en か."
       },
       {
         "text": "Sustantivo",
         "correct": false,
-        "reason": "Aunque puede sustantivarse en algunos casos, su función primaria es adjetiva."
+        "explanation": "Aunque puede sustantivarse en algunos casos, su función primaria es adjetiva."
       },
       {
         "text": "Verbo",
         "correct": false,
-        "reason": "No es verbo."
+        "explanation": "No es verbo."
       }
     ]
   },
@@ -728,28 +678,26 @@
     "id": "U4B-026",
     "cat": "Adjetivos",
     "q": "¿De qué tipo es 少ない?",
-    "correct": "い-adjetivo",
-    "explanation": "少ない termina en い adjetival. Es い-adjetivo: 人が少ない. Negativo: 少なくない.",
     "opts": [
       {
         "text": "い-adjetivo",
         "correct": true,
-        "reason": "Correcta. Termina en い."
+        "explanation": "少ない termina en い adjetival. Es い-adjetivo: 人が少ない. Negativo: 少なくない. Correcta. Termina en い."
       },
       {
         "text": "な-adjetivo",
         "correct": false,
-        "reason": "Los な-adj requieren な; 少ない va directo (少ない人)."
+        "explanation": "Los な-adj requieren な; 少ない va directo (少ない人)."
       },
       {
         "text": "Sustantivo",
         "correct": false,
-        "reason": "Conjuga (少なくない), por lo que no es sustantivo."
+        "explanation": "Conjuga (少なくない), por lo que no es sustantivo."
       },
       {
         "text": "Verbo",
         "correct": false,
-        "reason": "No es verbo."
+        "explanation": "No es verbo."
       }
     ]
   },
@@ -757,28 +705,26 @@
     "id": "U4B-027",
     "cat": "Adjetivos",
     "q": "¿De qué tipo es にぎやか?",
-    "correct": "な-adjetivo",
-    "explanation": "にぎやか termina en か (no en い). Es な-adjetivo: にぎやかな町. Negativo: にぎやかじゃない.",
     "opts": [
       {
         "text": "な-adjetivo",
         "correct": true,
-        "reason": "Correcta. Requiere な para modificar."
+        "explanation": "にぎやか termina en か (no en い). Es な-adjetivo: にぎやかな町. Negativo: にぎやかじゃない. Correcta. Requiere な para modificar."
       },
       {
         "text": "い-adjetivo",
         "correct": false,
-        "reason": "No termina en い adjetival."
+        "explanation": "No termina en い adjetival."
       },
       {
         "text": "Sustantivo",
         "correct": false,
-        "reason": "Función primaria es adjetiva, no nominal."
+        "explanation": "Función primaria es adjetiva, no nominal."
       },
       {
         "text": "Verbo",
         "correct": false,
-        "reason": "No es verbo."
+        "explanation": "No es verbo."
       }
     ]
   },
@@ -786,28 +732,26 @@
     "id": "U4B-028",
     "cat": "Adjetivos",
     "q": "¿De qué tipo es 古い?",
-    "correct": "い-adjetivo",
-    "explanation": "古い termina en い adjetival. Es い-adjetivo: 古いお寺. Negativo: 古くない.",
     "opts": [
       {
         "text": "い-adjetivo",
         "correct": true,
-        "reason": "Correcta. Termina en い."
+        "explanation": "古い termina en い adjetival. Es い-adjetivo: 古いお寺. Negativo: 古くない. Correcta. Termina en い."
       },
       {
         "text": "な-adjetivo",
         "correct": false,
-        "reason": "Los な-adj requieren な; 古い va directo."
+        "explanation": "Los な-adj requieren な; 古い va directo."
       },
       {
         "text": "Sustantivo",
         "correct": false,
-        "reason": "Conjuga (古くない), por lo que no es sustantivo."
+        "explanation": "Conjuga (古くない), por lo que no es sustantivo."
       },
       {
         "text": "Verbo",
         "correct": false,
-        "reason": "No es verbo."
+        "explanation": "No es verbo."
       }
     ]
   },
@@ -815,28 +759,26 @@
     "id": "U4B-029",
     "cat": "Adjetivos",
     "q": "¿Cuál es la forma negativa de 大きい?",
-    "correct": "大きくない",
-    "explanation": "Negativo de い-adjetivo: se quita い final y se agrega くない. 大きい → 大き + くない = 大きくない.",
     "opts": [
       {
         "text": "大きくない",
         "correct": true,
-        "reason": "Correcta. Patrón Vい → Vくない."
+        "explanation": "Negativo de い-adjetivo: se quita い final y se agrega くない. 大きい → 大き + くない = 大きくない. Correcta. Patrón Vい → Vくない."
       },
       {
         "text": "大きじゃない",
         "correct": false,
-        "reason": "じゃない niega な-adjetivos y sustantivos, no い-adjetivos."
+        "explanation": "じゃない niega な-adjetivos y sustantivos, no い-adjetivos."
       },
       {
         "text": "大きいない",
         "correct": false,
-        "reason": "い-adj nunca conserva い antes de ない; siempre い → くない."
+        "explanation": "い-adj nunca conserva い antes de ない; siempre い → くない."
       },
       {
         "text": "大きいじゃない",
         "correct": false,
-        "reason": "Doble error: conserva い + usa じゃない (que no aplica a い-adj)."
+        "explanation": "Doble error: conserva い + usa じゃない (que no aplica a い-adj)."
       }
     ]
   },
@@ -844,28 +786,26 @@
     "id": "U4B-030",
     "cat": "Adjetivos",
     "q": "¿Cuál es la forma negativa de 新しい?",
-    "correct": "新しくない",
-    "explanation": "Mismo patrón: 新しい → 新し + くない = 新しくない.",
     "opts": [
       {
         "text": "新しくない",
         "correct": true,
-        "reason": "Correcta. Patrón estándar."
+        "explanation": "Mismo patrón: 新しい → 新し + くない = 新しくない. Correcta. Patrón estándar."
       },
       {
         "text": "新しじゃない",
         "correct": false,
-        "reason": "じゃない no niega い-adjetivos."
+        "explanation": "じゃない no niega い-adjetivos."
       },
       {
         "text": "新しいない",
         "correct": false,
-        "reason": "い-adj nunca conserva い antes de ない."
+        "explanation": "い-adj nunca conserva い antes de ない."
       },
       {
         "text": "新しいじゃない",
         "correct": false,
-        "reason": "Doble error: conserva い + じゃない."
+        "explanation": "Doble error: conserva い + じゃない."
       }
     ]
   },
@@ -873,28 +813,26 @@
     "id": "U4B-031",
     "cat": "Adjetivos",
     "q": "¿Cuál es la forma negativa de 古い?",
-    "correct": "古くない",
-    "explanation": "古い → 古 + くない = 古くない.",
     "opts": [
       {
         "text": "古くない",
         "correct": true,
-        "reason": "Correcta. Patrón estándar."
+        "explanation": "古い → 古 + くない = 古くない. Correcta. Patrón estándar."
       },
       {
         "text": "古じゃない",
         "correct": false,
-        "reason": "じゃない no niega い-adjetivos."
+        "explanation": "じゃない no niega い-adjetivos."
       },
       {
         "text": "古いじゃない",
         "correct": false,
-        "reason": "Doble error: conserva い + じゃない."
+        "explanation": "Doble error: conserva い + じゃない."
       },
       {
         "text": "古いない",
         "correct": false,
-        "reason": "い-adj nunca conserva い antes de ない."
+        "explanation": "い-adj nunca conserva い antes de ない."
       }
     ]
   },
@@ -902,28 +840,26 @@
     "id": "U4B-032",
     "cat": "Adjetivos",
     "q": "¿Cuál es la forma negativa de 高い?",
-    "correct": "高くない",
-    "explanation": "高い → 高 + くない = 高くない.",
     "opts": [
       {
         "text": "高くない",
         "correct": true,
-        "reason": "Correcta. Patrón estándar."
+        "explanation": "高い → 高 + くない = 高くない. Correcta. Patrón estándar."
       },
       {
         "text": "高じゃない",
         "correct": false,
-        "reason": "じゃない no niega い-adjetivos."
+        "explanation": "じゃない no niega い-adjetivos."
       },
       {
         "text": "高いない",
         "correct": false,
-        "reason": "い-adj nunca conserva い antes de ない."
+        "explanation": "い-adj nunca conserva い antes de ない."
       },
       {
         "text": "高いじゃない",
         "correct": false,
-        "reason": "Doble error."
+        "explanation": "Doble error."
       }
     ]
   },
@@ -931,28 +867,26 @@
     "id": "U4B-033",
     "cat": "Adjetivos",
     "q": "¿Cuál es la forma negativa de 多い?",
-    "correct": "多くない",
-    "explanation": "多い → 多 + くない = 多くない.",
     "opts": [
       {
         "text": "多くない",
         "correct": true,
-        "reason": "Correcta. Patrón estándar."
+        "explanation": "多い → 多 + くない = 多くない. Correcta. Patrón estándar."
       },
       {
         "text": "多いじゃない",
         "correct": false,
-        "reason": "Doble error: conserva い + じゃない."
+        "explanation": "Doble error: conserva い + じゃない."
       },
       {
         "text": "多じゃない",
         "correct": false,
-        "reason": "じゃない no niega い-adjetivos."
+        "explanation": "じゃない no niega い-adjetivos."
       },
       {
         "text": "多くじゃない",
         "correct": false,
-        "reason": "Mezcla く (de い-adj) con じゃない (de な-adj). No funciona."
+        "explanation": "Mezcla く (de い-adj) con じゃない (de な-adj). No funciona."
       }
     ]
   },
@@ -960,28 +894,26 @@
     "id": "U4B-034",
     "cat": "Adjetivos",
     "q": "¿Cuál es la forma negativa de 小さい?",
-    "correct": "小さくない",
-    "explanation": "小さい → 小さ + くない = 小さくない.",
     "opts": [
       {
         "text": "小さくない",
         "correct": true,
-        "reason": "Correcta. Patrón estándar."
+        "explanation": "小さい → 小さ + くない = 小さくない. Correcta. Patrón estándar."
       },
       {
         "text": "小さじゃない",
         "correct": false,
-        "reason": "じゃない no niega い-adjetivos."
+        "explanation": "じゃない no niega い-adjetivos."
       },
       {
         "text": "小さくじゃない",
         "correct": false,
-        "reason": "Mezcla く con じゃない; los patrones son separados."
+        "explanation": "Mezcla く con じゃない; los patrones son separados."
       },
       {
         "text": "小さいじゃない",
         "correct": false,
-        "reason": "Doble error: conserva い + じゃない."
+        "explanation": "Doble error: conserva い + じゃない."
       }
     ]
   },
@@ -989,28 +921,26 @@
     "id": "U4B-035",
     "cat": "Adjetivos",
     "q": "¿Cuál es la forma negativa formal de 有名?",
-    "correct": "有名じゃありません",
-    "explanation": "有名 es な-adjetivo. Negativo formal: [adj]じゃありません o [adj]ではありません. La じゃ es contracción coloquial de では.",
     "opts": [
       {
         "text": "有名じゃありません",
         "correct": true,
-        "reason": "Correcta. Patrón formal de な-adj."
+        "explanation": "有名 es な-adjetivo. Negativo formal: [adj]じゃありません o [adj]ではありません. La じゃ es contracción coloquial de では. Correcta. Patrón formal de な-adj."
       },
       {
         "text": "有名くないです",
         "correct": false,
-        "reason": "くない niega い-adjetivos, no な-adjetivos."
+        "explanation": "くない niega い-adjetivos, no な-adjetivos."
       },
       {
         "text": "有名ないです",
         "correct": false,
-        "reason": "Falta じゃ/では: 有名 NO toma -ない directo."
+        "explanation": "Falta じゃ/では: 有名 NO toma -ない directo."
       },
       {
         "text": "有名じゃないくない",
         "correct": false,
-        "reason": "Doble negación inválida."
+        "explanation": "Doble negación inválida."
       }
     ]
   },
@@ -1018,28 +948,26 @@
     "id": "U4B-036",
     "cat": "Adjetivos",
     "q": "¿Cuál es la forma negativa de 静か?",
-    "correct": "静かじゃない",
-    "explanation": "静か es な-adjetivo. Negativo casual: 静かじゃない. Formal: 静かじゃありません.",
     "opts": [
       {
         "text": "静かじゃない",
         "correct": true,
-        "reason": "Correcta. Patrón de な-adj."
+        "explanation": "静か es な-adjetivo. Negativo casual: 静かじゃない. Formal: 静かじゃありません. Correcta. Patrón de な-adj."
       },
       {
         "text": "静くない",
         "correct": false,
-        "reason": "くない niega い-adj. Y se elimina mal: 静か no se reduce a 静."
+        "explanation": "くない niega い-adj. Y se elimina mal: 静か no se reduce a 静."
       },
       {
         "text": "静かくない",
         "correct": false,
-        "reason": "くない niega い-adj; con な-adj se usa じゃない."
+        "explanation": "くない niega い-adj; con な-adj se usa じゃない."
       },
       {
         "text": "静かいない",
         "correct": false,
-        "reason": "Combinación inválida."
+        "explanation": "Combinación inválida."
       }
     ]
   },
@@ -1047,28 +975,26 @@
     "id": "U4B-037",
     "cat": "Adjetivos",
     "q": "¿Cuál es la forma negativa de きれい?",
-    "correct": "きれいじゃない",
-    "explanation": "きれい es な-adjetivo (excepción que termina en い). Negativo: きれいじゃない (NO きれくない).",
     "opts": [
       {
         "text": "きれいじゃない",
         "correct": true,
-        "reason": "Correcta. Patrón de な-adj."
+        "explanation": "きれい es な-adjetivo (excepción que termina en い). Negativo: きれいじゃない (NO きれくない). Correcta. Patrón de な-adj."
       },
       {
         "text": "きれくない",
         "correct": false,
-        "reason": "Sería el patrón de い-adj, pero きれい es な-adj. Error muy común."
+        "explanation": "Sería el patrón de い-adj, pero きれい es な-adj. Error muy común."
       },
       {
         "text": "きれいくない",
         "correct": false,
-        "reason": "Mezcla い + くない; tampoco aplica."
+        "explanation": "Mezcla い + くない; tampoco aplica."
       },
       {
         "text": "きれじゃない",
         "correct": false,
-        "reason": "Se elimina mal: きれい no se reduce a きれ."
+        "explanation": "Se elimina mal: きれい no se reduce a きれ."
       }
     ]
   },
@@ -1076,28 +1002,26 @@
     "id": "U4B-038",
     "cat": "Adjetivos",
     "q": "¿Cuál es la forma negativa de にぎやか?",
-    "correct": "にぎやかじゃない",
-    "explanation": "にぎやか es な-adjetivo. Negativo: にぎやかじゃない.",
     "opts": [
       {
         "text": "にぎやかじゃない",
         "correct": true,
-        "reason": "Correcta. Patrón de な-adj."
+        "explanation": "にぎやか es な-adjetivo. Negativo: にぎやかじゃない. Correcta. Patrón de な-adj."
       },
       {
         "text": "にぎやかくない",
         "correct": false,
-        "reason": "くない niega い-adj; con な-adj se usa じゃない."
+        "explanation": "くない niega い-adj; con な-adj se usa じゃない."
       },
       {
         "text": "にぎやくない",
         "correct": false,
-        "reason": "Eliminación incorrecta de か: にぎやか se mantiene completo."
+        "explanation": "Eliminación incorrecta de か: にぎやか se mantiene completo."
       },
       {
         "text": "にぎやかいない",
         "correct": false,
-        "reason": "Combinación inválida."
+        "explanation": "Combinación inválida."
       }
     ]
   },
@@ -1105,28 +1029,26 @@
     "id": "U4B-039",
     "cat": "Adjetivos",
     "q": "¿Cuál es la forma negativa de いい (bueno)?",
-    "correct": "よくない",
-    "explanation": "いい es IRREGULAR: usa la raíz よい para todas las formas alteradas. よい → よ + くない = よくない. Misma regla en pasado: よかった.",
     "opts": [
       {
         "text": "よくない",
         "correct": true,
-        "reason": "Correcta. Forma irregular obligatoria."
+        "explanation": "いい es IRREGULAR: usa la raíz よい para todas las formas alteradas. よい → よ + くない = よくない. Misma regla en pasado: よかった. Correcta. Forma irregular obligatoria."
       },
       {
         "text": "いくない",
         "correct": false,
-        "reason": "いい NO sigue el patrón estándar; cambia a よ en formas alteradas."
+        "explanation": "いい NO sigue el patrón estándar; cambia a よ en formas alteradas."
       },
       {
         "text": "いいじゃない",
         "correct": false,
-        "reason": "じゃない no niega い-adjetivos. Y いい usa よ en negativo."
+        "explanation": "じゃない no niega い-adjetivos. Y いい usa よ en negativo."
       },
       {
         "text": "いかない",
         "correct": false,
-        "reason": "いかない es la forma negativa del verbo 行く ('no ir'), no del adjetivo いい."
+        "explanation": "いかない es la forma negativa del verbo 行く ('no ir'), no del adjetivo いい."
       }
     ]
   },
@@ -1134,28 +1056,26 @@
     "id": "U4B-040",
     "cat": "Adjetivos",
     "q": "¿Por qué いい cambia en el negativo?",
-    "correct": "Porque usa la raíz よい para formas alteradas",
-    "explanation": "いい conserva la forma いい solo en presente afirmativo. Para negativo, pasado y formas conjugadas usa la raíz original よい (forma antigua del adjetivo).",
     "opts": [
       {
         "text": "Porque usa la raíz よい para formas alteradas",
         "correct": true,
-        "reason": "Correcta. Irregularidad histórica del adjetivo."
+        "explanation": "いい conserva la forma いい solo en presente afirmativo. Para negativo, pasado y formas conjugadas usa la raíz original よい (forma antigua del adjetivo). Correcta. Irregularidad histórica del adjetivo."
       },
       {
         "text": "Porque es な-adjetivo",
         "correct": false,
-        "reason": "いい es い-adjetivo (irregular); no es な-adj."
+        "explanation": "いい es い-adjetivo (irregular); no es な-adj."
       },
       {
         "text": "Porque es sustantivo",
         "correct": false,
-        "reason": "いい es adjetivo, no sustantivo."
+        "explanation": "いい es adjetivo, no sustantivo."
       },
       {
         "text": "Porque es un verbo",
         "correct": false,
-        "reason": "いい es adjetivo, no verbo."
+        "explanation": "いい es adjetivo, no verbo."
       }
     ]
   },
@@ -1163,28 +1083,26 @@
     "id": "U4B-041",
     "cat": "Adjetivos",
     "q": "¿Cómo se dice 'templo antiguo' en japonés?",
-    "correct": "古いお寺",
-    "explanation": "古い es い-adjetivo: modifica directamente al sustantivo SIN partícula adicional. 古い + お寺 = 古いお寺.",
     "opts": [
       {
         "text": "古いお寺",
         "correct": true,
-        "reason": "Correcta. い-adj va directo."
+        "explanation": "古い es い-adjetivo: modifica directamente al sustantivo SIN partícula adicional. 古い + お寺 = 古いお寺. Correcta. い-adj va directo."
       },
       {
         "text": "古なお寺",
         "correct": false,
-        "reason": "古い es い-adj, NO な-adj. No requiere な."
+        "explanation": "古い es い-adj, NO な-adj. No requiere な."
       },
       {
         "text": "古のお寺",
         "correct": false,
-        "reason": "の conecta sustantivos en posesión, no adjetivos い."
+        "explanation": "の conecta sustantivos en posesión, no adjetivos い."
       },
       {
         "text": "お寺古い",
         "correct": false,
-        "reason": "Orden invertido: en japonés el modificador (古い) va ANTES del sustantivo (お寺)."
+        "explanation": "Orden invertido: en japonés el modificador (古い) va ANTES del sustantivo (お寺)."
       }
     ]
   },
@@ -1192,28 +1110,26 @@
     "id": "U4B-042",
     "cat": "Adjetivos",
     "q": "¿Cómo se dice 'mar lindo' en japonés?",
-    "correct": "きれいな海",
-    "explanation": "きれい es な-adjetivo (excepción). Para modificar sustantivos requiere な: きれい + な + 海 = きれいな海.",
     "opts": [
       {
         "text": "きれいな海",
         "correct": true,
-        "reason": "Correcta. な-adj requiere な."
+        "explanation": "きれい es な-adjetivo (excepción). Para modificar sustantivos requiere な: きれい + な + 海 = きれいな海. Correcta. な-adj requiere な."
       },
       {
         "text": "きれいい海",
         "correct": false,
-        "reason": "Doble い inválido. きれい no es い-adj."
+        "explanation": "Doble い inválido. きれい no es い-adj."
       },
       {
         "text": "きれいの海",
         "correct": false,
-        "reason": "の no se usa para conectar adjetivos con sustantivos."
+        "explanation": "の no se usa para conectar adjetivos con sustantivos."
       },
       {
         "text": "海きれい",
         "correct": false,
-        "reason": "Orden invertido: el modificador va antes del sustantivo."
+        "explanation": "Orden invertido: el modificador va antes del sustantivo."
       }
     ]
   },
@@ -1221,28 +1137,26 @@
     "id": "U4B-043",
     "cat": "Adjetivos",
     "q": "¿Cómo se dice 'ciudad famosa' en japonés?",
-    "correct": "有名な町",
-    "explanation": "有名 es な-adjetivo: requiere な para modificar. 有名 + な + 町 = 有名な町.",
     "opts": [
       {
         "text": "有名な町",
         "correct": true,
-        "reason": "Correcta. な-adj con な."
+        "explanation": "有名 es な-adjetivo: requiere な para modificar. 有名 + な + 町 = 有名な町. Correcta. な-adj con な."
       },
       {
         "text": "有名の町",
         "correct": false,
-        "reason": "の no conecta adjetivo con sustantivo."
+        "explanation": "の no conecta adjetivo con sustantivo."
       },
       {
         "text": "有名い町",
         "correct": false,
-        "reason": "い no se agrega a な-adj."
+        "explanation": "い no se agrega a な-adj."
       },
       {
         "text": "町有名",
         "correct": false,
-        "reason": "Orden invertido."
+        "explanation": "Orden invertido."
       }
     ]
   },
@@ -1250,28 +1164,26 @@
     "id": "U4B-044",
     "cat": "Adjetivos",
     "q": "¿Cómo se dice 'montaña alta' en japonés?",
-    "correct": "高い山",
-    "explanation": "高い es い-adjetivo: modifica directamente. 高い + 山 = 高い山.",
     "opts": [
       {
         "text": "高い山",
         "correct": true,
-        "reason": "Correcta. い-adj va directo."
+        "explanation": "高い es い-adjetivo: modifica directamente. 高い + 山 = 高い山. Correcta. い-adj va directo."
       },
       {
         "text": "高な山",
         "correct": false,
-        "reason": "高い es い-adj, no な-adj."
+        "explanation": "高い es い-adj, no な-adj."
       },
       {
         "text": "高の山",
         "correct": false,
-        "reason": "の no conecta adjetivo con sustantivo."
+        "explanation": "の no conecta adjetivo con sustantivo."
       },
       {
         "text": "山高い",
         "correct": false,
-        "reason": "Orden invertido."
+        "explanation": "Orden invertido."
       }
     ]
   },
@@ -1279,28 +1191,26 @@
     "id": "U4B-045",
     "cat": "Adjetivos",
     "q": "¿Cómo se dice 'parque pequeño' en japonés?",
-    "correct": "小さい公園",
-    "explanation": "小さい es い-adjetivo: 小さい + 公園 = 小さい公園.",
     "opts": [
       {
         "text": "小さい公園",
         "correct": true,
-        "reason": "Correcta. い-adj va directo."
+        "explanation": "小さい es い-adjetivo: 小さい + 公園 = 小さい公園. Correcta. い-adj va directo."
       },
       {
         "text": "小さな公園",
         "correct": false,
-        "reason": "小さな existe pero es FORMA POÉTICA/ALTERNATIVA arcaica; en japonés moderno estándar se usa 小さい."
+        "explanation": "小さな existe pero es FORMA POÉTICA/ALTERNATIVA arcaica; en japonés moderno estándar se usa 小さい."
       },
       {
         "text": "小い公園",
         "correct": false,
-        "reason": "Falta la sílaba さ: la forma completa es 小さい."
+        "explanation": "Falta la sílaba さ: la forma completa es 小さい."
       },
       {
         "text": "公園小さい",
         "correct": false,
-        "reason": "Orden invertido."
+        "explanation": "Orden invertido."
       }
     ]
   },
@@ -1308,28 +1218,26 @@
     "id": "U4B-046",
     "cat": "Adjetivos",
     "q": "¿Cómo se dice 'ciudad tranquila' en japonés?",
-    "correct": "静かな町",
-    "explanation": "静か es な-adjetivo: 静か + な + 町 = 静かな町.",
     "opts": [
       {
         "text": "静かな町",
         "correct": true,
-        "reason": "Correcta. な-adj con な."
+        "explanation": "静か es な-adjetivo: 静か + な + 町 = 静かな町. Correcta. な-adj con な."
       },
       {
         "text": "静かの町",
         "correct": false,
-        "reason": "の no conecta adjetivo な con sustantivo; se usa な."
+        "explanation": "の no conecta adjetivo な con sustantivo; se usa な."
       },
       {
         "text": "静かい町",
         "correct": false,
-        "reason": "い no se agrega a な-adj. 静か no termina en い."
+        "explanation": "い no se agrega a な-adj. 静か no termina en い."
       },
       {
         "text": "町静か",
         "correct": false,
-        "reason": "Orden invertido."
+        "explanation": "Orden invertido."
       }
     ]
   },
@@ -1337,28 +1245,26 @@
     "id": "U4B-047",
     "cat": "Adjetivos",
     "q": "¿Cómo se dice 'edificio nuevo' en japonés?",
-    "correct": "新しいビル",
-    "explanation": "新しい es い-adjetivo: 新しい + ビル = 新しいビル.",
     "opts": [
       {
         "text": "新しいビル",
         "correct": true,
-        "reason": "Correcta. い-adj va directo."
+        "explanation": "新しい es い-adjetivo: 新しい + ビル = 新しいビル. Correcta. い-adj va directo."
       },
       {
         "text": "新しなビル",
         "correct": false,
-        "reason": "新しい es い-adj, no な-adj. Y se elimina mal el い."
+        "explanation": "新しい es い-adj, no な-adj. Y se elimina mal el い."
       },
       {
         "text": "新ビル",
         "correct": false,
-        "reason": "Falta la terminación adjetival: 新 solo es prefijo (新幹線), no adjetivo completo."
+        "explanation": "Falta la terminación adjetival: 新 solo es prefijo (新幹線), no adjetivo completo."
       },
       {
         "text": "ビル新しい",
         "correct": false,
-        "reason": "Orden invertido."
+        "explanation": "Orden invertido."
       }
     ]
   },
@@ -1366,28 +1272,26 @@
     "id": "U4B-048",
     "cat": "Adjetivos",
     "q": "Para unir un adjetivo い con un sustantivo, ¿qué se agrega?",
-    "correct": "Nada, va directo (例: 大きい公園)",
-    "explanation": "Los adjetivos い modifican directamente al sustantivo SIN partícula intermedia. Es la regla básica.",
     "opts": [
       {
         "text": "Nada, va directo (例: 大きい公園)",
         "correct": true,
-        "reason": "Correcta. Regla de conexión directa."
+        "explanation": "Los adjetivos い modifican directamente al sustantivo SIN partícula intermedia. Es la regla básica. Correcta. Regla de conexión directa."
       },
       {
         "text": "Se agrega な",
         "correct": false,
-        "reason": "な se agrega solo a な-adjetivos, no a い-adj."
+        "explanation": "な se agrega solo a な-adjetivos, no a い-adj."
       },
       {
         "text": "Se agrega の",
         "correct": false,
-        "reason": "の conecta sustantivos entre sí, no adjetivos con sustantivos."
+        "explanation": "の conecta sustantivos entre sí, no adjetivos con sustantivos."
       },
       {
         "text": "Se quita い",
         "correct": false,
-        "reason": "い se mantiene; se quita solo en formas conjugadas (negativo, pasado, etc.)."
+        "explanation": "い se mantiene; se quita solo en formas conjugadas (negativo, pasado, etc.)."
       }
     ]
   },
@@ -1395,28 +1299,26 @@
     "id": "U4B-049",
     "cat": "Adjetivos",
     "q": "Para unir un adjetivo な con un sustantivo, ¿qué se agrega?",
-    "correct": "Se agrega な (例: 有名な町)",
-    "explanation": "Los adjetivos な requieren OBLIGATORIAMENTE な al modificar sustantivos. De ahí su nombre.",
     "opts": [
       {
         "text": "Se agrega な (例: 有名な町)",
         "correct": true,
-        "reason": "Correcta. Regla nominal de na-adj."
+        "explanation": "Los adjetivos な requieren OBLIGATORIAMENTE な al modificar sustantivos. De ahí su nombre. Correcta. Regla nominal de na-adj."
       },
       {
         "text": "Nada, va directo",
         "correct": false,
-        "reason": "Eso es regla de い-adj. Los な-adj exigen な."
+        "explanation": "Eso es regla de い-adj. Los な-adj exigen な."
       },
       {
         "text": "Se agrega の",
         "correct": false,
-        "reason": "の conecta sustantivos, no adjetivos."
+        "explanation": "の conecta sustantivos, no adjetivos."
       },
       {
         "text": "Se agrega い",
         "correct": false,
-        "reason": "い es la marca de い-adj, no se agrega a な-adj."
+        "explanation": "い es la marca de い-adj, no se agrega a な-adj."
       }
     ]
   },
@@ -1424,28 +1326,26 @@
     "id": "U4B-050",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa お城?",
-    "correct": "Castillo",
-    "explanation": "お城 (おしろ): お (honorífico) + 城 ('castillo'). Edificios fortificados feudales como 姫路城 (castillo de Himeji).",
     "opts": [
       {
         "text": "Castillo",
         "correct": true,
-        "reason": "Correcta. Edificio fortificado feudal."
+        "explanation": "お城 (おしろ): お (honorífico) + 城 ('castillo'). Edificios fortificados feudales como 姫路城 (castillo de Himeji). Correcta. Edificio fortificado feudal."
       },
       {
         "text": "Templo",
         "correct": false,
-        "reason": "'Templo budista' es お寺 (おてら). 城 es militar/feudal."
+        "explanation": "'Templo budista' es お寺 (おてら). 城 es militar/feudal."
       },
       {
         "text": "Iglesia",
         "correct": false,
-        "reason": "'Iglesia' es 教会 (きょうかい)."
+        "explanation": "'Iglesia' es 教会 (きょうかい)."
       },
       {
         "text": "Palacio",
         "correct": false,
-        "reason": "'Palacio' (imperial) es 宮殿 (きゅうでん). 城 es fortificación militar."
+        "explanation": "'Palacio' (imperial) es 宮殿 (きゅうでん). 城 es fortificación militar."
       }
     ]
   },
@@ -1453,28 +1353,26 @@
     "id": "U4B-051",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa お寺?",
-    "correct": "Templo budista",
-    "explanation": "お寺 (おてら): お (honorífico) + 寺 ('templo budista'). Distinto de 神社 (santuario sintoísta).",
     "opts": [
       {
         "text": "Templo budista",
         "correct": true,
-        "reason": "Correcta. Religión budista."
+        "explanation": "お寺 (おてら): お (honorífico) + 寺 ('templo budista'). Distinto de 神社 (santuario sintoísta). Correcta. Religión budista."
       },
       {
         "text": "Iglesia",
         "correct": false,
-        "reason": "'Iglesia' (cristiana) es 教会."
+        "explanation": "'Iglesia' (cristiana) es 教会."
       },
       {
         "text": "Santuario sintoísta",
         "correct": false,
-        "reason": "'Santuario sintoísta' es 神社 (じんじゃ). お寺 es budista."
+        "explanation": "'Santuario sintoísta' es 神社 (じんじゃ). お寺 es budista."
       },
       {
         "text": "Castillo",
         "correct": false,
-        "reason": "'Castillo' es お城."
+        "explanation": "'Castillo' es お城."
       }
     ]
   },
@@ -1482,28 +1380,26 @@
     "id": "U4B-052",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 教会?",
-    "correct": "Iglesia",
-    "explanation": "教会 (きょうかい): 教 ('enseñanza') + 会 ('reunión') = iglesia (cristiana, católica, etc.).",
     "opts": [
       {
         "text": "Iglesia",
         "correct": true,
-        "reason": "Correcta. Lugar de culto cristiano."
+        "explanation": "教会 (きょうかい): 教 ('enseñanza') + 会 ('reunión') = iglesia (cristiana, católica, etc.). Correcta. Lugar de culto cristiano."
       },
       {
         "text": "Escuela",
         "correct": false,
-        "reason": "'Escuela' es 学校 (がっこう). Aunque 教 también aparece en 学校 no, sino en 教える."
+        "explanation": "'Escuela' es 学校 (がっこう). Aunque 教 también aparece en 学校 no, sino en 教える."
       },
       {
         "text": "Templo",
         "correct": false,
-        "reason": "'Templo budista' es お寺. 教会 es específicamente cristiano."
+        "explanation": "'Templo budista' es お寺. 教会 es específicamente cristiano."
       },
       {
         "text": "Santuario",
         "correct": false,
-        "reason": "'Santuario sintoísta' es 神社."
+        "explanation": "'Santuario sintoísta' es 神社."
       }
     ]
   },
@@ -1511,28 +1407,26 @@
     "id": "U4B-053",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 公園?",
-    "correct": "Parque",
-    "explanation": "公園 (こうえん): 公 ('público') + 園 ('jardín') = parque público.",
     "opts": [
       {
         "text": "Parque",
         "correct": true,
-        "reason": "Correcta. Espacio verde público."
+        "explanation": "公園 (こうえん): 公 ('público') + 園 ('jardín') = parque público. Correcta. Espacio verde público."
       },
       {
         "text": "Plaza",
         "correct": false,
-        "reason": "'Plaza' es 広場 (ひろば). 公園 implica más vegetación."
+        "explanation": "'Plaza' es 広場 (ひろば). 公園 implica más vegetación."
       },
       {
         "text": "Jardín",
         "correct": false,
-        "reason": "'Jardín privado' es 庭 (にわ); 公園 es público y más grande."
+        "explanation": "'Jardín privado' es 庭 (にわ); 公園 es público y más grande."
       },
       {
         "text": "Bosque",
         "correct": false,
-        "reason": "'Bosque' es 森 (もり). 公園 es urbano."
+        "explanation": "'Bosque' es 森 (もり). 公園 es urbano."
       }
     ]
   },
@@ -1540,28 +1434,26 @@
     "id": "U4B-054",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 山?",
-    "correct": "Montaña",
-    "explanation": "山 (やま) = montaña. Aparece en muchos nombres: 富士山 (Monte Fuji), 火山 (volcán).",
     "opts": [
       {
         "text": "Montaña",
         "correct": true,
-        "reason": "Correcta. Elevación del terreno."
+        "explanation": "山 (やま) = montaña. Aparece en muchos nombres: 富士山 (Monte Fuji), 火山 (volcán). Correcta. Elevación del terreno."
       },
       {
         "text": "Río",
         "correct": false,
-        "reason": "'Río' es 川 (かわ)."
+        "explanation": "'Río' es 川 (かわ)."
       },
       {
         "text": "Mar",
         "correct": false,
-        "reason": "'Mar' es 海 (うみ)."
+        "explanation": "'Mar' es 海 (うみ)."
       },
       {
         "text": "Cerro bajo",
         "correct": false,
-        "reason": "'Cerro/colina' específica es 丘 (おか). 山 es más alto/general."
+        "explanation": "'Cerro/colina' específica es 丘 (おか). 山 es más alto/general."
       }
     ]
   },
@@ -1569,28 +1461,26 @@
     "id": "U4B-055",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 海?",
-    "correct": "Mar",
-    "explanation": "海 (うみ) = mar/océano. Compuestos: 海水 (agua de mar), 海岸 (costa).",
     "opts": [
       {
         "text": "Mar",
         "correct": true,
-        "reason": "Correcta. Cuerpo de agua salada."
+        "explanation": "海 (うみ) = mar/océano. Compuestos: 海水 (agua de mar), 海岸 (costa). Correcta. Cuerpo de agua salada."
       },
       {
         "text": "Río",
         "correct": false,
-        "reason": "'Río' es 川 (agua dulce)."
+        "explanation": "'Río' es 川 (agua dulce)."
       },
       {
         "text": "Lago",
         "correct": false,
-        "reason": "'Lago' es 湖 (みずうみ)."
+        "explanation": "'Lago' es 湖 (みずうみ)."
       },
       {
         "text": "Playa",
         "correct": false,
-        "reason": "'Playa' es 浜 (はま) o 海岸 (かいがん). 海 es el agua misma."
+        "explanation": "'Playa' es 浜 (はま) o 海岸 (かいがん). 海 es el agua misma."
       }
     ]
   },
@@ -1598,28 +1488,26 @@
     "id": "U4B-056",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 川?",
-    "correct": "Río",
-    "explanation": "川 (かわ) = río. La forma del kanji evoca la corriente de agua entre dos riberas.",
     "opts": [
       {
         "text": "Río",
         "correct": true,
-        "reason": "Correcta. Curso de agua dulce."
+        "explanation": "川 (かわ) = río. La forma del kanji evoca la corriente de agua entre dos riberas. Correcta. Curso de agua dulce."
       },
       {
         "text": "Mar",
         "correct": false,
-        "reason": "'Mar' es 海."
+        "explanation": "'Mar' es 海."
       },
       {
         "text": "Valle",
         "correct": false,
-        "reason": "'Valle' es 谷 (たに). 川 es solo el agua, no el accidente geográfico completo."
+        "explanation": "'Valle' es 谷 (たに). 川 es solo el agua, no el accidente geográfico completo."
       },
       {
         "text": "Canal",
         "correct": false,
-        "reason": "'Canal artificial' es 運河 (うんが). 川 es río natural."
+        "explanation": "'Canal artificial' es 運河 (うんが). 川 es río natural."
       }
     ]
   },
@@ -1627,28 +1515,26 @@
     "id": "U4B-057",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 緑?",
-    "correct": "Verde / naturaleza",
-    "explanation": "緑 (みどり) tiene doble sentido: el COLOR verde y por extensión la 'naturaleza/vegetación'. En contextos como 緑が多い = 'hay mucha vegetación'.",
     "opts": [
       {
         "text": "Verde / naturaleza",
         "correct": true,
-        "reason": "Correcta. Polisemia color/vegetación."
+        "explanation": "緑 (みどり) tiene doble sentido: el COLOR verde y por extensión la 'naturaleza/vegetación'. En contextos como 緑が多い = 'hay mucha vegetación'. Correcta. Polisemia color/vegetación."
       },
       {
         "text": "Bosque",
         "correct": false,
-        "reason": "'Bosque' es 森 (もり); 緑 es más amplio (incluye color y verde general)."
+        "explanation": "'Bosque' es 森 (もり); 緑 es más amplio (incluye color y verde general)."
       },
       {
         "text": "Jardín",
         "correct": false,
-        "reason": "'Jardín' es 庭. 緑 es genérico de vegetación."
+        "explanation": "'Jardín' es 庭. 緑 es genérico de vegetación."
       },
       {
         "text": "Pasto",
         "correct": false,
-        "reason": "'Pasto/césped' específico es 草 (くさ) o 芝生 (しばふ). 緑 es genérico."
+        "explanation": "'Pasto/césped' específico es 草 (くさ) o 芝生 (しばふ). 緑 es genérico."
       }
     ]
   },
@@ -1656,28 +1542,26 @@
     "id": "U4B-058",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 人?",
-    "correct": "Persona / gente",
-    "explanation": "人 (ひと sola, じん/にん en compuestos) = persona/gente. Genérico para humanos sin distinción de género.",
     "opts": [
       {
         "text": "Persona / gente",
         "correct": true,
-        "reason": "Correcta. Genérico de humanos."
+        "explanation": "人 (ひと sola, じん/にん en compuestos) = persona/gente. Genérico para humanos sin distinción de género. Correcta. Genérico de humanos."
       },
       {
         "text": "Hombre",
         "correct": false,
-        "reason": "'Hombre' específico es 男 (おとこ). 人 es genérico."
+        "explanation": "'Hombre' específico es 男 (おとこ). 人 es genérico."
       },
       {
         "text": "Mujer",
         "correct": false,
-        "reason": "'Mujer' específico es 女 (おんな)."
+        "explanation": "'Mujer' específico es 女 (おんな)."
       },
       {
         "text": "Humanidad",
         "correct": false,
-        "reason": "'Humanidad (especie)' es 人類 (じんるい). 人 es individuo o gente."
+        "explanation": "'Humanidad (especie)' es 人類 (じんるい). 人 es individuo o gente."
       }
     ]
   },
@@ -1685,28 +1569,26 @@
     "id": "U4B-059",
     "cat": "Katakana",
     "q": "¿Qué es ビル?",
-    "correct": "Edificio",
-    "explanation": "ビル es abreviación de ビルディング (del inglés 'building'). Designa edificios modernos de varios pisos.",
     "opts": [
       {
         "text": "Edificio",
         "correct": true,
-        "reason": "Correcta. Préstamo del inglés 'building'."
+        "explanation": "ビル es abreviación de ビルディング (del inglés 'building'). Designa edificios modernos de varios pisos. Correcta. Préstamo del inglés 'building'."
       },
       {
         "text": "Factura",
         "correct": false,
-        "reason": "'Factura/recibo' (de 'bill') sería diferente; en japonés se usa 請求書 (せいきゅうしょ)."
+        "explanation": "'Factura/recibo' (de 'bill') sería diferente; en japonés se usa 請求書 (せいきゅうしょ)."
       },
       {
         "text": "Billar",
         "correct": false,
-        "reason": "'Billar' es ビリヤード."
+        "explanation": "'Billar' es ビリヤード."
       },
       {
         "text": "Puerta",
         "correct": false,
-        "reason": "'Puerta' es ドア o 門 (もん)."
+        "explanation": "'Puerta' es ドア o 門 (もん)."
       }
     ]
   },
@@ -1714,28 +1596,26 @@
     "id": "U4B-060",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee お城?",
-    "correct": "おしろ",
-    "explanation": "お (honorífico) + 城 (しろ, kun'yomi 'castillo') = おしろ.",
     "opts": [
       {
         "text": "おしろ",
         "correct": true,
-        "reason": "Correcta. Kun'yomi del castillo."
+        "explanation": "お (honorífico) + 城 (しろ, kun'yomi 'castillo') = おしろ. Correcta. Kun'yomi del castillo."
       },
       {
         "text": "おじょう",
         "correct": false,
-        "reason": "じょう es on'yomi de 城 (en compuestos: 城主 じょうしゅ); con お~ se usa kun'yomi しろ."
+        "explanation": "じょう es on'yomi de 城 (en compuestos: 城主 じょうしゅ); con お~ se usa kun'yomi しろ."
       },
       {
         "text": "おしる",
         "correct": false,
-        "reason": "Vocal incorrecta: しろ (con ろ), no しる."
+        "explanation": "Vocal incorrecta: しろ (con ろ), no しる."
       },
       {
         "text": "じょう",
         "correct": false,
-        "reason": "Falta el お~ honorífico, y se usaría kun'yomi en el sustantivo cotidiano."
+        "explanation": "Falta el お~ honorífico, y se usaría kun'yomi en el sustantivo cotidiano."
       }
     ]
   },
@@ -1743,28 +1623,26 @@
     "id": "U4B-061",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee お寺?",
-    "correct": "おてら",
-    "explanation": "お (honorífico) + 寺 (てら, kun'yomi 'templo') = おてら.",
     "opts": [
       {
         "text": "おてら",
         "correct": true,
-        "reason": "Correcta. Kun'yomi del templo."
+        "explanation": "お (honorífico) + 寺 (てら, kun'yomi 'templo') = おてら. Correcta. Kun'yomi del templo."
       },
       {
         "text": "おじ",
         "correct": false,
-        "reason": "じ es on'yomi de 寺 (en nombres como 東大寺 とうだいじ); con お~ se usa kun'yomi てら."
+        "explanation": "じ es on'yomi de 寺 (en nombres como 東大寺 とうだいじ); con お~ se usa kun'yomi てら."
       },
       {
         "text": "おでら",
         "correct": false,
-        "reason": "El rendaku (てら → でら) NO ocurre tras お~; aparece en compuestos largos (山寺 やまでら)."
+        "explanation": "El rendaku (てら → でら) NO ocurre tras お~; aparece en compuestos largos (山寺 やまでら)."
       },
       {
         "text": "てら",
         "correct": false,
-        "reason": "Falta el お~ honorífico que es estándar en la palabra cotidiana."
+        "explanation": "Falta el お~ honorífico que es estándar en la palabra cotidiana."
       }
     ]
   },
@@ -1772,28 +1650,26 @@
     "id": "U4B-062",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 教会?",
-    "correct": "きょうかい",
-    "explanation": "教 (きょう) + 会 (かい) = きょうかい. On'yomi en ambos.",
     "opts": [
       {
         "text": "きょうかい",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "教 (きょう) + 会 (かい) = きょうかい. On'yomi en ambos. Correcta. On'yomi estándar."
       },
       {
         "text": "きょうえ",
         "correct": false,
-        "reason": "え no es lectura de 会 en este compuesto; es かい."
+        "explanation": "え no es lectura de 会 en este compuesto; es かい."
       },
       {
         "text": "きゅうかい",
         "correct": false,
-        "reason": "教 se lee きょう, no きゅう. きゅう es lectura de 9 (九) o 急 ('urgente')."
+        "explanation": "教 se lee きょう, no きゅう. きゅう es lectura de 9 (九) o 急 ('urgente')."
       },
       {
         "text": "けいかい",
         "correct": false,
-        "reason": "けい no es lectura de 教 estándar."
+        "explanation": "けい no es lectura de 教 estándar."
       }
     ]
   },
@@ -1801,28 +1677,26 @@
     "id": "U4B-063",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 公園?",
-    "correct": "こうえん",
-    "explanation": "公 (こう) + 園 (えん) = こうえん. On'yomi en ambos kanji.",
     "opts": [
       {
         "text": "こうえん",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "公 (こう) + 園 (えん) = こうえん. On'yomi en ambos kanji. Correcta. On'yomi estándar."
       },
       {
         "text": "ここえん",
         "correct": false,
-        "reason": "公 se lee こう (con vocal larga), no ここ."
+        "explanation": "公 se lee こう (con vocal larga), no ここ."
       },
       {
         "text": "こうおん",
         "correct": false,
-        "reason": "おん es lectura de 音 ('sonido'), no de 園."
+        "explanation": "おん es lectura de 音 ('sonido'), no de 園."
       },
       {
         "text": "くうえん",
         "correct": false,
-        "reason": "くう es lectura de 空 ('cielo/vacío'), no de 公."
+        "explanation": "くう es lectura de 空 ('cielo/vacío'), no de 公."
       }
     ]
   },
@@ -1830,28 +1704,26 @@
     "id": "U4B-064",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 山?",
-    "correct": "やま",
-    "explanation": "山 sola se lee やま (kun'yomi). En compuestos toma さん o ざん (富士山 ふじさん, 火山 かざん).",
     "opts": [
       {
         "text": "やま",
         "correct": true,
-        "reason": "Correcta. Kun'yomi cuando va sola."
+        "explanation": "山 sola se lee やま (kun'yomi). En compuestos toma さん o ざん (富士山 ふじさん, 火山 かざん). Correcta. Kun'yomi cuando va sola."
       },
       {
         "text": "さん",
         "correct": false,
-        "reason": "さん es on'yomi en compuestos (富士山 ふじさん), no cuando 山 va sola."
+        "explanation": "さん es on'yomi en compuestos (富士山 ふじさん), no cuando 山 va sola."
       },
       {
         "text": "ざん",
         "correct": false,
-        "reason": "ざん es on'yomi con rendaku en compuestos (火山 かざん), no sola."
+        "explanation": "ざん es on'yomi con rendaku en compuestos (火山 かざん), no sola."
       },
       {
         "text": "やば",
         "correct": false,
-        "reason": "Lectura inventada; やま (sin dakuten)."
+        "explanation": "Lectura inventada; やま (sin dakuten)."
       }
     ]
   },
@@ -1859,28 +1731,26 @@
     "id": "U4B-065",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 海?",
-    "correct": "うみ",
-    "explanation": "海 sola se lee うみ (kun'yomi). En compuestos toma かい (海岸 かいがん 'costa').",
     "opts": [
       {
         "text": "うみ",
         "correct": true,
-        "reason": "Correcta. Kun'yomi cuando va sola."
+        "explanation": "海 sola se lee うみ (kun'yomi). En compuestos toma かい (海岸 かいがん 'costa'). Correcta. Kun'yomi cuando va sola."
       },
       {
         "text": "かい",
         "correct": false,
-        "reason": "かい es on'yomi en compuestos, no cuando 海 va sola."
+        "explanation": "かい es on'yomi en compuestos, no cuando 海 va sola."
       },
       {
         "text": "うな",
         "correct": false,
-        "reason": "うな existe como modificador (海原 うなばら), no como lectura sola."
+        "explanation": "うな existe como modificador (海原 うなばら), no como lectura sola."
       },
       {
         "text": "みず",
         "correct": false,
-        "reason": "みず es 水 ('agua'), kanji distinto."
+        "explanation": "みず es 水 ('agua'), kanji distinto."
       }
     ]
   },
@@ -1888,28 +1758,26 @@
     "id": "U4B-066",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 川?",
-    "correct": "かわ",
-    "explanation": "川 sola se lee かわ (kun'yomi). En compuestos puede tomar せん (河川 かせん) o がわ con rendaku (荒川 あらかわ).",
     "opts": [
       {
         "text": "かわ",
         "correct": true,
-        "reason": "Correcta. Kun'yomi cuando va sola."
+        "explanation": "川 sola se lee かわ (kun'yomi). En compuestos puede tomar せん (河川 かせん) o がわ con rendaku (荒川 あらかわ). Correcta. Kun'yomi cuando va sola."
       },
       {
         "text": "せん",
         "correct": false,
-        "reason": "せん es on'yomi rara en compuestos, no cuando 川 va sola."
+        "explanation": "せん es on'yomi rara en compuestos, no cuando 川 va sola."
       },
       {
         "text": "がわ",
         "correct": false,
-        "reason": "がわ es la forma con rendaku que aparece como sufijo en nombres propios (荒川 あらかわ); cuando 川 va sola es かわ."
+        "explanation": "がわ es la forma con rendaku que aparece como sufijo en nombres propios (荒川 あらかわ); cuando 川 va sola es かわ."
       },
       {
         "text": "みず",
         "correct": false,
-        "reason": "みず es 水 ('agua'), kanji distinto."
+        "explanation": "みず es 水 ('agua'), kanji distinto."
       }
     ]
   },
@@ -1917,28 +1785,26 @@
     "id": "U4B-067",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 緑?",
-    "correct": "みどり",
-    "explanation": "緑 sola se lee みどり (kun'yomi). En compuestos toma りょく (緑茶 りょくちゃ 'té verde').",
     "opts": [
       {
         "text": "みどり",
         "correct": true,
-        "reason": "Correcta. Kun'yomi cuando va sola."
+        "explanation": "緑 sola se lee みどり (kun'yomi). En compuestos toma りょく (緑茶 りょくちゃ 'té verde'). Correcta. Kun'yomi cuando va sola."
       },
       {
         "text": "りょく",
         "correct": false,
-        "reason": "りょく es on'yomi en compuestos, no cuando 緑 va sola."
+        "explanation": "りょく es on'yomi en compuestos, no cuando 緑 va sola."
       },
       {
         "text": "あお",
         "correct": false,
-        "reason": "あお es 青 ('azul/verde claro'), kanji distinto. Históricamente solapa con verde pero kanji distinto."
+        "explanation": "あお es 青 ('azul/verde claro'), kanji distinto. Históricamente solapa con verde pero kanji distinto."
       },
       {
         "text": "みど",
         "correct": false,
-        "reason": "Falta la sílaba り final: la lectura completa es みどり."
+        "explanation": "Falta la sílaba り final: la lectura completa es みどり."
       }
     ]
   },
@@ -1946,28 +1812,26 @@
     "id": "U4B-068",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 人?",
-    "correct": "ひと",
-    "explanation": "人 sola se lee ひと (kun'yomi 'persona'). En compuestos toma じん (日本人 にほんじん) o にん (5人 ごにん).",
     "opts": [
       {
         "text": "ひと",
         "correct": true,
-        "reason": "Correcta. Kun'yomi cuando va sola."
+        "explanation": "人 sola se lee ひと (kun'yomi 'persona'). En compuestos toma じん (日本人 にほんじん) o にん (5人 ごにん). Correcta. Kun'yomi cuando va sola."
       },
       {
         "text": "じん",
         "correct": false,
-        "reason": "じん es on'yomi en compuestos de nacionalidad/profesión, no cuando 人 va sola."
+        "explanation": "じん es on'yomi en compuestos de nacionalidad/profesión, no cuando 人 va sola."
       },
       {
         "text": "にん",
         "correct": false,
-        "reason": "にん es lectura del contador de personas (1人, 2人), no cuando 人 va sola sin número."
+        "explanation": "にん es lectura del contador de personas (1人, 2人), no cuando 人 va sola sin número."
       },
       {
         "text": "ひどり",
         "correct": false,
-        "reason": "ひどり no existe; la lectura es ひと sin り."
+        "explanation": "ひどり no existe; la lectura es ひと sin り."
       }
     ]
   },
@@ -1975,28 +1839,26 @@
     "id": "U4B-069",
     "cat": "Gramática",
     "q": "¿Qué significa どんな antes de un sustantivo?",
-    "correct": "¿Qué tipo de...? / ¿Cómo es...?",
-    "explanation": "どんな + sustantivo pregunta sobre las características/tipo. Se responde con adjetivos: どんな町ですか → 静かな町です.",
     "opts": [
       {
         "text": "¿Qué tipo de...? / ¿Cómo es...?",
         "correct": true,
-        "reason": "Correcta. Pregunta sobre características."
+        "explanation": "どんな + sustantivo pregunta sobre las características/tipo. Se responde con adjetivos: どんな町ですか → 静かな町です. Correcta. Pregunta sobre características."
       },
       {
         "text": "¿Cuántos?",
         "correct": false,
-        "reason": "'¿Cuántos?' es いくつ o なんにん (personas)."
+        "explanation": "'¿Cuántos?' es いくつ o なんにん (personas)."
       },
       {
         "text": "¿De quién?",
         "correct": false,
-        "reason": "'¿De quién?' es だれの."
+        "explanation": "'¿De quién?' es だれの."
       },
       {
         "text": "¿Dónde?",
         "correct": false,
-        "reason": "'¿Dónde?' es どこ."
+        "explanation": "'¿Dónde?' es どこ."
       }
     ]
   },
@@ -2004,28 +1866,26 @@
     "id": "U4B-070",
     "cat": "Gramática",
     "q": "'どんな町ですか' significa:",
-    "correct": "¿Qué tipo / cómo es la ciudad?",
-    "explanation": "どんな + 町 + ですか pregunta las características de la ciudad. Se responde con adjetivos descriptivos.",
     "opts": [
       {
         "text": "¿Qué tipo / cómo es la ciudad?",
         "correct": true,
-        "reason": "Correcta. Pregunta de características."
+        "explanation": "どんな + 町 + ですか pregunta las características de la ciudad. Se responde con adjetivos descriptivos. Correcta. Pregunta de características."
       },
       {
         "text": "¿Dónde está la ciudad?",
         "correct": false,
-        "reason": "Eso sería 町はどこですか. どんな pregunta tipo, no lugar."
+        "explanation": "Eso sería 町はどこですか. どんな pregunta tipo, no lugar."
       },
       {
         "text": "¿Cuál es el nombre de la ciudad?",
         "correct": false,
-        "reason": "Eso sería 町の名前は何ですか o 町は何という名前ですか."
+        "explanation": "Eso sería 町の名前は何ですか o 町は何という名前ですか."
       },
       {
         "text": "¿Cuántas ciudades hay?",
         "correct": false,
-        "reason": "Eso sería 町はいくつありますか. どんな no pregunta cantidad."
+        "explanation": "Eso sería 町はいくつありますか. どんな no pregunta cantidad."
       }
     ]
   },
@@ -2033,28 +1893,26 @@
     "id": "U4B-071",
     "cat": "Gramática",
     "q": "Para preguntar '¿cómo es el país?' se usa:",
-    "correct": "どんな国ですか",
-    "explanation": "Patrón estándar: どんな + sustantivo + ですか pregunta características.",
     "opts": [
       {
         "text": "どんな国ですか",
         "correct": true,
-        "reason": "Correcta. Patrón どんな + N + ですか."
+        "explanation": "Patrón estándar: どんな + sustantivo + ですか pregunta características. Correcta. Patrón どんな + N + ですか."
       },
       {
         "text": "どこ国ですか",
         "correct": false,
-        "reason": "どこ pregunta lugar; no se combina directo con sustantivo así. Sería どこの国 ('de qué país')."
+        "explanation": "どこ pregunta lugar; no se combina directo con sustantivo así. Sería どこの国 ('de qué país')."
       },
       {
         "text": "なんの国ですか",
         "correct": false,
-        "reason": "なんの pregunta tipo/categoría general (¿qué tipo de país?), pero acá pide características descriptivas: どんな."
+        "explanation": "なんの pregunta tipo/categoría general (¿qué tipo de país?), pero acá pide características descriptivas: どんな."
       },
       {
         "text": "どうの国ですか",
         "correct": false,
-        "reason": "どうの no es construcción estándar. どう ('cómo') no se combina con の así."
+        "explanation": "どうの no es construcción estándar. どう ('cómo') no se combina con の así."
       }
     ]
   },
@@ -2062,28 +1920,26 @@
     "id": "U4B-072",
     "cat": "Gramática",
     "q": "Para preguntar '¿cómo es esa persona?' se usa:",
-    "correct": "どんな人ですか",
-    "explanation": "Mismo patrón: どんな + 人 + ですか.",
     "opts": [
       {
         "text": "どんな人ですか",
         "correct": true,
-        "reason": "Correcta. Patrón どんな + N."
+        "explanation": "Mismo patrón: どんな + 人 + ですか. Correcta. Patrón どんな + N."
       },
       {
         "text": "だれ人ですか",
         "correct": false,
-        "reason": "だれ pregunta '¿quién?' (identidad); だれ + 人 directo es agramatical."
+        "explanation": "だれ pregunta '¿quién?' (identidad); だれ + 人 directo es agramatical."
       },
       {
         "text": "どの人ですか",
         "correct": false,
-        "reason": "どの = '¿cuál persona?' (de varias visibles), pregunta selección, no descripción."
+        "explanation": "どの = '¿cuál persona?' (de varias visibles), pregunta selección, no descripción."
       },
       {
         "text": "なに人ですか",
         "correct": false,
-        "reason": "なに人 (なにじん) pregunta nacionalidad ('¿de qué nacionalidad?'); no descripción general."
+        "explanation": "なに人 (なにじん) pregunta nacionalidad ('¿de qué nacionalidad?'); no descripción general."
       }
     ]
   },
@@ -2091,28 +1947,26 @@
     "id": "U4B-073",
     "cat": "Gramática",
     "q": "En '沖縄はどんなところですか', ところ significa:",
-    "correct": "Lugar",
-    "explanation": "ところ (所) = 'lugar/sitio'. どんなところですか = '¿qué tipo de lugar es?' (pregunta sobre características del lugar).",
     "opts": [
       {
         "text": "Lugar",
         "correct": true,
-        "reason": "Correcta. Sustantivo genérico de lugar."
+        "explanation": "ところ (所) = 'lugar/sitio'. どんなところですか = '¿qué tipo de lugar es?' (pregunta sobre características del lugar). Correcta. Sustantivo genérico de lugar."
       },
       {
         "text": "Tiempo",
         "correct": false,
-        "reason": "'Tiempo' es 時 (とき) o 時間 (じかん)."
+        "explanation": "'Tiempo' es 時 (とき) o 時間 (じかん)."
       },
       {
         "text": "Persona",
         "correct": false,
-        "reason": "'Persona' es 人 (ひと)."
+        "explanation": "'Persona' es 人 (ひと)."
       },
       {
         "text": "Comida",
         "correct": false,
-        "reason": "'Comida' es 食べ物 (たべもの) o 料理 (りょうり)."
+        "explanation": "'Comida' es 食べ物 (たべもの) o 料理 (りょうり)."
       }
     ]
   },
@@ -2120,28 +1974,26 @@
     "id": "U4B-074",
     "cat": "Verbos",
     "q": "¿Qué significa あります?",
-    "correct": "Hay / existe (cosas inanimadas)",
-    "explanation": "あります indica EXISTENCIA de cosas INANIMADAS (objetos, edificios, conceptos). Para personas/animales se usa います.",
     "opts": [
       {
         "text": "Hay / existe (cosas inanimadas)",
         "correct": true,
-        "reason": "Correcta. Existencia de cosas no vivas."
+        "explanation": "あります indica EXISTENCIA de cosas INANIMADAS (objetos, edificios, conceptos). Para personas/animales se usa います. Correcta. Existencia de cosas no vivas."
       },
       {
         "text": "Hay / existe (personas o animales)",
         "correct": false,
-        "reason": "Para personas/animales se usa います, no あります. Distinción crucial."
+        "explanation": "Para personas/animales se usa います, no あります. Distinción crucial."
       },
       {
         "text": "Tener",
         "correct": false,
-        "reason": "'Tener (posesión)' usa una construcción con あります también, pero el significado básico es 'haber/existir'."
+        "explanation": "'Tener (posesión)' usa una construcción con あります también, pero el significado básico es 'haber/existir'."
       },
       {
         "text": "Estar (haciendo algo)",
         "correct": false,
-        "reason": "'Estar haciendo' es ~ています (forma -te + います)."
+        "explanation": "'Estar haciendo' es ~ています (forma -te + います)."
       }
     ]
   },
@@ -2149,28 +2001,26 @@
     "id": "U4B-075",
     "cat": "Verbos",
     "q": "Para personas o animales, el verbo es:",
-    "correct": "います",
-    "explanation": "います es el verbo de existencia para SERES VIVOS (personas, animales). Distinto de あります (cosas inanimadas).",
     "opts": [
       {
         "text": "います",
         "correct": true,
-        "reason": "Correcta. Existencia de seres vivos."
+        "explanation": "います es el verbo de existencia para SERES VIVOS (personas, animales). Distinto de あります (cosas inanimadas). Correcta. Existencia de seres vivos."
       },
       {
         "text": "あります",
         "correct": false,
-        "reason": "あります es para cosas INANIMADAS, no personas/animales."
+        "explanation": "あります es para cosas INANIMADAS, no personas/animales."
       },
       {
         "text": "あります y います son iguales",
         "correct": false,
-        "reason": "Tienen distinción funcional importante: vivos vs. no vivos."
+        "explanation": "Tienen distinción funcional importante: vivos vs. no vivos."
       },
       {
         "text": "ありません",
         "correct": false,
-        "reason": "ありません es la forma NEGATIVA de あります ('no hay'), no el equivalente para vivos."
+        "explanation": "ありません es la forma NEGATIVA de あります ('no hay'), no el equivalente para vivos."
       }
     ]
   },
@@ -2178,28 +2028,26 @@
     "id": "U4B-076",
     "cat": "Verbos",
     "q": "'姫路にお城があります' significa:",
-    "correct": "En Himeji hay un castillo.",
-    "explanation": "姫路 (lugar, marcado con に) + お城 (sujeto, marcado con が) + あります (verbo de existencia).",
     "opts": [
       {
         "text": "En Himeji hay un castillo.",
         "correct": true,
-        "reason": "Correcta. Patrón 場所に + 物 + が + あります."
+        "explanation": "姫路 (lugar, marcado con に) + お城 (sujeto, marcado con が) + あります (verbo de existencia). Correcta. Patrón 場所に + 物 + が + あります."
       },
       {
         "text": "Himeji tiene un castillo encima.",
         "correct": false,
-        "reason": "'Encima' sería 上に. Aquí に marca lugar de existencia, no posición vertical."
+        "explanation": "'Encima' sería 上に. Aquí に marca lugar de existencia, no posición vertical."
       },
       {
         "text": "El castillo se llama Himeji.",
         "correct": false,
-        "reason": "Eso sería お城は姫路と言います. La oración indica ubicación, no nombre."
+        "explanation": "Eso sería お城は姫路と言います. La oración indica ubicación, no nombre."
       },
       {
         "text": "El castillo está en vez de Himeji.",
         "correct": false,
-        "reason": "'En vez de' sería の代わりに. に marca lugar, no sustitución."
+        "explanation": "'En vez de' sería の代わりに. に marca lugar, no sustitución."
       }
     ]
   },
@@ -2207,28 +2055,26 @@
     "id": "U4B-077",
     "cat": "Verbos",
     "q": "En '公園に子供があります' — ¿es correcta?",
-    "correct": "No, debería ser います (子供 es persona)",
-    "explanation": "子供 ('niños') son personas, así que requiere います, no あります. La oración correcta: 公園に子供がいます.",
     "opts": [
       {
         "text": "No, debería ser います (子供 es persona)",
         "correct": true,
-        "reason": "Correcta. Distinción あります/います crucial."
+        "explanation": "子供 ('niños') son personas, así que requiere います, no あります. La oración correcta: 公園に子供がいます. Correcta. Distinción あります/います crucial."
       },
       {
         "text": "Sí, es perfecta",
         "correct": false,
-        "reason": "あります solo se usa con cosas inanimadas; 子供 son seres vivos."
+        "explanation": "あります solo se usa con cosas inanimadas; 子供 son seres vivos."
       },
       {
         "text": "No, debería ser いません",
         "correct": false,
-        "reason": "いません es negativo ('no hay'); la pregunta es sobre el verbo afirmativo correcto."
+        "explanation": "いません es negativo ('no hay'); la pregunta es sobre el verbo afirmativo correcto."
       },
       {
         "text": "No, falta の después de 公園",
         "correct": false,
-        "reason": "に es la partícula correcta para lugar de existencia; の no aplica."
+        "explanation": "に es la partícula correcta para lugar de existencia; の no aplica."
       }
     ]
   },
@@ -2236,28 +2082,26 @@
     "id": "U4B-078",
     "cat": "Verbos",
     "q": "'奈良に古いお寺があります' significa:",
-    "correct": "En Nara hay un templo antiguo.",
-    "explanation": "奈良に (lugar) + 古いお寺 (templo antiguo, modificado por adjetivo い) + が + あります.",
     "opts": [
       {
         "text": "En Nara hay un templo antiguo.",
         "correct": true,
-        "reason": "Correcta. Patrón existencial completo."
+        "explanation": "奈良に (lugar) + 古いお寺 (templo antiguo, modificado por adjetivo い) + が + あります. Correcta. Patrón existencial completo."
       },
       {
         "text": "En Nara está el templo viejo.",
         "correct": false,
-        "reason": "Aunque cercano, あります no es 'estar' (esa función la cumple います para vivos o construcciones específicas). 'Hay' es más preciso."
+        "explanation": "Aunque cercano, あります no es 'estar' (esa función la cumple います para vivos o construcciones específicas). 'Hay' es más preciso."
       },
       {
         "text": "Nara es un templo antiguo.",
         "correct": false,
-        "reason": "Eso sería 奈良は古いお寺です. La estructura con に+が+あります indica existencia EN un lugar."
+        "explanation": "Eso sería 奈良は古いお寺です. La estructura con に+が+あります indica existencia EN un lugar."
       },
       {
         "text": "El templo de Nara es antiguo.",
         "correct": false,
-        "reason": "Eso sería 奈良のお寺は古いです. La oración indica existencia, no descripción posesiva."
+        "explanation": "Eso sería 奈良のお寺は古いです. La oración indica existencia, no descripción posesiva."
       }
     ]
   },
@@ -2265,28 +2109,26 @@
     "id": "U4B-079",
     "cat": "Verbos",
     "q": "'沖縄にきれいな海があります' significa:",
-    "correct": "En Okinawa hay un mar lindo.",
-    "explanation": "沖縄に (lugar) + きれいな海 (mar lindo, modificado por な-adj con な) + が + あります.",
     "opts": [
       {
         "text": "En Okinawa hay un mar lindo.",
         "correct": true,
-        "reason": "Correcta. Patrón existencial con adjetivo な."
+        "explanation": "沖縄に (lugar) + きれいな海 (mar lindo, modificado por な-adj con な) + が + あります. Correcta. Patrón existencial con adjetivo な."
       },
       {
         "text": "Okinawa está en un mar lindo.",
         "correct": false,
-        "reason": "Sujeto invertido: 沖縄 está marcado con に (lugar de existencia), no es el ser que está."
+        "explanation": "Sujeto invertido: 沖縄 está marcado con に (lugar de existencia), no es el ser que está."
       },
       {
         "text": "El mar de Okinawa es limpio.",
         "correct": false,
-        "reason": "Eso sería 沖縄の海はきれいです. La estructura con に+が+あります indica existencia."
+        "explanation": "Eso sería 沖縄の海はきれいです. La estructura con に+が+あります indica existencia."
       },
       {
         "text": "Okinawa y el mar son lindos.",
         "correct": false,
-        "reason": "Sin partícula de unión (と); la oración tiene un solo sujeto (海)."
+        "explanation": "Sin partícula de unión (と); la oración tiene un solo sujeto (海)."
       }
     ]
   },
@@ -2294,28 +2136,26 @@
     "id": "U4B-080",
     "cat": "Partículas",
     "q": "姫路＿＿お城があります。 — ¿Qué partícula va?",
-    "correct": "に",
-    "explanation": "に marca el LUGAR donde algo existe (con あります/います). 姫路に = 'en Himeji'.",
     "opts": [
       {
         "text": "に",
         "correct": true,
-        "reason": "Correcta. Partícula de lugar de existencia."
+        "explanation": "に marca el LUGAR donde algo existe (con あります/います). 姫路に = 'en Himeji'. Correcta. Partícula de lugar de existencia."
       },
       {
         "text": "で",
         "correct": false,
-        "reason": "で marca lugar de ACCIÓN, no de existencia. Con あります se usa に."
+        "explanation": "で marca lugar de ACCIÓN, no de existencia. Con あります se usa に."
       },
       {
         "text": "を",
         "correct": false,
-        "reason": "を marca objeto directo de verbos transitivos; あります no es transitivo."
+        "explanation": "を marca objeto directo de verbos transitivos; あります no es transitivo."
       },
       {
         "text": "は",
         "correct": false,
-        "reason": "は marcaría tema, no lugar específico de existencia."
+        "explanation": "は marcaría tema, no lugar específico de existencia."
       }
     ]
   },
@@ -2323,28 +2163,26 @@
     "id": "U4B-081",
     "cat": "Partículas",
     "q": "私の町に大きい公園＿＿あります。 — ¿Qué partícula va?",
-    "correct": "が",
-    "explanation": "が marca el SUJETO de あります/います (lo que existe). Es la partícula obligatoria para introducir lo nuevo.",
     "opts": [
       {
         "text": "が",
         "correct": true,
-        "reason": "Correcta. Marca el sujeto que existe."
+        "explanation": "が marca el SUJETO de あります/います (lo que existe). Es la partícula obligatoria para introducir lo nuevo. Correcta. Marca el sujeto que existe."
       },
       {
         "text": "は",
         "correct": false,
-        "reason": "は marcaría tema. Con あります introducendo información nueva se usa が."
+        "explanation": "は marcaría tema. Con あります introducendo información nueva se usa が."
       },
       {
         "text": "を",
         "correct": false,
-        "reason": "を marca objeto directo; あります no es transitivo."
+        "explanation": "を marca objeto directo; あります no es transitivo."
       },
       {
         "text": "に",
         "correct": false,
-        "reason": "に ya está usado al inicio (私の町に); marca lugar, no sujeto."
+        "explanation": "に ya está usado al inicio (私の町に); marca lugar, no sujeto."
       }
     ]
   },
@@ -2352,28 +2190,26 @@
     "id": "U4B-082",
     "cat": "Partículas",
     "q": "奈良＿＿古いお寺＿＿あります。 — ¿Qué partículas corresponden?",
-    "correct": "に / が",
-    "explanation": "Patrón completo: [lugar]に + [cosa]が + あります. に marca lugar, が marca lo que existe.",
     "opts": [
       {
         "text": "に / が",
         "correct": true,
-        "reason": "Correcta. Patrón canónico de existencia."
+        "explanation": "Patrón completo: [lugar]に + [cosa]が + あります. に marca lugar, が marca lo que existe. Correcta. Patrón canónico de existencia."
       },
       {
         "text": "で / を",
         "correct": false,
-        "reason": "で marca lugar de acción y を marca objeto directo. Ninguna aplica al patrón de existencia."
+        "explanation": "で marca lugar de acción y を marca objeto directo. Ninguna aplica al patrón de existencia."
       },
       {
         "text": "は / の",
         "correct": false,
-        "reason": "は marca tema, の conecta sustantivos. No marcan ni lugar ni sujeto de existencia."
+        "explanation": "は marca tema, の conecta sustantivos. No marcan ni lugar ni sujeto de existencia."
       },
       {
         "text": "に / を",
         "correct": false,
-        "reason": "に es correcta para el lugar, pero を no marca el sujeto de あります (que va con が)."
+        "explanation": "に es correcta para el lugar, pero を no marca el sujeto de あります (que va con が)."
       }
     ]
   },
@@ -2381,28 +2217,26 @@
     "id": "U4B-083",
     "cat": "Partículas",
     "q": "私の町＿＿きれいな川があります。 — ¿Qué partícula va?",
-    "correct": "に",
-    "explanation": "に marca el lugar de existencia. 私の町に = 'en mi ciudad'.",
     "opts": [
       {
         "text": "に",
         "correct": true,
-        "reason": "Correcta. Lugar de existencia con あります."
+        "explanation": "に marca el lugar de existencia. 私の町に = 'en mi ciudad'. Correcta. Lugar de existencia con あります."
       },
       {
         "text": "で",
         "correct": false,
-        "reason": "で marca lugar de acción, no de existencia."
+        "explanation": "で marca lugar de acción, no de existencia."
       },
       {
         "text": "を",
         "correct": false,
-        "reason": "を marca objeto directo, no lugar."
+        "explanation": "を marca objeto directo, no lugar."
       },
       {
         "text": "の",
         "correct": false,
-        "reason": "の conecta sustantivos; ya está usado en 私の町, no se duplica."
+        "explanation": "の conecta sustantivos; ya está usado en 私の町, no se duplica."
       }
     ]
   },
@@ -2410,28 +2244,26 @@
     "id": "U4B-084",
     "cat": "Partículas",
     "q": "¿Cuál partícula marca el lugar donde algo existe (con あります)?",
-    "correct": "に",
-    "explanation": "Distinción clave: に marca lugar de EXISTENCIA (con あります/います); で marca lugar de ACCIÓN (con verbos como 食べる, 働く).",
     "opts": [
       {
         "text": "に",
         "correct": true,
-        "reason": "Correcta. Lugar de existencia."
+        "explanation": "Distinción clave: に marca lugar de EXISTENCIA (con あります/います); で marca lugar de ACCIÓN (con verbos como 食べる, 働く). Correcta. Lugar de existencia."
       },
       {
         "text": "で",
         "correct": false,
-        "reason": "で marca lugar de acción (公園で遊ぶ 'jugar EN el parque'), no existencia."
+        "explanation": "で marca lugar de acción (公園で遊ぶ 'jugar EN el parque'), no existencia."
       },
       {
         "text": "を",
         "correct": false,
-        "reason": "を marca objeto directo de verbos transitivos."
+        "explanation": "を marca objeto directo de verbos transitivos."
       },
       {
         "text": "へ",
         "correct": false,
-        "reason": "へ marca destino del movimiento, no lugar de existencia."
+        "explanation": "へ marca destino del movimiento, no lugar de existencia."
       }
     ]
   },
@@ -2439,28 +2271,26 @@
     "id": "U4B-085",
     "cat": "Partículas",
     "q": "¿Cuál partícula marca el sujeto de あります?",
-    "correct": "が",
-    "explanation": "が marca el SUJETO de existencia (lo que se está afirmando que existe). Es información nueva en la oración.",
     "opts": [
       {
         "text": "が",
         "correct": true,
-        "reason": "Correcta. Marca el sujeto de existencia."
+        "explanation": "が marca el SUJETO de existencia (lo que se está afirmando que existe). Es información nueva en la oración. Correcta. Marca el sujeto de existencia."
       },
       {
         "text": "は",
         "correct": false,
-        "reason": "は marca tema (información ya conocida); para introducir lo nuevo se usa が."
+        "explanation": "は marca tema (información ya conocida); para introducir lo nuevo se usa が."
       },
       {
         "text": "を",
         "correct": false,
-        "reason": "を marca objeto directo de verbos transitivos."
+        "explanation": "を marca objeto directo de verbos transitivos."
       },
       {
         "text": "に",
         "correct": false,
-        "reason": "に marca lugar, no sujeto."
+        "explanation": "に marca lugar, no sujeto."
       }
     ]
   },
@@ -2468,28 +2298,26 @@
     "id": "U4B-086",
     "cat": "Gramática",
     "q": "¿Qué significa そして?",
-    "correct": "Y además (conecta oraciones)",
-    "explanation": "そして es conector ENTRE oraciones completas: 'y además/luego'. Distinto de と (que une sustantivos).",
     "opts": [
       {
         "text": "Y además (conecta oraciones)",
         "correct": true,
-        "reason": "Correcta. Conector aditivo entre oraciones."
+        "explanation": "そして es conector ENTRE oraciones completas: 'y además/luego'. Distinto de と (que une sustantivos). Correcta. Conector aditivo entre oraciones."
       },
       {
         "text": "Pero",
         "correct": false,
-        "reason": "'Pero' es でも, しかし, o ~が. そして es aditivo, no contrastivo."
+        "explanation": "'Pero' es でも, しかし, o ~が. そして es aditivo, no contrastivo."
       },
       {
         "text": "Porque",
         "correct": false,
-        "reason": "'Porque' es から (causa). そして no expresa causa."
+        "explanation": "'Porque' es から (causa). そして no expresa causa."
       },
       {
         "text": "O",
         "correct": false,
-        "reason": "'O' (alternativa) es か. そして es aditivo."
+        "explanation": "'O' (alternativa) es か. そして es aditivo."
       }
     ]
   },
@@ -2497,28 +2325,26 @@
     "id": "U4B-087",
     "cat": "Gramática",
     "q": "¿Qué significa が al final de una oración (ej: 大きいですが、...)?",
-    "correct": "Pero / y (contraste)",
-    "explanation": "が al final de oración es CONJUNCIÓN de contraste ('pero/aunque'). Distinto de が partícula de sujeto. La oración continúa con la idea contrastante.",
     "opts": [
       {
         "text": "Pero / y (contraste)",
         "correct": true,
-        "reason": "Correcta. Conjunción contrastiva."
+        "explanation": "が al final de oración es CONJUNCIÓN de contraste ('pero/aunque'). Distinto de が partícula de sujeto. La oración continúa con la idea contrastante. Correcta. Conjunción contrastiva."
       },
       {
         "text": "Sujeto",
         "correct": false,
-        "reason": "が puede marcar sujeto, pero al final de oración (después de です) funciona como conjunción 'pero'."
+        "explanation": "が puede marcar sujeto, pero al final de oración (después de です) funciona como conjunción 'pero'."
       },
       {
         "text": "Y además",
         "correct": false,
-        "reason": "'Y además' es そして (sin contraste). が implica contraste."
+        "explanation": "'Y además' es そして (sin contraste). が implica contraste."
       },
       {
         "text": "Porque",
         "correct": false,
-        "reason": "'Porque' es から."
+        "explanation": "'Porque' es から."
       }
     ]
   },
@@ -2526,28 +2352,26 @@
     "id": "U4B-088",
     "cat": "Gramática",
     "q": "El conector で para unir adjetivos funciona con:",
-    "correct": "Solo adjetivos な (ej: しずかで、きれいです)",
-    "explanation": "El conector で une SOLO な-adjetivos y sustantivos. Para い-adjetivos se usa la forma -くて (大きくて). Reglas distintas según tipo de adjetivo.",
     "opts": [
       {
         "text": "Solo adjetivos な (ej: しずかで、きれいです)",
         "correct": true,
-        "reason": "Correcta. Restricción específica."
+        "explanation": "El conector で une SOLO な-adjetivos y sustantivos. Para い-adjetivos se usa la forma -くて (大きくて). Reglas distintas según tipo de adjetivo. Correcta. Restricción específica."
       },
       {
         "text": "Solo adjetivos い",
         "correct": false,
-        "reason": "Los い-adj usan -くて (大きくて, 新しくて), no で."
+        "explanation": "Los い-adj usan -くて (大きくて, 新しくて), no で."
       },
       {
         "text": "Ambos tipos",
         "correct": false,
-        "reason": "No: cada tipo tiene su propia regla. な-adj con で; い-adj con -くて."
+        "explanation": "No: cada tipo tiene su propia regla. な-adj con で; い-adj con -くて."
       },
       {
         "text": "Ningún adjetivo",
         "correct": false,
-        "reason": "Falso: な-adj sí usan で."
+        "explanation": "Falso: な-adj sí usan で."
       }
     ]
   },
@@ -2555,28 +2379,26 @@
     "id": "U4B-089",
     "cat": "Gramática",
     "q": "'私の町はにぎやかです。＿＿、人が多いです。' — ¿Qué conector va?",
-    "correct": "そして",
-    "explanation": "そして une oraciones de manera ADITIVA ('y además'). Apropiado entre dos descripciones positivas.",
     "opts": [
       {
         "text": "そして",
         "correct": true,
-        "reason": "Correcta. Conector aditivo entre oraciones."
+        "explanation": "そして une oraciones de manera ADITIVA ('y además'). Apropiado entre dos descripciones positivas. Correcta. Conector aditivo entre oraciones."
       },
       {
         "text": "が",
         "correct": false,
-        "reason": "が contrasta; aquí ambas oraciones son positivas/coherentes (concurrida + mucha gente). No hay contraste."
+        "explanation": "が contrasta; aquí ambas oraciones son positivas/coherentes (concurrida + mucha gente). No hay contraste."
       },
       {
         "text": "で",
         "correct": false,
-        "reason": "で une adjetivos な dentro de UNA oración (にぎやかで、...), no oraciones separadas con です."
+        "explanation": "で une adjetivos な dentro de UNA oración (にぎやかで、...), no oraciones separadas con です."
       },
       {
         "text": "から",
         "correct": false,
-        "reason": "から indica causa; no hay relación causal explícita aquí."
+        "explanation": "から indica causa; no hay relación causal explícita aquí."
       }
     ]
   },
@@ -2584,28 +2406,26 @@
     "id": "U4B-090",
     "cat": "Gramática",
     "q": "'大きいです＿＿、人が少ないです。' — ¿Qué conector va (contraste)?",
-    "correct": "が",
-    "explanation": "が al final de oración expresa CONTRASTE ('pero'). Apropiado entre 'es grande' y 'tiene poca gente' (contraste lógico).",
     "opts": [
       {
         "text": "が",
         "correct": true,
-        "reason": "Correcta. Conector de contraste."
+        "explanation": "が al final de oración expresa CONTRASTE ('pero'). Apropiado entre 'es grande' y 'tiene poca gente' (contraste lógico). Correcta. Conector de contraste."
       },
       {
         "text": "そして",
         "correct": false,
-        "reason": "そして es aditivo; aquí hay contraste lógico (grande pero poca gente)."
+        "explanation": "そして es aditivo; aquí hay contraste lógico (grande pero poca gente)."
       },
       {
         "text": "で",
         "correct": false,
-        "reason": "で une adjetivos な, no oraciones con です."
+        "explanation": "で une adjetivos な, no oraciones con です."
       },
       {
         "text": "に",
         "correct": false,
-        "reason": "に no es conector de oraciones; marca lugar/tiempo."
+        "explanation": "に no es conector de oraciones; marca lugar/tiempo."
       }
     ]
   },
@@ -2613,28 +2433,26 @@
     "id": "U4B-091",
     "cat": "Gramática",
     "q": "'この公園はしずか＿＿、みどりが多いです。' — ¿Qué conector va?",
-    "correct": "で",
-    "explanation": "で une dos cualidades de un mismo sujeto cuando el primer adjetivo es な-adj. しずか (na-adj) + で = しずかで, 'es tranquilo Y...'.",
     "opts": [
       {
         "text": "で",
         "correct": true,
-        "reason": "Correcta. Conector de na-adj."
+        "explanation": "で une dos cualidades de un mismo sujeto cuando el primer adjetivo es な-adj. しずか (na-adj) + で = しずかで, 'es tranquilo Y...'. Correcta. Conector de na-adj."
       },
       {
         "text": "が",
         "correct": false,
-        "reason": "が al final de oración expresa CONTRASTE ('pero'). Acá no hay contraste; ambas cualidades suman."
+        "explanation": "が al final de oración expresa CONTRASTE ('pero'). Acá no hay contraste; ambas cualidades suman."
       },
       {
         "text": "そして",
         "correct": false,
-        "reason": "そして une oraciones COMPLETAS (con です); para unir adjetivo+adjetivo del mismo sujeto se prefiere で o くて."
+        "explanation": "そして une oraciones COMPLETAS (con です); para unir adjetivo+adjetivo del mismo sujeto se prefiere で o くて."
       },
       {
         "text": "に",
         "correct": false,
-        "reason": "に no es conector entre adjetivos; marca tiempo, destino o lugar."
+        "explanation": "に no es conector entre adjetivos; marca tiempo, destino o lugar."
       }
     ]
   },
@@ -2642,28 +2460,26 @@
     "id": "U4B-092",
     "cat": "Gramática",
     "q": "¿Cuál NO es correcto: usar で para unir '高い' con 'きれい'?",
-    "correct": "Correcto. No se puede porque 高い es い-adj",
-    "explanation": "で como conector de adjetivos solo funciona con な-adj. Para i-adj se usa la forma -くて (高い → 高くて). Por eso 高いで es incorrecto.",
     "opts": [
       {
         "text": "Correcto. No se puede porque 高い es い-adj",
         "correct": true,
-        "reason": "Correcta. Regla de conjugación: i-adj usa -くて."
+        "explanation": "で como conector de adjetivos solo funciona con な-adj. Para i-adj se usa la forma -くて (高い → 高くて). Por eso 高いで es incorrecto. Correcta. Regla de conjugación: i-adj usa -くて."
       },
       {
         "text": "Correcto, se puede siempre",
         "correct": false,
-        "reason": "Falso: で solo une na-adj. Para i-adj se necesita -くて."
+        "explanation": "Falso: で solo une na-adj. Para i-adj se necesita -くて."
       },
       {
         "text": "Incorrecto, sí se puede",
         "correct": false,
-        "reason": "Es agramatical decir 高いで; lo correcto es 高くて para conectar."
+        "explanation": "Es agramatical decir 高いで; lo correcto es 高くて para conectar."
       },
       {
         "text": "Depende del contexto",
         "correct": false,
-        "reason": "No depende del contexto; es regla gramatical fija según el tipo de adjetivo."
+        "explanation": "No depende del contexto; es regla gramatical fija según el tipo de adjetivo."
       }
     ]
   },
@@ -2671,28 +2487,26 @@
     "id": "U4B-093",
     "cat": "Gramática",
     "q": "Para unir 'Es alto' y 'Es nuevo' (ambos い-adj), se usa:",
-    "correct": "そして entre dos oraciones (高いです。そして、新しいです。)",
-    "explanation": "Para unir dos i-adj hay dos opciones: 1) la forma -くて (高くて新しいです), 2) dos oraciones separadas con そして. La opción presentada es la segunda.",
     "opts": [
       {
         "text": "そして entre dos oraciones (高いです。そして、新しいです。)",
         "correct": true,
-        "reason": "Correcta. Estrategia con そして."
+        "explanation": "Para unir dos i-adj hay dos opciones: 1) la forma -くて (高くて新しいです), 2) dos oraciones separadas con そして. La opción presentada es la segunda. Correcta. Estrategia con そして."
       },
       {
         "text": "で (高いで新しいです。)",
         "correct": false,
-        "reason": "で solo une na-adj. Para i-adj NO funciona; sería 高くて (forma -くて)."
+        "explanation": "で solo une na-adj. Para i-adj NO funciona; sería 高くて (forma -くて)."
       },
       {
         "text": "い → くて",
         "correct": false,
-        "reason": "Es la regla CORRECTA pero la respuesta debería ser '高くて新しいです', no solo 'い → くて' como descripción."
+        "explanation": "Es la regla CORRECTA pero la respuesta debería ser '高くて新しいです', no solo 'い → くて' como descripción."
       },
       {
         "text": "な entre ambos",
         "correct": false,
-        "reason": "な se agrega solo a na-adj antes de sustantivo, no como conector entre adjetivos."
+        "explanation": "な se agrega solo a na-adj antes de sustantivo, no como conector entre adjetivos."
       }
     ]
   },
@@ -2700,28 +2514,26 @@
     "id": "U4B-094",
     "cat": "Traducción ES→JP",
     "q": "'En Himeji hay un castillo' — ¿cuál es correcta?",
-    "correct": "姫路にお城があります。",
-    "explanation": "Estructura de existencia: [Lugar]に + [Cosa]が + あります. に marca el lugar, が marca el sujeto que existe, あります porque お城 es objeto inanimado.",
     "opts": [
       {
         "text": "姫路にお城があります。",
         "correct": true,
-        "reason": "Correcta. Patrón [lugar]に[cosa]があります."
+        "explanation": "Estructura de existencia: [Lugar]に + [Cosa]が + あります. に marca el lugar, が marca el sujeto que existe, あります porque お城 es objeto inanimado. Correcta. Patrón [lugar]に[cosa]があります."
       },
       {
         "text": "姫路はお城であります。",
         "correct": false,
-        "reason": "は marca tema (no lugar); で marca medio/lugar de acción (no sujeto que existe). Patrón mal aplicado."
+        "explanation": "は marca tema (no lugar); で marca medio/lugar de acción (no sujeto que existe). Patrón mal aplicado."
       },
       {
         "text": "姫路でお城があります。",
         "correct": false,
-        "reason": "で marca lugar de ACCIÓN (donde se hace algo); para EXISTENCIA con あります se usa に."
+        "explanation": "で marca lugar de ACCIÓN (donde se hace algo); para EXISTENCIA con あります se usa に."
       },
       {
         "text": "姫路のお城にあります。",
         "correct": false,
-        "reason": "Estructura invertida: 姫路のお城 sería 'el castillo de Himeji' como sujeto, pero falta が y la oración queda incompleta semánticamente."
+        "explanation": "Estructura invertida: 姫路のお城 sería 'el castillo de Himeji' como sujeto, pero falta が y la oración queda incompleta semánticamente."
       }
     ]
   },
@@ -2729,28 +2541,26 @@
     "id": "U4B-095",
     "cat": "Traducción ES→JP",
     "q": "'En Nara hay un templo antiguo' — ¿cuál es correcta?",
-    "correct": "奈良に古いお寺があります。",
-    "explanation": "Estructura: [Lugar]に + [adjetivo+sust]が + あります. 古い (i-adj) modifica directamente a お寺 sin partícula.",
     "opts": [
       {
         "text": "奈良に古いお寺があります。",
         "correct": true,
-        "reason": "Correcta. Patrón con i-adj directo."
+        "explanation": "Estructura: [Lugar]に + [adjetivo+sust]が + あります. 古い (i-adj) modifica directamente a お寺 sin partícula. Correcta. Patrón con i-adj directo."
       },
       {
         "text": "奈良は古いお寺であります。",
         "correct": false,
-        "reason": "は marca tema (no lugar de existencia); で marca medio (no sujeto). Patrón mal aplicado."
+        "explanation": "は marca tema (no lugar de existencia); で marca medio (no sujeto). Patrón mal aplicado."
       },
       {
         "text": "奈良で古いのお寺があります。",
         "correct": false,
-        "reason": "で marca lugar de acción (no existencia); の no se usa entre i-adj y sustantivo (la modificación es directa)."
+        "explanation": "で marca lugar de acción (no existencia); の no se usa entre i-adj y sustantivo (la modificación es directa)."
       },
       {
         "text": "奈良に古なお寺があります。",
         "correct": false,
-        "reason": "古い es い-adj, NO toma な. Decir 古な es ERROR común al confundir con na-adj."
+        "explanation": "古い es い-adj, NO toma な. Decir 古な es ERROR común al confundir con na-adj."
       }
     ]
   },
@@ -2758,28 +2568,26 @@
     "id": "U4B-096",
     "cat": "Traducción ES→JP",
     "q": "'En mi ciudad hay una montaña alta' — ¿cuál es correcta?",
-    "correct": "私の町に高い山があります。",
-    "explanation": "Estructura: 私の町に (lugar) + 高い山 (adj+sust) + が + あります.",
     "opts": [
       {
         "text": "私の町に高い山があります。",
         "correct": true,
-        "reason": "Correcta. Patrón completo con i-adj."
+        "explanation": "Estructura: 私の町に (lugar) + 高い山 (adj+sust) + が + あります. Correcta. Patrón completo con i-adj."
       },
       {
         "text": "私の町は高い山であります。",
         "correct": false,
-        "reason": "は + で no es la estructura de existencia; se necesita に + が + あります."
+        "explanation": "は + で no es la estructura de existencia; se necesita に + が + あります."
       },
       {
         "text": "私の町で高なの山があります。",
         "correct": false,
-        "reason": "で para lugar de existencia es incorrecto (es に); 高な es error (高い es i-adj)."
+        "explanation": "で para lugar de existencia es incorrecto (es に); 高な es error (高い es i-adj)."
       },
       {
         "text": "私の町に高な山があります。",
         "correct": false,
-        "reason": "高い es い-adj, no toma な. Decir 高な es ERROR."
+        "explanation": "高い es い-adj, no toma な. Decir 高な es ERROR."
       }
     ]
   },
@@ -2787,28 +2595,26 @@
     "id": "U4B-097",
     "cat": "Traducción ES→JP",
     "q": "'Esta ciudad es tranquila y tiene mucho verde' — ¿cuál es correcta?",
-    "correct": "この町は静かで、緑が多いです。",
-    "explanation": "Estructura: [Sujeto]は + na-adj + で + segunda oración. 静か (na-adj) → 静かで une las dos cualidades positivas.",
     "opts": [
       {
         "text": "この町は静かで、緑が多いです。",
         "correct": true,
-        "reason": "Correcta. Conector で para na-adj."
+        "explanation": "Estructura: [Sujeto]は + na-adj + で + segunda oración. 静か (na-adj) → 静かで une las dos cualidades positivas. Correcta. Conector で para na-adj."
       },
       {
         "text": "この町は静かが、緑が多いです。",
         "correct": false,
-        "reason": "が al final de cláusula expresa CONTRASTE ('pero'). Acá no hay contraste; las cualidades suman."
+        "explanation": "が al final de cláusula expresa CONTRASTE ('pero'). Acá no hay contraste; las cualidades suman."
       },
       {
         "text": "この町は静かそして、緑多いです。",
         "correct": false,
-        "reason": "そして va al inicio de la SEGUNDA oración (con です en la primera), no inmediatamente después del adjetivo. Y falta が antes de 多い."
+        "explanation": "そして va al inicio de la SEGUNDA oración (con です en la primera), no inmediatamente después del adjetivo. Y falta が antes de 多い."
       },
       {
         "text": "この町で静かは、緑多いです。",
         "correct": false,
-        "reason": "で y は invertidos; estructura agramatical."
+        "explanation": "で y は invertidos; estructura agramatical."
       }
     ]
   },
@@ -2816,28 +2622,26 @@
     "id": "U4B-098",
     "cat": "Traducción ES→JP",
     "q": "'Mi ciudad es famosa pero no es grande' — ¿cuál es correcta?",
-    "correct": "私の町は有名ですが、大きくないです。",
-    "explanation": "が al final de cláusula expresa CONTRASTE ('pero'). 有名です + が + 大きくないです. Notá que 大きくない es i-adj negativo.",
     "opts": [
       {
         "text": "私の町は有名ですが、大きくないです。",
         "correct": true,
-        "reason": "Correcta. が de contraste."
+        "explanation": "が al final de cláusula expresa CONTRASTE ('pero'). 有名です + が + 大きくないです. Notá que 大きくない es i-adj negativo. Correcta. が de contraste."
       },
       {
         "text": "私の町は有名で、大きくないです。",
         "correct": false,
-        "reason": "で une cualidades del MISMO tono; aquí hay contraste (positivo + negativo), por lo que se usa が."
+        "explanation": "で une cualidades del MISMO tono; aquí hay contraste (positivo + negativo), por lo que se usa が."
       },
       {
         "text": "私の町は有名そして大きくないです。",
         "correct": false,
-        "reason": "そして agrega información POSITIVA; acá hay contraste (no es grande), por lo que se usa が."
+        "explanation": "そして agrega información POSITIVA; acá hay contraste (no es grande), por lo que se usa が."
       },
       {
         "text": "私の町は有名じゃないが、大きいです。",
         "correct": false,
-        "reason": "Invierte el sentido: dice 'NO es famosa pero es grande', opuesto al original."
+        "explanation": "Invierte el sentido: dice 'NO es famosa pero es grande', opuesto al original."
       }
     ]
   },
@@ -2845,28 +2649,26 @@
     "id": "U4B-099",
     "cat": "Traducción ES→JP",
     "q": "'Hokkaido es grande pero tiene poca gente' — ¿cuál es correcta?",
-    "correct": "北海道は大きいですが、人が少ないです。",
-    "explanation": "Patrón [oración1]ですが、[oración2]です. が conecta las cláusulas con contraste. 人が少ない = 'la gente es poca' (sujeto + i-adj).",
     "opts": [
       {
         "text": "北海道は大きいですが、人が少ないです。",
         "correct": true,
-        "reason": "Correcta. Estructura completa con が de contraste."
+        "explanation": "Patrón [oración1]ですが、[oración2]です. が conecta las cláusulas con contraste. 人が少ない = 'la gente es poca' (sujeto + i-adj). Correcta. Estructura completa con が de contraste."
       },
       {
         "text": "北海道は大きいで、人が少ないです。",
         "correct": false,
-        "reason": "で no se usa con i-adj para conectar; sería 大きくて. Y aquí hay contraste, mejor が."
+        "explanation": "で no se usa con i-adj para conectar; sería 大きくて. Y aquí hay contraste, mejor が."
       },
       {
         "text": "北海道は大きですが、人少ないです。",
         "correct": false,
-        "reason": "大き sin い es agramatical (大きい es i-adj completo). Y falta が antes de 少ない."
+        "explanation": "大き sin い es agramatical (大きい es i-adj completo). Y falta が antes de 少ない."
       },
       {
         "text": "北海道は大きいが、人はありません。",
         "correct": false,
-        "reason": "ありません es para cosas inanimadas. Para personas se usa いません. Y 人はありません significaría 'no hay gente' (cero), no 'poca gente'."
+        "explanation": "ありません es para cosas inanimadas. Para personas se usa いません. Y 人はありません significaría 'no hay gente' (cero), no 'poca gente'."
       }
     ]
   },
@@ -2874,28 +2676,26 @@
     "id": "U4B-100",
     "cat": "Traducción ES→JP",
     "q": "'Este edificio es nuevo pero no es lindo' — ¿cuál es correcta?",
-    "correct": "このビルは新しいですが、きれいじゃありません。",
-    "explanation": "新しい (i-adj) + ですが + きれいじゃありません (na-adj negativo formal).",
     "opts": [
       {
         "text": "このビルは新しいですが、きれいじゃありません。",
         "correct": true,
-        "reason": "Correcta. Negativo formal de na-adj con じゃありません."
+        "explanation": "新しい (i-adj) + ですが + きれいじゃありません (na-adj negativo formal). Correcta. Negativo formal de na-adj con じゃありません."
       },
       {
         "text": "このビルは新しいで、きれいくないです。",
         "correct": false,
-        "reason": "Doble error: 新しい es i-adj y で no aplica (sería 新しくて); きれくない es ERROR clásico (きれい es na-adj, usa じゃない)."
+        "explanation": "Doble error: 新しい es i-adj y で no aplica (sería 新しくて); きれくない es ERROR clásico (きれい es na-adj, usa じゃない)."
       },
       {
         "text": "このビルは新しいそして、きれいじゃない。",
         "correct": false,
-        "reason": "そして agrega info del mismo tono; acá hay contraste (positivo + negativo), se usa が."
+        "explanation": "そして agrega info del mismo tono; acá hay contraste (positivo + negativo), se usa が."
       },
       {
         "text": "このビルが新しいですが、きれいじゃないです。",
         "correct": false,
-        "reason": "が marca sujeto enfático; en presentación neutra de tema se usa は."
+        "explanation": "が marca sujeto enfático; en presentación neutra de tema se usa は."
       }
     ]
   },
@@ -2903,28 +2703,26 @@
     "id": "U4B-101",
     "cat": "Traducción JP→ES",
     "q": "'私の町はにぎやかです。そして、人が多いです。' significa:",
-    "correct": "Mi ciudad es concurrida. Y tiene mucha gente.",
-    "explanation": "Dos oraciones unidas con そして (y además). 人が多い = 'la gente es mucha' (sujeto + i-adj).",
     "opts": [
       {
         "text": "Mi ciudad es concurrida. Y tiene mucha gente.",
         "correct": true,
-        "reason": "Correcta. そして = 'y además' añadiendo info positiva."
+        "explanation": "Dos oraciones unidas con そして (y además). 人が多い = 'la gente es mucha' (sujeto + i-adj). Correcta. そして = 'y además' añadiendo info positiva."
       },
       {
         "text": "Mi ciudad es tranquila pero tiene gente.",
         "correct": false,
-        "reason": "にぎやか = concurrida, no tranquila (静か). Y そして no es 'pero' (sería が)."
+        "explanation": "にぎやか = concurrida, no tranquila (静か). Y そして no es 'pero' (sería が)."
       },
       {
         "text": "En mi ciudad hay gente concurrida.",
         "correct": false,
-        "reason": "Mal análisis: にぎやか describe la CIUDAD, no la gente. Y 人が多い es 'hay mucha gente', no 'gente concurrida'."
+        "explanation": "Mal análisis: にぎやか describe la CIUDAD, no la gente. Y 人が多い es 'hay mucha gente', no 'gente concurrida'."
       },
       {
         "text": "La gente de mi ciudad es animada.",
         "correct": false,
-        "reason": "Mal análisis: にぎやか describe la ciudad, no a la gente. La oración tiene dos descripciones separadas."
+        "explanation": "Mal análisis: にぎやか describe la ciudad, no a la gente. La oración tiene dos descripciones separadas."
       }
     ]
   },
@@ -2932,28 +2730,26 @@
     "id": "U4B-102",
     "cat": "Traducción JP→ES",
     "q": "'この海は有名じゃありませんが、きれいです。' significa:",
-    "correct": "Este mar no es famoso, pero es lindo.",
-    "explanation": "Dos cláusulas unidas con が (contraste): negativa (有名じゃありません) + positiva (きれいです).",
     "opts": [
       {
         "text": "Este mar no es famoso, pero es lindo.",
         "correct": true,
-        "reason": "Correcta. Contraste negativo+positivo con が."
+        "explanation": "Dos cláusulas unidas con が (contraste): negativa (有名じゃありません) + positiva (きれいです). Correcta. Contraste negativo+positivo con が."
       },
       {
         "text": "Este mar es famoso y lindo.",
         "correct": false,
-        "reason": "じゃありません es negativo: 'NO es famoso'. Esta opción dice afirmativo, contrario."
+        "explanation": "じゃありません es negativo: 'NO es famoso'. Esta opción dice afirmativo, contrario."
       },
       {
         "text": "Este mar no es lindo ni famoso.",
         "correct": false,
-        "reason": "きれいです es AFIRMATIVO ('es lindo'), no negativo. Solo 有名 está negado."
+        "explanation": "きれいです es AFIRMATIVO ('es lindo'), no negativo. Solo 有名 está negado."
       },
       {
         "text": "Este mar es lindo y no famoso.",
         "correct": false,
-        "reason": "Aunque el contenido es similar, el orden y el matiz cambian: が introduce contraste explícito ('pero'), no simple suma con 'y'."
+        "explanation": "Aunque el contenido es similar, el orden y el matiz cambian: が introduce contraste explícito ('pero'), no simple suma con 'y'."
       }
     ]
   },
@@ -2961,28 +2757,26 @@
     "id": "U4B-103",
     "cat": "Traducción JP→ES",
     "q": "'姫路は大きいです。そして、有名です。' significa:",
-    "correct": "Himeji es grande. Y además es famosa.",
-    "explanation": "Dos oraciones afirmativas unidas con そして (y además). Ambas cualidades positivas suman.",
     "opts": [
       {
         "text": "Himeji es grande. Y además es famosa.",
         "correct": true,
-        "reason": "Correcta. そして = 'y además'."
+        "explanation": "Dos oraciones afirmativas unidas con そして (y además). Ambas cualidades positivas suman. Correcta. そして = 'y además'."
       },
       {
         "text": "Himeji es grande pero famosa.",
         "correct": false,
-        "reason": "そして NO es 'pero'; es 'y además'. 'Pero' sería が."
+        "explanation": "そして NO es 'pero'; es 'y además'. 'Pero' sería が."
       },
       {
         "text": "Himeji es famosa y pequeña.",
         "correct": false,
-        "reason": "大きい = grande, no pequeña (小さい). Invierte el adjetivo."
+        "explanation": "大きい = grande, no pequeña (小さい). Invierte el adjetivo."
       },
       {
         "text": "Himeji es más grande y famosa.",
         "correct": false,
-        "reason": "'Más grande' implicaría comparación (もっと/より), que no aparece. Es solo 'grande'."
+        "explanation": "'Más grande' implicaría comparación (もっと/より), que no aparece. Es solo 'grande'."
       }
     ]
   },
@@ -2990,28 +2784,26 @@
     "id": "U4B-104",
     "cat": "Traducción JP→ES",
     "q": "'この公園は静かで、緑が多いです。' significa:",
-    "correct": "Este parque es tranquilo y tiene mucho verde.",
-    "explanation": "静かで une dos cualidades del mismo sujeto (na-adj + で). 緑が多い = 'el verde es mucho/abundante'.",
     "opts": [
       {
         "text": "Este parque es tranquilo y tiene mucho verde.",
         "correct": true,
-        "reason": "Correcta. で une cualidades positivas."
+        "explanation": "静かで une dos cualidades del mismo sujeto (na-adj + で). 緑が多い = 'el verde es mucho/abundante'. Correcta. で une cualidades positivas."
       },
       {
         "text": "Este parque tranquilo no tiene verde.",
         "correct": false,
-        "reason": "多い es AFIRMATIVO ('mucho'); no negativo. La oración no niega nada."
+        "explanation": "多い es AFIRMATIVO ('mucho'); no negativo. La oración no niega nada."
       },
       {
         "text": "En este parque hay poco verde tranquilo.",
         "correct": false,
-        "reason": "多い es 'mucho' (no 'poco' = 少ない). Y 静か describe el parque, no el verde."
+        "explanation": "多い es 'mucho' (no 'poco' = 少ない). Y 静か describe el parque, no el verde."
       },
       {
         "text": "El parque verde es tranquilo pero pequeño.",
         "correct": false,
-        "reason": "No hay 'pero' (sería が), no hay 'pequeño' (小さい). La oración tiene dos cualidades positivas."
+        "explanation": "No hay 'pero' (sería が), no hay 'pequeño' (小さい). La oración tiene dos cualidades positivas."
       }
     ]
   },
@@ -3019,28 +2811,26 @@
     "id": "U4B-105",
     "cat": "Traducción JP→ES",
     "q": "'私の町は有名ですが、大きくないです。' significa:",
-    "correct": "Mi ciudad es famosa pero no es grande.",
-    "explanation": "ですが introduce contraste: positivo (有名) + negativo (大きくない). 大きくない es la negación de 大きい (i-adj).",
     "opts": [
       {
         "text": "Mi ciudad es famosa pero no es grande.",
         "correct": true,
-        "reason": "Correcta. Contraste positivo+negativo con が."
+        "explanation": "ですが introduce contraste: positivo (有名) + negativo (大きくない). 大きくない es la negación de 大きい (i-adj). Correcta. Contraste positivo+negativo con が."
       },
       {
         "text": "Mi ciudad es famosa y grande.",
         "correct": false,
-        "reason": "大きくない es NEGATIVO ('no es grande'). Esta opción dice afirmativo."
+        "explanation": "大きくない es NEGATIVO ('no es grande'). Esta opción dice afirmativo."
       },
       {
         "text": "Mi ciudad no es famosa ni grande.",
         "correct": false,
-        "reason": "有名です es AFIRMATIVO. Solo 大きい está negado."
+        "explanation": "有名です es AFIRMATIVO. Solo 大きい está negado."
       },
       {
         "text": "La ciudad famosa es pequeña.",
         "correct": false,
-        "reason": "Mal análisis: la oración describe la ciudad propia (私の町), no 'la ciudad famosa' como sujeto. Y 'pequeña' (小さい) es distinto a 'no grande' (大きくない)."
+        "explanation": "Mal análisis: la oración describe la ciudad propia (私の町), no 'la ciudad famosa' como sujeto. Y 'pequeña' (小さい) es distinto a 'no grande' (大きくない)."
       }
     ]
   },
@@ -3048,28 +2838,26 @@
     "id": "U4B-106",
     "cat": "Traducción JP→ES",
     "q": "'このビルは新しいですが、きれいじゃありません。' significa:",
-    "correct": "Este edificio es nuevo pero no es lindo/limpio.",
-    "explanation": "ですが de contraste: positivo (新しい) + negativo formal de na-adj (きれいじゃありません).",
     "opts": [
       {
         "text": "Este edificio es nuevo pero no es lindo/limpio.",
         "correct": true,
-        "reason": "Correcta. Contraste con que きれい es polisémico."
+        "explanation": "ですが de contraste: positivo (新しい) + negativo formal de na-adj (きれいじゃありません). Correcta. Contraste con que きれい es polisémico."
       },
       {
         "text": "Este edificio es viejo y lindo.",
         "correct": false,
-        "reason": "新しい = nuevo (no viejo = 古い). Y きれいじゃありません es negativo (no afirmativo)."
+        "explanation": "新しい = nuevo (no viejo = 古い). Y きれいじゃありません es negativo (no afirmativo)."
       },
       {
         "text": "El edificio lindo es nuevo.",
         "correct": false,
-        "reason": "Mal análisis: la oración tiene contraste (が), no es identificación 'el edificio lindo'."
+        "explanation": "Mal análisis: la oración tiene contraste (が), no es identificación 'el edificio lindo'."
       },
       {
         "text": "El edificio nuevo es limpio.",
         "correct": false,
-        "reason": "じゃありません niega きれい: 'no es limpio/lindo'. La opción afirma."
+        "explanation": "じゃありません niega きれい: 'no es limpio/lindo'. La opción afirma."
       }
     ]
   },
@@ -3077,28 +2865,26 @@
     "id": "U4B-107",
     "cat": "Diálogo",
     "q": "Si alguien te pregunta 'あなたの町はどんな町ですか', te está pidiendo:",
-    "correct": "Que describas cómo es tu ciudad.",
-    "explanation": "どんな + sustantivo + ですか pregunta '¿qué tipo de ~?' / '¿cómo es ~?'. Pide DESCRIPCIÓN cualitativa, no datos concretos.",
     "opts": [
       {
         "text": "Que describas cómo es tu ciudad.",
         "correct": true,
-        "reason": "Correcta. どんな pide descripción de cualidades."
+        "explanation": "どんな + sustantivo + ですか pregunta '¿qué tipo de ~?' / '¿cómo es ~?'. Pide DESCRIPCIÓN cualitativa, no datos concretos. Correcta. どんな pide descripción de cualidades."
       },
       {
         "text": "La dirección de tu ciudad.",
         "correct": false,
-        "reason": "'Dirección/dónde' sería どこ. どんな pide descripción."
+        "explanation": "'Dirección/dónde' sería どこ. どんな pide descripción."
       },
       {
         "text": "Cuándo vas a tu ciudad.",
         "correct": false,
-        "reason": "'Cuándo' sería いつ. どんな pide descripción."
+        "explanation": "'Cuándo' sería いつ. どんな pide descripción."
       },
       {
         "text": "El nombre de tu ciudad.",
         "correct": false,
-        "reason": "'Nombre' sería 名前 / なんという町. どんな pide cualidades, no identificación."
+        "explanation": "'Nombre' sería 名前 / なんという町. どんな pide cualidades, no identificación."
       }
     ]
   },
@@ -3106,28 +2892,26 @@
     "id": "U4B-108",
     "cat": "Diálogo",
     "q": "Para decir 'hay un parque grande' en kanji, ¿cuál es correcta?",
-    "correct": "大きい公園があります",
-    "explanation": "Estructura: [adj+sust] + が + あります. 大きい (i-adj) modifica directo a 公園.",
     "opts": [
       {
         "text": "大きい公園があります",
         "correct": true,
-        "reason": "Correcta. i-adj + sust + が + あります."
+        "explanation": "Estructura: [adj+sust] + が + あります. 大きい (i-adj) modifica directo a 公園. Correcta. i-adj + sust + が + あります."
       },
       {
         "text": "大きな公園でします",
         "correct": false,
-        "reason": "大きな es variante poética rara; でします no encaja gramaticalmente. Para existencia se usa あります, no します."
+        "explanation": "大きな es variante poética rara; でします no encaja gramaticalmente. Para existencia se usa あります, no します."
       },
       {
         "text": "大きの公園にあります",
         "correct": false,
-        "reason": "大きの es agramatical (大きい no toma の); にあります sin sujeto explícito (が) es incompleto."
+        "explanation": "大きの es agramatical (大きい no toma の); にあります sin sujeto explícito (が) es incompleto."
       },
       {
         "text": "公園大きいあります",
         "correct": false,
-        "reason": "Orden incorrecto: el adjetivo va ANTES del sustantivo, y falta が."
+        "explanation": "Orden incorrecto: el adjetivo va ANTES del sustantivo, y falta が."
       }
     ]
   },
@@ -3135,28 +2919,26 @@
     "id": "U4B-109",
     "cat": "Diálogo",
     "q": "Si alguien dice 'にぎやかですが、静かじゃありません', describe una ciudad:",
-    "correct": "Animada y para nada tranquila",
-    "explanation": "Cláusula 1 afirma にぎやか (animada). Cláusula 2 niega 静か (no es tranquila). Ambas cualidades son consistentes (animada ↔ no tranquila).",
     "opts": [
       {
         "text": "Animada y para nada tranquila",
         "correct": true,
-        "reason": "Correcta. Refuerza la idea: animada implica no tranquila."
+        "explanation": "Cláusula 1 afirma にぎやか (animada). Cláusula 2 niega 静か (no es tranquila). Ambas cualidades son consistentes (animada ↔ no tranquila). Correcta. Refuerza la idea: animada implica no tranquila."
       },
       {
         "text": "Tranquila y animada",
         "correct": false,
-        "reason": "にぎやか = animada, pero 静かじゃありません = NO tranquila. Esta opción incluye 'tranquila', contradictorio."
+        "explanation": "にぎやか = animada, pero 静かじゃありません = NO tranquila. Esta opción incluye 'tranquila', contradictorio."
       },
       {
         "text": "Famosa pero silenciosa",
         "correct": false,
-        "reason": "No menciona 'famosa' (有名). Y 'silenciosa' contradice にぎやか."
+        "explanation": "No menciona 'famosa' (有名). Y 'silenciosa' contradice にぎやか."
       },
       {
         "text": "Pequeña y tranquila",
         "correct": false,
-        "reason": "No menciona 小さい. Y 'tranquila' contradice にぎやか + 静かじゃありません."
+        "explanation": "No menciona 小さい. Y 'tranquila' contradice にぎやか + 静かじゃありません."
       }
     ]
   },
@@ -3164,28 +2946,26 @@
     "id": "U4B-110",
     "cat": "Diálogo",
     "q": "¿Qué oración describe una ciudad chica y tranquila?",
-    "correct": "小さくて静かな町です。",
-    "explanation": "Forma -くて del i-adj (小さい → 小さくて) une al na-adj (静か) + な + sustantivo. Patrón estándar para encadenar i-adj + na-adj.",
     "opts": [
       {
         "text": "小さくて静かな町です。",
         "correct": true,
-        "reason": "Correcta. Forma -くて + na-adj + な."
+        "explanation": "Forma -くて del i-adj (小さい → 小さくて) une al na-adj (静か) + な + sustantivo. Patrón estándar para encadenar i-adj + na-adj. Correcta. Forma -くて + na-adj + な."
       },
       {
         "text": "大きいでにぎやかな町です。",
         "correct": false,
-        "reason": "Doble error: 大きい (no 小さい) y にぎやか (no 静か); además 大きいで es agramatical (i-adj usa -くて)."
+        "explanation": "Doble error: 大きい (no 小さい) y にぎやか (no 静か); además 大きいで es agramatical (i-adj usa -くて)."
       },
       {
         "text": "小さいが大きい町です。",
         "correct": false,
-        "reason": "Contradicción: pequeña Y grande. Y が al medio sin です no funciona como conector."
+        "explanation": "Contradicción: pequeña Y grande. Y が al medio sin です no funciona como conector."
       },
       {
         "text": "静かくて大きい町です。",
         "correct": false,
-        "reason": "ERROR de conjugación: 静か es na-adj, no toma -くて (sería 静かで). Y 大きい (grande) contradice 'chica'."
+        "explanation": "ERROR de conjugación: 静か es na-adj, no toma -くて (sería 静かで). Y 大きい (grande) contradice 'chica'."
       }
     ]
   },
@@ -3193,28 +2973,26 @@
     "id": "U4B-111",
     "cat": "Diálogo",
     "q": "En 'ならに古いお寺があります', ¿qué es 古い?",
-    "correct": "Un adjetivo い que describe お寺",
-    "explanation": "古い va antes de お寺 modificándolo: 'templo antiguo'. Es i-adj (termina en い conjugable) que califica al sustantivo siguiente.",
     "opts": [
       {
         "text": "Un adjetivo い que describe お寺",
         "correct": true,
-        "reason": "Correcta. Función modificadora directa."
+        "explanation": "古い va antes de お寺 modificándolo: 'templo antiguo'. Es i-adj (termina en い conjugable) que califica al sustantivo siguiente. Correcta. Función modificadora directa."
       },
       {
         "text": "Un sustantivo",
         "correct": false,
-        "reason": "Los sustantivos no se conjugan (古い se niega en 古くない). 古い es adjetivo."
+        "explanation": "Los sustantivos no se conjugan (古い se niega en 古くない). 古い es adjetivo."
       },
       {
         "text": "Un verbo",
         "correct": false,
-        "reason": "Los verbos terminan en う/く/す/つ/etc. (forma diccionario). 古い termina en い adjetival."
+        "explanation": "Los verbos terminan en う/く/す/つ/etc. (forma diccionario). 古い termina en い adjetival."
       },
       {
         "text": "Un conector",
         "correct": false,
-        "reason": "Los conectores son そして, が, でも, etc. 古い es adjetivo descriptivo."
+        "explanation": "Los conectores son そして, が, でも, etc. 古い es adjetivo descriptivo."
       }
     ]
   },
@@ -3222,28 +3000,26 @@
     "id": "U4B-112",
     "cat": "Diálogo",
     "q": "Si 'あまり' se combina con un adjetivo negativo significa:",
-    "correct": "No muy... / no tan...",
-    "explanation": "あまり (también あんまり) + adj/verbo NEGATIVO = 'no muy...'. Ej: あまり大きくない = 'no muy grande'.",
     "opts": [
       {
         "text": "No muy... / no tan...",
         "correct": true,
-        "reason": "Correcta. Suaviza la negación."
+        "explanation": "あまり (también あんまり) + adj/verbo NEGATIVO = 'no muy...'. Ej: あまり大きくない = 'no muy grande'. Correcta. Suaviza la negación."
       },
       {
         "text": "Mucho...",
         "correct": false,
-        "reason": "'Mucho' positivo es たくさん o とても. あまり se combina con NEGATIVO."
+        "explanation": "'Mucho' positivo es たくさん o とても. あまり se combina con NEGATIVO."
       },
       {
         "text": "Un poco...",
         "correct": false,
-        "reason": "'Un poco' afirmativo es ちょっと o 少し. あまり requiere negativo."
+        "explanation": "'Un poco' afirmativo es ちょっと o 少し. あまり requiere negativo."
       },
       {
         "text": "Súper...",
         "correct": false,
-        "reason": "'Súper/muy' afirmativo es とても o すごく. あまり va con negativo."
+        "explanation": "'Súper/muy' afirmativo es とても o すごく. あまり va con negativo."
       }
     ]
   },
@@ -3251,28 +3027,26 @@
     "id": "U4B-113",
     "cat": "Diálogo",
     "q": "Para decir 'la persona es famosa' → ¿cuál es correcta?",
-    "correct": "人は有名です。",
-    "explanation": "Estructura predicativa con na-adj: [tema]は + na-adj + です. NO se agrega な antes de です (な solo va antes de sustantivo).",
     "opts": [
       {
         "text": "人は有名です。",
         "correct": true,
-        "reason": "Correcta. na-adj sin な antes de です."
+        "explanation": "Estructura predicativa con na-adj: [tema]は + na-adj + です. NO se agrega な antes de です (な solo va antes de sustantivo). Correcta. na-adj sin な antes de です."
       },
       {
         "text": "人は有名いです。",
         "correct": false,
-        "reason": "い se agregaría si fuera i-adj. 有名 es na-adj, no toma い."
+        "explanation": "い se agregaría si fuera i-adj. 有名 es na-adj, no toma い."
       },
       {
         "text": "人は有名なです。",
         "correct": false,
-        "reason": "ERROR común: な solo va antes de SUSTANTIVO (有名な町), no antes de です."
+        "explanation": "ERROR común: な solo va antes de SUSTANTIVO (有名な町), no antes de です."
       },
       {
         "text": "人の有名です。",
         "correct": false,
-        "reason": "の conecta sustantivos como modificador (no marca tema). Para tema se usa は."
+        "explanation": "の conecta sustantivos como modificador (no marca tema). Para tema se usa は."
       }
     ]
   },
@@ -3280,28 +3054,26 @@
     "id": "U4B-114",
     "cat": "Diálogo",
     "q": "'少ない' se refiere a:",
-    "correct": "Cantidad escasa (pocos/pocas)",
-    "explanation": "少ない es i-adj de CANTIDAD: 'poco/pocos'. Distinto de 小さい (tamaño pequeño).",
     "opts": [
       {
         "text": "Cantidad escasa (pocos/pocas)",
         "correct": true,
-        "reason": "Correcta. Cantidad numérica escasa."
+        "explanation": "少ない es i-adj de CANTIDAD: 'poco/pocos'. Distinto de 小さい (tamaño pequeño). Correcta. Cantidad numérica escasa."
       },
       {
         "text": "Tamaño pequeño",
         "correct": false,
-        "reason": "'Tamaño pequeño' es 小さい. 少ない es cantidad."
+        "explanation": "'Tamaño pequeño' es 小さい. 少ない es cantidad."
       },
       {
         "text": "Edad joven",
         "correct": false,
-        "reason": "'Edad joven' es 若い (わかい). 少ない es cantidad."
+        "explanation": "'Edad joven' es 若い (わかい). 少ない es cantidad."
       },
       {
         "text": "Precio bajo",
         "correct": false,
-        "reason": "'Precio bajo' es 安い (やすい) o 低い. 少ない es cantidad."
+        "explanation": "'Precio bajo' es 安い (やすい) o 低い. 少ない es cantidad."
       }
     ]
   },
@@ -3309,28 +3081,26 @@
     "id": "U4B-115",
     "cat": "Diálogo",
     "q": "'多い' se refiere a:",
-    "correct": "Cantidad grande (muchos/muchas)",
-    "explanation": "多い es i-adj de CANTIDAD: 'mucho/muchos'. Distinto de 大きい (tamaño grande).",
     "opts": [
       {
         "text": "Cantidad grande (muchos/muchas)",
         "correct": true,
-        "reason": "Correcta. Cantidad numérica alta."
+        "explanation": "多い es i-adj de CANTIDAD: 'mucho/muchos'. Distinto de 大きい (tamaño grande). Correcta. Cantidad numérica alta."
       },
       {
         "text": "Tamaño grande",
         "correct": false,
-        "reason": "'Tamaño grande' es 大きい. 多い es cantidad."
+        "explanation": "'Tamaño grande' es 大きい. 多い es cantidad."
       },
       {
         "text": "Edad grande",
         "correct": false,
-        "reason": "'Edad grande/mayor' es 年上 o とし. 多い es cantidad."
+        "explanation": "'Edad grande/mayor' es 年上 o とし. 多い es cantidad."
       },
       {
         "text": "Precio alto",
         "correct": false,
-        "reason": "'Precio alto' es 高い. 多い es cantidad."
+        "explanation": "'Precio alto' es 高い. 多い es cantidad."
       }
     ]
   },
@@ -3338,28 +3108,26 @@
     "id": "U4B-116",
     "cat": "Diálogo",
     "q": "La diferencia entre 大きい y 多い es:",
-    "correct": "大きい=tamaño grande / 多い=cantidad mucha",
-    "explanation": "Distinción crucial: 大きい mide TAMAÑO físico (grande); 多い mide CANTIDAD (muchos). Ambos se leen おお~ inicial pero refieren a magnitudes distintas.",
     "opts": [
       {
         "text": "大きい=tamaño grande / 多い=cantidad mucha",
         "correct": true,
-        "reason": "Correcta. Distinción funcional clave."
+        "explanation": "Distinción crucial: 大きい mide TAMAÑO físico (grande); 多い mide CANTIDAD (muchos). Ambos se leen おお~ inicial pero refieren a magnitudes distintas. Correcta. Distinción funcional clave."
       },
       {
         "text": "Son sinónimos",
         "correct": false,
-        "reason": "Falso: tamaño y cantidad son magnitudes distintas. Una caja puede ser grande con poco contenido."
+        "explanation": "Falso: tamaño y cantidad son magnitudes distintas. Una caja puede ser grande con poco contenido."
       },
       {
         "text": "大きい=cantidad / 多い=tamaño",
         "correct": false,
-        "reason": "Invertido."
+        "explanation": "Invertido."
       },
       {
         "text": "No existe 多い",
         "correct": false,
-        "reason": "Falso: 多い existe y es de uso común para cantidad."
+        "explanation": "Falso: 多い existe y es de uso común para cantidad."
       }
     ]
   },
@@ -3367,28 +3135,26 @@
     "id": "U4B-117",
     "cat": "Diálogo",
     "q": "¿Qué respuesta NO corresponde a 'あなたの町はにぎやかですか'?",
-    "correct": "はい、高いです。",
-    "explanation": "La pregunta es sobre concurrencia (にぎやか). Responder con 高い (alto/caro) es incoherente; las respuestas válidas afirman/niegan にぎやか o usan adjetivos opuestos como 静か.",
     "opts": [
       {
         "text": "はい、高いです。",
         "correct": true,
-        "reason": "Correcta como respuesta (NO corresponde): 高い no responde sobre concurrencia."
+        "explanation": "La pregunta es sobre concurrencia (にぎやか). Responder con 高い (alto/caro) es incoherente; las respuestas válidas afirman/niegan にぎやか o usan adjetivos opuestos como 静か. Correcta como respuesta (NO corresponde): 高い no responde sobre concurrencia."
       },
       {
         "text": "はい、にぎやかです。",
         "correct": false,
-        "reason": "Esta SÍ corresponde: confirma con el mismo adjetivo."
+        "explanation": "Esta SÍ corresponde: confirma con el mismo adjetivo."
       },
       {
         "text": "いいえ、にぎやかじゃありません。",
         "correct": false,
-        "reason": "Esta SÍ corresponde: niega con el mismo adjetivo."
+        "explanation": "Esta SÍ corresponde: niega con el mismo adjetivo."
       },
       {
         "text": "いいえ、静かです。",
         "correct": false,
-        "reason": "Esta SÍ corresponde: niega indirectamente afirmando el opuesto."
+        "explanation": "Esta SÍ corresponde: niega indirectamente afirmando el opuesto."
       }
     ]
   },
@@ -3396,28 +3162,26 @@
     "id": "U4B-118",
     "cat": "Diálogo",
     "q": "Ante 'あなたの町はどんな町ですか', una respuesta típica es:",
-    "correct": "私の町はにぎやかです。そして、人が多いです。",
-    "explanation": "どんな町 pide descripción cualitativa. La respuesta natural usa adjetivos descriptivos (にぎやか, 静か, 大きい, etc.) y puede ampliar con そして.",
     "opts": [
       {
         "text": "私の町はにぎやかです。そして、人が多いです。",
         "correct": true,
-        "reason": "Correcta. Descripción con adjetivos + ampliación."
+        "explanation": "どんな町 pide descripción cualitativa. La respuesta natural usa adjetivos descriptivos (にぎやか, 静か, 大きい, etc.) y puede ampliar con そして. Correcta. Descripción con adjetivos + ampliación."
       },
       {
         "text": "町は３時間くらいです。",
         "correct": false,
-        "reason": "Habla de DURACIÓN (3 horas), no de cualidades de la ciudad. Inadecuado para どんな."
+        "explanation": "Habla de DURACIÓN (3 horas), no de cualidades de la ciudad. Inadecuado para どんな."
       },
       {
         "text": "町はバスで行きます。",
         "correct": false,
-        "reason": "Habla de cómo se LLEGA a la ciudad, no cómo ES la ciudad."
+        "explanation": "Habla de cómo se LLEGA a la ciudad, no cómo ES la ciudad."
       },
       {
         "text": "町は東京の北から来ます。",
         "correct": false,
-        "reason": "Habla de UBICACIÓN/origen geográfico, no descripción cualitativa."
+        "explanation": "Habla de UBICACIÓN/origen geográfico, no descripción cualitativa."
       }
     ]
   },
@@ -3425,28 +3189,26 @@
     "id": "U4B-119",
     "cat": "Diálogo",
     "q": "Ante 'ゆうめいですか', ¿cómo negás diciendo 'no es famosa pero es grande'?",
-    "correct": "いいえ、有名じゃありませんが、大きいです。",
-    "explanation": "Estructura: いいえ (no) + negación na-adj formal (有名じゃありません) + が (contraste) + i-adj afirmativo (大きい).",
     "opts": [
       {
         "text": "いいえ、有名じゃありませんが、大きいです。",
         "correct": true,
-        "reason": "Correcta. Negación + contraste + afirmación."
+        "explanation": "Estructura: いいえ (no) + negación na-adj formal (有名じゃありません) + が (contraste) + i-adj afirmativo (大きい). Correcta. Negación + contraste + afirmación."
       },
       {
         "text": "はい、有名で大きいです。",
         "correct": false,
-        "reason": "はい afirma (incoherente con 'no es famosa'); で une cualidades positivas, no contrasta."
+        "explanation": "はい afirma (incoherente con 'no es famosa'); で une cualidades positivas, no contrasta."
       },
       {
         "text": "いいえ、有名ないです。",
         "correct": false,
-        "reason": "Falta じゃ: el negativo de na-adj es じゃない/じゃありません, no solo ない. Y falta la segunda cláusula."
+        "explanation": "Falta じゃ: el negativo de na-adj es じゃない/じゃありません, no solo ない. Y falta la segunda cláusula."
       },
       {
         "text": "はい、有名じゃありません。",
         "correct": false,
-        "reason": "はい + じゃありません es contradictorio (sí + no es). Y falta la cláusula 'es grande'."
+        "explanation": "はい + じゃありません es contradictorio (sí + no es). Y falta la cláusula 'es grande'."
       }
     ]
   },
@@ -3454,28 +3216,26 @@
     "id": "U4B-120",
     "cat": "Diálogo",
     "q": "'沖縄はどんなところですか' se traduce como:",
-    "correct": "¿Qué tal / cómo es Okinawa?",
-    "explanation": "どんなところ = '¿qué tipo de lugar?' / '¿cómo es ese lugar?'. Pregunta cualidades.",
     "opts": [
       {
         "text": "¿Qué tal / cómo es Okinawa?",
         "correct": true,
-        "reason": "Correcta. どんな pide descripción."
+        "explanation": "どんなところ = '¿qué tipo de lugar?' / '¿cómo es ese lugar?'. Pregunta cualidades. Correcta. どんな pide descripción."
       },
       {
         "text": "¿Dónde queda Okinawa?",
         "correct": false,
-        "reason": "'Dónde' sería どこ. どんな pide descripción cualitativa."
+        "explanation": "'Dónde' sería どこ. どんな pide descripción cualitativa."
       },
       {
         "text": "¿Cuándo vas a Okinawa?",
         "correct": false,
-        "reason": "'Cuándo' sería いつ. どんな pregunta sobre cualidades."
+        "explanation": "'Cuándo' sería いつ. どんな pregunta sobre cualidades."
       },
       {
         "text": "¿Por qué Okinawa?",
         "correct": false,
-        "reason": "'Por qué' sería どうして / なぜ. どんな pregunta cualidades."
+        "explanation": "'Por qué' sería どうして / なぜ. どんな pregunta cualidades."
       }
     ]
   },
@@ -3483,28 +3243,26 @@
     "id": "U4B-121",
     "cat": "Adjetivos",
     "q": "¿Cuál de estos NO es un adjetivo い?",
-    "correct": "きれい",
-    "explanation": "きれい es la EXCEPCIÓN clásica: termina en い pero es な-adjetivo. Los demás (大きい, 新しい, 多い) son い-adj genuinos.",
     "opts": [
       {
         "text": "きれい",
         "correct": true,
-        "reason": "Correcta como respuesta (NO es i-adj): es excepción な-adj."
+        "explanation": "きれい es la EXCEPCIÓN clásica: termina en い pero es な-adjetivo. Los demás (大きい, 新しい, 多い) son い-adj genuinos. Correcta como respuesta (NO es i-adj): es excepción な-adj."
       },
       {
         "text": "大きい",
         "correct": false,
-        "reason": "大きい SÍ es i-adj (se conjuga 大きくない)."
+        "explanation": "大きい SÍ es i-adj (se conjuga 大きくない)."
       },
       {
         "text": "新しい",
         "correct": false,
-        "reason": "新しい SÍ es i-adj (se conjuga 新しくない)."
+        "explanation": "新しい SÍ es i-adj (se conjuga 新しくない)."
       },
       {
         "text": "多い",
         "correct": false,
-        "reason": "多い SÍ es i-adj (se conjuga 多くない)."
+        "explanation": "多い SÍ es i-adj (se conjuga 多くない)."
       }
     ]
   },
@@ -3512,28 +3270,26 @@
     "id": "U4B-122",
     "cat": "Adjetivos",
     "q": "¿Cuál de estos NO es un adjetivo な?",
-    "correct": "古い",
-    "explanation": "古い termina en い conjugable, es i-adj. Los demás (有名, 静か, にぎやか) son na-adj.",
     "opts": [
       {
         "text": "古い",
         "correct": true,
-        "reason": "Correcta como respuesta (NO es na-adj): es i-adj."
+        "explanation": "古い termina en い conjugable, es i-adj. Los demás (有名, 静か, にぎやか) son na-adj. Correcta como respuesta (NO es na-adj): es i-adj."
       },
       {
         "text": "有名",
         "correct": false,
-        "reason": "有名 SÍ es na-adj (有名な町)."
+        "explanation": "有名 SÍ es na-adj (有名な町)."
       },
       {
         "text": "静か",
         "correct": false,
-        "reason": "静か SÍ es na-adj (静かな町)."
+        "explanation": "静か SÍ es na-adj (静かな町)."
       },
       {
         "text": "にぎやか",
         "correct": false,
-        "reason": "にぎやか SÍ es na-adj (にぎやかな町)."
+        "explanation": "にぎやか SÍ es na-adj (にぎやかな町)."
       }
     ]
   },
@@ -3541,28 +3297,26 @@
     "id": "U4B-123",
     "cat": "Adjetivos",
     "q": "¿Cuál describe una cualidad OPUESTA a 新しい?",
-    "correct": "古い",
-    "explanation": "Pareja antónima: 新しい (nuevo) ↔ 古い (viejo/antiguo). Ambos se aplican a cosas/lugares (no personas).",
     "opts": [
       {
         "text": "古い",
         "correct": true,
-        "reason": "Correcta. Antónimo directo."
+        "explanation": "Pareja antónima: 新しい (nuevo) ↔ 古い (viejo/antiguo). Ambos se aplican a cosas/lugares (no personas). Correcta. Antónimo directo."
       },
       {
         "text": "高い",
         "correct": false,
-        "reason": "高い (alto/caro) no es antónimo de 新しい (nuevo). Pertenecen a categorías distintas."
+        "explanation": "高い (alto/caro) no es antónimo de 新しい (nuevo). Pertenecen a categorías distintas."
       },
       {
         "text": "大きい",
         "correct": false,
-        "reason": "大きい (grande) no es antónimo de 新しい. Tamaño ≠ antigüedad."
+        "explanation": "大きい (grande) no es antónimo de 新しい. Tamaño ≠ antigüedad."
       },
       {
         "text": "少ない",
         "correct": false,
-        "reason": "少ない (poco) no es antónimo de 新しい. Cantidad ≠ antigüedad."
+        "explanation": "少ない (poco) no es antónimo de 新しい. Cantidad ≠ antigüedad."
       }
     ]
   },
@@ -3570,28 +3324,26 @@
     "id": "U4B-124",
     "cat": "Adjetivos",
     "q": "¿Cuál describe una cualidad OPUESTA a 大きい?",
-    "correct": "小さい",
-    "explanation": "Pareja antónima de TAMAÑO: 大きい (grande) ↔ 小さい (pequeño).",
     "opts": [
       {
         "text": "小さい",
         "correct": true,
-        "reason": "Correcta. Antónimo de tamaño."
+        "explanation": "Pareja antónima de TAMAÑO: 大きい (grande) ↔ 小さい (pequeño). Correcta. Antónimo de tamaño."
       },
       {
         "text": "少ない",
         "correct": false,
-        "reason": "少ない es antónimo de 多い (cantidad), no de 大きい (tamaño). Distinción crucial."
+        "explanation": "少ない es antónimo de 多い (cantidad), no de 大きい (tamaño). Distinción crucial."
       },
       {
         "text": "古い",
         "correct": false,
-        "reason": "古い (viejo) es antónimo de 新しい (nuevo), no de 大きい."
+        "explanation": "古い (viejo) es antónimo de 新しい (nuevo), no de 大きい."
       },
       {
         "text": "静か",
         "correct": false,
-        "reason": "静か (tranquilo) es antónimo de にぎやか (concurrido), no de 大きい."
+        "explanation": "静か (tranquilo) es antónimo de にぎやか (concurrido), no de 大きい."
       }
     ]
   },
@@ -3599,28 +3351,26 @@
     "id": "U4B-125",
     "cat": "Adjetivos",
     "q": "¿Cuál describe una cualidad OPUESTA a 多い?",
-    "correct": "少ない",
-    "explanation": "Pareja antónima de CANTIDAD: 多い (mucho) ↔ 少ない (poco).",
     "opts": [
       {
         "text": "少ない",
         "correct": true,
-        "reason": "Correcta. Antónimo de cantidad."
+        "explanation": "Pareja antónima de CANTIDAD: 多い (mucho) ↔ 少ない (poco). Correcta. Antónimo de cantidad."
       },
       {
         "text": "小さい",
         "correct": false,
-        "reason": "小さい es antónimo de 大きい (tamaño), no de 多い (cantidad). Distinción crucial."
+        "explanation": "小さい es antónimo de 大きい (tamaño), no de 多い (cantidad). Distinción crucial."
       },
       {
         "text": "古い",
         "correct": false,
-        "reason": "古い (viejo) es antónimo de 新しい (nuevo), no de 多い."
+        "explanation": "古い (viejo) es antónimo de 新しい (nuevo), no de 多い."
       },
       {
         "text": "静か",
         "correct": false,
-        "reason": "静か (tranquilo) es antónimo de にぎやか, no de 多い."
+        "explanation": "静か (tranquilo) es antónimo de にぎやか, no de 多い."
       }
     ]
   },
@@ -3628,28 +3378,26 @@
     "id": "U4B-126",
     "cat": "Adjetivos",
     "q": "¿Cuál describe una cualidad OPUESTA a にぎやか?",
-    "correct": "静か",
-    "explanation": "Pareja antónima de AMBIENTE: にぎやか (animado/concurrido) ↔ 静か (tranquilo/silencioso).",
     "opts": [
       {
         "text": "静か",
         "correct": true,
-        "reason": "Correcta. Antónimo de ambiente."
+        "explanation": "Pareja antónima de AMBIENTE: にぎやか (animado/concurrido) ↔ 静か (tranquilo/silencioso). Correcta. Antónimo de ambiente."
       },
       {
         "text": "きれい",
         "correct": false,
-        "reason": "きれい (lindo/limpio) es estética/higiene, no ambiente. No es antónimo de にぎやか."
+        "explanation": "きれい (lindo/limpio) es estética/higiene, no ambiente. No es antónimo de にぎやか."
       },
       {
         "text": "古い",
         "correct": false,
-        "reason": "古い (viejo) es antigüedad, no ambiente. No es antónimo."
+        "explanation": "古い (viejo) es antigüedad, no ambiente. No es antónimo."
       },
       {
         "text": "有名",
         "correct": false,
-        "reason": "有名 (famoso) es notoriedad, no ambiente. No es antónimo."
+        "explanation": "有名 (famoso) es notoriedad, no ambiente. No es antónimo."
       }
     ]
   },
@@ -3657,28 +3405,26 @@
     "id": "U4B-127",
     "cat": "Adjetivos",
     "q": "¿Cuál es la forma formal negativa de 'no es grande'?",
-    "correct": "大きくないです",
-    "explanation": "Forma formal negativa de i-adj: [raíz]+くない+です. 大きい → 大き + くない + です.",
     "opts": [
       {
         "text": "大きくないです",
         "correct": true,
-        "reason": "Correcta. Patrón formal de negativo de i-adj."
+        "explanation": "Forma formal negativa de i-adj: [raíz]+くない+です. 大きい → 大き + くない + です. Correcta. Patrón formal de negativo de i-adj."
       },
       {
         "text": "大きじゃありません",
         "correct": false,
-        "reason": "じゃありません es para na-adj/sustantivos. 大きい es i-adj, usa くない/くないです."
+        "explanation": "じゃありません es para na-adj/sustantivos. 大きい es i-adj, usa くない/くないです."
       },
       {
         "text": "大きい ないです",
         "correct": false,
-        "reason": "Falta la conjugación: la い debe reemplazarse por くない, no conservarse."
+        "explanation": "Falta la conjugación: la い debe reemplazarse por くない, no conservarse."
       },
       {
         "text": "大きいくないです",
         "correct": false,
-        "reason": "ERROR: la い se elimina antes de くない (大き + くない), no se conserva."
+        "explanation": "ERROR: la い se elimina antes de くない (大き + くない), no se conserva."
       }
     ]
   },
@@ -3686,28 +3432,26 @@
     "id": "U4B-128",
     "cat": "Adjetivos",
     "q": "¿Cuál es la forma formal negativa de 'no es famoso' (más formal)?",
-    "correct": "有名じゃありません",
-    "explanation": "Negativo formal de na-adj: [na-adj]じゃありません. Versión casual: じゃない. Versión muy formal: ではありません.",
     "opts": [
       {
         "text": "有名じゃありません",
         "correct": true,
-        "reason": "Correcta. Negativo formal de na-adj."
+        "explanation": "Negativo formal de na-adj: [na-adj]じゃありません. Versión casual: じゃない. Versión muy formal: ではありません. Correcta. Negativo formal de na-adj."
       },
       {
         "text": "有名くないです",
         "correct": false,
-        "reason": "くない es para i-adj. 有名 es na-adj."
+        "explanation": "くない es para i-adj. 有名 es na-adj."
       },
       {
         "text": "有名ないです",
         "correct": false,
-        "reason": "Falta じゃ: el negativo correcto es じゃない/じゃありません."
+        "explanation": "Falta じゃ: el negativo correcto es じゃない/じゃありません."
       },
       {
         "text": "有名のないです",
         "correct": false,
-        "reason": "の no es parte del patrón negativo. Lo correcto es じゃありません."
+        "explanation": "の no es parte del patrón negativo. Lo correcto es じゃありません."
       }
     ]
   },
@@ -3715,28 +3459,26 @@
     "id": "U4B-129",
     "cat": "Traducción JP→ES",
     "q": "'高くないです' significa:",
-    "correct": "No es alto / no es caro",
-    "explanation": "高い (alto/caro) negado: 高くない + です. Mantiene la doble interpretación de altura/precio según contexto.",
     "opts": [
       {
         "text": "No es alto / no es caro",
         "correct": true,
-        "reason": "Correcta. Negativo de 高い con polisemia."
+        "explanation": "高い (alto/caro) negado: 高くない + です. Mantiene la doble interpretación de altura/precio según contexto. Correcta. Negativo de 高い con polisemia."
       },
       {
         "text": "Es alto",
         "correct": false,
-        "reason": "ないです es NEGATIVO. Esta opción afirma."
+        "explanation": "ないです es NEGATIVO. Esta opción afirma."
       },
       {
         "text": "No hay alto",
         "correct": false,
-        "reason": "'No hay' sería ありません para cosas inanimadas (existencia). 高くないです es negación de adjetivo."
+        "explanation": "'No hay' sería ありません para cosas inanimadas (existencia). 高くないです es negación de adjetivo."
       },
       {
         "text": "Alto no es",
         "correct": false,
-        "reason": "Aunque literal en orden, en español natural se traduce 'no es alto'. La opción suena calcada y rara."
+        "explanation": "Aunque literal en orden, en español natural se traduce 'no es alto'. La opción suena calcada y rara."
       }
     ]
   },
@@ -3744,28 +3486,26 @@
     "id": "U4B-130",
     "cat": "Traducción JP→ES",
     "q": "'きれいじゃありません' significa:",
-    "correct": "No es lindo / no es limpio",
-    "explanation": "きれい (lindo/limpio) negado formal: きれいじゃありません. Polisemia mantenida según contexto.",
     "opts": [
       {
         "text": "No es lindo / no es limpio",
         "correct": true,
-        "reason": "Correcta. Negativo formal con polisemia."
+        "explanation": "きれい (lindo/limpio) negado formal: きれいじゃありません. Polisemia mantenida según contexto. Correcta. Negativo formal con polisemia."
       },
       {
         "text": "Sí es lindo",
         "correct": false,
-        "reason": "じゃありません es NEGATIVO. Esta opción afirma."
+        "explanation": "じゃありません es NEGATIVO. Esta opción afirma."
       },
       {
         "text": "No hay lindo",
         "correct": false,
-        "reason": "'No hay' sería ありません tras sustantivo, no tras adjetivo na. Aquí es negación adjetival."
+        "explanation": "'No hay' sería ありません tras sustantivo, no tras adjetivo na. Aquí es negación adjetival."
       },
       {
         "text": "Limpio no",
         "correct": false,
-        "reason": "Traducción literal calcada y poco natural en español."
+        "explanation": "Traducción literal calcada y poco natural en español."
       }
     ]
   },
@@ -3773,28 +3513,26 @@
     "id": "U4B-131",
     "cat": "Gramática",
     "q": "Si quiero decir 'hay MUCHA gente' usando 多い, ¿cuál es correcta?",
-    "correct": "人が多いです。",
-    "explanation": "Patrón natural: [sujeto]が + 多い + です. 多い funciona como predicado sobre 人. NO se usa あります con 多い.",
     "opts": [
       {
         "text": "人が多いです。",
         "correct": true,
-        "reason": "Correcta. Patrón sujeto + i-adj predicativo."
+        "explanation": "Patrón natural: [sujeto]が + 多い + です. 多い funciona como predicado sobre 人. NO se usa あります con 多い. Correcta. Patrón sujeto + i-adj predicativo."
       },
       {
         "text": "人は多いです。",
         "correct": false,
-        "reason": "は marca tema (presupone que el oyente sabe de 人); en presentación de información nueva ('hay mucha gente') se usa が."
+        "explanation": "は marca tema (presupone que el oyente sabe de 人); en presentación de información nueva ('hay mucha gente') se usa が."
       },
       {
         "text": "多い人があります。",
         "correct": false,
-        "reason": "Para personas se usa います, no あります. Y la estructura natural pone 多い como predicado, no como modificador."
+        "explanation": "Para personas se usa います, no あります. Y la estructura natural pone 多い como predicado, no como modificador."
       },
       {
         "text": "多くの人があります。",
         "correct": false,
-        "reason": "多くの es uso atributivo correcto, pero あります es para inanimados. Para personas se usa います."
+        "explanation": "多くの es uso atributivo correcto, pero あります es para inanimados. Para personas se usa います."
       }
     ]
   },
@@ -3802,28 +3540,26 @@
     "id": "U4B-132",
     "cat": "Gramática",
     "q": "La frase '緑が多い' significa:",
-    "correct": "Hay mucho verde (naturaleza).",
-    "explanation": "Patrón [sujeto]が + 多い: indica abundancia. 緑 ('verde/naturaleza') + が + 多い = 'el verde es mucho' = 'hay mucha naturaleza'.",
     "opts": [
       {
         "text": "Hay mucho verde (naturaleza).",
         "correct": true,
-        "reason": "Correcta. Patrón de abundancia."
+        "explanation": "Patrón [sujeto]が + 多い: indica abundancia. 緑 ('verde/naturaleza') + が + 多い = 'el verde es mucho' = 'hay mucha naturaleza'. Correcta. Patrón de abundancia."
       },
       {
         "text": "El verde es grande.",
         "correct": false,
-        "reason": "多い es CANTIDAD (mucho), no tamaño (大きい)."
+        "explanation": "多い es CANTIDAD (mucho), no tamaño (大きい)."
       },
       {
         "text": "Muchos colores verdes.",
         "correct": false,
-        "reason": "緑 acá refiere a vegetación/naturaleza, no al color como tono. Y la estructura no implica 'muchos colores' sino 'el verde es abundante'."
+        "explanation": "緑 acá refiere a vegetación/naturaleza, no al color como tono. Y la estructura no implica 'muchos colores' sino 'el verde es abundante'."
       },
       {
         "text": "Verde pesado.",
         "correct": false,
-        "reason": "多い es cantidad, no peso (重い). Sin relación."
+        "explanation": "多い es cantidad, no peso (重い). Sin relación."
       }
     ]
   },
@@ -3831,28 +3567,26 @@
     "id": "U4B-133",
     "cat": "Gramática",
     "q": "En 'このビルは新しいですが、きれいじゃありません', ¿qué conector une las ideas?",
-    "correct": "が (pero)",
-    "explanation": "が al final de cláusula con です introduce CONTRASTE entre cualidades opuestas. Aquí: positivo (新しい) + negativo (きれいじゃ ありません).",
     "opts": [
       {
         "text": "が (pero)",
         "correct": true,
-        "reason": "Correcta. が de contraste."
+        "explanation": "が al final de cláusula con です introduce CONTRASTE entre cualidades opuestas. Aquí: positivo (新しい) + negativo (きれいじゃ ありません). Correcta. が de contraste."
       },
       {
         "text": "そして (y además)",
         "correct": false,
-        "reason": "そして une info del MISMO tono. Aquí hay contraste, no suma."
+        "explanation": "そして une info del MISMO tono. Aquí hay contraste, no suma."
       },
       {
         "text": "で (y)",
         "correct": false,
-        "reason": "で une cualidades positivas del mismo tono y solo con na-adj. Aquí hay contraste."
+        "explanation": "で une cualidades positivas del mismo tono y solo con na-adj. Aquí hay contraste."
       },
       {
         "text": "から (porque)",
         "correct": false,
-        "reason": "から expresa CAUSA. Aquí no hay relación causal entre 'es nuevo' y 'no es lindo'."
+        "explanation": "から expresa CAUSA. Aquí no hay relación causal entre 'es nuevo' y 'no es lindo'."
       }
     ]
   },
@@ -3860,28 +3594,26 @@
     "id": "U4B-134",
     "cat": "Gramática",
     "q": "¿Cómo se dice 'lindo y tranquilo' uniendo con で?",
-    "correct": "きれいで、静かです",
-    "explanation": "Ambos son na-adj, así que usan で: きれい + で + 静かです. Notá que la primera cláusula no lleva です (la lleva la última).",
     "opts": [
       {
         "text": "きれいで、静かです",
         "correct": true,
-        "reason": "Correcta. Patrón na-adj + で."
+        "explanation": "Ambos son na-adj, así que usan で: きれい + で + 静かです. Notá que la primera cláusula no lleva です (la lleva la última). Correcta. Patrón na-adj + で."
       },
       {
         "text": "きれいが、静かです",
         "correct": false,
-        "reason": "が al final de cláusula expresa contraste ('pero'); aquí ambas cualidades suman."
+        "explanation": "が al final de cláusula expresa contraste ('pero'); aquí ambas cualidades suman."
       },
       {
         "text": "きれいそして、静かです",
         "correct": false,
-        "reason": "そして va al INICIO de la siguiente oración (con です en la primera): きれいです。そして、静かです."
+        "explanation": "そして va al INICIO de la siguiente oración (con です en la primera): きれいです。そして、静かです."
       },
       {
         "text": "きれいな、静かです",
         "correct": false,
-        "reason": "な va antes de SUSTANTIVO, no como conector entre adjetivos. Acá se necesita で."
+        "explanation": "な va antes de SUSTANTIVO, no como conector entre adjetivos. Acá se necesita で."
       }
     ]
   },
@@ -3889,28 +3621,26 @@
     "id": "U4B-135",
     "cat": "Gramática",
     "q": "¿Se puede decir '大きいで、新しいです'?",
-    "correct": "No: で solo une な-adj; 大きい es い-adj → usar そして",
-    "explanation": "Regla clave: で como conector solo funciona con na-adj. Para i-adj se usa la forma -くて (大きくて新しいです) o se separan en oraciones con そして.",
     "opts": [
       {
         "text": "No: で solo une な-adj; 大きい es い-adj → usar そして",
         "correct": true,
-        "reason": "Correcta. Regla de uso de で."
+        "explanation": "Regla clave: で como conector solo funciona con na-adj. Para i-adj se usa la forma -くて (大きくて新しいです) o se separan en oraciones con そして. Correcta. Regla de uso de で."
       },
       {
         "text": "Sí, es correcto",
         "correct": false,
-        "reason": "Falso: 大きいで es agramatical. i-adj no toma で directo."
+        "explanation": "Falso: 大きいで es agramatical. i-adj no toma で directo."
       },
       {
         "text": "Sí, pero informal",
         "correct": false,
-        "reason": "No es cuestión de registro: es agramatical en cualquier nivel. Lo correcto es 大きくて."
+        "explanation": "No es cuestión de registro: es agramatical en cualquier nivel. Lo correcto es 大きくて."
       },
       {
         "text": "Solo si los dos son positivos",
         "correct": false,
-        "reason": "El tono no afecta esta regla. Lo que importa es el TIPO de adjetivo (i-adj vs na-adj)."
+        "explanation": "El tono no afecta esta regla. Lo que importa es el TIPO de adjetivo (i-adj vs na-adj)."
       }
     ]
   }

@@ -3,28 +3,26 @@
     "id": "U3A-001",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 1時?",
-    "correct": "いちじ",
-    "explanation": "1 (いち) + 時 (じ, 'hora') = いちじ. El contador 時 se lee じ con números.",
     "opts": [
       {
         "text": "いちじ",
         "correct": true,
-        "reason": "Correcta. Lectura regular sin alteración."
+        "explanation": "1 (いち) + 時 (じ, 'hora') = いちじ. El contador 時 se lee じ con números. Correcta. Lectura regular sin alteración."
       },
       {
         "text": "いっじ",
         "correct": false,
-        "reason": "El sokuon (っ) no aplica delante de じ; la lectura es directa いちじ."
+        "explanation": "El sokuon (っ) no aplica delante de じ; la lectura es directa いちじ."
       },
       {
         "text": "ひとじ",
         "correct": false,
-        "reason": "ひと es lectura nativa de 1, no se usa con el contador 時. Se usa いち."
+        "explanation": "ひと es lectura nativa de 1, no se usa con el contador 時. Se usa いち."
       },
       {
         "text": "いちとき",
         "correct": false,
-        "reason": "とき es la kun'yomi de 時 cuando va sola. Con números se usa la on'yomi じ."
+        "explanation": "とき es la kun'yomi de 時 cuando va sola. Con números se usa la on'yomi じ."
       }
     ]
   },
@@ -32,28 +30,26 @@
     "id": "U3A-002",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 2時?",
-    "correct": "にじ",
-    "explanation": "2 (に) + 時 (じ) = にじ. Patrón regular.",
     "opts": [
       {
         "text": "にじ",
         "correct": true,
-        "reason": "Correcta. Lectura regular."
+        "explanation": "2 (に) + 時 (じ) = にじ. Patrón regular. Correcta. Lectura regular."
       },
       {
         "text": "ふたじ",
         "correct": false,
-        "reason": "ふた es lectura nativa de 2, no se usa con el contador 時."
+        "explanation": "ふた es lectura nativa de 2, no se usa con el contador 時."
       },
       {
         "text": "にとき",
         "correct": false,
-        "reason": "とき es kun'yomi; con números se usa la on'yomi じ."
+        "explanation": "とき es kun'yomi; con números se usa la on'yomi じ."
       },
       {
         "text": "にっじ",
         "correct": false,
-        "reason": "El sokuon no aplica delante de じ."
+        "explanation": "El sokuon no aplica delante de じ."
       }
     ]
   },
@@ -61,28 +57,26 @@
     "id": "U3A-003",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 3時?",
-    "correct": "さんじ",
-    "explanation": "3 (さん) + 時 (じ) = さんじ. Patrón regular sin alteraciones.",
     "opts": [
       {
         "text": "さんじ",
         "correct": true,
-        "reason": "Correcta. Lectura regular."
+        "explanation": "3 (さん) + 時 (じ) = さんじ. Patrón regular sin alteraciones. Correcta. Lectura regular."
       },
       {
         "text": "みじ",
         "correct": false,
-        "reason": "み es lectura nativa de 3 (みっつ), no se usa con 時. Se usa さん."
+        "explanation": "み es lectura nativa de 3 (みっつ), no se usa con 時. Se usa さん."
       },
       {
         "text": "さんどき",
         "correct": false,
-        "reason": "どき (rendaku de とき) es kun'yomi compuesta; no se usa con números en el contador 時."
+        "explanation": "どき (rendaku de とき) es kun'yomi compuesta; no se usa con números en el contador 時."
       },
       {
         "text": "さっじ",
         "correct": false,
-        "reason": "El sokuon no aplica delante de じ con さん."
+        "explanation": "El sokuon no aplica delante de じ con さん."
       }
     ]
   },
@@ -90,28 +84,26 @@
     "id": "U3A-004",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 4時? (⚠️ irregular)",
-    "correct": "よじ",
-    "explanation": "4時 es IRREGULAR: usa la lectura よ (no よん ni し). Es una de las tres irregularidades clave en horas.",
     "opts": [
       {
         "text": "よじ",
         "correct": true,
-        "reason": "Correcta. Lectura irregular fija."
+        "explanation": "4時 es IRREGULAR: usa la lectura よ (no よん ni し). Es una de las tres irregularidades clave en horas. Correcta. Lectura irregular fija."
       },
       {
         "text": "しじ",
         "correct": false,
-        "reason": "し es lectura de 4 pero se evita por sonar como 死 ('muerte'). En horas se usa よ."
+        "explanation": "し es lectura de 4 pero se evita por sonar como 死 ('muerte'). En horas se usa よ."
       },
       {
         "text": "よんじ",
         "correct": false,
-        "reason": "よん es la lectura común de 4 hoy, pero en 時 se mantiene la antigua よ."
+        "explanation": "よん es la lectura común de 4 hoy, pero en 時 se mantiene la antigua よ."
       },
       {
         "text": "よっじ",
         "correct": false,
-        "reason": "El sokuon no aplica con よ delante de じ."
+        "explanation": "El sokuon no aplica con よ delante de じ."
       }
     ]
   },
@@ -119,28 +111,26 @@
     "id": "U3A-005",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 5時?",
-    "correct": "ごじ",
-    "explanation": "5 (ご) + 時 (じ) = ごじ. Patrón regular.",
     "opts": [
       {
         "text": "ごじ",
         "correct": true,
-        "reason": "Correcta. Lectura regular."
+        "explanation": "5 (ご) + 時 (じ) = ごじ. Patrón regular. Correcta. Lectura regular."
       },
       {
         "text": "ごうじ",
         "correct": false,
-        "reason": "5 se lee ご (corta), no ごう (larga). Vocal larga incorrecta."
+        "explanation": "5 se lee ご (corta), no ごう (larga). Vocal larga incorrecta."
       },
       {
         "text": "いつじ",
         "correct": false,
-        "reason": "いつ es lectura nativa (いつつ); no se usa con 時."
+        "explanation": "いつ es lectura nativa (いつつ); no se usa con 時."
       },
       {
         "text": "ごっじ",
         "correct": false,
-        "reason": "El sokuon no aplica con ご delante de じ."
+        "explanation": "El sokuon no aplica con ご delante de じ."
       }
     ]
   },
@@ -148,28 +138,26 @@
     "id": "U3A-006",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 6時?",
-    "correct": "ろくじ",
-    "explanation": "6 (ろく) + 時 (じ) = ろくじ. Patrón regular.",
     "opts": [
       {
         "text": "ろくじ",
         "correct": true,
-        "reason": "Correcta. Lectura regular."
+        "explanation": "6 (ろく) + 時 (じ) = ろくじ. Patrón regular. Correcta. Lectura regular."
       },
       {
         "text": "ろっじ",
         "correct": false,
-        "reason": "El sokuon no aplica delante de じ con ろく."
+        "explanation": "El sokuon no aplica delante de じ con ろく."
       },
       {
         "text": "むっじ",
         "correct": false,
-        "reason": "む es lectura nativa de 6 (むっつ); no se usa con 時."
+        "explanation": "む es lectura nativa de 6 (むっつ); no se usa con 時."
       },
       {
         "text": "ろじ",
         "correct": false,
-        "reason": "Falta la sílaba く: la lectura completa es ろくじ."
+        "explanation": "Falta la sílaba く: la lectura completa es ろくじ."
       }
     ]
   },
@@ -177,28 +165,26 @@
     "id": "U3A-007",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 7時? (⚠️ irregular)",
-    "correct": "しちじ",
-    "explanation": "7時 es IRREGULAR: usa la lectura しち (no なな). Aunque なな se usa en otros contadores, en horas tradicionales se mantiene しち.",
     "opts": [
       {
         "text": "しちじ",
         "correct": true,
-        "reason": "Correcta. Lectura tradicional irregular."
+        "explanation": "7時 es IRREGULAR: usa la lectura しち (no なな). Aunque なな se usa en otros contadores, en horas tradicionales se mantiene しち. Correcta. Lectura tradicional irregular."
       },
       {
         "text": "ななじ",
         "correct": false,
-        "reason": "なな es la lectura más común de 7, pero en 時 se mantiene しち por convención."
+        "explanation": "なな es la lectura más común de 7, pero en 時 se mantiene しち por convención."
       },
       {
         "text": "なのじ",
         "correct": false,
-        "reason": "なの es parte de なのか (día 7 del mes), no se usa con 時."
+        "explanation": "なの es parte de なのか (día 7 del mes), no se usa con 時."
       },
       {
         "text": "しっじ",
         "correct": false,
-        "reason": "El sokuon no aplica con しち delante de じ."
+        "explanation": "El sokuon no aplica con しち delante de じ."
       }
     ]
   },
@@ -206,28 +192,26 @@
     "id": "U3A-008",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 8時?",
-    "correct": "はちじ",
-    "explanation": "8 (はち) + 時 (じ) = はちじ. Patrón regular.",
     "opts": [
       {
         "text": "はちじ",
         "correct": true,
-        "reason": "Correcta. Lectura regular."
+        "explanation": "8 (はち) + 時 (じ) = はちじ. Patrón regular. Correcta. Lectura regular."
       },
       {
         "text": "やじ",
         "correct": false,
-        "reason": "や es lectura nativa de 8 (やっつ); no se usa con 時."
+        "explanation": "や es lectura nativa de 8 (やっつ); no se usa con 時."
       },
       {
         "text": "はっじ",
         "correct": false,
-        "reason": "El sokuon no aplica con はち delante de じ."
+        "explanation": "El sokuon no aplica con はち delante de じ."
       },
       {
         "text": "はちとき",
         "correct": false,
-        "reason": "とき es kun'yomi; con números se usa la on'yomi じ."
+        "explanation": "とき es kun'yomi; con números se usa la on'yomi じ."
       }
     ]
   },
@@ -235,28 +219,26 @@
     "id": "U3A-009",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 9時? (⚠️ irregular)",
-    "correct": "くじ",
-    "explanation": "9時 es IRREGULAR: usa la lectura く (no きゅう). Forma parte del trío irregular junto a 4時 y 7時.",
     "opts": [
       {
         "text": "くじ",
         "correct": true,
-        "reason": "Correcta. Lectura tradicional fija."
+        "explanation": "9時 es IRREGULAR: usa la lectura く (no きゅう). Forma parte del trío irregular junto a 4時 y 7時. Correcta. Lectura tradicional fija."
       },
       {
         "text": "きゅうじ",
         "correct": false,
-        "reason": "きゅう es lectura común de 9 hoy, pero en 時 se mantiene la antigua く."
+        "explanation": "きゅう es lectura común de 9 hoy, pero en 時 se mantiene la antigua く."
       },
       {
         "text": "ここのじ",
         "correct": false,
-        "reason": "ここの es lectura nativa (ここのつ); no se usa con 時."
+        "explanation": "ここの es lectura nativa (ここのつ); no se usa con 時."
       },
       {
         "text": "きゅじ",
         "correct": false,
-        "reason": "Falta la vocal larga: きゅう (con う). Y en horas se usa く, no きゅう."
+        "explanation": "Falta la vocal larga: きゅう (con う). Y en horas se usa く, no きゅう."
       }
     ]
   },
@@ -264,28 +246,26 @@
     "id": "U3A-010",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 10時?",
-    "correct": "じゅうじ",
-    "explanation": "10 (じゅう) + 時 (じ) = じゅうじ. Sin sokuon ni alteración.",
     "opts": [
       {
         "text": "じゅうじ",
         "correct": true,
-        "reason": "Correcta. Lectura regular sin alteración."
+        "explanation": "10 (じゅう) + 時 (じ) = じゅうじ. Sin sokuon ni alteración. Correcta. Lectura regular sin alteración."
       },
       {
         "text": "とおじ",
         "correct": false,
-        "reason": "とお es lectura nativa (10日 = とおか); no se usa con 時."
+        "explanation": "とお es lectura nativa (10日 = とおか); no se usa con 時."
       },
       {
         "text": "じっじ",
         "correct": false,
-        "reason": "Lectura inexistente; el sokuon con i (じっ) sería para otros contadores."
+        "explanation": "Lectura inexistente; el sokuon con i (じっ) sería para otros contadores."
       },
       {
         "text": "じゅっじ",
         "correct": false,
-        "reason": "El sokuon no aplica delante de じ; la pronunciación es plana じゅうじ."
+        "explanation": "El sokuon no aplica delante de じ; la pronunciación es plana じゅうじ."
       }
     ]
   },
@@ -293,28 +273,26 @@
     "id": "U3A-011",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 11時?",
-    "correct": "じゅういちじ",
-    "explanation": "11 (じゅういち) + 時 (じ) = じゅういちじ. Composición: じゅう + いち + じ.",
     "opts": [
       {
         "text": "じゅういちじ",
         "correct": true,
-        "reason": "Correcta. Composición regular."
+        "explanation": "11 (じゅういち) + 時 (じ) = じゅういちじ. Composición: じゅう + いち + じ. Correcta. Composición regular."
       },
       {
         "text": "じゅうひとじ",
         "correct": false,
-        "reason": "ひと es lectura nativa; con 時 se usa いち."
+        "explanation": "ひと es lectura nativa; con 時 se usa いち."
       },
       {
         "text": "とおいちじ",
         "correct": false,
-        "reason": "とお es lectura nativa de 10 que no se usa con 時. Se usa じゅう."
+        "explanation": "とお es lectura nativa de 10 que no se usa con 時. Se usa じゅう."
       },
       {
         "text": "じゅよじ",
         "correct": false,
-        "reason": "Lectura inventada; mezcla mal sílabas."
+        "explanation": "Lectura inventada; mezcla mal sílabas."
       }
     ]
   },
@@ -322,28 +300,26 @@
     "id": "U3A-012",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 12時?",
-    "correct": "じゅうにじ",
-    "explanation": "12 (じゅうに) + 時 (じ) = じゅうにじ. Composición: じゅう + に + じ.",
     "opts": [
       {
         "text": "じゅうにじ",
         "correct": true,
-        "reason": "Correcta. Composición regular."
+        "explanation": "12 (じゅうに) + 時 (じ) = じゅうにじ. Composición: じゅう + に + じ. Correcta. Composición regular."
       },
       {
         "text": "じゅうふたじ",
         "correct": false,
-        "reason": "ふた es lectura nativa; con 時 se usa に."
+        "explanation": "ふた es lectura nativa; con 時 se usa に."
       },
       {
         "text": "とおにじ",
         "correct": false,
-        "reason": "とお no se usa con 時; se usa じゅう."
+        "explanation": "とお no se usa con 時; se usa じゅう."
       },
       {
         "text": "じゅうじに",
         "correct": false,
-        "reason": "Orden incorrecto: el contador 時 va al final, no antes del número."
+        "explanation": "Orden incorrecto: el contador 時 va al final, no antes del número."
       }
     ]
   },
@@ -351,28 +327,26 @@
     "id": "U3A-013",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 何時?",
-    "correct": "なんじ",
-    "explanation": "何 antes de じ se lee なん (regla de asimilación nasal): なん + じ = なんじ '¿qué hora?'.",
     "opts": [
       {
         "text": "なんじ",
         "correct": true,
-        "reason": "Correcta. なん antes de contadores con sonidos compatibles."
+        "explanation": "何 antes de じ se lee なん (regla de asimilación nasal): なん + じ = なんじ '¿qué hora?'. Correcta. なん antes de contadores con sonidos compatibles."
       },
       {
         "text": "なにじ",
         "correct": false,
-        "reason": "なに se usa antes de otros sonidos; antes de じ y contadores se usa なん."
+        "explanation": "なに se usa antes de otros sonidos; antes de じ y contadores se usa なん."
       },
       {
         "text": "どじ",
         "correct": false,
-        "reason": "ど no es lectura de 何."
+        "explanation": "ど no es lectura de 何."
       },
       {
         "text": "いつじ",
         "correct": false,
-        "reason": "いつ significa '¿cuándo?', no '¿qué hora?'. Y no se combina con じ."
+        "explanation": "いつ significa '¿cuándo?', no '¿qué hora?'. Y no se combina con じ."
       }
     ]
   },
@@ -380,28 +354,26 @@
     "id": "U3A-014",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 1分? (⚠️ irregular)",
-    "correct": "いっぷん",
-    "explanation": "1 (いち) + 分 (ふん) toma sokuon + handakuten: いち + ふん → いっぷん. Es irregular.",
     "opts": [
       {
         "text": "いっぷん",
         "correct": true,
-        "reason": "Correcta. Sokuon + handakuten obligatorios."
+        "explanation": "1 (いち) + 分 (ふん) toma sokuon + handakuten: いち + ふん → いっぷん. Es irregular. Correcta. Sokuon + handakuten obligatorios."
       },
       {
         "text": "いちふん",
         "correct": false,
-        "reason": "Sin asimilación; la regla fonética obliga いっぷん."
+        "explanation": "Sin asimilación; la regla fonética obliga いっぷん."
       },
       {
         "text": "いちぷん",
         "correct": false,
-        "reason": "Falta el sokuon: いっぷん (con っ)."
+        "explanation": "Falta el sokuon: いっぷん (con っ)."
       },
       {
         "text": "ひとふん",
         "correct": false,
-        "reason": "ひと es lectura nativa, no se usa con 分."
+        "explanation": "ひと es lectura nativa, no se usa con 分."
       }
     ]
   },
@@ -409,28 +381,26 @@
     "id": "U3A-015",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 2分?",
-    "correct": "にふん",
-    "explanation": "2 (に) + 分 (ふん) = にふん. Sin alteración (に no toma handakuten).",
     "opts": [
       {
         "text": "にふん",
         "correct": true,
-        "reason": "Correcta. Lectura regular."
+        "explanation": "2 (に) + 分 (ふん) = にふん. Sin alteración (に no toma handakuten). Correcta. Lectura regular."
       },
       {
         "text": "にぷん",
         "correct": false,
-        "reason": "El handakuten ぷ se aplica tras sokuon (1, 6, 8, 10), no tras に."
+        "explanation": "El handakuten ぷ se aplica tras sokuon (1, 6, 8, 10), no tras に."
       },
       {
         "text": "ふたふん",
         "correct": false,
-        "reason": "ふた es lectura nativa, no se usa con 分."
+        "explanation": "ふた es lectura nativa, no se usa con 分."
       },
       {
         "text": "にっぷん",
         "correct": false,
-        "reason": "El sokuon no aplica con に en 分."
+        "explanation": "El sokuon no aplica con に en 分."
       }
     ]
   },
@@ -438,28 +408,26 @@
     "id": "U3A-016",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 3分?",
-    "correct": "さんぷん",
-    "explanation": "3 (さん) + 分 toma handakuten: ふん → ぷん tras さん. Sin sokuon.",
     "opts": [
       {
         "text": "さんぷん",
         "correct": true,
-        "reason": "Correcta. Handakuten obligatorio tras さん."
+        "explanation": "3 (さん) + 分 toma handakuten: ふん → ぷん tras さん. Sin sokuon. Correcta. Handakuten obligatorio tras さん."
       },
       {
         "text": "さんふん",
         "correct": false,
-        "reason": "Sin handakuten; tras さん, ふん → ぷん."
+        "explanation": "Sin handakuten; tras さん, ふん → ぷん."
       },
       {
         "text": "みぷん",
         "correct": false,
-        "reason": "み es lectura nativa, no se usa con 分. Se usa さん."
+        "explanation": "み es lectura nativa, no se usa con 分. Se usa さん."
       },
       {
         "text": "さんみん",
         "correct": false,
-        "reason": "みん no es lectura de 分; podría confundir con 'minute' inglés mal transcrito."
+        "explanation": "みん no es lectura de 分; podría confundir con 'minute' inglés mal transcrito."
       }
     ]
   },
@@ -467,28 +435,26 @@
     "id": "U3A-017",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 4分?",
-    "correct": "よんぷん",
-    "explanation": "4 (よん) + 分 toma handakuten: ふん → ぷん tras よん. Misma regla que con さん.",
     "opts": [
       {
         "text": "よんぷん",
         "correct": true,
-        "reason": "Correcta. Handakuten tras よん."
+        "explanation": "4 (よん) + 分 toma handakuten: ふん → ぷん tras よん. Misma regla que con さん. Correcta. Handakuten tras よん."
       },
       {
         "text": "しふん",
         "correct": false,
-        "reason": "し se evita por sonar como 'muerte'; y sin handakuten."
+        "explanation": "し se evita por sonar como 'muerte'; y sin handakuten."
       },
       {
         "text": "よんふん",
         "correct": false,
-        "reason": "Falta el handakuten: tras よん, ふん → ぷん."
+        "explanation": "Falta el handakuten: tras よん, ふん → ぷん."
       },
       {
         "text": "よっぷん",
         "correct": false,
-        "reason": "El sokuon no aplica con よん delante de 分."
+        "explanation": "El sokuon no aplica con よん delante de 分."
       }
     ]
   },
@@ -496,28 +462,26 @@
     "id": "U3A-018",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 5分?",
-    "correct": "ごふん",
-    "explanation": "5 (ご) + 分 (ふん) = ごふん. Sin handakuten (ご no requiere alteración).",
     "opts": [
       {
         "text": "ごふん",
         "correct": true,
-        "reason": "Correcta. Lectura regular."
+        "explanation": "5 (ご) + 分 (ふん) = ごふん. Sin handakuten (ご no requiere alteración). Correcta. Lectura regular."
       },
       {
         "text": "ごぷん",
         "correct": false,
-        "reason": "El handakuten no aplica con ご en 分; queda ごふん."
+        "explanation": "El handakuten no aplica con ご en 分; queda ごふん."
       },
       {
         "text": "いつふん",
         "correct": false,
-        "reason": "いつ es lectura nativa, no se usa con 分."
+        "explanation": "いつ es lectura nativa, no se usa con 分."
       },
       {
         "text": "ごみん",
         "correct": false,
-        "reason": "みん no es lectura de 分."
+        "explanation": "みん no es lectura de 分."
       }
     ]
   },
@@ -525,28 +489,26 @@
     "id": "U3A-019",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 6分? (⚠️ irregular)",
-    "correct": "ろっぷん",
-    "explanation": "6 (ろく) + 分 toma sokuon + handakuten: ろく + ふん → ろっぷん.",
     "opts": [
       {
         "text": "ろっぷん",
         "correct": true,
-        "reason": "Correcta. Sokuon + handakuten."
+        "explanation": "6 (ろく) + 分 toma sokuon + handakuten: ろく + ふん → ろっぷん. Correcta. Sokuon + handakuten."
       },
       {
         "text": "ろくふん",
         "correct": false,
-        "reason": "Sin asimilación; se exige sokuon + handakuten."
+        "explanation": "Sin asimilación; se exige sokuon + handakuten."
       },
       {
         "text": "ろくぷん",
         "correct": false,
-        "reason": "Falta el sokuon: ろっぷん (con っ)."
+        "explanation": "Falta el sokuon: ろっぷん (con っ)."
       },
       {
         "text": "ろっふん",
         "correct": false,
-        "reason": "Falta el handakuten: tras sokuon, ふん → ぷん."
+        "explanation": "Falta el handakuten: tras sokuon, ふん → ぷん."
       }
     ]
   },
@@ -554,28 +516,26 @@
     "id": "U3A-020",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 7分?",
-    "correct": "ななふん",
-    "explanation": "7 (なな) + 分 (ふん) = ななふん. Acá se prefiere なな (no しち) y sin alteración.",
     "opts": [
       {
         "text": "ななふん",
         "correct": true,
-        "reason": "Correcta. Lectura preferida con なな."
+        "explanation": "7 (なな) + 分 (ふん) = ななふん. Acá se prefiere なな (no しち) y sin alteración. Correcta. Lectura preferida con なな."
       },
       {
         "text": "しちふん",
         "correct": false,
-        "reason": "Aunque しち existe en otros contadores (時), en 分 se prefiere なな."
+        "explanation": "Aunque しち existe en otros contadores (時), en 分 se prefiere なな."
       },
       {
         "text": "ななぷん",
         "correct": false,
-        "reason": "El handakuten no aplica con なな; queda ななふん."
+        "explanation": "El handakuten no aplica con なな; queda ななふん."
       },
       {
         "text": "しちぷん",
         "correct": false,
-        "reason": "El handakuten no aplica con しち; y se prefiere なな."
+        "explanation": "El handakuten no aplica con しち; y se prefiere なな."
       }
     ]
   },
@@ -583,28 +543,26 @@
     "id": "U3A-021",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 8分? (⚠️ irregular)",
-    "correct": "はっぷん",
-    "explanation": "8 (はち) + 分 toma sokuon + handakuten: はち + ふん → はっぷん.",
     "opts": [
       {
         "text": "はっぷん",
         "correct": true,
-        "reason": "Correcta. Sokuon + handakuten."
+        "explanation": "8 (はち) + 分 toma sokuon + handakuten: はち + ふん → はっぷん. Correcta. Sokuon + handakuten."
       },
       {
         "text": "はちふん",
         "correct": false,
-        "reason": "Sin asimilación; se exige sokuon + handakuten."
+        "explanation": "Sin asimilación; se exige sokuon + handakuten."
       },
       {
         "text": "はっふん",
         "correct": false,
-        "reason": "Falta el handakuten: tras sokuon, ふん → ぷん."
+        "explanation": "Falta el handakuten: tras sokuon, ふん → ぷん."
       },
       {
         "text": "やっぷん",
         "correct": false,
-        "reason": "や es lectura nativa, no se usa con 分."
+        "explanation": "や es lectura nativa, no se usa con 分."
       }
     ]
   },
@@ -612,28 +570,26 @@
     "id": "U3A-022",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 9分?",
-    "correct": "きゅうふん",
-    "explanation": "9 (きゅう) + 分 (ふん) = きゅうふん. Sin alteración tras きゅう.",
     "opts": [
       {
         "text": "きゅうふん",
         "correct": true,
-        "reason": "Correcta. Lectura regular sin alteración."
+        "explanation": "9 (きゅう) + 分 (ふん) = きゅうふん. Sin alteración tras きゅう. Correcta. Lectura regular sin alteración."
       },
       {
         "text": "くふん",
         "correct": false,
-        "reason": "く es lectura tradicional usada en 9時, no en 9分. Se usa きゅう."
+        "explanation": "く es lectura tradicional usada en 9時, no en 9分. Se usa きゅう."
       },
       {
         "text": "きゅうぷん",
         "correct": false,
-        "reason": "El handakuten no aplica con きゅう en 分."
+        "explanation": "El handakuten no aplica con きゅう en 分."
       },
       {
         "text": "くぷん",
         "correct": false,
-        "reason": "Doble error: lectura incorrecta de 9 y handakuten incorrecto."
+        "explanation": "Doble error: lectura incorrecta de 9 y handakuten incorrecto."
       }
     ]
   },
@@ -641,28 +597,26 @@
     "id": "U3A-023",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 10分? (⚠️ irregular)",
-    "correct": "じゅっぷん",
-    "explanation": "10 (じゅう) + 分 toma sokuon + handakuten: じゅう + ふん → じゅっぷん. También se acepta じっぷん (más formal).",
     "opts": [
       {
         "text": "じゅっぷん",
         "correct": true,
-        "reason": "Correcta. Pronunciación moderna estándar."
+        "explanation": "10 (じゅう) + 分 toma sokuon + handakuten: じゅう + ふん → じゅっぷん. También se acepta じっぷん (más formal). Correcta. Pronunciación moderna estándar."
       },
       {
         "text": "じゅうふん",
         "correct": false,
-        "reason": "Sin asimilación; la regla fonética prefiere sokuon + handakuten."
+        "explanation": "Sin asimilación; la regla fonética prefiere sokuon + handakuten."
       },
       {
         "text": "とおぷん",
         "correct": false,
-        "reason": "とお no se usa con 分; se usa じゅう."
+        "explanation": "とお no se usa con 分; se usa じゅう."
       },
       {
         "text": "じっぷん",
         "correct": false,
-        "reason": "Es válida pero más formal/antigua. La forma moderna estándar es じゅっぷん."
+        "explanation": "Es válida pero más formal/antigua. La forma moderna estándar es じゅっぷん."
       }
     ]
   },
@@ -670,28 +624,26 @@
     "id": "U3A-024",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 15分?",
-    "correct": "じゅうごふん",
-    "explanation": "15 (じゅうご) + 分 (ふん) = じゅうごふん. Sin handakuten tras ご.",
     "opts": [
       {
         "text": "じゅうごふん",
         "correct": true,
-        "reason": "Correcta. Composición regular."
+        "explanation": "15 (じゅうご) + 分 (ふん) = じゅうごふん. Sin handakuten tras ご. Correcta. Composición regular."
       },
       {
         "text": "じゅごふん",
         "correct": false,
-        "reason": "Falta la vocal larga: じゅう (con う), no じゅ."
+        "explanation": "Falta la vocal larga: じゅう (con う), no じゅ."
       },
       {
         "text": "じゅうごぷん",
         "correct": false,
-        "reason": "El handakuten no aplica con ご; queda ごふん."
+        "explanation": "El handakuten no aplica con ご; queda ごふん."
       },
       {
         "text": "じゅうごみん",
         "correct": false,
-        "reason": "みん no es lectura de 分."
+        "explanation": "みん no es lectura de 分."
       }
     ]
   },
@@ -699,28 +651,26 @@
     "id": "U3A-025",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 30分? (también = 半)",
-    "correct": "さんじゅっぷん",
-    "explanation": "30 (さんじゅう) + 分 toma sokuon + handakuten al final: さんじゅう + ふん → さんじゅっぷん. Equivale a 半 ('media hora').",
     "opts": [
       {
         "text": "さんじゅっぷん",
         "correct": true,
-        "reason": "Correcta. Sokuon + handakuten estándar."
+        "explanation": "30 (さんじゅう) + 分 toma sokuon + handakuten al final: さんじゅう + ふん → さんじゅっぷん. Equivale a 半 ('media hora'). Correcta. Sokuon + handakuten estándar."
       },
       {
         "text": "さんじゅうふん",
         "correct": false,
-        "reason": "Sin asimilación; la regla fonética prefiere sokuon + handakuten."
+        "explanation": "Sin asimilación; la regla fonética prefiere sokuon + handakuten."
       },
       {
         "text": "さんじゅぷん",
         "correct": false,
-        "reason": "Falta la vocal larga: さんじゅう (con う)."
+        "explanation": "Falta la vocal larga: さんじゅう (con う)."
       },
       {
         "text": "さんっぷん",
         "correct": false,
-        "reason": "Sokuon mal posicionado; se aplica al じゅう, no a さん."
+        "explanation": "Sokuon mal posicionado; se aplica al じゅう, no a さん."
       }
     ]
   },
@@ -728,28 +678,26 @@
     "id": "U3A-026",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 何分?",
-    "correct": "なんぷん",
-    "explanation": "何 antes de 分 toma なん + handakuten: なん + ふん → なんぷん '¿cuántos minutos?'.",
     "opts": [
       {
         "text": "なんぷん",
         "correct": true,
-        "reason": "Correcta. なん + handakuten."
+        "explanation": "何 antes de 分 toma なん + handakuten: なん + ふん → なんぷん '¿cuántos minutos?'. Correcta. なん + handakuten."
       },
       {
         "text": "なんふん",
         "correct": false,
-        "reason": "Falta el handakuten: tras なん, ふん → ぷん."
+        "explanation": "Falta el handakuten: tras なん, ふん → ぷん."
       },
       {
         "text": "なにふん",
         "correct": false,
-        "reason": "なに no se usa antes de contadores; se usa なん."
+        "explanation": "なに no se usa antes de contadores; se usa なん."
       },
       {
         "text": "なんみん",
         "correct": false,
-        "reason": "みん no es lectura de 分."
+        "explanation": "みん no es lectura de 分."
       }
     ]
   },
@@ -757,28 +705,26 @@
     "id": "U3A-027",
     "cat": "Números y Tiempo",
     "q": "¿Qué día es 月曜日?",
-    "correct": "Lunes",
-    "explanation": "月 ('luna') + 曜日 ('día de la semana') = lunes. La asociación con planetas/elementos sigue la tradición clásica (luna=lunes).",
     "opts": [
       {
         "text": "Lunes",
         "correct": true,
-        "reason": "Correcta. 月 = luna = lunes."
+        "explanation": "月 ('luna') + 曜日 ('día de la semana') = lunes. La asociación con planetas/elementos sigue la tradición clásica (luna=lunes). Correcta. 月 = luna = lunes."
       },
       {
         "text": "Martes",
         "correct": false,
-        "reason": "Martes es 火曜日 (火 = fuego/Marte)."
+        "explanation": "Martes es 火曜日 (火 = fuego/Marte)."
       },
       {
         "text": "Miércoles",
         "correct": false,
-        "reason": "Miércoles es 水曜日 (水 = agua/Mercurio)."
+        "explanation": "Miércoles es 水曜日 (水 = agua/Mercurio)."
       },
       {
         "text": "Domingo",
         "correct": false,
-        "reason": "Domingo es 日曜日 (日 = sol)."
+        "explanation": "Domingo es 日曜日 (日 = sol)."
       }
     ]
   },
@@ -786,28 +732,26 @@
     "id": "U3A-028",
     "cat": "Números y Tiempo",
     "q": "¿Qué día es 火曜日?",
-    "correct": "Martes",
-    "explanation": "火 ('fuego'/'Marte') + 曜日 = martes. Marte (planeta del fuego) corresponde al martes.",
     "opts": [
       {
         "text": "Martes",
         "correct": true,
-        "reason": "Correcta. 火 = Marte = martes."
+        "explanation": "火 ('fuego'/'Marte') + 曜日 = martes. Marte (planeta del fuego) corresponde al martes. Correcta. 火 = Marte = martes."
       },
       {
         "text": "Miércoles",
         "correct": false,
-        "reason": "Miércoles es 水曜日 (水 = agua)."
+        "explanation": "Miércoles es 水曜日 (水 = agua)."
       },
       {
         "text": "Lunes",
         "correct": false,
-        "reason": "Lunes es 月曜日 (月 = luna)."
+        "explanation": "Lunes es 月曜日 (月 = luna)."
       },
       {
         "text": "Viernes",
         "correct": false,
-        "reason": "Viernes es 金曜日 (金 = oro/Venus)."
+        "explanation": "Viernes es 金曜日 (金 = oro/Venus)."
       }
     ]
   },
@@ -815,28 +759,26 @@
     "id": "U3A-029",
     "cat": "Números y Tiempo",
     "q": "¿Qué día es 水曜日?",
-    "correct": "Miércoles",
-    "explanation": "水 ('agua'/'Mercurio') + 曜日 = miércoles. Mercurio corresponde al miércoles.",
     "opts": [
       {
         "text": "Miércoles",
         "correct": true,
-        "reason": "Correcta. 水 = Mercurio = miércoles."
+        "explanation": "水 ('agua'/'Mercurio') + 曜日 = miércoles. Mercurio corresponde al miércoles. Correcta. 水 = Mercurio = miércoles."
       },
       {
         "text": "Jueves",
         "correct": false,
-        "reason": "Jueves es 木曜日 (木 = madera/Júpiter)."
+        "explanation": "Jueves es 木曜日 (木 = madera/Júpiter)."
       },
       {
         "text": "Martes",
         "correct": false,
-        "reason": "Martes es 火曜日 (火 = fuego)."
+        "explanation": "Martes es 火曜日 (火 = fuego)."
       },
       {
         "text": "Sábado",
         "correct": false,
-        "reason": "Sábado es 土曜日 (土 = tierra/Saturno)."
+        "explanation": "Sábado es 土曜日 (土 = tierra/Saturno)."
       }
     ]
   },
@@ -844,28 +786,26 @@
     "id": "U3A-030",
     "cat": "Números y Tiempo",
     "q": "¿Qué día es 木曜日?",
-    "correct": "Jueves",
-    "explanation": "木 ('madera'/'Júpiter') + 曜日 = jueves. Júpiter corresponde al jueves.",
     "opts": [
       {
         "text": "Jueves",
         "correct": true,
-        "reason": "Correcta. 木 = Júpiter = jueves."
+        "explanation": "木 ('madera'/'Júpiter') + 曜日 = jueves. Júpiter corresponde al jueves. Correcta. 木 = Júpiter = jueves."
       },
       {
         "text": "Miércoles",
         "correct": false,
-        "reason": "Miércoles es 水曜日 (水 = agua)."
+        "explanation": "Miércoles es 水曜日 (水 = agua)."
       },
       {
         "text": "Viernes",
         "correct": false,
-        "reason": "Viernes es 金曜日 (金 = oro)."
+        "explanation": "Viernes es 金曜日 (金 = oro)."
       },
       {
         "text": "Sábado",
         "correct": false,
-        "reason": "Sábado es 土曜日 (土 = tierra)."
+        "explanation": "Sábado es 土曜日 (土 = tierra)."
       }
     ]
   },
@@ -873,28 +813,26 @@
     "id": "U3A-031",
     "cat": "Números y Tiempo",
     "q": "¿Qué día es 金曜日?",
-    "correct": "Viernes",
-    "explanation": "金 ('oro'/'Venus') + 曜日 = viernes. Venus corresponde al viernes.",
     "opts": [
       {
         "text": "Viernes",
         "correct": true,
-        "reason": "Correcta. 金 = Venus = viernes."
+        "explanation": "金 ('oro'/'Venus') + 曜日 = viernes. Venus corresponde al viernes. Correcta. 金 = Venus = viernes."
       },
       {
         "text": "Sábado",
         "correct": false,
-        "reason": "Sábado es 土曜日 (土 = tierra)."
+        "explanation": "Sábado es 土曜日 (土 = tierra)."
       },
       {
         "text": "Jueves",
         "correct": false,
-        "reason": "Jueves es 木曜日 (木 = madera)."
+        "explanation": "Jueves es 木曜日 (木 = madera)."
       },
       {
         "text": "Lunes",
         "correct": false,
-        "reason": "Lunes es 月曜日 (月 = luna)."
+        "explanation": "Lunes es 月曜日 (月 = luna)."
       }
     ]
   },
@@ -902,28 +840,26 @@
     "id": "U3A-032",
     "cat": "Números y Tiempo",
     "q": "¿Qué día es 土曜日?",
-    "correct": "Sábado",
-    "explanation": "土 ('tierra'/'Saturno') + 曜日 = sábado. Saturno corresponde al sábado.",
     "opts": [
       {
         "text": "Sábado",
         "correct": true,
-        "reason": "Correcta. 土 = Saturno = sábado."
+        "explanation": "土 ('tierra'/'Saturno') + 曜日 = sábado. Saturno corresponde al sábado. Correcta. 土 = Saturno = sábado."
       },
       {
         "text": "Domingo",
         "correct": false,
-        "reason": "Domingo es 日曜日 (日 = sol)."
+        "explanation": "Domingo es 日曜日 (日 = sol)."
       },
       {
         "text": "Viernes",
         "correct": false,
-        "reason": "Viernes es 金曜日 (金 = oro)."
+        "explanation": "Viernes es 金曜日 (金 = oro)."
       },
       {
         "text": "Martes",
         "correct": false,
-        "reason": "Martes es 火曜日 (火 = fuego)."
+        "explanation": "Martes es 火曜日 (火 = fuego)."
       }
     ]
   },
@@ -931,28 +867,26 @@
     "id": "U3A-033",
     "cat": "Números y Tiempo",
     "q": "¿Qué día es 日曜日?",
-    "correct": "Domingo",
-    "explanation": "日 ('sol') + 曜日 = domingo. El sol corresponde al domingo.",
     "opts": [
       {
         "text": "Domingo",
         "correct": true,
-        "reason": "Correcta. 日 = sol = domingo."
+        "explanation": "日 ('sol') + 曜日 = domingo. El sol corresponde al domingo. Correcta. 日 = sol = domingo."
       },
       {
         "text": "Sábado",
         "correct": false,
-        "reason": "Sábado es 土曜日."
+        "explanation": "Sábado es 土曜日."
       },
       {
         "text": "Lunes",
         "correct": false,
-        "reason": "Lunes es 月曜日."
+        "explanation": "Lunes es 月曜日."
       },
       {
         "text": "Jueves",
         "correct": false,
-        "reason": "Jueves es 木曜日."
+        "explanation": "Jueves es 木曜日."
       }
     ]
   },
@@ -960,28 +894,26 @@
     "id": "U3A-034",
     "cat": "Números y Tiempo",
     "q": "¿Qué significa 何曜日?",
-    "correct": "¿Qué día de la semana?",
-    "explanation": "何 (qué) + 曜日 (día de la semana) = '¿qué día de la semana?'. Pregunta específicamente el día de la semana, no la fecha.",
     "opts": [
       {
         "text": "¿Qué día de la semana?",
         "correct": true,
-        "reason": "Correcta. Específico de día de semana."
+        "explanation": "何 (qué) + 曜日 (día de la semana) = '¿qué día de la semana?'. Pregunta específicamente el día de la semana, no la fecha. Correcta. Específico de día de semana."
       },
       {
         "text": "¿Qué día del mes?",
         "correct": false,
-        "reason": "Eso sería 何日 (なんにち), distinta pregunta."
+        "explanation": "Eso sería 何日 (なんにち), distinta pregunta."
       },
       {
         "text": "¿A qué hora?",
         "correct": false,
-        "reason": "Eso sería 何時 (なんじ), pregunta de hora."
+        "explanation": "Eso sería 何時 (なんじ), pregunta de hora."
       },
       {
         "text": "¿En qué fecha?",
         "correct": false,
-        "reason": "Eso sería いつ o 何月何日 para fecha completa."
+        "explanation": "Eso sería いつ o 何月何日 para fecha completa."
       }
     ]
   },
@@ -989,28 +921,26 @@
     "id": "U3A-035",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 月曜日?",
-    "correct": "げつようび",
-    "explanation": "月 (げつ) + 曜 (よう) + 日 (び, rendaku de ひ) = げつようび. Notá la lectura げつ específica para días de la semana.",
     "opts": [
       {
         "text": "げつようび",
         "correct": true,
-        "reason": "Correcta. Lectura estándar de días."
+        "explanation": "月 (げつ) + 曜 (よう) + 日 (び, rendaku de ひ) = げつようび. Notá la lectura げつ específica para días de la semana. Correcta. Lectura estándar de días."
       },
       {
         "text": "がつようび",
         "correct": false,
-        "reason": "がつ es lectura para meses (1月 いちがつ), no para días de la semana."
+        "explanation": "がつ es lectura para meses (1月 いちがつ), no para días de la semana."
       },
       {
         "text": "つきようび",
         "correct": false,
-        "reason": "つき es kun'yomi de 月 sola; en 月曜日 se usa げつ."
+        "explanation": "つき es kun'yomi de 月 sola; en 月曜日 se usa げつ."
       },
       {
         "text": "げっようび",
         "correct": false,
-        "reason": "El sokuon no aplica con げつ delante de よう."
+        "explanation": "El sokuon no aplica con げつ delante de よう."
       }
     ]
   },
@@ -1018,28 +948,26 @@
     "id": "U3A-036",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 火曜日?",
-    "correct": "かようび",
-    "explanation": "火 (か) + 曜 (よう) + 日 (び) = かようび.",
     "opts": [
       {
         "text": "かようび",
         "correct": true,
-        "reason": "Correcta. Lectura on'yomi estándar."
+        "explanation": "火 (か) + 曜 (よう) + 日 (び) = かようび. Correcta. Lectura on'yomi estándar."
       },
       {
         "text": "ひようび",
         "correct": false,
-        "reason": "ひ es kun'yomi de 火 sola ('fuego'); en 火曜日 se usa か."
+        "explanation": "ひ es kun'yomi de 火 sola ('fuego'); en 火曜日 se usa か."
       },
       {
         "text": "ほようび",
         "correct": false,
-        "reason": "ほ no es lectura de 火."
+        "explanation": "ほ no es lectura de 火."
       },
       {
         "text": "かっようび",
         "correct": false,
-        "reason": "El sokuon no aplica con か delante de よう."
+        "explanation": "El sokuon no aplica con か delante de よう."
       }
     ]
   },
@@ -1047,28 +975,26 @@
     "id": "U3A-037",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 水曜日?",
-    "correct": "すいようび",
-    "explanation": "水 (すい) + 曜 (よう) + 日 (び) = すいようび.",
     "opts": [
       {
         "text": "すいようび",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "水 (すい) + 曜 (よう) + 日 (び) = すいようび. Correcta. On'yomi estándar."
       },
       {
         "text": "みずようび",
         "correct": false,
-        "reason": "みず es kun'yomi de 水 sola ('agua'); en 水曜日 se usa すい."
+        "explanation": "みず es kun'yomi de 水 sola ('agua'); en 水曜日 se usa すい."
       },
       {
         "text": "すうようび",
         "correct": false,
-        "reason": "すう no es lectura de 水; es lectura de 数 (número)."
+        "explanation": "すう no es lectura de 水; es lectura de 数 (número)."
       },
       {
         "text": "しようび",
         "correct": false,
-        "reason": "し no es lectura de 水."
+        "explanation": "し no es lectura de 水."
       }
     ]
   },
@@ -1076,28 +1002,26 @@
     "id": "U3A-038",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 木曜日?",
-    "correct": "もくようび",
-    "explanation": "木 (もく) + 曜 (よう) + 日 (び) = もくようび.",
     "opts": [
       {
         "text": "もくようび",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "木 (もく) + 曜 (よう) + 日 (び) = もくようび. Correcta. On'yomi estándar."
       },
       {
         "text": "きようび",
         "correct": false,
-        "reason": "き es kun'yomi de 木 sola ('árbol'); en 木曜日 se usa もく."
+        "explanation": "き es kun'yomi de 木 sola ('árbol'); en 木曜日 se usa もく."
       },
       {
         "text": "ぼくようび",
         "correct": false,
-        "reason": "ぼく es lectura on'yomi alternativa pero no se usa en 木曜日."
+        "explanation": "ぼく es lectura on'yomi alternativa pero no se usa en 木曜日."
       },
       {
         "text": "もくよう",
         "correct": false,
-        "reason": "Falta el び final: la lectura completa es もくようび."
+        "explanation": "Falta el び final: la lectura completa es もくようび."
       }
     ]
   },
@@ -1105,28 +1029,26 @@
     "id": "U3A-039",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 金曜日?",
-    "correct": "きんようび",
-    "explanation": "金 (きん) + 曜 (よう) + 日 (び) = きんようび.",
     "opts": [
       {
         "text": "きんようび",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "金 (きん) + 曜 (よう) + 日 (び) = きんようび. Correcta. On'yomi estándar."
       },
       {
         "text": "かねようび",
         "correct": false,
-        "reason": "かね es kun'yomi de 金 sola ('dinero/oro'); en 金曜日 se usa きん."
+        "explanation": "かね es kun'yomi de 金 sola ('dinero/oro'); en 金曜日 se usa きん."
       },
       {
         "text": "ぎんようび",
         "correct": false,
-        "reason": "ぎん es lectura de 銀 ('plata'), kanji distinto."
+        "explanation": "ぎん es lectura de 銀 ('plata'), kanji distinto."
       },
       {
         "text": "こんようび",
         "correct": false,
-        "reason": "こん es lectura de 今 ('ahora'), kanji distinto."
+        "explanation": "こん es lectura de 今 ('ahora'), kanji distinto."
       }
     ]
   },
@@ -1134,28 +1056,26 @@
     "id": "U3A-040",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 土曜日?",
-    "correct": "どようび",
-    "explanation": "土 (ど) + 曜 (よう) + 日 (び) = どようび.",
     "opts": [
       {
         "text": "どようび",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "土 (ど) + 曜 (よう) + 日 (び) = どようび. Correcta. On'yomi estándar."
       },
       {
         "text": "つちようび",
         "correct": false,
-        "reason": "つち es kun'yomi de 土 sola ('tierra'); en 土曜日 se usa ど."
+        "explanation": "つち es kun'yomi de 土 sola ('tierra'); en 土曜日 se usa ど."
       },
       {
         "text": "とようび",
         "correct": false,
-        "reason": "土 toma dakuten ど, no と (sin dakuten)."
+        "explanation": "土 toma dakuten ど, no と (sin dakuten)."
       },
       {
         "text": "どうようび",
         "correct": false,
-        "reason": "土 se lee ど (corta), no どう (larga)."
+        "explanation": "土 se lee ど (corta), no どう (larga)."
       }
     ]
   },
@@ -1163,28 +1083,26 @@
     "id": "U3A-041",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 日曜日?",
-    "correct": "にちようび",
-    "explanation": "日 (にち) + 曜 (よう) + 日 (び) = にちようび. Notá que el primer 日 se lee にち (on'yomi) y el segundo び (con rendaku).",
     "opts": [
       {
         "text": "にちようび",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "日 (にち) + 曜 (よう) + 日 (び) = にちようび. Notá que el primer 日 se lee にち (on'yomi) y el segundo び (con rendaku). Correcta. On'yomi estándar."
       },
       {
         "text": "ひようび",
         "correct": false,
-        "reason": "ひ es kun'yomi de 日 sola; en 日曜日 se usa にち al inicio."
+        "explanation": "ひ es kun'yomi de 日 sola; en 日曜日 se usa にち al inicio."
       },
       {
         "text": "にっようび",
         "correct": false,
-        "reason": "El sokuon no aplica con にち delante de よう."
+        "explanation": "El sokuon no aplica con にち delante de よう."
       },
       {
         "text": "じつようび",
         "correct": false,
-        "reason": "じつ es lectura on'yomi alternativa de 日 (祝日 'día festivo'), pero no en 日曜日."
+        "explanation": "じつ es lectura on'yomi alternativa de 日 (祝日 'día festivo'), pero no en 日曜日."
       }
     ]
   },
@@ -1192,28 +1110,26 @@
     "id": "U3A-042",
     "cat": "Números y Tiempo",
     "q": "¿Cómo se lee 何曜日?",
-    "correct": "なんようび",
-    "explanation": "何 antes de よう se lee なん: なん + ようび = なんようび '¿qué día de la semana?'.",
     "opts": [
       {
         "text": "なんようび",
         "correct": true,
-        "reason": "Correcta. なん + lectura estándar."
+        "explanation": "何 antes de よう se lee なん: なん + ようび = なんようび '¿qué día de la semana?'. Correcta. なん + lectura estándar."
       },
       {
         "text": "なにようび",
         "correct": false,
-        "reason": "なに no se usa antes de contadores; se usa なん."
+        "explanation": "なに no se usa antes de contadores; se usa なん."
       },
       {
         "text": "どようび",
         "correct": false,
-        "reason": "どようび es 'sábado', no '¿qué día?'."
+        "explanation": "どようび es 'sábado', no '¿qué día?'."
       },
       {
         "text": "いつようび",
         "correct": false,
-        "reason": "いつ es '¿cuándo?', no se combina con 曜日 así."
+        "explanation": "いつ es '¿cuándo?', no se combina con 曜日 así."
       }
     ]
   },
@@ -1221,28 +1137,26 @@
     "id": "U3A-043",
     "cat": "Números y Tiempo",
     "q": "¿Cuál es el kanji de 'lunes'?",
-    "correct": "月曜日",
-    "explanation": "月曜日 (げつようび) usa 月 ('luna'). Recordá la asociación luna=lunes.",
     "opts": [
       {
         "text": "月曜日",
         "correct": true,
-        "reason": "Correcta. 月 = luna = lunes."
+        "explanation": "月曜日 (げつようび) usa 月 ('luna'). Recordá la asociación luna=lunes. Correcta. 月 = luna = lunes."
       },
       {
         "text": "火曜日",
         "correct": false,
-        "reason": "火曜日 es 'martes' (Marte/fuego)."
+        "explanation": "火曜日 es 'martes' (Marte/fuego)."
       },
       {
         "text": "水曜日",
         "correct": false,
-        "reason": "水曜日 es 'miércoles' (Mercurio/agua)."
+        "explanation": "水曜日 es 'miércoles' (Mercurio/agua)."
       },
       {
         "text": "金曜日",
         "correct": false,
-        "reason": "金曜日 es 'viernes' (Venus/oro)."
+        "explanation": "金曜日 es 'viernes' (Venus/oro)."
       }
     ]
   },
@@ -1250,28 +1164,26 @@
     "id": "U3A-044",
     "cat": "Números y Tiempo",
     "q": "¿Cuál es el kanji de 'martes'?",
-    "correct": "火曜日",
-    "explanation": "火曜日 (かようび) usa 火 ('fuego/Marte'). Marte corresponde al martes.",
     "opts": [
       {
         "text": "火曜日",
         "correct": true,
-        "reason": "Correcta. 火 = Marte = martes."
+        "explanation": "火曜日 (かようび) usa 火 ('fuego/Marte'). Marte corresponde al martes. Correcta. 火 = Marte = martes."
       },
       {
         "text": "月曜日",
         "correct": false,
-        "reason": "月曜日 es 'lunes' (luna)."
+        "explanation": "月曜日 es 'lunes' (luna)."
       },
       {
         "text": "水曜日",
         "correct": false,
-        "reason": "水曜日 es 'miércoles' (agua)."
+        "explanation": "水曜日 es 'miércoles' (agua)."
       },
       {
         "text": "木曜日",
         "correct": false,
-        "reason": "木曜日 es 'jueves' (madera)."
+        "explanation": "木曜日 es 'jueves' (madera)."
       }
     ]
   },
@@ -1279,28 +1191,26 @@
     "id": "U3A-045",
     "cat": "Números y Tiempo",
     "q": "¿Cuál es el kanji de 'miércoles'?",
-    "correct": "水曜日",
-    "explanation": "水曜日 (すいようび) usa 水 ('agua/Mercurio').",
     "opts": [
       {
         "text": "水曜日",
         "correct": true,
-        "reason": "Correcta. 水 = Mercurio = miércoles."
+        "explanation": "水曜日 (すいようび) usa 水 ('agua/Mercurio'). Correcta. 水 = Mercurio = miércoles."
       },
       {
         "text": "木曜日",
         "correct": false,
-        "reason": "木曜日 es 'jueves' (madera)."
+        "explanation": "木曜日 es 'jueves' (madera)."
       },
       {
         "text": "火曜日",
         "correct": false,
-        "reason": "火曜日 es 'martes' (fuego)."
+        "explanation": "火曜日 es 'martes' (fuego)."
       },
       {
         "text": "土曜日",
         "correct": false,
-        "reason": "土曜日 es 'sábado' (tierra)."
+        "explanation": "土曜日 es 'sábado' (tierra)."
       }
     ]
   },
@@ -1308,28 +1218,26 @@
     "id": "U3A-046",
     "cat": "Números y Tiempo",
     "q": "¿Cuál es el kanji de 'jueves'?",
-    "correct": "木曜日",
-    "explanation": "木曜日 (もくようび) usa 木 ('madera/Júpiter').",
     "opts": [
       {
         "text": "木曜日",
         "correct": true,
-        "reason": "Correcta. 木 = Júpiter = jueves."
+        "explanation": "木曜日 (もくようび) usa 木 ('madera/Júpiter'). Correcta. 木 = Júpiter = jueves."
       },
       {
         "text": "水曜日",
         "correct": false,
-        "reason": "水曜日 es 'miércoles' (agua)."
+        "explanation": "水曜日 es 'miércoles' (agua)."
       },
       {
         "text": "金曜日",
         "correct": false,
-        "reason": "金曜日 es 'viernes' (oro)."
+        "explanation": "金曜日 es 'viernes' (oro)."
       },
       {
         "text": "土曜日",
         "correct": false,
-        "reason": "土曜日 es 'sábado' (tierra)."
+        "explanation": "土曜日 es 'sábado' (tierra)."
       }
     ]
   },
@@ -1337,28 +1245,26 @@
     "id": "U3A-047",
     "cat": "Números y Tiempo",
     "q": "¿Cuál es el kanji de 'viernes'?",
-    "correct": "金曜日",
-    "explanation": "金曜日 (きんようび) usa 金 ('oro/Venus').",
     "opts": [
       {
         "text": "金曜日",
         "correct": true,
-        "reason": "Correcta. 金 = Venus = viernes."
+        "explanation": "金曜日 (きんようび) usa 金 ('oro/Venus'). Correcta. 金 = Venus = viernes."
       },
       {
         "text": "木曜日",
         "correct": false,
-        "reason": "木曜日 es 'jueves' (madera)."
+        "explanation": "木曜日 es 'jueves' (madera)."
       },
       {
         "text": "土曜日",
         "correct": false,
-        "reason": "土曜日 es 'sábado' (tierra)."
+        "explanation": "土曜日 es 'sábado' (tierra)."
       },
       {
         "text": "月曜日",
         "correct": false,
-        "reason": "月曜日 es 'lunes' (luna)."
+        "explanation": "月曜日 es 'lunes' (luna)."
       }
     ]
   },
@@ -1366,28 +1272,26 @@
     "id": "U3A-048",
     "cat": "Números y Tiempo",
     "q": "¿Cuál es el kanji de 'sábado'?",
-    "correct": "土曜日",
-    "explanation": "土曜日 (どようび) usa 土 ('tierra/Saturno').",
     "opts": [
       {
         "text": "土曜日",
         "correct": true,
-        "reason": "Correcta. 土 = Saturno = sábado."
+        "explanation": "土曜日 (どようび) usa 土 ('tierra/Saturno'). Correcta. 土 = Saturno = sábado."
       },
       {
         "text": "日曜日",
         "correct": false,
-        "reason": "日曜日 es 'domingo' (sol)."
+        "explanation": "日曜日 es 'domingo' (sol)."
       },
       {
         "text": "金曜日",
         "correct": false,
-        "reason": "金曜日 es 'viernes' (oro)."
+        "explanation": "金曜日 es 'viernes' (oro)."
       },
       {
         "text": "火曜日",
         "correct": false,
-        "reason": "火曜日 es 'martes' (fuego)."
+        "explanation": "火曜日 es 'martes' (fuego)."
       }
     ]
   },
@@ -1395,28 +1299,26 @@
     "id": "U3A-049",
     "cat": "Números y Tiempo",
     "q": "¿Cuál es el kanji de 'domingo'?",
-    "correct": "日曜日",
-    "explanation": "日曜日 (にちようび) usa 日 ('sol').",
     "opts": [
       {
         "text": "日曜日",
         "correct": true,
-        "reason": "Correcta. 日 = sol = domingo."
+        "explanation": "日曜日 (にちようび) usa 日 ('sol'). Correcta. 日 = sol = domingo."
       },
       {
         "text": "土曜日",
         "correct": false,
-        "reason": "土曜日 es 'sábado' (tierra)."
+        "explanation": "土曜日 es 'sábado' (tierra)."
       },
       {
         "text": "月曜日",
         "correct": false,
-        "reason": "月曜日 es 'lunes' (luna)."
+        "explanation": "月曜日 es 'lunes' (luna)."
       },
       {
         "text": "木曜日",
         "correct": false,
-        "reason": "木曜日 es 'jueves' (madera)."
+        "explanation": "木曜日 es 'jueves' (madera)."
       }
     ]
   },
@@ -1424,28 +1326,26 @@
     "id": "U3A-050",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 銀行?",
-    "correct": "Banco",
-    "explanation": "銀 ('plata') + 行 ('institución/línea') = 銀行 'banco' (institución financiera).",
     "opts": [
       {
         "text": "Banco",
         "correct": true,
-        "reason": "Correcta. Significado central."
+        "explanation": "銀 ('plata') + 行 ('institución/línea') = 銀行 'banco' (institución financiera). Correcta. Significado central."
       },
       {
         "text": "Correo",
         "correct": false,
-        "reason": "'Correo' es 郵便局 (ゆうびんきょく)."
+        "explanation": "'Correo' es 郵便局 (ゆうびんきょく)."
       },
       {
         "text": "Hospital",
         "correct": false,
-        "reason": "'Hospital' es 病院 (びょういん)."
+        "explanation": "'Hospital' es 病院 (びょういん)."
       },
       {
         "text": "Biblioteca",
         "correct": false,
-        "reason": "'Biblioteca' es 図書館 (としょかん)."
+        "explanation": "'Biblioteca' es 図書館 (としょかん)."
       }
     ]
   },
@@ -1453,28 +1353,26 @@
     "id": "U3A-051",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 体育館?",
-    "correct": "Gimnasio / polideportivo",
-    "explanation": "体 ('cuerpo') + 育 ('educar') + 館 ('edificio') = 'edificio de educación física' = gimnasio escolar/polideportivo.",
     "opts": [
       {
         "text": "Gimnasio / polideportivo",
         "correct": true,
-        "reason": "Correcta. Edificio para deportes/educación física."
+        "explanation": "体 ('cuerpo') + 育 ('educar') + 館 ('edificio') = 'edificio de educación física' = gimnasio escolar/polideportivo. Correcta. Edificio para deportes/educación física."
       },
       {
         "text": "Escuela",
         "correct": false,
-        "reason": "'Escuela' es 学校 (がっこう)."
+        "explanation": "'Escuela' es 学校 (がっこう)."
       },
       {
         "text": "Centro comercial",
         "correct": false,
-        "reason": "'Centro comercial' es ショッピングモール o デパート."
+        "explanation": "'Centro comercial' es ショッピングモール o デパート."
       },
       {
         "text": "Estadio",
         "correct": false,
-        "reason": "'Estadio' (al aire libre) es 競技場 (きょうぎじょう) o スタジアム. 体育館 es techado."
+        "explanation": "'Estadio' (al aire libre) es 競技場 (きょうぎじょう) o スタジアム. 体育館 es techado."
       }
     ]
   },
@@ -1482,28 +1380,26 @@
     "id": "U3A-052",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 図書館?",
-    "correct": "Biblioteca",
-    "explanation": "図 ('diagrama') + 書 ('escrito/libro') + 館 ('edificio') = 'edificio de libros' = biblioteca.",
     "opts": [
       {
         "text": "Biblioteca",
         "correct": true,
-        "reason": "Correcta. Significado central."
+        "explanation": "図 ('diagrama') + 書 ('escrito/libro') + 館 ('edificio') = 'edificio de libros' = biblioteca. Correcta. Significado central."
       },
       {
         "text": "Librería",
         "correct": false,
-        "reason": "'Librería (tienda)' es 本屋 (ほんや). 図書館 es la pública/de préstamo."
+        "explanation": "'Librería (tienda)' es 本屋 (ほんや). 図書館 es la pública/de préstamo."
       },
       {
         "text": "Museo",
         "correct": false,
-        "reason": "'Museo' es 博物館 (はくぶつかん) o 美術館 (de arte)."
+        "explanation": "'Museo' es 博物館 (はくぶつかん) o 美術館 (de arte)."
       },
       {
         "text": "Sala de estudio",
         "correct": false,
-        "reason": "'Sala de estudio' es 自習室 (じしゅうしつ). 図書館 incluye préstamo de libros."
+        "explanation": "'Sala de estudio' es 自習室 (じしゅうしつ). 図書館 incluye préstamo de libros."
       }
     ]
   },
@@ -1511,28 +1407,26 @@
     "id": "U3A-053",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 病院?",
-    "correct": "Hospital",
-    "explanation": "病 ('enfermedad') + 院 ('institución') = 'institución de enfermedades' = hospital.",
     "opts": [
       {
         "text": "Hospital",
         "correct": true,
-        "reason": "Correcta. Institución médica."
+        "explanation": "病 ('enfermedad') + 院 ('institución') = 'institución de enfermedades' = hospital. Correcta. Institución médica."
       },
       {
         "text": "Clínica dental",
         "correct": false,
-        "reason": "'Clínica dental' es 歯医者 (はいしゃ) o 歯科 (しか)."
+        "explanation": "'Clínica dental' es 歯医者 (はいしゃ) o 歯科 (しか)."
       },
       {
         "text": "Farmacia",
         "correct": false,
-        "reason": "'Farmacia' es 薬局 (やっきょく) o ドラッグストア."
+        "explanation": "'Farmacia' es 薬局 (やっきょく) o ドラッグストア."
       },
       {
         "text": "Veterinaria",
         "correct": false,
-        "reason": "'Veterinaria' es 動物病院 (どうぶつびょういん). 病院 sin más es hospital humano."
+        "explanation": "'Veterinaria' es 動物病院 (どうぶつびょういん). 病院 sin más es hospital humano."
       }
     ]
   },
@@ -1540,28 +1434,26 @@
     "id": "U3A-054",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 郵便局?",
-    "correct": "Correo / oficina postal",
-    "explanation": "郵 ('correo') + 便 ('servicio') + 局 ('oficina') = oficina postal/correo.",
     "opts": [
       {
         "text": "Correo / oficina postal",
         "correct": true,
-        "reason": "Correcta. Servicio postal."
+        "explanation": "郵 ('correo') + 便 ('servicio') + 局 ('oficina') = oficina postal/correo. Correcta. Servicio postal."
       },
       {
         "text": "Banco",
         "correct": false,
-        "reason": "'Banco' es 銀行 (ぎんこう)."
+        "explanation": "'Banco' es 銀行 (ぎんこう)."
       },
       {
         "text": "Oficina",
         "correct": false,
-        "reason": "'Oficina' genérica es 事務所 (じむしょ) u オフィス."
+        "explanation": "'Oficina' genérica es 事務所 (じむしょ) u オフィス."
       },
       {
         "text": "Comisaría",
         "correct": false,
-        "reason": "'Comisaría' es 警察署 (けいさつしょ) o 交番 (こうばん)."
+        "explanation": "'Comisaría' es 警察署 (けいさつしょ) o 交番 (こうばん)."
       }
     ]
   },
@@ -1569,28 +1461,26 @@
     "id": "U3A-055",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 授業?",
-    "correct": "Clase / lección",
-    "explanation": "授 ('dar/enseñar') + 業 ('trabajo/curso') = clase, lección académica.",
     "opts": [
       {
         "text": "Clase / lección",
         "correct": true,
-        "reason": "Correcta. Significado central."
+        "explanation": "授 ('dar/enseñar') + 業 ('trabajo/curso') = clase, lección académica. Correcta. Significado central."
       },
       {
         "text": "Examen",
         "correct": false,
-        "reason": "'Examen' es 試験 (しけん) o テスト."
+        "explanation": "'Examen' es 試験 (しけん) o テスト."
       },
       {
         "text": "Tarea",
         "correct": false,
-        "reason": "'Tarea' es 宿題 (しゅくだい)."
+        "explanation": "'Tarea' es 宿題 (しゅくだい)."
       },
       {
         "text": "Profesor",
         "correct": false,
-        "reason": "'Profesor' es 先生 (せんせい). 授業 es la actividad, no la persona."
+        "explanation": "'Profesor' es 先生 (せんせい). 授業 es la actividad, no la persona."
       }
     ]
   },
@@ -1598,28 +1488,26 @@
     "id": "U3A-056",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 休み?",
-    "correct": "Descanso / día libre / vacaciones",
-    "explanation": "休み (やすみ) viene del verbo 休む ('descansar'). Designa cualquier período de descanso.",
     "opts": [
       {
         "text": "Descanso / día libre / vacaciones",
         "correct": true,
-        "reason": "Correcta. Significado polisémico."
+        "explanation": "休み (やすみ) viene del verbo 休む ('descansar'). Designa cualquier período de descanso. Correcta. Significado polisémico."
       },
       {
         "text": "Trabajo",
         "correct": false,
-        "reason": "'Trabajo' es 仕事 (しごと); concepto opuesto."
+        "explanation": "'Trabajo' es 仕事 (しごと); concepto opuesto."
       },
       {
         "text": "Festivo",
         "correct": false,
-        "reason": "'Festivo nacional' es 祝日 (しゅくじつ). 休み es más amplio (incluye fines de semana, vacaciones)."
+        "explanation": "'Festivo nacional' es 祝日 (しゅくじつ). 休み es más amplio (incluye fines de semana, vacaciones)."
       },
       {
         "text": "Invierno",
         "correct": false,
-        "reason": "'Invierno' es 冬 (ふゆ). 休み no es estación."
+        "explanation": "'Invierno' es 冬 (ふゆ). 休み no es estación."
       }
     ]
   },
@@ -1627,28 +1515,26 @@
     "id": "U3A-057",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 時間?",
-    "correct": "Tiempo / duración / hora",
-    "explanation": "時 ('hora') + 間 ('intervalo') = duración, tiempo. Distinto de 時 (sola = hora puntual).",
     "opts": [
       {
         "text": "Tiempo / duración / hora",
         "correct": true,
-        "reason": "Correcta. Concepto de tiempo/duración."
+        "explanation": "時 ('hora') + 間 ('intervalo') = duración, tiempo. Distinto de 時 (sola = hora puntual). Correcta. Concepto de tiempo/duración."
       },
       {
         "text": "Reloj",
         "correct": false,
-        "reason": "'Reloj' es 時計 (とけい)."
+        "explanation": "'Reloj' es 時計 (とけい)."
       },
       {
         "text": "Momento",
         "correct": false,
-        "reason": "'Momento' específico es 時 (とき) o 瞬間 (しゅんかん). 時間 es duración/intervalo."
+        "explanation": "'Momento' específico es 時 (とき) o 瞬間 (しゅんかん). 時間 es duración/intervalo."
       },
       {
         "text": "Fecha",
         "correct": false,
-        "reason": "'Fecha' es 日付 (ひづけ). 時間 es tiempo, no fecha."
+        "explanation": "'Fecha' es 日付 (ひづけ). 時間 es tiempo, no fecha."
       }
     ]
   },
@@ -1656,28 +1542,26 @@
     "id": "U3A-058",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 今?",
-    "correct": "Ahora",
-    "explanation": "今 (いま) significa 'ahora/en este momento'. Es uno de los adverbios temporales más básicos.",
     "opts": [
       {
         "text": "Ahora",
         "correct": true,
-        "reason": "Correcta. Adverbio temporal del presente."
+        "explanation": "今 (いま) significa 'ahora/en este momento'. Es uno de los adverbios temporales más básicos. Correcta. Adverbio temporal del presente."
       },
       {
         "text": "Después",
         "correct": false,
-        "reason": "'Después' es 後 (あと) o 後で (あとで)."
+        "explanation": "'Después' es 後 (あと) o 後で (あとで)."
       },
       {
         "text": "Antes",
         "correct": false,
-        "reason": "'Antes' es 前 (まえ)."
+        "explanation": "'Antes' es 前 (まえ)."
       },
       {
         "text": "Hoy",
         "correct": false,
-        "reason": "'Hoy' es 今日 (きょう). 今 es 'ahora' (más estrecho temporalmente)."
+        "explanation": "'Hoy' es 今日 (きょう). 今 es 'ahora' (más estrecho temporalmente)."
       }
     ]
   },
@@ -1685,28 +1569,26 @@
     "id": "U3A-059",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 午前?",
-    "correct": "A.M. / de la mañana",
-    "explanation": "午 ('mediodía') + 前 ('antes') = 'antes del mediodía' = A.M.",
     "opts": [
       {
         "text": "A.M. / de la mañana",
         "correct": true,
-        "reason": "Correcta. Análisis literal."
+        "explanation": "午 ('mediodía') + 前 ('antes') = 'antes del mediodía' = A.M. Correcta. Análisis literal."
       },
       {
         "text": "P.M. / de la tarde",
         "correct": false,
-        "reason": "'P.M.' es 午後 (después del mediodía), no 午前."
+        "explanation": "'P.M.' es 午後 (después del mediodía), no 午前."
       },
       {
         "text": "Mediodía",
         "correct": false,
-        "reason": "'Mediodía exacto' es 正午 (しょうご). 午前 es ANTES del mediodía."
+        "explanation": "'Mediodía exacto' es 正午 (しょうご). 午前 es ANTES del mediodía."
       },
       {
         "text": "Noche",
         "correct": false,
-        "reason": "'Noche' es 夜 (よる)."
+        "explanation": "'Noche' es 夜 (よる)."
       }
     ]
   },
@@ -1714,28 +1596,26 @@
     "id": "U3A-060",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 午後?",
-    "correct": "P.M. / de la tarde",
-    "explanation": "午 ('mediodía') + 後 ('después') = 'después del mediodía' = P.M.",
     "opts": [
       {
         "text": "P.M. / de la tarde",
         "correct": true,
-        "reason": "Correcta. Análisis literal."
+        "explanation": "午 ('mediodía') + 後 ('después') = 'después del mediodía' = P.M. Correcta. Análisis literal."
       },
       {
         "text": "A.M. / de la mañana",
         "correct": false,
-        "reason": "'A.M.' es 午前 (antes del mediodía)."
+        "explanation": "'A.M.' es 午前 (antes del mediodía)."
       },
       {
         "text": "Noche",
         "correct": false,
-        "reason": "'Noche' es 夜. 午後 cubre tarde y parte de la noche."
+        "explanation": "'Noche' es 夜. 午後 cubre tarde y parte de la noche."
       },
       {
         "text": "Amanecer",
         "correct": false,
-        "reason": "'Amanecer' es 朝 (あさ) o 夜明け (よあけ)."
+        "explanation": "'Amanecer' es 朝 (あさ) o 夜明け (よあけ)."
       }
     ]
   },
@@ -1743,28 +1623,26 @@
     "id": "U3A-061",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa 昼?",
-    "correct": "Mediodía / día",
-    "explanation": "昼 (ひる) significa 'mediodía' o 'día' (en contraste con noche). También puede referirse al almuerzo (昼ご飯).",
     "opts": [
       {
         "text": "Mediodía / día",
         "correct": true,
-        "reason": "Correcta. Período diurno central."
+        "explanation": "昼 (ひる) significa 'mediodía' o 'día' (en contraste con noche). También puede referirse al almuerzo (昼ご飯). Correcta. Período diurno central."
       },
       {
         "text": "Noche",
         "correct": false,
-        "reason": "'Noche' es 夜 (よる); opuesto a 昼."
+        "explanation": "'Noche' es 夜 (よる); opuesto a 昼."
       },
       {
         "text": "Mañana",
         "correct": false,
-        "reason": "'Mañana' (parte del día) es 朝 (あさ)."
+        "explanation": "'Mañana' (parte del día) es 朝 (あさ)."
       },
       {
         "text": "Tarde",
         "correct": false,
-        "reason": "'Tarde' como momento del día es 夕方 (ゆうがた)."
+        "explanation": "'Tarde' como momento del día es 夕方 (ゆうがた)."
       }
     ]
   },
@@ -1772,28 +1650,26 @@
     "id": "U3A-062",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 銀行?",
-    "correct": "ぎんこう",
-    "explanation": "銀 (ぎん) + 行 (こう) = ぎんこう.",
     "opts": [
       {
         "text": "ぎんこう",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "銀 (ぎん) + 行 (こう) = ぎんこう. Correcta. On'yomi estándar."
       },
       {
         "text": "ぎんぎょう",
         "correct": false,
-        "reason": "ぎょう es lectura de 行 en otros compuestos (例: 営業 えいぎょう), pero en 銀行 se usa こう."
+        "explanation": "ぎょう es lectura de 行 en otros compuestos (例: 営業 えいぎょう), pero en 銀行 se usa こう."
       },
       {
         "text": "ぎんだい",
         "correct": false,
-        "reason": "だい no es lectura de 行."
+        "explanation": "だい no es lectura de 行."
       },
       {
         "text": "ぎこう",
         "correct": false,
-        "reason": "Falta la sílaba ん: ぎん, no ぎ."
+        "explanation": "Falta la sílaba ん: ぎん, no ぎ."
       }
     ]
   },
@@ -1801,28 +1677,26 @@
     "id": "U3A-063",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 体育館?",
-    "correct": "たいいくかん",
-    "explanation": "体 (たい) + 育 (いく) + 館 (かん) = たいいくかん. Notá la doble い: たい + いく.",
     "opts": [
       {
         "text": "たいいくかん",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "体 (たい) + 育 (いく) + 館 (かん) = たいいくかん. Notá la doble い: たい + いく. Correcta. On'yomi estándar."
       },
       {
         "text": "たいういくかん",
         "correct": false,
-        "reason": "Lectura inventada: 体 se lee たい (no たいう)."
+        "explanation": "Lectura inventada: 体 se lee たい (no たいう)."
       },
       {
         "text": "てついくかん",
         "correct": false,
-        "reason": "てつ no es lectura de 体. Es lectura de 鉄 ('hierro')."
+        "explanation": "てつ no es lectura de 体. Es lectura de 鉄 ('hierro')."
       },
       {
         "text": "たいくかん",
         "correct": false,
-        "reason": "Falta una い: la lectura completa tiene たい + いく."
+        "explanation": "Falta una い: la lectura completa tiene たい + いく."
       }
     ]
   },
@@ -1830,28 +1704,26 @@
     "id": "U3A-064",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 図書館?",
-    "correct": "としょかん",
-    "explanation": "図 (と) + 書 (しょ) + 館 (かん) = としょかん.",
     "opts": [
       {
         "text": "としょかん",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "図 (と) + 書 (しょ) + 館 (かん) = としょかん. Correcta. On'yomi estándar."
       },
       {
         "text": "ずしょかん",
         "correct": false,
-        "reason": "ず es lectura on'yomi alternativa de 図 (en otros compuestos), pero en 図書館 se usa と."
+        "explanation": "ず es lectura on'yomi alternativa de 図 (en otros compuestos), pero en 図書館 se usa と."
       },
       {
         "text": "としょうかん",
         "correct": false,
-        "reason": "Sobra la う: 書 se lee しょ (corta), no しょう (larga)."
+        "explanation": "Sobra la う: 書 se lee しょ (corta), no しょう (larga)."
       },
       {
         "text": "としょがん",
         "correct": false,
-        "reason": "館 se lee かん, no がん (rendaku no aplica acá)."
+        "explanation": "館 se lee かん, no がん (rendaku no aplica acá)."
       }
     ]
   },
@@ -1859,28 +1731,26 @@
     "id": "U3A-065",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 病院?",
-    "correct": "びょういん",
-    "explanation": "病 (びょう) + 院 (いん) = びょういん. Notá la vocal larga びょう.",
     "opts": [
       {
         "text": "びょういん",
         "correct": true,
-        "reason": "Correcta. On'yomi con vocal larga."
+        "explanation": "病 (びょう) + 院 (いん) = びょういん. Notá la vocal larga びょう. Correcta. On'yomi con vocal larga."
       },
       {
         "text": "びょうえん",
         "correct": false,
-        "reason": "院 se lee いん, no えん. えん es 円 (yen) o 園."
+        "explanation": "院 se lee いん, no えん. えん es 円 (yen) o 園."
       },
       {
         "text": "へいいん",
         "correct": false,
-        "reason": "へい no es lectura de 病 en este compuesto."
+        "explanation": "へい no es lectura de 病 en este compuesto."
       },
       {
         "text": "ひょういん",
         "correct": false,
-        "reason": "ひょう no es lectura de 病; es びょう (con dakuten)."
+        "explanation": "ひょう no es lectura de 病; es びょう (con dakuten)."
       }
     ]
   },
@@ -1888,28 +1758,26 @@
     "id": "U3A-066",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 郵便局?",
-    "correct": "ゆうびんきょく",
-    "explanation": "郵 (ゆう) + 便 (びん) + 局 (きょく) = ゆうびんきょく. Notá la vocal larga ゆう.",
     "opts": [
       {
         "text": "ゆうびんきょく",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "郵 (ゆう) + 便 (びん) + 局 (きょく) = ゆうびんきょく. Notá la vocal larga ゆう. Correcta. On'yomi estándar."
       },
       {
         "text": "ゆびんきょく",
         "correct": false,
-        "reason": "Falta la vocal larga: ゆう (con う), no ゆ."
+        "explanation": "Falta la vocal larga: ゆう (con う), no ゆ."
       },
       {
         "text": "ゆうべんきょく",
         "correct": false,
-        "reason": "便 se lee びん aquí (ej. 郵便 'correo'), no べん (ej. 便利 'conveniente')."
+        "explanation": "便 se lee びん aquí (ej. 郵便 'correo'), no べん (ej. 便利 'conveniente')."
       },
       {
         "text": "ゆうびんかん",
         "correct": false,
-        "reason": "局 se lee きょく, no かん. かん es 館 (kanji distinto)."
+        "explanation": "局 se lee きょく, no かん. かん es 館 (kanji distinto)."
       }
     ]
   },
@@ -1917,28 +1785,26 @@
     "id": "U3A-067",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 授業?",
-    "correct": "じゅぎょう",
-    "explanation": "授 (じゅ) + 業 (ぎょう) = じゅぎょう. Notá las dos vocales largas: じゅ (corta) + ぎょう (larga).",
     "opts": [
       {
         "text": "じゅぎょう",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "授 (じゅ) + 業 (ぎょう) = じゅぎょう. Notá las dos vocales largas: じゅ (corta) + ぎょう (larga). Correcta. On'yomi estándar."
       },
       {
         "text": "じょうぎょう",
         "correct": false,
-        "reason": "授 se lee じゅ (corta), no じょう (larga)."
+        "explanation": "授 se lee じゅ (corta), no じょう (larga)."
       },
       {
         "text": "しゅぎょう",
         "correct": false,
-        "reason": "授 se lee じゅ con dakuten, no しゅ. しゅぎょう es 修行 ('entrenamiento espiritual')."
+        "explanation": "授 se lee じゅ con dakuten, no しゅ. しゅぎょう es 修行 ('entrenamiento espiritual')."
       },
       {
         "text": "じゅきょう",
         "correct": false,
-        "reason": "業 se lee ぎょう (con dakuten), no きょう."
+        "explanation": "業 se lee ぎょう (con dakuten), no きょう."
       }
     ]
   },
@@ -1946,28 +1812,26 @@
     "id": "U3A-068",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 休み?",
-    "correct": "やすみ",
-    "explanation": "休む (やすむ, 'descansar') → forma sustantivada 休み (やすみ, 'descanso').",
     "opts": [
       {
         "text": "やすみ",
         "correct": true,
-        "reason": "Correcta. Lectura kun'yomi del verbo sustantivado."
+        "explanation": "休む (やすむ, 'descansar') → forma sustantivada 休み (やすみ, 'descanso'). Correcta. Lectura kun'yomi del verbo sustantivado."
       },
       {
         "text": "きゅうみ",
         "correct": false,
-        "reason": "きゅう es on'yomi de 休 (en compuestos: 休日 きゅうじつ), no en 休み (verbo sustantivado)."
+        "explanation": "きゅう es on'yomi de 休 (en compuestos: 休日 きゅうじつ), no en 休み (verbo sustantivado)."
       },
       {
         "text": "やみ",
         "correct": false,
-        "reason": "Falta la sílaba す: la lectura es やすみ."
+        "explanation": "Falta la sílaba す: la lectura es やすみ."
       },
       {
         "text": "やすめ",
         "correct": false,
-        "reason": "やすめ es la forma imperativa del verbo ('¡descansá!'), no el sustantivo."
+        "explanation": "やすめ es la forma imperativa del verbo ('¡descansá!'), no el sustantivo."
       }
     ]
   },
@@ -1975,28 +1839,26 @@
     "id": "U3A-069",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 時間?",
-    "correct": "じかん",
-    "explanation": "時 (じ) + 間 (かん) = じかん. On'yomi en ambos kanji.",
     "opts": [
       {
         "text": "じかん",
         "correct": true,
-        "reason": "Correcta. On'yomi estándar."
+        "explanation": "時 (じ) + 間 (かん) = じかん. On'yomi en ambos kanji. Correcta. On'yomi estándar."
       },
       {
         "text": "ときま",
         "correct": false,
-        "reason": "とき y ま son kun'yomi, no se mezclan así en este compuesto."
+        "explanation": "とき y ま son kun'yomi, no se mezclan así en este compuesto."
       },
       {
         "text": "じま",
         "correct": false,
-        "reason": "ま es kun'yomi de 間 (sola); en 時間 se usa la on'yomi かん."
+        "explanation": "ま es kun'yomi de 間 (sola); en 時間 se usa la on'yomi かん."
       },
       {
         "text": "しかん",
         "correct": false,
-        "reason": "時 toma dakuten じ, no し."
+        "explanation": "時 toma dakuten じ, no し."
       }
     ]
   },
@@ -2004,28 +1866,26 @@
     "id": "U3A-070",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 今?",
-    "correct": "いま",
-    "explanation": "今 sola se lee いま (kun'yomi). En compuestos toma こん (今日 きょう es excepción).",
     "opts": [
       {
         "text": "いま",
         "correct": true,
-        "reason": "Correcta. Kun'yomi estándar."
+        "explanation": "今 sola se lee いま (kun'yomi). En compuestos toma こん (今日 きょう es excepción). Correcta. Kun'yomi estándar."
       },
       {
         "text": "こん",
         "correct": false,
-        "reason": "こん es la on'yomi, usada en compuestos (今週 こんしゅう), no cuando va sola."
+        "explanation": "こん es la on'yomi, usada en compuestos (今週 こんしゅう), no cuando va sola."
       },
       {
         "text": "きん",
         "correct": false,
-        "reason": "きん no es lectura de 今. Es lectura de 金 ('oro')."
+        "explanation": "きん no es lectura de 今. Es lectura de 金 ('oro')."
       },
       {
         "text": "いめ",
         "correct": false,
-        "reason": "Lectura inventada."
+        "explanation": "Lectura inventada."
       }
     ]
   },
@@ -2033,28 +1893,26 @@
     "id": "U3A-071",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 午前?",
-    "correct": "ごぜん",
-    "explanation": "午 (ご) + 前 (ぜん, con rendaku) = ごぜん, 'A.M.'.",
     "opts": [
       {
         "text": "ごぜん",
         "correct": true,
-        "reason": "Correcta. Rendaku obligatorio en 前 → ぜん."
+        "explanation": "午 (ご) + 前 (ぜん, con rendaku) = ごぜん, 'A.M.'. Correcta. Rendaku obligatorio en 前 → ぜん."
       },
       {
         "text": "ごぜ",
         "correct": false,
-        "reason": "Falta la sílaba ん: 前 se lee ぜん, no ぜ."
+        "explanation": "Falta la sílaba ん: 前 se lee ぜん, no ぜ."
       },
       {
         "text": "ごまえ",
         "correct": false,
-        "reason": "まえ es kun'yomi de 前 sola; en 午前 se usa la on'yomi ぜん."
+        "explanation": "まえ es kun'yomi de 前 sola; en 午前 se usa la on'yomi ぜん."
       },
       {
         "text": "ぜんご",
         "correct": false,
-        "reason": "Orden invertido: el kanji 午 va antes que 前."
+        "explanation": "Orden invertido: el kanji 午 va antes que 前."
       }
     ]
   },
@@ -2062,28 +1920,26 @@
     "id": "U3A-072",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 午後?",
-    "correct": "ごご",
-    "explanation": "午 (ご) + 後 (ご) = ごご, 'P.M.'. Coincidencia: ambos kanji se leen ご en este compuesto.",
     "opts": [
       {
         "text": "ごご",
         "correct": true,
-        "reason": "Correcta. Doble ご estándar."
+        "explanation": "午 (ご) + 後 (ご) = ごご, 'P.M.'. Coincidencia: ambos kanji se leen ご en este compuesto. Correcta. Doble ご estándar."
       },
       {
         "text": "ごあと",
         "correct": false,
-        "reason": "あと es kun'yomi de 後 sola; en 午後 se usa la on'yomi ご."
+        "explanation": "あと es kun'yomi de 後 sola; en 午後 se usa la on'yomi ご."
       },
       {
         "text": "ごごう",
         "correct": false,
-        "reason": "後 se lee ご (corta), no ごう (larga) en este compuesto."
+        "explanation": "後 se lee ご (corta), no ごう (larga) en este compuesto."
       },
       {
         "text": "ごうご",
         "correct": false,
-        "reason": "午 se lee ご (corta), no ごう."
+        "explanation": "午 se lee ご (corta), no ごう."
       }
     ]
   },
@@ -2091,28 +1947,26 @@
     "id": "U3A-073",
     "cat": "Kanji → Lectura",
     "q": "¿Cómo se lee 昼?",
-    "correct": "ひる",
-    "explanation": "昼 sola se lee ひる (kun'yomi). Significa 'mediodía/día'.",
     "opts": [
       {
         "text": "ひる",
         "correct": true,
-        "reason": "Correcta. Kun'yomi estándar."
+        "explanation": "昼 sola se lee ひる (kun'yomi). Significa 'mediodía/día'. Correcta. Kun'yomi estándar."
       },
       {
         "text": "ちゅう",
         "correct": false,
-        "reason": "ちゅう es on'yomi de 昼 (en compuestos), no cuando va sola."
+        "explanation": "ちゅう es on'yomi de 昼 (en compuestos), no cuando va sola."
       },
       {
         "text": "よる",
         "correct": false,
-        "reason": "よる es 夜 ('noche'), kanji distinto."
+        "explanation": "よる es 夜 ('noche'), kanji distinto."
       },
       {
         "text": "あさ",
         "correct": false,
-        "reason": "あさ es 朝 ('mañana'), kanji distinto."
+        "explanation": "あさ es 朝 ('mañana'), kanji distinto."
       }
     ]
   },
@@ -2120,28 +1974,26 @@
     "id": "U3A-074",
     "cat": "Traducción ES→JP",
     "q": "¿Cuál es el kanji de 'banco'?",
-    "correct": "銀行",
-    "explanation": "銀 ('plata') + 行 ('institución') = banco financiero.",
     "opts": [
       {
         "text": "銀行",
         "correct": true,
-        "reason": "Correcta. Kanji estándar."
+        "explanation": "銀 ('plata') + 行 ('institución') = banco financiero. Correcta. Kanji estándar."
       },
       {
         "text": "郵便局",
         "correct": false,
-        "reason": "郵便局 es 'correo', no banco."
+        "explanation": "郵便局 es 'correo', no banco."
       },
       {
         "text": "病院",
         "correct": false,
-        "reason": "病院 es 'hospital'."
+        "explanation": "病院 es 'hospital'."
       },
       {
         "text": "体育館",
         "correct": false,
-        "reason": "体育館 es 'gimnasio'."
+        "explanation": "体育館 es 'gimnasio'."
       }
     ]
   },
@@ -2149,28 +2001,26 @@
     "id": "U3A-075",
     "cat": "Traducción ES→JP",
     "q": "¿Cuál es el kanji de 'biblioteca'?",
-    "correct": "図書館",
-    "explanation": "図 + 書 + 館 = 'edificio de libros' = biblioteca.",
     "opts": [
       {
         "text": "図書館",
         "correct": true,
-        "reason": "Correcta. Kanji estándar."
+        "explanation": "図 + 書 + 館 = 'edificio de libros' = biblioteca. Correcta. Kanji estándar."
       },
       {
         "text": "体育館",
         "correct": false,
-        "reason": "体育館 es 'gimnasio', edificio deportivo."
+        "explanation": "体育館 es 'gimnasio', edificio deportivo."
       },
       {
         "text": "郵便局",
         "correct": false,
-        "reason": "郵便局 es 'correo'."
+        "explanation": "郵便局 es 'correo'."
       },
       {
         "text": "病院",
         "correct": false,
-        "reason": "病院 es 'hospital'."
+        "explanation": "病院 es 'hospital'."
       }
     ]
   },
@@ -2178,28 +2028,26 @@
     "id": "U3A-076",
     "cat": "Traducción ES→JP",
     "q": "¿Cuál es el kanji de 'hospital'?",
-    "correct": "病院",
-    "explanation": "病 ('enfermedad') + 院 ('institución') = hospital.",
     "opts": [
       {
         "text": "病院",
         "correct": true,
-        "reason": "Correcta. Kanji estándar."
+        "explanation": "病 ('enfermedad') + 院 ('institución') = hospital. Correcta. Kanji estándar."
       },
       {
         "text": "体育館",
         "correct": false,
-        "reason": "体育館 es 'gimnasio'."
+        "explanation": "体育館 es 'gimnasio'."
       },
       {
         "text": "銀行",
         "correct": false,
-        "reason": "銀行 es 'banco'."
+        "explanation": "銀行 es 'banco'."
       },
       {
         "text": "授業",
         "correct": false,
-        "reason": "授業 es 'clase/lección', no edificio."
+        "explanation": "授業 es 'clase/lección', no edificio."
       }
     ]
   },
@@ -2207,28 +2055,26 @@
     "id": "U3A-077",
     "cat": "Traducción ES→JP",
     "q": "¿Cuál es el kanji de 'correo'?",
-    "correct": "郵便局",
-    "explanation": "郵 + 便 + 局 = oficina postal.",
     "opts": [
       {
         "text": "郵便局",
         "correct": true,
-        "reason": "Correcta. Kanji estándar."
+        "explanation": "郵 + 便 + 局 = oficina postal. Correcta. Kanji estándar."
       },
       {
         "text": "銀行",
         "correct": false,
-        "reason": "銀行 es 'banco'."
+        "explanation": "銀行 es 'banco'."
       },
       {
         "text": "病院",
         "correct": false,
-        "reason": "病院 es 'hospital'."
+        "explanation": "病院 es 'hospital'."
       },
       {
         "text": "図書館",
         "correct": false,
-        "reason": "図書館 es 'biblioteca'."
+        "explanation": "図書館 es 'biblioteca'."
       }
     ]
   },
@@ -2236,28 +2082,26 @@
     "id": "U3A-078",
     "cat": "Traducción ES→JP",
     "q": "¿Cuál es el kanji de 'gimnasio'?",
-    "correct": "体育館",
-    "explanation": "体 + 育 + 館 = edificio de educación física.",
     "opts": [
       {
         "text": "体育館",
         "correct": true,
-        "reason": "Correcta. Kanji estándar."
+        "explanation": "体 + 育 + 館 = edificio de educación física. Correcta. Kanji estándar."
       },
       {
         "text": "図書館",
         "correct": false,
-        "reason": "図書館 es 'biblioteca'."
+        "explanation": "図書館 es 'biblioteca'."
       },
       {
         "text": "病院",
         "correct": false,
-        "reason": "病院 es 'hospital'."
+        "explanation": "病院 es 'hospital'."
       },
       {
         "text": "銀行",
         "correct": false,
-        "reason": "銀行 es 'banco'."
+        "explanation": "銀行 es 'banco'."
       }
     ]
   },
@@ -2265,28 +2109,26 @@
     "id": "U3A-079",
     "cat": "Números y Tiempo",
     "q": "'今、9時20分です' se lee:",
-    "correct": "いま、くじ にじゅっぷんです",
-    "explanation": "今 (いま) + 9時 (くじ, irregular) + 20分 (にじゅっぷん, sokuon+handakuten). Notá las dos irregularidades.",
     "opts": [
       {
         "text": "いま、くじ にじゅっぷんです",
         "correct": true,
-        "reason": "Correcta. Lecturas precisas con irregularidades."
+        "explanation": "今 (いま) + 9時 (くじ, irregular) + 20分 (にじゅっぷん, sokuon+handakuten). Notá las dos irregularidades. Correcta. Lecturas precisas con irregularidades."
       },
       {
         "text": "いま、きゅうじ にじゅうふんです",
         "correct": false,
-        "reason": "9時 NO es きゅうじ (es くじ irregular). Y 20分 requiere sokuon+handakuten."
+        "explanation": "9時 NO es きゅうじ (es くじ irregular). Y 20分 requiere sokuon+handakuten."
       },
       {
         "text": "いま、くじ にじゅうふんです",
         "correct": false,
-        "reason": "20分 requiere sokuon+handakuten: にじゅっぷん."
+        "explanation": "20分 requiere sokuon+handakuten: にじゅっぷん."
       },
       {
         "text": "いま、きゅうじ にじゅうぷんです",
         "correct": false,
-        "reason": "9時 NO es きゅうじ. Y falta el sokuon en 20分."
+        "explanation": "9時 NO es きゅうじ. Y falta el sokuon en 20分."
       }
     ]
   },
@@ -2294,28 +2136,26 @@
     "id": "U3A-080",
     "cat": "Números y Tiempo",
     "q": "'8時15分前です' significa:",
-    "correct": "Son las 7:45 (15 para las 8)",
-    "explanation": "前 después de [hora][minutos] significa 'antes de'. 8時15分前 = 'falta 15 para las 8' = 7:45.",
     "opts": [
       {
         "text": "Son las 7:45 (15 para las 8)",
         "correct": true,
-        "reason": "Correcta. 前 indica 'antes de la hora dada'."
+        "explanation": "前 después de [hora][minutos] significa 'antes de'. 8時15分前 = 'falta 15 para las 8' = 7:45. Correcta. 前 indica 'antes de la hora dada'."
       },
       {
         "text": "Son las 8:15",
         "correct": false,
-        "reason": "8:15 sería 8時15分 (sin 前)."
+        "explanation": "8:15 sería 8時15分 (sin 前)."
       },
       {
         "text": "Faltan 8 para las 15",
         "correct": false,
-        "reason": "Mal análisis: 8時 es la HORA destino, 15分 los minutos antes."
+        "explanation": "Mal análisis: 8時 es la HORA destino, 15分 los minutos antes."
       },
       {
         "text": "Son las 8 y quince después",
         "correct": false,
-        "reason": "前 significa 'antes', no 'después'. 'Después' sería 過ぎ."
+        "explanation": "前 significa 'antes', no 'después'. 'Después' sería 過ぎ."
       }
     ]
   },
@@ -2323,28 +2163,26 @@
     "id": "U3A-081",
     "cat": "Números y Tiempo",
     "q": "'9時から5時までです' significa:",
-    "correct": "Es de 9 a 5.",
-    "explanation": "から ('desde') + まで ('hasta') marcan el rango temporal: '9時から5時まで' = 'de 9 a 5'.",
     "opts": [
       {
         "text": "Es de 9 a 5.",
         "correct": true,
-        "reason": "Correcta. Rango temporal con から/まで."
+        "explanation": "から ('desde') + まで ('hasta') marcan el rango temporal: '9時から5時まで' = 'de 9 a 5'. Correcta. Rango temporal con から/まで."
       },
       {
         "text": "Son las 9 y 5.",
         "correct": false,
-        "reason": "'Las 9 y 5' sería 9時5分. Acá hay rango con から/まで."
+        "explanation": "'Las 9 y 5' sería 9時5分. Acá hay rango con から/まで."
       },
       {
         "text": "De las 5 a las 9.",
         "correct": false,
-        "reason": "Orden invertido: から indica el INICIO; 9時から es 'desde las 9'."
+        "explanation": "Orden invertido: から indica el INICIO; 9時から es 'desde las 9'."
       },
       {
         "text": "Son las 9:05.",
         "correct": false,
-        "reason": "'Las 9:05' sería 9時5分です, sin から/まで."
+        "explanation": "'Las 9:05' sería 9時5分です, sin から/まで."
       }
     ]
   },
@@ -2352,28 +2190,26 @@
     "id": "U3A-082",
     "cat": "Números y Tiempo",
     "q": "'4時半です' significa:",
-    "correct": "Son las 4 y media.",
-    "explanation": "半 (はん) después de la hora significa 'media' (30 minutos). 4時半 = 4:30.",
     "opts": [
       {
         "text": "Son las 4 y media.",
         "correct": true,
-        "reason": "Correcta. 半 = 30 minutos."
+        "explanation": "半 (はん) después de la hora significa 'media' (30 minutos). 4時半 = 4:30. Correcta. 半 = 30 minutos."
       },
       {
         "text": "Son las 4:30 de la tarde.",
         "correct": false,
-        "reason": "Faltaría 午後 para indicar 'de la tarde'. 4時半 es ambiguo a.m./p.m."
+        "explanation": "Faltaría 午後 para indicar 'de la tarde'. 4時半 es ambiguo a.m./p.m."
       },
       {
         "text": "Faltan 30 para las 4.",
         "correct": false,
-        "reason": "Eso sería 4時30分前. 半 indica '+30', no '-30'."
+        "explanation": "Eso sería 4時30分前. 半 indica '+30', no '-30'."
       },
       {
         "text": "Son las 4 y 15.",
         "correct": false,
-        "reason": "半 = 30 minutos, no 15."
+        "explanation": "半 = 30 minutos, no 15."
       }
     ]
   },
@@ -2381,28 +2217,26 @@
     "id": "U3A-083",
     "cat": "Números y Tiempo",
     "q": "¿Cómo escribimos 'las 7 y media' en japonés (kanji)?",
-    "correct": "7時半です",
-    "explanation": "Estructura: [hora]時 + 半 + です. 半 va DESPUÉS de 時.",
     "opts": [
       {
         "text": "7時半です",
         "correct": true,
-        "reason": "Correcta. Orden estándar."
+        "explanation": "Estructura: [hora]時 + 半 + です. 半 va DESPUÉS de 時. Correcta. Orden estándar."
       },
       {
         "text": "7半時です",
         "correct": false,
-        "reason": "半 va DESPUÉS de 時, no antes."
+        "explanation": "半 va DESPUÉS de 時, no antes."
       },
       {
         "text": "7時半分です",
         "correct": false,
-        "reason": "半 ya implica 30 minutos; agregar 分 es redundante e incorrecto."
+        "explanation": "半 ya implica 30 minutos; agregar 分 es redundante e incorrecto."
       },
       {
         "text": "半7時です",
         "correct": false,
-        "reason": "Orden invertido."
+        "explanation": "Orden invertido."
       }
     ]
   },
@@ -2410,28 +2244,26 @@
     "id": "U3A-084",
     "cat": "Números y Tiempo",
     "q": "¿Cuál significa 'son las 3:45' (un cuarto para las 4)?",
-    "correct": "4時15分前です",
-    "explanation": "Estructura para 'X menos Y minutos': [hora siguiente]時 + [minutos]分 + 前 + です. 4時15分前 = 'falta 15 para las 4' = 3:45.",
     "opts": [
       {
         "text": "4時15分前です",
         "correct": true,
-        "reason": "Correcta. Patrón [hora destino]時[min]分前."
+        "explanation": "Estructura para 'X menos Y minutos': [hora siguiente]時 + [minutos]分 + 前 + です. 4時15分前 = 'falta 15 para las 4' = 3:45. Correcta. Patrón [hora destino]時[min]分前."
       },
       {
         "text": "3時45分前です",
         "correct": false,
-        "reason": "Si dice 3時45分前, sería 'falta 45 para las 3' = 2:15. No 3:45."
+        "explanation": "Si dice 3時45分前, sería 'falta 45 para las 3' = 2:15. No 3:45."
       },
       {
         "text": "15分4時前です",
         "correct": false,
-        "reason": "Orden incorrecto: 4時 (hora destino) va PRIMERO."
+        "explanation": "Orden incorrecto: 4時 (hora destino) va PRIMERO."
       },
       {
         "text": "4時前15分です",
         "correct": false,
-        "reason": "前 va al final, después de los minutos."
+        "explanation": "前 va al final, después de los minutos."
       }
     ]
   },
@@ -2439,28 +2271,26 @@
     "id": "U3A-085",
     "cat": "Partículas",
     "q": "9時＿＿5時までです。 — ¿Qué partícula va?",
-    "correct": "から",
-    "explanation": "から marca punto de INICIO ('desde'). En el patrón XからYまで, から va con la hora inicial.",
     "opts": [
       {
         "text": "から",
         "correct": true,
-        "reason": "Correcta. Partícula de inicio."
+        "explanation": "から marca punto de INICIO ('desde'). En el patrón XからYまで, から va con la hora inicial. Correcta. Partícula de inicio."
       },
       {
         "text": "まで",
         "correct": false,
-        "reason": "まで marca punto FINAL; va con la hora final (5時まで), no con la inicial."
+        "explanation": "まで marca punto FINAL; va con la hora final (5時まで), no con la inicial."
       },
       {
         "text": "に",
         "correct": false,
-        "reason": "に marca punto específico, no rango."
+        "explanation": "に marca punto específico, no rango."
       },
       {
         "text": "で",
         "correct": false,
-        "reason": "で marca lugar/medio, no rango temporal."
+        "explanation": "で marca lugar/medio, no rango temporal."
       }
     ]
   },
@@ -2468,28 +2298,26 @@
     "id": "U3A-086",
     "cat": "Partículas",
     "q": "9時から5時＿＿です。 — ¿Qué partícula va?",
-    "correct": "まで",
-    "explanation": "まで marca punto FINAL ('hasta'). En el patrón XからYまで, まで va con la hora final.",
     "opts": [
       {
         "text": "まで",
         "correct": true,
-        "reason": "Correcta. Partícula de final."
+        "explanation": "まで marca punto FINAL ('hasta'). En el patrón XからYまで, まで va con la hora final. Correcta. Partícula de final."
       },
       {
         "text": "から",
         "correct": false,
-        "reason": "から ya está usada con la hora inicial; まで va con la final."
+        "explanation": "から ya está usada con la hora inicial; まで va con la final."
       },
       {
         "text": "に",
         "correct": false,
-        "reason": "に marca punto específico, no final de rango."
+        "explanation": "に marca punto específico, no final de rango."
       },
       {
         "text": "で",
         "correct": false,
-        "reason": "で no marca final temporal."
+        "explanation": "で no marca final temporal."
       }
     ]
   },
@@ -2497,28 +2325,26 @@
     "id": "U3A-087",
     "cat": "Partículas",
     "q": "¿Qué significa から en 'X時からY時まで'?",
-    "correct": "Desde (punto de inicio)",
-    "explanation": "から indica el comienzo de un rango temporal o espacial. Es la partícula complementaria de まで.",
     "opts": [
       {
         "text": "Desde (punto de inicio)",
         "correct": true,
-        "reason": "Correcta. Función central de から."
+        "explanation": "から indica el comienzo de un rango temporal o espacial. Es la partícula complementaria de まで. Correcta. Función central de から."
       },
       {
         "text": "Hasta",
         "correct": false,
-        "reason": "'Hasta' es まで, no から."
+        "explanation": "'Hasta' es まで, no から."
       },
       {
         "text": "En",
         "correct": false,
-        "reason": "'En' (punto específico) es に, no から."
+        "explanation": "'En' (punto específico) es に, no から."
       },
       {
         "text": "Durante",
         "correct": false,
-        "reason": "'Durante' es 〜中 (ちゅう/じゅう) o 間, no から."
+        "explanation": "'Durante' es 〜中 (ちゅう/じゅう) o 間, no から."
       }
     ]
   },
@@ -2526,28 +2352,26 @@
     "id": "U3A-088",
     "cat": "Partículas",
     "q": "¿Qué significa まで en 'X時からY時まで'?",
-    "correct": "Hasta (punto final)",
-    "explanation": "まで indica el final de un rango. Complementa a から ('desde').",
     "opts": [
       {
         "text": "Hasta (punto final)",
         "correct": true,
-        "reason": "Correcta. Función central de まで."
+        "explanation": "まで indica el final de un rango. Complementa a から ('desde'). Correcta. Función central de まで."
       },
       {
         "text": "Desde",
         "correct": false,
-        "reason": "'Desde' es から, no まで."
+        "explanation": "'Desde' es から, no まで."
       },
       {
         "text": "En",
         "correct": false,
-        "reason": "'En' es に, no まで."
+        "explanation": "'En' es に, no まで."
       },
       {
         "text": "Alrededor de",
         "correct": false,
-        "reason": "'Alrededor de' es 頃 (ごろ/ころ), no まで."
+        "explanation": "'Alrededor de' es 頃 (ごろ/ころ), no まで."
       }
     ]
   },
@@ -2555,28 +2379,26 @@
     "id": "U3A-089",
     "cat": "Partículas",
     "q": "'月曜日から金曜日まで' significa:",
-    "correct": "De lunes a viernes",
-    "explanation": "Mismo patrón XからYまで pero con días: 'desde lunes hasta viernes' = 'de lunes a viernes'.",
     "opts": [
       {
         "text": "De lunes a viernes",
         "correct": true,
-        "reason": "Correcta. Rango con días de la semana."
+        "explanation": "Mismo patrón XからYまで pero con días: 'desde lunes hasta viernes' = 'de lunes a viernes'. Correcta. Rango con días de la semana."
       },
       {
         "text": "Sólo lunes y viernes",
         "correct": false,
-        "reason": "Eso sería 月曜日と金曜日. から/まで indica RANGO continuo."
+        "explanation": "Eso sería 月曜日と金曜日. から/まで indica RANGO continuo."
       },
       {
         "text": "Entre lunes y viernes hay",
         "correct": false,
-        "reason": "から/まで define un rango cerrado, no 'entre' suelto."
+        "explanation": "から/まで define un rango cerrado, no 'entre' suelto."
       },
       {
         "text": "Los lunes hasta los viernes",
         "correct": false,
-        "reason": "Aunque parecido, la traducción natural es 'de lunes a viernes', no 'los lunes...'."
+        "explanation": "Aunque parecido, la traducción natural es 'de lunes a viernes', no 'los lunes...'."
       }
     ]
   },
@@ -2584,28 +2406,26 @@
     "id": "U3A-090",
     "cat": "Partículas",
     "q": "'9時＿＿おきます。' (a las 9 me levanto) — ¿Qué partícula indica punto específico en el tiempo?",
-    "correct": "に",
-    "explanation": "に marca un punto específico en el tiempo cuando ocurre una acción. '9時に' = 'a las 9'.",
     "opts": [
       {
         "text": "に",
         "correct": true,
-        "reason": "Correcta. Partícula de tiempo específico."
+        "explanation": "に marca un punto específico en el tiempo cuando ocurre una acción. '9時に' = 'a las 9'. Correcta. Partícula de tiempo específico."
       },
       {
         "text": "で",
         "correct": false,
-        "reason": "で marca lugar de acción o medio, no momento específico."
+        "explanation": "で marca lugar de acción o medio, no momento específico."
       },
       {
         "text": "から",
         "correct": false,
-        "reason": "から indica desde un punto, no el punto en sí."
+        "explanation": "から indica desde un punto, no el punto en sí."
       },
       {
         "text": "を",
         "correct": false,
-        "reason": "を marca objeto directo, no tiempo."
+        "explanation": "を marca objeto directo, no tiempo."
       }
     ]
   },
@@ -2613,28 +2433,26 @@
     "id": "U3A-091",
     "cat": "Partículas",
     "q": "Ante '昼やすみは12時から1時までです', ¿qué se informa?",
-    "correct": "El descanso va de 12 a 1.",
-    "explanation": "昼やすみ (descanso del mediodía) + は (tema) + 12時から1時まで (de 12 a 1) + です. Informa el horario del almuerzo/descanso.",
     "opts": [
       {
         "text": "El descanso va de 12 a 1.",
         "correct": true,
-        "reason": "Correcta. Rango temporal del descanso."
+        "explanation": "昼やすみ (descanso del mediodía) + は (tema) + 12時から1時まで (de 12 a 1) + です. Informa el horario del almuerzo/descanso. Correcta. Rango temporal del descanso."
       },
       {
         "text": "Es el mediodía de 12 a 1.",
         "correct": false,
-        "reason": "昼やすみ no es 'mediodía' sino 'descanso de mediodía/almuerzo'."
+        "explanation": "昼やすみ no es 'mediodía' sino 'descanso de mediodía/almuerzo'."
       },
       {
         "text": "El almuerzo empieza a la 1.",
         "correct": false,
-        "reason": "Empieza a las 12 (から indica inicio)."
+        "explanation": "Empieza a las 12 (から indica inicio)."
       },
       {
         "text": "Faltan 12 para la 1.",
         "correct": false,
-        "reason": "No es construcción con 前; es rango から/まで."
+        "explanation": "No es construcción con 前; es rango から/まで."
       }
     ]
   },
@@ -2642,28 +2460,26 @@
     "id": "U3A-092",
     "cat": "Diálogo",
     "q": "'すみません。今、何時ですか。' es:",
-    "correct": "Disculpe, ¿qué hora es ahora?",
-    "explanation": "すみません (disculpe) + 今 (ahora) + 何時 (qué hora) + ですか. Pregunta cortés de la hora.",
     "opts": [
       {
         "text": "Disculpe, ¿qué hora es ahora?",
         "correct": true,
-        "reason": "Correcta. Traducción literal y precisa."
+        "explanation": "すみません (disculpe) + 今 (ahora) + 何時 (qué hora) + ですか. Pregunta cortés de la hora. Correcta. Traducción literal y precisa."
       },
       {
         "text": "Disculpe, ¿a qué hora?",
         "correct": false,
-        "reason": "'¿A qué hora?' (con verbo de acción) sería 何時に. La pregunta es solo '¿qué hora es?'."
+        "explanation": "'¿A qué hora?' (con verbo de acción) sería 何時に. La pregunta es solo '¿qué hora es?'."
       },
       {
         "text": "Disculpe, ¿desde cuándo?",
         "correct": false,
-        "reason": "'¿Desde cuándo?' sería いつから."
+        "explanation": "'¿Desde cuándo?' sería いつから."
       },
       {
         "text": "Disculpe, ¿qué día?",
         "correct": false,
-        "reason": "'¿Qué día?' sería 何曜日 (semana) o 何日 (mes)."
+        "explanation": "'¿Qué día?' sería 何曜日 (semana) o 何日 (mes)."
       }
     ]
   },
@@ -2671,28 +2487,26 @@
     "id": "U3A-093",
     "cat": "Diálogo",
     "q": "Si alguien te pregunta 'そちらは何時から何時までですか', te pregunta:",
-    "correct": "El horario de atención (de X a Y hora).",
-    "explanation": "そちら (su lugar, formal) + は + 何時から何時まで (de qué hora a qué hora) + ですか. Pregunta cortés sobre horario de atención.",
     "opts": [
       {
         "text": "El horario de atención (de X a Y hora).",
         "correct": true,
-        "reason": "Correcta. Pregunta sobre rango horario."
+        "explanation": "そちら (su lugar, formal) + は + 何時から何時まで (de qué hora a qué hora) + ですか. Pregunta cortés sobre horario de atención. Correcta. Pregunta sobre rango horario."
       },
       {
         "text": "Tu dirección.",
         "correct": false,
-        "reason": "Dirección sería 住所 (じゅうしょ) o ご住所. La pregunta es horaria."
+        "explanation": "Dirección sería 住所 (じゅうしょ) o ご住所. La pregunta es horaria."
       },
       {
         "text": "A qué hora entrás a trabajar.",
         "correct": false,
-        "reason": "Eso sería 何時から仕事ですか. La pregunta es general de atención."
+        "explanation": "Eso sería 何時から仕事ですか. La pregunta es general de atención."
       },
       {
         "text": "De qué horario a qué horario es el feriado.",
         "correct": false,
-        "reason": "Feriado sería 休み. La pregunta es por el horario activo."
+        "explanation": "Feriado sería 休み. La pregunta es por el horario activo."
       }
     ]
   },
@@ -2700,28 +2514,26 @@
     "id": "U3A-094",
     "cat": "Diálogo",
     "q": "Si alguien pregunta '休みはいつですか', te pregunta:",
-    "correct": "Cuándo es el día de descanso / cierre.",
-    "explanation": "休み (descanso/cierre) + は + いつ (cuándo) + ですか. Pregunta el día de cierre o vacación.",
     "opts": [
       {
         "text": "Cuándo es el día de descanso / cierre.",
         "correct": true,
-        "reason": "Correcta. Pregunta sobre día específico."
+        "explanation": "休み (descanso/cierre) + は + いつ (cuándo) + ですか. Pregunta el día de cierre o vacación. Correcta. Pregunta sobre día específico."
       },
       {
         "text": "Cuánto duran las vacaciones.",
         "correct": false,
-        "reason": "'Cuánto duran' sería どのくらい o 何日間. La pregunta es CUÁNDO."
+        "explanation": "'Cuánto duran' sería どのくらい o 何日間. La pregunta es CUÁNDO."
       },
       {
         "text": "Dónde descansás.",
         "correct": false,
-        "reason": "'Dónde' sería どこ. La pregunta es CUÁNDO (いつ)."
+        "explanation": "'Dónde' sería どこ. La pregunta es CUÁNDO (いつ)."
       },
       {
         "text": "Hasta cuándo trabajás.",
         "correct": false,
-        "reason": "Eso sería 何時まで. La pregunta es por el descanso."
+        "explanation": "Eso sería 何時まで. La pregunta es por el descanso."
       }
     ]
   },
@@ -2729,28 +2541,26 @@
     "id": "U3A-095",
     "cat": "Diálogo",
     "q": "Respuesta natural a '休みはいつですか':",
-    "correct": "月曜日です。",
-    "explanation": "La pregunta es por un DÍA. Respuesta natural: día de la semana + です.",
     "opts": [
       {
         "text": "月曜日です。",
         "correct": true,
-        "reason": "Correcta. Día de la semana como respuesta a いつ."
+        "explanation": "La pregunta es por un DÍA. Respuesta natural: día de la semana + です. Correcta. Día de la semana como respuesta a いつ."
       },
       {
         "text": "9時までです。",
         "correct": false,
-        "reason": "Es respuesta sobre HORA, no día."
+        "explanation": "Es respuesta sobre HORA, no día."
       },
       {
         "text": "図書館です。",
         "correct": false,
-        "reason": "Es respuesta sobre LUGAR, no tiempo."
+        "explanation": "Es respuesta sobre LUGAR, no tiempo."
       },
       {
         "text": "アルバイトです。",
         "correct": false,
-        "reason": "アルバイト ('trabajo de medio tiempo') no responde a CUÁNDO."
+        "explanation": "アルバイト ('trabajo de medio tiempo') no responde a CUÁNDO."
       }
     ]
   },
@@ -2758,28 +2568,26 @@
     "id": "U3A-096",
     "cat": "Diálogo",
     "q": "Una respuesta natural a '今、何時ですか':",
-    "correct": "10時です。",
-    "explanation": "Pregunta por HORA. Respuesta: hora + です.",
     "opts": [
       {
         "text": "10時です。",
         "correct": true,
-        "reason": "Correcta. Hora puntual como respuesta a 何時."
+        "explanation": "Pregunta por HORA. Respuesta: hora + です. Correcta. Hora puntual como respuesta a 何時."
       },
       {
         "text": "月曜日です。",
         "correct": false,
-        "reason": "Respuesta de día de la semana, no hora."
+        "explanation": "Respuesta de día de la semana, no hora."
       },
       {
         "text": "銀行です。",
         "correct": false,
-        "reason": "Respuesta de lugar, no hora."
+        "explanation": "Respuesta de lugar, no hora."
       },
       {
         "text": "9時までです。",
         "correct": false,
-        "reason": "'Hasta las 9' es rango, no hora actual."
+        "explanation": "'Hasta las 9' es rango, no hora actual."
       }
     ]
   },
@@ -2787,28 +2595,26 @@
     "id": "U3A-097",
     "cat": "Diálogo",
     "q": "Respuesta a 'そちらは何時から何時までですか':",
-    "correct": "9時から7時までです。",
-    "explanation": "Pregunta es por RANGO horario. Respuesta paralela: XからYまで + です.",
     "opts": [
       {
         "text": "9時から7時までです。",
         "correct": true,
-        "reason": "Correcta. Rango con から/まで."
+        "explanation": "Pregunta es por RANGO horario. Respuesta paralela: XからYまで + です. Correcta. Rango con から/まで."
       },
       {
         "text": "9時20分です。",
         "correct": false,
-        "reason": "Es hora puntual, no rango."
+        "explanation": "Es hora puntual, no rango."
       },
       {
         "text": "月曜日です。",
         "correct": false,
-        "reason": "Es día, no horario."
+        "explanation": "Es día, no horario."
       },
       {
         "text": "午後です。",
         "correct": false,
-        "reason": "'Por la tarde' no responde un rango específico."
+        "explanation": "'Por la tarde' no responde un rango específico."
       }
     ]
   },
@@ -2816,28 +2622,26 @@
     "id": "U3A-098",
     "cat": "Diálogo",
     "q": "Para llamar la atención educadamente se dice:",
-    "correct": "すみません",
-    "explanation": "すみません es la fórmula universal para iniciar interacción cortésmente con desconocidos.",
     "opts": [
       {
         "text": "すみません",
         "correct": true,
-        "reason": "Correcta. Marcador de apertura cortés."
+        "explanation": "すみません es la fórmula universal para iniciar interacción cortésmente con desconocidos. Correcta. Marcador de apertura cortés."
       },
       {
         "text": "ありがとうございます",
         "correct": false,
-        "reason": "Es agradecimiento, no llamada de atención."
+        "explanation": "Es agradecimiento, no llamada de atención."
       },
       {
         "text": "こんにちは",
         "correct": false,
-        "reason": "Es saludo general, no específicamente llamada para preguntar."
+        "explanation": "Es saludo general, no específicamente llamada para preguntar."
       },
       {
         "text": "どうぞ",
         "correct": false,
-        "reason": "Es ofrecimiento ('por favor/adelante'), no llamada."
+        "explanation": "Es ofrecimiento ('por favor/adelante'), no llamada."
       }
     ]
   },
@@ -2845,28 +2649,26 @@
     "id": "U3A-099",
     "cat": "Diálogo",
     "q": "Para agradecer (después de recibir la info) se dice:",
-    "correct": "ありがとうございます",
-    "explanation": "Forma cortés de agradecimiento. Apropiada en contexto formal.",
     "opts": [
       {
         "text": "ありがとうございます",
         "correct": true,
-        "reason": "Correcta. Agradecimiento formal."
+        "explanation": "Forma cortés de agradecimiento. Apropiada en contexto formal. Correcta. Agradecimiento formal."
       },
       {
         "text": "すみません",
         "correct": false,
-        "reason": "Aunque puede expresar gratitud por molestia, ありがとうございます es más claro."
+        "explanation": "Aunque puede expresar gratitud por molestia, ありがとうございます es más claro."
       },
       {
         "text": "はい、どうぞ",
         "correct": false,
-        "reason": "Es para entregar/ofrecer, no para agradecer."
+        "explanation": "Es para entregar/ofrecer, no para agradecer."
       },
       {
         "text": "そうですね",
         "correct": false,
-        "reason": "'Así es, ¿no?' busca confirmación, no agradece."
+        "explanation": "'Así es, ¿no?' busca confirmación, no agradece."
       }
     ]
   },
@@ -2874,28 +2676,26 @@
     "id": "U3A-100",
     "cat": "Gramática",
     "q": "¿Cómo se pregunta '¿qué hora es ahora?' (forma educada)?",
-    "correct": "今、何時ですか。",
-    "explanation": "今 (ahora) + 何時 (qué hora) + ですか. Estructura cortés de pregunta horaria.",
     "opts": [
       {
         "text": "今、何時ですか。",
         "correct": true,
-        "reason": "Correcta. Pregunta canónica de hora."
+        "explanation": "今 (ahora) + 何時 (qué hora) + ですか. Estructura cortés de pregunta horaria. Correcta. Pregunta canónica de hora."
       },
       {
         "text": "何分ですか。",
         "correct": false,
-        "reason": "何分 pregunta '¿cuántos minutos?', no '¿qué hora es?'."
+        "explanation": "何分 pregunta '¿cuántos minutos?', no '¿qué hora es?'."
       },
       {
         "text": "今、何曜日ですか。",
         "correct": false,
-        "reason": "何曜日 pregunta día de la semana, no hora."
+        "explanation": "何曜日 pregunta día de la semana, no hora."
       },
       {
         "text": "何日ですか。",
         "correct": false,
-        "reason": "何日 pregunta día del mes, no hora."
+        "explanation": "何日 pregunta día del mes, no hora."
       }
     ]
   },
@@ -2903,28 +2703,26 @@
     "id": "U3A-101",
     "cat": "Gramática",
     "q": "¿Cómo se pregunta '¿qué día (de la semana) es?'?",
-    "correct": "何曜日ですか。",
-    "explanation": "何 + 曜日 + ですか pregunta específicamente día de la semana.",
     "opts": [
       {
         "text": "何曜日ですか。",
         "correct": true,
-        "reason": "Correcta. Específico de día de semana."
+        "explanation": "何 + 曜日 + ですか pregunta específicamente día de la semana. Correcta. Específico de día de semana."
       },
       {
         "text": "何日ですか。",
         "correct": false,
-        "reason": "何日 pregunta día del MES, no de la semana."
+        "explanation": "何日 pregunta día del MES, no de la semana."
       },
       {
         "text": "今、何時ですか。",
         "correct": false,
-        "reason": "何時 pregunta HORA."
+        "explanation": "何時 pregunta HORA."
       },
       {
         "text": "いつですか。",
         "correct": false,
-        "reason": "いつ es genérico ('cuándo'); 何曜日 es específico al día de semana."
+        "explanation": "いつ es genérico ('cuándo'); 何曜日 es específico al día de semana."
       }
     ]
   },
@@ -2932,28 +2730,26 @@
     "id": "U3A-102",
     "cat": "Gramática",
     "q": "¿Cómo se pregunta '¿hasta qué hora?'?",
-    "correct": "何時までですか。",
-    "explanation": "何時 + まで (hasta) + ですか. Pregunta el punto final.",
     "opts": [
       {
         "text": "何時までですか。",
         "correct": true,
-        "reason": "Correcta. まで marca el final."
+        "explanation": "何時 + まで (hasta) + ですか. Pregunta el punto final. Correcta. まで marca el final."
       },
       {
         "text": "何時からですか。",
         "correct": false,
-        "reason": "から marca INICIO ('desde qué hora'), no fin."
+        "explanation": "から marca INICIO ('desde qué hora'), no fin."
       },
       {
         "text": "いつまでですか。",
         "correct": false,
-        "reason": "いつまで pregunta '¿hasta cuándo?' (genérico, día/fecha), no específicamente hora."
+        "explanation": "いつまで pregunta '¿hasta cuándo?' (genérico, día/fecha), no específicamente hora."
       },
       {
         "text": "何時ですか。",
         "correct": false,
-        "reason": "Sin まで pregunta '¿qué hora es ahora?', no '¿hasta qué hora?'."
+        "explanation": "Sin まで pregunta '¿qué hora es ahora?', no '¿hasta qué hora?'."
       }
     ]
   },
@@ -2961,28 +2757,26 @@
     "id": "U3A-103",
     "cat": "Gramática",
     "q": "¿Cómo se pregunta '¿desde qué hora?'?",
-    "correct": "何時からですか。",
-    "explanation": "何時 + から (desde) + ですか. Pregunta el punto inicial.",
     "opts": [
       {
         "text": "何時からですか。",
         "correct": true,
-        "reason": "Correcta. から marca el inicio."
+        "explanation": "何時 + から (desde) + ですか. Pregunta el punto inicial. Correcta. から marca el inicio."
       },
       {
         "text": "何時までですか。",
         "correct": false,
-        "reason": "まで marca el FIN ('hasta qué hora')."
+        "explanation": "まで marca el FIN ('hasta qué hora')."
       },
       {
         "text": "いつからですか。",
         "correct": false,
-        "reason": "いつから es '¿desde cuándo?' (genérico), no específico de hora."
+        "explanation": "いつから es '¿desde cuándo?' (genérico), no específico de hora."
       },
       {
         "text": "どのくらいですか。",
         "correct": false,
-        "reason": "どのくらい pregunta '¿cuánto (tiempo)?', duración, no inicio."
+        "explanation": "どのくらい pregunta '¿cuánto (tiempo)?', duración, no inicio."
       }
     ]
   },
@@ -2990,28 +2784,26 @@
     "id": "U3A-104",
     "cat": "Gramática",
     "q": "¿Cómo se pregunta '¿cuándo?' de forma general (fecha/día)?",
-    "correct": "いつですか。",
-    "explanation": "いつ es el interrogativo genérico de tiempo, sin especificar hora ni día.",
     "opts": [
       {
         "text": "いつですか。",
         "correct": true,
-        "reason": "Correcta. Interrogativo temporal genérico."
+        "explanation": "いつ es el interrogativo genérico de tiempo, sin especificar hora ni día. Correcta. Interrogativo temporal genérico."
       },
       {
         "text": "何時ですか。",
         "correct": false,
-        "reason": "何時 es específico de hora, no genérico."
+        "explanation": "何時 es específico de hora, no genérico."
       },
       {
         "text": "どこですか。",
         "correct": false,
-        "reason": "どこ pregunta lugar, no tiempo."
+        "explanation": "どこ pregunta lugar, no tiempo."
       },
       {
         "text": "なんですか。",
         "correct": false,
-        "reason": "なん pregunta '¿qué?', no '¿cuándo?'."
+        "explanation": "なん pregunta '¿qué?', no '¿cuándo?'."
       }
     ]
   },
@@ -3019,28 +2811,26 @@
     "id": "U3A-105",
     "cat": "Traducción JP→ES",
     "q": "'銀行は9時から3時までです' significa:",
-    "correct": "El banco es de 9 a 3.",
-    "explanation": "銀行 (banco) + は + 9時から3時まで (de 9 a 3) + です. Informa el horario de atención.",
     "opts": [
       {
         "text": "El banco es de 9 a 3.",
         "correct": true,
-        "reason": "Correcta. Traducción literal."
+        "explanation": "銀行 (banco) + は + 9時から3時まで (de 9 a 3) + です. Informa el horario de atención. Correcta. Traducción literal."
       },
       {
         "text": "El banco abre a las 9:30.",
         "correct": false,
-        "reason": "9:30 sería 9時半. Acá hay rango から/まで."
+        "explanation": "9:30 sería 9時半. Acá hay rango から/まで."
       },
       {
         "text": "Banco de 9 hasta mañana 3.",
         "correct": false,
-        "reason": "Sin marcador de 'mañana' (明日); es horario diario simple."
+        "explanation": "Sin marcador de 'mañana' (明日); es horario diario simple."
       },
       {
         "text": "El banco está entre 9 y 3 pisos.",
         "correct": false,
-        "reason": "Pisos serían 9階, 3階 (con 階). Acá es 時 (hora)."
+        "explanation": "Pisos serían 9階, 3階 (con 階). Acá es 時 (hora)."
       }
     ]
   },
@@ -3048,28 +2838,26 @@
     "id": "U3A-106",
     "cat": "Traducción JP→ES",
     "q": "'図書館の休みは月曜日です' significa:",
-    "correct": "El día de cierre de la biblioteca es el lunes.",
-    "explanation": "図書館の休み (descanso de la biblioteca) + は + 月曜日 + です. Informa qué día cierra.",
     "opts": [
       {
         "text": "El día de cierre de la biblioteca es el lunes.",
         "correct": true,
-        "reason": "Correcta. 休み = cierre/descanso."
+        "explanation": "図書館の休み (descanso de la biblioteca) + は + 月曜日 + です. Informa qué día cierra. Correcta. 休み = cierre/descanso."
       },
       {
         "text": "La biblioteca está abierta el lunes.",
         "correct": false,
-        "reason": "Inverso: 休み implica cerrado, no abierto."
+        "explanation": "Inverso: 休み implica cerrado, no abierto."
       },
       {
         "text": "El lunes la biblioteca descansa a los lectores.",
         "correct": false,
-        "reason": "Mal análisis: 休み refiere a la biblioteca cerrando, no a 'descansar lectores'."
+        "explanation": "Mal análisis: 休み refiere a la biblioteca cerrando, no a 'descansar lectores'."
       },
       {
         "text": "La biblioteca descansa hasta el lunes.",
         "correct": false,
-        "reason": "Faltaría まで para 'hasta'. Acá es solo 月曜日."
+        "explanation": "Faltaría まで para 'hasta'. Acá es solo 月曜日."
       }
     ]
   },
@@ -3077,28 +2865,26 @@
     "id": "U3A-107",
     "cat": "Traducción JP→ES",
     "q": "'授業は9時からです' significa:",
-    "correct": "La clase es desde las 9.",
-    "explanation": "授業 (clase) + は + 9時から (desde las 9) + です. から marca el inicio.",
     "opts": [
       {
         "text": "La clase es desde las 9.",
         "correct": true,
-        "reason": "Correcta. から = desde."
+        "explanation": "授業 (clase) + は + 9時から (desde las 9) + です. から marca el inicio. Correcta. から = desde."
       },
       {
         "text": "La clase es hasta las 9.",
         "correct": false,
-        "reason": "'Hasta' sería まで, no から."
+        "explanation": "'Hasta' sería まで, no から."
       },
       {
         "text": "Hay 9 clases.",
         "correct": false,
-        "reason": "'9 clases' sería 9つの授業. Acá 9時 es la HORA."
+        "explanation": "'9 clases' sería 9つの授業. Acá 9時 es la HORA."
       },
       {
         "text": "La clase 9 empieza.",
         "correct": false,
-        "reason": "Mal análisis: 9時 es la hora, no '#9 de las clases'."
+        "explanation": "Mal análisis: 9時 es la hora, no '#9 de las clases'."
       }
     ]
   },
@@ -3106,28 +2892,26 @@
     "id": "U3A-108",
     "cat": "Traducción JP→ES",
     "q": "'テストは金曜日です' significa:",
-    "correct": "El examen es el viernes.",
-    "explanation": "テスト (examen) + は + 金曜日 (viernes) + です. Informa el día.",
     "opts": [
       {
         "text": "El examen es el viernes.",
         "correct": true,
-        "reason": "Correcta. Información directa de día."
+        "explanation": "テスト (examen) + は + 金曜日 (viernes) + です. Informa el día. Correcta. Información directa de día."
       },
       {
         "text": "El examen es del viernes.",
         "correct": false,
-        "reason": "'Del viernes' sería 金曜日の (con の). Acá es identificación, no posesión."
+        "explanation": "'Del viernes' sería 金曜日の (con の). Acá es identificación, no posesión."
       },
       {
         "text": "Viernes hay 5 exámenes.",
         "correct": false,
-        "reason": "Sin marca de cantidad (5つ). Es solo 'el examen es el viernes'."
+        "explanation": "Sin marca de cantidad (5つ). Es solo 'el examen es el viernes'."
       },
       {
         "text": "El examen dura viernes.",
         "correct": false,
-        "reason": "Duración necesitaría partícula distinta y verbo. Es identificación."
+        "explanation": "Duración necesitaría partícula distinta y verbo. Es identificación."
       }
     ]
   },
@@ -3135,28 +2919,26 @@
     "id": "U3A-109",
     "cat": "Traducción JP→ES",
     "q": "'午前10時です' significa:",
-    "correct": "Son las 10 a.m.",
-    "explanation": "午前 (a.m.) + 10時 + です = '(son) las 10 a.m.'.",
     "opts": [
       {
         "text": "Son las 10 a.m.",
         "correct": true,
-        "reason": "Correcta. 午前 = a.m."
+        "explanation": "午前 (a.m.) + 10時 + です = '(son) las 10 a.m.'. Correcta. 午前 = a.m."
       },
       {
         "text": "Son las 10 p.m.",
         "correct": false,
-        "reason": "'p.m.' sería 午後 (después del mediodía), no 午前."
+        "explanation": "'p.m.' sería 午後 (después del mediodía), no 午前."
       },
       {
         "text": "Son las 10 y después.",
         "correct": false,
-        "reason": "Mal análisis: 午前 no significa 'y después'."
+        "explanation": "Mal análisis: 午前 no significa 'y después'."
       },
       {
         "text": "Antes de las 10 a.m.",
         "correct": false,
-        "reason": "Eso sería 10時前. 午前 modifica la hora general como 'a.m.'."
+        "explanation": "Eso sería 10時前. 午前 modifica la hora general como 'a.m.'."
       }
     ]
   },
@@ -3164,28 +2946,26 @@
     "id": "U3A-110",
     "cat": "Traducción JP→ES",
     "q": "'午後3時半です' significa:",
-    "correct": "Son las 3:30 p.m.",
-    "explanation": "午後 (p.m.) + 3時半 (3 y media) + です = 'las 3:30 p.m.'.",
     "opts": [
       {
         "text": "Son las 3:30 p.m.",
         "correct": true,
-        "reason": "Correcta. 午後 + hora + 半."
+        "explanation": "午後 (p.m.) + 3時半 (3 y media) + です = 'las 3:30 p.m.'. Correcta. 午後 + hora + 半."
       },
       {
         "text": "Son las 3:30 a.m.",
         "correct": false,
-        "reason": "'a.m.' sería 午前. Acá hay 午後."
+        "explanation": "'a.m.' sería 午前. Acá hay 午後."
       },
       {
         "text": "Son las 3 y 6 p.m.",
         "correct": false,
-        "reason": "半 = 30 minutos, no 6."
+        "explanation": "半 = 30 minutos, no 6."
       },
       {
         "text": "Las 15:30 del mediodía.",
         "correct": false,
-        "reason": "Aunque 15:30 = 3:30 PM en formato 24h, la traducción natural es 'las 3:30 p.m.'."
+        "explanation": "Aunque 15:30 = 3:30 PM en formato 24h, la traducción natural es 'las 3:30 p.m.'."
       }
     ]
   },
@@ -3193,28 +2973,26 @@
     "id": "U3A-111",
     "cat": "Traducción ES→JP",
     "q": "'Son las 9:20' — ¿cuál es correcta?",
-    "correct": "9時20分です。",
-    "explanation": "Estructura: [hora]時 + [minutos]分 + です. 9時20分 = 9:20.",
     "opts": [
       {
         "text": "9時20分です。",
         "correct": true,
-        "reason": "Correcta. Orden estándar."
+        "explanation": "Estructura: [hora]時 + [minutos]分 + です. 9時20分 = 9:20. Correcta. Orden estándar."
       },
       {
         "text": "9分20時です。",
         "correct": false,
-        "reason": "Orden invertido: 時 va con la hora (9), 分 con los minutos (20)."
+        "explanation": "Orden invertido: 時 va con la hora (9), 分 con los minutos (20)."
       },
       {
         "text": "9時20です。",
         "correct": false,
-        "reason": "Falta el contador 分 después del número de minutos."
+        "explanation": "Falta el contador 分 después del número de minutos."
       },
       {
         "text": "9の20時分です。",
         "correct": false,
-        "reason": "El の no se usa entre hora y minutos. Y 時分 juntos no es estándar."
+        "explanation": "El の no se usa entre hora y minutos. Y 時分 juntos no es estándar."
       }
     ]
   },
@@ -3222,28 +3000,26 @@
     "id": "U3A-112",
     "cat": "Traducción ES→JP",
     "q": "'Son las 4 y media' — ¿cuál es correcta?",
-    "correct": "4時半です。",
-    "explanation": "[hora]時 + 半 + です = 'X y media'. 半 va después de 時.",
     "opts": [
       {
         "text": "4時半です。",
         "correct": true,
-        "reason": "Correcta. Patrón estándar."
+        "explanation": "[hora]時 + 半 + です = 'X y media'. 半 va después de 時. Correcta. Patrón estándar."
       },
       {
         "text": "半4時です。",
         "correct": false,
-        "reason": "Orden invertido: 半 va DESPUÉS de 時, no antes."
+        "explanation": "Orden invertido: 半 va DESPUÉS de 時, no antes."
       },
       {
         "text": "4時30です。",
         "correct": false,
-        "reason": "Falta el contador 分: si se pone número se necesita 4時30分."
+        "explanation": "Falta el contador 分: si se pone número se necesita 4時30分."
       },
       {
         "text": "4半時です。",
         "correct": false,
-        "reason": "半 va DESPUÉS de 時, no entre número y 時."
+        "explanation": "半 va DESPUÉS de 時, no entre número y 時."
       }
     ]
   },
@@ -3251,28 +3027,26 @@
     "id": "U3A-113",
     "cat": "Traducción ES→JP",
     "q": "'El banco es de 9 a 3' — ¿cuál es correcta?",
-    "correct": "銀行は9時から3時までです。",
-    "explanation": "Patrón completo: [tema]は + XからYまで + です.",
     "opts": [
       {
         "text": "銀行は9時から3時までです。",
         "correct": true,
-        "reason": "Correcta. Estructura canónica."
+        "explanation": "Patrón completo: [tema]は + XからYまで + です. Correcta. Estructura canónica."
       },
       {
         "text": "銀行に9時から3時です。",
         "correct": false,
-        "reason": "に no marca tema; y falta まで después de 3時."
+        "explanation": "に no marca tema; y falta まで después de 3時."
       },
       {
         "text": "銀行の9時まで3時からです。",
         "correct": false,
-        "reason": "Orden invertido y mal uso de の. から va con la hora inicial, まで con la final."
+        "explanation": "Orden invertido y mal uso de の. から va con la hora inicial, まで con la final."
       },
       {
         "text": "銀行で9時から3時までです。",
         "correct": false,
-        "reason": "で marca lugar de acción; aquí se usa は para tema."
+        "explanation": "で marca lugar de acción; aquí se usa は para tema."
       }
     ]
   },
@@ -3280,28 +3054,26 @@
     "id": "U3A-114",
     "cat": "Traducción ES→JP",
     "q": "'La biblioteca descansa los lunes' — ¿cuál es correcta?",
-    "correct": "図書館の休みは月曜日です。",
-    "explanation": "Patrón: [lugar]の休み (descanso del lugar) + は + 月曜日 + です.",
     "opts": [
       {
         "text": "図書館の休みは月曜日です。",
         "correct": true,
-        "reason": "Correcta. Estructura natural."
+        "explanation": "Patrón: [lugar]の休み (descanso del lugar) + は + 月曜日 + です. Correcta. Estructura natural."
       },
       {
         "text": "図書館は月曜日で休みです。",
         "correct": false,
-        "reason": "で aquí no encaja correctamente; la estructura natural es 図書館の休みは月曜日 o 図書館は月曜日が休み."
+        "explanation": "で aquí no encaja correctamente; la estructura natural es 図書館の休みは月曜日 o 図書館は月曜日が休み."
       },
       {
         "text": "月曜日に図書館が休みます。",
         "correct": false,
-        "reason": "休む como verbo conjugado (休みます) cambia el sentido a 'la biblioteca descansa físicamente', poco natural."
+        "explanation": "休む como verbo conjugado (休みます) cambia el sentido a 'la biblioteca descansa físicamente', poco natural."
       },
       {
         "text": "図書館が月曜日休みを。",
         "correct": false,
-        "reason": "を no encaja al final; estructura agramatical."
+        "explanation": "を no encaja al final; estructura agramatical."
       }
     ]
   },
@@ -3309,28 +3081,26 @@
     "id": "U3A-115",
     "cat": "Traducción ES→JP",
     "q": "'La clase es de 9 a 12:30' — ¿cuál es correcta?",
-    "correct": "授業は9時から12時半までです。",
-    "explanation": "授業 (clase) + は + 9時から12時半まで (de 9 a 12:30) + です.",
     "opts": [
       {
         "text": "授業は9時から12時半までです。",
         "correct": true,
-        "reason": "Correcta. Rango horario completo."
+        "explanation": "授業 (clase) + は + 9時から12時半まで (de 9 a 12:30) + です. Correcta. Rango horario completo."
       },
       {
         "text": "授業で9時と12時半までです。",
         "correct": false,
-        "reason": "で y と no son la combinación correcta para rango temporal; se usa から/まで."
+        "explanation": "で y と no son la combinación correcta para rango temporal; se usa から/まで."
       },
       {
         "text": "授業を9時から12時半までです。",
         "correct": false,
-        "reason": "を marca objeto directo; en identificación con です se usa は."
+        "explanation": "を marca objeto directo; en identificación con です se usa は."
       },
       {
         "text": "授業は9時まで12時半からです。",
         "correct": false,
-        "reason": "から/まで invertidas: から va con hora inicial (9時), まで con final (12時半)."
+        "explanation": "から/まで invertidas: から va con hora inicial (9時), まで con final (12時半)."
       }
     ]
   },
@@ -3338,28 +3108,26 @@
     "id": "U3A-116",
     "cat": "Traducción ES→JP",
     "q": "'¿Hasta qué hora?' — ¿cuál es correcta?",
-    "correct": "何時までですか。",
-    "explanation": "何時 + まで + ですか pregunta el punto final.",
     "opts": [
       {
         "text": "何時までですか。",
         "correct": true,
-        "reason": "Correcta. Patrón estándar."
+        "explanation": "何時 + まで + ですか pregunta el punto final. Correcta. Patrón estándar."
       },
       {
         "text": "何時からですか。",
         "correct": false,
-        "reason": "から es '¿desde qué hora?', opuesto."
+        "explanation": "から es '¿desde qué hora?', opuesto."
       },
       {
         "text": "いつまでですか。",
         "correct": false,
-        "reason": "いつ es '¿cuándo?' genérico; 何時 es específico de hora."
+        "explanation": "いつ es '¿cuándo?' genérico; 何時 es específico de hora."
       },
       {
         "text": "何までですか。",
         "correct": false,
-        "reason": "Falta 時: solo 何 sin contador no pregunta hora."
+        "explanation": "Falta 時: solo 何 sin contador no pregunta hora."
       }
     ]
   },
@@ -3367,28 +3135,26 @@
     "id": "U3A-117",
     "cat": "Diálogo",
     "q": "Entrás a un correo y querés saber el horario. ¿Qué preguntás?",
-    "correct": "そちらは何時から何時までですか。",
-    "explanation": "そちら (su lugar, formal hacia el negocio) + 何時から何時まで (de qué a qué hora) + ですか.",
     "opts": [
       {
         "text": "そちらは何時から何時までですか。",
         "correct": true,
-        "reason": "Correcta. Pregunta natural por horario."
+        "explanation": "そちら (su lugar, formal hacia el negocio) + 何時から何時まで (de qué a qué hora) + ですか. Correcta. Pregunta natural por horario."
       },
       {
         "text": "何曜日ですか。",
         "correct": false,
-        "reason": "Pregunta día de la semana, no horario."
+        "explanation": "Pregunta día de la semana, no horario."
       },
       {
         "text": "いつですか。",
         "correct": false,
-        "reason": "Pregunta '¿cuándo?' genéricamente, no horario específico."
+        "explanation": "Pregunta '¿cuándo?' genéricamente, no horario específico."
       },
       {
         "text": "これはいくらですか。",
         "correct": false,
-        "reason": "Pregunta precio, no horario."
+        "explanation": "Pregunta precio, no horario."
       }
     ]
   },
@@ -3396,28 +3162,26 @@
     "id": "U3A-118",
     "cat": "Diálogo",
     "q": "Para decir 'de lunes a viernes' en kanji:",
-    "correct": "月曜日から金曜日まで",
-    "explanation": "Patrón XからYまで con días: 月曜日 + から + 金曜日 + まで.",
     "opts": [
       {
         "text": "月曜日から金曜日まで",
         "correct": true,
-        "reason": "Correcta. Patrón estándar."
+        "explanation": "Patrón XからYまで con días: 月曜日 + から + 金曜日 + まで. Correcta. Patrón estándar."
       },
       {
         "text": "月から金で",
         "correct": false,
-        "reason": "で no marca rango; falta 曜日 y で no aplica acá."
+        "explanation": "で no marca rango; falta 曜日 y で no aplica acá."
       },
       {
         "text": "月曜日に金曜日まで",
         "correct": false,
-        "reason": "に no marca inicio de rango; se usa から."
+        "explanation": "に no marca inicio de rango; se usa から."
       },
       {
         "text": "月曜日が金曜日まで",
         "correct": false,
-        "reason": "が marca sujeto, no inicio de rango."
+        "explanation": "が marca sujeto, no inicio de rango."
       }
     ]
   },
@@ -3425,28 +3189,26 @@
     "id": "U3A-119",
     "cat": "Diálogo",
     "q": "¿Cuál palabra completa: 'X時Y分＿＿'? (quiere decir 'antes de')",
-    "correct": "前",
-    "explanation": "前 (まえ) después de 'X時Y分' significa 'Y minutos antes de las X'.",
     "opts": [
       {
         "text": "前",
         "correct": true,
-        "reason": "Correcta. Marca 'antes de la hora'."
+        "explanation": "前 (まえ) después de 'X時Y分' significa 'Y minutos antes de las X'. Correcta. Marca 'antes de la hora'."
       },
       {
         "text": "後",
         "correct": false,
-        "reason": "後 (あと/ご) es 'después', opuesto."
+        "explanation": "後 (あと/ご) es 'después', opuesto."
       },
       {
         "text": "半",
         "correct": false,
-        "reason": "半 es 'media hora' (30 min), no 'antes'."
+        "explanation": "半 es 'media hora' (30 min), no 'antes'."
       },
       {
         "text": "中",
         "correct": false,
-        "reason": "中 es 'durante/en medio', no temporal en este patrón."
+        "explanation": "中 es 'durante/en medio', no temporal en este patrón."
       }
     ]
   },
@@ -3454,28 +3216,26 @@
     "id": "U3A-120",
     "cat": "Diálogo",
     "q": "¿Qué diferencia hay entre 時 y 時間?",
-    "correct": "時 = hora puntual (las 3) / 時間 = duración (horas, tiempo)",
-    "explanation": "時 indica un punto en el tiempo (3時 = las 3); 時間 indica duración o tiempo abstracto (3時間 = 3 horas de duración).",
     "opts": [
       {
         "text": "時 = hora puntual (las 3) / 時間 = duración (horas, tiempo)",
         "correct": true,
-        "reason": "Correcta. Distinción funcional clave."
+        "explanation": "時 indica un punto en el tiempo (3時 = las 3); 時間 indica duración o tiempo abstracto (3時間 = 3 horas de duración). Correcta. Distinción funcional clave."
       },
       {
         "text": "Son lo mismo",
         "correct": false,
-        "reason": "Falso: distinguen punto vs. duración."
+        "explanation": "Falso: distinguen punto vs. duración."
       },
       {
         "text": "時 = duración / 時間 = puntual",
         "correct": false,
-        "reason": "Invertido."
+        "explanation": "Invertido."
       },
       {
         "text": "時 se usa solo en presente",
         "correct": false,
-        "reason": "Falso: 時 funciona en cualquier tiempo."
+        "explanation": "Falso: 時 funciona en cualquier tiempo."
       }
     ]
   },
@@ -3483,28 +3243,26 @@
     "id": "U3A-121",
     "cat": "Diálogo",
     "q": "'午前10時' es:",
-    "correct": "Las 10 de la mañana",
-    "explanation": "午前 (a.m.) + 10時 = 10:00 a.m.",
     "opts": [
       {
         "text": "Las 10 de la mañana",
         "correct": true,
-        "reason": "Correcta. 午前 = a.m."
+        "explanation": "午前 (a.m.) + 10時 = 10:00 a.m. Correcta. 午前 = a.m."
       },
       {
         "text": "Las 10 de la noche",
         "correct": false,
-        "reason": "Eso sería 午後10時 (p.m.) o 夜10時."
+        "explanation": "Eso sería 午後10時 (p.m.) o 夜10時."
       },
       {
         "text": "A las 10 y 22",
         "correct": false,
-        "reason": "10 y 22 minutos sería 10時22分; acá no hay '22'."
+        "explanation": "10 y 22 minutos sería 10時22分; acá no hay '22'."
       },
       {
         "text": "Antes de las 10",
         "correct": false,
-        "reason": "'Antes de' sería 前. 午前 ≠ 前."
+        "explanation": "'Antes de' sería 前. 午前 ≠ 前."
       }
     ]
   },
@@ -3512,28 +3270,26 @@
     "id": "U3A-122",
     "cat": "Diálogo",
     "q": "'午後9時' es:",
-    "correct": "Las 9 de la noche",
-    "explanation": "午後 (p.m.) + 9時 = 9:00 p.m.",
     "opts": [
       {
         "text": "Las 9 de la noche",
         "correct": true,
-        "reason": "Correcta. 午後 = p.m. (incluye noche)."
+        "explanation": "午後 (p.m.) + 9時 = 9:00 p.m. Correcta. 午後 = p.m. (incluye noche)."
       },
       {
         "text": "Las 9 de la mañana",
         "correct": false,
-        "reason": "'A.m.' es 午前."
+        "explanation": "'A.m.' es 午前."
       },
       {
         "text": "A las 9 y media",
         "correct": false,
-        "reason": "'Y media' sería 9時半. Falta el 半."
+        "explanation": "'Y media' sería 9時半. Falta el 半."
       },
       {
         "text": "9 horas de la tarde",
         "correct": false,
-        "reason": "'9 horas' (duración) sería 9時間. Acá es hora puntual."
+        "explanation": "'9 horas' (duración) sería 9時間. Acá es hora puntual."
       }
     ]
   },
@@ -3541,28 +3297,26 @@
     "id": "U3A-123",
     "cat": "Diálogo",
     "q": "Si un lugar está '休み' un día, significa que ese día:",
-    "correct": "Está cerrado / es día de descanso",
-    "explanation": "休み aplicado a un negocio/lugar significa cierre/descanso ese día.",
     "opts": [
       {
         "text": "Está cerrado / es día de descanso",
         "correct": true,
-        "reason": "Correcta. 休み = cierre/descanso."
+        "explanation": "休み aplicado a un negocio/lugar significa cierre/descanso ese día. Correcta. 休み = cierre/descanso."
       },
       {
         "text": "Está lleno",
         "correct": false,
-        "reason": "'Lleno' sería 満員 (まんいん). 休み es cerrado."
+        "explanation": "'Lleno' sería 満員 (まんいん). 休み es cerrado."
       },
       {
         "text": "Está abierto 24 horas",
         "correct": false,
-        "reason": "Eso sería 24時間営業 (24じかんえいぎょう). Opuesto a 休み."
+        "explanation": "Eso sería 24時間営業 (24じかんえいぎょう). Opuesto a 休み."
       },
       {
         "text": "Es un feriado nacional",
         "correct": false,
-        "reason": "'Feriado nacional' es 祝日. 休み es más amplio (cierres semanales también)."
+        "explanation": "'Feriado nacional' es 祝日. 休み es más amplio (cierres semanales también)."
       }
     ]
   },
@@ -3570,28 +3324,26 @@
     "id": "U3A-124",
     "cat": "Diálogo",
     "q": "Si alguien dice '病院は9時からです', quiere decir:",
-    "correct": "El hospital atiende desde las 9.",
-    "explanation": "病院 (hospital) + は + 9時から + です. から indica inicio de atención.",
     "opts": [
       {
         "text": "El hospital atiende desde las 9.",
         "correct": true,
-        "reason": "Correcta. から = desde."
+        "explanation": "病院 (hospital) + は + 9時から + です. から indica inicio de atención. Correcta. から = desde."
       },
       {
         "text": "Hay hospital a las 9.",
         "correct": false,
-        "reason": "'Hay' sería ある/あります. Acá です es identificación de horario."
+        "explanation": "'Hay' sería ある/あります. Acá です es identificación de horario."
       },
       {
         "text": "Sólo 9 personas en el hospital.",
         "correct": false,
-        "reason": "'9 personas' sería 9人. Acá 9時 es la hora."
+        "explanation": "'9 personas' sería 9人. Acá 9時 es la hora."
       },
       {
         "text": "El hospital cierra a las 9.",
         "correct": false,
-        "reason": "'Cierra' sería 終わります o 9時まで (hasta). から es 'desde'."
+        "explanation": "'Cierra' sería 終わります o 9時まで (hasta). から es 'desde'."
       }
     ]
   },
@@ -3599,28 +3351,26 @@
     "id": "U3A-125",
     "cat": "Distinción",
     "q": "¿Cuál de estas lecturas de 時 es INCORRECTA?",
-    "correct": "7時 = ななじ",
-    "explanation": "7時 es IRREGULAR: usa しち (no なな). Aunque なな se usa en otros contadores, en horas tradicionales se mantiene しち.",
     "opts": [
       {
         "text": "7時 = ななじ",
         "correct": true,
-        "reason": "Correcta como respuesta (es la INCORRECTA): 7時 se lee しちじ, no ななじ."
+        "explanation": "7時 es IRREGULAR: usa しち (no なな). Aunque なな se usa en otros contadores, en horas tradicionales se mantiene しち. Correcta como respuesta (es la INCORRECTA): 7時 se lee しちじ, no ななじ."
       },
       {
         "text": "4時 = よじ",
         "correct": false,
-        "reason": "Esta SÍ es correcta: 4時 es irregular y usa よ."
+        "explanation": "Esta SÍ es correcta: 4時 es irregular y usa よ."
       },
       {
         "text": "9時 = くじ",
         "correct": false,
-        "reason": "Esta SÍ es correcta: 9時 es irregular y usa く."
+        "explanation": "Esta SÍ es correcta: 9時 es irregular y usa く."
       },
       {
         "text": "7時 = しちじ",
         "correct": false,
-        "reason": "Esta SÍ es correcta: しちじ es la lectura tradicional fija."
+        "explanation": "Esta SÍ es correcta: しちじ es la lectura tradicional fija."
       }
     ]
   },
@@ -3628,28 +3378,26 @@
     "id": "U3A-126",
     "cat": "Distinción",
     "q": "¿Cuál lectura de 分 es INCORRECTA?",
-    "correct": "10分 = じゅうふん",
-    "explanation": "10分 requiere sokuon + handakuten: じゅっぷん (o じっぷん formal). じゅうふん sin asimilación es incorrecto.",
     "opts": [
       {
         "text": "10分 = じゅうふん",
         "correct": true,
-        "reason": "Correcta como respuesta (es la INCORRECTA): falta el sokuon+handakuten."
+        "explanation": "10分 requiere sokuon + handakuten: じゅっぷん (o じっぷん formal). じゅうふん sin asimilación es incorrecto. Correcta como respuesta (es la INCORRECTA): falta el sokuon+handakuten."
       },
       {
         "text": "10分 = じゅっぷん",
         "correct": false,
-        "reason": "Esta SÍ es correcta: pronunciación moderna estándar."
+        "explanation": "Esta SÍ es correcta: pronunciación moderna estándar."
       },
       {
         "text": "1分 = いっぷん",
         "correct": false,
-        "reason": "Esta SÍ es correcta: sokuon+handakuten obligatorios."
+        "explanation": "Esta SÍ es correcta: sokuon+handakuten obligatorios."
       },
       {
         "text": "8分 = はっぷん",
         "correct": false,
-        "reason": "Esta SÍ es correcta: sokuon+handakuten obligatorios."
+        "explanation": "Esta SÍ es correcta: sokuon+handakuten obligatorios."
       }
     ]
   },
@@ -3657,28 +3405,26 @@
     "id": "U3A-127",
     "cat": "Vocabulario",
     "q": "'半' después de una hora significa:",
-    "correct": "Y media (30 minutos)",
-    "explanation": "半 (はん) literalmente 'mitad' equivale a 30 minutos cuando sigue a 時.",
     "opts": [
       {
         "text": "Y media (30 minutos)",
         "correct": true,
-        "reason": "Correcta. Significado central."
+        "explanation": "半 (はん) literalmente 'mitad' equivale a 30 minutos cuando sigue a 時. Correcta. Significado central."
       },
       {
         "text": "Cuarto (15 minutos)",
         "correct": false,
-        "reason": "'Cuarto' sería 15分 (じゅうごふん). 半 = 30 minutos."
+        "explanation": "'Cuarto' sería 15分 (じゅうごふん). 半 = 30 minutos."
       },
       {
         "text": "Menos cuarto",
         "correct": false,
-        "reason": "'Menos cuarto' sería 15分前. 半 es '+30', no '-15'."
+        "explanation": "'Menos cuarto' sería 15分前. 半 es '+30', no '-15'."
       },
       {
         "text": "A punto de",
         "correct": false,
-        "reason": "'A punto de' es もうすぐ. 半 es específicamente 30 minutos."
+        "explanation": "'A punto de' es もうすぐ. 半 es específicamente 30 minutos."
       }
     ]
   },
@@ -3686,28 +3432,26 @@
     "id": "U3A-128",
     "cat": "Vocabulario",
     "q": "'前' después de 'X時Y分' significa:",
-    "correct": "Faltan Y minutos para las X (antes de)",
-    "explanation": "El patrón 'X時Y分前' indica 'Y minutos antes de la hora X'. Ejemplo: 5時10分前 = 4:50.",
     "opts": [
       {
         "text": "Faltan Y minutos para las X (antes de)",
         "correct": true,
-        "reason": "Correcta. Función central de 前."
+        "explanation": "El patrón 'X時Y分前' indica 'Y minutos antes de la hora X'. Ejemplo: 5時10分前 = 4:50. Correcta. Función central de 前."
       },
       {
         "text": "Pasadas las X y Y",
         "correct": false,
-        "reason": "'Pasadas' sería 過ぎ. 前 es 'antes de', opuesto."
+        "explanation": "'Pasadas' sería 過ぎ. 前 es 'antes de', opuesto."
       },
       {
         "text": "Cada X horas Y minutos",
         "correct": false,
-        "reason": "'Cada' sería ごとに. 前 no expresa frecuencia."
+        "explanation": "'Cada' sería ごとに. 前 no expresa frecuencia."
       },
       {
         "text": "Desde las X y Y",
         "correct": false,
-        "reason": "'Desde' sería から. 前 es 'antes de'."
+        "explanation": "'Desde' sería から. 前 es 'antes de'."
       }
     ]
   },
@@ -3715,28 +3459,26 @@
     "id": "U3A-129",
     "cat": "Diálogo",
     "q": "¿Cuál es la respuesta correcta a '何曜日ですか'?",
-    "correct": "水曜日です。",
-    "explanation": "Pregunta por DÍA DE LA SEMANA. Respuesta natural: día de la semana + です.",
     "opts": [
       {
         "text": "水曜日です。",
         "correct": true,
-        "reason": "Correcta. Día de la semana."
+        "explanation": "Pregunta por DÍA DE LA SEMANA. Respuesta natural: día de la semana + です. Correcta. Día de la semana."
       },
       {
         "text": "9時です。",
         "correct": false,
-        "reason": "Es respuesta de hora, no día."
+        "explanation": "Es respuesta de hora, no día."
       },
       {
         "text": "3月です。",
         "correct": false,
-        "reason": "Es respuesta de mes, no día de la semana."
+        "explanation": "Es respuesta de mes, no día de la semana."
       },
       {
         "text": "図書館です。",
         "correct": false,
-        "reason": "Es respuesta de lugar."
+        "explanation": "Es respuesta de lugar."
       }
     ]
   },
@@ -3744,28 +3486,26 @@
     "id": "U3A-130",
     "cat": "Diálogo",
     "q": "¿Cuál es la respuesta correcta a 'いつですか' (cuando se pregunta por un día)?",
-    "correct": "金曜日です。",
-    "explanation": "いつ es genérico de tiempo; en contexto de día, la respuesta natural es un día de la semana o fecha.",
     "opts": [
       {
         "text": "金曜日です。",
         "correct": true,
-        "reason": "Correcta. Día específico."
+        "explanation": "いつ es genérico de tiempo; en contexto de día, la respuesta natural es un día de la semana o fecha. Correcta. Día específico."
       },
       {
         "text": "午前です。",
         "correct": false,
-        "reason": "'A.m.' es solo parte del día, no día específico."
+        "explanation": "'A.m.' es solo parte del día, no día específico."
       },
       {
         "text": "9時20分です。",
         "correct": false,
-        "reason": "Es hora puntual, no día."
+        "explanation": "Es hora puntual, no día."
       },
       {
         "text": "病院です。",
         "correct": false,
-        "reason": "Es lugar, no tiempo."
+        "explanation": "Es lugar, no tiempo."
       }
     ]
   },
@@ -3773,28 +3513,26 @@
     "id": "U3A-131",
     "cat": "Traducción JP→ES",
     "q": "En '7時15分前です', ¿qué hora es realmente?",
-    "correct": "6:45",
-    "explanation": "前 indica 'antes de la hora dada'. 7時15分前 = 'falta 15 para las 7' = 6:45.",
     "opts": [
       {
         "text": "6:45",
         "correct": true,
-        "reason": "Correcta. 7:00 - 0:15 = 6:45."
+        "explanation": "前 indica 'antes de la hora dada'. 7時15分前 = 'falta 15 para las 7' = 6:45. Correcta. 7:00 - 0:15 = 6:45."
       },
       {
         "text": "7:15",
         "correct": false,
-        "reason": "7:15 sería 7時15分 (sin 前)."
+        "explanation": "7:15 sería 7時15分 (sin 前)."
       },
       {
         "text": "7:45",
         "correct": false,
-        "reason": "7:45 sería 7時45分 o 8時15分前."
+        "explanation": "7:45 sería 7時45分 o 8時15分前."
       },
       {
         "text": "6:15",
         "correct": false,
-        "reason": "6:15 sería 6時15分."
+        "explanation": "6:15 sería 6時15分."
       }
     ]
   },
@@ -3802,28 +3540,26 @@
     "id": "U3A-132",
     "cat": "Traducción JP→ES",
     "q": "En '10時半です', ¿qué hora es?",
-    "correct": "10:30",
-    "explanation": "半 = 30 minutos. 10時半 = 10:30.",
     "opts": [
       {
         "text": "10:30",
         "correct": true,
-        "reason": "Correcta. 半 = 30."
+        "explanation": "半 = 30 minutos. 10時半 = 10:30. Correcta. 半 = 30."
       },
       {
         "text": "10:15",
         "correct": false,
-        "reason": "10:15 sería 10時15分."
+        "explanation": "10:15 sería 10時15分."
       },
       {
         "text": "10:45",
         "correct": false,
-        "reason": "10:45 sería 10時45分 o 11時15分前."
+        "explanation": "10:45 sería 10時45分 o 11時15分前."
       },
       {
         "text": "11:30",
         "correct": false,
-        "reason": "11:30 sería 11時半."
+        "explanation": "11:30 sería 11時半."
       }
     ]
   },
@@ -3831,28 +3567,26 @@
     "id": "U3A-133",
     "cat": "Kanji → Significado",
     "q": "¿Qué significa テスト?",
-    "correct": "Examen / test",
-    "explanation": "テスト viene del inglés 'test'. Designa cualquier examen escolar/profesional.",
     "opts": [
       {
         "text": "Examen / test",
         "correct": true,
-        "reason": "Correcta. Préstamo del inglés."
+        "explanation": "テスト viene del inglés 'test'. Designa cualquier examen escolar/profesional. Correcta. Préstamo del inglés."
       },
       {
         "text": "Clase",
         "correct": false,
-        "reason": "'Clase' es 授業 (じゅぎょう) o クラス."
+        "explanation": "'Clase' es 授業 (じゅぎょう) o クラス."
       },
       {
         "text": "Tarea",
         "correct": false,
-        "reason": "'Tarea' es 宿題 (しゅくだい)."
+        "explanation": "'Tarea' es 宿題 (しゅくだい)."
       },
       {
         "text": "Profesor",
         "correct": false,
-        "reason": "'Profesor' es 先生 (せんせい)."
+        "explanation": "'Profesor' es 先生 (せんせい)."
       }
     ]
   },
@@ -3860,28 +3594,26 @@
     "id": "U3A-134",
     "cat": "Kanji → Significado",
     "q": "¿Qué es スケジュール?",
-    "correct": "Agenda / horario",
-    "explanation": "スケジュール viene del inglés 'schedule'. Designa la agenda o cronograma de actividades.",
     "opts": [
       {
         "text": "Agenda / horario",
         "correct": true,
-        "reason": "Correcta. Préstamo del inglés."
+        "explanation": "スケジュール viene del inglés 'schedule'. Designa la agenda o cronograma de actividades. Correcta. Préstamo del inglés."
       },
       {
         "text": "Reloj",
         "correct": false,
-        "reason": "'Reloj' es 時計 (とけい)."
+        "explanation": "'Reloj' es 時計 (とけい)."
       },
       {
         "text": "Calendario",
         "correct": false,
-        "reason": "'Calendario' es カレンダー."
+        "explanation": "'Calendario' es カレンダー."
       },
       {
         "text": "Cita",
         "correct": false,
-        "reason": "'Cita/reunión' es 約束 (やくそく) o アポイント."
+        "explanation": "'Cita/reunión' es 約束 (やくそく) o アポイント."
       }
     ]
   }
