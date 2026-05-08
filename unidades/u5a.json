@@ -1,0 +1,2513 @@
+[
+  {
+    "id": "U5A-001",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 週末?",
+    "opts": [
+      {
+        "text": "しゅうまつ",
+        "correct": true,
+        "explanation": "週 (しゅう, 'semana') + 末 (まつ, 'fin/final') = しゅうまつ, 'fin de semana'. Correcta. Lectura on'yomi de ambos kanji."
+      },
+      {
+        "text": "しゅまつ",
+        "correct": false,
+        "explanation": "Falta la vocal larga: 週 lleva しゅう (con う), no しゅ corta."
+      },
+      {
+        "text": "しゅうばつ",
+        "correct": false,
+        "explanation": "末 no toma rendaku (まつ → ばつ) en este compuesto. ばつ es lectura de 罰 ('castigo')."
+      },
+      {
+        "text": "しゅうすえ",
+        "correct": false,
+        "explanation": "すえ es la kun'yomi de 末 cuando va sola. En compuesto on'yomi se usa まつ."
+      }
+    ]
+  },
+  {
+    "id": "U5A-002",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 先週?",
+    "opts": [
+      {
+        "text": "せんしゅう",
+        "correct": true,
+        "explanation": "先 (せん, 'anterior/previo') + 週 (しゅう, 'semana') = せんしゅう, 'la semana pasada'. Correcta. Mismo patrón que 来週 (らいしゅう, 'próxima semana')."
+      },
+      {
+        "text": "さきしゅう",
+        "correct": false,
+        "explanation": "さき es kun'yomi de 先 ('punta, antes'). En este compuesto se usa la on'yomi せん."
+      },
+      {
+        "text": "せんしゅ",
+        "correct": false,
+        "explanation": "Falta la vocal larga de 週 (しゅう, no しゅ). Además, せんしゅ (選手) significa 'atleta', kanji distinto."
+      },
+      {
+        "text": "ぜんしゅう",
+        "correct": false,
+        "explanation": "ぜん es lectura de 全 ('todo') o 前 ('anterior'). 先 se lee せん."
+      }
+    ]
+  },
+  {
+    "id": "U5A-003",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 今日?",
+    "opts": [
+      {
+        "text": "きょう",
+        "correct": true,
+        "explanation": "今日 es una lectura especial (jukujikun): los dos kanji juntos se leen きょう, sin descomponer kanji por kanji. Correcta. Memorizar como bloque."
+      },
+      {
+        "text": "こんにち",
+        "correct": false,
+        "explanation": "こんにち existe (今日は = こんにちは, 'hola') pero como sustantivo aislado 今日 es きょう. こんにち es muy formal y arcaico para 'hoy'."
+      },
+      {
+        "text": "いまひ",
+        "correct": false,
+        "explanation": "いま (kun de 今) + ひ (kun de 日) no se combina así. La lectura es la jukujikun きょう."
+      },
+      {
+        "text": "きょうにち",
+        "correct": false,
+        "explanation": "Mezcla incorrecta: きょう ya es la lectura completa, no se le agrega にち."
+      }
+    ]
+  },
+  {
+    "id": "U5A-004",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 明日?",
+    "opts": [
+      {
+        "text": "あした",
+        "correct": true,
+        "explanation": "明日 admite tres lecturas: あした (coloquial), あす (formal), みょうにち (muy formal/escrito). En conversación cotidiana es あした. Correcta. Lectura jukujikun más usada."
+      },
+      {
+        "text": "みょうび",
+        "correct": false,
+        "explanation": "明 se lee みょう en algunos compuestos, pero 日 después es にち, no び. La forma みょうにち existe pero es muy formal."
+      },
+      {
+        "text": "あけひ",
+        "correct": false,
+        "explanation": "あけ es kun de 明 ('claro, abrir') pero no se combina con ひ así. La lectura es jukujikun: あした."
+      },
+      {
+        "text": "あかるい",
+        "correct": false,
+        "explanation": "あかるい es la lectura del adjetivo 明るい ('luminoso, brillante'). Distinto del sustantivo 明日."
+      }
+    ]
+  },
+  {
+    "id": "U5A-005",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 昨日?",
+    "opts": [
+      {
+        "text": "きのう",
+        "correct": true,
+        "explanation": "昨日 es jukujikun: se lee きのう como bloque, no descomponiendo kanji por kanji. Correcta. Memorizar junto con 今日(きょう) y 明日(あした)."
+      },
+      {
+        "text": "さくじつ",
+        "correct": false,
+        "explanation": "さくじつ existe pero es muy formal/escrito (informes, noticias). En conversación se dice きのう."
+      },
+      {
+        "text": "さくひ",
+        "correct": false,
+        "explanation": "Mezcla forzada de さく (on de 昨) + ひ (kun de 日). No es combinación válida."
+      },
+      {
+        "text": "せんじつ",
+        "correct": false,
+        "explanation": "せんじつ (先日) significa 'el otro día / hace unos días', kanji y palabra distintos a 昨日."
+      }
+    ]
+  },
+  {
+    "id": "U5A-006",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 美術館?",
+    "opts": [
+      {
+        "text": "びじゅつかん",
+        "correct": true,
+        "explanation": "美 (び, 'belleza') + 術 (じゅつ, 'técnica/arte') + 館 (かん, 'edificio público') = びじゅつかん, 'museo de arte'. Correcta. Tres kanji, todos en on'yomi."
+      },
+      {
+        "text": "びじゅつやかた",
+        "correct": false,
+        "explanation": "やかた es kun'yomi de 館 ('mansión'). En palabras de instituciones públicas se usa la on'yomi かん (図書館, 映画館, 美術館)."
+      },
+      {
+        "text": "うつくしじゅつかん",
+        "correct": false,
+        "explanation": "うつくし es kun de 美 (うつくしい, 'hermoso'). En este compuesto se usa la on'yomi び."
+      },
+      {
+        "text": "びじゅかん",
+        "correct": false,
+        "explanation": "Falta el っ del 術 (じゅつ, no じゅ). La pronunciación correcta es びじゅつかん con 4 moras claras."
+      }
+    ]
+  },
+  {
+    "id": "U5A-007",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 部屋?",
+    "opts": [
+      {
+        "text": "へや",
+        "correct": true,
+        "explanation": "部屋 es jukujikun: se lee へや (no las on'yomi ぶ + おく). Una de las palabras de uso diario más comunes. Correcta. Habitación/cuarto."
+      },
+      {
+        "text": "ぶおく",
+        "correct": false,
+        "explanation": "ぶ es on de 部, おく es kun de 屋, pero esta combinación no se usa. La lectura aceptada es la jukujikun へや."
+      },
+      {
+        "text": "へおく",
+        "correct": false,
+        "explanation": "へ no es lectura estándar de 部. La jukujikun es へや."
+      },
+      {
+        "text": "ぶや",
+        "correct": false,
+        "explanation": "ぶ es on de 部 pero no se combina con や para esta palabra. La lectura es へや."
+      }
+    ]
+  },
+  {
+    "id": "U5A-008",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 家族?",
+    "opts": [
+      {
+        "text": "かぞく",
+        "correct": true,
+        "explanation": "家 (か, 'casa') + 族 (ぞく, 'clan/grupo') = かぞく, 'familia'. Correcta. On'yomi en ambos kanji con rendaku no aplicado (族 mantiene ぞく)."
+      },
+      {
+        "text": "いえぞく",
+        "correct": false,
+        "explanation": "いえ es kun de 家 ('casa' como edificio). En este compuesto abstracto se usa la on'yomi か."
+      },
+      {
+        "text": "かそく",
+        "correct": false,
+        "explanation": "族 se lee ぞく con sonido sonoro (rendaku natural en compuestos), no そく."
+      },
+      {
+        "text": "うちぞく",
+        "correct": false,
+        "explanation": "うち es lectura alternativa de 家 ('mi casa') pero no aplica en este compuesto formal. Es かぞく."
+      }
+    ]
+  },
+  {
+    "id": "U5A-009",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 恋人?",
+    "opts": [
+      {
+        "text": "こいびと",
+        "correct": true,
+        "explanation": "恋 (こい, 'amor romántico') + 人 (ひと → びと con rendaku) = こいびと, 'pareja sentimental'. Correcta. Hay rendaku en 人 (ひと → びと)."
+      },
+      {
+        "text": "こいひと",
+        "correct": false,
+        "explanation": "Falta el rendaku: 人 cambia a びと (sonoro) tras 恋. La lectura sin rendaku no es la natural."
+      },
+      {
+        "text": "れんじん",
+        "correct": false,
+        "explanation": "れん es on'yomi de 恋 (existe pero rara), じん es on de 人. La palabra usa kun'yomi: こいびと."
+      },
+      {
+        "text": "こいにん",
+        "correct": false,
+        "explanation": "にん es on de 人 (usado en contadores: 三人 さんにん). Para esta palabra se usa la kun びと/ひと con rendaku."
+      }
+    ]
+  },
+  {
+    "id": "U5A-010",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 友達?",
+    "opts": [
+      {
+        "text": "ともだち",
+        "correct": true,
+        "explanation": "友 (とも, 'amigo') + 達 (たち → だち con rendaku, pluralizador/familiaridad) = ともだち, 'amigo/a'. Correcta. Rendaku en 達 (たち → だち)."
+      },
+      {
+        "text": "ゆうたつ",
+        "correct": false,
+        "explanation": "ゆう (on de 友) + たつ (on de 達 raramente usada) no es combinación válida. Se usa la kun ともだち."
+      },
+      {
+        "text": "ともたち",
+        "correct": false,
+        "explanation": "Falta el rendaku: 達 cambia a だち (sonoro) en este compuesto. La forma sin rendaku es incorrecta."
+      },
+      {
+        "text": "ゆうじん",
+        "correct": false,
+        "explanation": "友人 (ゆうじん) existe y significa 'amigo' formal, pero el kanji 達 no se lee じん. Son palabras distintas."
+      }
+    ]
+  },
+  {
+    "id": "U5A-011",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 食事?",
+    "opts": [
+      {
+        "text": "しょくじ",
+        "correct": true,
+        "explanation": "食 (しょく, 'comer/comida') + 事 (じ, 'asunto/cosa') = しょくじ, 'comida/comer (formal)'. Correcta. Ambos en on'yomi."
+      },
+      {
+        "text": "たべごと",
+        "correct": false,
+        "explanation": "たべ es la base de 食べる, ごと sería rendaku de 事 (こと → ごと), pero 食事 usa on'yomi: しょくじ."
+      },
+      {
+        "text": "しょくこと",
+        "correct": false,
+        "explanation": "こと es kun de 事 pero en este compuesto formal se usa la on'yomi じ."
+      },
+      {
+        "text": "じき",
+        "correct": false,
+        "explanation": "じき es lectura de 時期 ('período'), kanji y palabra distintos."
+      }
+    ]
+  },
+  {
+    "id": "U5A-012",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 洗濯?",
+    "opts": [
+      {
+        "text": "せんたく",
+        "correct": true,
+        "explanation": "洗 (せん, 'lavar') + 濯 (たく, 'enjuagar/lavar') = せんたく, 'lavar la ropa'. Correcta. On'yomi en ambos kanji."
+      },
+      {
+        "text": "あらいたく",
+        "correct": false,
+        "explanation": "あらい es kun de 洗 (洗う = あらう), pero en este compuesto se usa la on'yomi せん."
+      },
+      {
+        "text": "せんだく",
+        "correct": false,
+        "explanation": "濯 mantiene たく sin rendaku tras せん. La forma con rendaku no se usa aquí."
+      },
+      {
+        "text": "せんじょう",
+        "correct": false,
+        "explanation": "せんじょう es lectura de 洗浄 ('limpieza/lavado industrial'), kanji distinto al final (浄 vs 濯)."
+      }
+    ]
+  },
+  {
+    "id": "U5A-013",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 掃除?",
+    "opts": [
+      {
+        "text": "そうじ",
+        "correct": true,
+        "explanation": "掃 (そう, 'barrer') + 除 (じ, 'quitar/eliminar') = そうじ, 'limpiar/limpieza'. Correcta. On'yomi en ambos."
+      },
+      {
+        "text": "はくじ",
+        "correct": false,
+        "explanation": "はく es kun de 掃 (掃く = はく, 'barrer'), pero en este compuesto se usa la on'yomi そう."
+      },
+      {
+        "text": "そうじょ",
+        "correct": false,
+        "explanation": "じょ es otra lectura on de 除 (除外 = じょがい), pero en 掃除 es じ. Memorizar la palabra completa."
+      },
+      {
+        "text": "そうのぞく",
+        "correct": false,
+        "explanation": "のぞく es kun de 除 (除く), pero acá va la on'yomi じ."
+      }
+    ]
+  },
+  {
+    "id": "U5A-014",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 買い物?",
+    "opts": [
+      {
+        "text": "かいもの",
+        "correct": true,
+        "explanation": "買い (かい, base ren'youkei de 買う 'comprar') + 物 (もの, 'cosa') = かいもの, 'compra/compras'. Correcta. Combinación de verbo nominalizado + sustantivo."
+      },
+      {
+        "text": "かいぶつ",
+        "correct": false,
+        "explanation": "ぶつ es on de 物, pero en este compuesto se usa la kun もの. かいぶつ (怪物) significa 'monstruo', distinto."
+      },
+      {
+        "text": "ばいもの",
+        "correct": false,
+        "explanation": "ばい es on de 買 (売買 = ばいばい). En 買い物 se usa la kun かう/かい."
+      },
+      {
+        "text": "かもつ",
+        "correct": false,
+        "explanation": "かもつ (貨物) existe y significa 'carga/mercancía', pero el kanji y la palabra son distintos."
+      }
+    ]
+  },
+  {
+    "id": "U5A-015",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 1人で?",
+    "opts": [
+      {
+        "text": "ひとりで",
+        "correct": true,
+        "explanation": "1人 es jukujikun: se lee ひとり ('una persona/solo'), no いちにん. + で (partícula de modo) = ひとりで, 'solo/por mi cuenta'. Correcta. Memorizar la lectura especial de 1人."
+      },
+      {
+        "text": "いちにんで",
+        "correct": false,
+        "explanation": "いちにん es la lectura literal (1=いち + 人=にん) pero NO se usa para esta palabra. La lectura jukujikun es ひとり."
+      },
+      {
+        "text": "ひとりに",
+        "correct": false,
+        "explanation": "La partícula correcta es で (modo), no に. ひとりで significa 'solo (haciendo algo)'."
+      },
+      {
+        "text": "いちひとで",
+        "correct": false,
+        "explanation": "Mezcla incorrecta de lecturas. La forma correcta es la jukujikun ひとり."
+      }
+    ]
+  },
+  {
+    "id": "U5A-016",
+    "cat": "Kanji → Lectura",
+    "q": "En 友達と会いました, ¿cómo se lee 会?",
+    "opts": [
+      {
+        "text": "あ",
+        "correct": true,
+        "explanation": "会 en el verbo 会う (encontrarse) se lee あ (kun'yomi). 会います → あいます, 会いました → あいました. Correcta. Kun'yomi del verbo."
+      },
+      {
+        "text": "かい",
+        "correct": false,
+        "explanation": "かい es la on'yomi (会社 = かいしゃ, 会議 = かいぎ). Como verbo (会う), se usa la kun'yomi あ."
+      },
+      {
+        "text": "え",
+        "correct": false,
+        "explanation": "え existe como lectura especial (会釈 = えしゃく) pero es rara. En 会う/会います se lee あ."
+      },
+      {
+        "text": "あい",
+        "correct": false,
+        "explanation": "あい es la base ren'youkei completa (会い-), pero la lectura del KANJI 会 es solo あ. La い viene del okurigana."
+      }
+    ]
+  },
+  {
+    "id": "U5A-017",
+    "cat": "Kanji → Significado",
+    "q": "¿Qué significa el kanji 週?",
+    "opts": [
+      {
+        "text": "Semana",
+        "correct": true,
+        "explanation": "週 representa el concepto de 'semana'. Aparece en 今週 (esta semana), 先週 (semana pasada), 来週 (próxima semana), 週末 (fin de semana). Correcta. Concepto temporal de 7 días."
+      },
+      {
+        "text": "Día",
+        "correct": false,
+        "explanation": "'Día' es 日 (にち/ひ). 週 es la unidad mayor que agrupa 7 días."
+      },
+      {
+        "text": "Mes",
+        "correct": false,
+        "explanation": "'Mes' es 月 (げつ/つき). Distinto del 週."
+      },
+      {
+        "text": "Año",
+        "correct": false,
+        "explanation": "'Año' es 年 (ねん/とし). 週 es escala menor."
+      }
+    ]
+  },
+  {
+    "id": "U5A-018",
+    "cat": "Kanji → Significado",
+    "q": "¿Qué significa el kanji 末?",
+    "opts": [
+      {
+        "text": "Fin / final",
+        "correct": true,
+        "explanation": "末 representa el final de algo. Aparece en 週末 (fin de semana), 月末 (fin de mes), 年末 (fin de año). Correcta. Concepto de 'término' o 'parte final'."
+      },
+      {
+        "text": "Inicio",
+        "correct": false,
+        "explanation": "'Inicio' es 始 (はじめ) o 初 (はじめ). 末 es lo opuesto: el final."
+      },
+      {
+        "text": "Centro",
+        "correct": false,
+        "explanation": "'Centro/medio' es 中 (なか/ちゅう) o 真ん中. 末 es el extremo final, no el centro."
+      },
+      {
+        "text": "Largo",
+        "correct": false,
+        "explanation": "'Largo' es 長 (なが/ちょう). Sin relación semántica con 末."
+      }
+    ]
+  },
+  {
+    "id": "U5A-019",
+    "cat": "Kanji → Significado",
+    "q": "¿Qué significa el kanji 家?",
+    "opts": [
+      {
+        "text": "Casa / hogar",
+        "correct": true,
+        "explanation": "家 representa la casa como espacio físico (いえ) o como hogar/familia (うち). También aparece en 家族 (familia) y 家具 (muebles). Correcta. Concepto base de hogar."
+      },
+      {
+        "text": "Edificio público",
+        "correct": false,
+        "explanation": "'Edificio público' tiende a ser 館 (かん) como en 美術館, 図書館. 家 es específicamente hogar/casa."
+      },
+      {
+        "text": "Habitación",
+        "correct": false,
+        "explanation": "'Habitación' es 部屋 (へや) o 室 (しつ). 家 es la casa entera."
+      },
+      {
+        "text": "Tienda",
+        "correct": false,
+        "explanation": "'Tienda' es 店 (みせ). 家 puede significar 'establecimiento' como sufijo (本屋 ya tiene 屋), pero su significado central es 'casa/familia'."
+      }
+    ]
+  },
+  {
+    "id": "U5A-020",
+    "cat": "Kanji → Significado",
+    "q": "En 友達, ¿qué función cumple el kanji 達?",
+    "opts": [
+      {
+        "text": "Indica pluralidad o familiaridad ('amigos' / 'amigo cercano')",
+        "correct": true,
+        "explanation": "達 (たち/だち) en compuestos como 友達, 私達 (わたしたち, 'nosotros'), 子供達 (こどもたち, 'niños') marca pluralidad o cercanía. En 友達 da matiz de 'amigo cercano' aunque sea singular. Correcta. Sufijo pluralizador."
+      },
+      {
+        "text": "Significa 'lugar'",
+        "correct": false,
+        "explanation": "'Lugar' es 所 (ところ). 達 no tiene ese significado."
+      },
+      {
+        "text": "Significa 'persona' (como 人)",
+        "correct": false,
+        "explanation": "'Persona' es 人 (ひと). 達 marca grupo/cercanía, no es sinónimo de 人."
+      },
+      {
+        "text": "Es decorativo, sin significado",
+        "correct": false,
+        "explanation": "Falso: 達 sí aporta significado (pluralidad/familiaridad). No es decorativo."
+      }
+    ]
+  },
+  {
+    "id": "U5A-021",
+    "cat": "Kanji → Significado",
+    "q": "¿Qué significa el kanji 恋?",
+    "opts": [
+      {
+        "text": "Amor (romántico)",
+        "correct": true,
+        "explanation": "恋 (こい) representa específicamente el AMOR ROMÁNTICO, el enamoramiento. Aparece en 恋人 (pareja), 恋愛 (relación amorosa). Distinto de 愛 (あい), que es amor más amplio. Correcta. Amor con connotación romántica."
+      },
+      {
+        "text": "Amistad",
+        "correct": false,
+        "explanation": "'Amistad' es 友情 (ゆうじょう). 恋 es específicamente amor romántico, no amistad."
+      },
+      {
+        "text": "Familia",
+        "correct": false,
+        "explanation": "'Familia' es 家族 (かぞく). 恋 implica relación romántica entre personas no familiares."
+      },
+      {
+        "text": "Felicidad",
+        "correct": false,
+        "explanation": "'Felicidad' es 幸福 (こうふく) o 幸せ (しあわせ). 恋 es un sentimiento más específico (enamoramiento)."
+      }
+    ]
+  },
+  {
+    "id": "U5A-022",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 週末?",
+    "opts": [
+      {
+        "text": "Fin de semana",
+        "correct": true,
+        "explanation": "週末 (しゅうまつ) = 週 (semana) + 末 (final). Sábado y domingo. Correcta. Es el bloque temporal del que se habla principalmente en esta lección."
+      },
+      {
+        "text": "Fin de mes",
+        "correct": false,
+        "explanation": "'Fin de mes' es 月末 (げつまつ). Mismo patrón con 末 pero distinto kanji inicial."
+      },
+      {
+        "text": "Toda la semana",
+        "correct": false,
+        "explanation": "'Toda la semana' es 1週間 (いっしゅうかん) o 週中. 週末 es solo el final."
+      },
+      {
+        "text": "Próxima semana",
+        "correct": false,
+        "explanation": "'Próxima semana' es 来週 (らいしゅう). 週末 es fin de semana, no la semana siguiente."
+      }
+    ]
+  },
+  {
+    "id": "U5A-023",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa おととい?",
+    "opts": [
+      {
+        "text": "Anteayer (hace dos días)",
+        "correct": true,
+        "explanation": "おととい = el día anterior a 昨日 (ayer). En la línea temporal: おととい → 昨日 → 今日. También se escribe 一昨日. Correcta. Dos días antes de hoy."
+      },
+      {
+        "text": "Pasado mañana",
+        "correct": false,
+        "explanation": "'Pasado mañana' es あさって (明後日). Es hacia el FUTURO, no el pasado."
+      },
+      {
+        "text": "La semana pasada",
+        "correct": false,
+        "explanation": "'La semana pasada' es 先週 (せんしゅう). Distinto: おととい es solo dos días atrás."
+      },
+      {
+        "text": "Hace mucho tiempo",
+        "correct": false,
+        "explanation": "'Hace mucho' es 昔 (むかし) o ずっと前. おととい es exactamente dos días atrás, no indeterminado."
+      }
+    ]
+  },
+  {
+    "id": "U5A-024",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa あさって?",
+    "opts": [
+      {
+        "text": "Pasado mañana (en dos días)",
+        "correct": true,
+        "explanation": "あさって = el día siguiente a 明日 (mañana). Línea temporal: 今日 → 明日 → あさって. También se escribe 明後日. Correcta. Dos días después de hoy."
+      },
+      {
+        "text": "Anteayer",
+        "correct": false,
+        "explanation": "'Anteayer' es おととい (一昨日). Es hacia el PASADO, mientras que あさって es futuro."
+      },
+      {
+        "text": "Esta tarde",
+        "correct": false,
+        "explanation": "'Esta tarde' es 今日の午後 (きょうのごご). あさって es un día completo, dos días después."
+      },
+      {
+        "text": "La próxima semana",
+        "correct": false,
+        "explanation": "'Próxima semana' es 来週 (らいしゅう). あさって es dos días específicos, no semana."
+      }
+    ]
+  },
+  {
+    "id": "U5A-025",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa ルームメイト?",
+    "opts": [
+      {
+        "text": "Compañero/a de cuarto (que vive con uno)",
+        "correct": true,
+        "explanation": "ルームメイト viene del inglés 'roommate'. Persona con quien se comparte vivienda. Correcta. Préstamo katakana del inglés."
+      },
+      {
+        "text": "Amigo del trabajo",
+        "correct": false,
+        "explanation": "'Compañero de trabajo' es 同僚 (どうりょう). ルームメイト es específicamente con quien se vive."
+      },
+      {
+        "text": "Vecino",
+        "correct": false,
+        "explanation": "'Vecino' es 隣の人 (となりのひと). El vecino vive AL LADO; el ルームメイト vive EN LA MISMA casa."
+      },
+      {
+        "text": "Compañero de clase",
+        "correct": false,
+        "explanation": "'Compañero de clase' es クラスメート (classmate). Distinto préstamo, distinto contexto."
+      }
+    ]
+  },
+  {
+    "id": "U5A-026",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa それから?",
+    "opts": [
+      {
+        "text": "Después / y luego (conector secuencial entre acciones)",
+        "correct": true,
+        "explanation": "それから conecta dos eventos en orden temporal: primero ocurrió A, después ocurrió B. Va al inicio de la segunda oración seguido de coma. Correcta. Función central como conector secuencial."
+      },
+      {
+        "text": "Pero",
+        "correct": false,
+        "explanation": "'Pero' es でも, しかし, o が. それから indica secuencia temporal, no contraste."
+      },
+      {
+        "text": "Sin embargo",
+        "correct": false,
+        "explanation": "'Sin embargo' es しかし o けれども. それから no expresa oposición."
+      },
+      {
+        "text": "Por eso",
+        "correct": false,
+        "explanation": "'Por eso' es だから o それで. それから solo marca el ORDEN en el tiempo, no la causa."
+      }
+    ]
+  },
+  {
+    "id": "U5A-027",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 1人で (ひとりで)?",
+    "opts": [
+      {
+        "text": "Solo, por mi cuenta (haciendo algo sin compañía)",
+        "correct": true,
+        "explanation": "1人 (ひとり) = una persona / solo. + で (partícula de MODO) = 'solo, sin compañía'. Indica cómo se hizo la acción. Correcta. Descripción de modo solitario."
+      },
+      {
+        "text": "Una vez",
+        "correct": false,
+        "explanation": "'Una vez' es 一回 (いっかい) o 一度 (いちど). 1人で indica compañía (solo), no frecuencia."
+      },
+      {
+        "text": "Para una persona",
+        "correct": false,
+        "explanation": "'Para una persona' sería 1人分 (ひとりぶん, 'una porción') o 1人用 (ひとりよう, 'para uso individual'). 1人で indica MODO, no destinatario."
+      },
+      {
+        "text": "Primero",
+        "correct": false,
+        "explanation": "'Primero' es 最初に (さいしょに) o まず. Sin relación con 1人で."
+      }
+    ]
+  },
+  {
+    "id": "U5A-028",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa どこか（へ）?",
+    "opts": [
+      {
+        "text": "A algún lugar (en preguntas afirmativas)",
+        "correct": true,
+        "explanation": "どこか = lugar indefinido ('algún lugar'). La partícula へ es opcional con どこか. Se usa en preguntas: '¿fuiste a algún lugar?'. En negación se transforma en どこ（へ）も + verbo neg. Correcta. Función indefinida afirmativa."
+      },
+      {
+        "text": "¿Dónde?",
+        "correct": false,
+        "explanation": "'¿Dónde?' es どこ a secas (sin か). El か la convierte en INDEFINIDA ('algún lugar'), no interrogativa de lugar específico."
+      },
+      {
+        "text": "A todos lados",
+        "correct": false,
+        "explanation": "'A todos lados' sería どこへも (afirmativo) o あちこち. どこか es UN lugar indefinido, no múltiples."
+      },
+      {
+        "text": "A ningún lugar",
+        "correct": false,
+        "explanation": "'A ningún lugar' es どこ（へ）も + verbo NEGATIVO. La forma どこか es para afirmativos/preguntas."
+      }
+    ]
+  },
+  {
+    "id": "U5A-029",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 美術館?",
+    "opts": [
+      {
+        "text": "Museo de arte",
+        "correct": true,
+        "explanation": "美術 (びじゅつ, 'bellas artes') + 館 (かん, 'edificio público') = museo de arte. Correcta. Institución que exhibe obras de arte."
+      },
+      {
+        "text": "Galería de fotos",
+        "correct": false,
+        "explanation": "'Galería de fotos' es 写真ギャラリー o 写真館 (しゃしんかん, estudio fotográfico). 美術館 abarca arte en general."
+      },
+      {
+        "text": "Cine",
+        "correct": false,
+        "explanation": "'Cine' es 映画館 (えいがかん). Mismo sufijo 館 pero kanji inicial distinto."
+      },
+      {
+        "text": "Biblioteca",
+        "correct": false,
+        "explanation": "'Biblioteca' es 図書館 (としょかん). Otro edificio público con 館."
+      }
+    ]
+  },
+  {
+    "id": "U5A-030",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa デパート?",
+    "opts": [
+      {
+        "text": "Tienda departamental / grandes almacenes",
+        "correct": true,
+        "explanation": "デパート viene del inglés 'department store'. Establecimiento grande con múltiples secciones (ropa, comida, electrodomésticos). Ejemplos famosos: 三越, 高島屋. Correcta. Préstamo katakana abreviado."
+      },
+      {
+        "text": "Departamento (vivienda)",
+        "correct": false,
+        "explanation": "'Departamento (vivienda)' es マンション o アパート. Falso amigo: en español 'departamento' = vivienda, en japonés デパート = tienda."
+      },
+      {
+        "text": "Quiosco",
+        "correct": false,
+        "explanation": "'Quiosco' es キオスク o 売店 (ばいてん). デパート es una tienda mucho más grande."
+      },
+      {
+        "text": "Supermercado",
+        "correct": false,
+        "explanation": "'Supermercado' es スーパー o スーパーマーケット. デパート es más amplio (no solo comida)."
+      }
+    ]
+  },
+  {
+    "id": "U5A-031",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 食事します?",
+    "opts": [
+      {
+        "text": "Comer (en sentido formal: tener una comida)",
+        "correct": true,
+        "explanation": "食事 (しょくじ) = la 'comida' como acto social/momento. + します = 'hacer una comida, comer'. Más formal/general que 食べる. Se usa para indicar el evento de comer (almuerzo, cena), no el acto de masticar. Correcta. Verbo 'tener una comida'."
+      },
+      {
+        "text": "Cocinar",
+        "correct": false,
+        "explanation": "'Cocinar' es 料理する (りょうりする). 食事する es 'comer una comida', no 'preparar comida'."
+      },
+      {
+        "text": "Tener hambre",
+        "correct": false,
+        "explanation": "'Tener hambre' es お腹が空く (おなかがすく). 食事する es la acción de comer, no la sensación previa."
+      },
+      {
+        "text": "Probar comida",
+        "correct": false,
+        "explanation": "'Probar' (degustar) es 味見する (あじみする). 食事する es comer una comida completa."
+      }
+    ]
+  },
+  {
+    "id": "U5A-032",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 作ります?",
+    "opts": [
+      {
+        "text": "Hacer, crear, preparar (cosas, comida)",
+        "correct": true,
+        "explanation": "作る (つくる) / 作ります (つくります) significa fabricar, construir, cocinar, crear algo CONCRETO. Ej: 料理を作る (cocinar), 家を作る (construir casa). Correcta. Verbo de creación física."
+      },
+      {
+        "text": "Hacer una acción (genérico)",
+        "correct": false,
+        "explanation": "'Hacer (acción)' es する/します. 作る es específicamente 'crear/fabricar' algo material. Para una acción se usa する."
+      },
+      {
+        "text": "Comprar",
+        "correct": false,
+        "explanation": "'Comprar' es 買う (かう) / 買います. 作る es CREAR, no adquirir."
+      },
+      {
+        "text": "Recibir",
+        "correct": false,
+        "explanation": "'Recibir' es もらう / もらいます. Sin relación con 作る."
+      }
+    ]
+  },
+  {
+    "id": "U5A-033",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 会います [会う]?",
+    "opts": [
+      {
+        "text": "Encontrarse con alguien, ver/visitar a alguien",
+        "correct": true,
+        "explanation": "会う / 会います requiere persona + に: 友達に会う ('me encuentro con un amigo'). Implica encuentro presencial planeado o casual. Correcta. ⚠️ Lleva に, NO と."
+      },
+      {
+        "text": "Conversar / hablar",
+        "correct": false,
+        "explanation": "'Hablar' es 話す (はなす). 会う es solo el acto de encontrarse físicamente, aunque normalmente luego se hable."
+      },
+      {
+        "text": "Hacer amigos",
+        "correct": false,
+        "explanation": "'Hacer amigos' es 友達を作る (ともだちをつくる) o 友達になる. 会う es solo encontrarse, no implica formar amistad."
+      },
+      {
+        "text": "Saludar",
+        "correct": false,
+        "explanation": "'Saludar' es 挨拶する (あいさつする). 会う es el encuentro completo, no solo el saludo."
+      }
+    ]
+  },
+  {
+    "id": "U5A-034",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 洗濯します?",
+    "opts": [
+      {
+        "text": "Lavar la ropa",
+        "correct": true,
+        "explanation": "洗濯 (せんたく) refiere específicamente a lavar ROPA. + します = 'hacer la colada'. No se usa para lavar platos o el auto. Correcta. Lavado específico de prendas."
+      },
+      {
+        "text": "Lavar los platos",
+        "correct": false,
+        "explanation": "'Lavar platos' es 皿を洗う (さらをあらう) o 食器洗い (しょっきあらい). 洗濯 es solo ropa."
+      },
+      {
+        "text": "Bañarse",
+        "correct": false,
+        "explanation": "'Bañarse' es お風呂に入る (おふろにはいる) o シャワーを浴びる. 洗濯 es lavar ropa, no el cuerpo."
+      },
+      {
+        "text": "Limpiar",
+        "correct": false,
+        "explanation": "'Limpiar' (en general) es 掃除する (そうじする). 洗濯 es específicamente con agua y detergente para ropa."
+      }
+    ]
+  },
+  {
+    "id": "U5A-035",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 掃除します?",
+    "opts": [
+      {
+        "text": "Limpiar (la casa, una habitación)",
+        "correct": true,
+        "explanation": "掃除 (そうじ) = 掃 (barrer) + 除 (eliminar) = limpieza/aseo del espacio. + します. El lugar limpiado lleva を: 部屋を掃除する. Correcta. Limpieza de espacios físicos."
+      },
+      {
+        "text": "Lavar la ropa",
+        "correct": false,
+        "explanation": "'Lavar ropa' es 洗濯する (せんたくする). 掃除 es limpiar el ESPACIO (suelo, polvo), no la ropa."
+      },
+      {
+        "text": "Ordenar / organizar",
+        "correct": false,
+        "explanation": "'Ordenar' es 片付ける (かたづける). 掃除 es eliminar suciedad; 片付ける es poner cosas en su lugar. Tareas distintas aunque relacionadas."
+      },
+      {
+        "text": "Tirar la basura",
+        "correct": false,
+        "explanation": "'Tirar la basura' es ゴミを捨てる (ごみをすてる). Es parte del 掃除 pero no su significado central."
+      }
+    ]
+  },
+  {
+    "id": "U5A-036",
+    "cat": "Verbos",
+    "q": "¿Cuál es la forma diccionario (jisho-kei) de 会います?",
+    "opts": [
+      {
+        "text": "会う (あう)",
+        "correct": true,
+        "explanation": "会います pertenece al Grupo 1 (godan). La forma diccionario se obtiene cambiando い → う: 会い-ます → 会-う. Correcta. Patrón estándar de Grupo 1."
+      },
+      {
+        "text": "会る (あいる)",
+        "correct": false,
+        "explanation": "Si fuera Grupo 2 (ichidan) sería 会いる, pero 会う pertenece al Grupo 1. La forma correcta es 会う."
+      },
+      {
+        "text": "会する (あいする)",
+        "correct": false,
+        "explanation": "Sería un compuesto する pero 会う es un verbo simple Grupo 1, no un verbo する."
+      },
+      {
+        "text": "会います es ya la forma diccionario",
+        "correct": false,
+        "explanation": "Falso: 〜ます es la forma cortés (masu-kei), no la forma diccionario. La diccionario termina en う."
+      }
+    ]
+  },
+  {
+    "id": "U5A-037",
+    "cat": "Verbos",
+    "q": "¿Cuál es la forma pasada AFIRMATIVA de 行きます?",
+    "opts": [
+      {
+        "text": "行きました",
+        "correct": true,
+        "explanation": "Forma cortés pasada afirmativa: ます → ました. 行きます → 行きました ('fui'). Correcta. Patrón estándar."
+      },
+      {
+        "text": "行きません",
+        "correct": false,
+        "explanation": "行きません es PRESENTE NEGATIVO ('no voy'), no pasado afirmativo."
+      },
+      {
+        "text": "行きませんでした",
+        "correct": false,
+        "explanation": "行きませんでした es PASADO NEGATIVO ('no fui'), no afirmativo."
+      },
+      {
+        "text": "行くた",
+        "correct": false,
+        "explanation": "Forma agramatical. La forma だ/た se aplica a la forma diccionario (行く → 行った, plain), pero NO a la forma cortés con ます."
+      }
+    ]
+  },
+  {
+    "id": "U5A-038",
+    "cat": "Verbos",
+    "q": "¿Cuál es la forma pasada NEGATIVA de 食べます?",
+    "opts": [
+      {
+        "text": "食べませんでした",
+        "correct": true,
+        "explanation": "Forma cortés pasada negativa: ません + でした. 食べません → 食べませんでした ('no comí'). Correcta. Suma del negativo presente + でした (cópula pasada)."
+      },
+      {
+        "text": "食べました",
+        "correct": false,
+        "explanation": "食べました es PASADO AFIRMATIVO ('comí'), no negativo."
+      },
+      {
+        "text": "食べないでした",
+        "correct": false,
+        "explanation": "ない es la forma negativa PLAIN; combinarla con でした es agramatical en estilo cortés. La forma cortés es ませんでした."
+      },
+      {
+        "text": "食べなかった",
+        "correct": false,
+        "explanation": "食べなかった es la forma plain (informal) pasada negativa. La forma cortés es 食べませんでした."
+      }
+    ]
+  },
+  {
+    "id": "U5A-039",
+    "cat": "Verbos",
+    "q": "Conjuga しません al pasado negativo:",
+    "opts": [
+      {
+        "text": "しませんでした",
+        "correct": true,
+        "explanation": "Misma regla: ません + でした = ませんでした. しません → しませんでした ('no hice'). Correcta. La irregularidad de する no afecta esta conjugación."
+      },
+      {
+        "text": "しませんかった",
+        "correct": false,
+        "explanation": "Mezcla incorrecta: かった es terminación de adjetivos い en pasado negativo (高くなかった). No aplica a verbos en forma cortés."
+      },
+      {
+        "text": "しなかった",
+        "correct": false,
+        "explanation": "しなかった es la forma plain (informal). La cortés es しませんでした."
+      },
+      {
+        "text": "しないでした",
+        "correct": false,
+        "explanation": "Combinar ない + でした es agramatical en cortés. La cortés es ませんでした."
+      }
+    ]
+  },
+  {
+    "id": "U5A-040",
+    "cat": "Verbos",
+    "q": "¿Cuál es la forma diccionario de 作ります?",
+    "opts": [
+      {
+        "text": "作る (つくる)",
+        "correct": true,
+        "explanation": "作ります → 作る. Verbo Grupo 1 (godan). Cambio い → う en la última sílaba. Correcta. Patrón estándar de Grupo 1."
+      },
+      {
+        "text": "作る (さくる)",
+        "correct": false,
+        "explanation": "El kanji 作 se lee つく- en este verbo (kun'yomi), no さく. La lectura さく es on'yomi (作品 = さくひん, 'obra')."
+      },
+      {
+        "text": "作す (つくす)",
+        "correct": false,
+        "explanation": "つくす sería 尽くす ('dedicar/agotar'), kanji y verbo distintos. La forma de 作る es つくる."
+      },
+      {
+        "text": "作る (つくれる)",
+        "correct": false,
+        "explanation": "つくれる es la forma POTENCIAL ('poder hacer'). La forma diccionario simple es つくる."
+      }
+    ]
+  },
+  {
+    "id": "U5A-041",
+    "cat": "Verbos",
+    "q": "El verbo 買い物します pertenece al grupo:",
+    "opts": [
+      {
+        "text": "Grupo 3 (irregular する) — sustantivo + する",
+        "correct": true,
+        "explanation": "買い物 es sustantivo ('compras') + する/します. Todos los verbos formados por sustantivo + する son Grupo 3 (irregular). Mismo patrón: 食事する, 洗濯する, 掃除する. Correcta. Característica del Grupo 3."
+      },
+      {
+        "text": "Grupo 1 (godan)",
+        "correct": false,
+        "explanation": "El Grupo 1 incluye verbos como 行く, 会う, 作る. 買い物する no es godan: la parte verbal es する."
+      },
+      {
+        "text": "Grupo 2 (ichidan)",
+        "correct": false,
+        "explanation": "El Grupo 2 incluye verbos como 食べる, 見る. する es Grupo 3, irregular."
+      },
+      {
+        "text": "No tiene grupo (es solo sustantivo)",
+        "correct": false,
+        "explanation": "Falso: 買い物 + する forma un VERBO completo. El grupo es Grupo 3 por la presencia de する."
+      }
+    ]
+  },
+  {
+    "id": "U5A-042",
+    "cat": "Verbos",
+    "q": "Indica la forma pasada afirmativa correcta de 友達に会います:",
+    "opts": [
+      {
+        "text": "友達に会いました",
+        "correct": true,
+        "explanation": "会います → 会いました (pasado afirmativo). La partícula に se mantiene (rige el verbo 会う). Correcta. Conservación de partícula + cambio de tiempo."
+      },
+      {
+        "text": "友達と会いました",
+        "correct": false,
+        "explanation": "⚠️ Error muy común: el verbo 会う SIEMPRE rige に, no と. Aunque en español traduzcamos 'me encontré CON un amigo'."
+      },
+      {
+        "text": "友達を会いました",
+        "correct": false,
+        "explanation": "を marca objeto directo. 会う no es transitivo en el sentido de tomar を; rige に."
+      },
+      {
+        "text": "友達に会りました",
+        "correct": false,
+        "explanation": "会り no existe. La forma -ました viene de 会い (ren'youkei) + ました."
+      }
+    ]
+  },
+  {
+    "id": "U5A-043",
+    "cat": "Gramática",
+    "q": "¿Cuál es la regla para formar el PASADO AFIRMATIVO cortés de un verbo?",
+    "opts": [
+      {
+        "text": "Reemplazar 〜ます por 〜ました",
+        "correct": true,
+        "explanation": "Regla universal y sin excepciones en estilo cortés: ます → ました. Aplica a todos los grupos: 食べます→食べました, 行きます→行きました, します→しました. Correcta. Conjugación regular del estilo cortés."
+      },
+      {
+        "text": "Agregar た al final del verbo",
+        "correct": false,
+        "explanation": "た se agrega a la forma plain (食べる→食べた, 行く→行った), no a la forma cortés. En cortés es ました."
+      },
+      {
+        "text": "Cambiar る por た",
+        "correct": false,
+        "explanation": "Es una simplificación que solo funciona para verbos Grupo 2 plain (食べる→食べた). En cortés la regla es ます→ました."
+      },
+      {
+        "text": "Agregar でした al verbo",
+        "correct": false,
+        "explanation": "でした es la cópula pasada (です→でした) y se suma al ません (ませんでした). No reemplaza el verbo completo."
+      }
+    ]
+  },
+  {
+    "id": "U5A-044",
+    "cat": "Gramática",
+    "q": "¿Cuál es la regla para formar el PASADO NEGATIVO cortés de un verbo?",
+    "opts": [
+      {
+        "text": "Reemplazar 〜ます por 〜ませんでした",
+        "correct": true,
+        "explanation": "Estructura: ません (presente neg) + でした (cópula pasada) = ませんでした. Regla universal en cortés. Correcta. Combina dos elementos: negación + pasado."
+      },
+      {
+        "text": "Agregar なかった al verbo",
+        "correct": false,
+        "explanation": "なかった es la forma plain pasada negativa (食べなかった). La cortés es ませんでした."
+      },
+      {
+        "text": "Cambiar ます por ました y agregar じゃない",
+        "correct": false,
+        "explanation": "じゃない es negación de la cópula だ (sustantivo/adj.な), no de verbos. Para verbos el negativo es ません/ませんでした."
+      },
+      {
+        "text": "Agregar ませんだった al verbo",
+        "correct": false,
+        "explanation": "だった es la cópula plain pasada (だ→だった). En la forma cortés con ません va でした, no だった: ませんでした."
+      }
+    ]
+  },
+  {
+    "id": "U5A-045",
+    "cat": "Gramática",
+    "q": "¿Cuál es la regla del uso de どこか vs どこも?",
+    "opts": [
+      {
+        "text": "どこか se usa en preguntas/afirmaciones; どこも se usa en NEGACIÓN ('a ningún lugar')",
+        "correct": true,
+        "explanation": "どこか = lugar indefinido AFIRMATIVO ('algún lugar'). どこも + verbo NEGATIVO = 'a ningún lugar'. La negación obliga el cambio. Correcta. Regla pareja afirmativo/negativo."
+      },
+      {
+        "text": "どこか se usa en pasado, どこも en presente",
+        "correct": false,
+        "explanation": "Falso: la distinción no es de tiempo verbal, sino afirmativo vs negativo."
+      },
+      {
+        "text": "どこか es para personas, どこも es para lugares",
+        "correct": false,
+        "explanation": "Falso: AMBOS son para LUGARES. Para personas se usan 誰か (alguien) / 誰も (nadie)."
+      },
+      {
+        "text": "Son intercambiables",
+        "correct": false,
+        "explanation": "Falso: cambiar どこか por どこも en una afirmativa cambia el sentido y la corrección de la oración. La regla es estricta."
+      }
+    ]
+  },
+  {
+    "id": "U5A-046",
+    "cat": "Gramática",
+    "q": "¿Cuál es la regla del uso de それから?",
+    "opts": [
+      {
+        "text": "Conecta dos acciones secuenciales: ocurrió A, después B",
+        "correct": true,
+        "explanation": "それから indica ORDEN TEMPORAL: primero pasó algo, después pasó otra cosa. Estructura: [Oración 1]。 それから、[Oración 2]。 Correcta. Conector temporal de secuencia."
+      },
+      {
+        "text": "Indica causa: A pasó, por eso B",
+        "correct": false,
+        "explanation": "'Por eso' es だから o それで. それから solo marca tiempo, no causa."
+      },
+      {
+        "text": "Indica oposición: A pero B",
+        "correct": false,
+        "explanation": "'Pero' es でも, しかし, が. それから no implica contraste, solo orden."
+      },
+      {
+        "text": "Indica simultaneidad: A y B al mismo tiempo",
+        "correct": false,
+        "explanation": "Para simultaneidad se usa la forma -te del verbo o ながら. それから es secuencial: una acción DESPUÉS de la otra."
+      }
+    ]
+  },
+  {
+    "id": "U5A-047",
+    "cat": "Gramática",
+    "q": "Para decir 'hacer una acción CON otra persona', se usa:",
+    "opts": [
+      {
+        "text": "[Persona] と + verbo",
+        "correct": true,
+        "explanation": "La partícula と aplicada a personas significa 'con/junto a'. Ej: 友達とサッカーをする ('jugar fútbol con un amigo'). Correcta. と = compañía con personas."
+      },
+      {
+        "text": "[Persona] に + verbo",
+        "correct": false,
+        "explanation": "に con personas suele indicar el objetivo del verbo (会う, 電話する, 教える). Para 'compañía' se usa と."
+      },
+      {
+        "text": "[Persona] で + verbo",
+        "correct": false,
+        "explanation": "で indica medio o lugar de acción, no compañía con personas. Es excepción: 1人で sí indica modo de hacer (solo)."
+      },
+      {
+        "text": "[Persona] を + verbo",
+        "correct": false,
+        "explanation": "を marca objeto directo. No se usa para 'compañía' con personas (salvo verbos específicos como 助ける)."
+      }
+    ]
+  },
+  {
+    "id": "U5A-048",
+    "cat": "Gramática",
+    "q": "¿Cuál es la EXCEPCIÓN de la regla 'persona + と' para compañía?",
+    "opts": [
+      {
+        "text": "El verbo 会う rige に, no と (友達に会う)",
+        "correct": true,
+        "explanation": "Aunque traduzcamos 'me encuentro CON un amigo', en japonés 会う pide la partícula に. Es un patrón fijo del verbo. Otros verbos similares: 電話する (にも), 話しかける (に). Correcta. Régimen léxico del verbo."
+      },
+      {
+        "text": "El verbo 食べる rige と",
+        "correct": false,
+        "explanation": "食べる no rige と para personas. Para 'comer con alguien' se usa la regla normal: 友達と食べる. La excepción es 会う."
+      },
+      {
+        "text": "Solo aplica con familia (家族には)",
+        "correct": false,
+        "explanation": "Falso: la regla はpersona + と funciona con cualquier persona (familia, amigos). La excepción es por VERBO (会う), no por tipo de persona."
+      },
+      {
+        "text": "No hay excepciones, siempre es と",
+        "correct": false,
+        "explanation": "Falso: 会う con persona + に es la excepción más importante de esta lección."
+      }
+    ]
+  },
+  {
+    "id": "U5A-049",
+    "cat": "Gramática",
+    "q": "Para decir 'no fui a NINGÚN lugar', la estructura correcta es:",
+    "opts": [
+      {
+        "text": "どこ（へ）も + verbo NEGATIVO (どこへも行きませんでした)",
+        "correct": true,
+        "explanation": "どこも + verbo negativo = 'a ningún lugar'. La へ es opcional. La negación VERBAL es obligatoria. Correcta. Estructura fija de negación total."
+      },
+      {
+        "text": "どこか + verbo negativo (どこか行きませんでした)",
+        "correct": false,
+        "explanation": "Agramatical: どこか se usa con AFIRMATIVOS o preguntas. En negación obligatoriamente cambia a どこも."
+      },
+      {
+        "text": "どこへ + verbo negativo (どこへ行きませんでした)",
+        "correct": false,
+        "explanation": "Sin か ni も: どこへ行きませんでした sería una pregunta retórica o incompleta. Para 'a ningún lugar' se requiere も."
+      },
+      {
+        "text": "どこへも + verbo afirmativo (どこへも行きました)",
+        "correct": false,
+        "explanation": "Agramatical: どこも EXIGE verbo NEGATIVO. Con afirmativo no significa 'a todos lados'."
+      }
+    ]
+  },
+  {
+    "id": "U5A-050",
+    "cat": "Gramática",
+    "q": "El contraste entre 1人で y 〜と es:",
+    "opts": [
+      {
+        "text": "1人で = solo (sin compañía); 〜と = con (compañía de alguien)",
+        "correct": true,
+        "explanation": "1人で indica MODO de actuar (sin nadie); 〜と indica COMPAÑÍA. Son las dos opciones para describir si la acción es individual o conjunta. Correcta. Pareja modal completa."
+      },
+      {
+        "text": "Son sinónimos",
+        "correct": false,
+        "explanation": "Falso: 1人で映画を見る (vi peli SOLO) y 友達と映画を見る (vi peli CON un amigo) tienen sentidos OPUESTOS."
+      },
+      {
+        "text": "1人で indica tiempo, 〜と lugar",
+        "correct": false,
+        "explanation": "Falso: ninguno indica tiempo ni lugar. Ambos describen MODO/COMPAÑÍA."
+      },
+      {
+        "text": "1人で es para acciones rápidas, 〜と para largas",
+        "correct": false,
+        "explanation": "Falso: la duración no se distingue por estas estructuras."
+      }
+    ]
+  },
+  {
+    "id": "U5A-051",
+    "cat": "Gramática",
+    "q": "En 'うちでテレビを見ました', la partícula で indica:",
+    "opts": [
+      {
+        "text": "Lugar donde se realiza la acción",
+        "correct": true,
+        "explanation": "で marca el LUGAR DE LA ACCIÓN cuando hay un verbo de actividad (見る, 食べる, 勉強する). うちで = 'en casa'. Correcta. Función central de で en este contexto."
+      },
+      {
+        "text": "Destino del movimiento",
+        "correct": false,
+        "explanation": "El destino se marca con へ o に (うちへ帰る = volver a casa). で no indica destino."
+      },
+      {
+        "text": "Medio de transporte",
+        "correct": false,
+        "explanation": "で TAMBIÉN puede ser medio (電車で = en tren), pero acá うち es lugar, no medio. Función contextual."
+      },
+      {
+        "text": "Compañía",
+        "correct": false,
+        "explanation": "Compañía se marca con と para personas. で para 'con' es medio/instrumento, no persona."
+      }
+    ]
+  },
+  {
+    "id": "U5A-052",
+    "cat": "Gramática",
+    "q": "La pregunta 'どのくらい〜しましたか' significa:",
+    "opts": [
+      {
+        "text": "¿Cuánto tiempo (duración) hiciste X?",
+        "correct": true,
+        "explanation": "どのくらい = '¿cuánto? (de cantidad o duración)'. Con un verbo de actividad pregunta DURACIÓN. Respuesta típica: 4時間くらいしました. Correcta. Pregunta sobre extensión temporal."
+      },
+      {
+        "text": "¿Dónde hiciste X?",
+        "correct": false,
+        "explanation": "'¿Dónde?' es どこで〜しましたか. どのくらい no pregunta lugar."
+      },
+      {
+        "text": "¿Cómo hiciste X?",
+        "correct": false,
+        "explanation": "'¿Cómo?' es どうやって〜しましたか o どう〜しましたか. どのくらい es CUÁNTO."
+      },
+      {
+        "text": "¿Por qué hiciste X?",
+        "correct": false,
+        "explanation": "'¿Por qué?' es どうして / なぜ. どのくらい es cantidad/duración, no causa."
+      }
+    ]
+  },
+  {
+    "id": "U5A-053",
+    "cat": "Partículas",
+    "q": "En '新宿_行きました', ¿qué partícula completa correctamente la oración?",
+    "opts": [
+      {
+        "text": "へ (también acepta に)",
+        "correct": true,
+        "explanation": "へ marca el DESTINO del movimiento. 新宿へ行く = 'ir A Shinjuku'. La partícula へ se pronuncia 'e' cuando es partícula. に también sería válido con verbos de movimiento. Correcta. Partícula direccional."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "explanation": "で marca lugar de la acción (新宿で買い物しました = 'compré en Shinjuku'), no destino del movimiento."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "explanation": "を marca objeto directo. No se usa con 行く para indicar destino."
+      },
+      {
+        "text": "が",
+        "correct": false,
+        "explanation": "が marca sujeto. No se usa para destino."
+      }
+    ]
+  },
+  {
+    "id": "U5A-054",
+    "cat": "Partículas",
+    "q": "En 'デパート_買い物しました', ¿qué partícula corresponde?",
+    "opts": [
+      {
+        "text": "で",
+        "correct": true,
+        "explanation": "で marca el LUGAR donde se realiza la acción. デパートで買い物する = 'hacer compras EN la tienda departamental'. Correcta. で = lugar de actividad."
+      },
+      {
+        "text": "へ",
+        "correct": false,
+        "explanation": "へ marca destino del movimiento. Si dijéramos デパートへ行く ('ir a la tienda') sería válido, pero acá la acción es 買い物する DENTRO de la tienda."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "explanation": "に con verbos estáticos sí marca lugar (家にいる), pero con verbos de actividad como 買い物する se usa で."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "explanation": "を marca objeto directo. デパートをする no tiene sentido (no es objeto de la acción, es lugar)."
+      }
+    ]
+  },
+  {
+    "id": "U5A-055",
+    "cat": "Partículas",
+    "q": "En '友達_会いました', ¿qué partícula corresponde?",
+    "opts": [
+      {
+        "text": "に",
+        "correct": true,
+        "explanation": "El verbo 会う SIEMPRE rige la partícula に, aunque traduzcamos 'me encontré CON'. 友達に会う es la forma fija. Correcta. Régimen léxico fijo del verbo."
+      },
+      {
+        "text": "と",
+        "correct": false,
+        "explanation": "⚠️ Error muy común: aunque significa 'con' en español, 会う específicamente pide に, NO と. Memorizar como excepción."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "explanation": "を marca objeto directo. 会う no toma を: 友達を会う sería agramatical."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "explanation": "で marca lugar/medio. Para 'con quién' (compañía con 会う), la partícula es に, no で."
+      }
+    ]
+  },
+  {
+    "id": "U5A-056",
+    "cat": "Partículas",
+    "q": "En '家族_箱根へ行きました', ¿qué partícula completa correctamente?",
+    "opts": [
+      {
+        "text": "と",
+        "correct": true,
+        "explanation": "と marca COMPAÑÍA con personas. 家族と = 'con la familia'. La estructura es [persona]+と+verbo de actividad. Correcta. Compañía estándar."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "explanation": "に con personas suele ser objetivo del verbo (会う, あげる, 教える). Para 'compañía con' (alguien junto), se usa と."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "explanation": "で no se usa para compañía con personas (excepción: 1人で). 1人で家族で行きました sería redundante/agramatical."
+      },
+      {
+        "text": "が",
+        "correct": false,
+        "explanation": "が marca sujeto. Si dijéramos 家族が箱根へ行きました, 'la familia fue a Hakone' (yo no necesariamente). El sentido cambia: と los incluye conmigo, が los pone como sujeto solo."
+      }
+    ]
+  },
+  {
+    "id": "U5A-057",
+    "cat": "Partículas",
+    "q": "En '部屋_掃除しました', ¿qué partícula corresponde?",
+    "opts": [
+      {
+        "text": "を",
+        "correct": true,
+        "explanation": "を marca el OBJETO DIRECTO. La cosa limpiada es el objeto del verbo. Igual con 洗濯 (洗濯物を), 食事 (食事を), 料理 (料理を). Correcta. を = objeto directo."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "explanation": "に con verbos de actividad como 掃除する no marca el objeto. に sería destino o tiempo."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "explanation": "で marcaría el lugar (部屋で本を読む = 'leer un libro en el cuarto'). Pero acá 部屋 ES lo que se limpia, no donde se hace algo."
+      },
+      {
+        "text": "が",
+        "correct": false,
+        "explanation": "が marca sujeto. El cuarto no es el sujeto de 掃除する, es el objeto de la acción."
+      }
+    ]
+  },
+  {
+    "id": "U5A-058",
+    "cat": "Partículas",
+    "q": "En la pregunta 'どこ_行きましたか', si la respuesta es afirmativa indefinida ('a algún lugar'), la partícula correcta es:",
+    "opts": [
+      {
+        "text": "か (どこか) — la へ es opcional",
+        "correct": true,
+        "explanation": "どこか = lugar indefinido. Estructura completa: どこか（へ）行きましたか. La へ es opcional con どこか. Correcta. Construcción de pregunta indefinida."
+      },
+      {
+        "text": "も",
+        "correct": false,
+        "explanation": "も se usa en NEGACIÓN: どこへも行きませんでした ('a ningún lugar'). En afirmativo/pregunta es か."
+      },
+      {
+        "text": "が",
+        "correct": false,
+        "explanation": "が no convierte en indefinido. どこが行きましたか sería agramatical."
+      },
+      {
+        "text": "は",
+        "correct": false,
+        "explanation": "は marca tema. どこは行きましたか tampoco funciona para 'algún lugar'."
+      }
+    ]
+  },
+  {
+    "id": "U5A-059",
+    "cat": "Partículas",
+    "q": "En la respuesta negativa 'どこ_も行きませんでした', ¿qué partícula va antes de も?",
+    "opts": [
+      {
+        "text": "（へ）— es opcional",
+        "correct": true,
+        "explanation": "Estructura: どこ（へ）も + verbo neg. La へ es OPCIONAL: ambas formas (どこへも行きません y どこも行きません) son aceptadas. Correcta. Partícula direccional opcional."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "explanation": "に sería raro acá. Aunque a veces se usa, lo más natural y enseñado es どこ（へ）も con verbos de movimiento como 行く."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "explanation": "で indica lugar de actividad, no destino. Sería incorrecto con 行く (que pide destino)."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "explanation": "を marca objeto directo. 行く no es transitivo de un lugar como objeto."
+      }
+    ]
+  },
+  {
+    "id": "U5A-060",
+    "cat": "Partículas",
+    "q": "En '友達_家へ行きました', la partícula entre 友達 y 家 es:",
+    "opts": [
+      {
+        "text": "の",
+        "correct": true,
+        "explanation": "の indica POSESIÓN: 友達の家 = 'la casa DEL amigo'. Estructura: [poseedor]+の+[cosa poseída]. Correcta. Genitivo/posesivo."
+      },
+      {
+        "text": "と",
+        "correct": false,
+        "explanation": "友達と家 daría 'con un amigo y la casa' (lista AB), no 'la casa del amigo'. Cambia el sentido."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "explanation": "に no se usa para posesión entre dos sustantivos. Es para destino/tiempo/objetivo."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "explanation": "で no marca posesión. Sería agramatical en este contexto."
+      }
+    ]
+  },
+  {
+    "id": "U5A-061",
+    "cat": "Partículas",
+    "q": "En '4時間_しました', ¿qué partícula corresponde para indicar 'aproximadamente'?",
+    "opts": [
+      {
+        "text": "くらい (4時間くらい)",
+        "correct": true,
+        "explanation": "くらい/ぐらい = 'aproximadamente, alrededor de'. Se sufija a cantidades. 4時間くらい = 'unas 4 horas'. Correcta. Marcador de aproximación."
+      },
+      {
+        "text": "ごろ",
+        "correct": false,
+        "explanation": "ごろ se usa con HORAS PUNTUALES (4時ごろ = 'alrededor de las 4'), no con DURACIONES. Para duración aproximada se usa くらい."
+      },
+      {
+        "text": "だけ",
+        "correct": false,
+        "explanation": "だけ = 'solo, únicamente'. 4時間だけしました = 'hice solo 4 horas', sentido distinto a aproximación."
+      },
+      {
+        "text": "ぐらい",
+        "correct": false,
+        "explanation": "ぐらい sería válida (variante de くらい), pero para esta pregunta la opción enseñada en Dekiru es くらい. Ambas son aceptadas en uso real."
+      }
+    ]
+  },
+  {
+    "id": "U5A-062",
+    "cat": "Distinción",
+    "q": "¿Cuál es la diferencia entre どこか y どこも?",
+    "opts": [
+      {
+        "text": "どこか = 'algún lugar' (afirmativo); どこも + neg = 'ningún lugar'",
+        "correct": true,
+        "explanation": "Pareja indefinida/negativa. どこか se usa en preguntas y afirmaciones. どこも EXIGE verbo negativo y significa 'a ningún lugar'. Mismo patrón con 何か/何も, 誰か/誰も. Correcta. Distinción funcional clave."
+      },
+      {
+        "text": "Son sinónimos intercambiables",
+        "correct": false,
+        "explanation": "Falso: cambiar uno por otro produce oraciones agramaticales o de sentido opuesto."
+      },
+      {
+        "text": "どこか es escrito, どこも es hablado",
+        "correct": false,
+        "explanation": "Falso: la distinción no es de registro sino de polaridad (afirmativo vs negativo)."
+      },
+      {
+        "text": "どこか es para preguntas, どこも para respuestas (afirmativas o negativas)",
+        "correct": false,
+        "explanation": "Falso: どこも solo va con NEGATIVO. En respuesta afirmativa se especifica el lugar (はい、〜へ行きました)."
+      }
+    ]
+  },
+  {
+    "id": "U5A-063",
+    "cat": "Distinción",
+    "q": "¿Cuál es la diferencia entre 〜と (con persona) y に (con 会う)?",
+    "opts": [
+      {
+        "text": "Con la mayoría de verbos: persona+と (compañía). Excepción: 会う pide に",
+        "correct": true,
+        "explanation": "Regla: 〜と+verbo indica acción CONJUNTA (友達と食事する, 家族と行く). Excepción importante: 会う tiene régimen fijo に (友達に会う). No se puede sustituir uno por otro. Correcta. Régimen léxico vs regla general."
+      },
+      {
+        "text": "Son intercambiables: と y に significan lo mismo",
+        "correct": false,
+        "explanation": "Falso: 友達と会う suena raro o cambia matiz. 友達に会う es la forma estándar y natural."
+      },
+      {
+        "text": "と es informal, に es formal",
+        "correct": false,
+        "explanation": "Falso: la distinción es por VERBO, no por registro. Ambas son neutras."
+      },
+      {
+        "text": "と se usa con personas, に con cosas",
+        "correct": false,
+        "explanation": "Falso: AMBAS pueden ir con personas. La diferencia está en el régimen del verbo."
+      }
+    ]
+  },
+  {
+    "id": "U5A-064",
+    "cat": "Distinción",
+    "q": "¿Cuál es la diferencia entre 食事する y 食べる?",
+    "opts": [
+      {
+        "text": "食事する = tener una comida (acto social/formal); 食べる = comer (acción concreta de masticar)",
+        "correct": true,
+        "explanation": "食事 nombra el EVENTO (almuerzo, cena). 食べる es el VERBO de masticar/ingerir. Ej: 家族と食事しました ('comí con mi familia' = tuvimos una comida juntos) vs りんごを食べました ('me comí una manzana'). Correcta. Distinción evento vs acción."
+      },
+      {
+        "text": "Son sinónimos exactos",
+        "correct": false,
+        "explanation": "Falso: 食事する no admite objeto directo específico (NO se dice りんごを食事する). 食べる sí lo admite. Funciones distintas."
+      },
+      {
+        "text": "食事する es más informal",
+        "correct": false,
+        "explanation": "Falso: 食事する es MÁS FORMAL que 食べる. Se usa en contextos sociales/cuidados."
+      },
+      {
+        "text": "食事する es solo desayuno; 食べる es cualquier comida",
+        "correct": false,
+        "explanation": "Falso: 食事 abarca cualquier comida (desayuno, almuerzo, cena). El significado no se restringe por horario."
+      }
+    ]
+  },
+  {
+    "id": "U5A-065",
+    "cat": "Distinción",
+    "q": "¿Cuál es la diferencia entre 家 (いえ) y うち?",
+    "opts": [
+      {
+        "text": "いえ = casa como edificio físico; うち = mi casa/hogar (con sentido de pertenencia)",
+        "correct": true,
+        "explanation": "家 lectura いえ enfoca la estructura física (la casa como inmueble). 家 lectura うち enfoca el HOGAR como espacio personal/familiar. Mismo kanji, dos lecturas con matices distintos. Correcta. Distinción semántica."
+      },
+      {
+        "text": "Son la misma palabra, sin diferencia",
+        "correct": false,
+        "explanation": "Falso: aunque comparten kanji, los matices y usos varían. うちで休む ('descanso en MI casa/hogar') vs 大きい家を建てる ('construir una casa grande, edificio')."
+      },
+      {
+        "text": "いえ es informal, うち es formal",
+        "correct": false,
+        "explanation": "Falso: es lo OPUESTO. うち es más coloquial/personal; いえ es más neutral/general."
+      },
+      {
+        "text": "いえ es del Dekiru, うち es del JLPT",
+        "correct": false,
+        "explanation": "Falso: ambas son palabras estándar del japonés. La distinción es semántica, no de registro de examen."
+      }
+    ]
+  },
+  {
+    "id": "U5A-066",
+    "cat": "Distinción",
+    "q": "¿Cuál es la diferencia entre それから, そして y それで?",
+    "opts": [
+      {
+        "text": "それから = después (orden temporal); そして = y además (suma); それで = por eso (causa)",
+        "correct": true,
+        "explanation": "Tres conectores con funciones distintas. それから marca SECUENCIA temporal estricta. そして agrega información del mismo nivel. それで indica CONSECUENCIA. En esta unidad solo se usa それから. Correcta. Distinción funcional de conectores."
+      },
+      {
+        "text": "Son sinónimos",
+        "correct": false,
+        "explanation": "Falso: cambiar uno por otro altera el sentido. Ej: A, それから B (A, después B) ≠ A, それで B (A, por eso B)."
+      },
+      {
+        "text": "それから es escrito, そして es oral",
+        "correct": false,
+        "explanation": "Falso: ambos se usan en habla y escritura. La distinción es semántica."
+      },
+      {
+        "text": "それから indica causa, それで indica tiempo",
+        "correct": false,
+        "explanation": "Es al REVÉS: それから=tiempo, それで=causa."
+      }
+    ]
+  },
+  {
+    "id": "U5A-067",
+    "cat": "Distinción",
+    "q": "¿Cuál es la diferencia entre 友達 y 恋人?",
+    "opts": [
+      {
+        "text": "友達 = amigo/a (sin connotación romántica); 恋人 = pareja sentimental (con connotación romántica)",
+        "correct": true,
+        "explanation": "友達 abarca cualquier persona con quien hay amistad. 恋人 implica relación amorosa (novio/novia, pareja). 恋 (amor romántico) está explícito en el kanji. Correcta. Distinción social y semántica importante."
+      },
+      {
+        "text": "Son sinónimos",
+        "correct": false,
+        "explanation": "Falso: usar uno por otro genera malentendidos sociales serios. 恋人 implica romance; 友達 NO."
+      },
+      {
+        "text": "友達 es informal, 恋人 es formal",
+        "correct": false,
+        "explanation": "Falso: la distinción no es de registro sino de TIPO de relación."
+      },
+      {
+        "text": "友達 es para hombres, 恋人 para mujeres",
+        "correct": false,
+        "explanation": "Falso: ambas palabras son neutras en cuanto al género de la persona referida."
+      }
+    ]
+  },
+  {
+    "id": "U5A-068",
+    "cat": "Distinción",
+    "q": "¿Cuál es la diferencia entre 洗濯 y 掃除?",
+    "opts": [
+      {
+        "text": "洗濯 = lavar ROPA específicamente; 掃除 = limpiar el ESPACIO (suelo, polvo, casa)",
+        "correct": true,
+        "explanation": "Tareas domésticas distintas. 洗濯 implica agua + detergente + ropa. 掃除 implica eliminación de suciedad de ambientes (barrer, aspirar, trapear). Correcta. Distinción de objeto y método."
+      },
+      {
+        "text": "Son sinónimos",
+        "correct": false,
+        "explanation": "Falso: si pedís ayuda con 洗濯 es para lavar ropa; si pedís 掃除 es para limpiar la casa. No se confunden."
+      },
+      {
+        "text": "洗濯 incluye platos; 掃除 incluye ropa",
+        "correct": false,
+        "explanation": "Falso: lavar platos es 皿洗い o 食器洗い. 洗濯 es solo ropa. 掃除 NO incluye ropa."
+      },
+      {
+        "text": "洗濯 es semanal, 掃除 es diario",
+        "correct": false,
+        "explanation": "Falso: la frecuencia no define las palabras. Cualquiera puede hacerse con cualquier frecuencia."
+      }
+    ]
+  },
+  {
+    "id": "U5A-069",
+    "cat": "Diálogo",
+    "q": "A: 週末、どこか（へ）行きましたか。 B: ___. (Respuesta: Sí, fui a Shinjuku)",
+    "opts": [
+      {
+        "text": "はい、新宿へ行きました。",
+        "correct": true,
+        "explanation": "Respuesta afirmativa estándar: はい + lugar específico + へ + 行きました. La pregunta usa どこか (indefinido); la respuesta especifica el lugar concreto. Correcta. Patrón pregunta indefinida → respuesta concreta."
+      },
+      {
+        "text": "はい、どこか行きました。",
+        "correct": false,
+        "explanation": "En la respuesta hay que ESPECIFICAR el lugar. Repetir どこか sería evasivo y no responde la pregunta."
+      },
+      {
+        "text": "はい、新宿に行きませんでした。",
+        "correct": false,
+        "explanation": "Combina 'はい' (sí) con verbo NEGATIVO ('no fui'). Contradicción interna."
+      },
+      {
+        "text": "はい、新宿で行きました。",
+        "correct": false,
+        "explanation": "で marca lugar de acción, no destino. Con 行く la partícula correcta es へ (o に)."
+      }
+    ]
+  },
+  {
+    "id": "U5A-070",
+    "cat": "Diálogo",
+    "q": "A: 週末、どこか（へ）行きましたか。 B: ___. (Respuesta: No, no fui a ningún lugar)",
+    "opts": [
+      {
+        "text": "いいえ、どこ（へ）も行きませんでした。",
+        "correct": true,
+        "explanation": "Respuesta negativa estándar: いいえ + どこ（へ）も + verbo NEGATIVO. La transformación どこか → どこも en negación es obligatoria. Correcta. Patrón negación total."
+      },
+      {
+        "text": "いいえ、どこか行きませんでした。",
+        "correct": false,
+        "explanation": "En negación se usa どこも, no どこか. La partícula か es para afirmativos/preguntas."
+      },
+      {
+        "text": "いいえ、どこへ行きました。",
+        "correct": false,
+        "explanation": "Combina 'いいえ' (no) con verbo AFIRMATIVO ('fui'). Contradicción interna."
+      },
+      {
+        "text": "いいえ、どこへも行きました。",
+        "correct": false,
+        "explanation": "Mezcla どこへも (que exige negativo) con 行きました (afirmativo). Agramatical."
+      }
+    ]
+  },
+  {
+    "id": "U5A-071",
+    "cat": "Diálogo",
+    "q": "A: 日曜日に、何をしましたか。 B: ___. (Respuesta: Fui a Hakone con mi familia)",
+    "opts": [
+      {
+        "text": "家族と箱根へ行きました。",
+        "correct": true,
+        "explanation": "Estructura: [persona]+と+[lugar]+へ+行きました. Combina compañía (と) y destino (へ). Correcta. Respuesta completa con dos modificadores."
+      },
+      {
+        "text": "家族に箱根を行きました。",
+        "correct": false,
+        "explanation": "Errores: に con persona pediría 会う; を con destino es agramatical (lo correcto es へ)."
+      },
+      {
+        "text": "家族で箱根へ行きました。",
+        "correct": false,
+        "explanation": "で con persona en grupo PUEDE usarse (3人で = 'los 3 juntos'), pero 家族 solo se combina con と. La forma estándar es 家族と."
+      },
+      {
+        "text": "家族の箱根へ行きました。",
+        "correct": false,
+        "explanation": "の indica posesión: 家族の箱根 = 'el Hakone de la familia'. No tiene sentido."
+      }
+    ]
+  },
+  {
+    "id": "U5A-072",
+    "cat": "Diálogo",
+    "q": "A: 昨日、何をしましたか。 B: 友達の家へ行きました。___、ゲームをしました。",
+    "opts": [
+      {
+        "text": "それから",
+        "correct": true,
+        "explanation": "それから conecta dos acciones secuenciales: 'fui a casa de un amigo' + それから + 'jugamos videojuegos'. Patrón canónico de la lección. Correcta. Conector secuencial."
+      },
+      {
+        "text": "でも",
+        "correct": false,
+        "explanation": "でも = 'pero/sin embargo'. Implicaría contraste ('fui a su casa, PERO jugamos'), sin coherencia."
+      },
+      {
+        "text": "だから",
+        "correct": false,
+        "explanation": "だから = 'por eso/así que'. Implicaría causa ('fui a su casa, POR ESO jugamos'). El nexo lógico es débil."
+      },
+      {
+        "text": "そして",
+        "correct": false,
+        "explanation": "そして = 'y además'. Es similar a それから pero sugiere SUMA, no SECUENCIA temporal estricta. En esta lección se enseña それから específicamente."
+      }
+    ]
+  },
+  {
+    "id": "U5A-073",
+    "cat": "Diálogo",
+    "q": "A: そうですか。___しましたか。 B: 4時間くらいしました。",
+    "opts": [
+      {
+        "text": "どのくらい",
+        "correct": true,
+        "explanation": "Si la respuesta es '4 horas', la pregunta es por DURACIÓN: どのくらい. Patrón: どのくらい+verbo (¿cuánto tiempo hiciste X?). Correcta. Pregunta de duración."
+      },
+      {
+        "text": "どこで",
+        "correct": false,
+        "explanation": "どこで pregunta lugar. La respuesta '4時間' es duración, no lugar."
+      },
+      {
+        "text": "だれと",
+        "correct": false,
+        "explanation": "だれと pregunta compañía ('¿con quién?'). La respuesta es duración."
+      },
+      {
+        "text": "いつ",
+        "correct": false,
+        "explanation": "いつ pregunta cuándo (momento). 4時間くらい es duración (cuánto tiempo), no momento."
+      }
+    ]
+  },
+  {
+    "id": "U5A-074",
+    "cat": "Diálogo",
+    "q": "A: 新宿で何をしましたか。 B: ___. (Respuesta: Hice compras en una tienda departamental)",
+    "opts": [
+      {
+        "text": "デパートで買い物しました。",
+        "correct": true,
+        "explanation": "Estructura: [lugar específico]+で+verbo de actividad. デパート es lugar de la acción de comprar. Correcta. で = lugar donde se realiza la actividad."
+      },
+      {
+        "text": "デパートへ買い物しました。",
+        "correct": false,
+        "explanation": "へ marca destino del movimiento. 買い物する es actividad EN un lugar, no movimiento HACIA. La partícula es で."
+      },
+      {
+        "text": "デパートに買い物しました。",
+        "correct": false,
+        "explanation": "に con verbos de actividad como 買い物する no es estándar; se usa で. Sí sería válida con verbos de existencia/movimiento."
+      },
+      {
+        "text": "デパートを買い物しました。",
+        "correct": false,
+        "explanation": "を marca objeto directo. デパート no es objeto de 買い物する; es el LUGAR."
+      }
+    ]
+  },
+  {
+    "id": "U5A-075",
+    "cat": "Diálogo",
+    "q": "Para reaccionar con 'Ah, sí / Vaya' a una respuesta inesperada o interesante, el japonés más natural es:",
+    "opts": [
+      {
+        "text": "そうですか / へえ",
+        "correct": true,
+        "explanation": "そうですか = '¿ah, sí?' (reacción cortés general). へえ = '¡vaya!' (sorpresa/interés). Ambas aparecen en los diálogos del 言ってみよう como reacciones esperables. Correcta. Reacciones cotidianas."
+      },
+      {
+        "text": "はい、そうです。",
+        "correct": false,
+        "explanation": "はい、そうです = 'sí, así es' (afirmación sobre uno mismo). NO es reacción a respuesta del otro. Patrón distinto."
+      },
+      {
+        "text": "いいえ、違います。",
+        "correct": false,
+        "explanation": "いいえ、違います = 'no, está equivocado'. Es CONTRADICCIÓN/CORRECCIÓN, no reacción de interés."
+      },
+      {
+        "text": "どうも。",
+        "correct": false,
+        "explanation": "どうも es agradecimiento abreviado o saludo. No es reacción a información."
+      }
+    ]
+  },
+  {
+    "id": "U5A-076",
+    "cat": "Diálogo",
+    "q": "A: 日曜日に何をしましたか。 B: ___. (Respuesta: Fui a casa de un amigo)",
+    "opts": [
+      {
+        "text": "友達の家へ行きました。",
+        "correct": true,
+        "explanation": "Estructura: [posesivo の]+[lugar]+へ+行きました. 友達の家 = 'casa del amigo' (の posesivo). Correcta. Respuesta canónica del Ejercicio 1."
+      },
+      {
+        "text": "友達で家へ行きました。",
+        "correct": false,
+        "explanation": "で no se usa para posesión entre dos sustantivos. La partícula correcta es の."
+      },
+      {
+        "text": "友達と家へ行きました。",
+        "correct": false,
+        "explanation": "Significaría 'fui a la casa con un amigo' (no 'a la casa DEL amigo'). Cambia el sentido: と es compañía, の es posesión."
+      },
+      {
+        "text": "友達は家へ行きました。",
+        "correct": false,
+        "explanation": "Significaría 'el amigo fue a la casa' (poniendo al amigo como sujeto). No responde 'qué hice yo'."
+      }
+    ]
+  },
+  {
+    "id": "U5A-077",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'Anteayer fui a Shinjuku'?",
+    "opts": [
+      {
+        "text": "おととい、新宿へ行きました。",
+        "correct": true,
+        "explanation": "Estructura: [tiempo]+[coma]+[lugar]+へ+行きました. おととい (anteayer) sin partícula. Correcta. Patrón pasado afirmativo con destino."
+      },
+      {
+        "text": "おとといに、新宿に行きました。",
+        "correct": false,
+        "explanation": "おととい NO lleva partícula に (es expresión de tiempo relativa: hoy/ayer/mañana, etc.). 新宿に sería aceptable como variante."
+      },
+      {
+        "text": "おととい、新宿で行きました。",
+        "correct": false,
+        "explanation": "で indica lugar de acción, no destino. Con 行く la partícula es へ/に."
+      },
+      {
+        "text": "おととい、新宿を行きました。",
+        "correct": false,
+        "explanation": "を no marca destino. Lo correcto es へ/に."
+      }
+    ]
+  },
+  {
+    "id": "U5A-078",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'Ayer no estudié'?",
+    "opts": [
+      {
+        "text": "昨日、勉強しませんでした。",
+        "correct": true,
+        "explanation": "Estructura: [tiempo]+[coma]+verbo en forma cortés pasada negativa (ませんでした). 昨日 sin partícula. Correcta. Pasado negativo cortés."
+      },
+      {
+        "text": "昨日、勉強しません。",
+        "correct": false,
+        "explanation": "勉強しません es PRESENTE NEGATIVO ('no estudio'), no pasado."
+      },
+      {
+        "text": "昨日、勉強しなかった。",
+        "correct": false,
+        "explanation": "しなかった es la forma PLAIN (informal). En estilo cortés (con ます), es しませんでした."
+      },
+      {
+        "text": "昨日に、勉強しませんでした。",
+        "correct": false,
+        "explanation": "昨日 no lleva に. Las expresiones tipo 今日/昨日/明日 son adverbios temporales que no requieren partícula."
+      }
+    ]
+  },
+  {
+    "id": "U5A-079",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'El fin de semana fui a Hakone con mi familia'?",
+    "opts": [
+      {
+        "text": "週末、家族と箱根へ行きました。",
+        "correct": true,
+        "explanation": "Estructura: [tiempo]+[persona]と+[lugar]へ+行きました. Tres elementos modificadores ordenados naturalmente. Correcta. Combinación de tiempo + compañía + destino."
+      },
+      {
+        "text": "週末に家族で箱根に行きました。",
+        "correct": false,
+        "explanation": "家族で suena raro (con familia, expresado como grupo); lo natural es 家族と. 週末に es aceptable pero menos común que 週末 directo."
+      },
+      {
+        "text": "週末、家族に箱根へ行きました。",
+        "correct": false,
+        "explanation": "に con persona pediría 会う. Para 'con la familia' (compañía) se usa と."
+      },
+      {
+        "text": "週末で、家族と箱根を行きました。",
+        "correct": false,
+        "explanation": "Errores múltiples: 週末で (incorrecto, no es lugar), 箱根を行きました (を no marca destino)."
+      }
+    ]
+  },
+  {
+    "id": "U5A-080",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'Me encontré con un amigo en Shibuya'?",
+    "opts": [
+      {
+        "text": "渋谷で友達に会いました。",
+        "correct": true,
+        "explanation": "Estructura: [lugar]で+[persona]に+会いました. で = lugar de la acción; に = objeto de 会う (régimen léxico). Correcta. Patrón con dos partículas características."
+      },
+      {
+        "text": "渋谷で友達と会いました。",
+        "correct": false,
+        "explanation": "⚠️ Error muy común: 会う SIEMPRE rige に, no と. Esta es la EXCEPCIÓN principal de la regla 'persona+と'."
+      },
+      {
+        "text": "渋谷へ友達を会いました。",
+        "correct": false,
+        "explanation": "Errores: へ no marca lugar de acción (sería destino, pero la acción es 'encontrarse', no 'ir'); を no rige con 会う."
+      },
+      {
+        "text": "渋谷に友達に会いました。",
+        "correct": false,
+        "explanation": "Doble に es agramatical en este contexto. El lugar va con で (acción), la persona con に (régimen del verbo)."
+      }
+    ]
+  },
+  {
+    "id": "U5A-081",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'Vi una película. Después, cené'?",
+    "opts": [
+      {
+        "text": "映画を見ました。それから、食事をしました。",
+        "correct": true,
+        "explanation": "Dos oraciones unidas por それから (conector secuencial). 映画を見る (objeto+を+verbo) + それから + 食事をする. Correcta. Patrón canónico secuencial."
+      },
+      {
+        "text": "映画を見ました。でも、食事をしました。",
+        "correct": false,
+        "explanation": "でも = 'pero/sin embargo'. Implica contraste, no secuencia. Las dos acciones son consecutivas, no opuestas."
+      },
+      {
+        "text": "映画を見ました、食事をしました。",
+        "correct": false,
+        "explanation": "Sin conector entre dos oraciones independientes queda incompleto en japonés. Se necesita それから, そして, o forma -te del verbo."
+      },
+      {
+        "text": "映画を見て、それから食事をしました。",
+        "correct": false,
+        "explanation": "La forma -te 見て YA conecta acciones, así que それから se vuelve redundante. La forma natural sería 映画を見て、食事をしました o 映画を見ました。それから、食事をしました."
+      }
+    ]
+  },
+  {
+    "id": "U5A-082",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'Limpié el cuarto'?",
+    "opts": [
+      {
+        "text": "部屋を掃除しました。",
+        "correct": true,
+        "explanation": "Estructura: [objeto] を + 掃除する en pasado afirmativo. を marca el objeto directo (lo limpiado). Correcta. Sustantivo+する con objeto directo."
+      },
+      {
+        "text": "部屋で掃除しました。",
+        "correct": false,
+        "explanation": "で marcaría que la acción ocurre EN el cuarto, pero el cuarto SERÍA otro lugar. Acá el cuarto ES lo que se limpia: objeto directo (を)."
+      },
+      {
+        "text": "部屋に掃除しました。",
+        "correct": false,
+        "explanation": "に no marca objeto directo en este contexto. Incorrecto."
+      },
+      {
+        "text": "部屋へ掃除しました。",
+        "correct": false,
+        "explanation": "へ marca destino del movimiento. No aplica con 掃除する (no hay movimiento hacia el cuarto, sino acción sobre él)."
+      }
+    ]
+  },
+  {
+    "id": "U5A-083",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'No fui a ningún lugar el fin de semana'?",
+    "opts": [
+      {
+        "text": "週末、どこ（へ）も行きませんでした。",
+        "correct": true,
+        "explanation": "Estructura: [tiempo]+[coma]+どこへも+verbo NEG pasado. La へ es opcional. Combina los puntos 37 (negativo pasado) y 43 (どこも). Correcta. Negación total con tiempo."
+      },
+      {
+        "text": "週末、どこか行きませんでした。",
+        "correct": false,
+        "explanation": "どこか se usa con afirmativos. En negación obligatoriamente cambia a どこも."
+      },
+      {
+        "text": "週末、どこへ行きませんでした。",
+        "correct": false,
+        "explanation": "Sin か ni も, es ambiguo (¿pregunta retórica? ¿oración incompleta?). Para 'a ningún lugar' se requiere も."
+      },
+      {
+        "text": "週末で、どこへも行きません。",
+        "correct": false,
+        "explanation": "Errores: 週末 no lleva で (no es lugar de acción), y 行きません es presente, no pasado. Lo correcto es 行きませんでした."
+      }
+    ]
+  },
+  {
+    "id": "U5A-084",
+    "cat": "Traducción JP→ES",
+    "q": "¿Qué significa 'おととい、美術館へ行きました'?",
+    "opts": [
+      {
+        "text": "Anteayer fui al museo de arte.",
+        "correct": true,
+        "explanation": "おととい = anteayer; 美術館 = museo de arte; へ行きました = fui a. Pasado afirmativo estándar. Correcta. Lectura literal."
+      },
+      {
+        "text": "Mañana voy al museo de arte.",
+        "correct": false,
+        "explanation": "おととい es pasado (anteayer), no futuro. 行きました también es pasado afirmativo."
+      },
+      {
+        "text": "Ayer fui a la biblioteca.",
+        "correct": false,
+        "explanation": "おととい = anteayer (no ayer = 昨日). 美術館 = museo (no biblioteca = 図書館)."
+      },
+      {
+        "text": "No fui al museo de arte.",
+        "correct": false,
+        "explanation": "行きました es AFIRMATIVO. Si fuera 'no fui' sería 行きませんでした."
+      }
+    ]
+  },
+  {
+    "id": "U5A-085",
+    "cat": "Traducción JP→ES",
+    "q": "¿Qué significa '1人で映画を見ました'?",
+    "opts": [
+      {
+        "text": "Vi una película solo (sin compañía).",
+        "correct": true,
+        "explanation": "1人で = solo (modo); 映画を見る = ver una película; pasado afirmativo. Correcta. 1人で expresa MODO solitario de la acción."
+      },
+      {
+        "text": "Una persona vio la película.",
+        "correct": false,
+        "explanation": "1人で no es sujeto (eso sería 1人が). Es modo: 'YO solo vi la peli'. Implica que el hablante hizo la acción sin compañía."
+      },
+      {
+        "text": "Vi una película con una persona.",
+        "correct": false,
+        "explanation": "1人で = SOLO. Si fuera con alguien sería 〜と. 1人で específicamente significa 'sin compañía'."
+      },
+      {
+        "text": "Vi una película hace un día.",
+        "correct": false,
+        "explanation": "1人で no es expresión temporal. 'Hace un día' sería 一日前 o 昨日."
+      }
+    ]
+  },
+  {
+    "id": "U5A-086",
+    "cat": "Traducción JP→ES",
+    "q": "¿Qué significa '昨日、料理を作りました。それから、洗濯しました'?",
+    "opts": [
+      {
+        "text": "Ayer cociné. Después, lavé la ropa.",
+        "correct": true,
+        "explanation": "Dos oraciones secuenciales unidas por それから. 料理を作る = cocinar; 洗濯する = lavar ropa. Pasado afirmativo. Correcta. Secuencia de tareas domésticas."
+      },
+      {
+        "text": "Ayer cocinaré y luego lavaré la ropa.",
+        "correct": false,
+        "explanation": "作りました y 洗濯しました son PASADOS. Para futuro sería 作ります/洗濯します."
+      },
+      {
+        "text": "Ayer cociné, pero no lavé la ropa.",
+        "correct": false,
+        "explanation": "それから = después (secuencia). Para contraste sería でも o しかし."
+      },
+      {
+        "text": "Hoy cociné y lavé la ropa.",
+        "correct": false,
+        "explanation": "El tiempo dado es 昨日 (ayer), no 今日 (hoy)."
+      }
+    ]
+  },
+  {
+    "id": "U5A-087",
+    "cat": "Traducción JP→ES",
+    "q": "¿Qué significa '先週、恋人とデパートで買い物しました'?",
+    "opts": [
+      {
+        "text": "La semana pasada hice compras con mi pareja en una tienda departamental.",
+        "correct": true,
+        "explanation": "先週 = semana pasada; 恋人と = con la pareja (compañía); デパートで = en la tienda departamental (lugar de acción); 買い物しました = hice compras. Correcta. Combinación tiempo + compañía + lugar + acción."
+      },
+      {
+        "text": "La semana pasada me encontré con mi pareja en la tienda.",
+        "correct": false,
+        "explanation": "El verbo es 買い物する (hacer compras), no 会う (encontrarse). Verbo distinto."
+      },
+      {
+        "text": "Hace una semana mi pareja compró cosas.",
+        "correct": false,
+        "explanation": "恋人と (con la pareja) implica COMPAÑÍA del hablante. Si la pareja fuera el sujeto único, sería 恋人が."
+      },
+      {
+        "text": "Voy a hacer compras con mi pareja en la tienda.",
+        "correct": false,
+        "explanation": "しました es pasado, no futuro. 'Voy a hacer compras' sería 買い物します."
+      }
+    ]
+  },
+  {
+    "id": "U5A-088",
+    "cat": "Katakana",
+    "q": "¿Cómo se escribe en katakana 'depāto' (デパート)?",
+    "opts": [
+      {
+        "text": "デパート",
+        "correct": true,
+        "explanation": "デ (de) + パ (pa) + ー (alargamiento de vocal) + ト (to) = デパート. Préstamo del inglés 'department (store)'. Correcta. La barra ー alarga la vocal anterior."
+      },
+      {
+        "text": "デパト",
+        "correct": false,
+        "explanation": "Falta la marca de vocal larga (ー). En katakana se debe escribir パー para representar el sonido 'pā' largo."
+      },
+      {
+        "text": "テパート",
+        "correct": false,
+        "explanation": "テ (te) en lugar de デ (de). El préstamo viene de 'department', con D inicial sonora. デ es correcto."
+      },
+      {
+        "text": "デバート",
+        "correct": false,
+        "explanation": "バ (ba) en lugar de パ (pa). El sonido del inglés es P, no B. デパート es correcto."
+      }
+    ]
+  },
+  {
+    "id": "U5A-089",
+    "cat": "Katakana",
+    "q": "¿Qué palabra representa la katakana ゲーム?",
+    "opts": [
+      {
+        "text": "Game / videojuego",
+        "correct": true,
+        "explanation": "ゲ (ge) + ー (vocal larga) + ム (mu) = gēmu. Préstamo del inglés 'game'. Se usa con する: ゲームをする (jugar videojuegos). Correcta. Sustantivo de ocio común."
+      },
+      {
+        "text": "Gym / gimnasio",
+        "correct": false,
+        "explanation": "'Gimnasio' es ジム (jimu) o 体育館 (たいいくかん). ゲーム es 'game'."
+      },
+      {
+        "text": "Gum / chicle",
+        "correct": false,
+        "explanation": "'Chicle' es ガム (gamu) — vocal A, no E. ゲーム y ガム son palabras distintas."
+      },
+      {
+        "text": "Gold / oro",
+        "correct": false,
+        "explanation": "'Oro' es 金 (きん) o ゴールド (gōrudo). Sin relación con ゲーム."
+      }
+    ]
+  },
+  {
+    "id": "U5A-090",
+    "cat": "Katakana",
+    "q": "¿Cómo se escribe 'rūmumeito' (ルームメイト)?",
+    "opts": [
+      {
+        "text": "ルームメイト",
+        "correct": true,
+        "explanation": "ル (ru) + ー (alargamiento) + ム (mu) + メ (me) + イ (i) + ト (to). Del inglés 'roommate'. Las consonantes inglesas r→ル, m→ム, m→メ, t→ト se acomodan al japonés. Correcta. Préstamo katakana extenso."
+      },
+      {
+        "text": "ルームメート",
+        "correct": false,
+        "explanation": "ルームメート también existe como variante (con ー en lugar de イ después de メ). Pero en el Dekiru se usa la grafía con イ: メイト. Ambas se aceptan en uso real, pero la del libro es ルームメイト."
+      },
+      {
+        "text": "ルムメイト",
+        "correct": false,
+        "explanation": "Falta el alargamiento ー después de ル. La vocal larga es necesaria para representar el sonido 'rūm' del inglés."
+      },
+      {
+        "text": "ルームマイト",
+        "correct": false,
+        "explanation": "マ (ma) en lugar de メ (me). El segundo elemento es 'mate' (compañero), con E. メイト es correcto."
+      }
+    ]
+  },
+  {
+    "id": "U5A-091",
+    "cat": "Números y Tiempo",
+    "q": "Si hoy es miércoles, ¿qué día fue おととい?",
+    "opts": [
+      {
+        "text": "Lunes (dos días antes de hoy)",
+        "correct": true,
+        "explanation": "おととい = el día anterior a 昨日 (ayer). Si hoy=miércoles, ayer=martes, おととい=lunes. Correcta. Línea temporal: lunes(おととい) → martes(昨日) → miércoles(今日)."
+      },
+      {
+        "text": "Martes (el día anterior a hoy)",
+        "correct": false,
+        "explanation": "El día anterior a hoy es 昨日 (ayer = martes). おととい va un día más atrás (lunes)."
+      },
+      {
+        "text": "Jueves (el día siguiente)",
+        "correct": false,
+        "explanation": "Jueves sería 明日 (mañana). おととい es PASADO, no futuro."
+      },
+      {
+        "text": "Viernes (dos días después)",
+        "correct": false,
+        "explanation": "Viernes sería あさって (pasado mañana). おととい es dos días ATRÁS, no adelante."
+      }
+    ]
+  },
+  {
+    "id": "U5A-092",
+    "cat": "Números y Tiempo",
+    "q": "Ordena cronológicamente de pasado a futuro: 今日, あさって, おととい, 昨日, 明日",
+    "opts": [
+      {
+        "text": "おととい → 昨日 → 今日 → 明日 → あさって",
+        "correct": true,
+        "explanation": "Eje temporal completo: hace 2 días → ayer → HOY → mañana → en 2 días. Correcta. Secuencia natural pasado-presente-futuro."
+      },
+      {
+        "text": "今日 → 昨日 → おととい → 明日 → あさって",
+        "correct": false,
+        "explanation": "Mezcla pasado y futuro sin orden. 昨日 está ANTES de 今日, no después."
+      },
+      {
+        "text": "あさって → 明日 → 今日 → 昨日 → おととい",
+        "correct": false,
+        "explanation": "Es el orden INVERSO (de futuro a pasado). El enunciado pide pasado a futuro."
+      },
+      {
+        "text": "昨日 → 今日 → 明日 → おととい → あさって",
+        "correct": false,
+        "explanation": "おととい debe estar al INICIO (más pasado), no entre 明日 y あさって."
+      }
+    ]
+  },
+  {
+    "id": "U5A-093",
+    "cat": "Números y Tiempo",
+    "q": "¿Cómo se lee '4時間'?",
+    "opts": [
+      {
+        "text": "よじかん",
+        "correct": true,
+        "explanation": "4 + 時間 (じかん, 'horas como duración'). El número 4 ante 時間 se lee よ (no し ni よん) por convención. 4時間 = 'cuatro horas (de duración)'. Correcta. Lectura especial del 4 en contadores."
+      },
+      {
+        "text": "しじかん",
+        "correct": false,
+        "explanation": "し es lectura on de 4 pero ante 時間 se evita por homofonía con 死 (muerte). Se usa よ en vez de し."
+      },
+      {
+        "text": "よんじかん",
+        "correct": false,
+        "explanation": "よん es lectura del 4 aislado, pero ante 時間 se contrae a よ. Aunque se puede oír よんじかん, lo enseñado y estándar es よじかん."
+      },
+      {
+        "text": "よじま",
+        "correct": false,
+        "explanation": "じま no es lectura de 時間. La lectura es じかん (sonido completo)."
+      }
+    ]
+  }
+]

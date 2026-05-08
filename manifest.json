@@ -33,6 +33,12 @@
           "nombre": "Unidad 4",
           "subtitle": "Lugares, adjetivos y existencia",
           "subunidades": ["u4a", "u4b", "u4c"]
+        },
+        {
+          "id": "n2u5",
+          "nombre": "Unidad 5",
+          "subtitle": "Fin de semana, comidas y conectores",
+          "subunidades": ["u5a"]
         }
       ]
     }
@@ -121,6 +127,13 @@
       "subtitle": "季節・料理 — Clima, estaciones, sabores e intensificadores",
       "file": "unidades/u4c.json",
       "total": 115
+    },
+    {
+      "id": "u5a",
+      "nombre": "Unidad 5A",
+      "subtitle": "週末・食事 — Fin de semana, comidas y conectores",
+      "file": "unidades/u5a.json",
+      "total": 93
     }
   ]
 }
