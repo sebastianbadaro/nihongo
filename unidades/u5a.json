@@ -626,7 +626,7 @@
     "q": "¿Qué significa あさって?",
     "opts": [
       {
-        "text": "Pasado mañana (en dos días)",
+        "text": "Pasado mañana",
         "correct": true,
         "explanation": "あさって = el día siguiente a 明日 (mañana). Línea temporal: 今日 → 明日 → あさって. También se escribe 明後日. Correcta. Dos días después de hoy."
       },
@@ -704,7 +704,7 @@
   {
     "id": "U5A-027",
     "cat": "Vocabulario",
-    "q": "¿Qué significa 1人で (ひとりで)?",
+    "q": "¿Qué significa 1人で?",
     "opts": [
       {
         "text": "Solo, por mi cuenta (haciendo algo sin compañía)",
@@ -1301,7 +1301,7 @@
     "q": "Para decir 'no fui a NINGÚN lugar', la estructura correcta es:",
     "opts": [
       {
-        "text": "どこ（へ）も + verbo NEGATIVO (どこへも行きませんでした)",
+        "text": "どこ（へ）も + verbo negativo (どこへも行きませんでした)",
         "correct": true,
         "explanation": "どこも + verbo negativo = 'a ningún lugar'. La へ es opcional. La negación VERBAL es obligatoria. Correcta. Estructura fija de negación total."
       },
@@ -1382,7 +1382,7 @@
     "q": "La pregunta 'どのくらい〜しましたか' significa:",
     "opts": [
       {
-        "text": "¿Cuánto tiempo (duración) hiciste X?",
+        "text": "¿Cuánto tiempo hiciste X?",
         "correct": true,
         "explanation": "どのくらい = '¿cuánto? (de cantidad o duración)'. Con un verbo de actividad pregunta DURACIÓN. Respuesta típica: 4時間くらいしました. Correcta. Pregunta sobre extensión temporal."
       },
@@ -1409,7 +1409,7 @@
     "q": "En '新宿_行きました', ¿qué partícula completa correctamente la oración?",
     "opts": [
       {
-        "text": "へ (también acepta に)",
+        "text": "へ",
         "correct": true,
         "explanation": "へ marca el DESTINO del movimiento. 新宿へ行く = 'ir A Shinjuku'. La partícula へ se pronuncia 'e' cuando es partícula. に también sería válido con verbos de movimiento. Correcta. Partícula direccional."
       },
@@ -1595,7 +1595,7 @@
   {
     "id": "U5A-060",
     "cat": "Partículas",
-    "q": "En '友達_家へ行きました', la partícula entre 友達 y 家 es:",
+    "q": "En '友達_家へ行きました', si quiero decir a la casa de mi amigo, la partícula entre 友達 y 家 es:",
     "opts": [
       {
         "text": "の",
@@ -1605,7 +1605,7 @@
       {
         "text": "と",
         "correct": false,
-        "explanation": "友達と家 daría 'con un amigo y la casa' (lista AB), no 'la casa del amigo'. Cambia el sentido."
+        "explanation": "友達と家 daría 'con un amigo', no 'la casa del amigo'. Cambia el sentido."
       },
       {
         "text": "に",
@@ -1625,7 +1625,7 @@
     "q": "En '4時間_しました', ¿qué partícula corresponde para indicar 'aproximadamente'?",
     "opts": [
       {
-        "text": "くらい (4時間くらい)",
+        "text": "くらい",
         "correct": true,
         "explanation": "くらい/ぐらい = 'aproximadamente, alrededor de'. Se sufija a cantidades. 4時間くらい = 'unas 4 horas'. Correcta. Marcador de aproximación."
       },
@@ -2351,7 +2351,7 @@
   {
     "id": "U5A-088",
     "cat": "Katakana",
-    "q": "¿Cómo se escribe en katakana 'depāto' (デパート)?",
+    "q": "¿Cómo se escribe en katakana 'depāto'?",
     "opts": [
       {
         "text": "デパート",
@@ -2405,7 +2405,7 @@
   {
     "id": "U5A-090",
     "cat": "Katakana",
-    "q": "¿Cómo se escribe 'rūmumeito' (ルームメイト)?",
+    "q": "¿Cómo se escribe 'rūmumeito' ?",
     "opts": [
       {
         "text": "ルームメイト",

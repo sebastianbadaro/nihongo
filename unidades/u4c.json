@@ -812,7 +812,7 @@
   {
     "id": "U4C-031",
     "cat": "Kanji → Lectura",
-    "q": "¿Cómo se lee 暖かい (clima cálido)?",
+    "q": "¿Cómo se lee 暖かい en la forma estándar?",
     "opts": [
       {
         "text": "あたたかい",
@@ -1163,7 +1163,7 @@
   {
     "id": "U4C-044",
     "cat": "Kanji → Significado",
-    "q": "El kanji 暑 contiene 日 (sol). Por eso se usa para:",
+    "q": "El kanji 暑 se usa para:",
     "opts": [
       {
         "text": "Clima caluroso",
@@ -1190,10 +1190,10 @@
   {
     "id": "U4C-045",
     "cat": "Kanji → Significado",
-    "q": "El kanji 温 contiene 氵 (agua). Por eso se usa para:",
+    "q": "El kanji 温 contiene se usa para:",
     "opts": [
       {
-        "text": "Objetos tibios (sopa, té)",
+        "text": "Objetos calentitos (sopa, té)",
         "correct": true,
         "explanation": "Regla mnemotécnica: el radical 氵 (agua) en 温 indica que se aplica a OBJETOS (típicamente líquidos: sopa, té, agua). Para clima cálido se usa 暖 (con 日 sol). Correcta. El radical 氵 marca objetos/líquidos."
       },
