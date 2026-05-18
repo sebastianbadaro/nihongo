@@ -38,7 +38,7 @@
           "id": "n2u5",
           "nombre": "Unidad 5",
           "subtitle": "Fin de semana, comidas y conectores",
-          "subunidades": ["u5a"]
+          "subunidades": ["u5a", "u5b", "u5c"]
         }
       ]
     }
@@ -134,6 +134,20 @@
       "subtitle": "週末・食事 — Fin de semana, comidas y conectores",
       "file": "unidades/u5a.json",
       "total": 126
+    },
+    {
+      "id": "u5b",
+      "nombre": "Unidad 5B",
+      "subtitle": "形容詞の過去・から — Pasado de adjetivos y conector から",
+      "file": "unidades/u5b.json",
+      "total": 60
+    },
+    {
+      "id": "u5c",
+      "nombre": "Unidad 5C",
+      "subtitle": "好き・ほしい・〜たい — Gustos, deseos y forma たい",
+      "file": "unidades/u5c.json",
+      "total": 60
     }
   ]
 }

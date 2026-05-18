@@ -1,0 +1,1622 @@
+[
+  {
+    "id": "U5B-001",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 今朝?",
+    "opts": [
+      {
+        "text": "けさ",
+        "correct": true,
+        "explanation": "今朝 es jukujikun: se lee けさ como bloque, no kanji por kanji. Correcta. Compará con 今日(きょう) y 今晩(こんばん): los tres usan 今 pero con lecturas especiales."
+      },
+      {
+        "text": "いまあさ",
+        "correct": false,
+        "explanation": "いま (kun de 今) + あさ (kun de 朝) no se combina así. La lectura es jukujikun けさ."
+      },
+      {
+        "text": "こんちょう",
+        "correct": false,
+        "explanation": "こん (on de 今) + ちょう (on de 朝) tampoco se usa. La lectura es jukujikun けさ."
+      },
+      {
+        "text": "こんあさ",
+        "correct": false,
+        "explanation": "Mezcla on/kun no estándar. La lectura aceptada y única es けさ."
+      }
+    ]
+  },
+  {
+    "id": "U5B-002",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 風邪?",
+    "opts": [
+      {
+        "text": "かぜ",
+        "correct": true,
+        "explanation": "風邪 (かぜ) = gripe/resfrío. Correcta. ⚠️ Coincide fonéticamente con 風 (かぜ, viento) pero el kanji 邪 cambia el significado a 'enfermedad respiratoria leve'."
+      },
+      {
+        "text": "ふうじゃ",
+        "correct": false,
+        "explanation": "ふう es on de 風 y じゃ es on de 邪, pero la lectura usual de 風邪 es la kun-mixta かぜ. ふうじゃ existe en términos médicos antiguos."
+      },
+      {
+        "text": "かざ",
+        "correct": false,
+        "explanation": "かざ es la variante de 風 en compuestos (風車 = かざぐるま). No se usa para 風邪."
+      },
+      {
+        "text": "ふうび",
+        "correct": false,
+        "explanation": "び no es lectura de 邪. La lectura correcta es かぜ."
+      }
+    ]
+  },
+  {
+    "id": "U5B-003",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 晩ご飯?",
+    "opts": [
+      {
+        "text": "ばんごはん",
+        "correct": true,
+        "explanation": "晩 (ばん, noche) + ご飯 (ごはん, comida/arroz cocido) = ばんごはん, 'cena'. Correcta. Familia: 朝ご飯 (あさごはん), 昼ご飯 (ひるごはん)."
+      },
+      {
+        "text": "ばんごめし",
+        "correct": false,
+        "explanation": "めし es lectura kun de 飯 (más informal/rudo) pero en el compuesto ご飯 se usa はん. Correcta: ばんごはん."
+      },
+      {
+        "text": "ゆうごはん",
+        "correct": false,
+        "explanation": "ゆうごはん (夕ご飯) también significa 'cena' pero con kanji distinto. 晩ご飯 se lee ばんごはん."
+      },
+      {
+        "text": "ばんはん",
+        "correct": false,
+        "explanation": "Falta el prefijo honorífico ご. La palabra estándar es 晩<b>ご</b>飯 (ばん<b>ご</b>はん)."
+      }
+    ]
+  },
+  {
+    "id": "U5B-004",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 服 (en el sentido de 'ropa')?",
+    "opts": [
+      {
+        "text": "ふく",
+        "correct": true,
+        "explanation": "服 (ふく) = ropa (concepto general). Correcta. On'yomi. También aparece en compuestos: 洋服 (ようふく, ropa occidental), 制服 (せいふく, uniforme)."
+      },
+      {
+        "text": "きもの",
+        "correct": false,
+        "explanation": "きもの se escribe 着物 (kanji distinto) y refiere a la vestimenta tradicional japonesa. 服 se lee ふく."
+      },
+      {
+        "text": "はだか",
+        "correct": false,
+        "explanation": "はだか (裸) significa 'desnudo', es kanji y significado distintos. 服 se lee ふく."
+      },
+      {
+        "text": "ぶく",
+        "correct": false,
+        "explanation": "ぶく aparece como variante con rendaku en compuestos (例: 制服→せいふく), pero la palabra sola 服 es ふく."
+      }
+    ]
+  },
+  {
+    "id": "U5B-005",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 登ります?",
+    "opts": [
+      {
+        "text": "のぼります",
+        "correct": true,
+        "explanation": "登る (のぼる) = subir, escalar. Verbo Grupo 1 (godan). Correcta. Lectura kun. Se usa con destino marcado por に: 山<b>に</b>登る."
+      },
+      {
+        "text": "のります",
+        "correct": false,
+        "explanation": "のる es 乗る ('subir a un vehículo'), kanji distinto. 登る significa 'escalar/subir a una altura'."
+      },
+      {
+        "text": "あがります",
+        "correct": false,
+        "explanation": "あがる es 上がる (subir/elevarse). Es similar pero kanji distinto. 登る es específicamente 'escalar', usa la kun のぼ."
+      },
+      {
+        "text": "とります",
+        "correct": false,
+        "explanation": "とる es 取る/撮る (tomar/coger). Kanji y significado distintos."
+      }
+    ]
+  },
+  {
+    "id": "U5B-006",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 入ります?",
+    "opts": [
+      {
+        "text": "はいります",
+        "correct": true,
+        "explanation": "入る (はいる) = entrar, meterse. ⚠️ Verbo Grupo 1 a pesar de terminar en -iru. Correcta. Se usa con に: 温泉<b>に</b>入る."
+      },
+      {
+        "text": "いれます",
+        "correct": false,
+        "explanation": "いれる es 入れる (poner/meter ALGO), Grupo 2, transitivo. 入ります como 'entrar' es はいります, intransitivo."
+      },
+      {
+        "text": "いります",
+        "correct": false,
+        "explanation": "いる en 要る significa 'necesitar' (otro verbo). 入る para 'entrar' es はいる."
+      },
+      {
+        "text": "にゅうります",
+        "correct": false,
+        "explanation": "にゅう es on'yomi de 入 (入学 = にゅうがく). No se usa para el verbo aislado, que es la kun はいる."
+      }
+    ]
+  },
+  {
+    "id": "U5B-007",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 忙しい?",
+    "opts": [
+      {
+        "text": "いそがしい",
+        "correct": true,
+        "explanation": "忙しい (いそがしい) = ocupado. イ-adjetivo. Correcta. Pasado: 忙しかったです. La raíz いそが + okurigana しい."
+      },
+      {
+        "text": "ぼうしい",
+        "correct": false,
+        "explanation": "ぼう es on'yomi de 忙 (例: 多忙 = たぼう). La palabra忙しい usa la kun いそが."
+      },
+      {
+        "text": "いそぐしい",
+        "correct": false,
+        "explanation": "いそぐ es 急ぐ (apurarse), verbo distinto. 忙しい (adjetivo) se lee いそがしい."
+      },
+      {
+        "text": "いそがい",
+        "correct": false,
+        "explanation": "Falta la し: el adjetivo es いそが<b>しい</b>, no いそがい. Comparar con 楽しい, 難しい (mismo patrón).”"
+      }
+    ]
+  },
+  {
+    "id": "U5B-008",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 楽しい?",
+    "opts": [
+      {
+        "text": "たのしい",
+        "correct": true,
+        "explanation": "楽しい (たのしい) = divertido. イ-adjetivo. Correcta. Pasado: 楽しかったです. ⚠️ Mismo kanji 楽 también aparece en 音楽 (おんがく, música) con la lectura がく."
+      },
+      {
+        "text": "らくしい",
+        "correct": false,
+        "explanation": "らく es la on'yomi de 楽 ('cómodo'), pero en este adjetivo se usa la kun たの."
+      },
+      {
+        "text": "がくしい",
+        "correct": false,
+        "explanation": "がく es on'yomi de 楽 en 音楽 (música). El adjetivo 楽しい usa la kun たの."
+      },
+      {
+        "text": "うれしい",
+        "correct": false,
+        "explanation": "うれしい (嬉しい) significa 'contento/alegre' (otra emoción) y se escribe con kanji distinto."
+      }
+    ]
+  },
+  {
+    "id": "U5B-009",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 難しい?",
+    "opts": [
+      {
+        "text": "むずかしい",
+        "correct": true,
+        "explanation": "難しい (むずかしい) = difícil. イ-adjetivo. Correcta. Antónimo: 簡単 (ナA, fácil) o やさしい (イA)."
+      },
+      {
+        "text": "なんしい",
+        "correct": false,
+        "explanation": "なん es on'yomi de 難 (例: 困難 = こんなん). El adjetivo usa la kun むずか."
+      },
+      {
+        "text": "むつかしい",
+        "correct": false,
+        "explanation": "むつかしい es una pronunciación regional/arcaica que aparece en literatura. La forma estándar moderna es むずかしい."
+      },
+      {
+        "text": "かたしい",
+        "correct": false,
+        "explanation": "かたい es 固い/硬い (duro), kanji distinto. 難しい se lee むずかしい."
+      }
+    ]
+  },
+  {
+    "id": "U5B-010",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 簡単?",
+    "opts": [
+      {
+        "text": "かんたん",
+        "correct": true,
+        "explanation": "簡単 (かんたん) = fácil/sencillo. ⚠️ ナ-adjetivo (no イ a pesar de NO terminar en い... pero igual lleva な al modificar sustantivo). Correcta. Ambas lecturas son on'yomi."
+      },
+      {
+        "text": "かんだん",
+        "correct": false,
+        "explanation": "だん aparece en compuestos como 段 (escalón), pero 単 se lee たん sin rendaku en 簡単."
+      },
+      {
+        "text": "がんたん",
+        "correct": false,
+        "explanation": "がんたん (元旦) significa 'primer día del año'. Kanji y palabra distintos."
+      },
+      {
+        "text": "やさしい",
+        "correct": false,
+        "explanation": "やさしい (易しい/優しい) significa 'fácil/amable' pero con kanji distinto y como イ-adjetivo. 簡単 es ナ-adjetivo, se lee かんたん."
+      }
+    ]
+  },
+  {
+    "id": "U5B-011",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 大変?",
+    "opts": [
+      {
+        "text": "たいへん",
+        "correct": true,
+        "explanation": "大変 (たいへん) = duro, pesado, agotador. ナ-adjetivo. Correcta. Ambas on'yomi. También se usa como exclamación: 「大変！」 = ¡qué horror!"
+      },
+      {
+        "text": "おおへん",
+        "correct": false,
+        "explanation": "おお es kun de 大. En este compuesto formal se usa la on'yomi たい."
+      },
+      {
+        "text": "だいへん",
+        "correct": false,
+        "explanation": "だい es otra on'yomi de 大 (例: 大学 = だいがく). Para 大変 se usa たい específicamente. Excepción aprendida."
+      },
+      {
+        "text": "たいかわり",
+        "correct": false,
+        "explanation": "かわり es kun de 変 (variante: かわる, cambiar). En este compuesto se usa la on'yomi へん."
+      }
+    ]
+  },
+  {
+    "id": "U5B-012",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 暇?",
+    "opts": [
+      {
+        "text": "ひま",
+        "correct": true,
+        "explanation": "暇 (ひま) = libre de tiempo, ocioso. ナ-adjetivo. Correcta. Antónimo: 忙しい (イA). 「暇ですか」 = ¿Estás libre?"
+      },
+      {
+        "text": "やすみ",
+        "correct": false,
+        "explanation": "やすみ es 休み (descanso), kanji distinto. 暇 se lee ひま y refiere a la condición de estar desocupado."
+      },
+      {
+        "text": "ひる",
+        "correct": false,
+        "explanation": "ひる es 昼 (tarde, mediodía), kanji distinto."
+      },
+      {
+        "text": "か",
+        "correct": false,
+        "explanation": "か es on'yomi de 暇 (例: 余暇 = よか) pero como palabra aislada se usa la kun ひま."
+      }
+    ]
+  },
+  {
+    "id": "U5B-013",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 風邪 (かぜ)?",
+    "opts": [
+      {
+        "text": "Gripe / resfrío",
+        "correct": true,
+        "explanation": "風邪 (かぜ) = enfermedad respiratoria leve. Correcta. ⚠️ Mismo sonido que 風 (viento) pero distinto en escritura y significado."
+      },
+      {
+        "text": "Viento",
+        "correct": false,
+        "explanation": "Viento es 風 (sin 邪), también かぜ. Por contexto: 風邪をひく (resfriarse) vs 風が強い (hace viento)."
+      },
+      {
+        "text": "Frío (sensación)",
+        "correct": false,
+        "explanation": "Sentir frío es 寒い (さむい, adj.). 風邪 es la enfermedad."
+      },
+      {
+        "text": "Fiebre",
+        "correct": false,
+        "explanation": "Fiebre es 熱 (ねつ). 風邪 es el resfrío en general (que puede incluir fiebre como síntoma)."
+      }
+    ]
+  },
+  {
+    "id": "U5B-014",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 服 (ふく)?",
+    "opts": [
+      {
+        "text": "Ropa",
+        "correct": true,
+        "explanation": "服 (ふく) = ropa, prenda de vestir (en general). Correcta. Concepto genérico — para prendas específicas se usan otras palabras (シャツ, ズボン)."
+      },
+      {
+        "text": "Vestido (femenino)",
+        "correct": false,
+        "explanation": "Vestido (femenino) sería ドレス o ワンピース. 服 es ropa genérica."
+      },
+      {
+        "text": "Zapatos",
+        "correct": false,
+        "explanation": "Zapatos es 靴 (くつ). 服 es la ropa que cubre el torso/cuerpo."
+      },
+      {
+        "text": "Uniforme",
+        "correct": false,
+        "explanation": "Uniforme es 制服 (せいふく). 服 a secas es ropa genérica."
+      }
+    ]
+  },
+  {
+    "id": "U5B-015",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 簡単 (かんたん) como ナ-adjetivo?",
+    "opts": [
+      {
+        "text": "Fácil, sencillo",
+        "correct": true,
+        "explanation": "簡単（な）= fácil, sencillo. ナ-adjetivo. Correcta. Antónimo: 難しい (むずかしい, イA, difícil)."
+      },
+      {
+        "text": "Importante",
+        "correct": false,
+        "explanation": "Importante es 大切 (たいせつ) o 重要 (じゅうよう). 簡単 es 'fácil'."
+      },
+      {
+        "text": "Cómodo",
+        "correct": false,
+        "explanation": "Cómodo (en el sentido de relajado) es 楽 (らく). 簡単 = fácil/sencillo (referido a dificultad de tarea)."
+      },
+      {
+        "text": "Simple (de poco contenido)",
+        "correct": false,
+        "explanation": "Aunque cerca semánticamente, en este nivel 簡単 se traduce como 'fácil/sencillo' aplicado a tareas, exámenes, recetas."
+      }
+    ]
+  },
+  {
+    "id": "U5B-016",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 大変 (たいへん) como ナ-adjetivo?",
+    "opts": [
+      {
+        "text": "Duro, pesado, agotador",
+        "correct": true,
+        "explanation": "大変（な）= experiencia/situación que es pesada o agotadora. ナ-adjetivo. Correcta. Ej: 仕事は大変でした (el trabajo estuvo pesado)."
+      },
+      {
+        "text": "Muy grande físicamente",
+        "correct": false,
+        "explanation": "Grande físico es 大きい (おおきい, イA). 大変 se refiere a una situación que cuesta sobrellevar, no a tamaño."
+      },
+      {
+        "text": "Importante",
+        "correct": false,
+        "explanation": "Importante es 大切 (たいせつ) o 重要 (じゅうよう). 大変 = pesado/agotador."
+      },
+      {
+        "text": "Aburrido",
+        "correct": false,
+        "explanation": "Aburrido es つまらない (イA). 大変 es 'difícil de llevar', no tiene matiz de tedio."
+      }
+    ]
+  },
+  {
+    "id": "U5B-017",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 暇 (ひま) como ナ-adjetivo?",
+    "opts": [
+      {
+        "text": "Libre de tiempo, desocupado",
+        "correct": true,
+        "explanation": "暇（な）= estar sin compromisos, tener tiempo libre. ナ-adjetivo. Correcta. 「今、暇ですか」 = ¿Estás libre ahora?"
+      },
+      {
+        "text": "De vacaciones",
+        "correct": false,
+        "explanation": "De vacaciones es 休み (やすみ, sustantivo). 暇 es un estado adjetival: estar disponible/sin nada que hacer."
+      },
+      {
+        "text": "Aburrido",
+        "correct": false,
+        "explanation": "Aburrido (de la persona) es 退屈 (たいくつ) o つまらない. 暇 solo dice que estás libre, no que te aburras."
+      },
+      {
+        "text": "Cansado",
+        "correct": false,
+        "explanation": "Cansado es 疲れた (つかれた). 暇 es lo opuesto: tener tiempo sin obligaciones."
+      }
+    ]
+  },
+  {
+    "id": "U5B-018",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 登る (のぼる)?",
+    "opts": [
+      {
+        "text": "Escalar, subir (a una montaña, cuesta)",
+        "correct": true,
+        "explanation": "登る = subir físicamente a una altura. Correcta. ⚠️ Toma に para el destino: 山に登る. Verbo Grupo 1."
+      },
+      {
+        "text": "Subir a un vehículo",
+        "correct": false,
+        "explanation": "Subir a un vehículo es 乗る (のる) — verbo distinto, también partícula に. 登る es escalar específicamente."
+      },
+      {
+        "text": "Crecer (de una persona)",
+        "correct": false,
+        "explanation": "Crecer es 大きくなる o 成長する (せいちょうする). 登る es solo movimiento físico hacia arriba."
+      },
+      {
+        "text": "Aumentar (un número)",
+        "correct": false,
+        "explanation": "Aumentar es 増える (ふえる) o 上がる (あがる). 登る es escalar físicamente."
+      }
+    ]
+  },
+  {
+    "id": "U5B-019",
+    "cat": "Vocabulario ES→JP",
+    "q": "¿Cómo se dice 'esta mañana' en japonés?",
+    "opts": [
+      {
+        "text": "今朝（けさ）",
+        "correct": true,
+        "explanation": "今朝 (けさ) = esta mañana. Correcta. Lectura jukujikun. Tiempo definido: la mañana que ya pasó hoy."
+      },
+      {
+        "text": "朝（あさ）",
+        "correct": false,
+        "explanation": "朝 (あさ) = mañana (genérico, sin marcar 'esta'). Para 'esta mañana' específicamente se usa 今朝."
+      },
+      {
+        "text": "今日の朝（きょうのあさ）",
+        "correct": false,
+        "explanation": "今日の朝 es comprensible pero la forma idiomática y compacta es 今朝 (けさ). Los japoneses prefieren esta."
+      },
+      {
+        "text": "あさって",
+        "correct": false,
+        "explanation": "あさって = pasado mañana (futuro). 今朝 es esta mañana (pasado del día actual)."
+      }
+    ]
+  },
+  {
+    "id": "U5B-020",
+    "cat": "Vocabulario ES→JP",
+    "q": "¿Cómo se dice 'gripe / resfrío' en japonés?",
+    "opts": [
+      {
+        "text": "風邪（かぜ）",
+        "correct": true,
+        "explanation": "風邪 (かぜ) = gripe/resfrío. Correcta. ⚠️ Mismo sonido que 風 (viento) — distinguir por kanji."
+      },
+      {
+        "text": "病気（びょうき）",
+        "correct": false,
+        "explanation": "病気 = enfermedad en general (cualquier dolencia). 風邪 es específicamente resfrío."
+      },
+      {
+        "text": "熱（ねつ）",
+        "correct": false,
+        "explanation": "熱 = fiebre. Es un síntoma posible del 風邪, no la enfermedad misma."
+      },
+      {
+        "text": "頭痛（ずつう）",
+        "correct": false,
+        "explanation": "頭痛 = dolor de cabeza. Otro síntoma posible, no la enfermedad."
+      }
+    ]
+  },
+  {
+    "id": "U5B-021",
+    "cat": "Vocabulario ES→JP",
+    "q": "¿Cómo se dice 'cena' en japonés?",
+    "opts": [
+      {
+        "text": "晩ご飯（ばんごはん）",
+        "correct": true,
+        "explanation": "晩ご飯 (ばんごはん) = cena. Correcta. Familia léxica: 朝ご飯/昼ご飯/晩ご飯."
+      },
+      {
+        "text": "夜（よる）",
+        "correct": false,
+        "explanation": "夜 = noche (lapso temporal). La comida de la noche es 晩ご飯."
+      },
+      {
+        "text": "朝ご飯（あさごはん）",
+        "correct": false,
+        "explanation": "朝ご飯 = desayuno. La cena es 晩ご飯."
+      },
+      {
+        "text": "ディナー",
+        "correct": false,
+        "explanation": "ディナー (del inglés 'dinner') existe pero es uso más moderno/elegante. El estándar es 晩ご飯."
+      }
+    ]
+  },
+  {
+    "id": "U5B-022",
+    "cat": "Vocabulario ES→JP",
+    "q": "¿Cómo se dice '¿por qué?' en japonés?",
+    "opts": [
+      {
+        "text": "どうして",
+        "correct": true,
+        "explanation": "どうして = ¿por qué? Pregunta de causa. Correcta. Variante formal/escrita: なぜ. La respuesta usa から."
+      },
+      {
+        "text": "どのくらい",
+        "correct": false,
+        "explanation": "どのくらい = ¿cuánto (tiempo/cantidad)? Pregunta por extensión, no por causa."
+      },
+      {
+        "text": "どう",
+        "correct": false,
+        "explanation": "どう = ¿cómo? / ¿qué tal? Pregunta por estado o forma, no por causa. (Ej: 旅行はどうでしたか = ¿qué tal el viaje?)"
+      },
+      {
+        "text": "どこ",
+        "correct": false,
+        "explanation": "どこ = ¿dónde? Pregunta de lugar, no de causa."
+      }
+    ]
+  },
+  {
+    "id": "U5B-023",
+    "cat": "Vocabulario ES→JP",
+    "q": "¿Cómo se dice 'caro' en japonés?",
+    "opts": [
+      {
+        "text": "高い（たかい）",
+        "correct": true,
+        "explanation": "高い (たかい) = caro (también: alto). Correcta. ⚠️ Polisemia: 値段が高い (precio alto = caro) / 山が高い (montaña alta)."
+      },
+      {
+        "text": "安い（やすい）",
+        "correct": false,
+        "explanation": "安い = barato (lo opuesto a caro). Confusión común; distinguir bien."
+      },
+      {
+        "text": "大きい（おおきい）",
+        "correct": false,
+        "explanation": "大きい = grande (tamaño). No mide precio."
+      },
+      {
+        "text": "貴重（きちょう）",
+        "correct": false,
+        "explanation": "貴重 = precioso/valioso (con valor sentimental o de rareza), no caro de precio. Para precio se usa 高い."
+      }
+    ]
+  },
+  {
+    "id": "U5B-024",
+    "cat": "Vocabulario ES→JP",
+    "q": "¿Cómo se dice 'difícil' (en el sentido de 'no fácil', un examen, una tarea)?",
+    "opts": [
+      {
+        "text": "難しい（むずかしい）",
+        "correct": true,
+        "explanation": "難しい (むずかしい) = difícil de comprender/realizar. イ-adjetivo. Correcta. Antónimo directo: 簡単 (ナA, fácil)."
+      },
+      {
+        "text": "大変（たいへん）",
+        "correct": false,
+        "explanation": "大変 = pesado, agotador (carga física/emocional), no la dificultad cognitiva o técnica. 仕事は大変 ≠ 仕事は難しい."
+      },
+      {
+        "text": "高い（たかい）",
+        "correct": false,
+        "explanation": "高い = caro/alto. No describe dificultad."
+      },
+      {
+        "text": "忙しい（いそがしい）",
+        "correct": false,
+        "explanation": "忙しい = ocupado (con muchas cosas que hacer). No describe dificultad de la tarea misma."
+      }
+    ]
+  },
+  {
+    "id": "U5B-025",
+    "cat": "Gramática",
+    "q": "¿Cuál es la forma pasada afirmativa de 楽しい?",
+    "opts": [
+      {
+        "text": "楽しかったです",
+        "correct": true,
+        "explanation": "イ-adj pasado afirmativo: quitar い + agregar かった + です. 楽しい → 楽し<b>かった</b>です. Correcta. Patrón universal para イA (excepto いい→よかった)."
+      },
+      {
+        "text": "楽しいでした",
+        "correct": false,
+        "explanation": "❌ Error muy común. でした solo se usa con ナA y sustantivos. Para イA la marca de pasado está en la raíz: 〜かった."
+      },
+      {
+        "text": "楽しでした",
+        "correct": false,
+        "explanation": "❌ Mezcla incorrecta. Si fuera ナA sería 楽でした, pero 楽しい es イA → 楽しかったです."
+      },
+      {
+        "text": "楽しくでした",
+        "correct": false,
+        "explanation": "❌ 〜く es la forma adverbial/de unión, no de pasado. El pasado es 〜かった."
+      }
+    ]
+  },
+  {
+    "id": "U5B-026",
+    "cat": "Gramática",
+    "q": "¿Cuál es la forma pasada NEGATIVA de おもしろい?",
+    "opts": [
+      {
+        "text": "おもしろくなかったです",
+        "correct": true,
+        "explanation": "イ-adj pasado neg: quitar い + 〜くなかったです. おもしろい → おもしろ<b>くなかった</b>です. Correcta. Forma popular con あまり: あまりおもしろくなかったです (no muy interesante)."
+      },
+      {
+        "text": "おもしろくないでした",
+        "correct": false,
+        "explanation": "❌ 〜くない es la forma negativa presente. Para el pasado negativo, ない → なかった: 〜くなかったです."
+      },
+      {
+        "text": "おもしろじゃありませんでした",
+        "correct": false,
+        "explanation": "❌ じゃありませんでした es para ナA/sustantivos. おもしろい es イA: 〜くなかったです."
+      },
+      {
+        "text": "おもしろくありませんです",
+        "correct": false,
+        "explanation": "❌ ありません es presente. Para pasado neg cortés alternativo sería おもしろくありませんでした, no ありませんです."
+      }
+    ]
+  },
+  {
+    "id": "U5B-027",
+    "cat": "Gramática",
+    "q": "¿Cuál es la forma pasada afirmativa de 簡単?",
+    "opts": [
+      {
+        "text": "簡単でした",
+        "correct": true,
+        "explanation": "ナ-adj pasado +: ナA + <b>でした</b> (no な). 簡単 → 簡単でした. Correcta. La marca de pasado está en la cópula です→でした."
+      },
+      {
+        "text": "簡単かったです",
+        "correct": false,
+        "explanation": "❌ 〜かった es para イA. 簡単 termina en consonante (ん), no es イA. Se usa でした."
+      },
+      {
+        "text": "簡単なでした",
+        "correct": false,
+        "explanation": "❌ La な solo aparece cuando ナA modifica un sustantivo (簡単<b>な</b>テスト). Como predicado en pasado: 簡単でした (sin な)."
+      },
+      {
+        "text": "簡単いです",
+        "correct": false,
+        "explanation": "❌ 〜い es la terminación de イA (que no es el caso) o errónea aquí. Para ナA en pasado: でした."
+      }
+    ]
+  },
+  {
+    "id": "U5B-028",
+    "cat": "Gramática",
+    "q": "¿Cuál es la forma pasada NEGATIVA de 暇 (ナA, 'libre')?",
+    "opts": [
+      {
+        "text": "暇じゃありませんでした",
+        "correct": true,
+        "explanation": "ナA pasado −: ナA + <b>じゃありませんでした</b>. Correcta. Variante más formal: 暇ではありませんでした."
+      },
+      {
+        "text": "暇くなかったです",
+        "correct": false,
+        "explanation": "❌ 〜くなかった es para イA. 暇 es ナA: じゃありませんでした."
+      },
+      {
+        "text": "暇じゃありません",
+        "correct": false,
+        "explanation": "❌ Forma presente negativa (no estoy libre). El pasado negativo agrega でした al final: じゃありませんでした."
+      },
+      {
+        "text": "暇なくなかったです",
+        "correct": false,
+        "explanation": "❌ Mezcla incorrecta. La marca な solo va con sustantivos modificados, no en formas predicativas en pasado."
+      }
+    ]
+  },
+  {
+    "id": "U5B-029",
+    "cat": "Gramática",
+    "q": "¿Cuál es la forma pasada afirmativa de いい (bueno)?",
+    "opts": [
+      {
+        "text": "よかったです",
+        "correct": true,
+        "explanation": "⚠️ IRREGULAR: いい cambia a よ en todas las conjugaciones. Pasado: <b>よかった</b>です (no いかったです). Correcta. Misma raíz que el yo del kanji 良."
+      },
+      {
+        "text": "いかったです",
+        "correct": false,
+        "explanation": "❌ Error muy común. いい es irregular: la raíz cambia a よ en todas las formas distintas del presente afirmativo. Pasado: よかった."
+      },
+      {
+        "text": "いいでした",
+        "correct": false,
+        "explanation": "❌ いい es イA, no usa でした. Pasado: よかったです."
+      },
+      {
+        "text": "よいでした",
+        "correct": false,
+        "explanation": "❌ よい es variante formal de いい (presente), no es pasado. Pasado: よかったです (de よい/いい)."
+      }
+    ]
+  },
+  {
+    "id": "U5B-030",
+    "cat": "Gramática",
+    "q": "¿Qué partícula falta? 雨でした [ ? ] 、どこへも行きませんでした。",
+    "opts": [
+      {
+        "text": "から",
+        "correct": true,
+        "explanation": "から = causa. Estructura: [causa]から、[consecuencia]. Correcta. Va después de la forma cortés (です/ます/でした/ました)."
+      },
+      {
+        "text": "それから",
+        "correct": false,
+        "explanation": "それから = 'después' (secuencia temporal), no causa. Conecta acciones consecutivas, no relación causa-efecto."
+      },
+      {
+        "text": "が",
+        "correct": false,
+        "explanation": "が al final puede indicar contraste ('pero'), no causa. Para causa: から."
+      },
+      {
+        "text": "ので",
+        "correct": false,
+        "explanation": "ので también marca causa pero se conecta diferente (forma plana: 雨だったので…). En este nivel (Point 47) se usa から con la forma cortés completa."
+      }
+    ]
+  },
+  {
+    "id": "U5B-031",
+    "cat": "Gramática",
+    "q": "¿Qué partícula falta? 山 [ ? ] 登りました。",
+    "opts": [
+      {
+        "text": "に",
+        "correct": true,
+        "explanation": "登る usa <b>に</b> para el destino al que se sube: 山に登る. Correcta. Junto con 入る (温泉に入る) y 着く (駅に着く) son verbos que prefieren に sobre へ."
+      },
+      {
+        "text": "へ",
+        "correct": false,
+        "explanation": "へ marca dirección general (へ行く). El verbo 登る prefiere に para señalar el objetivo concreto del ascenso."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "explanation": "で indica lugar de la acción (山で遊ぶ = jugar EN la montaña). 登る necesita objetivo, no lugar."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "explanation": "を marca objeto directo. Aunque algunos verbos de movimiento usan を (道を歩く), 登る se construye con に + sustantivo."
+      }
+    ]
+  },
+  {
+    "id": "U5B-032",
+    "cat": "Gramática",
+    "q": "¿Qué partícula falta? 温泉 [ ? ] 入りました。",
+    "opts": [
+      {
+        "text": "に",
+        "correct": true,
+        "explanation": "入る usa <b>に</b> para indicar el lugar al que se entra: 温泉に入る, 部屋に入る. Correcta. ⚠️ Aunque en español decimos 'entrar EN', en japonés no se usa で sino に."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "explanation": "で marca lugar de acción. 温泉で would indicate doing something AT the onsen, not entering it. Para 'entrar', el destino lleva に."
+      },
+      {
+        "text": "へ",
+        "correct": false,
+        "explanation": "へ es dirección general; 入る tiene un objetivo específico (el interior del lugar) y prefiere に."
+      },
+      {
+        "text": "から",
+        "correct": false,
+        "explanation": "から marca origen ('desde'), no destino. El destino (entrar a) usa に."
+      }
+    ]
+  },
+  {
+    "id": "U5B-033",
+    "cat": "Gramática",
+    "q": "¿Qué palabra falta? [ ? ] 朝、何も食べませんでしたか。 — 朝、忙しかったですから。",
+    "opts": [
+      {
+        "text": "どうして",
+        "correct": true,
+        "explanation": "どうして = ¿por qué? (causa). Correcta. Pareja natural: pregunta どうして→ respuesta con 〜から."
+      },
+      {
+        "text": "どのくらい",
+        "correct": false,
+        "explanation": "どのくらい = ¿cuánto (tiempo/cantidad)? La respuesta sería un período (4時間くらい), no una causa."
+      },
+      {
+        "text": "どこ",
+        "correct": false,
+        "explanation": "どこ = ¿dónde? La respuesta sería un lugar (家で), no una causa."
+      },
+      {
+        "text": "どう",
+        "correct": false,
+        "explanation": "どう = ¿cómo / qué tal? Pregunta por estado o impresión. Para causa: どうして."
+      }
+    ]
+  },
+  {
+    "id": "U5B-034",
+    "cat": "Gramática",
+    "q": "¿Cuál es la forma correcta? '映画はあまり___です'.",
+    "opts": [
+      {
+        "text": "おもしろくなかった",
+        "correct": true,
+        "explanation": "あまり se empareja con NEGACIÓN. Para 'no muy interesante' en pasado: あまり + おもしろくなかった + です. Correcta."
+      },
+      {
+        "text": "おもしろかった",
+        "correct": false,
+        "explanation": "❌ Inconsistencia: あまり requiere forma negativa. あまりおもしろかった contradice el sentido ('no muy' + afirmación)."
+      },
+      {
+        "text": "おもしろいじゃなかった",
+        "correct": false,
+        "explanation": "❌ おもしろい es イA, no usa じゃ. Para pasado neg de イA: 〜くなかった."
+      },
+      {
+        "text": "おもしろいなかった",
+        "correct": false,
+        "explanation": "❌ Mezcla incorrecta. La forma neg pasada de おもしろい es おもしろ<b>くなかった</b> (sin la い)."
+      }
+    ]
+  },
+  {
+    "id": "U5B-035",
+    "cat": "Gramática",
+    "q": "¿Dónde va から en esta oración? '高い + パソコン + 買いませんでした'.",
+    "opts": [
+      {
+        "text": "高かったですから、買いませんでした。",
+        "correct": true,
+        "explanation": "Estructura: [causa]<b>から</b>、[consecuencia]. La causa (alto precio) lleva から al final. Correcta."
+      },
+      {
+        "text": "買いませんでしたから、高かったです。",
+        "correct": false,
+        "explanation": "❌ Orden invertido. から indica que LO QUE SIGUE es la consecuencia. 'No compré porque era caro', no 'era caro porque no compré'."
+      },
+      {
+        "text": "高かったからです、買いませんでした。",
+        "correct": false,
+        "explanation": "❌ から va inmediatamente después de la forma cortés, no antes de です. Correcto: 高かったです<b>から</b>."
+      },
+      {
+        "text": "高かった、買いませんでしたから。",
+        "correct": false,
+        "explanation": "❌ Sin から en la primera cláusula y con から al final (sin consecuencia) no se forma la relación causa-efecto. Estructura correcta: [Causa]から、[consecuencia]。"
+      }
+    ]
+  },
+  {
+    "id": "U5B-036",
+    "cat": "Gramática",
+    "q": "¿Cómo se forma 'simple/fácil + tarea' (modificación nominal con 簡単)?",
+    "opts": [
+      {
+        "text": "簡単な + テスト",
+        "correct": true,
+        "explanation": "ナA modifica sustantivo con <b>な</b>: 簡単<b>な</b>テスト = 'examen fácil'. Correcta. Diferente del predicado: テストは簡単です (sin な)."
+      },
+      {
+        "text": "簡単い + テスト",
+        "correct": false,
+        "explanation": "❌ La い es de イA. 簡単 es ナA → な para modificar sustantivo."
+      },
+      {
+        "text": "簡単の + テスト",
+        "correct": false,
+        "explanation": "❌ の une dos sustantivos. 簡単 es adjetivo, no sustantivo. Se une con な."
+      },
+      {
+        "text": "簡単で + テスト",
+        "correct": false,
+        "explanation": "❌ で es la forma TE de ナA (conector). Para modificar un sustantivo se usa な, no で."
+      }
+    ]
+  },
+  {
+    "id": "U5B-037",
+    "cat": "Gramática",
+    "q": "¿Cuál es la respuesta más natural a 「旅行はどうでしたか。」?",
+    "opts": [
+      {
+        "text": "とても楽しかったです。",
+        "correct": true,
+        "explanation": "どうでしたか pide una IMPRESIÓN en pasado. Respuesta natural: adverbio (とても/あまり) + adj-pasado + です. Correcta."
+      },
+      {
+        "text": "旅行に行きました。",
+        "correct": false,
+        "explanation": "❌ Esto responde a '¿qué hiciste?', no a '¿cómo estuvo?'. どう pide evaluación, no acción."
+      },
+      {
+        "text": "とても楽しいです。",
+        "correct": false,
+        "explanation": "❌ Tiempo incorrecto. どうでし<b>た</b>か está en pasado → la respuesta debe estar en pasado: 楽し<b>かった</b>です."
+      },
+      {
+        "text": "そうですか。",
+        "correct": false,
+        "explanation": "❌ そうですか = 'Ah, sí' (reacción), no responde a una pregunta de evaluación."
+      }
+    ]
+  },
+  {
+    "id": "U5B-038",
+    "cat": "Gramática",
+    "q": "Conjugar: 'ayer (no) llovió' → 昨日、___。",
+    "opts": [
+      {
+        "text": "雨でした",
+        "correct": true,
+        "explanation": "雨 es sustantivo. Pasado afirmativo de N: N + でした. 雨<b>でした</b> = (literalmente: 'fue lluvia') = ayer llovió. Correcta."
+      },
+      {
+        "text": "雨かったです",
+        "correct": false,
+        "explanation": "❌ 〜かった es para イA. 雨 es sustantivo, no adjetivo. Usa でした."
+      },
+      {
+        "text": "雨いでした",
+        "correct": false,
+        "explanation": "❌ La い no aplica para sustantivos. Para N en pasado: simplemente でした."
+      },
+      {
+        "text": "雨があります",
+        "correct": false,
+        "explanation": "❌ 雨があります describe la existencia presente. Para 'llovió' usar 雨でした o 雨が降りました."
+      }
+    ]
+  },
+  {
+    "id": "U5B-039",
+    "cat": "Gramática",
+    "q": "Forma negativa pasada de 雨 (sustantivo): 'ayer no llovió'.",
+    "opts": [
+      {
+        "text": "昨日、雨じゃありませんでした。",
+        "correct": true,
+        "explanation": "N neg pasado: N + <b>じゃありませんでした</b>. Misma forma que ナA. Correcta. Variante formal: ではありませんでした."
+      },
+      {
+        "text": "昨日、雨くなかったです。",
+        "correct": false,
+        "explanation": "❌ 〜くなかった es para イA. 雨 es sustantivo → じゃありませんでした."
+      },
+      {
+        "text": "昨日、雨じゃないでした。",
+        "correct": false,
+        "explanation": "❌ ない es la forma neg plana. La forma cortés en pasado neg correcta: じゃありませんでした (no じゃないでした)."
+      },
+      {
+        "text": "昨日、雨ないでした。",
+        "correct": false,
+        "explanation": "❌ Combinación incorrecta. La negación cortés de la cópula です en pasado es じゃありませんでした."
+      }
+    ]
+  },
+  {
+    "id": "U5B-040",
+    "cat": "Traducción JP→ES",
+    "q": "¿Qué significa '昨日のパーティーは楽しかったです。'?",
+    "opts": [
+      {
+        "text": "La fiesta de ayer estuvo divertida.",
+        "correct": true,
+        "explanation": "昨日の (de ayer) + パーティー (fiesta) + は (tema) + 楽しかった (fue divertida, pasado +). Correcta. Construcción típica de comentario sobre evento pasado."
+      },
+      {
+        "text": "La fiesta de hoy va a estar divertida.",
+        "correct": false,
+        "explanation": "❌ 昨日 = ayer (no hoy). 楽しかった = pasado (no futuro)."
+      },
+      {
+        "text": "La fiesta de ayer no estuvo divertida.",
+        "correct": false,
+        "explanation": "❌ 楽しかった es POSITIVO en pasado. Para 'no estuvo divertida' sería 楽しくなかった."
+      },
+      {
+        "text": "Quiero ir a la fiesta de ayer.",
+        "correct": false,
+        "explanation": "❌ No hay verbo de movimiento ni 〜たい. La oración solo evalúa la fiesta como divertida."
+      }
+    ]
+  },
+  {
+    "id": "U5B-041",
+    "cat": "Traducción JP→ES",
+    "q": "¿Qué significa '映画はあまりおもしろくなかったです。'?",
+    "opts": [
+      {
+        "text": "La película no estuvo muy interesante.",
+        "correct": true,
+        "explanation": "映画 (peli) は (tema) + あまり (no muy, con neg) + おもしろくなかった (no fue interesante, pasado neg) + です. Correcta."
+      },
+      {
+        "text": "La película fue muy interesante.",
+        "correct": false,
+        "explanation": "❌ Doble error: あまり + neg = 'no muy'. La oración es NEGATIVA en pasado."
+      },
+      {
+        "text": "La película es bastante aburrida.",
+        "correct": false,
+        "explanation": "❌ Tiempo incorrecto (es vs. estuvo) y traducción libre. 'No muy interesante' ≠ 'bastante aburrida'."
+      },
+      {
+        "text": "La película no me interesa.",
+        "correct": false,
+        "explanation": "❌ Tiempo presente, no pasado. La oración japonesa está en pasado: 〜くなかったです."
+      }
+    ]
+  },
+  {
+    "id": "U5B-042",
+    "cat": "Traducción JP→ES",
+    "q": "¿Qué significa 'テストは簡単じゃありませんでした。'?",
+    "opts": [
+      {
+        "text": "El examen no fue fácil.",
+        "correct": true,
+        "explanation": "テスト (examen) は (tema) + 簡単 (ナA, fácil) + じゃありませんでした (neg pasado de ナA). Correcta."
+      },
+      {
+        "text": "El examen es muy difícil.",
+        "correct": false,
+        "explanation": "❌ Tiempo (presente vs pasado) y palabra (difícil = 難しい): la oración dice 'no fue fácil', sutil pero distinto."
+      },
+      {
+        "text": "El examen fue fácil.",
+        "correct": false,
+        "explanation": "❌ Polaridad invertida. じゃありませんでした es NEGATIVO. Para 'fue fácil' sería 簡単でした."
+      },
+      {
+        "text": "No quiero hacer el examen.",
+        "correct": false,
+        "explanation": "❌ No hay 〜たい ni verbo de querer. La oración es una evaluación, no un deseo."
+      }
+    ]
+  },
+  {
+    "id": "U5B-043",
+    "cat": "Traducción JP→ES",
+    "q": "¿Qué significa '昨日、雨でしたから、どこへも行きませんでした。'?",
+    "opts": [
+      {
+        "text": "Ayer llovió, así que no fui a ningún lado.",
+        "correct": true,
+        "explanation": "昨日 (ayer) + 雨でした (llovió, sust + cópula pasada) + から (causa) + どこへも + verbo neg (a ningún lado). Correcta. Causa-consecuencia con から."
+      },
+      {
+        "text": "Ayer no llovió, así que fui a varios lados.",
+        "correct": false,
+        "explanation": "❌ Polaridad invertida en ambos verbos. La oración dice que SÍ llovió y NO fue a ningún lado."
+      },
+      {
+        "text": "Si llueve mañana, no iré a ningún lado.",
+        "correct": false,
+        "explanation": "❌ 昨日 = ayer, no mañana. Y でした = pasado, no condicional. No hay 'si' (たら/ば)."
+      },
+      {
+        "text": "Ayer fui a un lugar porque llovía.",
+        "correct": false,
+        "explanation": "❌ どこへも + verbo neg = 'a NINGÚN lugar'. No fue a ningún lado."
+      }
+    ]
+  },
+  {
+    "id": "U5B-044",
+    "cat": "Traducción JP→ES",
+    "q": "¿Qué significa 'どうして朝、何も食べませんでしたか。 — 朝、忙しかったですから。'?",
+    "opts": [
+      {
+        "text": "—¿Por qué no comiste nada a la mañana? —Porque estaba ocupado a la mañana.",
+        "correct": true,
+        "explanation": "どうして = ¿por qué? + 朝 (mañana) + 何も〜ません (nada). Respuesta: 忙しかったです + から (causa). Correcta. Pareja どうして〜から."
+      },
+      {
+        "text": "—¿Cuánto comiste a la mañana? —Porque tenía hambre.",
+        "correct": false,
+        "explanation": "❌ どうして = por qué (no どのくらい = cuánto). La respuesta da una causa, no una cantidad."
+      },
+      {
+        "text": "—¿Qué comiste a la mañana? —Estaba ocupado.",
+        "correct": false,
+        "explanation": "❌ 何も + neg = nada (no '¿qué comiste?', que sería 何を食べましたか sin も)."
+      },
+      {
+        "text": "—¿Por qué desayunaste tarde? —Porque me dormí.",
+        "correct": false,
+        "explanation": "❌ La oración japonesa dice 'no comió nada', no que desayunó tarde."
+      }
+    ]
+  },
+  {
+    "id": "U5B-045",
+    "cat": "Traducción JP→ES",
+    "q": "¿Qué significa '山に登りました。それから、温泉に入りました。'?",
+    "opts": [
+      {
+        "text": "Subí a una montaña. Después, me metí en aguas termales.",
+        "correct": true,
+        "explanation": "山に登る (escalar montaña) + それから (después) + 温泉に入る (entrar a aguas termales). Correcta. Ambos verbos toman に para el destino."
+      },
+      {
+        "text": "Veo la montaña. Después, miro las aguas termales.",
+        "correct": false,
+        "explanation": "❌ 登りました = subí (no veo). 入りました = entré (no miro). Y ambos están en pasado."
+      },
+      {
+        "text": "Voy a subir una montaña y meterme en aguas termales.",
+        "correct": false,
+        "explanation": "❌ Pasado (〜ました), no futuro. La oración narra eventos ya ocurridos."
+      },
+      {
+        "text": "Bajé la montaña antes de las aguas termales.",
+        "correct": false,
+        "explanation": "❌ 登る = subir (no bajar; eso sería 下る/おりる). それから = después (no antes)."
+      }
+    ]
+  },
+  {
+    "id": "U5B-046",
+    "cat": "Traducción JP→ES",
+    "q": "¿Qué significa '今朝、忙しかったですから、晩ご飯まで何も食べませんでした。'?",
+    "opts": [
+      {
+        "text": "Esta mañana estuve ocupado, así que no comí nada hasta la cena.",
+        "correct": true,
+        "explanation": "今朝 (esta mañana) + 忙しかったです (estuve ocupado) + から (causa) + 晩ご飯まで (hasta la cena) + 何も〜ません (nada). Correcta. Combina varios elementos de 5B."
+      },
+      {
+        "text": "Esta noche estoy ocupado y no voy a cenar.",
+        "correct": false,
+        "explanation": "❌ 今朝 = esta mañana (no noche). Y todo está en pasado, no presente/futuro."
+      },
+      {
+        "text": "Mañana voy a estar ocupado hasta la noche.",
+        "correct": false,
+        "explanation": "❌ 今朝 = esta mañana (pasado de hoy), no mañana. Y 食べませんでした = no comí, no es planeo."
+      },
+      {
+        "text": "A la mañana cocino la cena porque estoy ocupado.",
+        "correct": false,
+        "explanation": "❌ Sin verbos de cocinar (作る) ni causa-consecuencia coherente con la oración japonesa."
+      }
+    ]
+  },
+  {
+    "id": "U5B-047",
+    "cat": "Traducción JP→ES",
+    "q": "¿Qué significa 'A:旅行はどうでしたか。 B:あまり楽しくなかったです。'?",
+    "opts": [
+      {
+        "text": "A: ¿Qué tal el viaje? B: No fue muy divertido.",
+        "correct": true,
+        "explanation": "どうでしたか = ¿cómo estuvo? Respuesta: あまり + 楽しくなかった (no muy divertido). Correcta. Patrón natural pregunta-respuesta de 5B."
+      },
+      {
+        "text": "A: ¿Cómo es el viaje? B: Va a ser muy divertido.",
+        "correct": false,
+        "explanation": "❌ どうでし<b>た</b>か = pasado. Y あまり〜なかった = neg ('no muy'), no afirmativo."
+      },
+      {
+        "text": "A: ¿A dónde viajaste? B: No fui de viaje.",
+        "correct": false,
+        "explanation": "❌ どう = cómo/qué tal (no どこ = dónde). Y la respuesta evalúa el viaje, no niega haberlo hecho."
+      },
+      {
+        "text": "A: ¿Qué tal el viaje? B: Estuvo muy divertido.",
+        "correct": false,
+        "explanation": "❌ あまり〜くなかった = NO muy divertido (negativo). Para 'muy divertido' sería とても楽しかったです."
+      }
+    ]
+  },
+  {
+    "id": "U5B-048",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'El examen fue fácil'?",
+    "opts": [
+      {
+        "text": "テストは簡単でした。",
+        "correct": true,
+        "explanation": "テスト (examen) + は (tema) + 簡単 (ナA, fácil) + でした (pasado +). Correcta. ナA no lleva な ante でした en función predicativa."
+      },
+      {
+        "text": "テストは簡単だったです。",
+        "correct": false,
+        "explanation": "❌ だった es la forma plana del pasado, no se combina con です. Correcto: でした (o だった a secas en lenguaje informal)."
+      },
+      {
+        "text": "テストは簡単いです。",
+        "correct": false,
+        "explanation": "❌ 簡単 es ナA, no agrega い. Tiempo pasado se forma con でした, no con 〜いです."
+      },
+      {
+        "text": "テストは簡単かったです。",
+        "correct": false,
+        "explanation": "❌ 〜かった es para イA. 簡単 es ナA → 簡単でした (pasado +)."
+      }
+    ]
+  },
+  {
+    "id": "U5B-049",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'La fiesta de anoche no fue muy divertida'?",
+    "opts": [
+      {
+        "text": "昨日の晩のパーティーはあまり楽しくなかったです。",
+        "correct": true,
+        "explanation": "昨日の晩 (anoche) + の + パーティー (fiesta) + は + あまり (no muy, con neg) + 楽しくなかった + です. Correcta. あまり se empareja con negación."
+      },
+      {
+        "text": "昨日の晩のパーティーはとても楽しかったです。",
+        "correct": false,
+        "explanation": "❌ とても + afirmativo = MUY divertida (contradice 'no muy'). La traducción correcta usa あまり + neg."
+      },
+      {
+        "text": "昨日の晩のパーティーは楽しいじゃありませんでした。",
+        "correct": false,
+        "explanation": "❌ 楽しい es イA, no usa じゃありませんでした (eso es para ナA/N). Para イA neg pasado: 〜くなかったです."
+      },
+      {
+        "text": "昨日の晩のパーティーはあまり楽しいです。",
+        "correct": false,
+        "explanation": "❌ Tiempo presente. Anoche es pasado: 〜くなかったです (pasado neg)."
+      }
+    ]
+  },
+  {
+    "id": "U5B-050",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'Porque estaba lloviendo, no fui a ningún lado'?",
+    "opts": [
+      {
+        "text": "雨でしたから、どこへも行きませんでした。",
+        "correct": true,
+        "explanation": "雨 + でした (sust+cópula pasada) + から (causa) + どこへも + 行きませんでした (a ningún lado, neg pasado). Correcta. Patrón causa-consecuencia."
+      },
+      {
+        "text": "雨ですから、どこへも行きませんでした。",
+        "correct": false,
+        "explanation": "❌ Inconsistencia temporal: la causa también debe ir en pasado (でした, no です) cuando los eventos son pasados."
+      },
+      {
+        "text": "どこへも行きませんでしたから、雨でした。",
+        "correct": false,
+        "explanation": "❌ Orden invertido. から indica que LO QUE SIGUE es la consecuencia. La causa (雨) debe ir antes."
+      },
+      {
+        "text": "雨でしたが、どこへ行きましたか。",
+        "correct": false,
+        "explanation": "❌ が = pero/contraste (no causa). Y el verbo final está en interrogativa afirmativa, no en negación pasada."
+      }
+    ]
+  },
+  {
+    "id": "U5B-051",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice '¿Por qué no compraste la computadora? — Porque estaba cara'?",
+    "opts": [
+      {
+        "text": "A: どうしてパソコンを買いませんでしたか。 B: 高かったですから。",
+        "correct": true,
+        "explanation": "Pareja どうして〜か / 〜から. La respuesta puede acabar en から (causa) sin necesidad de repetir la consecuencia. Correcta."
+      },
+      {
+        "text": "A: なんでパソコンを買いませんか。 B: 高いですから。",
+        "correct": false,
+        "explanation": "❌ Tiempos incorrectos: ambos verbos deben estar en pasado. Y なんで es informal — どうして es el estándar de Dekiru."
+      },
+      {
+        "text": "A: どこでパソコンを買いませんでしたか。 B: 高かったですから。",
+        "correct": false,
+        "explanation": "❌ どこで = ¿dónde? (lugar), no pregunta por causa. Para '¿por qué?' se usa どうして."
+      },
+      {
+        "text": "A: どうしてパソコンを買いませんでしたか。 B: 高いです。",
+        "correct": false,
+        "explanation": "❌ La respuesta debe estar en pasado para coincidir con la pregunta: 高<b>かった</b>です(から)."
+      }
+    ]
+  },
+  {
+    "id": "U5B-052",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'Subí a la montaña y entré a las aguas termales. Estuvo agradable'?",
+    "opts": [
+      {
+        "text": "山に登りました。それから、温泉に入りました。気持ちがよかったです。",
+        "correct": true,
+        "explanation": "山<b>に</b>登る + それから + 温泉<b>に</b>入る + 気持ちがよかった (pasado de いい→よかった). Correcta. ⚠️ Ambos verbos con に, no con へ."
+      },
+      {
+        "text": "山へ登りました。それから、温泉で入りました。気持ちがいかったです。",
+        "correct": false,
+        "explanation": "❌ Múltiples errores: 登る prefiere に (no へ), 入る necesita に (no で), y いい en pasado es <b>よかった</b> (no いかった)."
+      },
+      {
+        "text": "山を登りました。それから、温泉を入りました。気持ちがいいでした。",
+        "correct": false,
+        "explanation": "❌ Ambos verbos usan に, no を. Y いい no usa でした (es イA, pasado: よかったです)."
+      },
+      {
+        "text": "山に登ります。それから、温泉に入ります。気持ちがいいです。",
+        "correct": false,
+        "explanation": "❌ Tiempos presentes. La oración pide pasado: 登りました, 入りました, よかったです."
+      }
+    ]
+  },
+  {
+    "id": "U5B-053",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'Compré ropa en Shibuya. Estuvo barata'?",
+    "opts": [
+      {
+        "text": "渋谷で服を買いました。安かったです。",
+        "correct": true,
+        "explanation": "渋谷<b>で</b> (lugar de acción) + 服<b>を</b> (objeto) + 買いました + 安かったです (イA pasado). Correcta."
+      },
+      {
+        "text": "渋谷へ服を買いました。安いでした。",
+        "correct": false,
+        "explanation": "❌ 渋谷へ implicaría dirección/destino, pero 'comprar EN Shibuya' usa で (lugar de la acción). Y 安い es イA: 安かったです, no 安いでした."
+      },
+      {
+        "text": "渋谷に服が買いました。安かったです。",
+        "correct": false,
+        "explanation": "❌ に con verbo de acción transitiva no es natural aquí (debería ser で). Y 服 lleva を (objeto directo), no が."
+      },
+      {
+        "text": "渋谷で服を買います。安いです。",
+        "correct": false,
+        "explanation": "❌ Tiempos presentes. La oración pide pasado: 買いました, 安かったです."
+      }
+    ]
+  },
+  {
+    "id": "U5B-054",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'El trabajo fue pesado, así que estaba muy cansado'?",
+    "opts": [
+      {
+        "text": "仕事は大変でしたから、とても疲れました。",
+        "correct": true,
+        "explanation": "仕事 (trabajo) + は + 大変 (ナA) + でした (pasado) + から (causa) + 疲れました (cansé, pasado). Correcta. Causa-consecuencia con から."
+      },
+      {
+        "text": "仕事は大変かったですから、とても疲れます。",
+        "correct": false,
+        "explanation": "❌ 大変 es ナA, no usa 〜かった. Y 疲れます es presente; debe ir 疲れました."
+      },
+      {
+        "text": "仕事は大変ですから、とても疲れました。",
+        "correct": false,
+        "explanation": "❌ Inconsistencia temporal: la causa también debe ir en pasado (でした, no です)."
+      },
+      {
+        "text": "仕事が大変だから、とても疲れました。",
+        "correct": false,
+        "explanation": "❌ だ es forma plana presente, no cortés ni pasado. En Dekiru se usa でした con から."
+      }
+    ]
+  },
+  {
+    "id": "U5B-055",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'Ayer estuve libre, así que limpié mi cuarto'?",
+    "opts": [
+      {
+        "text": "昨日は暇でしたから、部屋を掃除しました。",
+        "correct": true,
+        "explanation": "昨日 + は + 暇 (ナA, libre) + でした + から + 部屋を掃除しました. Correcta. Combina vocab 5B (暇) con vocab 5A (部屋, 掃除する)."
+      },
+      {
+        "text": "昨日は暇かったですから、部屋を掃除しました。",
+        "correct": false,
+        "explanation": "❌ 暇 es ナA. La forma pasada es 暇<b>でした</b>, no 暇<b>かった</b> (que sería de イA)."
+      },
+      {
+        "text": "昨日は暇です、部屋を掃除しました。",
+        "correct": false,
+        "explanation": "❌ Falta から. Y です está en presente (debe ser でした)."
+      },
+      {
+        "text": "昨日は暇でしたから、部屋に掃除しました。",
+        "correct": false,
+        "explanation": "❌ El objeto de 掃除する es 部屋 (lugar limpiado), lleva を (no に). 〜を掃除する."
+      }
+    ]
+  },
+  {
+    "id": "U5B-056",
+    "cat": "Situación",
+    "q": "Un amigo te pregunta 「映画はどうでしたか。」. La película te encantó. ¿Cómo respondés?",
+    "opts": [
+      {
+        "text": "とてもおもしろかったです。",
+        "correct": true,
+        "explanation": "とても (muy) + おもしろかった (fue interesante, pasado +) + です. Correcta. Respuesta tipo a どうでしたか cuando la experiencia fue muy positiva."
+      },
+      {
+        "text": "おもしろくないです。",
+        "correct": false,
+        "explanation": "❌ Negativo presente: 'no es interesante'. Contradice el contexto (te encantó) y el tiempo (debería ser pasado)."
+      },
+      {
+        "text": "あまりおもしろくなかったです。",
+        "correct": false,
+        "explanation": "❌ あまり + neg = 'no muy'. Esta es la respuesta opuesta a 'me encantó'."
+      },
+      {
+        "text": "おもしろいです。",
+        "correct": false,
+        "explanation": "❌ Tiempo presente. どうでしたか está en pasado → respuesta en pasado: おもしろかった."
+      }
+    ]
+  },
+  {
+    "id": "U5B-057",
+    "cat": "Situación",
+    "q": "Tu compañero llegó tarde a clase. Querés preguntarle el motivo de manera cortés.",
+    "opts": [
+      {
+        "text": "どうして遅れましたか。",
+        "correct": true,
+        "explanation": "どうして = ¿por qué? + 遅れました (llegué tarde, pasado) + か. Correcta. Pregunta natural sobre causa en pasado."
+      },
+      {
+        "text": "どこで遅れましたか。",
+        "correct": false,
+        "explanation": "❌ どこで = ¿dónde? Pregunta lugar, no causa."
+      },
+      {
+        "text": "どのくらい遅れますか。",
+        "correct": false,
+        "explanation": "❌ どのくらい = ¿cuánto? Y 遅れます es futuro/presente. La situación pide causa pasada."
+      },
+      {
+        "text": "いつ遅れましたか。",
+        "correct": false,
+        "explanation": "❌ いつ = ¿cuándo? El ya llegó tarde; pregunto por la causa, no el momento."
+      }
+    ]
+  },
+  {
+    "id": "U5B-058",
+    "cat": "Situación",
+    "q": "Alguien te invita el viernes a comprar una compu, pero el lunes tenés que explicar que NO la compraste porque era cara. ¿Qué decís?",
+    "opts": [
+      {
+        "text": "高かったですから、買いませんでした。",
+        "correct": true,
+        "explanation": "Causa (高かったです) + から + consecuencia (買いませんでした). Correcta. Es la respuesta exacta del ejercicio 2 del libro."
+      },
+      {
+        "text": "高いですから、買いません。",
+        "correct": false,
+        "explanation": "❌ Tiempos presentes — la situación es de algo ya ocurrido. Necesita pasado: 高<b>かった</b>です + 買い<b>ません</b>でした."
+      },
+      {
+        "text": "買いませんでしたから、高かったです。",
+        "correct": false,
+        "explanation": "❌ Orden invertido. La causa va ANTES de から, la consecuencia después."
+      },
+      {
+        "text": "高くなかったですから、買いませんでした。",
+        "correct": false,
+        "explanation": "❌ 高くなかった = 'no era cara'. Si no era cara, no sería causa para no comprarla."
+      }
+    ]
+  },
+  {
+    "id": "U5B-059",
+    "cat": "Situación",
+    "q": "Un compañero se siente mal. Querés preguntarle qué le pasó.",
+    "opts": [
+      {
+        "text": "どうしましたか。",
+        "correct": true,
+        "explanation": "どうしましたか = ¿qué pasó? / ¿qué te pasa? Pregunta general por la situación. Correcta. Frase MUY útil cuando alguien parece afectado."
+      },
+      {
+        "text": "どうですか。",
+        "correct": false,
+        "explanation": "❌ どうですか = ¿qué tal?/¿cómo está? Es para opinión o estado, no para preguntar 'qué pasó'."
+      },
+      {
+        "text": "どうしてしましたか。",
+        "correct": false,
+        "explanation": "❌ Combinación incorrecta. Se dice どうしましたか (sin して repetido)."
+      },
+      {
+        "text": "なんでしたか。",
+        "correct": false,
+        "explanation": "❌ なんでしたか literalmente = '¿qué fue?'. No tiene el matiz de '¿qué pasó/te ocurre?'."
+      }
+    ]
+  },
+  {
+    "id": "U5B-060",
+    "cat": "Situación",
+    "q": "Te preguntan「週末はどうでしたか。」. El finde estuviste enfermo con gripe y descansaste en casa.",
+    "opts": [
+      {
+        "text": "風邪でしたから、家で休みました。",
+        "correct": true,
+        "explanation": "Causa (風邪でした, era resfrío) + から + consecuencia (家で休みました, descansé en casa). Correcta. Respuesta natural y completa."
+      },
+      {
+        "text": "風邪が好きですから、家で休みました。",
+        "correct": false,
+        "explanation": "❌ 風邪が好き = 'me gusta el resfrío' (absurdo). La causa correcta es 風邪でした (lo tenía)."
+      },
+      {
+        "text": "風邪じゃありませんでしたから、家で休みました。",
+        "correct": false,
+        "explanation": "❌ 風邪じゃありませんでした = 'no era resfrío' — eso no sería causa para descansar."
+      },
+      {
+        "text": "家で休みましたから、風邪でした。",
+        "correct": false,
+        "explanation": "❌ Orden invertido. El resfrío es la causa, descansar la consecuencia."
+      }
+    ]
+  }
+]

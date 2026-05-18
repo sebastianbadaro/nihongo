@@ -1,0 +1,1622 @@
+[
+  {
+    "id": "U5C-001",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 自転車?",
+    "opts": [
+      {
+        "text": "じてんしゃ",
+        "correct": true,
+        "explanation": "自 (じ) + 転 (てん) + 車 (しゃ) = じてんしゃ. Lectura on'yomi en cada uno. Sin rendaku porque los tres son on'yomi del compuesto."
+      },
+      {
+        "text": "じどうしゃ",
+        "correct": false,
+        "explanation": "じどうしゃ es 自動車 (auto/automóvil), distinta palabra. Comparten 自 pero no el resto."
+      },
+      {
+        "text": "じてんくるま",
+        "correct": false,
+        "explanation": "車 en compuesto on'yomi se lee しゃ. くるま es la kun'yomi cuando va sola."
+      },
+      {
+        "text": "じでんしゃ",
+        "correct": false,
+        "explanation": "転 no tiene lectura でん. でん corresponde a 電 (electricidad)."
+      }
+    ]
+  },
+  {
+    "id": "U5C-002",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 写真?",
+    "opts": [
+      {
+        "text": "しゃしん",
+        "correct": true,
+        "explanation": "写 (しゃ, 'copiar/reflejar') + 真 (しん, 'verdad') = しゃしん. Ambas on'yomi."
+      },
+      {
+        "text": "しゃじん",
+        "correct": false,
+        "explanation": "真 no toma rendaku (しん → じん) en este compuesto. じん es lectura de 人."
+      },
+      {
+        "text": "うつしん",
+        "correct": false,
+        "explanation": "うつ es la kun'yomi de 写 (うつす). En compuesto se usa しゃ."
+      },
+      {
+        "text": "しゃま",
+        "correct": false,
+        "explanation": "ま no es lectura de 真. La lectura on'yomi correcta es しん."
+      }
+    ]
+  },
+  {
+    "id": "U5C-003",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 携帯電話?",
+    "opts": [
+      {
+        "text": "けいたいでんわ",
+        "correct": true,
+        "explanation": "携帯 (けいたい, 'portar') + 電話 (でんわ, 'teléfono') = けいたいでんわ. Compuesto de cuatro kanji muy frecuente."
+      },
+      {
+        "text": "けいたいでんは",
+        "correct": false,
+        "explanation": "話 se lee わ en este compuesto, no は. は (lectura de 葉) es de otra palabra."
+      },
+      {
+        "text": "けいだいでんわ",
+        "correct": false,
+        "explanation": "携帯 no toma rendaku (たい → だい). Se mantiene けいたい."
+      },
+      {
+        "text": "けいおびでんわ",
+        "correct": false,
+        "explanation": "帯 tiene kun'yomi おび ('cinturón obi'), pero en este compuesto se usa la on'yomi たい."
+      }
+    ]
+  },
+  {
+    "id": "U5C-004",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 撮ります?",
+    "opts": [
+      {
+        "text": "とります",
+        "correct": true,
+        "explanation": "撮 (とる) es Grupo 1: 撮る → 撮ります. Específico para tomar fotos/videos."
+      },
+      {
+        "text": "さつります",
+        "correct": false,
+        "explanation": "さつ es la on'yomi de 撮 (撮影 = さつえい), pero como verbo independiente se usa la kun'yomi とる."
+      },
+      {
+        "text": "うつります",
+        "correct": false,
+        "explanation": "うつる corresponde a 写る/移る. 撮 nunca se lee うつ."
+      },
+      {
+        "text": "あげります",
+        "correct": false,
+        "explanation": "あげる es 上げる ('subir/dar'). Nada que ver con 撮."
+      }
+    ]
+  },
+  {
+    "id": "U5C-005",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 借ります?",
+    "opts": [
+      {
+        "text": "かります",
+        "correct": true,
+        "explanation": "借 (かりる) es Grupo 2: 借りる → 借ります. Significa pedir prestado/alquilar."
+      },
+      {
+        "text": "かしります",
+        "correct": false,
+        "explanation": "Confusión con 貸す (かす, 'prestar'), que es el opuesto. La conjugación tampoco existe así."
+      },
+      {
+        "text": "しゃくります",
+        "correct": false,
+        "explanation": "しゃく es la on'yomi de 借 (借金 = しゃっきん), pero como verbo se usa la kun'yomi かりる."
+      },
+      {
+        "text": "もらいます",
+        "correct": false,
+        "explanation": "もらう es 貰う ('recibir'). Distinto de 借りる ('pedir prestado', con devolución implícita)."
+      }
+    ]
+  },
+  {
+    "id": "U5C-006",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 好き?",
+    "opts": [
+      {
+        "text": "すき",
+        "correct": true,
+        "explanation": "好 tiene kun'yomi す(く)/このむ. En el adjetivo se usa す + き okurigana. Adjetivo ナ."
+      },
+      {
+        "text": "こうき",
+        "correct": false,
+        "explanation": "こう es la on'yomi de 好 (好意 = こうい), pero como adjetivo independiente se usa la kun'yomi すき."
+      },
+      {
+        "text": "よしき",
+        "correct": false,
+        "explanation": "よし es lectura nanori (en nombres propios) de 好. No corresponde aquí."
+      },
+      {
+        "text": "このき",
+        "correct": false,
+        "explanation": "このむ es otra kun'yomi de 好, pero no se conjuga así como adjetivo. El adjetivo es すき."
+      }
+    ]
+  },
+  {
+    "id": "U5C-007",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 嫌い?",
+    "opts": [
+      {
+        "text": "きらい",
+        "correct": true,
+        "explanation": "嫌 (きらう, 'detestar') → adjetivo ナ きらい. Aunque termine en い, es ナ-adj (嫌い<b>な</b>もの)."
+      },
+      {
+        "text": "けんい",
+        "correct": false,
+        "explanation": "けん es la on'yomi de 嫌 (嫌悪 = けんお), pero como adjetivo se usa la kun'yomi きらい."
+      },
+      {
+        "text": "いやい",
+        "correct": false,
+        "explanation": "いや es otra kun'yomi de 嫌 (嫌だ = いやだ, 'es desagradable'), pero no se forma いやい."
+      },
+      {
+        "text": "ぎらい",
+        "correct": false,
+        "explanation": "ぎらい aparece solo en compuestos como 食わず嫌い (くわずぎらい), no como palabra independiente."
+      }
+    ]
+  },
+  {
+    "id": "U5C-008",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 財布?",
+    "opts": [
+      {
+        "text": "さいふ",
+        "correct": true,
+        "explanation": "財 (さい, 'riqueza') + 布 (ふ, 'tela') = さいふ. Ambas on'yomi."
+      },
+      {
+        "text": "ざいふ",
+        "correct": false,
+        "explanation": "財 puede leerse ざい (財産 = ざいさん), pero en 財布 específicamente es さい (sin rendaku)."
+      },
+      {
+        "text": "さいぬの",
+        "correct": false,
+        "explanation": "ぬの es la kun'yomi de 布 cuando va solo. En compuesto se usa ふ."
+      },
+      {
+        "text": "ふくろ",
+        "correct": false,
+        "explanation": "ふくろ es 袋 ('bolsa'), distinta palabra y distinto kanji."
+      }
+    ]
+  },
+  {
+    "id": "U5C-009",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 秋葉原?",
+    "opts": [
+      {
+        "text": "あきはばら",
+        "correct": true,
+        "explanation": "Topónimo con lectura especial: 秋 (あき) + 葉 (は) + 原 (ばら, con rendaku). Nombre del barrio de Tokio."
+      },
+      {
+        "text": "あきばはら",
+        "correct": false,
+        "explanation": "Orden de sílabas invertido. La pronunciación oficial es あき<b>は</b>ばら, no あき<b>ば</b>はら (aunque coloquialmente se abrevia 'アキバ')."
+      },
+      {
+        "text": "しゅうようげん",
+        "correct": false,
+        "explanation": "Sería la lectura on'yomi pura (秋=しゅう, 葉=よう, 原=げん), pero los topónimos usan lecturas especiales fijadas. Aquí todas son kun'yomi."
+      },
+      {
+        "text": "あきはわら",
+        "correct": false,
+        "explanation": "原 en este topónimo se lee ばら (con rendaku), no わら. わら sería kun'yomi de 藁."
+      }
+    ]
+  },
+  {
+    "id": "U5C-010",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 夏休み?",
+    "opts": [
+      {
+        "text": "なつやすみ",
+        "correct": true,
+        "explanation": "夏 (なつ, 'verano') + 休み (やすみ, 'descanso'). Ambas kun'yomi. Mismo patrón: 春休み (はるやすみ), 冬休み (ふゆやすみ)."
+      },
+      {
+        "text": "かやすみ",
+        "correct": false,
+        "explanation": "か es la on'yomi de 夏 (初夏 = しょか), pero en este compuesto se usa la kun'yomi なつ."
+      },
+      {
+        "text": "なつきゅう",
+        "correct": false,
+        "explanation": "きゅう es la on'yomi de 休 (休憩 = きゅうけい), pero como palabra de uso cotidiano se usa la kun'yomi やすみ."
+      },
+      {
+        "text": "なつばん",
+        "correct": false,
+        "explanation": "ばん no es lectura de 休. ばん corresponde a 晩 ('noche', como en 今晩)."
+      }
+    ]
+  },
+  {
+    "id": "U5C-011",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 絵?",
+    "opts": [
+      {
+        "text": "え",
+        "correct": true,
+        "explanation": "Lectura kun'yomi え (una sola sílaba). Significa 'cuadro/dibujo/pintura'. ⚠️ Homófono de muchas palabras; se distingue por contexto."
+      },
+      {
+        "text": "かい",
+        "correct": false,
+        "explanation": "かい es la on'yomi de 絵 (絵画 = かいが, 'pintura'), pero como palabra independiente es え."
+      },
+      {
+        "text": "が",
+        "correct": false,
+        "explanation": "が es la on'yomi de 画 (画家 = がか, 'pintor'), distinto kanji."
+      },
+      {
+        "text": "ず",
+        "correct": false,
+        "explanation": "ず es la on'yomi de 図 ('diagrama/figura'), distinto kanji."
+      }
+    ]
+  },
+  {
+    "id": "U5C-012",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 北海道?",
+    "opts": [
+      {
+        "text": "ほっかいどう",
+        "correct": true,
+        "explanation": "北 (ほく → ほっ por sokuonbin ante か) + 海 (かい) + 道 (どう). Es la isla/región más al norte de Japón."
+      },
+      {
+        "text": "ほくかいどう",
+        "correct": false,
+        "explanation": "Falta la sokuonbin: 北 + 海 produce ほっ<b>か</b>いどう (con っ pequeña), no ほくかい."
+      },
+      {
+        "text": "きたうみみち",
+        "correct": false,
+        "explanation": "Serían las kun'yomi (きた/うみ/みち) que se usan cuando los kanji van solos. En el topónimo se usa on'yomi."
+      },
+      {
+        "text": "ほっかいみち",
+        "correct": false,
+        "explanation": "Mezcla on'yomi + kun'yomi. 道 en este topónimo se lee どう (on'yomi), no みち."
+      }
+    ]
+  },
+  {
+    "id": "U5C-013",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 借ります?",
+    "opts": [
+      {
+        "text": "pedir prestado / alquilar",
+        "correct": true,
+        "explanation": "借りる (Grupo 2) implica recibir algo con compromiso de devolución. De alguien: …<b>に</b>借りる."
+      },
+      {
+        "text": "prestar (a otro)",
+        "correct": false,
+        "explanation": "Eso es 貸す (かす). 借りる es el opuesto: yo recibo prestado."
+      },
+      {
+        "text": "recibir (regalo)",
+        "correct": false,
+        "explanation": "Eso es もらう. 借りる implica devolución; もらう no."
+      },
+      {
+        "text": "guardar",
+        "correct": false,
+        "explanation": "Eso sería しまう / 保管する. No tiene relación con 借りる."
+      }
+    ]
+  },
+  {
+    "id": "U5C-014",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 撮ります?",
+    "opts": [
+      {
+        "text": "tomar (foto/video)",
+        "correct": true,
+        "explanation": "撮 es el kanji específico para fotos/videos. Colocación obligatoria: 写真を撮る."
+      },
+      {
+        "text": "tomar/agarrar (con la mano)",
+        "correct": false,
+        "explanation": "Eso sería 取る (とる), homófono pero con otro kanji y otro significado."
+      },
+      {
+        "text": "tomar (líquido, beber)",
+        "correct": false,
+        "explanation": "Eso es 飲む (のむ). 撮る no se usa para bebidas."
+      },
+      {
+        "text": "exhibir",
+        "correct": false,
+        "explanation": "Eso sería 展示する o 飾る. 撮る es exclusivamente para captar imágenes."
+      }
+    ]
+  },
+  {
+    "id": "U5C-015",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa ほしい?",
+    "opts": [
+      {
+        "text": "querer (tener algo)",
+        "correct": true,
+        "explanation": "Adjetivo イ que expresa deseo de poseer un objeto. Solo 1ª persona o pregunta a 'tú'."
+      },
+      {
+        "text": "querer (hacer algo)",
+        "correct": false,
+        "explanation": "Eso es V-たい (Point 41). ほしい es solo para <b>cosas</b>, no acciones."
+      },
+      {
+        "text": "necesario",
+        "correct": false,
+        "explanation": "Eso es 必要 (ひつよう). ほしい expresa deseo subjetivo, no necesidad objetiva."
+      },
+      {
+        "text": "vacío / libre",
+        "correct": false,
+        "explanation": "Eso es 空いている (あいている). Sin relación con ほしい."
+      }
+    ]
+  },
+  {
+    "id": "U5C-016",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 嫌い?",
+    "opts": [
+      {
+        "text": "no gustar / detestar",
+        "correct": true,
+        "explanation": "Adjetivo ナ. Aunque termina en い, se conjuga como ナ-adj: 嫌い<b>な</b>もの. Régimen: N が 嫌い."
+      },
+      {
+        "text": "ocupado",
+        "correct": false,
+        "explanation": "Eso es 忙しい (いそがしい). Confusión común por la terminación en い."
+      },
+      {
+        "text": "aburrido",
+        "correct": false,
+        "explanation": "Eso sería つまらない. 嫌い expresa rechazo afectivo, no falta de interés."
+      },
+      {
+        "text": "difícil",
+        "correct": false,
+        "explanation": "Eso es 難しい (むずかしい). Confusión por terminación en い."
+      }
+    ]
+  },
+  {
+    "id": "U5C-017",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 景色?",
+    "opts": [
+      {
+        "text": "paisaje / vista",
+        "correct": true,
+        "explanation": "けしき = vista que se ve desde un punto. Típicamente usado para naturaleza, montañas, mar."
+      },
+      {
+        "text": "color",
+        "correct": false,
+        "explanation": "Eso es 色 (いろ) solo. 景色 es un compuesto distinto con sentido específico."
+      },
+      {
+        "text": "tiempo / clima",
+        "correct": false,
+        "explanation": "Eso es 天気 (てんき). 景色 es lo que se ve, no las condiciones atmosféricas."
+      },
+      {
+        "text": "calle",
+        "correct": false,
+        "explanation": "Eso es 道 (みち). 景色 es la imagen del entorno, no la vía."
+      }
+    ]
+  },
+  {
+    "id": "U5C-018",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 自転車?",
+    "opts": [
+      {
+        "text": "bicicleta",
+        "correct": true,
+        "explanation": "自 (uno mismo) + 転 (girar) + 車 (vehículo). Se mueve por sí solo al pedalear."
+      },
+      {
+        "text": "automóvil",
+        "correct": false,
+        "explanation": "Eso es 自動車 (じどうしゃ) o simplemente 車 (くるま). Comparten 自/車 pero el medio es distinto."
+      },
+      {
+        "text": "motocicleta",
+        "correct": false,
+        "explanation": "Eso es バイク u オートバイ. La bici no tiene motor."
+      },
+      {
+        "text": "tren",
+        "correct": false,
+        "explanation": "Eso es 電車 (でんしゃ). Comparten 車 pero la energía es eléctrica."
+      }
+    ]
+  },
+  {
+    "id": "U5C-019",
+    "cat": "Vocabulario ES→JP",
+    "q": "¿Cómo se dice 'billetera'?",
+    "opts": [
+      {
+        "text": "財布 (さいふ)",
+        "correct": true,
+        "explanation": "財 (riqueza) + 布 (tela). Aplica también a monedero."
+      },
+      {
+        "text": "鞄 (かばん)",
+        "correct": false,
+        "explanation": "かばん = bolso/mochila/maletín. Más grande que una billetera."
+      },
+      {
+        "text": "袋 (ふくろ)",
+        "correct": false,
+        "explanation": "ふくろ = bolsa (de plástico, de papel). No es para guardar dinero personal."
+      },
+      {
+        "text": "箱 (はこ)",
+        "correct": false,
+        "explanation": "はこ = caja. Recipiente rígido, no se lleva en el bolsillo."
+      }
+    ]
+  },
+  {
+    "id": "U5C-020",
+    "cat": "Vocabulario ES→JP",
+    "q": "¿Cómo se dice 'anime'?",
+    "opts": [
+      {
+        "text": "アニメ",
+        "correct": true,
+        "explanation": "Préstamo del inglés 'animation'. Siempre en katakana. Se refiere a la animación japonesa específicamente."
+      },
+      {
+        "text": "まんが (漫画)",
+        "correct": false,
+        "explanation": "まんが = manga (cómic impreso), distinto medio."
+      },
+      {
+        "text": "えいが (映画)",
+        "correct": false,
+        "explanation": "えいが = película/cine en general. Una película animada sería アニメ映画."
+      },
+      {
+        "text": "ドラマ",
+        "correct": false,
+        "explanation": "ドラマ = serie/drama de imagen real, no animación."
+      }
+    ]
+  },
+  {
+    "id": "U5C-021",
+    "cat": "Vocabulario ES→JP",
+    "q": "¿Cómo se dice 'celular / móvil'?",
+    "opts": [
+      {
+        "text": "携帯電話 (けいたいでんわ)",
+        "correct": true,
+        "explanation": "携帯 (portar) + 電話 (teléfono). Coloquial: 携帯 (けいたい) o スマホ ('smartphone')."
+      },
+      {
+        "text": "電話 (でんわ)",
+        "correct": false,
+        "explanation": "でんわ = teléfono en general (incluye fijo). El móvil necesita el calificador 携帯."
+      },
+      {
+        "text": "電気 (でんき)",
+        "correct": false,
+        "explanation": "でんき = electricidad / luz. Distinto significado, comparte solo el kanji 電."
+      },
+      {
+        "text": "電車 (でんしゃ)",
+        "correct": false,
+        "explanation": "でんしゃ = tren. Comparte 電 pero refiere a vehículo eléctrico."
+      }
+    ]
+  },
+  {
+    "id": "U5C-022",
+    "cat": "Vocabulario ES→JP",
+    "q": "¿Cómo se dice 'gustar' (régimen completo)?",
+    "opts": [
+      {
+        "text": "N が 好きです",
+        "correct": true,
+        "explanation": "Lo que gusta lleva <b>が</b>, no を. 好き es adjetivo ナ, no verbo."
+      },
+      {
+        "text": "N を 好きです",
+        "correct": false,
+        "explanation": "❌ Error muy frecuente del hispanohablante por traducir 'me gusta X' como acción transitiva. En japonés 好き es adjetivo."
+      },
+      {
+        "text": "N に 好きです",
+        "correct": false,
+        "explanation": "に no marca el objeto de 好き. に se usa para destino, tiempo o agente pasivo."
+      },
+      {
+        "text": "N で 好きです",
+        "correct": false,
+        "explanation": "で no se usa con adjetivos de gusto. で marca lugar de acción o medio."
+      }
+    ]
+  },
+  {
+    "id": "U5C-023",
+    "cat": "Vocabulario ES→JP",
+    "q": "¿Cómo se dice 'foto'?",
+    "opts": [
+      {
+        "text": "写真 (しゃしん)",
+        "correct": true,
+        "explanation": "写 (copiar) + 真 (verdad). Colocación: 写真を撮る ('sacar foto')."
+      },
+      {
+        "text": "絵 (え)",
+        "correct": false,
+        "explanation": "え = cuadro/dibujo/pintura. Hecho a mano, no captado por cámara."
+      },
+      {
+        "text": "図 (ず)",
+        "correct": false,
+        "explanation": "ず = diagrama/esquema. Representación abstracta o técnica."
+      },
+      {
+        "text": "映画 (えいが)",
+        "correct": false,
+        "explanation": "えいが = película/cine. Imágenes en movimiento."
+      }
+    ]
+  },
+  {
+    "id": "U5C-024",
+    "cat": "Vocabulario ES→JP",
+    "q": "¿Cómo se dice 'bicicleta'?",
+    "opts": [
+      {
+        "text": "自転車 (じてんしゃ)",
+        "correct": true,
+        "explanation": "自 + 転 + 車 = 'vehículo que gira por uno mismo'."
+      },
+      {
+        "text": "自動車 (じどうしゃ)",
+        "correct": false,
+        "explanation": "じどうしゃ = automóvil. Comparten 自/車 pero 動 ('moverse') indica motor."
+      },
+      {
+        "text": "電車 (でんしゃ)",
+        "correct": false,
+        "explanation": "でんしゃ = tren. 電 (eléctrico) + 車 (vehículo)."
+      },
+      {
+        "text": "バイク",
+        "correct": false,
+        "explanation": "バイク = moto. Tiene motor."
+      }
+    ]
+  },
+  {
+    "id": "U5C-025",
+    "cat": "Gramática",
+    "q": "Complete: 私は日本のアニメ ___ 好きです。",
+    "opts": [
+      {
+        "text": "が",
+        "correct": true,
+        "explanation": "Point 39: el objeto de un adjetivo de gusto/preferencia lleva <b>が</b>. 好き es adjetivo, no verbo."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "explanation": "❌ Error clásico hispanohablante. を marca el objeto directo de un <b>verbo</b>, pero 好き es <b>adjetivo</b>."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "explanation": "に no marca el objeto del gusto. Se usa para destino, tiempo, agente."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "explanation": "で marca lugar de acción o medio. No corresponde aquí."
+      }
+    ]
+  },
+  {
+    "id": "U5C-026",
+    "cat": "Gramática",
+    "q": "Complete: 新しいパソコン ___ ほしいです。",
+    "opts": [
+      {
+        "text": "が",
+        "correct": true,
+        "explanation": "Point 40: ほしい sigue el mismo régimen que 好き (adjetivo). El objeto deseado va con <b>が</b>."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "explanation": "❌ ほしい es adjetivo イ, no verbo. No admite を."
+      },
+      {
+        "text": "は",
+        "correct": false,
+        "explanation": "は podría aparecer marcando tema en negaciones (パソコン<b>は</b>ほしくない), pero en afirmativo el objeto va con が."
+      },
+      {
+        "text": "の",
+        "correct": false,
+        "explanation": "の marca posesión/modificación entre sustantivos. No marca el objeto del deseo."
+      }
+    ]
+  },
+  {
+    "id": "U5C-027",
+    "cat": "Gramática",
+    "q": "Forma -たい de 飲みます:",
+    "opts": [
+      {
+        "text": "飲みたいです",
+        "correct": true,
+        "explanation": "Point 41: quitar ます de la マス形 y agregar たい. 飲み<s>ます</s> → 飲み<b>たい</b>です."
+      },
+      {
+        "text": "飲むたいです",
+        "correct": false,
+        "explanation": "❌ Se parte de la forma マス, no del diccionario. 飲むたい no existe."
+      },
+      {
+        "text": "飲んたいです",
+        "correct": false,
+        "explanation": "❌ 飲ん es la base て/た de 飲む (飲んで, 飲んだ), no se combina con たい."
+      },
+      {
+        "text": "飲みますたいです",
+        "correct": false,
+        "explanation": "❌ Se elimina ます antes de agregar たい. No se acumulan."
+      }
+    ]
+  },
+  {
+    "id": "U5C-028",
+    "cat": "Gramática",
+    "q": "Negativo de 行きたいです:",
+    "opts": [
+      {
+        "text": "行きたくないです",
+        "correct": true,
+        "explanation": "たい es adjetivo イ (termina en い), se niega como tal: たい → たくない."
+      },
+      {
+        "text": "行きたいじゃないです",
+        "correct": false,
+        "explanation": "❌ じゃない es para ナ-adj y sustantivos. たい es イ-adj."
+      },
+      {
+        "text": "行きませんたいです",
+        "correct": false,
+        "explanation": "❌ Se niega たい, no la base. Además ません va al final, no en medio."
+      },
+      {
+        "text": "行きたいません",
+        "correct": false,
+        "explanation": "❌ ません es negación verbal. たい es adjetivo: se niega como い-adj."
+      }
+    ]
+  },
+  {
+    "id": "U5C-029",
+    "cat": "Gramática",
+    "q": "Complete: 渋谷 ___ お酒を飲み ___ 行きます。",
+    "opts": [
+      {
+        "text": "へ ／ に",
+        "correct": true,
+        "explanation": "Point 42: 場所<b>へ</b> + Vマス<b>に</b> + 行きます. La primera marca destino físico, la segunda marca propósito."
+      },
+      {
+        "text": "で ／ に",
+        "correct": false,
+        "explanation": "❌ 渋谷で indicaría lugar de acción, pero la acción principal aquí es 行きます (moverse): el lugar es destino, no escenario. Se necesita へ."
+      },
+      {
+        "text": "へ ／ で",
+        "correct": false,
+        "explanation": "❌ 飲み で 行く no es estructura válida. El propósito con la マス形 se marca con に."
+      },
+      {
+        "text": "に ／ を",
+        "correct": false,
+        "explanation": "❌ La primera に sería válida (へ ≈ に para destino), pero la segunda <b>を</b> hace falta antes (お酒<b>を</b>) y entre 飲み y 行きます debe ir に, no を."
+      }
+    ]
+  },
+  {
+    "id": "U5C-030",
+    "cat": "Gramática",
+    "q": "Forma -たい de 会います:",
+    "opts": [
+      {
+        "text": "会いたいです",
+        "correct": true,
+        "explanation": "会います → 会い + たい + です. ⚠️ Recordar: el complemento de 会う lleva に (友達<b>に</b>会いたい)."
+      },
+      {
+        "text": "会うたいです",
+        "correct": false,
+        "explanation": "❌ Se parte de マス形 (会い), no del diccionario."
+      },
+      {
+        "text": "会えたいです",
+        "correct": false,
+        "explanation": "❌ 会え es la base potencial/imperativa. たい va sobre la マス形 normal."
+      },
+      {
+        "text": "会ったいです",
+        "correct": false,
+        "explanation": "❌ 会った es la forma pasada simple, no la base para たい."
+      }
+    ]
+  },
+  {
+    "id": "U5C-031",
+    "cat": "Gramática",
+    "q": "Complete: 私は魚 ___ 嫌いです。",
+    "opts": [
+      {
+        "text": "が",
+        "correct": true,
+        "explanation": "Point 39: 嫌い funciona como 好き. El objeto del rechazo lleva <b>が</b>."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "explanation": "❌ 嫌い es adjetivo ナ, no verbo. No admite を."
+      },
+      {
+        "text": "から",
+        "correct": false,
+        "explanation": "から marca causa (Point 47) o punto de origen. No marca el objeto del adjetivo."
+      },
+      {
+        "text": "と",
+        "correct": false,
+        "explanation": "と marca compañía o citación. No corresponde."
+      }
+    ]
+  },
+  {
+    "id": "U5C-032",
+    "cat": "Gramática",
+    "q": "Pasado afirmativo de ほしいです:",
+    "opts": [
+      {
+        "text": "ほしかったです",
+        "correct": true,
+        "explanation": "ほしい es adjetivo イ: ほしい → ほし<b>かった</b>です (mismo patrón que Point 38: 高い → 高かった)."
+      },
+      {
+        "text": "ほしいでした",
+        "correct": false,
+        "explanation": "❌ Error frecuente. Los i-adj no toman でした directamente; se conjuga el adjetivo, no la cópula."
+      },
+      {
+        "text": "ほしくなったです",
+        "correct": false,
+        "explanation": "❌ ほしくなった = 'se volvió deseado' (uso del verbo なる). Distinto significado."
+      },
+      {
+        "text": "ほしいました",
+        "correct": false,
+        "explanation": "❌ ました es para verbos. ほしい es adjetivo."
+      }
+    ]
+  },
+  {
+    "id": "U5C-033",
+    "cat": "Gramática",
+    "q": "Complete: 新宿 ___ 買い物 ___ 行きます。",
+    "opts": [
+      {
+        "text": "へ ／ に",
+        "correct": true,
+        "explanation": "Point 42 con <b>sustantivo</b> de acción: 場所へ + N(propósito)<b>に</b> + 行きます. 買い物 funciona como sustantivo."
+      },
+      {
+        "text": "へ ／ を",
+        "correct": false,
+        "explanation": "❌ 買い物<b>を</b>行く no es estructura. Cuando el propósito está antes de 行く, la partícula es に."
+      },
+      {
+        "text": "で ／ に",
+        "correct": false,
+        "explanation": "❌ 新宿で行く no es destino (で indica escenario, pero la acción principal 行く requiere destino con へ/に)."
+      },
+      {
+        "text": "に ／ で",
+        "correct": false,
+        "explanation": "❌ La primera puede ir con に (sí), pero la segunda で no marca propósito. El propósito va con に."
+      }
+    ]
+  },
+  {
+    "id": "U5C-034",
+    "cat": "Gramática",
+    "q": "Forma negativa de 好きです:",
+    "opts": [
+      {
+        "text": "好きじゃないです",
+        "correct": true,
+        "explanation": "好き es adjetivo ナ. Negación: 好き<b>じゃない</b>です (o 好きではないです, más formal)."
+      },
+      {
+        "text": "好きくないです",
+        "correct": false,
+        "explanation": "❌ Trampa típica: 好き termina en き (no い), y aunque termina parecido a un i-adj, es <b>ナ-adj</b>. La negación de i-adj sería くない."
+      },
+      {
+        "text": "好かないです",
+        "correct": false,
+        "explanation": "❌ 好かない sería la negación de 好く (verbo arcaico), pero 好き como adjetivo no se niega así."
+      },
+      {
+        "text": "好きません",
+        "correct": false,
+        "explanation": "❌ ません es para verbos. 好き es adjetivo."
+      }
+    ]
+  },
+  {
+    "id": "U5C-035",
+    "cat": "Gramática",
+    "q": "Complete (propósito): 図書館へ本を ___ 行きます。 (借りる)",
+    "opts": [
+      {
+        "text": "借りに",
+        "correct": true,
+        "explanation": "Point 42: マス形 (借ります → 借り) + に + 行きます."
+      },
+      {
+        "text": "借りるに",
+        "correct": false,
+        "explanation": "❌ La base es la マス形 (借り), no la forma diccionario (借りる)."
+      },
+      {
+        "text": "借りますに",
+        "correct": false,
+        "explanation": "❌ ます se elimina antes de agregar に. No se conserva."
+      },
+      {
+        "text": "借りてに",
+        "correct": false,
+        "explanation": "❌ 借りて es forma て. No se usa con に para propósito."
+      }
+    ]
+  },
+  {
+    "id": "U5C-036",
+    "cat": "Gramática",
+    "q": "Pasado negativo de 行きたいです:",
+    "opts": [
+      {
+        "text": "行きたくなかったです",
+        "correct": true,
+        "explanation": "たい como i-adj: たい → たく + ない → なかった + です. Cadena completa."
+      },
+      {
+        "text": "行きたかったじゃないです",
+        "correct": false,
+        "explanation": "❌ Mezcla incorrecta: たかった es pasado afirmativo, no admite じゃない (que es para ナ-adj)."
+      },
+      {
+        "text": "行きませんでしたたい",
+        "correct": false,
+        "explanation": "❌ たい no se pega después de ました/ませんでした. Va sobre la マス形 limpia."
+      },
+      {
+        "text": "行きたくないでした",
+        "correct": false,
+        "explanation": "❌ Los i-adj no toman でした. Se conjuga el adjetivo: ない → なかった."
+      }
+    ]
+  },
+  {
+    "id": "U5C-037",
+    "cat": "Gramática",
+    "q": "Complete: コーヒー ___ 飲みたいです。 (énfasis del deseo)",
+    "opts": [
+      {
+        "text": "が",
+        "correct": true,
+        "explanation": "Con V-たい el objeto admite <b>を</b> (neutro) o <b>が</b> (más enfático sobre el deseo). が enfatiza 'es café lo que quiero beber'."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "explanation": "❌ に no marca el objeto bebido. に sería para destino o tiempo."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "explanation": "❌ で marca lugar/medio. No marca el objeto del deseo."
+      },
+      {
+        "text": "へ",
+        "correct": false,
+        "explanation": "❌ へ marca destino. La コーヒー no es destino."
+      }
+    ]
+  },
+  {
+    "id": "U5C-038",
+    "cat": "Gramática",
+    "q": "¿Cuál NO es una persona válida para 'ほしい'?",
+    "opts": [
+      {
+        "text": "彼は新しい車がほしいです。 (Él quiere un auto nuevo)",
+        "correct": true,
+        "explanation": "❌ ほしい <b>solo</b> se usa en 1ª persona o pregunta a 'tú'. Para terceros: 彼は新しい車をほしがっています."
+      },
+      {
+        "text": "私は新しい車がほしいです。",
+        "correct": false,
+        "explanation": "✓ 1ª persona, uso correcto."
+      },
+      {
+        "text": "あなたは何がほしいですか。",
+        "correct": false,
+        "explanation": "✓ Pregunta a 'tú', uso correcto."
+      },
+      {
+        "text": "私たちは新しい車がほしいです。",
+        "correct": false,
+        "explanation": "✓ 1ª persona plural (incluye al hablante), uso aceptable."
+      }
+    ]
+  },
+  {
+    "id": "U5C-039",
+    "cat": "Gramática",
+    "q": "Complete: 山 ___ 写真 ___ 撮り ___ 行きます。",
+    "opts": [
+      {
+        "text": "へ ／ を ／ に",
+        "correct": true,
+        "explanation": "Point 42 completo: <b>場所へ</b> + <b>Nを</b> + <b>Vマス + に</b> + 行きます. 'Voy a la montaña a sacar fotos.'"
+      },
+      {
+        "text": "で ／ を ／ に",
+        "correct": false,
+        "explanation": "❌ 山で行く no funciona; la dirección con 行く requiere へ o に."
+      },
+      {
+        "text": "へ ／ が ／ に",
+        "correct": false,
+        "explanation": "❌ 撮る es un verbo transitivo con objeto directo: 写真<b>を</b>撮る (no 写真が撮る)."
+      },
+      {
+        "text": "へ ／ を ／ で",
+        "correct": false,
+        "explanation": "❌ 撮り<b>で</b>行く no marca propósito. El propósito con la マス形 va con に."
+      }
+    ]
+  },
+  {
+    "id": "U5C-040",
+    "cat": "Traducción JP→ES",
+    "q": "Traduzca: 私は日本のアニメが大好きです。",
+    "opts": [
+      {
+        "text": "Me gusta mucho el anime japonés.",
+        "correct": true,
+        "explanation": "大好き = 'gustar mucho/encantar'. アニメが (objeto del adjetivo). 日本の修飾 'japonés'."
+      },
+      {
+        "text": "Yo soy del anime de Japón.",
+        "correct": false,
+        "explanation": "❌ Confunde 好き con un sustantivo. 好き es adjetivo, y 大好きです es predicado."
+      },
+      {
+        "text": "Me gusta Japón y el anime.",
+        "correct": false,
+        "explanation": "❌ 日本のアニメ es un sintagma único ('anime de Japón'), no dos objetos."
+      },
+      {
+        "text": "No me gusta el anime japonés.",
+        "correct": false,
+        "explanation": "❌ 大好き es intensificador positivo, no negación. La negación sería 好きじゃないです."
+      }
+    ]
+  },
+  {
+    "id": "U5C-041",
+    "cat": "Traducción JP→ES",
+    "q": "Traduzca: 来年、日本へ行きたいです。",
+    "opts": [
+      {
+        "text": "El año que viene quiero ir a Japón.",
+        "correct": true,
+        "explanation": "来年 = año próximo; へ = destino; 行きたい = quiero ir (V-たい, Point 41)."
+      },
+      {
+        "text": "El año pasado fui a Japón.",
+        "correct": false,
+        "explanation": "❌ 来年 es futuro, no pasado (去年 es pasado). Tampoco 行きたい es pasado."
+      },
+      {
+        "text": "Voy a Japón el año próximo.",
+        "correct": false,
+        "explanation": "❌ Pierde el matiz de <b>deseo</b> de la forma -たい. La acción no está decidida, es un deseo."
+      },
+      {
+        "text": "Quiero venir a Japón el año próximo.",
+        "correct": false,
+        "explanation": "❌ 'Venir' sería 来る (くる). Aquí es 行く ('ir', alejándose del hablante)."
+      }
+    ]
+  },
+  {
+    "id": "U5C-042",
+    "cat": "Traducción JP→ES",
+    "q": "Traduzca: 新しい財布がほしいです。",
+    "opts": [
+      {
+        "text": "Quiero una billetera nueva.",
+        "correct": true,
+        "explanation": "新しい (i-adj) + 財布 + が + ほしい です. Patrón Point 40."
+      },
+      {
+        "text": "Tengo una billetera nueva.",
+        "correct": false,
+        "explanation": "❌ 'Tengo' sería あります/持っています. ほしい expresa deseo, no posesión."
+      },
+      {
+        "text": "Me gusta la billetera nueva.",
+        "correct": false,
+        "explanation": "❌ 'Me gusta' sería 好きです. ほしい es 'querer tener'."
+      },
+      {
+        "text": "Compré una billetera nueva.",
+        "correct": false,
+        "explanation": "❌ 'Compré' sería 買いました. No hay verbo de compra aquí."
+      }
+    ]
+  },
+  {
+    "id": "U5C-043",
+    "cat": "Traducción JP→ES",
+    "q": "Traduzca: 週末、友達と渋谷へ買い物に行きます。",
+    "opts": [
+      {
+        "text": "El fin de semana voy con un amigo a Shibuya a comprar.",
+        "correct": true,
+        "explanation": "週末 (tiempo) + 友達と (compañía) + 渋谷へ (destino) + 買い物に (propósito) + 行きます. Patrón Point 42 con sustantivo."
+      },
+      {
+        "text": "El fin de semana, en Shibuya, hago compras con un amigo.",
+        "correct": false,
+        "explanation": "❌ 'En Shibuya' sería 渋谷で. Aquí 渋谷<b>へ</b> indica destino (todavía me muevo hacia allí)."
+      },
+      {
+        "text": "Mi amigo va al fin de semana de Shibuya.",
+        "correct": false,
+        "explanation": "❌ Inversión incorrecta de roles. 友達<b>と</b> = 'con un amigo' (acompañamiento), no sujeto principal."
+      },
+      {
+        "text": "Quiero ir a Shibuya a comprar con un amigo.",
+        "correct": false,
+        "explanation": "❌ 行きます es afirmativo simple, no -たい. No expresa deseo, sino plan."
+      }
+    ]
+  },
+  {
+    "id": "U5C-044",
+    "cat": "Traducción JP→ES",
+    "q": "Traduzca: B さんは買い物が好きですか。",
+    "opts": [
+      {
+        "text": "B-san, ¿le gusta ir de compras?",
+        "correct": true,
+        "explanation": "Tema (Bさんは) + objeto del adjetivo (買い物が) + adjetivo (好き) + ですか. Patrón Point 39."
+      },
+      {
+        "text": "B-san, ¿hace compras?",
+        "correct": false,
+        "explanation": "❌ 'Hacer compras' sería 買い物をしますか. Aquí 好き expresa gusto, no acción."
+      },
+      {
+        "text": "B-san, ¿quiere comprar?",
+        "correct": false,
+        "explanation": "❌ 'Quiere comprar' sería 買いたいですか. 好き es gusto general, no deseo puntual."
+      },
+      {
+        "text": "B-san, ¿compró?",
+        "correct": false,
+        "explanation": "❌ Pasado sería 買いましたか. Aquí es presente y con 好き (adjetivo)."
+      }
+    ]
+  },
+  {
+    "id": "U5C-045",
+    "cat": "Traducción JP→ES",
+    "q": "Traduzca: コーヒーが飲みたいです。",
+    "opts": [
+      {
+        "text": "Quiero tomar café.",
+        "correct": true,
+        "explanation": "が con V-たい enfatiza el objeto del deseo. Significado equivale a コーヒー<b>を</b>飲みたい pero con foco más marcado en 'café'."
+      },
+      {
+        "text": "Me gusta el café.",
+        "correct": false,
+        "explanation": "❌ 'Me gusta' sería 好きです. 飲みたい expresa deseo de acción ahora/futuro."
+      },
+      {
+        "text": "Hay café para tomar.",
+        "correct": false,
+        "explanation": "❌ 'Hay' sería あります. No hay verbo de existencia."
+      },
+      {
+        "text": "Bebí café.",
+        "correct": false,
+        "explanation": "❌ Pasado sería 飲みました. Aquí es deseo presente, no acción cumplida."
+      }
+    ]
+  },
+  {
+    "id": "U5C-046",
+    "cat": "Traducción JP→ES",
+    "q": "Traduzca: 今度の休みに山へ写真を撮りに行きます。",
+    "opts": [
+      {
+        "text": "En el próximo descanso voy a la montaña a sacar fotos.",
+        "correct": true,
+        "explanation": "今度の休み<b>に</b> (tiempo cuándo) + 山<b>へ</b> (destino) + 写真<b>を</b>撮り<b>に</b> (propósito completo) + 行きます."
+      },
+      {
+        "text": "El próximo descanso saco fotos de la montaña.",
+        "correct": false,
+        "explanation": "❌ Pierde la idea de movimiento (行きます). La acción central es <b>ir</b> con propósito de fotografiar."
+      },
+      {
+        "text": "Quiero sacar fotos en la montaña en el próximo descanso.",
+        "correct": false,
+        "explanation": "❌ Esto pediría 撮りたい. Aquí 行きます es plan, no deseo."
+      },
+      {
+        "text": "Hoy voy a la montaña a sacar fotos.",
+        "correct": false,
+        "explanation": "❌ 今度の休み ≠ 'hoy'. 今度 = 'la próxima vez', distinto de 今日 (きょう)."
+      }
+    ]
+  },
+  {
+    "id": "U5C-047",
+    "cat": "Traducción JP→ES",
+    "q": "Traduzca: 私は納豆が嫌いです。",
+    "opts": [
+      {
+        "text": "No me gusta el nattō.",
+        "correct": true,
+        "explanation": "嫌い = no gustar/detestar. Estructura Point 39 con が (objeto del adjetivo). En contextos de comida, 'no me gusta' suele ser la traducción más natural; 'detesto' puede sonar fuerte."
+      },
+      {
+        "text": "Me gusta el nattō.",
+        "correct": false,
+        "explanation": "❌ Eso sería 好きです. 嫌い es el opuesto."
+      },
+      {
+        "text": "El nattō es difícil para mí.",
+        "correct": false,
+        "explanation": "❌ Eso sería 苦手 (にがて). 嫌い es rechazo afectivo, no incapacidad."
+      },
+      {
+        "text": "Quiero nattō.",
+        "correct": false,
+        "explanation": "❌ Eso sería ほしいです o 食べたいです. 嫌い expresa rechazo, no deseo."
+      }
+    ]
+  },
+  {
+    "id": "U5C-048",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'Quiero una computadora nueva'?",
+    "opts": [
+      {
+        "text": "新しいパソコンがほしいです。",
+        "correct": true,
+        "explanation": "Point 40: N が ほしい です. 新しい (i-adj) modifica directo a パソコン."
+      },
+      {
+        "text": "新しいパソコンをほしいです。",
+        "correct": false,
+        "explanation": "❌ ほしい es adjetivo, no admite を. Error muy frecuente del hispanohablante."
+      },
+      {
+        "text": "新しいパソコンが買いたいです。",
+        "correct": false,
+        "explanation": "Diferente acción: 買いたい = 'quiero comprar'. No es incorrecto en español, pero la traducción más directa de 'quiero (tener)' es ほしい."
+      },
+      {
+        "text": "新しいパソコンほしいです。",
+        "correct": false,
+        "explanation": "❌ Falta la partícula が. En registro coloquial puede caer (パソコンほしい), pero en forma educada con です va explícita."
+      }
+    ]
+  },
+  {
+    "id": "U5C-049",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'Voy a Akihabara a comprar un celular'?",
+    "opts": [
+      {
+        "text": "携帯電話を買いに秋葉原へ行きます。",
+        "correct": true,
+        "explanation": "Point 42 con verbo: 買います → 買い<b>に</b> + 行きます. El orden 'objeto を + propósito に + destino へ + 行きます' es flexible."
+      },
+      {
+        "text": "秋葉原で携帯電話を買います。",
+        "correct": false,
+        "explanation": "Gramaticalmente correcto ('Compro un celular en Akihabara'), pero pierde el matiz de 'ir a + propósito' del Point 42."
+      },
+      {
+        "text": "秋葉原へ携帯電話を買うに行きます。",
+        "correct": false,
+        "explanation": "❌ El propósito con la マス形 usa la base 買い (no 買う). 買うに行く no es estructura válida."
+      },
+      {
+        "text": "秋葉原に携帯電話を買いたいです。",
+        "correct": false,
+        "explanation": "❌ Falta 行きます. たい indica deseo, no la acción concreta de ir. Además 秋葉原<b>に</b> no es el destino aquí (debería ser へ)."
+      }
+    ]
+  },
+  {
+    "id": "U5C-050",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'No me gusta el pescado'?",
+    "opts": [
+      {
+        "text": "魚が好きじゃないです。",
+        "correct": true,
+        "explanation": "Negación de ナ-adj: 好き<b>じゃない</b>です (o 好きではないです, más formal). El objeto sigue con が."
+      },
+      {
+        "text": "魚を好きじゃないです。",
+        "correct": false,
+        "explanation": "❌ El objeto de 好き va con が, incluso en negativo."
+      },
+      {
+        "text": "魚が好きくないです。",
+        "correct": false,
+        "explanation": "❌ 好き es ナ-adj, no i-adj. La forma 好きくない es agramatical."
+      },
+      {
+        "text": "魚が嫌いです。",
+        "correct": false,
+        "explanation": "Significa 'detesto el pescado', más fuerte. La negación neutra de 好き es 好きじゃないです, no 嫌い."
+      }
+    ]
+  },
+  {
+    "id": "U5C-051",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'Quiero ir a Hokkaidō en verano'?",
+    "opts": [
+      {
+        "text": "夏に北海道へ行きたいです。",
+        "correct": true,
+        "explanation": "夏<b>に</b> (tiempo cuándo) + 北海道<b>へ</b> (destino) + 行き<b>たい</b>です. Punto Point 41 con destino."
+      },
+      {
+        "text": "夏で北海道へ行きたいです。",
+        "correct": false,
+        "explanation": "❌ Tiempo concreto con で no funciona ('en verano' es 夏に, no 夏で). で marca medio o escenario de acción."
+      },
+      {
+        "text": "夏に北海道で行きたいです。",
+        "correct": false,
+        "explanation": "❌ で no marca destino del verbo de movimiento 行く. Se usa へ (o に)."
+      },
+      {
+        "text": "夏に北海道行きました。",
+        "correct": false,
+        "explanation": "❌ 行きました es pasado afirmativo ('fui'). Aquí es deseo presente: 行き<b>たい</b>です."
+      }
+    ]
+  },
+  {
+    "id": "U5C-052",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'Quiero ver a mi amigo'?",
+    "opts": [
+      {
+        "text": "友達に会いたいです。",
+        "correct": true,
+        "explanation": "⚠️ 会う rige <b>に</b> (友達<b>に</b>会う), no を. 会います → 会い<b>たい</b>です."
+      },
+      {
+        "text": "友達を会いたいです。",
+        "correct": false,
+        "explanation": "❌ 会う no es transitivo con を; siempre rige に."
+      },
+      {
+        "text": "友達と会いたいです。",
+        "correct": false,
+        "explanation": "También gramatical (con matiz de 'encuentro mutuo'), pero la forma estándar del libro es 友達<b>に</b>会う. Ambas se aceptan; la diferencia: と enfatiza reciprocidad, に es más neutro."
+      },
+      {
+        "text": "友達が会いたいです。",
+        "correct": false,
+        "explanation": "❌ が aquí marcaría sujeto ('mi amigo quiere verme'), cambiando totalmente el significado."
+      }
+    ]
+  },
+  {
+    "id": "U5C-053",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'En las vacaciones de verano quiero sacar fotos en la montaña'?",
+    "opts": [
+      {
+        "text": "夏休みに山で写真を撮りたいです。",
+        "correct": true,
+        "explanation": "夏休み<b>に</b> (tiempo) + 山<b>で</b> (lugar de acción) + 写真<b>を</b>撮り<b>たい</b>です. ⚠️ 山<b>で</b> (no 山へ) porque la acción es 撮る (no 行く)."
+      },
+      {
+        "text": "夏休みに山へ写真を撮りたいです。",
+        "correct": false,
+        "explanation": "❌ Trampa común: 山へ marcaría destino con un verbo de movimiento, pero 撮る no es movimiento. El lugar donde se realiza la acción va con で."
+      },
+      {
+        "text": "夏休みで山で写真を撮りたいです。",
+        "correct": false,
+        "explanation": "❌ Tiempo (夏休み) con で es incorrecto. El tiempo concreto va con に."
+      },
+      {
+        "text": "夏休みに山に写真を撮りたいです。",
+        "correct": false,
+        "explanation": "❌ Mismo problema que la opción 2: con 撮る el lugar va con で, no に."
+      }
+    ]
+  },
+  {
+    "id": "U5C-054",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'No quiero estudiar'?",
+    "opts": [
+      {
+        "text": "勉強したくないです。",
+        "correct": true,
+        "explanation": "勉強します → 勉強し<b>たい</b> → negativo de i-adj: たい → <b>たくない</b>です."
+      },
+      {
+        "text": "勉強しないたいです。",
+        "correct": false,
+        "explanation": "❌ Orden invertido. Primero se forma たい, luego se niega como i-adj (たくない)."
+      },
+      {
+        "text": "勉強したいじゃないです。",
+        "correct": false,
+        "explanation": "❌ じゃない es para ナ-adj/sustantivos. たい es i-adj, se niega con くない."
+      },
+      {
+        "text": "勉強しませんたいです。",
+        "correct": false,
+        "explanation": "❌ ません y たい no se combinan. たい se pega sobre la マス形 limpia (sin ません)."
+      }
+    ]
+  },
+  {
+    "id": "U5C-055",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'Pido prestados libros en la biblioteca'?",
+    "opts": [
+      {
+        "text": "図書館で本を借ります。",
+        "correct": true,
+        "explanation": "図書館<b>で</b> (lugar de acción) + 本<b>を</b> (objeto) + 借ります. 借りる es Grupo 2."
+      },
+      {
+        "text": "図書館に本を借ります。",
+        "correct": false,
+        "explanation": "❌ に marcaría destino o tiempo, no lugar de acción. El lugar donde ocurre la acción de 借りる es で."
+      },
+      {
+        "text": "図書館へ本を貸します。",
+        "correct": false,
+        "explanation": "❌ 貸します = 'presto' (yo doy). 借ります = 'pido prestado' (yo recibo). Opuestos."
+      },
+      {
+        "text": "図書館で本が借ります。",
+        "correct": false,
+        "explanation": "❌ 借りる es transitivo: objeto con を, no が."
+      }
+    ]
+  },
+  {
+    "id": "U5C-056",
+    "cat": "Situación",
+    "q": "Un amigo te pregunta: 'お酒が好きですか'. Si te encanta, ¿cómo respondes naturalmente?",
+    "opts": [
+      {
+        "text": "はい、大好きです。",
+        "correct": true,
+        "explanation": "大好き intensifica positivamente 好き. Respuesta breve y natural; el objeto (お酒) se sobreentiende."
+      },
+      {
+        "text": "はい、大嫌いです。",
+        "correct": false,
+        "explanation": "❌ 大嫌い = 'detesto'. Contradice 'me encanta'."
+      },
+      {
+        "text": "はい、ほしいです。",
+        "correct": false,
+        "explanation": "❌ ほしい = 'querer tener una bebida ahora', no 'me gusta el alcohol como categoría'. Cambia el sentido."
+      },
+      {
+        "text": "はい、飲みません。",
+        "correct": false,
+        "explanation": "❌ 飲みません = 'no bebo'. Contradice que te encanta."
+      }
+    ]
+  },
+  {
+    "id": "U5C-057",
+    "cat": "Situación",
+    "q": "Estás en un café y querés pedir algo de tomar al mozo. ¿Cómo decís 'Quisiera un café'?",
+    "opts": [
+      {
+        "text": "コーヒーをお願いします。",
+        "correct": true,
+        "explanation": "En restaurantes/cafés la fórmula estándar es N<b>を</b>お願いします ('por favor'). Más educado que コーヒーがほしいです, que suena exigente."
+      },
+      {
+        "text": "コーヒーがほしいです。",
+        "correct": false,
+        "explanation": "⚠️ Gramaticalmente correcto pero sociolingüísticamente <b>brusco</b> para pedir al mozo. ほしい expresa deseo personal, no es una fórmula de pedido. Mejor con お願いします."
+      },
+      {
+        "text": "コーヒーが好きです。",
+        "correct": false,
+        "explanation": "❌ 'Me gusta el café' (gusto general), no es un pedido."
+      },
+      {
+        "text": "コーヒーを飲みます。",
+        "correct": false,
+        "explanation": "Significa 'voy a tomar café' (informativo), no un pedido al mozo. Falta cortesía."
+      }
+    ]
+  },
+  {
+    "id": "U5C-058",
+    "cat": "Situación",
+    "q": "Un compañero te pregunta '今度の休みにどこかへ行きますか'. ¿Qué respuesta es coherente con el patrón del Point 42?",
+    "opts": [
+      {
+        "text": "はい、上野へ絵を見に行きます。",
+        "correct": true,
+        "explanation": "Patrón Point 42 completo: 場所<b>へ</b> + N<b>を</b> + Vマス<b>に</b> + 行きます. Coherente con la pregunta."
+      },
+      {
+        "text": "はい、上野で絵が見たいです。",
+        "correct": false,
+        "explanation": "Significa 'quiero ver cuadros en Ueno' (deseo + lugar de acción). Gramatical, pero no responde a 'どこか<b>へ</b>行きますか' con la misma estructura."
+      },
+      {
+        "text": "はい、上野へ絵を見たいです。",
+        "correct": false,
+        "explanation": "❌ Mezcla forzada: 上野<b>へ</b>...見たい no es del todo natural; 見たい no es verbo de movimiento, debería ser 行きたい o usar Point 42."
+      },
+      {
+        "text": "はい、絵が好きです。",
+        "correct": false,
+        "explanation": "❌ No responde a la pregunta (no dice a dónde va)."
+      }
+    ]
+  },
+  {
+    "id": "U5C-059",
+    "cat": "Situación",
+    "q": "Estás describiendo tus gustos. ¿Cuál es la presentación más natural y educada?",
+    "opts": [
+      {
+        "text": "私は日本のアニメと音楽が好きです。",
+        "correct": true,
+        "explanation": "Estructura clara: 私は (tema) + N<b>と</b>N (lista de objetos) + が好きです. と enlaza sustantivos."
+      },
+      {
+        "text": "私は日本のアニメも音楽が好きです。",
+        "correct": false,
+        "explanation": "❌ も se usa para 'también', no para enlazar dos sustantivos coordinados. Si fueran frases separadas sí: アニメも音楽も好きです (válido con doble も)."
+      },
+      {
+        "text": "私は日本のアニメで音楽が好きです。",
+        "correct": false,
+        "explanation": "❌ で no enlaza sustantivos en una lista. Cambia el sentido a 'con/mediante anime'."
+      },
+      {
+        "text": "私は日本のアニメに音楽が好きです。",
+        "correct": false,
+        "explanation": "❌ に no se usa para enlazar dos elementos coordinados como objeto de gusto."
+      }
+    ]
+  },
+  {
+    "id": "U5C-060",
+    "cat": "Situación",
+    "q": "Querés expresar que ALGUIEN MÁS (tu hermana) quiere una computadora nueva. ¿Cómo lo decís?",
+    "opts": [
+      {
+        "text": "妹は新しいパソコンをほしがっています。",
+        "correct": true,
+        "explanation": "Para terceros (no 1ª persona) se usa <b>ほしがる</b> + ています. El objeto pasa a <b>を</b>. Esto es un tema de nivel más avanzado, pero conviene saberlo desde ya."
+      },
+      {
+        "text": "妹は新しいパソコンがほしいです。",
+        "correct": false,
+        "explanation": "⚠️ Gramaticalmente parece correcto, pero ほしい <b>no se usa para terceros</b> de forma directa. Implica que el hablante conoce el sentimiento interno de su hermana, lo cual en japonés se evita. Se prefiere ほしがる o se reformula (e.g. 妹は…とほしいと言っています)."
+      },
+      {
+        "text": "妹は新しいパソコンを好きです。",
+        "correct": false,
+        "explanation": "❌ 好き = 'gustar' (sentimiento estable), no 'querer tener' (deseo de adquisición). Distinto significado."
+      },
+      {
+        "text": "妹に新しいパソコンがほしいです。",
+        "correct": false,
+        "explanation": "❌ Si el sujeto es 'yo', 妹に no encaja. Si el sujeto es 'mi hermana', le falta は. Estructura agramatical."
+      }
+    ]
+  }
+]

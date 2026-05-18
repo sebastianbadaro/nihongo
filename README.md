@@ -20,7 +20,10 @@ Quiz interactivo modular para estudiar japonés, basado en el material del curso
 │   ├── u3c.json
 │   ├── u4a.json
 │   ├── u4b.json
-│   └── u4c.json
+│   ├── u4c.json
+│   ├── u5a.json
+│   ├── u5b.json
+│   └── u5c.json
 └── README.md
 ```
 
@@ -127,6 +130,11 @@ const QUIZ_SIZE = 30;  // Cambiar a 20, 50, etc.
 
 ## 📋 Changelog
 
+### 2026-05-18 — Unidades 5B y 5C
+- Nueva unidad: 形容詞の過去・から — Pasado de adjetivos y conector から (60 preguntas)
+- Nueva unidad: 好き・ほしい・〜たい — Gustos, deseos y forma たい (60 preguntas)
+- Ambas agregadas al manifest bajo Nivel 2, Unidad 5
+
 ### 2026-05-07 — Unidad 5A
 - Nueva unidad: 週末・食事 — Fin de semana, comidas y conectores (126 preguntas)
 - Cubre lectura de kanji de tiempo y comidas, vocabulario de それから/そして/それで, gramática de conectores y partículas
@@ -191,3 +199,5 @@ const QUIZ_SIZE = 30;  // Cambiar a 20, 50, etc.
 | 4B  | Unidad 4B  | Adjetivos い/な, どんな, あります                        | 135       |
 | 4C  | Unidad 4C  | 季節・料理 — Clima, estaciones, sabores e intensificadores | 115       |
 | 5A  | Unidad 5A  | 週末・食事 — Fin de semana, comidas y conectores           | 126       |
+| 5B  | Unidad 5B  | 形容詞の過去・から — Pasado de adjetivos y conector から   | 60        |
+| 5C  | Unidad 5C  | 好き・ほしい・〜たい — Gustos, deseos y forma たい         | 60        |
