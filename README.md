@@ -128,7 +128,7 @@ const QUIZ_SIZE = 30;  // Cambiar a 20, 50, etc.
 ## 📋 Changelog
 
 ### 2026-05-07 — Unidad 5A
-- Nueva unidad: 週末・食事 — Fin de semana, comidas y conectores (93 preguntas)
+- Nueva unidad: 週末・食事 — Fin de semana, comidas y conectores (126 preguntas)
 - Cubre lectura de kanji de tiempo y comidas, vocabulario de それから/そして/それで, gramática de conectores y partículas
 - Agregada al manifest bajo Nivel 2, Unidad 5
 
@@ -190,4 +190,4 @@ const QUIZ_SIZE = 30;  // Cambiar a 20, 50, etc.
 | 4A  | Unidad 4A  | Puntos cardinales, distancias, transporte              | 143       |
 | 4B  | Unidad 4B  | Adjetivos い/な, どんな, あります                        | 135       |
 | 4C  | Unidad 4C  | 季節・料理 — Clima, estaciones, sabores e intensificadores | 115       |
-| 5A  | Unidad 5A  | 週末・食事 — Fin de semana, comidas y conectores           | 93        |
+| 5A  | Unidad 5A  | 週末・食事 — Fin de semana, comidas y conectores           | 126       |

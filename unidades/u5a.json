@@ -2509,5 +2509,896 @@
         "explanation": "じま no es lectura de 時間. La lectura es じかん (sonido completo)."
       }
     ]
+  },
+  {
+    "id": "U5A-094",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 今週?",
+    "opts": [
+      {
+        "text": "こんしゅう",
+        "correct": true,
+        "explanation": "今 (こん, 'este/ahora') + 週 (しゅう, 'semana') = こんしゅう, 'esta semana'. Correcta. Sigue el patrón: 先週←今週→来週."
+      },
+      {
+        "text": "いましゅう",
+        "correct": false,
+        "explanation": "いま es kun de 今 (usado solo: 今=いま, 'ahora'). En compuestos temporales se usa la on'yomi こん."
+      },
+      {
+        "text": "こんしゅ",
+        "correct": false,
+        "explanation": "Falta la vocal larga: 週 siempre se lee しゅう (con う), no しゅ corta."
+      },
+      {
+        "text": "こうしゅう",
+        "correct": false,
+        "explanation": "こう no es lectura de 今. 今 en compuestos se lee こん (今週, 今月, 今年)."
+      }
+    ]
+  },
+  {
+    "id": "U5A-095",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 来週?",
+    "opts": [
+      {
+        "text": "らいしゅう",
+        "correct": true,
+        "explanation": "来 (らい, 'venir/próximo') + 週 (しゅう, 'semana') = らいしゅう, 'la semana próxima'. Correcta. Patrón: 先週←今週→来週."
+      },
+      {
+        "text": "くるしゅう",
+        "correct": false,
+        "explanation": "くる es kun de 来 (来る = 'venir'). En compuestos temporales se usa la on'yomi らい."
+      },
+      {
+        "text": "らいしゅ",
+        "correct": false,
+        "explanation": "Falta la vocal larga de 週 (しゅう, no しゅ). Error frecuente: respetar siempre la vocal larga."
+      },
+      {
+        "text": "きしゅう",
+        "correct": false,
+        "explanation": "き no es lectura de 来. 来 en contexto temporal se lee らい (来週, 来月, 来年)."
+      }
+    ]
+  },
+  {
+    "id": "U5A-096",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 先月?",
+    "opts": [
+      {
+        "text": "せんげつ",
+        "correct": true,
+        "explanation": "先 (せん, 'anterior') + 月 (げつ, 'mes') = せんげつ, 'el mes pasado'. Correcta. Mismo 先 que 先週. Atención: 月 se lee げつ (no つき) en compuestos temporales."
+      },
+      {
+        "text": "せんつき",
+        "correct": false,
+        "explanation": "つき es kun de 月 ('luna/mes' aislado). En compuestos temporales se usa la on'yomi げつ (今月, 先月, 来月)."
+      },
+      {
+        "text": "さきげつ",
+        "correct": false,
+        "explanation": "さき es kun de 先. En este compuesto temporal va la on'yomi せん."
+      },
+      {
+        "text": "せんがつ",
+        "correct": false,
+        "explanation": "がつ es lectura de 月 para los meses del año (一月=いちがつ, etc.). Para 'mes' como unidad temporal se usa げつ."
+      }
+    ]
+  },
+  {
+    "id": "U5A-097",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 今月?",
+    "opts": [
+      {
+        "text": "こんげつ",
+        "correct": true,
+        "explanation": "今 (こん) + 月 (げつ) = こんげつ, 'este mes'. Correcta. Mismo patrón que こんしゅう. 月 en compuestos temporales = げつ."
+      },
+      {
+        "text": "いまつき",
+        "correct": false,
+        "explanation": "Mezcla de kun'yomi: いま (今) + つき (月). En compuestos formales se usan on'yomi: こん + げつ."
+      },
+      {
+        "text": "こんがつ",
+        "correct": false,
+        "explanation": "がつ se usa para nombrar meses del calendario (三月=さんがつ). Para 'este mes' como período es こんげつ."
+      },
+      {
+        "text": "こうげつ",
+        "correct": false,
+        "explanation": "こう no es lectura de 今. La on'yomi de 今 en estos compuestos es こん."
+      }
+    ]
+  },
+  {
+    "id": "U5A-098",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 来月?",
+    "opts": [
+      {
+        "text": "らいげつ",
+        "correct": true,
+        "explanation": "来 (らい, 'próximo') + 月 (げつ, 'mes') = らいげつ, 'el mes próximo'. Correcta. Patrón consistente: 先月←今月→来月."
+      },
+      {
+        "text": "くるつき",
+        "correct": false,
+        "explanation": "Mezcla de kun'yomi inapropiada. Los compuestos temporales de mes usan on'yomi: らいげつ."
+      },
+      {
+        "text": "らいがつ",
+        "correct": false,
+        "explanation": "がつ es para números de mes (いちがつ, にがつ...). 'El mes próximo' usa げつ: らいげつ."
+      },
+      {
+        "text": "らいつき",
+        "correct": false,
+        "explanation": "つき es kun de 月 aislado. En compuestos temporales va la on'yomi げつ."
+      }
+    ]
+  },
+  {
+    "id": "U5A-099",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 去年?",
+    "opts": [
+      {
+        "text": "きょねん",
+        "correct": true,
+        "explanation": "去年 es lectura especial (jukujikun): 去 normalmente se lee きょ/こ y 年 se lee ねん/とし. Juntos forman きょねん, 'el año pasado'. Correcta. ⚠️ No sigue el patrón 先/今/来 de semanas y meses."
+      },
+      {
+        "text": "せんねん",
+        "correct": false,
+        "explanation": "El patrón 先〜 funciona para semanas (先週) y meses (先月), pero el año pasado es 去年 (きょねん), no 先年. 先年 no es palabra estándar."
+      },
+      {
+        "text": "さくねん",
+        "correct": false,
+        "explanation": "さくねん (昨年) existe y significa 'el año pasado' en registro formal/escrito. Pero el kanji aquí es 去 (きょ), no 昨. En conversación se usa きょねん."
+      },
+      {
+        "text": "こねん",
+        "correct": false,
+        "explanation": "こ es otra lectura de 去 pero la palabra estándar es きょねん. こねん no es forma usada."
+      }
+    ]
+  },
+  {
+    "id": "U5A-100",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 今年?",
+    "opts": [
+      {
+        "text": "ことし",
+        "correct": true,
+        "explanation": "今年 es jukujikun: se lee ことし ('este año'), no こんねん ni いまとし. Correcta. ⚠️ Excepción al patrón: 今週=こんしゅう, 今月=こんげつ, pero 今年=ことし."
+      },
+      {
+        "text": "こんねん",
+        "correct": false,
+        "explanation": "こんねん sería el patrón esperado (como こんしゅう/こんげつ) pero NO se usa para el año. La forma correcta es la jukujikun ことし."
+      },
+      {
+        "text": "いまとし",
+        "correct": false,
+        "explanation": "Mezcla de kun'yomi (いま=今, とし=年) que tampoco se usa. La jukujikun ことし es la única forma estándar."
+      },
+      {
+        "text": "こうねん",
+        "correct": false,
+        "explanation": "こうねん (光年) significa 'año luz', kanji y significado totalmente distintos. 今年 es ことし."
+      }
+    ]
+  },
+  {
+    "id": "U5A-101",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 来年?",
+    "opts": [
+      {
+        "text": "らいねん",
+        "correct": true,
+        "explanation": "来 (らい, 'próximo') + 年 (ねん, 'año') = らいねん, 'el año próximo'. Correcta. ⚠️ 年 aquí se lee ねん (on'yomi), no とし (kun'yomi). Distinto de 今年 (ことし)."
+      },
+      {
+        "text": "らいとし",
+        "correct": false,
+        "explanation": "とし es kun de 年 (今年=ことし es excepción). Pero 来年 usa la on'yomi ねん: らいねん."
+      },
+      {
+        "text": "くるとし",
+        "correct": false,
+        "explanation": "くる es kun de 来, pero en compuestos temporales se usa la on'yomi らい."
+      },
+      {
+        "text": "らいがた",
+        "correct": false,
+        "explanation": "がた no es lectura de 年. Las lecturas de 年 son ねん (on) y とし (kun)."
+      }
+    ]
+  },
+  {
+    "id": "U5A-102",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 映画?",
+    "opts": [
+      {
+        "text": "えいが",
+        "correct": true,
+        "explanation": "映 (えい, 'proyectar/reflejar') + 画 (が, 'imagen/dibujo') = えいが, 'película/cine'. Correcta. On'yomi en ambos kanji."
+      },
+      {
+        "text": "うつしえ",
+        "correct": false,
+        "explanation": "うつし es kun de 映 (映す = 'proyectar') y え es kun de 画/絵. Pero la palabra estándar es la on'yomi えいが."
+      },
+      {
+        "text": "えいかく",
+        "correct": false,
+        "explanation": "かく es on de 画 en algunos compuestos (映画 vs 計画=けいかく). En 映画 la lectura es が."
+      },
+      {
+        "text": "えいかん",
+        "correct": false,
+        "explanation": "かん no es lectura de 画. Confusión posible con 映画館 (えいがかん, 'sala de cine'), que sí incluye かん al final."
+      }
+    ]
+  },
+  {
+    "id": "U5A-103",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee お酒?",
+    "opts": [
+      {
+        "text": "おさけ",
+        "correct": true,
+        "explanation": "お (honorífico) + 酒 (さけ, 'bebida alcohólica/sake') = おさけ. Correcta. おさけ = bebidas alcohólicas en general; さけ sin お = el sake específicamente."
+      },
+      {
+        "text": "おしゅ",
+        "correct": false,
+        "explanation": "しゅ es on de 酒 (usado en compuestos como 日本酒=にほんしゅ). Pero con お honorífico se usa la kun'yomi さけ."
+      },
+      {
+        "text": "おざけ",
+        "correct": false,
+        "explanation": "No hay rendaku en esta combinación: お + さけ = おさけ (sin sonorizar la s)."
+      },
+      {
+        "text": "おしょう",
+        "correct": false,
+        "explanation": "しょう no es lectura de 酒. Confusión posible con 醤油 (しょうゆ). 酒 se lee さけ/しゅ."
+      }
+    ]
+  },
+  {
+    "id": "U5A-104",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 景色?",
+    "opts": [
+      {
+        "text": "けしき",
+        "correct": true,
+        "explanation": "景 (け, kun'yomi especial) + 色 (しき, kun'yomi de color/apariencia) = けしき, 'paisaje/vista'. Correcta. ⚠️ Lectura irregular: 景 habitualmente se lee けい (on'yomi), pero en けしき es ke solo."
+      },
+      {
+        "text": "けいしょく",
+        "correct": false,
+        "explanation": "けい es on'yomi de 景 y しょく es on de 色. Pero la palabra 景色 no usa estas on'yomi: es la kun けしき."
+      },
+      {
+        "text": "かげいろ",
+        "correct": false,
+        "explanation": "かげ (shadow) y いろ (color) son kun'yomi de kanji distintos. 景色 se lee けしき."
+      },
+      {
+        "text": "けいいろ",
+        "correct": false,
+        "explanation": "いろ es kun de 色 cuando va solo. En 景色 la lectura es しき, formando la palabra completa けしき."
+      }
+    ]
+  },
+  {
+    "id": "U5A-105",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 天気?",
+    "opts": [
+      {
+        "text": "てんき",
+        "correct": true,
+        "explanation": "天 (てん, 'cielo') + 気 (き, 'energía/estado') = てんき, 'clima/tiempo meteorológico'. Correcta. On'yomi en ambos."
+      },
+      {
+        "text": "あまけ",
+        "correct": false,
+        "explanation": "あま es kun de 天 (天の川=あまのがわ). En 天気 se usa la on'yomi てん."
+      },
+      {
+        "text": "てんけ",
+        "correct": false,
+        "explanation": "け es otra lectura de 気 en algunos contextos (元気=げんき). Pero en 天気 es き."
+      },
+      {
+        "text": "そらき",
+        "correct": false,
+        "explanation": "そら es kun de 空 ('cielo/espacio'), no de 天. Los dos kanji son distintos aunque se traduzcan similar."
+      }
+    ]
+  },
+  {
+    "id": "U5A-106",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 気持ちがいい?",
+    "opts": [
+      {
+        "text": "きもちがいい",
+        "correct": true,
+        "explanation": "気 (き) + 持ち (もち, 'sostener/tener') + が + いい = きもちがいい, 'sentirse bien / sensación agradable'. Correcta. 気持ち = ánimo/sensación; が = sujeto; いい = bueno."
+      },
+      {
+        "text": "きじがいい",
+        "correct": false,
+        "explanation": "じ no es lectura de 持. 持 se lee もち (kun) o じ solo en compuestos específicos. Aquí es もち."
+      },
+      {
+        "text": "きもつがいい",
+        "correct": false,
+        "explanation": "もつ es lectura alternativa de 持 (持つ=もつ, forma diccionario). La forma nominativa es もち: 気持ち."
+      },
+      {
+        "text": "けいもちがいい",
+        "correct": false,
+        "explanation": "けい no es lectura de 気 en este contexto. 気 se lee き aquí."
+      }
+    ]
+  },
+  {
+    "id": "U5A-107",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 旅行?",
+    "opts": [
+      {
+        "text": "りょこう",
+        "correct": true,
+        "explanation": "旅 (りょ, 'viaje') + 行 (こう, 'ir/acción') = りょこう, 'viaje/viajar'. Correcta. Se usa con する: 旅行します = 'viajo/voy de viaje'."
+      },
+      {
+        "text": "たびいき",
+        "correct": false,
+        "explanation": "たび es kun de 旅 e いき es kun de 行. Pero en este compuesto formal se usan las on'yomi りょ + こう."
+      },
+      {
+        "text": "りょうこ",
+        "correct": false,
+        "explanation": "旅 se lee りょ (una mora), no りょう (dos moras). La vocal no es larga aquí."
+      },
+      {
+        "text": "りょぎょう",
+        "correct": false,
+        "explanation": "ぎょう es otra on'yomi de 行 (銀行=ぎんこう, 行動=こうどう). En 旅行 es こう."
+      }
+    ]
+  },
+  {
+    "id": "U5A-108",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 近く?",
+    "opts": [
+      {
+        "text": "ちかく",
+        "correct": true,
+        "explanation": "近 (ちか, kun) + く (nominalizador de adjetivo) = ちかく, 'cerca / los alrededores'. Correcta. 近い (adj) → 近く (sustantivo/adverbio). Ej: うちの近く = 'los alrededores de casa'."
+      },
+      {
+        "text": "きんく",
+        "correct": false,
+        "explanation": "きん es on'yomi de 近 (近所=きんじょ). Pero 近く usa siempre la kun'yomi ちか."
+      },
+      {
+        "text": "ちかい",
+        "correct": false,
+        "explanation": "ちかい es el adjetivo completo (近い = 'cercano'). 近く es la forma nominalizada/adverbial (sin い, con く)."
+      },
+      {
+        "text": "ちくく",
+        "correct": false,
+        "explanation": "Errror de vocal: 近 se lee ちか (con a), no ちく."
+      }
+    ]
+  },
+  {
+    "id": "U5A-109",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee お弁当?",
+    "opts": [
+      {
+        "text": "おべんとう",
+        "correct": true,
+        "explanation": "お (honorífico) + 弁 (べん) + 当 (とう) = おべんとう, 'bento / caja de comida para llevar'. Correcta. On'yomi en ambos kanji del núcleo."
+      },
+      {
+        "text": "おべんどう",
+        "correct": false,
+        "explanation": "当 se lee とう (no どう) en este compuesto. Sin rendaku aquí."
+      },
+      {
+        "text": "おべんとお",
+        "correct": false,
+        "explanation": "とう es la grafía correcta en hiragana (vocal larga con う). En la escritura estándar es とう, no とお."
+      },
+      {
+        "text": "おへんとう",
+        "correct": false,
+        "explanation": "弁 se lee べん (con sonido sonoro b), no へん. べん es la lectura correcta."
+      }
+    ]
+  },
+  {
+    "id": "U5A-110",
+    "cat": "Español → Japonés",
+    "q": "¿Cómo se dice 'esta semana' en japonés?",
+    "opts": [
+      {
+        "text": "今週（こんしゅう）",
+        "correct": true,
+        "explanation": "今 (este/ahora) + 週 (semana) = 今週. Correcta. Eje: 先週 (pasada) ← 今週 (esta) → 来週 (próxima)."
+      },
+      {
+        "text": "先週（せんしゅう）",
+        "correct": false,
+        "explanation": "先週 = la semana PASADA (先 = anterior). 'Esta semana' es 今週."
+      },
+      {
+        "text": "来週（らいしゅう）",
+        "correct": false,
+        "explanation": "来週 = la semana PRÓXIMA (来 = venir/futuro). 'Esta semana' es 今週."
+      },
+      {
+        "text": "週末（しゅうまつ）",
+        "correct": false,
+        "explanation": "週末 = el fin de semana, no 'esta semana'. Son conceptos distintos."
+      }
+    ]
+  },
+  {
+    "id": "U5A-111",
+    "cat": "Español → Japonés",
+    "q": "¿Cómo se dice 'el mes próximo' en japonés?",
+    "opts": [
+      {
+        "text": "来月（らいげつ）",
+        "correct": true,
+        "explanation": "来 (próximo/futuro) + 月 (mes) = 来月. Correcta. Patrón: 先月←今月→来月."
+      },
+      {
+        "text": "先月（せんげつ）",
+        "correct": false,
+        "explanation": "先月 = el mes PASADO. 'El mes próximo' es 来月."
+      },
+      {
+        "text": "今月（こんげつ）",
+        "correct": false,
+        "explanation": "今月 = ESTE mes (el actual). 'El mes próximo' es 来月."
+      },
+      {
+        "text": "再来月（さらいげつ）",
+        "correct": false,
+        "explanation": "再来月 = en DOS meses (el que sigue al próximo). 'El mes próximo' es 来月."
+      }
+    ]
+  },
+  {
+    "id": "U5A-112",
+    "cat": "Español → Japonés",
+    "q": "¿Cómo se dice 'el año pasado' en japonés?",
+    "opts": [
+      {
+        "text": "去年（きょねん）",
+        "correct": true,
+        "explanation": "去年 (きょねん) = 'el año pasado'. Correcta. ⚠️ El año es irregular: NO se dice 先年. Memorizar: おととし←去年←今年(ことし)→来年→再来年."
+      },
+      {
+        "text": "先年（せんねん）",
+        "correct": false,
+        "explanation": "先年 no es forma estándar para 'el año pasado'. El patrón 先〜 funciona para semanas y meses pero NO para el año."
+      },
+      {
+        "text": "今年（ことし）",
+        "correct": false,
+        "explanation": "今年 (ことし) = ESTE año. 'El año pasado' es 去年 (きょねん)."
+      },
+      {
+        "text": "来年（らいねん）",
+        "correct": false,
+        "explanation": "来年 = el año PRÓXIMO. 'El año pasado' es 去年."
+      }
+    ]
+  },
+  {
+    "id": "U5A-113",
+    "cat": "Español → Japonés",
+    "q": "¿Cómo se dice 'esta noche' en japonés?",
+    "opts": [
+      {
+        "text": "今晩（こんばん）",
+        "correct": true,
+        "explanation": "今 (こん, 'este/ahora') + 晩 (ばん, 'noche') = 今晩, 'esta noche'. Correcta. También existe 今夜 (こんや), más literario. Notar: 今晩は = saludo 'buenas noches'."
+      },
+      {
+        "text": "昨日の晩（きのうのばん）",
+        "correct": false,
+        "explanation": "昨日の晩 = 'anoche' (la noche de ayer). 'Esta noche' es 今晩."
+      },
+      {
+        "text": "今朝（けさ）",
+        "correct": false,
+        "explanation": "今朝 (けさ) = 'esta mañana'. Mismo patrón 今〜 pero con 朝 (mañana) en vez de 晩 (noche)."
+      },
+      {
+        "text": "よる",
+        "correct": false,
+        "explanation": "よる (夜) = 'noche' en general. 'Esta noche' específicamente es 今晩 (con 今 para indicar el momento presente)."
+      }
+    ]
+  },
+  {
+    "id": "U5A-114",
+    "cat": "Español → Japonés",
+    "q": "¿Cómo se dice 'viajar / hacer un viaje' en japonés?",
+    "opts": [
+      {
+        "text": "旅行します（りょこうします）",
+        "correct": true,
+        "explanation": "旅行 (りょこう, 'viaje') + します = 旅行します. Correcta. Sustantivo de tipo 3 (N+する). El destino lleva へ: 京都へ旅行します."
+      },
+      {
+        "text": "行きます（いきます）",
+        "correct": false,
+        "explanation": "行きます = 'ir (a algún lugar)'. Para expresar 'viajar' con matiz de viaje como actividad completa se usa 旅行します."
+      },
+      {
+        "text": "帰ります（かえります）",
+        "correct": false,
+        "explanation": "帰ります = 'volver/regresar'. Verbo de movimiento de regreso, no de viaje."
+      },
+      {
+        "text": "散歩します（さんぽします）",
+        "correct": false,
+        "explanation": "散歩します = 'dar un paseo/caminar'. Actividad local, no un viaje."
+      }
+    ]
+  },
+  {
+    "id": "U5A-115",
+    "cat": "Español → Japonés",
+    "q": "¿Cómo se dice 'sentirse bien / sensación agradable' en japonés?",
+    "opts": [
+      {
+        "text": "気持ちがいい（きもちがいい）",
+        "correct": true,
+        "explanation": "気持ち (きもち, 'sensación/ánimo') + が + いい = 気持ちがいい. Correcta. Pasado: 気持ちがよかったです. Se usa para sensaciones físicas o emocionales agradables."
+      },
+      {
+        "text": "たのしいです",
+        "correct": false,
+        "explanation": "たのしい (楽しい) = 'divertido/entretenido'. Distinto de 気持ちがいい que enfatiza la sensación placentera."
+      },
+      {
+        "text": "いいです",
+        "correct": false,
+        "explanation": "いいです = 'está bien / es bueno' (general). 気持ちがいい es más específico: 'la sensación es buena'."
+      },
+      {
+        "text": "おもしろいです",
+        "correct": false,
+        "explanation": "おもしろい = 'interesante/gracioso'. No implica la sensación física/emocional de bienestar de 気持ちがいい."
+      }
+    ]
+  },
+  {
+    "id": "U5A-116",
+    "cat": "Números y Tiempo",
+    "q": "Ordená de más pasado a más futuro: 来週, 先々週, 今週, 先週, 再来週",
+    "opts": [
+      {
+        "text": "先々週 → 先週 → 今週 → 来週 → 再来週",
+        "correct": true,
+        "explanation": "Eje completo de semanas: hace 2 sem. → la pasada → ESTA → la próxima → en 2 sem. Correcta. Patrón: 先々〜 / 先〜 / 今〜 / 来〜 / 再来〜."
+      },
+      {
+        "text": "先週 → 今週 → 先々週 → 来週 → 再来週",
+        "correct": false,
+        "explanation": "先々週 (hace 2 semanas) debe ir ANTES de 先週 (la semana pasada), no después."
+      },
+      {
+        "text": "再来週 → 来週 → 今週 → 先週 → 先々週",
+        "correct": false,
+        "explanation": "Es el orden INVERSO (de futuro a pasado). El enunciado pide de pasado a futuro."
+      },
+      {
+        "text": "先々週 → 先週 → 来週 → 今週 → 再来週",
+        "correct": false,
+        "explanation": "今週 (esta semana) debe ir entre 先週 y 来週, no después de 来週."
+      }
+    ]
+  },
+  {
+    "id": "U5A-117",
+    "cat": "Números y Tiempo",
+    "q": "Ordená de más pasado a más futuro: 来年, おととし, 今年, 去年, 再来年",
+    "opts": [
+      {
+        "text": "おととし → 去年 → 今年 → 来年 → 再来年",
+        "correct": true,
+        "explanation": "Eje de años: hace 2 años → año pasado → ESTE año → año próximo → en 2 años. Correcta. ⚠️ Los años son irregulares: おととし / 去年(きょねん) / 今年(ことし) / 来年 / 再来年."
+      },
+      {
+        "text": "去年 → おととし → 今年 → 来年 → 再来年",
+        "correct": false,
+        "explanation": "おととし (hace 2 años) debe ir ANTES de 去年 (el año pasado)."
+      },
+      {
+        "text": "おととし → 去年 → 今年 → 再来年 → 来年",
+        "correct": false,
+        "explanation": "来年 (el año próximo) va antes de 再来年 (en 2 años), no después."
+      },
+      {
+        "text": "再来年 → 来年 → 今年 → 去年 → おととし",
+        "correct": false,
+        "explanation": "Orden inverso (futuro a pasado). El enunciado pide de pasado a futuro."
+      }
+    ]
+  },
+  {
+    "id": "U5A-118",
+    "cat": "Números y Tiempo",
+    "q": "¿Cuál es el equivalente en meses de 先週?",
+    "opts": [
+      {
+        "text": "先月（せんげつ）",
+        "correct": true,
+        "explanation": "先週 = la semana pasada → 先月 = el mes pasado. Mismo elemento 先 (anterior), diferente unidad: 週 (semana) vs 月 (mes). Correcta."
+      },
+      {
+        "text": "今月（こんげつ）",
+        "correct": false,
+        "explanation": "今月 = ESTE mes, equivalente a 今週 (esta semana). No de 先週."
+      },
+      {
+        "text": "来月（らいげつ）",
+        "correct": false,
+        "explanation": "来月 = el mes próximo, equivalente a 来週. No de 先週."
+      },
+      {
+        "text": "先々月（せんせんげつ）",
+        "correct": false,
+        "explanation": "先々月 = hace dos meses, equivalente a 先々週 (hace dos semanas). No de 先週."
+      }
+    ]
+  },
+  {
+    "id": "U5A-119",
+    "cat": "Números y Tiempo",
+    "q": "¿Qué expresa el patrón '〜の晩' como en '昨日の晩'?",
+    "opts": [
+      {
+        "text": "La noche de ese día (anoche, en este caso)",
+        "correct": true,
+        "explanation": "〜の晩 combina un tiempo relativo con la parte del día: 昨日の晩 = 'la noche de ayer' (anoche). Correcta. Mismo patrón: 明日の朝 (mañana por la mañana), 今日の午後 (esta tarde)."
+      },
+      {
+        "text": "La mañana de ese día",
+        "correct": false,
+        "explanation": "晩 = noche. Para 'mañana' sería 〜の朝. 晩 y 朝 son partes del día distintas."
+      },
+      {
+        "text": "Hace una noche",
+        "correct": false,
+        "explanation": "〜の晩 no expresa duración ('hace X noches'). Indica la parte de la noche de un día específico."
+      },
+      {
+        "text": "Toda la noche de ese día",
+        "correct": false,
+        "explanation": "Para 'toda la noche' se usaría 一晩中 (ひとばんじゅう). 〜の晩 solo indica 'la noche de 〜', sin implicar duración completa."
+      }
+    ]
+  },
+  {
+    "id": "U5A-120",
+    "cat": "Gramática",
+    "q": "¿Qué partícula falta? 山 [ ? ] 登りました。",
+    "opts": [
+      {
+        "text": "に",
+        "correct": true,
+        "explanation": "山に登る: el verbo 登る (のぼる, 'escalar') usa に para indicar el objetivo al que se sube. Correcta. En general: へ/に para destino de movimiento, pero 登る prefiere に."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "explanation": "で indica el LUGAR donde ocurre la acción (山で遊ぶ = 'jugar en la montaña'). 登る con で cambiaría el sentido a 'escalar estando en la montaña', que no es natural."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "explanation": "を marca el objeto directo. Aunque en japonés algunos verbos de movimiento usan を (道を歩く), 登る usa に para su destino."
+      },
+      {
+        "text": "が",
+        "correct": false,
+        "explanation": "が marca el sujeto. 山 aquí es el destino, no el que realiza la acción."
+      }
+    ]
+  },
+  {
+    "id": "U5A-121",
+    "cat": "Gramática",
+    "q": "¿Qué partícula falta? 写真 [ ? ] 撮りました。",
+    "opts": [
+      {
+        "text": "を",
+        "correct": true,
+        "explanation": "写真を撮る: 写真 (しゃしん) es el objeto directo de 撮る (とる = 'tomar/sacar'). を marca el objeto. Correcta. Estructura: 写真をとります = 'tomo fotos'."
+      },
+      {
+        "text": "が",
+        "correct": false,
+        "explanation": "が marcaría 写真 como sujeto ('las fotos tomaron algo'). El objeto directo de 撮る lleva を."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "explanation": "で indicaría lugar o medio. 写真で撮る no es natural. を es la partícula de objeto directo aquí."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "explanation": "に aquí no es apropiado. 撮る es un verbo transitivo y toma を para su objeto directo."
+      }
+    ]
+  },
+  {
+    "id": "U5A-122",
+    "cat": "Traducción JP→ES",
+    "q": "¿Qué significa '来週、家族と旅行します'?",
+    "opts": [
+      {
+        "text": "La semana próxima viajo con mi familia.",
+        "correct": true,
+        "explanation": "来週 = la semana próxima; 家族と = con la familia (compañía); 旅行します = viajo/hago un viaje. Presente/futuro afirmativo. Correcta."
+      },
+      {
+        "text": "La semana pasada viajé con mi familia.",
+        "correct": false,
+        "explanation": "旅行します es presente/futuro, no pasado. El pasado sería 旅行しました. Además, 来週 = próxima semana, no la pasada."
+      },
+      {
+        "text": "La semana próxima voy a casa de mi familia.",
+        "correct": false,
+        "explanation": "旅行します = viajar (actividad de viaje), no 'ir a casa de'. 'Ir a casa de la familia' sería 家族の家へ行きます."
+      },
+      {
+        "text": "Esta semana viajé solo.",
+        "correct": false,
+        "explanation": "来週 ≠ 今週 (esta semana). 家族と = con la familia (no solo). Dos errores."
+      }
+    ]
+  },
+  {
+    "id": "U5A-123",
+    "cat": "Traducción JP→ES",
+    "q": "¿Qué significa '山からの景色はきれいでした'?",
+    "opts": [
+      {
+        "text": "El paisaje desde la montaña era hermoso.",
+        "correct": true,
+        "explanation": "山から = desde la montaña; の = posesivo/relación; 景色 = paisaje; は = tema; きれいでした = era hermoso (pasado de きれいです). Correcta. 〜からの〜 = 'el/la 〜 desde 〜'."
+      },
+      {
+        "text": "Fui a ver el paisaje de la montaña.",
+        "correct": false,
+        "explanation": "No hay verbo de movimiento aquí. La oración describe el paisaje con きれいでした (adjetivo en pasado), no un desplazamiento."
+      },
+      {
+        "text": "El paisaje de la montaña será hermoso.",
+        "correct": false,
+        "explanation": "きれいでした es PASADO ('era'). El futuro sería きれいでしょう o きれいになります."
+      },
+      {
+        "text": "La montaña era hermosa desde aquí.",
+        "correct": false,
+        "explanation": "El sujeto es 景色 (el paisaje), no 山 (la montaña). 山からの modifica a 景色."
+      }
+    ]
+  },
+  {
+    "id": "U5A-124",
+    "cat": "Traducción JP→ES",
+    "q": "¿Qué significa '今晩、友達とお酒を飲みました'?",
+    "opts": [
+      {
+        "text": "Esta noche tomé alcohol con un amigo.",
+        "correct": true,
+        "explanation": "今晩 = esta noche; 友達と = con un amigo; お酒を = alcohol (objeto); 飲みました = tomé/bebí (pasado). Correcta."
+      },
+      {
+        "text": "Anoche tomé sake solo.",
+        "correct": false,
+        "explanation": "今晩 = esta noche (no anoche). 友達と implica compañía (no solo). Dos errores."
+      },
+      {
+        "text": "Esta noche voy a tomar alcohol con un amigo.",
+        "correct": false,
+        "explanation": "飲みました es PASADO (tomé). El futuro sería 飲みます o 飲むつもりです."
+      },
+      {
+        "text": "Esta noche comí con un amigo.",
+        "correct": false,
+        "explanation": "飲む = beber (no comer). 'Comer' sería 食べる. お酒を飲む = beber alcohol específicamente."
+      }
+    ]
+  },
+  {
+    "id": "U5A-125",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'La semana pasada vi una película con mi pareja'?",
+    "opts": [
+      {
+        "text": "先週、恋人と映画を見ました。",
+        "correct": true,
+        "explanation": "先週 (semana pasada) + 恋人と (con la pareja, compañía) + 映画を (película, objeto) + 見ました (vi, pasado). Correcta. Orden: tiempo → compañía → objeto → verbo."
+      },
+      {
+        "text": "先週、恋人に映画を見ました。",
+        "correct": false,
+        "explanation": "恋人に sería incorrecto para compañía. に con persona implica encuentro (会う) o acción hacia alguien. La compañía usa と."
+      },
+      {
+        "text": "来週、恋人と映画を見ました。",
+        "correct": false,
+        "explanation": "来週 = la semana próxima. La oración pide 'la semana pasada' = 先週."
+      },
+      {
+        "text": "先週、恋人と映画を見ます。",
+        "correct": false,
+        "explanation": "見ます es PRESENTE/FUTURO. La oración pide pasado: 見ました."
+      }
+    ]
+  },
+  {
+    "id": "U5A-126",
+    "cat": "Traducción ES→JP",
+    "q": "¿Cómo se dice 'Anoche jugué videojuegos de 10:30 a 11:30'?",
+    "opts": [
+      {
+        "text": "昨日の晩、10時半から11時半までゲームをしました。",
+        "correct": true,
+        "explanation": "昨日の晩 (anoche) + 10時半から (desde las 10:30) + 11時半まで (hasta las 11:30) + ゲームをしました (jugué videojuegos). Correcta. Patrón: 〜から〜まで para rango horario."
+      },
+      {
+        "text": "昨日の晩、10時半まで11時半からゲームをしました。",
+        "correct": false,
+        "explanation": "から y まで invertidos: から = desde (inicio), まで = hasta (fin). El orden correcto es 10時半から→11時半まで."
+      },
+      {
+        "text": "今晩、10時半から11時半までゲームをしました。",
+        "correct": false,
+        "explanation": "今晩 = esta noche. La oración pide 'anoche' = 昨日の晩 o 昨夜."
+      },
+      {
+        "text": "昨日の晩、10時から12時半までゲームをしました。",
+        "correct": false,
+        "explanation": "El horario es incorrecto: no es 10→12:30 sino 10:30→11:30. Hay que incluir 半 (y media) en ambos extremos."
+      }
+    ]
   }
 ]
