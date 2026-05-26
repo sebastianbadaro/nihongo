@@ -1,0 +1,122 @@
+{
+  "schema": "dekiru-listening/index-v1",
+  "descripcion": "Índice del sistema de listening. La app lo lee primero para construir el menú. Agregar una historia = agregar una entrada en 'historias' bajo la subunidad correcta.",
+  "niveles": [
+    {
+      "nivel": "N5",
+      "nombre": "Nivel N5",
+      "unidades": [
+        {
+          "id": "n5u1",
+          "nombre": "Unidad 1",
+          "titulo": "Presentación e información personal",
+          "subunidades": [
+            {
+              "id": "U1A",
+              "nombre": "Unidad 1A",
+              "titulo": "はじめまして",
+              "historias": [
+                {
+                  "historia_id": "U1A-H01",
+                  "titulo": "自己紹介",
+                  "titulo_es": "Autopresentación",
+                  "imagen": "img/U1A-H01.png",
+                  "archivo": "data/U1A-H01.json",
+                  "variantes": 6,
+                  "preguntas": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n5u2",
+          "nombre": "Unidad 2",
+          "titulo": "Compras y Restaurantes",
+          "subunidades": [
+            {
+              "id": "U2A",
+              "nombre": "Unidad 2A",
+              "titulo": "Compras",
+              "historias": [
+                {
+                  "historia_id": "U2A-H01",
+                  "titulo": "サカイ電器で",
+                  "titulo_es": "En la tienda de electrónica",
+                  "imagen": "img/U2A-H01.png",
+                  "archivo": "data/U2A-H01.json",
+                  "variantes": 6,
+                  "preguntas": 5
+                },
+                {
+                  "historia_id": "U2A-H03",
+                  "titulo": "レストラン",
+                  "titulo_es": "En el restaurante",
+                  "imagen": "img/U2A-H03.png",
+                  "archivo": "data/U2A-H03.json",
+                  "variantes": 6,
+                  "preguntas": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n5u3",
+          "nombre": "Unidad 3",
+          "titulo": "一日の生活",
+          "subunidades": [
+            {
+              "id": "U3C",
+              "nombre": "Unidad 3C",
+              "titulo": "週間スケジュール",
+              "historias": [
+                {
+                  "historia_id": "U3C-H01",
+                  "titulo": "私の１週間",
+                  "titulo_es": "Mi semana",
+                  "imagen": "img/U3C-H01.png",
+                  "archivo": "data/U3C-H01.json",
+                  "variantes": 6,
+                  "preguntas": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n5u5",
+          "nombre": "Unidad 5",
+          "titulo": "Fin de semana, comidas y conectores",
+          "subunidades": [
+            {
+              "id": "U5A",
+              "nombre": "Unidad 5A",
+              "titulo": "週末・過去 (Fin de semana y pasado)",
+              "historias": [
+                {
+                  "historia_id": "U5A-H02",
+                  "titulo": "週末の話",
+                  "titulo_es": "Una salida de fin de semana",
+                  "imagen": "img/U5A-H02.png",
+                  "archivo": "data/U5A-H02.json",
+                  "variantes": 6,
+                  "preguntas": 5
+                },
+                {
+                  "historia_id": "U5A-H03",
+                  "titulo": "楽しい一日",
+                  "titulo_es": "Un día divertido",
+                  "imagen": "img/U5A-H03.png",
+                  "archivo": "data/U5A-H03.json",
+                  "variantes": 6,
+                  "preguntas": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

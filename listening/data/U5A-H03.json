@@ -1,0 +1,148 @@
+{
+  "schema": "dekiru-listening/historia-v1",
+  "nivel": "N5",
+  "unidad": "U5A",
+  "unidad_titulo": "週末・過去 (Fin de semana y pasado)",
+  "historia_id": "U5A-H03",
+  "titulo": "楽しい一日",
+  "titulo_es": "Un día divertido",
+  "imagen": "img/U5A-H03.png",
+  "imagen_alt": "Una persona joven, estudiante de idiomas, cuenta con expresión alegre cómo pasó un día de descanso. A su lado, una pequeña viñeta de recuerdo, difusa y soñadora, sugiere una salida relajada y agradable al aire libre, sin mostrar ningún lugar identificable, ninguna comida concreta ni acompañante reconocible.",
+  "contexto": "Una persona le cuenta a su clase cómo pasó un día de descanso. Atención: durante el relato se nombran varios lugares y personas; no todo lo que se menciona es la respuesta. Escuchá con cuidado.",
+  "voz": "femenina",
+  "config": { "velocidad_sugerida": 0.9, "mostrar_transcript": "despues_de_responder" },
+  "plantilla": [
+    "{dia}、{persona}と{lugar}へ行きました。",
+    "ルームメイトは来ませんでした。うちにいました。",
+    "そこで{comida}を食べました。とてもおいしかったです。",
+    "それから、{visita}を見に行きました。とてもおもしろかったです。",
+    "近くにデパートがありました。でも、デパートへは行きませんでした。",
+    "とても楽しい一日でした。また行きたいです。"
+  ],
+  "preguntas": [
+    {
+      "id": "Q1",
+      "slot": "lugar",
+      "cat": "Listening: Detalle",
+      "q": "¿Adónde fue de paseo el narrador?",
+      "opciones": [
+        { "key": "yama",    "texto": "山（やま）",     "es": "la montaña" },
+        { "key": "umi",     "texto": "海（うみ）",     "es": "el mar / la playa" },
+        { "key": "kouen",   "texto": "公園（こうえん）", "es": "el parque" },
+        { "key": "depaato", "texto": "デパート",        "es": "los grandes almacenes" }
+      ],
+      "explicacion": {
+        "correcta": "Correcta. El narrador dice «{c_texto}へ行きました»: la partícula へ marca el destino del movimiento, así que el lugar del paseo es {c_es}. Correcta.",
+        "incorrecta": "{o_texto} ({o_es}) no es el destino del paseo. Trampa clásica: el audio sí nombra «デパート», pero dice «デパートへは行きませんでした» (NO fue allí). El destino real se marca con «〜へ行きました»."
+      }
+    },
+    {
+      "id": "Q2",
+      "slot": "persona",
+      "cat": "Listening: Detalle",
+      "q": "¿Con quién pasó el día el narrador?",
+      "opciones": [
+        { "key": "tomodachi", "texto": "友達（ともだち）", "es": "un amigo / amigos" },
+        { "key": "kazoku",    "texto": "家族（かぞく）",   "es": "su familia" },
+        { "key": "koibito",   "texto": "恋人（こいびと）", "es": "su pareja" },
+        { "key": "roommate",  "texto": "ルームメイト",     "es": "su compañero de cuarto" }
+      ],
+      "explicacion": {
+        "correcta": "Correcta. «{c_texto}と行きました»: la partícula と indica compañía ('con'). El narrador salió con {c_es}. Correcta.",
+        "incorrecta": "{o_texto} ({o_es}) no acompañó al narrador. Cuidado con la trampa: se menciona a «ルームメイト», pero «ルームメイトは来ませんでした» (no vino, se quedó en casa). La compañía real va con la partícula «〜と»."
+      }
+    },
+    {
+      "id": "Q3",
+      "slot": "visita",
+      "cat": "Listening: Detalle",
+      "q": "Después de comer, ¿qué fue a ver el narrador?",
+      "opciones": [
+        { "key": "otera",      "texto": "古い お寺（ふるい おてら）",        "es": "un templo budista antiguo" },
+        { "key": "bijutsukan", "texto": "大きい 美術館（おおきい びじゅつかん）", "es": "un museo de arte grande" },
+        { "key": "oshiro",     "texto": "有名な お城（ゆうめいな おしろ）",    "es": "un castillo famoso" },
+        { "key": "jinja",      "texto": "神社（じんじゃ）",                   "es": "un santuario sintoísta" }
+      ],
+      "explicacion": {
+        "correcta": "Correcta. «それから、{c_texto}を見に行きました»: それから = 'después' (orden temporal) y «〜を見に行きます» = 'ir a ver ~'. Lo que fue a ver es {c_es}. Correcta.",
+        "incorrecta": "{o_texto} ({o_es}) no es lo que el narrador fue a ver. Atención: お寺 (templo budista) y 神社 (santuario sintoísta) NO son lo mismo. La segunda actividad se introduce siempre con «それから»."
+      }
+    },
+    {
+      "id": "Q4",
+      "slot": "dia",
+      "cat": "Listening: Detalle",
+      "q": "¿Qué día hizo el narrador este paseo?",
+      "opciones": [
+        { "key": "nichiyoubi", "texto": "日曜日（にちようび）", "es": "el domingo" },
+        { "key": "doyoubi",    "texto": "土曜日（どようび）",   "es": "el sábado" },
+        { "key": "kinyoubi",   "texto": "金曜日（きんようび）", "es": "el viernes" },
+        { "key": "getsuyoubi", "texto": "月曜日（げつようび）", "es": "el lunes" }
+      ],
+      "explicacion": {
+        "correcta": "Correcta. El relato arranca con «{c_texto}」: el día del paseo es {c_es}. Correcta.",
+        "incorrecta": "{o_texto} ({o_es}) no es el día correcto. Ojo con los días que suenan parecido: 金曜日 (きんようび), 土曜日 (どようび), 日曜日 (にちようび). El día se dice justo al comienzo del relato."
+      }
+    },
+    {
+      "id": "Q5",
+      "slot": "comida",
+      "cat": "Listening: Detalle",
+      "q": "¿Qué comió el narrador en ese lugar?",
+      "opciones": [
+        { "key": "obentou",    "texto": "お弁当（おべんとう）", "es": "un bentō" },
+        { "key": "onigiri",    "texto": "おにぎり",           "es": "onigiri (bolas de arroz)" },
+        { "key": "sandoicchi", "texto": "サンドイッチ",        "es": "sándwiches" },
+        { "key": "ramen",      "texto": "ラーメン",           "es": "ramen" }
+      ],
+      "explicacion": {
+        "correcta": "Correcta. «そこで{c_texto}を食べました»: そこで = 'allí' (lugar de la acción, partícula で) y を marca el objeto directo. El narrador comió {c_es}. Correcta.",
+        "incorrecta": "{o_texto} ({o_es}) no es lo que comió. Lo que se come va con la partícula «を» antes de 食べました. Repasá los nombres de comida para no confundirlos al oírlos."
+      }
+    }
+  ],
+  "variantes": [
+    {
+      "id": "v01",
+      "archivo": "audio/U5A-H03-v01.mp3",
+      "texto": "日曜日、友達と山へ行きました。ルームメイトは来ませんでした。うちにいました。そこでお弁当を食べました。とてもおいしかったです。それから、古いお寺を見に行きました。とてもおもしろかったです。近くにデパートがありました。でも、デパートへは行きませんでした。とても楽しい一日でした。また行きたいです。",
+      "traduccion": "El domingo fui a la montaña con un amigo. Mi compañero de cuarto no vino: se quedó en casa. Allí comí un bentō. Estaba muy rico. Después fuimos a ver un templo budista antiguo. Fue muy interesante. Cerca había unos grandes almacenes, pero no fuimos. Fue un día muy divertido. Quiero volver a ir.",
+      "respuestas": { "lugar": "yama", "persona": "tomodachi", "visita": "otera", "dia": "nichiyoubi", "comida": "obentou" }
+    },
+    {
+      "id": "v02",
+      "archivo": "audio/U5A-H03-v02.mp3",
+      "texto": "土曜日、家族と山へ行きました。ルームメイトは来ませんでした。うちにいました。そこでサンドイッチを食べました。とてもおいしかったです。それから、有名なお城を見に行きました。とてもおもしろかったです。近くにデパートがありました。でも、デパートへは行きませんでした。とても楽しい一日でした。また行きたいです。",
+      "traduccion": "El sábado fui a la montaña con mi familia. Mi compañero de cuarto no vino: se quedó en casa. Allí comí sándwiches. Estaban muy ricos. Después fuimos a ver un castillo famoso. Fue muy interesante. Cerca había unos grandes almacenes, pero no fuimos. Fue un día muy divertido. Quiero volver a ir.",
+      "respuestas": { "lugar": "yama", "persona": "kazoku", "visita": "oshiro", "dia": "doyoubi", "comida": "sandoicchi" }
+    },
+    {
+      "id": "v03",
+      "archivo": "audio/U5A-H03-v03.mp3",
+      "texto": "金曜日、家族と海へ行きました。ルームメイトは来ませんでした。うちにいました。そこでサンドイッチを食べました。とてもおいしかったです。それから、大きい美術館を見に行きました。とてもおもしろかったです。近くにデパートがありました。でも、デパートへは行きませんでした。とても楽しい一日でした。また行きたいです。",
+      "traduccion": "El viernes fui al mar con mi familia. Mi compañero de cuarto no vino: se quedó en casa. Allí comí sándwiches. Estaban muy ricos. Después fuimos a ver un museo de arte grande. Fue muy interesante. Cerca había unos grandes almacenes, pero no fuimos. Fue un día muy divertido. Quiero volver a ir.",
+      "respuestas": { "lugar": "umi", "persona": "kazoku", "visita": "bijutsukan", "dia": "kinyoubi", "comida": "sandoicchi" }
+    },
+    {
+      "id": "v04",
+      "archivo": "audio/U5A-H03-v04.mp3",
+      "texto": "日曜日、恋人と海へ行きました。ルームメイトは来ませんでした。うちにいました。そこでおにぎりを食べました。とてもおいしかったです。それから、古いお寺を見に行きました。とてもおもしろかったです。近くにデパートがありました。でも、デパートへは行きませんでした。とても楽しい一日でした。また行きたいです。",
+      "traduccion": "El domingo fui al mar con mi pareja. Mi compañero de cuarto no vino: se quedó en casa. Allí comí onigiri. Estaban muy ricos. Después fuimos a ver un templo budista antiguo. Fue muy interesante. Cerca había unos grandes almacenes, pero no fuimos. Fue un día muy divertido. Quiero volver a ir.",
+      "respuestas": { "lugar": "umi", "persona": "koibito", "visita": "otera", "dia": "nichiyoubi", "comida": "onigiri" }
+    },
+    {
+      "id": "v05",
+      "archivo": "audio/U5A-H03-v05.mp3",
+      "texto": "土曜日、恋人と公園へ行きました。ルームメイトは来ませんでした。うちにいました。そこでおにぎりを食べました。とてもおいしかったです。それから、有名なお城を見に行きました。とてもおもしろかったです。近くにデパートがありました。でも、デパートへは行きませんでした。とても楽しい一日でした。また行きたいです。",
+      "traduccion": "El sábado fui al parque con mi pareja. Mi compañero de cuarto no vino: se quedó en casa. Allí comí onigiri. Estaban muy ricos. Después fuimos a ver un castillo famoso. Fue muy interesante. Cerca había unos grandes almacenes, pero no fuimos. Fue un día muy divertido. Quiero volver a ir.",
+      "respuestas": { "lugar": "kouen", "persona": "koibito", "visita": "oshiro", "dia": "doyoubi", "comida": "onigiri" }
+    },
+    {
+      "id": "v06",
+      "archivo": "audio/U5A-H03-v06.mp3",
+      "texto": "金曜日、友達と公園へ行きました。ルームメイトは来ませんでした。うちにいました。そこでお弁当を食べました。とてもおいしかったです。それから、大きい美術館を見に行きました。とてもおもしろかったです。近くにデパートがありました。でも、デパートへは行きませんでした。とても楽しい一日でした。また行きたいです。",
+      "traduccion": "El viernes fui al parque con un amigo. Mi compañero de cuarto no vino: se quedó en casa. Allí comí un bentō. Estaba muy rico. Después fuimos a ver un museo de arte grande. Fue muy interesante. Cerca había unos grandes almacenes, pero no fuimos. Fue un día muy divertido. Quiero volver a ir.",
+      "respuestas": { "lugar": "kouen", "persona": "tomodachi", "visita": "bijutsukan", "dia": "kinyoubi", "comida": "obentou" }
+    }
+  ]
+}

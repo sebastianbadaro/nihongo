@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日本語 Listening — Dekiru Nihongo</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23c0392b'/><text x='50' y='70' text-anchor='middle' font-size='56' fill='white' font-family='serif'>聴</text></svg>">
+<style>
+  :root {
+    --bg: linear-gradient(135deg, #fef6f6 0%, #f0f4ff 100%);
+    --text: #2c3e50;
+    --container-bg: #ffffff;
+    --shadow: rgba(0,0,0,0.08);
+    --header-border: #f0e4e4;
+    --muted: #7f8c8d;
+    --divider: #eee;
+    --card-bg: #fafbfc;
+    --card-border: #eee;
+    --option-bg: #ffffff;
+    --option-border: #e0e0e0;
+    --option-hover-border: #3498db;
+    --option-hover-bg: #f0f8ff;
+    --option-color: #2c3e50;
+    --stat-bg: #f8f9fa;
+    --review-border: #eee;
+    --review-divider: #f0f0f0;
+    --review-text: #555;
+    --quiz-header-bg: #f0f8ff;
+    --unit-card-bg: #ffffff;
+    --unit-card-border: #e0e0e0;
+    --unit-card-hover-bg: #fef6f6;
+    --unit-card-hover-border: #c0392b;
+    --btn-outline-hover-bg: #fef6f6;
+    --footer-color: #95a5a6;
+    --footer-link: #7f8c8d;
+    --back-btn-color: #3498db;
+    --toggle-border: #e0e0e0;
+    --nivel-accent: #4338ca;
+    --nivel-accent-bg: #eef2ff;
+    --nivel-text-color: #312e81;
+    --unidad-accent: #0284c7;
+    --unidad-accent-bg: #f0f9ff;
+    --unidad-text-color: #0c4a6e;
+    --subunidad-accent: #0d9488;
+    --subunidad-accent-bg: #f0fdfa;
+    --subunidad-text-color: #134e4a;
+    --player-bg: #f0f4ff;
+    --player-border: #c7d2fe;
+    --player-track: #e0e7ff;
+    --player-fill: #4338ca;
+  }
+
+  body.dark {
+    --bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    --text: #e2e8f0;
+    --container-bg: #1e1e2e;
+    --shadow: rgba(0,0,0,0.4);
+    --header-border: #2d2d4a;
+    --muted: #94a3b8;
+    --divider: #2d2d4a;
+    --card-bg: #252538;
+    --card-border: #3d3d5c;
+    --option-bg: #1e1e2e;
+    --option-border: #3d3d5c;
+    --option-hover-border: #5b8dd9;
+    --option-hover-bg: #1a2744;
+    --option-color: #e2e8f0;
+    --stat-bg: #252538;
+    --review-border: #3d3d5c;
+    --review-divider: #2d2d4a;
+    --review-text: #94a3b8;
+    --quiz-header-bg: #1a2744;
+    --unit-card-bg: #1e1e2e;
+    --unit-card-border: #3d3d5c;
+    --unit-card-hover-bg: #2d1e24;
+    --unit-card-hover-border: #e74c3c;
+    --btn-outline-hover-bg: #2d1e24;
+    --footer-color: #64748b;
+    --footer-link: #94a3b8;
+    --back-btn-color: #5b8dd9;
+    --toggle-border: #3d3d5c;
+    --nivel-accent: #818cf8;
+    --nivel-accent-bg: #1c1b38;
+    --nivel-text-color: #c7d2fe;
+    --unidad-accent: #38bdf8;
+    --unidad-accent-bg: #0a2a3a;
+    --unidad-text-color: #bae6fd;
+    --subunidad-accent: #2dd4bf;
+    --subunidad-accent-bg: #042f2e;
+    --subunidad-text-color: #99f6e4;
+    --player-bg: #1c1b38;
+    --player-border: #3d3d5c;
+    --player-track: #2d2d4a;
+    --player-fill: #818cf8;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 20px;
+    line-height: 1.5;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: var(--container-bg);
+    border-radius: 16px;
+    box-shadow: 0 4px 24px var(--shadow);
+    padding: 32px;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+  }
+  header {
+    text-align: center;
+    border-bottom: 2px solid var(--header-border);
+    padding-bottom: 20px;
+    margin-bottom: 24px;
+    position: relative;
+  }
+  h1 { color: #c0392b; font-size: 1.6em; margin-bottom: 6px; }
+  .subtitle { color: var(--muted); font-size: 0.95em; }
+
+  .dark-toggle {
+    position: absolute; top: 0; right: 0;
+    background: none; border: 2px solid var(--toggle-border);
+    border-radius: 20px; padding: 5px 12px; cursor: pointer;
+    font-size: 1em; font-family: inherit; color: var(--muted);
+    transition: all 0.15s ease; line-height: 1;
+  }
+  .dark-toggle:hover { border-color: var(--muted); color: var(--text); }
+
+  .hidden { display: none; }
+  .jp { font-family: "Hiragino Sans", "Yu Gothic", "Meiryo", "MS Gothic", sans-serif; }
+
+  .back-btn {
+    background: none; border: none; color: var(--back-btn-color);
+    cursor: pointer; font-size: 0.9em; font-family: inherit;
+    padding: 4px 0; margin-bottom: 14px; display: block;
+  }
+  .back-btn:hover { text-decoration: underline; }
+
+  .loader { text-align: center; padding: 40px 20px; color: var(--muted); }
+  .error-box {
+    background: #f8d7da; color: #721c24; padding: 14px;
+    border-radius: 10px; border-left: 4px solid #dc3545;
+    margin: 16px 0; text-align: left; font-size: 0.9em;
+  }
+
+  /* ── Accordion ── */
+  .nivel-list { display: flex; flex-direction: column; gap: 10px; margin: 20px 0; }
+  .nivel-item {
+    border-radius: 12px; overflow: hidden;
+    box-shadow: 0 1px 4px var(--shadow), 0 0 0 1px var(--divider);
+    transition: box-shadow 0.25s ease;
+  }
+  .nivel-item.open { box-shadow: 0 4px 16px rgba(67,56,202,0.12), 0 0 0 1.5px var(--nivel-accent); }
+  body.dark .nivel-item.open { box-shadow: 0 4px 16px rgba(129,140,248,0.18), 0 0 0 1.5px var(--nivel-accent); }
+
+  .nivel-header {
+    width: 100%; display: flex; align-items: center; gap: 12px;
+    padding: 15px 18px 15px 0;
+    background: var(--nivel-accent-bg);
+    border: none; border-left: 4px solid var(--nivel-accent);
+    cursor: pointer; font-family: inherit; transition: filter 0.15s ease; text-align: left;
+  }
+  .nivel-header:hover { filter: brightness(0.96); }
+  .nivel-arrow {
+    font-size: 0.6em; width: 32px; text-align: center; flex-shrink: 0;
+    color: var(--nivel-accent); transition: transform 0.25s ease;
+  }
+  .nivel-item.open > .nivel-header .nivel-arrow { transform: rotate(90deg); }
+  .nivel-name { font-weight: 700; font-size: 1em; color: var(--nivel-text-color); flex: 1; letter-spacing: 0.01em; }
+  .nivel-total {
+    background: var(--nivel-accent); color: #fff;
+    padding: 3px 10px; border-radius: 20px; margin-right: 14px;
+    font-size: 0.68em; font-weight: 700; white-space: nowrap;
+  }
+  .nivel-content { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.32s ease; }
+  .nivel-item.open > .nivel-content { grid-template-rows: 1fr; }
+  .nivel-inner { overflow: hidden; min-height: 0; }
+  .nivel-item.open > .nivel-content > .nivel-inner { padding: 12px; background: var(--container-bg); }
+
+  .unidad-list { display: flex; flex-direction: column; gap: 6px; }
+  .unidad-item {
+    border-radius: 10px; overflow: hidden;
+    box-shadow: 0 1px 3px var(--shadow), 0 0 0 1px var(--divider);
+    transition: box-shadow 0.25s ease;
+  }
+  .unidad-item.open { box-shadow: 0 3px 10px rgba(2,132,199,0.1), 0 0 0 1.5px var(--unidad-accent); }
+  body.dark .unidad-item.open { box-shadow: 0 3px 10px rgba(56,189,248,0.14), 0 0 0 1.5px var(--unidad-accent); }
+
+  .unidad-header {
+    width: 100%; display: flex; align-items: center; gap: 10px;
+    padding: 11px 14px 11px 0;
+    background: var(--unidad-accent-bg);
+    border: none; border-left: 3px solid var(--unidad-accent);
+    cursor: pointer; font-family: inherit; transition: filter 0.15s ease; text-align: left;
+  }
+  .unidad-header:hover { filter: brightness(0.96); }
+  .unidad-header .nivel-arrow { color: var(--unidad-accent); font-size: 0.55em; width: 28px; }
+  .unidad-item.open > .unidad-header .nivel-arrow { transform: rotate(90deg); }
+  .unidad-name { font-weight: 600; font-size: 0.88em; color: var(--unidad-text-color); }
+  .unidad-sub-text { font-size: 0.76em; color: var(--muted); margin-top: 2px; }
+  .unidad-count {
+    background: var(--unidad-accent); color: #fff;
+    padding: 2px 8px; border-radius: 20px; margin-left: auto; margin-right: 12px;
+    font-size: 0.66em; font-weight: 700; white-space: nowrap; display: none;
+  }
+  .unidad-content { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.28s ease; }
+  .unidad-item.open > .unidad-content { grid-template-rows: 1fr; }
+  .unidad-inner { overflow: hidden; min-height: 0; }
+  .unidad-item.open > .unidad-content > .unidad-inner { padding: 10px; background: var(--container-bg); }
+
+  .subunidad-list { display: flex; flex-direction: column; gap: 6px; }
+  .subunidad-item {
+    border-radius: 8px; overflow: hidden;
+    box-shadow: 0 1px 3px var(--shadow), 0 0 0 1px var(--divider);
+    transition: box-shadow 0.25s ease;
+  }
+  .subunidad-item.open { box-shadow: 0 3px 10px rgba(13,148,136,0.1), 0 0 0 1.5px var(--subunidad-accent); }
+  body.dark .subunidad-item.open { box-shadow: 0 3px 10px rgba(45,212,191,0.14), 0 0 0 1.5px var(--subunidad-accent); }
+
+  .subunidad-header {
+    width: 100%; display: flex; align-items: center; gap: 10px;
+    padding: 10px 12px 10px 0;
+    background: var(--subunidad-accent-bg);
+    border: none; border-left: 3px solid var(--subunidad-accent);
+    cursor: pointer; font-family: inherit; transition: filter 0.15s ease; text-align: left;
+  }
+  .subunidad-header:hover { filter: brightness(0.96); }
+  .subunidad-header .nivel-arrow { color: var(--subunidad-accent); font-size: 0.5em; width: 26px; }
+  .subunidad-item.open > .subunidad-header .nivel-arrow { transform: rotate(90deg); }
+  .subunidad-name { font-weight: 600; font-size: 0.84em; color: var(--subunidad-text-color); }
+  .subunidad-count {
+    background: var(--subunidad-accent); color: #fff;
+    padding: 2px 8px; border-radius: 20px; margin-left: auto; margin-right: 10px;
+    font-size: 0.65em; font-weight: 700; white-space: nowrap; display: none;
+  }
+  .subunidad-content { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.28s ease; }
+  .subunidad-item.open > .subunidad-content { grid-template-rows: 1fr; }
+  .subunidad-inner { overflow: hidden; min-height: 0; }
+  .subunidad-item.open > .subunidad-content > .subunidad-inner { padding: 10px; background: var(--container-bg); }
+
+  /* Pills visibility */
+  .nivel-item.open > .nivel-header .nivel-total { display: none; }
+  .nivel-item.open .unidad-count { display: inline-flex; align-items: center; }
+  .unidad-item.open > .unidad-header .unidad-count { display: none; }
+  .unidad-item.open .subunidad-count { display: inline-flex; align-items: center; }
+  .subunidad-item.open > .subunidad-header .subunidad-count { display: none; }
+
+  /* ── Historia cards ── */
+  .historia-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  @media (max-width: 500px) { .historia-grid { grid-template-columns: 1fr; } }
+
+  .historia-card {
+    position: relative;
+    border: 2px solid var(--unit-card-border);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    font-family: inherit;
+    overflow: hidden;
+    display: block;
+    background: var(--card-bg);
+    min-height: 130px;
+  }
+  .historia-card:hover {
+    border-color: var(--nivel-accent);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px var(--shadow);
+  }
+  .historia-img {
+    width: 100%; height: 190px;
+    object-fit: cover; object-position: center; display: block;
+    transform: scale(2);    transform-origin: center center;
+  }
+  .historia-overlay {
+    position: absolute; bottom: 0; left: 0; right: 0;
+    padding: 64px 12px 10px;
+    background: linear-gradient(to top, rgba(0,0,0,0.84) 0%, rgba(0,0,0,0.45) 55%, transparent 100%);
+  }
+  .historia-title-jp {
+    color: #fff; font-weight: 700; font-size: 0.92em;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.5); margin-bottom: 2px; line-height: 1.3;
+  }
+  .historia-title-es { color: rgba(255,255,255,0.8); font-size: 0.72em; margin-bottom: 6px; }
+  .historia-meta { display: flex; gap: 4px; }
+  .historia-badge {
+    background: rgba(255,255,255,0.22); color: #fff;
+    backdrop-filter: blur(4px);
+    padding: 2px 7px; border-radius: 10px;
+    font-size: 0.64em; font-weight: 700; border: 1px solid rgba(255,255,255,0.3);
+  }
+
+  /* ── Story screen ── */
+  .story-hero {
+    position: relative; border-radius: 12px; overflow: hidden;
+    margin-bottom: 10px; background: var(--card-bg);
+    border: 1px solid var(--card-border); min-height: 160px;
+  }
+  .story-hero-img {
+    width: 100%; height: 260px; object-fit: cover; display: block;
+    transform: scale(1.1);  
+  }
+  .story-hero-overlay {
+    position: absolute; bottom: 0; left: 0; right: 0;
+    padding: 52px 20px 18px;
+    background: linear-gradient(to top, rgba(0,0,0,0.84) 0%, rgba(0,0,0,0.45) 55%, transparent 100%);
+  }
+  .story-hero-title {
+    color: #fff; font-size: 1.45em; font-weight: 700;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.5);
+    margin-bottom: 4px; line-height: 1.2;
+  }
+  .story-hero-es { color: rgba(255,255,255,0.82); font-size: 0.9em; font-weight: 500; }
+  .story-context {
+    font-size: 0.84em; color: var(--muted);
+    margin-bottom: 18px; padding: 0 2px; line-height: 1.5;
+  }
+
+  /* ── Audio player ── */
+  #audio-player-wrap {
+    position: sticky;
+    top: 16px;
+    z-index: 10;
+  }
+  .audio-player {
+    background: var(--player-bg);
+    border: 1.5px solid var(--player-border);
+    border-radius: 12px;
+    padding: 14px 18px;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 16px var(--shadow);
+  }
+  .audio-top {
+    display: flex; align-items: center; gap: 12px; margin-bottom: 10px;
+  }
+  .play-btn {
+    width: 44px; height: 44px; border-radius: 50%;
+    background: var(--nivel-accent); color: #fff; border: none;
+    cursor: pointer; font-size: 1.1em; flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.15s ease;
+  }
+  .play-btn:hover { filter: brightness(1.15); transform: scale(1.05); }
+  .audio-info { flex: 1; min-width: 0; }
+  .audio-label { font-size: 0.78em; font-weight: 600; color: var(--nivel-text-color); margin-bottom: 2px; }
+  .audio-time { font-size: 0.82em; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .speed-select {
+    background: var(--option-bg); color: var(--text);
+    border: 1.5px solid var(--player-border); border-radius: 6px;
+    padding: 4px 8px; font-size: 0.82em; font-family: inherit; cursor: pointer;
+  }
+  .audio-track-wrap {
+    position: relative; height: 8px; border-radius: 4px;
+    background: var(--player-track); cursor: pointer; margin-bottom: 8px;
+  }
+  .audio-track-fill {
+    height: 100%; border-radius: 4px;
+    background: var(--player-fill); transition: width 0.1s linear;
+    pointer-events: none;
+  }
+  .audio-track-wrap input[type=range] {
+    position: absolute; inset: 0; width: 100%; height: 100%;
+    opacity: 0; cursor: pointer; margin: 0;
+  }
+  .audio-hint { font-size: 0.76em; color: var(--muted); text-align: center; }
+
+  /* ── Questions ── */
+  .questions-section { display: flex; flex-direction: column; gap: 16px; margin-bottom: 20px; }
+
+  .q-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 18px 20px;
+    transition: border-color 0.2s ease;
+  }
+  .q-card.answered-correct { border-color: #28a745; }
+  .q-card.answered-wrong   { border-color: #dc3545; }
+
+  .category-tag {
+    display: inline-block; background: #3498db; color: white;
+    padding: 3px 10px; border-radius: 12px; font-size: 0.72em;
+    margin-bottom: 10px; font-weight: 600; letter-spacing: 0.5px;
+  }
+  .q-text { font-size: 1.1em; margin-bottom: 14px; font-weight: 500; line-height: 1.5; }
+
+  .options { display: grid; gap: 8px; }
+  .option {
+    background: var(--option-bg); border: 2px solid var(--option-border);
+    border-radius: 10px; padding: 11px 16px; cursor: pointer;
+    font-size: 0.98em; transition: all 0.15s ease; text-align: left;
+    font-family: inherit; color: var(--option-color);
+  }
+  .option:hover:not(:disabled) {
+    border-color: var(--option-hover-border);
+    background: var(--option-hover-bg);
+    transform: translateX(2px);
+  }
+  .option.selected { border-color: var(--nivel-accent); background: var(--nivel-accent-bg); font-weight: 600; }
+  .option.correct  { background: #d4edda; border-color: #28a745; color: #155724; font-weight: 600; }
+  .option.incorrect{ background: #f8d7da; border-color: #dc3545; color: #721c24; }
+  .option:disabled { cursor: default; }
+
+  .q-feedback {
+    margin-top: 12px; padding: 12px; border-radius: 8px; font-size: 0.9em; line-height: 1.5;
+  }
+  .q-feedback.right { background: #d4edda; color: #155724; border-left: 4px solid #28a745; }
+  .q-feedback.wrong { background: #fff3cd; color: #856404; border-left: 4px solid #ffc107; }
+
+  /* ── Transcript ── */
+  .transcript-toggle {
+    width: 100%; background: none; border: 1.5px dashed var(--divider);
+    border-radius: 8px; padding: 10px 14px;
+    color: var(--muted); font-family: inherit; font-size: 0.85em;
+    cursor: pointer; transition: all 0.15s ease; text-align: left;
+    display: flex; align-items: center; gap: 8px; margin-bottom: 8px;
+  }
+  .transcript-toggle:hover { border-color: var(--muted); color: var(--text); }
+  .transcript-box {
+    background: var(--card-bg); border: 1px solid var(--card-border);
+    border-radius: 10px; padding: 16px; font-size: 0.9em;
+    line-height: 1.8; margin-bottom: 16px;
+  }
+  .transcript-jp { font-size: 1em; margin-bottom: 10px; }
+  .transcript-es { font-size: 0.9em; color: var(--muted); border-top: 1px solid var(--divider); padding-top: 10px; }
+
+  /* ── Botones ── */
+  .btn {
+    background: #c0392b; color: white; border: none;
+    padding: 12px 24px; border-radius: 10px; font-size: 1em;
+    font-family: inherit; cursor: pointer; font-weight: 600;
+    transition: all 0.15s ease; width: 100%; margin-top: 10px;
+  }
+  .btn:hover { background: #a93226; transform: translateY(-1px); }
+  .btn:disabled { opacity: 0.45; cursor: not-allowed; transform: none; }
+  .btn.secondary { background: #3498db; }
+  .btn.secondary:hover { background: #2874a6; }
+  .btn.outline {
+    background: var(--option-bg); color: #c0392b; border: 2px solid #c0392b;
+  }
+  .btn.outline:hover { background: var(--btn-outline-hover-bg); }
+  .btn.indigo { background: var(--nivel-accent); }
+  .btn.indigo:hover { filter: brightness(1.12); }
+
+  /* ── Result screen ── */
+  .result-screen { text-align: center; padding: 10px; }
+  .score-big { font-size: 3em; font-weight: 700; color: #c0392b; margin: 20px 0; }
+  .score-label { font-size: 1.1em; color: var(--muted); }
+  .result-stats {
+    display: flex; justify-content: center; gap: 24px;
+    margin: 20px 0; flex-wrap: wrap;
+  }
+  .stat { background: var(--stat-bg); padding: 14px 22px; border-radius: 10px; min-width: 90px; }
+  .stat-value { font-size: 1.8em; font-weight: 700; }
+  .stat-label { font-size: 0.85em; color: var(--muted); }
+  .right-v { color: #28a745; }
+  .wrong-v { color: #dc3545; }
+
+  .review-list {
+    text-align: left; margin-top: 24px;
+    max-height: 360px; overflow-y: auto;
+    border: 1px solid var(--review-border); border-radius: 10px; padding: 12px;
+  }
+  .review-item { padding: 10px; border-bottom: 1px solid var(--review-divider); font-size: 0.9em; }
+  .review-item:last-child { border-bottom: none; }
+  .review-q { font-weight: 600; margin-bottom: 4px; }
+  .review-a { color: var(--review-text); }
+  .review-a.correct-ans { color: #28a745; }
+  .review-a.wrong-ans   { color: #dc3545; text-decoration: line-through; }
+
+  /* ── Footer ── */
+  .site-footer {
+    max-width: 720px; margin: 20px auto 10px;
+    text-align: center; font-size: 0.82em; color: var(--footer-color); line-height: 1.4;
+  }
+  .footer-link {
+    color: var(--footer-link); text-decoration: none;
+    border-bottom: 1px dotted transparent;
+    display: inline-flex; align-items: center; gap: 5px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+  .footer-link:hover { color: #c0392b; border-bottom-color: #c0392b; }
+
+  @media (max-width: 600px) {
+    .container { padding: 20px; }
+    h1 { font-size: 1.3em; }
+    .story-hero-img { height: 210px; }
+  }
+</style>
+</head>
+<body>
+<script>
+  if (localStorage.getItem('darkMode') === '1') document.body.classList.add('dark');
+</script>
+
+<div class="container">
+  <header>
+    <h1>日本語 Listening</h1>
+    <div class="subtitle">Dekiru Nihongo — Comprensión auditiva</div>
+    <button class="dark-toggle" id="dark-btn" onclick="toggleDark()" title="Modo nocturno"></button>
+  </header>
+
+  <!-- MENÚ -->
+  <div id="screen-menu">
+    <p class="jp" style="color:var(--muted);font-size:0.9em;margin-bottom:4px;text-align:center;">レベルを選んでください</p>
+    <div id="menu-content" class="loader">Cargando historias…</div>
+  </div>
+
+  <!-- PANTALLA DE HISTORIA (preguntas) -->
+  <div id="screen-story" class="hidden">
+    <button class="back-btn" onclick="confirmBack()">← Volver al menú</button>
+    <div id="story-hero-wrap"></div>
+    <div id="audio-player-wrap"></div>
+    <div id="questions-wrap" class="questions-section"></div>
+    <button id="btn-check" class="btn indigo" disabled onclick="checkAnswers()">Comprobar respuestas</button>
+    <!-- onclick is overwritten by renderStoryScreen / checkAnswers dynamically -->
+    <div id="transcript-area" class="hidden"></div>
+  </div>
+
+  <!-- PANTALLA DE RESULTADO -->
+  <div id="screen-result" class="result-screen hidden">
+    <h2 style="color:#c0392b;">お疲れさま！</h2>
+    <div class="score-big" id="res-score">0 / 5</div>
+    <div class="score-label" id="res-msg"></div>
+    <div class="result-stats">
+      <div class="stat"><div class="stat-value right-v" id="res-right">0</div><div class="stat-label">Correctas</div></div>
+      <div class="stat"><div class="stat-value wrong-v" id="res-wrong">0</div><div class="stat-label">Incorrectas</div></div>
+      <div class="stat"><div class="stat-value" id="res-pct">0%</div><div class="stat-label">Precisión</div></div>
+    </div>
+    <div class="review-list" id="res-review"></div>
+    <button class="btn indigo" onclick="replayVariant()">もう一度 (Otra variante)</button>
+    <button class="btn outline" onclick="backToMenu()">Elegir otra historia</button>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <a href="../index.html" class="footer-link" style="margin-bottom:6px;display:inline-flex;">
+    ← Quiz de vocabulario
+  </a>
+  <br>
+  Desarrollado por
+  <a href="https://www.linkedin.com/in/sbadaro/" target="_blank" rel="noopener" class="footer-link">
+    Sebastián Badaró
+    <svg style="width:13px;height:13px;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/>
+    </svg>
+  </a>
+</footer>
+
+<script>
+// =============================================================
+// DARK MODE
+// =============================================================
+function toggleDark() {
+  const isDark = document.body.classList.toggle('dark');
+  document.getElementById('dark-btn').textContent = isDark ? '☀️' : '🌙';
+  localStorage.setItem('darkMode', isDark ? '1' : '0');
+}
+document.getElementById('dark-btn').textContent = document.body.classList.contains('dark') ? '☀️' : '🌙';
+
+// =============================================================
+// STATE
+// =============================================================
+let indexData = null;
+let currentHistoria = null;   // full data JSON for selected story
+let currentVariant  = null;   // selected variant object
+let selectedAnswers = {};     // { Q1: 'key', Q2: 'key', ... }
+let checked = false;
+let pendingResult = null;     // { score, total, reviewItems } — set after checking
+
+// =============================================================
+// SCREEN ROUTING
+// =============================================================
+function showScreen(id) {
+  ['screen-menu','screen-story','screen-result'].forEach(s => {
+    document.getElementById(s).classList.toggle('hidden', s !== id);
+  });
+}
+
+// =============================================================
+// VARIANT TRACKING (localStorage)
+// =============================================================
+function getSeenVariants(historiaId) {
+  const raw = localStorage.getItem('nihongo_listening_seen');
+  const store = raw ? JSON.parse(raw) : {};
+  return store[historiaId] || [];
+}
+
+function markVariantSeen(historiaId, variantId) {
+  const raw = localStorage.getItem('nihongo_listening_seen');
+  const store = raw ? JSON.parse(raw) : {};
+  const seen = store[historiaId] || [];
+  if (!seen.includes(variantId)) seen.push(variantId);
+  // If all variants seen, reset to start fresh
+  if (currentHistoria && seen.length >= currentHistoria.variantes.length) {
+    store[historiaId] = [];
+  } else {
+    store[historiaId] = seen;
+  }
+  localStorage.setItem('nihongo_listening_seen', JSON.stringify(store));
+}
+
+function pickVariant(historia) {
+  const seen  = getSeenVariants(historia.historia_id);
+  const unseen = historia.variantes.filter(v => !seen.includes(v.id));
+  const pool   = unseen.length > 0 ? unseen : historia.variantes;
+  return pool[Math.floor(Math.random() * pool.length)];
+}
+
+// =============================================================
+// LOAD INDEX
+// =============================================================
+async function loadIndex() {
+  try {
+    const res = await fetch('index.json');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    indexData = await res.json();
+    renderMenu();
+  } catch (err) {
+    document.getElementById('menu-content').innerHTML = `
+      <div class="error-box"><b>⚠️ No se pudo cargar index.json</b><br>${err.message}<br><br>
+      Abrí el archivo desde un servidor local:<br><code>python3 -m http.server 8000</code></div>`;
+  }
+}
+
+// =============================================================
+// MENU RENDER
+// =============================================================
+function renderMenu() {
+  const niveles = indexData.niveles || [];
+  let html = '<div class="nivel-list">';
+
+  niveles.forEach(nivel => {
+    const totalHistorias = nivel.unidades.reduce((s, u) =>
+      s + u.subunidades.reduce((ss, sub) => ss + sub.historias.length, 0), 0);
+    const nid = 'nivel-' + nivel.nivel;
+    html += `<div class="nivel-item" id="${nid}">
+      <button class="nivel-header" onclick="toggleNivel('${nivel.nivel}')">
+        <span class="nivel-arrow">▶</span>
+        <span class="nivel-name">Nivel ${nivel.nivel}</span>
+        <span class="nivel-total">${totalHistorias} historia${totalHistorias !== 1 ? 's' : ''}</span>
+      </button>
+      <div class="nivel-content"><div class="nivel-inner">
+        <div class="unidad-list">`;
+
+    nivel.unidades.forEach(unidad => {
+      const uid = 'unidad-' + unidad.id;
+      const totalSubHistorias = unidad.subunidades.reduce((s, sub) => s + sub.historias.length, 0);
+      html += `<div class="unidad-item" id="${uid}">
+        <button class="unidad-header" onclick="toggleUnidad('${nivel.nivel}','${unidad.id}')">
+          <span class="nivel-arrow">▶</span>
+          <div style="flex:1;min-width:0">
+            <div class="unidad-name">${unidad.nombre}</div>
+            <div class="unidad-sub-text">${unidad.titulo}</div>
+          </div>
+          <span class="unidad-count">${totalSubHistorias} historia${totalSubHistorias !== 1 ? 's' : ''}</span>
+        </button>
+        <div class="unidad-content"><div class="unidad-inner">
+          <div class="subunidad-list">`;
+
+      unidad.subunidades.forEach(sub => {
+        const sid = `subunidad-${unidad.id}-${sub.id}`;
+        const cnt = sub.historias.length;
+        html += `<div class="subunidad-item" id="${sid}">
+          <button class="subunidad-header" onclick="toggleSubunidad('${unidad.id}','${sub.id}')">
+            <span class="nivel-arrow">▶</span>
+            <div style="flex:1;min-width:0">
+              <div class="subunidad-name">${sub.nombre} — <span class="jp">${sub.titulo}</span></div>
+            </div>
+            <span class="subunidad-count">${cnt} historia${cnt !== 1 ? 's' : ''}</span>
+          </button>
+          <div class="subunidad-content"><div class="subunidad-inner">
+            <div class="historia-grid">`;
+
+        sub.historias.forEach(h => {
+          html += renderHistoriaCard(h);
+        });
+
+        html += `</div></div></div></div>`; // grid, subunidad-inner, subunidad-content, subunidad-item
+      });
+
+      html += `</div></div></div></div>`; // subunidad-list, unidad-inner, unidad-content, unidad-item
+    });
+
+    html += `</div></div></div></div>`; // unidad-list, nivel-inner, nivel-content, nivel-item
+  });
+
+  html += '</div>';
+  document.getElementById('menu-content').innerHTML = html;
+}
+
+function renderHistoriaCard(h) {
+  return `<button class="historia-card" onclick="selectHistoria('${h.archivo}')">
+    <img class="historia-img" src="${h.imagen}" alt="${h.titulo_es}"
+      onerror="this.onerror=null;this.style.display='none'">
+    <div class="historia-overlay">
+      <div class="historia-title-jp jp">${h.titulo}</div>
+      <div class="historia-title-es">${h.titulo_es}</div>
+      <div class="historia-meta">
+        <span class="historia-badge">${h.preguntas} preguntas</span>
+        <span class="historia-badge">${h.variantes} variantes</span>
+      </div>
+    </div>
+  </button>`;
+}
+
+// =============================================================
+// ACCORDION TOGGLES
+// =============================================================
+function toggleNivel(nivelId) {
+  document.querySelectorAll('.nivel-item').forEach(el => {
+    if (el.id !== 'nivel-' + nivelId) {
+      el.classList.remove('open');
+      el.querySelectorAll('.unidad-item').forEach(u => u.classList.remove('open'));
+    }
+  });
+  document.getElementById('nivel-' + nivelId).classList.toggle('open');
+}
+
+function toggleUnidad(nivelId, unidadId) {
+  const nivelEl = document.getElementById('nivel-' + nivelId);
+  nivelEl.querySelectorAll('.unidad-item').forEach(el => {
+    if (el.id !== 'unidad-' + unidadId) {
+      el.classList.remove('open');
+      el.querySelectorAll('.subunidad-item').forEach(s => s.classList.remove('open'));
+    }
+  });
+  document.getElementById('unidad-' + unidadId).classList.toggle('open');
+}
+
+function toggleSubunidad(unidadId, subunidadId) {
+  const unidadEl = document.getElementById('unidad-' + unidadId);
+  unidadEl.querySelectorAll('.subunidad-item').forEach(el => {
+    if (el.id !== `subunidad-${unidadId}-${subunidadId}`) el.classList.remove('open');
+  });
+  document.getElementById(`subunidad-${unidadId}-${subunidadId}`).classList.toggle('open');
+}
+
+// =============================================================
+// SELECT HISTORIA → LOAD DATA
+// =============================================================
+async function selectHistoria(archivo) {
+  try {
+    const res = await fetch(archivo);
+    if (!res.ok) throw new Error(`HTTP ${res.status} al cargar ${archivo}`);
+    currentHistoria = await res.json();
+    currentVariant  = pickVariant(currentHistoria);
+    selectedAnswers = {};
+    checked = false;
+    pendingResult = null;
+    renderStoryScreen();
+    showScreen('screen-story');
+  } catch (err) {
+    alert('Error al cargar la historia: ' + err.message);
+  }
+}
+
+// =============================================================
+// STORY SCREEN
+// =============================================================
+function renderStoryScreen() {
+  const h = currentHistoria;
+  const v = currentVariant;
+
+  // Hero
+  document.getElementById('story-hero-wrap').innerHTML = `
+    <div class="story-hero">
+      <img class="story-hero-img" src="${h.imagen}" alt="${h.titulo_es}"
+        onerror="this.onerror=null;this.style.display='none'">
+      <div class="story-hero-overlay">
+        <div class="story-hero-title jp">${h.titulo}</div>
+        <div class="story-hero-es">${h.titulo_es}</div>
+      </div>
+    </div>
+    ${h.contexto ? `<p class="story-context jp">${h.contexto}</p>` : ''}`;
+
+  // Audio player
+  renderAudioPlayer(v.archivo, h.config);
+
+  // Questions
+  renderQuestions(h.preguntas);
+
+  // Hide transcript area
+  document.getElementById('transcript-area').classList.add('hidden');
+  document.getElementById('transcript-area').innerHTML = '';
+  const btnCheck = document.getElementById('btn-check');
+  btnCheck.disabled = true;
+  btnCheck.textContent = 'Comprobar respuestas';
+  btnCheck.onclick = checkAnswers;
+  btnCheck.classList.remove('hidden');
+}
+
+// =============================================================
+// AUDIO PLAYER
+// =============================================================
+let audioEl = null;
+
+function renderAudioPlayer(src, config) {
+  const speed = (config && config.velocidad_sugerida) || 1.0;
+  const wrap = document.getElementById('audio-player-wrap');
+  wrap.innerHTML = `
+    <div class="audio-player">
+      <audio id="story-audio" src="${src}" preload="metadata"></audio>
+      <div class="audio-top">
+        <button class="play-btn" id="play-pause-btn" onclick="togglePlay()" title="Reproducir / Pausar">▶</button>
+        <div class="audio-info">
+          <div class="audio-time" id="audio-time">0:00 / 0:00</div>
+        </div>
+        <select class="speed-select" id="speed-sel" onchange="changeSpeed(this.value)" title="Velocidad">
+          <option value="0.75">0.75×</option>
+          <option value="0.9" ${speed === 0.9 ? 'selected' : ''}>0.9×</option>
+          <option value="1.0" ${speed === 1.0 ? 'selected' : ''}>1.0×</option>
+          <option value="1.25">1.25×</option>
+        </select>
+      </div>
+      <div class="audio-track-wrap" id="track-wrap">
+        <div class="audio-track-fill" id="track-fill" style="width:0%"></div>
+        <input type="range" min="0" max="100" value="0" id="track-range" oninput="seekAudio(this.value)">
+      </div>
+      <div class="audio-hint">Podés escuchar el audio cuantas veces necesites antes de responder.</div>
+    </div>`;
+
+  audioEl = document.getElementById('story-audio');
+  audioEl.playbackRate = speed;
+
+  audioEl.addEventListener('loadedmetadata', () => updateTime());
+  audioEl.addEventListener('timeupdate', () => {
+    updateTime();
+    const pct = audioEl.duration ? (audioEl.currentTime / audioEl.duration) * 100 : 0;
+    document.getElementById('track-fill').style.width = pct + '%';
+    document.getElementById('track-range').value = pct;
+  });
+  audioEl.addEventListener('ended', () => {
+    document.getElementById('play-pause-btn').textContent = '▶';
+  });
+}
+
+function togglePlay() {
+  if (!audioEl) return;
+  if (audioEl.paused) {
+    audioEl.play();
+    document.getElementById('play-pause-btn').textContent = '⏸';
+  } else {
+    audioEl.pause();
+    document.getElementById('play-pause-btn').textContent = '▶';
+  }
+}
+
+function changeSpeed(val) {
+  if (audioEl) audioEl.playbackRate = parseFloat(val);
+}
+
+function seekAudio(val) {
+  if (audioEl && audioEl.duration) {
+    audioEl.currentTime = (val / 100) * audioEl.duration;
+  }
+}
+
+function updateTime() {
+  if (!audioEl) return;
+  const cur = audioEl.currentTime || 0;
+  const dur = audioEl.duration   || 0;
+  document.getElementById('audio-time').textContent = `${fmtTime(cur)} / ${fmtTime(dur)}`;
+}
+
+function fmtTime(s) {
+  const m = Math.floor(s / 60);
+  const sec = Math.floor(s % 60).toString().padStart(2, '0');
+  return `${m}:${sec}`;
+}
+
+// =============================================================
+// QUESTIONS RENDER
+// =============================================================
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function renderQuestions(preguntas) {
+  const wrap = document.getElementById('questions-wrap');
+  wrap.innerHTML = '';
+  preguntas.forEach(q => {
+    const card = document.createElement('div');
+    card.className = 'q-card';
+    card.id = 'qcard-' + q.id;
+
+    const shuffledOpts = shuffle(q.opciones);
+    const optsHtml = shuffledOpts.map(opt =>
+      `<button class="option jp" id="opt-${q.id}-${opt.key}" onclick="selectOption('${q.id}','${opt.key}')">
+        ${opt.texto}
+        <span style="font-size:0.78em;color:var(--muted);display:block;font-family:inherit">${opt.es}</span>
+      </button>`
+    ).join('');
+
+    card.innerHTML = `
+      <div class="q-text">${q.q}</div>
+      <div class="options">${optsHtml}</div>
+      <div class="q-feedback hidden" id="qfb-${q.id}"></div>`;
+    wrap.appendChild(card);
+  });
+}
+
+function selectOption(qId, key) {
+  if (checked) return;
+
+  // Deselect previous choice for this question
+  const prev = selectedAnswers[qId];
+  if (prev) {
+    const prevBtn = document.getElementById(`opt-${qId}-${prev}`);
+    if (prevBtn) prevBtn.classList.remove('selected');
+  }
+
+  selectedAnswers[qId] = key;
+  const btn = document.getElementById(`opt-${qId}-${key}`);
+  if (btn) btn.classList.add('selected');
+
+  // Enable check button only when all questions answered
+  const total = currentHistoria.preguntas.length;
+  const answered = Object.keys(selectedAnswers).length;
+  document.getElementById('btn-check').disabled = answered < total;
+}
+
+// =============================================================
+// CHECK ANSWERS
+// =============================================================
+function checkAnswers() {
+  checked = true;
+  if (audioEl) { audioEl.pause(); document.getElementById('play-pause-btn').textContent = '▶'; }
+
+  // Disable all option buttons
+  document.querySelectorAll('.option').forEach(b => b.disabled = true);
+  document.getElementById('btn-check').classList.add('hidden');
+
+  const respuestas = currentVariant.respuestas;
+  let score = 0;
+  const reviewItems = [];
+
+  currentHistoria.preguntas.forEach(q => {
+    const chosenKey  = selectedAnswers[q.id];
+    const correctKey = respuestas[q.slot];
+    const isCorrect  = chosenKey === correctKey;
+    if (isCorrect) score++;
+
+    const correctOpt = q.opciones.find(o => o.key === correctKey);
+    const chosenOpt  = q.opciones.find(o => o.key === chosenKey);
+
+    // Mark options
+    const correctBtn = document.getElementById(`opt-${q.id}-${correctKey}`);
+    const chosenBtn  = document.getElementById(`opt-${q.id}-${chosenKey}`);
+    if (correctBtn) { correctBtn.classList.remove('selected'); correctBtn.classList.add('correct'); }
+    if (!isCorrect && chosenBtn) { chosenBtn.classList.remove('selected'); chosenBtn.classList.add('incorrect'); }
+
+    // Card border
+    const card = document.getElementById('qcard-' + q.id);
+    card.classList.add(isCorrect ? 'answered-correct' : 'answered-wrong');
+
+    // Explanation
+    const explTpl = isCorrect ? q.explicacion.correcta : q.explicacion.incorrecta;
+    const explText = resolveTemplate(explTpl, correctOpt, chosenOpt);
+    const fb = document.getElementById('qfb-' + q.id);
+    fb.className = 'q-feedback ' + (isCorrect ? 'right' : 'wrong');
+    fb.innerHTML = `<strong>${isCorrect ? '✅ 正解！' : '❌ 不正解。'}</strong> ${explText}`;
+    fb.classList.remove('hidden');
+
+    reviewItems.push({ q: q.q, chosen: chosenOpt ? chosenOpt.texto : '—', correct: correctOpt ? correctOpt.texto : '—', isCorrect });
+  });
+
+  // Mark variant as seen
+  markVariantSeen(currentHistoria.historia_id, currentVariant.id);
+
+  // Store result for when user navigates to result screen
+  pendingResult = { score, total: currentHistoria.preguntas.length, reviewItems };
+
+  // Show transcript toggle
+  showTranscriptArea();
+
+  // Replace check button with "Ver resultado" button
+  const btnCheck = document.getElementById('btn-check');
+  btnCheck.textContent = 'Ver resultado →';
+  btnCheck.disabled = false;
+  btnCheck.classList.remove('hidden');
+  btnCheck.onclick = goToResult;
+}
+
+function goToResult() {
+  if (pendingResult) {
+    showResult(pendingResult.score, pendingResult.total, pendingResult.reviewItems);
+  }
+}
+
+function resolveTemplate(tpl, correctOpt, chosenOpt) {
+  if (!tpl) return '';
+  return tpl
+    .replace(/{c_texto}/g, correctOpt ? correctOpt.texto : '')
+    .replace(/{c_es}/g,    correctOpt ? correctOpt.es    : '')
+    .replace(/{o_texto}/g, chosenOpt  ? chosenOpt.texto  : '')
+    .replace(/{o_es}/g,    chosenOpt  ? chosenOpt.es     : '');
+}
+
+// =============================================================
+// TRANSCRIPT
+// =============================================================
+function showTranscriptArea() {
+  const area = document.getElementById('transcript-area');
+  const v = currentVariant;
+  area.innerHTML = `
+    <button class="transcript-toggle" onclick="toggleTranscript(this)">
+      <span id="transcript-arrow">▶</span> Ver transcript
+    </button>
+    <div class="transcript-box hidden" id="transcript-box">
+      <div class="transcript-jp jp">${v.texto}</div>
+      <div class="transcript-es">${v.traduccion}</div>
+    </div>`;
+  area.classList.remove('hidden');
+}
+
+function toggleTranscript(btn) {
+  const box = document.getElementById('transcript-box');
+  const arrow = document.getElementById('transcript-arrow');
+  const isOpen = !box.classList.contains('hidden');
+  box.classList.toggle('hidden', isOpen);
+  arrow.textContent = isOpen ? '▶' : '▼';
+}
+
+// =============================================================
+// RESULT SCREEN
+// =============================================================
+function showResult(score, total, reviewItems) {
+  const wrong = total - score;
+  const pct = Math.round((score / total) * 100);
+
+  document.getElementById('res-score').textContent = `${score} / ${total}`;
+  document.getElementById('res-right').textContent  = score;
+  document.getElementById('res-wrong').textContent  = wrong;
+  document.getElementById('res-pct').textContent    = pct + '%';
+
+  let msg;
+  if (pct === 100) msg = '🌟 完璧！ ¡Perfecto! Entendiste todo.';
+  else if (pct >= 80) msg = '🎌 素晴らしい！ Excelente comprensión.';
+  else if (pct >= 60) msg = '👍 よくできました。 Volvé a escuchar lo que fallaste.';
+  else msg = '💪 もう少し！ Escuchá de nuevo con el transcript.';
+  document.getElementById('res-msg').textContent = msg;
+
+  const review = document.getElementById('res-review');
+  const wrong_ = reviewItems.filter(r => !r.isCorrect);
+  if (wrong_.length === 0) {
+    review.innerHTML = '<div style="text-align:center;padding:16px;color:#28a745;font-weight:600;">🎉 ¡Sin errores! Perfecto.</div>';
+  } else {
+    review.innerHTML = '<div style="font-weight:600;margin-bottom:10px;">📝 Repaso de errores:</div>' +
+      wrong_.map(r => `
+        <div class="review-item">
+          <div class="review-q">${r.q}</div>
+          <div class="review-a wrong-ans jp">Tu respuesta: ${r.chosen}</div>
+          <div class="review-a correct-ans jp">Correcta: ${r.correct}</div>
+        </div>`).join('');
+  }
+
+  showScreen('screen-result');
+}
+
+// =============================================================
+// NAVIGATION
+// =============================================================
+function replayVariant() {
+  // Pick a new variant (prioritizing unseen)
+  currentVariant = pickVariant(currentHistoria);
+  selectedAnswers = {};
+  checked = false;
+  pendingResult = null;
+  renderStoryScreen();
+  showScreen('screen-story');
+  window.scrollTo(0, 0);
+}
+
+function backToMenu() {
+  if (audioEl) { audioEl.pause(); audioEl = null; }
+  showScreen('screen-menu');
+}
+
+function confirmBack() {
+  if (!checked && Object.keys(selectedAnswers).length > 0) {
+    if (!confirm('¿Seguro que querés volver? Se perderá el progreso actual.')) return;
+  }
+  backToMenu();
+}
+
+// =============================================================
+// INIT
+// =============================================================
+loadIndex();
+</script>
+</body>
+</html>

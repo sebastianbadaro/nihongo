@@ -1,0 +1,266 @@
+{
+  "schema": "dekiru-listening/historia-v1",
+  "nivel": "N5",
+  "unidad": "U3C",
+  "unidad_titulo": "第3課 一日の生活",
+  "historia_id": "U3C-H01",
+  "titulo": "私の１週間",
+  "titulo_es": "Mi semana",
+  "imagen": "img/U3C-H01.png",
+  "imagen_alt": "Una joven estudiante de idiomas, sentada a un escritorio con un cuaderno, narra con expresion amable como es su semana. Un suave halo de pensamiento a su alrededor sugiere una rutina semanal, sin mostrar lugares, horas ni actividades concretas.",
+  "contexto": "Una estudiante de una escuela de japones cuenta como es su semana: cuando va a la escuela, que hace los fines de semana y que dia trabaja medio tiempo. Es un monologo. En un momento la narradora se equivoca al decir el dia de su trabajo y se corrige a si misma: escucha con atencion esa parte.",
+  "voz": {
+    "genero": "femenina",
+    "edad_aproximada": "joven adulto (18-25)",
+    "descripcion": "Voz femenina juvenil, clara y de ritmo pausado, tono amable y tranquilo, registro neutro-cortes (estilo desu/masu). Debe sonar como una estudiante contando su rutina con naturalidad; las auto-correcciones ('iie, ...') deben oirse como dudas espontaneas, no como lectura."
+  },
+  "config": {
+    "velocidad_sugerida": 0.9,
+    "mostrar_transcript": "despues_de_responder"
+  },
+  "plantilla": [
+    "私は日本語学校の学生です。月曜日から金曜日まで、学校へ行きます。朝、{hora_inicio}から{hora_fin}まで、学校で日本語を勉強します。週末、{lugar_finde}へ行きます。{lugar_finde}で{actividad_finde}。{dia_d}…いいえ、{dia_arubaito}、コンビニでアルバイトをします。４時から８時まで働きます。"
+  ],
+  "preguntas": [
+    {
+      "id": "Q1",
+      "slot": "hora_inicio",
+      "cat": "Listening: Detalle",
+      "q": "¿A que hora empieza la escuela?",
+      "opciones": [
+        {
+          "key": "h7",
+          "texto": "７時（しちじ）",
+          "es": "7:00"
+        },
+        {
+          "key": "h8",
+          "texto": "８時（はちじ）",
+          "es": "8:00"
+        },
+        {
+          "key": "h9",
+          "texto": "９時（くじ）",
+          "es": "9:00"
+        },
+        {
+          "key": "h10",
+          "texto": "１０時（じゅうじ）",
+          "es": "10:00"
+        }
+      ],
+      "explicacion": {
+        "correcta": "La narradora dice 「{c_texto}から…まで」. La particula から marca el punto de inicio ('desde'). La escuela empieza a las {c_es}. Correcta.",
+        "incorrecta": "{o_texto} ({o_es}) no es la hora de inicio. La hora de inicio es la que aparece antes de 「から」: {c_texto} ({c_es})."
+      }
+    },
+    {
+      "id": "Q2",
+      "slot": "hora_fin",
+      "cat": "Listening: Detalle",
+      "q": "¿Hasta que hora estudia en la escuela?",
+      "opciones": [
+        {
+          "key": "h1130",
+          "texto": "１１時半（じゅういちじはん）",
+          "es": "11:30"
+        },
+        {
+          "key": "h1230",
+          "texto": "１２時半（じゅうにじはん）",
+          "es": "12:30"
+        },
+        {
+          "key": "h1",
+          "texto": "１時（いちじ）",
+          "es": "1:00"
+        },
+        {
+          "key": "h3",
+          "texto": "３時（さんじ）",
+          "es": "3:00"
+        }
+      ],
+      "explicacion": {
+        "correcta": "La narradora dice 「{c_texto}まで」. La particula まで marca el punto final ('hasta'). Estudia hasta las {c_es}. La palabra 半（はん）significa 'y media'. Correcta.",
+        "incorrecta": "{o_texto} ({o_es}) no es la hora de fin. La hora correcta va justo antes de 「まで」: {c_texto} ({c_es})."
+      }
+    },
+    {
+      "id": "Q3",
+      "slot": "lugar_finde",
+      "cat": "Listening: Detalle",
+      "q": "¿Adonde va el fin de semana?",
+      "opciones": [
+        {
+          "key": "toshokan",
+          "texto": "図書館（としょかん）",
+          "es": "biblioteca"
+        },
+        {
+          "key": "kouen",
+          "texto": "公園（こうえん）",
+          "es": "parque"
+        },
+        {
+          "key": "depaato",
+          "texto": "デパート",
+          "es": "tienda por departamentos"
+        },
+        {
+          "key": "byouin",
+          "texto": "病院（びょういん）",
+          "es": "hospital"
+        }
+      ],
+      "explicacion": {
+        "correcta": "La narradora dice 「{c_texto}へ行きます」. La particula へ indica direccion ('hacia, a'). El fin de semana va a {c_es}. Correcta.",
+        "incorrecta": "{o_texto} ({o_es}) no es el lugar correcto. El lugar aparece antes de 「へ行きます」: {c_texto} ({c_es})."
+      }
+    },
+    {
+      "id": "Q4",
+      "slot": "actividad_finde",
+      "cat": "Listening: Detalle",
+      "q": "¿Que hace en ese lugar el fin de semana?",
+      "opciones": [
+        {
+          "key": "yomu",
+          "texto": "本（ほん）を読（よ）みます",
+          "es": "lee libros"
+        },
+        {
+          "key": "benkyou",
+          "texto": "勉強（べんきょう）します",
+          "es": "estudia"
+        },
+        {
+          "key": "kaimono",
+          "texto": "買（か）い物（もの）をします",
+          "es": "hace compras"
+        },
+        {
+          "key": "neru",
+          "texto": "寝（ね）ます",
+          "es": "duerme"
+        }
+      ],
+      "explicacion": {
+        "correcta": "La narradora dice 「{lugar}で{c_texto}」. La particula で marca el lugar donde se realiza la accion. Alli {c_es}. Correcta.",
+        "incorrecta": "{o_texto} ({o_es}) no es la actividad correcta. Lo que hace en ese lugar es {c_texto} ({c_es})."
+      }
+    },
+    {
+      "id": "Q5",
+      "slot": "dia_arubaito",
+      "cat": "Listening: Detalle",
+      "q": "¿Que dia hace su trabajo de medio tiempo (arubaito)?",
+      "opciones": [
+        {
+          "key": "sui",
+          "texto": "水曜日（すいようび）",
+          "es": "miercoles"
+        },
+        {
+          "key": "moku",
+          "texto": "木曜日（もくようび）",
+          "es": "jueves"
+        },
+        {
+          "key": "kin",
+          "texto": "金曜日（きんようび）",
+          "es": "viernes"
+        },
+        {
+          "key": "nichi",
+          "texto": "日曜日（にちようび）",
+          "es": "domingo"
+        }
+      ],
+      "explicacion": {
+        "correcta": "La narradora dice 「{c_texto}、コンビニでアルバイトをします」. Trabaja medio tiempo el {c_es}. Correcta.",
+        "incorrecta": "{o_texto} ({o_es}) no es el dia correcto. Atencion: la narradora primero dice un dia y enseguida se corrige con 「いいえ」; el dia del arubaito es el que dice DESPUES de corregirse: {c_texto} ({c_es})."
+      }
+    }
+  ],
+  "variantes": [
+    {
+      "id": "v01",
+      "archivo": "audio/U3C-H01-v01.mp3",
+      "texto": "私は日本語学校の学生です。月曜日から金曜日まで、学校へ行きます。朝、９時から１２時半まで、学校で日本語を勉強します。週末、図書館へ行きます。図書館で本を読みます。日曜日…いいえ、水曜日、コンビニでアルバイトをします。４時から８時まで働きます。",
+      "traduccion": "Soy estudiante de una escuela de japones. De lunes a viernes voy a la escuela. Por la manana, desde las 9:00 hasta las 12:30 estudio japones en la escuela. Los fines de semana voy a la biblioteca. En la biblioteca leo libros. Los domingos... no, los miercoles, hago un trabajo de medio tiempo en el konbini. Trabajo desde las 4:00 hasta las 8:00.",
+      "respuestas": {
+        "hora_inicio": "h9",
+        "hora_fin": "h1230",
+        "lugar_finde": "toshokan",
+        "actividad_finde": "yomu",
+        "dia_arubaito": "sui"
+      }
+    },
+    {
+      "id": "v02",
+      "archivo": "audio/U3C-H01-v02.mp3",
+      "texto": "私は日本語学校の学生です。月曜日から金曜日まで、学校へ行きます。朝、９時から１時まで、学校で日本語を勉強します。週末、公園へ行きます。公園で勉強します。日曜日…いいえ、木曜日、コンビニでアルバイトをします。４時から８時まで働きます。",
+      "traduccion": "Soy estudiante de una escuela de japones. De lunes a viernes voy a la escuela. Por la manana, desde las 9:00 hasta las la 1:00 estudio japones en la escuela. Los fines de semana voy al parque. En el parque estudio. Los domingos... no, los jueves, hago un trabajo de medio tiempo en el konbini. Trabajo desde las 4:00 hasta las 8:00.",
+      "respuestas": {
+        "hora_inicio": "h9",
+        "hora_fin": "h1",
+        "lugar_finde": "kouen",
+        "actividad_finde": "benkyou",
+        "dia_arubaito": "moku"
+      }
+    },
+    {
+      "id": "v03",
+      "archivo": "audio/U3C-H01-v03.mp3",
+      "texto": "私は日本語学校の学生です。月曜日から金曜日まで、学校へ行きます。朝、８時から１時まで、学校で日本語を勉強します。週末、デパートへ行きます。デパートで買い物をします。日曜日…いいえ、水曜日、コンビニでアルバイトをします。４時から８時まで働きます。",
+      "traduccion": "Soy estudiante de una escuela de japones. De lunes a viernes voy a la escuela. Por la manana, desde las 8:00 hasta las la 1:00 estudio japones en la escuela. Los fines de semana voy a la tienda por departamentos. En la tienda hago compras. Los domingos... no, los miercoles, hago un trabajo de medio tiempo en el konbini. Trabajo desde las 4:00 hasta las 8:00.",
+      "respuestas": {
+        "hora_inicio": "h8",
+        "hora_fin": "h1",
+        "lugar_finde": "depaato",
+        "actividad_finde": "kaimono",
+        "dia_arubaito": "sui"
+      }
+    },
+    {
+      "id": "v04",
+      "archivo": "audio/U3C-H01-v04.mp3",
+      "texto": "私は日本語学校の学生です。月曜日から金曜日まで、学校へ行きます。朝、８時から１１時半まで、学校で日本語を勉強します。週末、図書館へ行きます。図書館で本を読みます。日曜日…いいえ、金曜日、コンビニでアルバイトをします。４時から８時まで働きます。",
+      "traduccion": "Soy estudiante de una escuela de japones. De lunes a viernes voy a la escuela. Por la manana, desde las 8:00 hasta las 11:30 estudio japones en la escuela. Los fines de semana voy a la biblioteca. En la biblioteca leo libros. Los domingos... no, los viernes, hago un trabajo de medio tiempo en el konbini. Trabajo desde las 4:00 hasta las 8:00.",
+      "respuestas": {
+        "hora_inicio": "h8",
+        "hora_fin": "h1130",
+        "lugar_finde": "toshokan",
+        "actividad_finde": "yomu",
+        "dia_arubaito": "kin"
+      }
+    },
+    {
+      "id": "v05",
+      "archivo": "audio/U3C-H01-v05.mp3",
+      "texto": "私は日本語学校の学生です。月曜日から金曜日まで、学校へ行きます。朝、１０時から１１時半まで、学校で日本語を勉強します。週末、公園へ行きます。公園で買い物をします。日曜日…いいえ、木曜日、コンビニでアルバイトをします。４時から８時まで働きます。",
+      "traduccion": "Soy estudiante de una escuela de japones. De lunes a viernes voy a la escuela. Por la manana, desde las 10:00 hasta las 11:30 estudio japones en la escuela. Los fines de semana voy al parque. En el parque hago compras. Los domingos... no, los jueves, hago un trabajo de medio tiempo en el konbini. Trabajo desde las 4:00 hasta las 8:00.",
+      "respuestas": {
+        "hora_inicio": "h10",
+        "hora_fin": "h1130",
+        "lugar_finde": "kouen",
+        "actividad_finde": "kaimono",
+        "dia_arubaito": "moku"
+      }
+    },
+    {
+      "id": "v06",
+      "archivo": "audio/U3C-H01-v06.mp3",
+      "texto": "私は日本語学校の学生です。月曜日から金曜日まで、学校へ行きます。朝、１０時から１２時半まで、学校で日本語を勉強します。週末、デパートへ行きます。デパートで勉強します。日曜日…いいえ、金曜日、コンビニでアルバイトをします。４時から８時まで働きます。",
+      "traduccion": "Soy estudiante de una escuela de japones. De lunes a viernes voy a la escuela. Por la manana, desde las 10:00 hasta las 12:30 estudio japones en la escuela. Los fines de semana voy a la tienda por departamentos. En la tienda estudio. Los domingos... no, los viernes, hago un trabajo de medio tiempo en el konbini. Trabajo desde las 4:00 hasta las 8:00.",
+      "respuestas": {
+        "hora_inicio": "h10",
+        "hora_fin": "h1230",
+        "lugar_finde": "depaato",
+        "actividad_finde": "benkyou",
+        "dia_arubaito": "kin"
+      }
+    }
+  ]
+}

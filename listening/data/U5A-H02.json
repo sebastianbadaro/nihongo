@@ -1,0 +1,160 @@
+{
+  "schema": "dekiru-listening/historia-v1",
+  "nivel": "N5",
+  "unidad": "U5A",
+  "unidad_titulo": "週末・過去 (Fin de semana y pasado)",
+  "historia_id": "U5A-H02",
+  "titulo": "週末の話",
+  "titulo_es": "Una salida de fin de semana",
+  "imagen": "img/U5A-H02.png",
+  "imagen_alt": "Escenario comun a las 6 variantes: una persona le cuenta a su clase una salida de fin de semana junto al mar con un amigo. Con buen tiempo pasearon por la costa, se sacaron fotos juntos, comieron en un restaurante con mucha gente y volvieron a casa al final del dia; la persona quiere repetir la salida. La imagen NO debe mostrar el lugar concreto, la comida, el medio de transporte ni el momento del regreso: esos detalles cambian en cada variante.",
+  "contexto": "Una persona le cuenta a su clase una salida de fin de semana a la orilla del mar con un amigo.",
+  "voz": "masculina",
+  "config": {
+    "velocidad_sugerida": 0.9,
+    "mostrar_transcript": "despues_de_responder"
+  },
+
+  "plantilla": [
+    "皆さん、こんにちは。",
+    "{compania}と{lugar}へ行きました。",
+    "{lugar}で海を見ました。",
+    "天気がよかったですから、景色はとてもきれいでした。",
+    "私と友達は写真を撮りました。",
+    "それから、レストランで食事をしました。",
+    "レストランは人が多かったです。",
+    "友達は{comida}が好きですから、{comida}を食べました。",
+    "{comida}はおいしかったです。",
+    "{momento}、{transporte}で帰りました。",
+    "{momento}の景色もきれいでした。",
+    "また、行きたいです。"
+  ],
+
+  "preguntas": [
+    {
+      "id": "Q1",
+      "slot": "compania",
+      "cat": "Listening: Detalle",
+      "q": "¿Con quién fue de paseo?",
+      "opciones": [
+        { "key": "kuni",    "texto": "国（くに）の友達（ともだち）と",     "es": "con un amigo de su país" },
+        { "key": "daigaku", "texto": "大学（だいがく）の友達（ともだち）と", "es": "con un amigo de la universidad" },
+        { "key": "kaisha",  "texto": "会社（かいしゃ）の友達（ともだち）と", "es": "con un amigo del trabajo" },
+        { "key": "hitori",  "texto": "一人（ひとり）で",                     "es": "solo/a" }
+      ],
+      "explicacion": {
+        "correcta": "Dice {c_texto}〜へ行きました ('fui {c_es}'). La partícula と marca compañía. Correcta.",
+        "incorrecta": "El audio dijo {c_texto}, no {o_texto}."
+      }
+    },
+    {
+      "id": "Q2",
+      "slot": "lugar",
+      "cat": "Listening: Detalle",
+      "q": "¿Adónde fue?",
+      "opciones": [
+        { "key": "odaiba",   "texto": "お台場（だいば）", "es": "Odaiba" },
+        { "key": "yokohama", "texto": "横浜（よこはま）", "es": "Yokohama" },
+        { "key": "kamakura", "texto": "鎌倉（かまくら）", "es": "Kamakura" },
+        { "key": "asakusa",  "texto": "浅草（あさくさ）", "es": "Asakusa" }
+      ],
+      "explicacion": {
+        "correcta": "El destino es {c_texto}, marcado con la partícula へ: {c_texto}へ行きました. Correcta.",
+        "incorrecta": "El audio dijo el destino con {c_texto}へ, no {o_texto}へ."
+      }
+    },
+    {
+      "id": "Q3",
+      "slot": "comida",
+      "cat": "Listening: Detalle",
+      "q": "¿Qué comió su amigo en el restaurante?",
+      "opciones": [
+        { "key": "sushi",   "texto": "おすし",   "es": "sushi" },
+        { "key": "ramen",   "texto": "ラーメン", "es": "ramen" },
+        { "key": "tempura", "texto": "てんぷら", "es": "tempura" },
+        { "key": "soba",    "texto": "そば",     "es": "soba" }
+      ],
+      "explicacion": {
+        "correcta": "Dice 友達は{c_texto}が好きですから、{c_texto}を食べました. La partícula が marca lo que le gusta y から indica la causa. Correcta.",
+        "incorrecta": "El audio menciona {c_texto}, no {o_texto}."
+      }
+    },
+    {
+      "id": "Q4",
+      "slot": "transporte",
+      "cat": "Listening: Detalle",
+      "q": "¿Cómo volvió a casa?",
+      "opciones": [
+        { "key": "densha",  "texto": "電車（でんしゃ）で", "es": "en tren" },
+        { "key": "basu",    "texto": "バスで",             "es": "en autobús" },
+        { "key": "kuruma",  "texto": "車（くるま）で",     "es": "en auto" },
+        { "key": "takushi", "texto": "タクシーで",         "es": "en taxi" }
+      ],
+      "explicacion": {
+        "correcta": "Dice {c_texto}帰りました. La partícula で marca el medio de transporte ('{c_es}'). Correcta.",
+        "incorrecta": "El audio dijo {c_texto}, no {o_texto}."
+      }
+    },
+    {
+      "id": "Q5",
+      "slot": "momento",
+      "cat": "Listening: Detalle",
+      "q": "¿En qué momento del día volvió?",
+      "opciones": [
+        { "key": "hiru",    "texto": "昼（ひる）",     "es": "al mediodía" },
+        { "key": "yuugata", "texto": "夕方（ゆうがた）", "es": "al atardecer" },
+        { "key": "yoru",    "texto": "夜（よる）",     "es": "de noche" },
+        { "key": "asa",     "texto": "朝（あさ）",     "es": "a la mañana" }
+      ],
+      "explicacion": {
+        "correcta": "Dice {c_texto}、〜で帰りました ('volvió {c_es}') y {c_texto}の景色もきれいでした. Correcta.",
+        "incorrecta": "El audio dijo {c_texto}, no {o_texto}."
+      }
+    }
+  ],
+
+  "variantes": [
+    {
+      "id": "v01",
+      "archivo": "audio/U5A-H02-v01.mp3",
+      "texto": "皆さん、こんにちは。国の友達とお台場へ行きました。お台場で海を見ました。天気がよかったですから、景色はとてもきれいでした。私と友達は写真を撮りました。それから、レストランで食事をしました。レストランは人が多かったです。友達はおすしが好きですから、おすしを食べました。おすしはおいしかったです。昼、電車で帰りました。昼の景色もきれいでした。また、行きたいです。",
+      "traduccion": "Hola a todos. Fui a Odaiba con un amigo de mi país. En Odaiba vimos el mar. Como el tiempo estaba bueno, el paisaje era muy bonito. Mi amigo y yo sacamos fotos. Después comimos en un restaurante. El restaurante tenía mucha gente. Como a mi amigo le gusta el sushi, comió sushi. El sushi estaba rico. Al mediodía volvimos en tren. El paisaje del mediodía también era bonito. Quiero volver a ir.",
+      "respuestas": { "compania": "kuni", "lugar": "odaiba", "comida": "sushi", "transporte": "densha", "momento": "hiru" }
+    },
+    {
+      "id": "v02",
+      "archivo": "audio/U5A-H02-v02.mp3",
+      "texto": "皆さん、こんにちは。国の友達と横浜へ行きました。横浜で海を見ました。天気がよかったですから、景色はとてもきれいでした。私と友達は写真を撮りました。それから、レストランで食事をしました。レストランは人が多かったです。友達はてんぷらが好きですから、てんぷらを食べました。てんぷらはおいしかったです。夜、バスで帰りました。夜の景色もきれいでした。また、行きたいです。",
+      "traduccion": "Hola a todos. Fui a Yokohama con un amigo de mi país. En Yokohama vimos el mar. Como el tiempo estaba bueno, el paisaje era muy bonito. Mi amigo y yo sacamos fotos. Después comimos en un restaurante. El restaurante tenía mucha gente. Como a mi amigo le gusta la tempura, comió tempura. La tempura estaba rica. De noche volvimos en autobús. El paisaje nocturno también era bonito. Quiero volver a ir.",
+      "respuestas": { "compania": "kuni", "lugar": "yokohama", "comida": "tempura", "transporte": "basu", "momento": "yoru" }
+    },
+    {
+      "id": "v03",
+      "archivo": "audio/U5A-H02-v03.mp3",
+      "texto": "皆さん、こんにちは。大学の友達と横浜へ行きました。横浜で海を見ました。天気がよかったですから、景色はとてもきれいでした。私と友達は写真を撮りました。それから、レストランで食事をしました。レストランは人が多かったです。友達はラーメンが好きですから、ラーメンを食べました。ラーメンはおいしかったです。夜、車で帰りました。夜の景色もきれいでした。また、行きたいです。",
+      "traduccion": "Hola a todos. Fui a Yokohama con un amigo de la universidad. En Yokohama vimos el mar. Como el tiempo estaba bueno, el paisaje era muy bonito. Mi amigo y yo sacamos fotos. Después comimos en un restaurante. El restaurante tenía mucha gente. Como a mi amigo le gusta el ramen, comió ramen. El ramen estaba rico. De noche volvimos en auto. El paisaje nocturno también era bonito. Quiero volver a ir.",
+      "respuestas": { "compania": "daigaku", "lugar": "yokohama", "comida": "ramen", "transporte": "kuruma", "momento": "yoru" }
+    },
+    {
+      "id": "v04",
+      "archivo": "audio/U5A-H02-v04.mp3",
+      "texto": "皆さん、こんにちは。大学の友達と鎌倉へ行きました。鎌倉で海を見ました。天気がよかったですから、景色はとてもきれいでした。私と友達は写真を撮りました。それから、レストランで食事をしました。レストランは人が多かったです。友達はおすしが好きですから、おすしを食べました。おすしはおいしかったです。夕方、電車で帰りました。夕方の景色もきれいでした。また、行きたいです。",
+      "traduccion": "Hola a todos. Fui a Kamakura con un amigo de la universidad. En Kamakura vimos el mar. Como el tiempo estaba bueno, el paisaje era muy bonito. Mi amigo y yo sacamos fotos. Después comimos en un restaurante. El restaurante tenía mucha gente. Como a mi amigo le gusta el sushi, comió sushi. El sushi estaba rico. Al atardecer volvimos en tren. El paisaje del atardecer también era bonito. Quiero volver a ir.",
+      "respuestas": { "compania": "daigaku", "lugar": "kamakura", "comida": "sushi", "transporte": "densha", "momento": "yuugata" }
+    },
+    {
+      "id": "v05",
+      "archivo": "audio/U5A-H02-v05.mp3",
+      "texto": "皆さん、こんにちは。会社の友達と鎌倉へ行きました。鎌倉で海を見ました。天気がよかったですから、景色はとてもきれいでした。私と友達は写真を撮りました。それから、レストランで食事をしました。レストランは人が多かったです。友達はてんぷらが好きですから、てんぷらを食べました。てんぷらはおいしかったです。夕方、バスで帰りました。夕方の景色もきれいでした。また、行きたいです。",
+      "traduccion": "Hola a todos. Fui a Kamakura con un amigo del trabajo. En Kamakura vimos el mar. Como el tiempo estaba bueno, el paisaje era muy bonito. Mi amigo y yo sacamos fotos. Después comimos en un restaurante. El restaurante tenía mucha gente. Como a mi amigo le gusta la tempura, comió tempura. La tempura estaba rica. Al atardecer volvimos en autobús. El paisaje del atardecer también era bonito. Quiero volver a ir.",
+      "respuestas": { "compania": "kaisha", "lugar": "kamakura", "comida": "tempura", "transporte": "basu", "momento": "yuugata" }
+    },
+    {
+      "id": "v06",
+      "archivo": "audio/U5A-H02-v06.mp3",
+      "texto": "皆さん、こんにちは。会社の友達とお台場へ行きました。お台場で海を見ました。天気がよかったですから、景色はとてもきれいでした。私と友達は写真を撮りました。それから、レストランで食事をしました。レストランは人が多かったです。友達はラーメンが好きですから、ラーメンを食べました。ラーメンはおいしかったです。昼、車で帰りました。昼の景色もきれいでした。また、行きたいです。",
+      "traduccion": "Hola a todos. Fui a Odaiba con un amigo del trabajo. En Odaiba vimos el mar. Como el tiempo estaba bueno, el paisaje era muy bonito. Mi amigo y yo sacamos fotos. Después comimos en un restaurante. El restaurante tenía mucha gente. Como a mi amigo le gusta el ramen, comió ramen. El ramen estaba rico. Al mediodía volvimos en auto. El paisaje del mediodía también era bonito. Quiero volver a ir.",
+      "respuestas": { "compania": "kaisha", "lugar": "odaiba", "comida": "ramen", "transporte": "kuruma", "momento": "hiru" }
+    }
+  ]
+}

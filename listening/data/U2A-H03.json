@@ -1,0 +1,274 @@
+{
+  "schema": "dekiru-listening/historia-v1",
+  "nivel": "N5",
+  "unidad": "U2A",
+  "unidad_titulo": "第2課 買い物・食事",
+  "historia_id": "U2A-H03",
+  "titulo": "レストラン",
+  "titulo_es": "En el restaurante",
+  "imagen": "img/U2A-H03.png",
+  "imagen_alt": "Interior de un restaurante. Un cliente sentado a la mesa con un menu en la mano conversa con un empleado de pie junto a la mesa, que toma nota del pedido.",
+  "contexto": "Paku entra a un restaurante. Mira el menu y le hace preguntas al empleado antes de pedir su comida y su bebida. Escucha con atencion que pide y cuanto.",
+  "voz": {
+    "genero": "masculina",
+    "edad_aproximada": "joven adulto (20-30)",
+    "descripcion": "Voz masculina clara y de ritmo pausado, registro cortes y de servicio (estilo teineigo de restaurante). Debe sonar amable y profesional; sirve tanto para el empleado como para Paku, diferenciando los turnos por el contenido y no por el tono."
+  },
+  "config": {
+    "velocidad_sugerida": 0.9,
+    "mostrar_transcript": "despues_de_responder"
+  },
+  "plantilla": [
+    "店員：いらっしゃいませ。こちらへどうぞ。",
+    "パク：すみません。注文をお願いします。",
+    "店員：はい、どうぞ。メニューです。お飲み物はジュースもありますよ。",
+    "パク：これは何の{plato}ですか。{ingrediente_d}の{plato}ですか。",
+    "店員：いいえ、{ingrediente}の{plato}です。",
+    "パク：じゃ、その{plato}をください。この{bebida}はどこの{bebida}ですか。アメリカのですか。",
+    "店員：いいえ、アメリカのじゃありません。{origen}の{bebida}です。",
+    "パク：そうですか。じゃ、{plato}を{cant_plato}と{bebida}を{cant_bebida}ください。よっつじゃありません。",
+    "店員：はい、{plato}を{cant_plato}と{bebida}を{cant_bebida}ですね。少々お待ちください。"
+  ],
+  "preguntas": [
+    {
+      "id": "Q1",
+      "slot": "plato",
+      "cat": "Listening: Detalle",
+      "q": "¿Que plato pide Paku?",
+      "opciones": [
+        {
+          "key": "kare",
+          "texto": "カレー",
+          "es": "curry"
+        },
+        {
+          "key": "ramen",
+          "texto": "ラーメン",
+          "es": "ramen"
+        },
+        {
+          "key": "udon",
+          "texto": "うどん",
+          "es": "udon (fideos)"
+        },
+        {
+          "key": "tenpura",
+          "texto": "てんぷら",
+          "es": "tempura"
+        }
+      ],
+      "explicacion": {
+        "correcta": "Paku dice 「その{c_texto}をください」. La particula を marca el objeto del pedido y 〜をください significa 'deme ~, por favor'. Pide {c_es}. Correcta.",
+        "incorrecta": "{o_texto} ({o_es}) aparece en el menu o se nombra, pero no es lo que Paku pide con 「〜をください」. La respuesta correcta es {c_texto} ({c_es})."
+      }
+    },
+    {
+      "id": "Q2",
+      "slot": "ingrediente",
+      "cat": "Listening: Detalle",
+      "q": "¿De que ingrediente es el plato?",
+      "opciones": [
+        {
+          "key": "butaniku",
+          "texto": "豚肉（ぶたにく）",
+          "es": "carne de cerdo"
+        },
+        {
+          "key": "gyuuniku",
+          "texto": "牛肉（ぎゅうにく）",
+          "es": "carne de res"
+        },
+        {
+          "key": "toriniku",
+          "texto": "鶏肉（とりにく）",
+          "es": "carne de pollo"
+        },
+        {
+          "key": "yasai",
+          "texto": "野菜（やさい）",
+          "es": "verduras"
+        }
+      ],
+      "explicacion": {
+        "correcta": "El empleado responde 「{c_texto}の~です」. Aqui la particula の une dos sustantivos e indica 'de que esta hecho': el plato es de {c_es}. Correcta.",
+        "incorrecta": "{o_texto} ({o_es}) se menciona en la pregunta de Paku o como otra opcion, pero el empleado lo niega con 「いいえ」. El plato es de {c_texto} ({c_es})."
+      }
+    },
+    {
+      "id": "Q3",
+      "slot": "bebida",
+      "cat": "Listening: Detalle",
+      "q": "¿Que bebida pide Paku?",
+      "opciones": [
+        {
+          "key": "biiru",
+          "texto": "ビール",
+          "es": "cerveza"
+        },
+        {
+          "key": "ocha",
+          "texto": "お茶（おちゃ）",
+          "es": "te"
+        },
+        {
+          "key": "koohii",
+          "texto": "コーヒー",
+          "es": "cafe"
+        },
+        {
+          "key": "juusu",
+          "texto": "ジュース",
+          "es": "jugo"
+        }
+      ],
+      "explicacion": {
+        "correcta": "Paku pregunta 「この{c_texto}はどこの{c_texto}ですか」 y luego la incluye en su pedido con 「〜をください」. La bebida que pide es {c_es}. Correcta.",
+        "incorrecta": "{o_texto} ({o_es}) suena en el audio, pero no es la bebida sobre la que Paku pregunta ni la que pide. La respuesta correcta es {c_texto} ({c_es})."
+      }
+    },
+    {
+      "id": "Q4",
+      "slot": "cant_plato",
+      "cat": "Listening: Detalle",
+      "q": "¿Cuantas porciones del plato pide Paku?",
+      "opciones": [
+        {
+          "key": "hitotsu",
+          "texto": "ひとつ",
+          "es": "uno (1)"
+        },
+        {
+          "key": "futatsu",
+          "texto": "ふたつ",
+          "es": "dos (2)"
+        },
+        {
+          "key": "mittsu",
+          "texto": "みっつ",
+          "es": "tres (3)"
+        },
+        {
+          "key": "yottsu",
+          "texto": "よっつ",
+          "es": "cuatro (4)"
+        }
+      ],
+      "explicacion": {
+        "correcta": "Paku dice 「~を{c_texto}...ください」 y el empleado lo confirma. {c_texto} es el contador general japones para {c_es}. Correcta.",
+        "incorrecta": "{o_texto} ({o_es}) no es la cantidad correcta. Paku aclara 「よっつじゃありません」 y el contador que usa para el plato es {c_texto} ({c_es})."
+      }
+    },
+    {
+      "id": "Q5",
+      "slot": "cant_bebida",
+      "cat": "Listening: Detalle",
+      "q": "¿Cuantas bebidas pide Paku?",
+      "opciones": [
+        {
+          "key": "hitotsu",
+          "texto": "ひとつ",
+          "es": "uno (1)"
+        },
+        {
+          "key": "futatsu",
+          "texto": "ふたつ",
+          "es": "dos (2)"
+        },
+        {
+          "key": "mittsu",
+          "texto": "みっつ",
+          "es": "tres (3)"
+        },
+        {
+          "key": "yottsu",
+          "texto": "よっつ",
+          "es": "cuatro (4)"
+        }
+      ],
+      "explicacion": {
+        "correcta": "En el pedido 「~と~を{c_texto}ください」, el contador {c_texto} indica {c_es} para la bebida, y el empleado lo repite al confirmar. Correcta.",
+        "incorrecta": "{o_texto} ({o_es}) no es la cantidad correcta de bebidas. Escucha el contador justo despues de la bebida: la respuesta es {c_texto} ({c_es})."
+      }
+    }
+  ],
+  "variantes": [
+    {
+      "id": "v01",
+      "archivo": "audio/U2A-H03-v01.mp3",
+      "texto": "店員：いらっしゃいませ。こちらへどうぞ。\nパク：すみません。注文をお願いします。\n店員：はい、どうぞ。メニューです。お飲み物はジュースもありますよ。\nパク：これは何のカレーですか。野菜のカレーですか。\n店員：いいえ、豚肉のカレーです。\nパク：じゃ、そのカレーをください。このビールはどこのビールですか。アメリカのですか。\n店員：いいえ、アメリカのじゃありません。ドイツのビールです。\nパク：そうですか。じゃ、カレーをひとつとビールをひとつください。よっつじゃありません。\n店員：はい、カレーをひとつとビールをひとつですね。少々お待ちください。",
+      "traduccion": "Empleado: Bienvenido. Pase por aqui, por favor.\nPaku: Disculpe. Quisiera ordenar.\nEmpleado: Si, adelante. Aqui tiene el menu. Tambien tenemos jugo como bebida.\nPaku: ¿De que es este curry? ¿Es un curry de verduras?\nEmpleado: No, es curry de cerdo.\nPaku: Entonces, deme ese curry. ¿De donde es esta cerveza? ¿Es de Estados Unidos?\nEmpleado: No, no es de Estados Unidos. Es cerveza de Alemania.\nPaku: Ya veo. Entonces, deme un curry y una cerveza. No cuatro.\nEmpleado: Bien, un curry y una cerveza. Aguarde un momento, por favor.",
+      "respuestas": {
+        "plato": "kare",
+        "ingrediente": "butaniku",
+        "bebida": "biiru",
+        "cant_plato": "hitotsu",
+        "cant_bebida": "hitotsu"
+      }
+    },
+    {
+      "id": "v02",
+      "archivo": "audio/U2A-H03-v02.mp3",
+      "texto": "店員：いらっしゃいませ。こちらへどうぞ。\nパク：すみません。注文をお願いします。\n店員：はい、どうぞ。メニューです。お飲み物はジュースもありますよ。\nパク：これは何のカレーですか。野菜のカレーですか。\n店員：いいえ、牛肉のカレーです。\nパク：じゃ、そのカレーをください。このコーヒーはどこのコーヒーですか。アメリカのですか。\n店員：いいえ、アメリカのじゃありません。ブラジルのコーヒーです。\nパク：そうですか。じゃ、カレーをふたつとコーヒーをみっつください。よっつじゃありません。\n店員：はい、カレーをふたつとコーヒーをみっつですね。少々お待ちください。",
+      "traduccion": "Empleado: Bienvenido. Pase por aqui, por favor.\nPaku: Disculpe. Quisiera ordenar.\nEmpleado: Si, adelante. Aqui tiene el menu. Tambien tenemos jugo como bebida.\nPaku: ¿De que es este curry? ¿Es un curry de verduras?\nEmpleado: No, es curry de res.\nPaku: Entonces, deme ese curry. ¿De donde es este cafe? ¿Es de Estados Unidos?\nEmpleado: No, no es de Estados Unidos. Es cafe de Brasil.\nPaku: Ya veo. Entonces, deme dos curris y tres cafes. No cuatro.\nEmpleado: Bien, dos curris y tres cafes. Aguarde un momento, por favor.",
+      "respuestas": {
+        "plato": "kare",
+        "ingrediente": "gyuuniku",
+        "bebida": "koohii",
+        "cant_plato": "futatsu",
+        "cant_bebida": "mittsu"
+      }
+    },
+    {
+      "id": "v03",
+      "archivo": "audio/U2A-H03-v03.mp3",
+      "texto": "店員：いらっしゃいませ。こちらへどうぞ。\nパク：すみません。注文をお願いします。\n店員：はい、どうぞ。メニューです。お飲み物はジュースもありますよ。\nパク：これは何のラーメンですか。野菜のラーメンですか。\n店員：いいえ、牛肉のラーメンです。\nパク：じゃ、そのラーメンをください。このお茶はどこのお茶ですか。アメリカのですか。\n店員：いいえ、アメリカのじゃありません。京都のお茶です。\nパク：そうですか。じゃ、ラーメンをみっつとお茶をみっつください。よっつじゃありません。\n店員：はい、ラーメンをみっつとお茶をみっつですね。少々お待ちください。",
+      "traduccion": "Empleado: Bienvenido. Pase por aqui, por favor.\nPaku: Disculpe. Quisiera ordenar.\nEmpleado: Si, adelante. Aqui tiene el menu. Tambien tenemos jugo como bebida.\nPaku: ¿De que es este ramen? ¿Es un ramen de verduras?\nEmpleado: No, es ramen de res.\nPaku: Entonces, deme ese ramen. ¿De donde es este te? ¿Es de Estados Unidos?\nEmpleado: No, no es de Estados Unidos. Es te de Kioto.\nPaku: Ya veo. Entonces, deme tres ramen y tres tes. No cuatro.\nEmpleado: Bien, tres ramen y tres tes. Aguarde un momento, por favor.",
+      "respuestas": {
+        "plato": "ramen",
+        "ingrediente": "gyuuniku",
+        "bebida": "ocha",
+        "cant_plato": "mittsu",
+        "cant_bebida": "mittsu"
+      }
+    },
+    {
+      "id": "v04",
+      "archivo": "audio/U2A-H03-v04.mp3",
+      "texto": "店員：いらっしゃいませ。こちらへどうぞ。\nパク：すみません。注文をお願いします。\n店員：はい、どうぞ。メニューです。お飲み物はジュースもありますよ。\nパク：これは何のラーメンですか。野菜のラーメンですか。\n店員：いいえ、鶏肉のラーメンです。\nパク：じゃ、そのラーメンをください。このビールはどこのビールですか。アメリカのですか。\n店員：いいえ、アメリカのじゃありません。ドイツのビールです。\nパク：そうですか。じゃ、ラーメンをひとつとビールをふたつください。よっつじゃありません。\n店員：はい、ラーメンをひとつとビールをふたつですね。少々お待ちください。",
+      "traduccion": "Empleado: Bienvenido. Pase por aqui, por favor.\nPaku: Disculpe. Quisiera ordenar.\nEmpleado: Si, adelante. Aqui tiene el menu. Tambien tenemos jugo como bebida.\nPaku: ¿De que es este ramen? ¿Es un ramen de verduras?\nEmpleado: No, es ramen de pollo.\nPaku: Entonces, deme ese ramen. ¿De donde es esta cerveza? ¿Es de Estados Unidos?\nEmpleado: No, no es de Estados Unidos. Es cerveza de Alemania.\nPaku: Ya veo. Entonces, deme un ramen y dos cervezas. No cuatro.\nEmpleado: Bien, un ramen y dos cervezas. Aguarde un momento, por favor.",
+      "respuestas": {
+        "plato": "ramen",
+        "ingrediente": "toriniku",
+        "bebida": "biiru",
+        "cant_plato": "hitotsu",
+        "cant_bebida": "futatsu"
+      }
+    },
+    {
+      "id": "v05",
+      "archivo": "audio/U2A-H03-v05.mp3",
+      "texto": "店員：いらっしゃいませ。こちらへどうぞ。\nパク：すみません。注文をお願いします。\n店員：はい、どうぞ。メニューです。お飲み物はジュースもありますよ。\nパク：これは何のうどんですか。野菜のうどんですか。\n店員：いいえ、鶏肉のうどんです。\nパク：じゃ、そのうどんをください。このコーヒーはどこのコーヒーですか。アメリカのですか。\n店員：いいえ、アメリカのじゃありません。ブラジルのコーヒーです。\nパク：そうですか。じゃ、うどんをふたつとコーヒーをふたつください。よっつじゃありません。\n店員：はい、うどんをふたつとコーヒーをふたつですね。少々お待ちください。",
+      "traduccion": "Empleado: Bienvenido. Pase por aqui, por favor.\nPaku: Disculpe. Quisiera ordenar.\nEmpleado: Si, adelante. Aqui tiene el menu. Tambien tenemos jugo como bebida.\nPaku: ¿De que es este udon? ¿Es un udon de verduras?\nEmpleado: No, es udon de pollo.\nPaku: Entonces, deme ese udon. ¿De donde es este cafe? ¿Es de Estados Unidos?\nEmpleado: No, no es de Estados Unidos. Es cafe de Brasil.\nPaku: Ya veo. Entonces, deme dos udon y dos cafes. No cuatro.\nEmpleado: Bien, dos udon y dos cafes. Aguarde un momento, por favor.",
+      "respuestas": {
+        "plato": "udon",
+        "ingrediente": "toriniku",
+        "bebida": "koohii",
+        "cant_plato": "futatsu",
+        "cant_bebida": "futatsu"
+      }
+    },
+    {
+      "id": "v06",
+      "archivo": "audio/U2A-H03-v06.mp3",
+      "texto": "店員：いらっしゃいませ。こちらへどうぞ。\nパク：すみません。注文をお願いします。\n店員：はい、どうぞ。メニューです。お飲み物はジュースもありますよ。\nパク：これは何のうどんですか。野菜のうどんですか。\n店員：いいえ、豚肉のうどんです。\nパク：じゃ、そのうどんをください。このお茶はどこのお茶ですか。アメリカのですか。\n店員：いいえ、アメリカのじゃありません。京都のお茶です。\nパク：そうですか。じゃ、うどんをみっつとお茶をひとつください。よっつじゃありません。\n店員：はい、うどんをみっつとお茶をひとつですね。少々お待ちください。",
+      "traduccion": "Empleado: Bienvenido. Pase por aqui, por favor.\nPaku: Disculpe. Quisiera ordenar.\nEmpleado: Si, adelante. Aqui tiene el menu. Tambien tenemos jugo como bebida.\nPaku: ¿De que es este udon? ¿Es un udon de verduras?\nEmpleado: No, es udon de cerdo.\nPaku: Entonces, deme ese udon. ¿De donde es este te? ¿Es de Estados Unidos?\nEmpleado: No, no es de Estados Unidos. Es te de Kioto.\nPaku: Ya veo. Entonces, deme tres udon y un te. No cuatro.\nEmpleado: Bien, tres udon y un te. Aguarde un momento, por favor.",
+      "respuestas": {
+        "plato": "udon",
+        "ingrediente": "butaniku",
+        "bebida": "ocha",
+        "cant_plato": "mittsu",
+        "cant_bebida": "hitotsu"
+      }
+    }
+  ]
+}

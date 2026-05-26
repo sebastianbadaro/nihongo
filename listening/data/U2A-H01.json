@@ -1,0 +1,295 @@
+{
+  "schema": "dekiru-listening/historia-v1",
+  "nivel": "N5",
+  "unidad": "U2A",
+  "unidad_titulo": "デパートで（En la tienda departamental）",
+  "historia_id": "U2A-H01",
+  "titulo": "サカイ電器で",
+  "titulo_es": "En la tienda de electrónica",
+  "formato": "dialogo",
+  "imagen": "img/U2A-H01.png",
+  "imagen_alt": "Dentro de una gran tienda de electrónica de varios pisos: un cliente joven conversa con un empleado amable junto a un mostrador. Al fondo, estantes con aparatos electrónicos genéricos y un panel de directorio sin números legibles. No se muestra ningún producto, piso, país ni precio identificable.",
+  "contexto": "Park-bot va a Sakai Denki, una tienda de electrónica de varios pisos. Primero pregunta en información y después habla con un empleado sobre los precios de los aparatos. Escuchá la conversación: qué busca Park-bot, en qué piso está, de qué país es el aparato y cuánto cuesta.",
+  "voz": {
+    "formato": "dialogo (2 personajes)",
+    "personajes": [
+      {
+        "rol": "パク (cliente)",
+        "genero": "masculina",
+        "edad_aproximada": "joven adulto (20–30)",
+        "descripcion": "Estudiante extranjero. Japonés cortés (です/ます), tono amable y curioso, ritmo pausado."
+      },
+      {
+        "rol": "店員 (empleado)",
+        "genero": "femenina",
+        "edad_aproximada": "adulto (30–50)",
+        "descripcion": "Empleada de tienda. Tono servicial y claro, registro cortés de atención al cliente."
+      }
+    ]
+  },
+  "config": {
+    "velocidad_sugerida": 0.9,
+    "mostrar_transcript": "despues_de_responder"
+  },
+  "plantilla": [
+    "店員：いらっしゃいませ。",
+    "パク：すみません。{producto}は何階ですか。",
+    "店員：電子辞書ですか。",
+    "パク：いいえ、{producto}です。",
+    "店員：ああ、{producto}ですね。{producto}は{piso}です。あ、電子辞書は2階です。",
+    "パク：{piso}ですね。どうもありがとうございます。",
+    "店員：いらっしゃいませ。",
+    "パク：あのう、すみません。これは19,800円ですか。",
+    "店員：いいえ。これは{precio_a}です。",
+    "パク：ああ、{precio_a}ですか。じゃ、あの{producto}はいくらですか。",
+    "店員：あれは25,000円です。",
+    "パク：あの{producto}は25,000円ですね。じゃ、その{producto}は？",
+    "店員：その{producto}は{precio_b}です。{pais}の{producto}です。",
+    "パク：{precio_b}ですか。アメリカの{producto}ですか。",
+    "店員：いいえ、{pais}の{producto}です。",
+    "パク：ああ、{pais}のですか。じゃ、それをください。",
+    "店員：はい、ありがとうございます。"
+  ],
+  "preguntas": [
+    {
+      "id": "Q1",
+      "slot": "producto",
+      "cat": "Listening: Detalle",
+      "q": "¿Qué aparato busca Park?",
+      "opciones": [
+        {
+          "key": "keitai",
+          "texto": "携帯電話（けいたいでんわ）",
+          "es": "celular"
+        },
+        {
+          "key": "camera",
+          "texto": "カメラ",
+          "es": "cámara"
+        },
+        {
+          "key": "pasokon",
+          "texto": "パソコン",
+          "es": "computadora"
+        },
+        {
+          "key": "jisho",
+          "texto": "電子辞書（でんしじしょ）",
+          "es": "diccionario electrónico"
+        }
+      ],
+      "explicacion": {
+        "correcta": "{c_texto} = {c_es}. Park se lo pregunta al empleado con 「〜は何階ですか」. El empleado primero entiende mal («電子辞書ですか»), y Park lo corrige: 「いいえ、{c_texto}です」. Correcta.",
+        "incorrecta": "{o_texto}（{o_es}）aparece en la conversación, pero no es lo que Park busca. Escuchá la corrección de Park 「いいえ、…です」: ahí dice {c_texto}."
+      }
+    },
+    {
+      "id": "Q2",
+      "slot": "piso",
+      "cat": "Listening: Detalle",
+      "q": "¿En qué piso está el aparato que busca Park?",
+      "opciones": [
+        {
+          "key": "f4",
+          "texto": "4階（よんかい）",
+          "es": "piso 4"
+        },
+        {
+          "key": "f3",
+          "texto": "3階（さんがい）",
+          "es": "piso 3"
+        },
+        {
+          "key": "f5",
+          "texto": "5階（ごかい）",
+          "es": "piso 5"
+        },
+        {
+          "key": "f2",
+          "texto": "2階（にかい）",
+          "es": "piso 2"
+        }
+      ],
+      "explicacion": {
+        "correcta": "{c_texto}（{c_es}）. El contador 〜階 marca el piso. El empleado responde a 「何階ですか」 con 「…は{c_texto}です」. Correcta.",
+        "incorrecta": "{o_texto} no es el piso del aparato de Park. (2階 es donde está el diccionario electrónico.) El empleado dijo {c_texto}."
+      }
+    },
+    {
+      "id": "Q3",
+      "slot": "precio_a",
+      "cat": "Listening: Detalle",
+      "q": "¿Cuánto cuesta el primer aparato (これ)?",
+      "opciones": [
+        {
+          "key": "p29800",
+          "texto": "29,800円（にまんきゅうせんはっぴゃくえん）",
+          "es": "29.800 yenes"
+        },
+        {
+          "key": "p35000",
+          "texto": "35,000円（さんまんごせんえん）",
+          "es": "35.000 yenes"
+        },
+        {
+          "key": "p48000",
+          "texto": "48,000円（よんまんはっせんえん）",
+          "es": "48.000 yenes"
+        },
+        {
+          "key": "p19800",
+          "texto": "19,800円（いちまんきゅうせんはっぴゃくえん）",
+          "es": "19.800 yenes"
+        }
+      ],
+      "explicacion": {
+        "correcta": "{c_texto}. Park supone un precio («これは19,800円ですか») y el empleado lo corrige: 「いいえ。これは{c_texto}です」. Correcta.",
+        "incorrecta": "{o_texto} no es el precio de これ. (19.800円 fue solo la suposición de Park; 25.000円 es el precio de あの aparato.) El precio de これ es {c_texto}."
+      }
+    },
+    {
+      "id": "Q4",
+      "slot": "pais",
+      "cat": "Listening: Detalle",
+      "q": "¿De qué país es el aparato que Park compra?",
+      "opciones": [
+        {
+          "key": "nihon",
+          "texto": "日本（にほん）",
+          "es": "Japón"
+        },
+        {
+          "key": "doitsu",
+          "texto": "ドイツ",
+          "es": "Alemania"
+        },
+        {
+          "key": "furansu",
+          "texto": "フランス",
+          "es": "Francia"
+        },
+        {
+          "key": "amerika",
+          "texto": "アメリカ",
+          "es": "Estados Unidos"
+        }
+      ],
+      "explicacion": {
+        "correcta": "{c_texto}（{c_es}）. La estructura 「Nの N」 (ej. 「{c_texto}の携帯電話」) indica el origen. Park supone «アメリカの…» y el empleado corrige: 「いいえ、{c_texto}の…です」. Correcta.",
+        "incorrecta": "{o_texto} no es el origen del aparato. アメリカ fue la suposición de Park; el empleado responde 「いいえ、{c_texto}の…です」."
+      }
+    },
+    {
+      "id": "Q5",
+      "slot": "precio_b",
+      "cat": "Listening: Detalle",
+      "q": "¿Cuánto cuesta el aparato que Park compra (それ)?",
+      "opciones": [
+        {
+          "key": "p12000",
+          "texto": "12,000円（いちまんにせんえん）",
+          "es": "12.000 yenes"
+        },
+        {
+          "key": "p9800",
+          "texto": "9,800円（きゅうせんはっぴゃくえん）",
+          "es": "9.800 yenes"
+        },
+        {
+          "key": "p15000",
+          "texto": "15,000円（いちまんごせんえん）",
+          "es": "15.000 yenes"
+        },
+        {
+          "key": "p25000",
+          "texto": "25,000円（にまんごせんえん）",
+          "es": "25.000 yenes"
+        }
+      ],
+      "explicacion": {
+        "correcta": "{c_texto}. Es el precio de その aparato; Park lo compra al final con 「それをください」. Correcta.",
+        "incorrecta": "{o_texto} no es el precio del aparato que Park compra. (25.000円 es el precio de あの aparato, no el de それ.) El correcto es {c_texto}."
+      }
+    }
+  ],
+  "variantes": [
+    {
+      "id": "v01",
+      "archivo": "audio/U2A-H01-v01.mp3",
+      "texto": "店員：いらっしゃいませ。\nパク：すみません。携帯電話は何階ですか。\n店員：電子辞書ですか。\nパク：いいえ、携帯電話です。\n店員：ああ、携帯電話ですね。携帯電話は4階です。あ、電子辞書は2階です。\nパク：4階ですね。どうもありがとうございます。\n店員：いらっしゃいませ。\nパク：あのう、すみません。これは19,800円ですか。\n店員：いいえ。これは29,800円です。\nパク：ああ、29,800円ですか。じゃ、あの携帯電話はいくらですか。\n店員：あれは25,000円です。\nパク：あの携帯電話は25,000円ですね。じゃ、その携帯電話は？\n店員：その携帯電話は12,000円です。日本の携帯電話です。\nパク：12,000円ですか。アメリカの携帯電話ですか。\n店員：いいえ、日本の携帯電話です。\nパク：ああ、日本のですか。じゃ、それをください。\n店員：はい、ありがとうございます。",
+      "traduccion": "Empleado: Bienvenido.\nPark: Disculpe, ¿en qué piso están los celulares?\nEmpleado: ¿El diccionario electrónico?\nPark: No, los celulares.\nEmpleado: Ah, los celulares. Los celulares están en el piso 4. Ah, el diccionario electrónico está en el piso 2.\nPark: El piso 4, entendido. Muchas gracias.\nEmpleado: Bienvenido.\nPark: Esto… disculpe, ¿esto cuesta 19.800 yenes?\nEmpleado: No. Esto cuesta 29.800 yenes.\nPark: Ah, 29.800 yenes. Entonces, ¿cuánto cuesta aquel celular?\nEmpleado: Aquella cuesta 25.000 yenes.\nPark: Aquel celular cuesta 25.000 yenes, entendido. ¿Y ese celular?\nEmpleado: Ese celular cuesta 12.000 yenes. Es un celular de Japón.\nPark: ¿12.000 yenes? ¿Es un celular de Estados Unidos?\nEmpleado: No, es un celular de Japón.\nPark: Ah, de Japón. Entonces, deme ese, por favor.\nEmpleado: Sí, muchas gracias.",
+      "respuestas": {
+        "producto": "keitai",
+        "piso": "f4",
+        "precio_a": "p29800",
+        "pais": "nihon",
+        "precio_b": "p12000"
+      }
+    },
+    {
+      "id": "v02",
+      "archivo": "audio/U2A-H01-v02.mp3",
+      "texto": "店員：いらっしゃいませ。\nパク：すみません。携帯電話は何階ですか。\n店員：電子辞書ですか。\nパク：いいえ、携帯電話です。\n店員：ああ、携帯電話ですね。携帯電話は3階です。あ、電子辞書は2階です。\nパク：3階ですね。どうもありがとうございます。\n店員：いらっしゃいませ。\nパク：あのう、すみません。これは19,800円ですか。\n店員：いいえ。これは48,000円です。\nパク：ああ、48,000円ですか。じゃ、あの携帯電話はいくらですか。\n店員：あれは25,000円です。\nパク：あの携帯電話は25,000円ですね。じゃ、その携帯電話は？\n店員：その携帯電話は15,000円です。ドイツの携帯電話です。\nパク：15,000円ですか。アメリカの携帯電話ですか。\n店員：いいえ、ドイツの携帯電話です。\nパク：ああ、ドイツのですか。じゃ、それをください。\n店員：はい、ありがとうございます。",
+      "traduccion": "Empleado: Bienvenido.\nPark: Disculpe, ¿en qué piso están los celulares?\nEmpleado: ¿El diccionario electrónico?\nPark: No, los celulares.\nEmpleado: Ah, los celulares. Los celulares están en el piso 3. Ah, el diccionario electrónico está en el piso 2.\nPark: El piso 3, entendido. Muchas gracias.\nEmpleado: Bienvenido.\nPark: Esto… disculpe, ¿esto cuesta 19.800 yenes?\nEmpleado: No. Esto cuesta 48.000 yenes.\nPark: Ah, 48.000 yenes. Entonces, ¿cuánto cuesta aquel celular?\nEmpleado: Aquella cuesta 25.000 yenes.\nPark: Aquel celular cuesta 25.000 yenes, entendido. ¿Y ese celular?\nEmpleado: Ese celular cuesta 15.000 yenes. Es un celular de Alemania.\nPark: ¿15.000 yenes? ¿Es un celular de Estados Unidos?\nEmpleado: No, es un celular de Alemania.\nPark: Ah, de Alemania. Entonces, deme ese, por favor.\nEmpleado: Sí, muchas gracias.",
+      "respuestas": {
+        "producto": "keitai",
+        "piso": "f3",
+        "precio_a": "p48000",
+        "pais": "doitsu",
+        "precio_b": "p15000"
+      }
+    },
+    {
+      "id": "v03",
+      "archivo": "audio/U2A-H01-v03.mp3",
+      "texto": "店員：いらっしゃいませ。\nパク：すみません。カメラは何階ですか。\n店員：電子辞書ですか。\nパク：いいえ、カメラです。\n店員：ああ、カメラですね。カメラは3階です。あ、電子辞書は2階です。\nパク：3階ですね。どうもありがとうございます。\n店員：いらっしゃいませ。\nパク：あのう、すみません。これは19,800円ですか。\n店員：いいえ。これは35,000円です。\nパク：ああ、35,000円ですか。じゃ、あのカメラはいくらですか。\n店員：あれは25,000円です。\nパク：あのカメラは25,000円ですね。じゃ、そのカメラは？\n店員：そのカメラは15,000円です。フランスのカメラです。\nパク：15,000円ですか。アメリカのカメラですか。\n店員：いいえ、フランスのカメラです。\nパク：ああ、フランスのですか。じゃ、それをください。\n店員：はい、ありがとうございます。",
+      "traduccion": "Empleado: Bienvenido.\nPark: Disculpe, ¿en qué piso están las cámaras?\nEmpleado: ¿El diccionario electrónico?\nPark: No, las cámaras.\nEmpleado: Ah, las cámaras. Las cámaras están en el piso 3. Ah, el diccionario electrónico está en el piso 2.\nPark: El piso 3, entendido. Muchas gracias.\nEmpleado: Bienvenido.\nPark: Esto… disculpe, ¿esto cuesta 19.800 yenes?\nEmpleado: No. Esto cuesta 35.000 yenes.\nPark: Ah, 35.000 yenes. Entonces, ¿cuánto cuesta aquella cámara?\nEmpleado: Aquella cuesta 25.000 yenes.\nPark: Aquella cámara cuesta 25.000 yenes, entendido. ¿Y esa cámara?\nEmpleado: Esa cámara cuesta 15.000 yenes. Es una cámara de Francia.\nPark: ¿15.000 yenes? ¿Es una cámara de Estados Unidos?\nEmpleado: No, es una cámara de Francia.\nPark: Ah, de Francia. Entonces, deme ese, por favor.\nEmpleado: Sí, muchas gracias.",
+      "respuestas": {
+        "producto": "camera",
+        "piso": "f3",
+        "precio_a": "p35000",
+        "pais": "furansu",
+        "precio_b": "p15000"
+      }
+    },
+    {
+      "id": "v04",
+      "archivo": "audio/U2A-H01-v04.mp3",
+      "texto": "店員：いらっしゃいませ。\nパク：すみません。カメラは何階ですか。\n店員：電子辞書ですか。\nパク：いいえ、カメラです。\n店員：ああ、カメラですね。カメラは5階です。あ、電子辞書は2階です。\nパク：5階ですね。どうもありがとうございます。\n店員：いらっしゃいませ。\nパク：あのう、すみません。これは19,800円ですか。\n店員：いいえ。これは29,800円です。\nパク：ああ、29,800円ですか。じゃ、あのカメラはいくらですか。\n店員：あれは25,000円です。\nパク：あのカメラは25,000円ですね。じゃ、そのカメラは？\n店員：そのカメラは9,800円です。日本のカメラです。\nパク：9,800円ですか。アメリカのカメラですか。\n店員：いいえ、日本のカメラです。\nパク：ああ、日本のですか。じゃ、それをください。\n店員：はい、ありがとうございます。",
+      "traduccion": "Empleado: Bienvenido.\nPark: Disculpe, ¿en qué piso están las cámaras?\nEmpleado: ¿El diccionario electrónico?\nPark: No, las cámaras.\nEmpleado: Ah, las cámaras. Las cámaras están en el piso 5. Ah, el diccionario electrónico está en el piso 2.\nPark: El piso 5, entendido. Muchas gracias.\nEmpleado: Bienvenido.\nPark: Esto… disculpe, ¿esto cuesta 19.800 yenes?\nEmpleado: No. Esto cuesta 29.800 yenes.\nPark: Ah, 29.800 yenes. Entonces, ¿cuánto cuesta aquella cámara?\nEmpleado: Aquella cuesta 25.000 yenes.\nPark: Aquella cámara cuesta 25.000 yenes, entendido. ¿Y esa cámara?\nEmpleado: Esa cámara cuesta 9.800 yenes. Es una cámara de Japón.\nPark: ¿9.800 yenes? ¿Es una cámara de Estados Unidos?\nEmpleado: No, es una cámara de Japón.\nPark: Ah, de Japón. Entonces, deme ese, por favor.\nEmpleado: Sí, muchas gracias.",
+      "respuestas": {
+        "producto": "camera",
+        "piso": "f5",
+        "precio_a": "p29800",
+        "pais": "nihon",
+        "precio_b": "p9800"
+      }
+    },
+    {
+      "id": "v05",
+      "archivo": "audio/U2A-H01-v05.mp3",
+      "texto": "店員：いらっしゃいませ。\nパク：すみません。パソコンは何階ですか。\n店員：電子辞書ですか。\nパク：いいえ、パソコンです。\n店員：ああ、パソコンですね。パソコンは5階です。あ、電子辞書は2階です。\nパク：5階ですね。どうもありがとうございます。\n店員：いらっしゃいませ。\nパク：あのう、すみません。これは19,800円ですか。\n店員：いいえ。これは48,000円です。\nパク：ああ、48,000円ですか。じゃ、あのパソコンはいくらですか。\n店員：あれは25,000円です。\nパク：あのパソコンは25,000円ですね。じゃ、そのパソコンは？\n店員：そのパソコンは9,800円です。ドイツのパソコンです。\nパク：9,800円ですか。アメリカのパソコンですか。\n店員：いいえ、ドイツのパソコンです。\nパク：ああ、ドイツのですか。じゃ、それをください。\n店員：はい、ありがとうございます。",
+      "traduccion": "Empleado: Bienvenido.\nPark: Disculpe, ¿en qué piso están las computadoras?\nEmpleado: ¿El diccionario electrónico?\nPark: No, las computadoras.\nEmpleado: Ah, las computadoras. Las computadoras están en el piso 5. Ah, el diccionario electrónico está en el piso 2.\nPark: El piso 5, entendido. Muchas gracias.\nEmpleado: Bienvenido.\nPark: Esto… disculpe, ¿esto cuesta 19.800 yenes?\nEmpleado: No. Esto cuesta 48.000 yenes.\nPark: Ah, 48.000 yenes. Entonces, ¿cuánto cuesta aquella computadora?\nEmpleado: Aquella cuesta 25.000 yenes.\nPark: Aquella computadora cuesta 25.000 yenes, entendido. ¿Y esa computadora?\nEmpleado: Esa computadora cuesta 9.800 yenes. Es una computadora de Alemania.\nPark: ¿9.800 yenes? ¿Es una computadora de Estados Unidos?\nEmpleado: No, es una computadora de Alemania.\nPark: Ah, de Alemania. Entonces, deme ese, por favor.\nEmpleado: Sí, muchas gracias.",
+      "respuestas": {
+        "producto": "pasokon",
+        "piso": "f5",
+        "precio_a": "p48000",
+        "pais": "doitsu",
+        "precio_b": "p9800"
+      }
+    },
+    {
+      "id": "v06",
+      "archivo": "audio/U2A-H01-v06.mp3",
+      "texto": "店員：いらっしゃいませ。\nパク：すみません。パソコンは何階ですか。\n店員：電子辞書ですか。\nパク：いいえ、パソコンです。\n店員：ああ、パソコンですね。パソコンは4階です。あ、電子辞書は2階です。\nパク：4階ですね。どうもありがとうございます。\n店員：いらっしゃいませ。\nパク：あのう、すみません。これは19,800円ですか。\n店員：いいえ。これは35,000円です。\nパク：ああ、35,000円ですか。じゃ、あのパソコンはいくらですか。\n店員：あれは25,000円です。\nパク：あのパソコンは25,000円ですね。じゃ、そのパソコンは？\n店員：そのパソコンは12,000円です。フランスのパソコンです。\nパク：12,000円ですか。アメリカのパソコンですか。\n店員：いいえ、フランスのパソコンです。\nパク：ああ、フランスのですか。じゃ、それをください。\n店員：はい、ありがとうございます。",
+      "traduccion": "Empleado: Bienvenido.\nPark: Disculpe, ¿en qué piso están las computadoras?\nEmpleado: ¿El diccionario electrónico?\nPark: No, las computadoras.\nEmpleado: Ah, las computadoras. Las computadoras están en el piso 4. Ah, el diccionario electrónico está en el piso 2.\nPark: El piso 4, entendido. Muchas gracias.\nEmpleado: Bienvenido.\nPark: Esto… disculpe, ¿esto cuesta 19.800 yenes?\nEmpleado: No. Esto cuesta 35.000 yenes.\nPark: Ah, 35.000 yenes. Entonces, ¿cuánto cuesta aquella computadora?\nEmpleado: Aquella cuesta 25.000 yenes.\nPark: Aquella computadora cuesta 25.000 yenes, entendido. ¿Y esa computadora?\nEmpleado: Esa computadora cuesta 12.000 yenes. Es una computadora de Francia.\nPark: ¿12.000 yenes? ¿Es una computadora de Estados Unidos?\nEmpleado: No, es una computadora de Francia.\nPark: Ah, de Francia. Entonces, deme ese, por favor.\nEmpleado: Sí, muchas gracias.",
+      "respuestas": {
+        "producto": "pasokon",
+        "piso": "f4",
+        "precio_a": "p35000",
+        "pais": "furansu",
+        "precio_b": "p12000"
+      }
+    }
+  ]
+}

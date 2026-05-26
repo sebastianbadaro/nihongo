@@ -6,24 +6,25 @@ Quiz interactivo modular para estudiar japonés, basado en el material del curso
 
 ```
 .
-├── index.html          # App principal (no tocar, es genérica)
-├── manifest.json       # Lista de unidades disponibles
+├── index.html          # Quiz de vocabulario (app principal)
+├── manifest.json       # Lista de unidades del quiz de vocabulario
+├── revision.html       # Herramienta de revisión de preguntas
 ├── unidades/           # Preguntas en JSON, una por unidad
-│   ├── u1a.json
-│   ├── u1b.json
-│   ├── u1c.json
-│   ├── u2a.json
-│   ├── u2b.json
-│   ├── u2c.json
-│   ├── u3a.json
-│   ├── u3b.json
-│   ├── u3c.json
-│   ├── u4a.json
-│   ├── u4b.json
-│   ├── u4c.json
-│   ├── u5a.json
-│   ├── u5b.json
-│   └── u5c.json
+│   ├── u1a.json … u5c.json
+├── listening/          # Módulo de comprensión auditiva
+│   ├── listening.html  # App de listening
+│   ├── index.json      # Índice de niveles, unidades e historias
+│   ├── data/           # Una historia por archivo JSON
+│   │   ├── U1A-H01.json
+│   │   ├── U2A-H01.json
+│   │   ├── U2A-H03.json
+│   │   ├── U3C-H01.json
+│   │   ├── U5A-H02.json
+│   │   └── U5A-H03.json
+│   ├── audio/          # Archivos MP3, un archivo por variante
+│   │   └── {HISTORIA_ID}-v{NN}.mp3
+│   └── img/            # Imagen ilustrativa por historia (PNG)
+│       └── {HISTORIA_ID}.png
 └── README.md
 ```
 
@@ -79,6 +80,44 @@ Por ejemplo, `unidades/u5a.json`. El formato es un array de preguntas:
 
 ### 3. Pusheá a GitHub
 
+---
+
+## 🎧 Módulo de Listening
+
+### Cómo agregar una nueva historia
+
+1. **Creá el archivo de datos** en `listening/data/{ID}.json` siguiendo el schema `dekiru-listening/historia-v1`.
+2. **Agregá los audios** en `listening/audio/` con el formato `{ID}-v01.mp3` … `{ID}-v06.mp3`.
+3. **Agregá la imagen** en `listening/img/{ID}.png`.
+4. **Registrá la historia** en `listening/index.json` bajo el nivel y unidad correctos:
+
+```json
+{
+  "historia_id": "U1A-H01",
+  "titulo": "自己紹介",
+  "titulo_es": "Autopresentación",
+  "imagen": "img/U1A-H01.png",
+  "archivo": "data/U1A-H01.json",
+  "variantes": 6,
+  "preguntas": 5
+}
+```
+
+> **Nota:** la imagen debe estar en `.png` (no `.webp`). El campo `imagen` en el JSON de datos también debe coincidir.
+
+### Historias actuales
+
+| ID       | Unidad | Historia                    | Variantes | Preguntas | Audio |
+|----------|--------|-----------------------------|-----------|-----------|-------|
+| U1A-H01  | U1A    | 自己紹介 — Autopresentación  | 6         | 5         | ⏳ pendiente |
+| U2A-H01  | U2A    | サカイ電器で — En la tienda de electrónica | 6 | 5   | ✅ |
+| U2A-H03  | U2A    | レストラン — En el restaurante | 6        | 5         | ✅ |
+| U3C-H01  | U3C    | 私の１週間 — Mi semana        | 6         | 5         | ✅ |
+| U5A-H02  | U5A    | 週末の話 — Una salida de fin de semana | 6 | 5      | ✅ |
+| U5A-H03  | U5A    | 楽しい一日 — Un día divertido | 6        | 5         | ✅ |
+
+---
+
 Listo, aparece automáticamente en el selector del quiz.
 
 ## 🚀 Deploy
@@ -129,6 +168,20 @@ const QUIZ_SIZE = 30;  // Cambiar a 20, 50, etc.
 ```
 
 ## 📋 Changelog
+
+### 2026-05-26 — Nuevas historias de Listening
+- Nueva historia: U2A-H03 レストラン — En el restaurante (Unidad 2A, 6 variantes, audio ✅)
+- Nueva historia: U3C-H01 私の１週間 — Mi semana (nueva subunidad U3C, 6 variantes, audio ✅)
+- `listening/index.json`: nueva entrada Unidad 3 con subunidad U3C para alojar historias de rutina diaria
+
+### 2026-05-25 — Módulo de Listening
+- Nuevo módulo `listening/` con app independiente (`listening.html`)
+- Menú acordeón N5 → Unidad → Historia, con tarjetas de imagen y overlay degradado
+- Reproductor de audio con barra de progreso, control de velocidad y sticky scroll
+- Quiz de comprensión auditiva: 5 preguntas por historia, variantes aleatorias (6 por historia), respuesta global con explicaciones y transcript colapsable
+- Seguimiento de variantes vistas en localStorage para no repetir hasta completar el ciclo
+- 3 historias disponibles: U1A-H01 (audio pendiente), U5A-H02, U5A-H03
+- Link al listening desde el footer de `index.html`
 
 ### 2026-05-18 — Unidades 5B y 5C
 - Nueva unidad: 形容詞の過去・から — Pasado de adjetivos y conector から (60 preguntas)

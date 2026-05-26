@@ -1,0 +1,191 @@
+{
+  "schema": "dekiru-listening/historia-v1",
+  "nivel": "N5",
+  "unidad": "U1A",
+  "unidad_titulo": "はじめまして",
+  "historia_id": "U1A-H01",
+  "titulo": "自己紹介",
+  "titulo_es": "Autopresentación",
+  "imagen": "img/U1A-H01.png",
+  "imagen_alt": "A young foreign student standing confidently in front of a Japanese language classroom, bowing slightly and smiling while introducing themselves; other students seated at desks listen attentively in a warm, softly lit classroom.",
+  "contexto": "ある学生が日本語学校でクラスメートに自己紹介をしています。",
+  "voz": {
+    "genero": "masculina",
+    "edad_aproximada": "joven adulto (20–30)",
+    "descripcion": "voz joven, clara y cordial; tono levemente formal pero amigable, como quien se presenta por primera vez con buena actitud"
+  },
+  "config": {
+    "velocidad_sugerida": 0.9,
+    "mostrar_transcript": "despues_de_responder"
+  },
+  "plantilla": [
+    "はじめまして。私は{nombre}です。",
+    "{nacionalidad}です。",
+    "{escuela}の学生です。",
+    "{edad}歳です。",
+    "趣味は{hobby1}と{hobby2}です。",
+    "どうぞよろしくお願いします。"
+  ],
+  "preguntas": [
+    {
+      "id": "Q1",
+      "slot": "nacionalidad",
+      "cat": "Listening: Detalle",
+      "q": "¿De qué país es el estudiante?",
+      "opciones": [
+        { "key": "KR", "texto": "韓国人（かんこくじん）", "es": "coreano/a" },
+        { "key": "CN", "texto": "中国人（ちゅうごくじん）", "es": "chino/a" },
+        { "key": "BR", "texto": "ブラジル人（ブラジルじん）", "es": "brasileño/a" },
+        { "key": "MX", "texto": "メキシコ人（メキシコじん）", "es": "mexicano/a" }
+      ],
+      "explicacion": {
+        "correcta": "El estudiante dice '{c_texto}' ({c_es}). La estructura 〜人 (じん) se agrega al nombre del país para indicar la nacionalidad. Correcta.",
+        "incorrecta": "Elegiste '{o_texto}' ({o_es}), pero el estudiante dijo '{c_texto}' ({c_es}). Atención al nombre del país antes de じん."
+      }
+    },
+    {
+      "id": "Q2",
+      "slot": "escuela",
+      "cat": "Listening: Detalle",
+      "q": "¿En qué escuela estudia el estudiante?",
+      "opciones": [
+        { "key": "AO", "texto": "あおぞら日本語学校（あおぞらにほんごがっこう）", "es": "Escuela de Japonés Aozora" },
+        { "key": "SA", "texto": "さくら日本語学校（さくらにほんごがっこう）", "es": "Escuela de Japonés Sakura" },
+        { "key": "FU", "texto": "ふじ日本語学校（ふじにほんごがっこう）", "es": "Escuela de Japonés Fuji" },
+        { "key": "HO", "texto": "ほし日本語学校（ほしにほんごがっこう）", "es": "Escuela de Japonés Hoshi" }
+      ],
+      "explicacion": {
+        "correcta": "El estudiante dijo '{c_texto}' ({c_es}). El patrón 〜の学生です indica a qué institución pertenece. Correcta.",
+        "incorrecta": "Elegiste '{o_texto}' ({o_es}), pero el estudiante mencionó '{c_texto}' ({c_es}). Escucha con atención el nombre de la escuela antes de の学生です."
+      }
+    },
+    {
+      "id": "Q3",
+      "slot": "edad",
+      "cat": "Listening: Detalle",
+      "q": "¿Cuántos años tiene el estudiante?",
+      "opciones": [
+        { "key": "E24", "texto": "24歳（にじゅうよんさい）", "es": "24 años" },
+        { "key": "E26", "texto": "26歳（にじゅうろくさい）", "es": "26 años" },
+        { "key": "E28", "texto": "28歳（にじゅうはっさい）", "es": "28 años" },
+        { "key": "E22", "texto": "22歳（にじゅうにさい）", "es": "22 años" }
+      ],
+      "explicacion": {
+        "correcta": "El estudiante dijo '{c_texto}' ({c_es}). El patrón es número + 歳（さい）para indicar la edad. Correcta.",
+        "incorrecta": "Elegiste '{o_texto}' ({o_es}), pero el estudiante dijo '{c_texto}' ({c_es}). Los números en japonés son similares; presta atención a la cifra de las unidades."
+      }
+    },
+    {
+      "id": "Q4",
+      "slot": "hobby1",
+      "cat": "Listening: Detalle",
+      "q": "¿Cuál es el primer pasatiempo mencionado?",
+      "opciones": [
+        { "key": "RY", "texto": "旅行（りょこう）", "es": "viajes" },
+        { "key": "ON", "texto": "音楽（おんがく）", "es": "música" },
+        { "key": "RY2", "texto": "料理（りょうり）", "es": "cocina" },
+        { "key": "SU", "texto": "スポーツ", "es": "deportes" }
+      ],
+      "explicacion": {
+        "correcta": "El estudiante dijo '趣味は{c_texto}と…です' — el primer hobby es {c_es}. El patrón 趣味は〜と〜です lista dos pasatiempos. Correcta.",
+        "incorrecta": "Elegiste '{o_texto}' ({o_es}), pero el primer hobby mencionado fue '{c_texto}' ({c_es}). Escucha la palabra inmediatamente después de 趣味は."
+      }
+    },
+    {
+      "id": "Q5",
+      "slot": "hobby2",
+      "cat": "Listening: Detalle",
+      "q": "¿Cuál es el segundo pasatiempo mencionado?",
+      "opciones": [
+        { "key": "EI", "texto": "映画（えいが）", "es": "cine/películas" },
+        { "key": "MA", "texto": "漫画（まんが）", "es": "manga" },
+        { "key": "DO", "texto": "ドラマ", "es": "doramas" },
+        { "key": "SH", "texto": "写真（しゃしん）", "es": "fotografía" }
+      ],
+      "explicacion": {
+        "correcta": "El estudiante dijo '…と{c_texto}です' — el segundo hobby es {c_es}. La partícula と conecta los dos pasatiempos en la lista. Correcta.",
+        "incorrecta": "Elegiste '{o_texto}' ({o_es}), pero el segundo hobby fue '{c_texto}' ({c_es}). Escucha la palabra entre と y です al final de la oración de 趣味."
+      }
+    }
+  ],
+  "variantes": [
+    {
+      "id": "v01",
+      "archivo": "audio/U1A-H01-v01.mp3",
+      "texto": "はじめまして。私はパクです。韓国人です。あおぞら日本語学校の学生です。26歳です。趣味は旅行と映画です。どうぞよろしくお願いします。",
+      "traduccion": "Mucho gusto. Me llamo Pak. Soy coreano. Soy estudiante de la Escuela de Japonés Aozora. Tengo 26 años. Mis pasatiempos son los viajes y el cine. Encantado de conocerlos.",
+      "respuestas": {
+        "nacionalidad": "KR",
+        "escuela": "AO",
+        "edad": "E26",
+        "hobby1": "RY",
+        "hobby2": "EI"
+      }
+    },
+    {
+      "id": "v02",
+      "archivo": "audio/U1A-H01-v02.mp3",
+      "texto": "はじめまして。私はリウです。中国人です。さくら日本語学校の学生です。24歳です。趣味は音楽と映画です。どうぞよろしくお願いします。",
+      "traduccion": "Mucho gusto. Me llamo Liu. Soy chino. Soy estudiante de la Escuela de Japonés Sakura. Tengo 24 años. Mis pasatiempos son la música y el cine. Encantado de conocerlos.",
+      "respuestas": {
+        "nacionalidad": "CN",
+        "escuela": "SA",
+        "edad": "E24",
+        "hobby1": "ON",
+        "hobby2": "EI"
+      }
+    },
+    {
+      "id": "v03",
+      "archivo": "audio/U1A-H01-v03.mp3",
+      "texto": "はじめまして。私はカルロスです。ブラジル人です。ふじ日本語学校の学生です。28歳です。趣味は料理と漫画です。どうぞよろしくお願いします。",
+      "traduccion": "Mucho gusto. Me llamo Carlos. Soy brasileño. Soy estudiante de la Escuela de Japonés Fuji. Tengo 28 años. Mis pasatiempos son la cocina y el manga. Encantado de conocerlos.",
+      "respuestas": {
+        "nacionalidad": "BR",
+        "escuela": "FU",
+        "edad": "E28",
+        "hobby1": "RY2",
+        "hobby2": "MA"
+      }
+    },
+    {
+      "id": "v04",
+      "archivo": "audio/U1A-H01-v04.mp3",
+      "texto": "はじめまして。私はソフィアです。メキシコ人です。ほし日本語学校の学生です。22歳です。趣味はスポーツと漫画です。どうぞよろしくお願いします。",
+      "traduccion": "Mucho gusto. Me llamo Sofía. Soy mexicana. Soy estudiante de la Escuela de Japonés Hoshi. Tengo 22 años. Mis pasatiempos son los deportes y el manga. Encantada de conocerlos.",
+      "respuestas": {
+        "nacionalidad": "MX",
+        "escuela": "HO",
+        "edad": "E22",
+        "hobby1": "SU",
+        "hobby2": "MA"
+      }
+    },
+    {
+      "id": "v05",
+      "archivo": "audio/U1A-H01-v05.mp3",
+      "texto": "はじめまして。私はキムです。韓国人です。さくら日本語学校の学生です。24歳です。趣味は旅行とドラマです。どうぞよろしくお願いします。",
+      "traduccion": "Mucho gusto. Me llamo Kim. Soy coreano. Soy estudiante de la Escuela de Japonés Sakura. Tengo 24 años. Mis pasatiempos son los viajes y los doramas. Encantado de conocerlos.",
+      "respuestas": {
+        "nacionalidad": "KR",
+        "escuela": "SA",
+        "edad": "E24",
+        "hobby1": "RY",
+        "hobby2": "DO"
+      }
+    },
+    {
+      "id": "v06",
+      "archivo": "audio/U1A-H01-v06.mp3",
+      "texto": "はじめまして。私はアナです。ブラジル人です。あおぞら日本語学校の学生です。28歳です。趣味は音楽と写真です。どうぞよろしくお願いします。",
+      "traduccion": "Mucho gusto. Me llamo Ana. Soy brasileña. Soy estudiante de la Escuela de Japonés Aozora. Tengo 28 años. Mis pasatiempos son la música y la fotografía. Encantada de conocerlos.",
+      "respuestas": {
+        "nacionalidad": "BR",
+        "escuela": "AO",
+        "edad": "E28",
+        "hobby1": "ON",
+        "hobby2": "SH"
+      }
+    }
+  ]
+}
