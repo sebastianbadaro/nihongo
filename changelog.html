@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cambios — 日本語 Quiz</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23c0392b'/><text x='50' y='70' text-anchor='middle' font-size='56' fill='white' font-family='serif'>語</text></svg>">
+<style>
+  :root {
+    --bg: linear-gradient(135deg, #fef6f6 0%, #f0f4ff 100%);
+    --text: #2c3e50;
+    --container-bg: #ffffff;
+    --shadow: rgba(0,0,0,0.08);
+    --header-border: #f0e4e4;
+    --muted: #7f8c8d;
+    --divider: #eee;
+    --card-bg: #fafbfc;
+    --card-border: #eee;
+    --footer-color: #95a5a6;
+    --footer-link: #7f8c8d;
+  }
+  body.dark {
+    --bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    --text: #e2e8f0;
+    --container-bg: #1e1e2e;
+    --shadow: rgba(0,0,0,0.4);
+    --header-border: #2d2d4a;
+    --muted: #94a3b8;
+    --divider: #2d2d4a;
+    --card-bg: #252538;
+    --card-border: #3d3d5c;
+    --footer-color: #64748b;
+    --footer-link: #94a3b8;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    transition: background 0.3s, color 0.3s;
+  }
+
+  .container {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 16px 40px;
+  }
+
+  header {
+    text-align: center;
+    padding: 32px 16px 24px;
+    border-bottom: 1px solid var(--header-border);
+    margin-bottom: 32px;
+    position: relative;
+  }
+  header h1 {
+    font-size: 1.6em;
+    font-weight: 700;
+    color: #c0392b;
+    margin: 0 0 4px;
+  }
+  body.dark header h1 { color: #e57373; }
+  .subtitle {
+    font-size: 0.82em;
+    color: var(--muted);
+  }
+  .dark-toggle {
+    position: absolute;
+    top: 50%; right: 0;
+    transform: translateY(-50%);
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    border: 1.5px solid var(--header-border);
+    background: var(--container-bg);
+    cursor: pointer;
+    font-size: 16px;
+    display: flex; align-items: center; justify-content: center;
+    transition: border-color 0.2s;
+  }
+  .dark-toggle:hover { border-color: #c0392b; }
+
+  /* Changelog entries */
+  .cl-entry {
+    background: var(--container-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 20px 22px;
+    margin-bottom: 16px;
+    box-shadow: 0 1px 4px var(--shadow);
+  }
+
+  .cl-date {
+    font-size: 0.72em;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+
+  .cl-title {
+    font-size: 1em;
+    font-weight: 700;
+    color: #c0392b;
+    margin: 0 0 12px;
+    line-height: 1.3;
+  }
+  body.dark .cl-title { color: #e57373; }
+
+  .cl-items {
+    margin: 0;
+    padding: 0 0 0 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .cl-items li {
+    font-size: 0.88em;
+    color: var(--text);
+    line-height: 1.5;
+  }
+  .cl-items code {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 4px;
+    padding: 0 4px;
+    font-size: 0.9em;
+    font-family: "SF Mono", "Fira Code", monospace;
+  }
+
+  .site-footer {
+    text-align: center;
+    padding: 24px 16px 16px;
+    font-size: 0.8em;
+    color: var(--footer-color);
+    border-top: 1px solid var(--divider);
+    margin-top: 16px;
+  }
+  .footer-link {
+    color: var(--footer-link);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: color 0.2s, border-color 0.2s;
+  }
+  .footer-link:hover { color: #c0392b; border-bottom-color: #c0392b; }
+</style>
+</head>
+<body>
+<script>
+  if (localStorage.getItem('darkMode') === '1') document.body.classList.add('dark');
+</script>
+
+<div class="container">
+  <header>
+    <h1>📋 Historial de cambios</h1>
+    <div class="subtitle">Dekiru Nihongo — 日本語 Quiz</div>
+    <button class="dark-toggle" id="dark-btn" onclick="toggleDark()" title="Modo nocturno"></button>
+  </header>
+
+  <div class="cl-entry">
+    <div class="cl-date">2026-05-26</div>
+    <div class="cl-title">Nuevas historias de Listening</div>
+    <ul class="cl-items">
+      <li>Nueva historia: U2A-H03 レストラン — En el restaurante (Unidad 2A, 6 variantes, audio ✅)</li>
+      <li>Nueva historia: U3C-H01 私の１週間 — Mi semana (nueva subunidad U3C, 6 variantes, audio ✅)</li>
+      <li><code>listening/index.json</code>: nueva entrada Unidad 3 con subunidad U3C para historias de rutina diaria</li>
+    </ul>
+  </div>
+
+  <div class="cl-entry">
+    <div class="cl-date">2026-05-25</div>
+    <div class="cl-title">Módulo de Listening</div>
+    <ul class="cl-items">
+      <li>Nuevo módulo <code>listening/</code> con app independiente (<code>listening.html</code>)</li>
+      <li>Menú acordeón N5 → Unidad → Historia, con tarjetas de imagen y overlay degradado</li>
+      <li>Reproductor de audio con barra de progreso, control de velocidad y sticky scroll</li>
+      <li>Quiz de comprensión auditiva: 5 preguntas por historia, variantes aleatorias (6 por historia), respuesta global con explicaciones y transcript colapsable</li>
+      <li>Seguimiento de variantes vistas en localStorage para no repetir hasta completar el ciclo</li>
+      <li>3 historias disponibles: U1A-H01, U5A-H02, U5A-H03</li>
+      <li>Link al listening desde el footer de <code>index.html</code></li>
+    </ul>
+  </div>
+
+  <div class="cl-entry">
+    <div class="cl-date">2026-05-18</div>
+    <div class="cl-title">Unidades 5B y 5C</div>
+    <ul class="cl-items">
+      <li>Nueva unidad: 形容詞の過去・から — Pasado de adjetivos y conector から (60 preguntas)</li>
+      <li>Nueva unidad: 好き・ほしい・〜たい — Gustos, deseos y forma たい (60 preguntas)</li>
+      <li>Ambas agregadas al manifest bajo Nivel 2, Unidad 5</li>
+    </ul>
+  </div>
+
+  <div class="cl-entry">
+    <div class="cl-date">2026-05-07</div>
+    <div class="cl-title">Unidad 5A</div>
+    <ul class="cl-items">
+      <li>Nueva unidad: 週末・食事 — Fin de semana, comidas y conectores (126 preguntas)</li>
+      <li>Cubre lectura de kanji de tiempo y comidas, vocabulario de それから/そして/それで, gramática de conectores y partículas</li>
+      <li>Agregada al manifest bajo Nivel 2, Unidad 5</li>
+    </ul>
+  </div>
+
+  <div class="cl-entry">
+    <div class="cl-date">2026-05-04</div>
+    <div class="cl-title">Simplificación del formato de unidades</div>
+    <ul class="cl-items">
+      <li>Nuevo formato: <code>explanation</code> por opción reemplaza a <code>reason</code> + <code>explanation</code> top-level</li>
+      <li>Se eliminan los campos <code>correct</code> y <code>explanation</code> del nivel superior de cada pregunta</li>
+      <li>La justificación de la opción correcta integra la explicación general del concepto</li>
+      <li>El quiz y la revisión derivan el texto correcto desde <code>opts.find(o => o.correct).text</code></li>
+    </ul>
+  </div>
+
+  <div class="cl-entry">
+    <div class="cl-date">2026-05-03</div>
+    <div class="cl-title">Justificación de respuestas</div>
+    <ul class="cl-items">
+      <li>El formato incluía <code>explanation</code> (general) y <code>reason</code> por cada opción</li>
+      <li>Al responder se mostraba la justificación de la opción elegida y la explicación de la pregunta</li>
+      <li>La revisión mostraba <code>reason</code> debajo de cada opción y <code>explanation</code> al final de cada tarjeta</li>
+    </ul>
+  </div>
+
+  <div class="cl-entry">
+    <div class="cl-date">2026-04-29</div>
+    <div class="cl-title">Memoria de resultados entre sesiones</div>
+    <ul class="cl-items">
+      <li>Las preguntas respondidas incorrectamente reaparecen en el siguiente quiz (prioridad máxima)</li>
+      <li>Las respondidas correctamente se excluyen del siguiente quiz</li>
+      <li>Los resultados persisten en localStorage: aplica aunque se recargue la página o se vuelva otro día</li>
+      <li>El progreso de cada unidad es independiente</li>
+    </ul>
+  </div>
+
+  <div class="cl-entry">
+    <div class="cl-date">2026-04-28</div>
+    <div class="cl-title">Tags globales</div>
+    <ul class="cl-items">
+      <li>Recategorización de 260 tags específicos a 14 categorías globales</li>
+      <li>Categorías: Kanji→Lectura, Kanji→Significado, Katakana, Vocabulario, Partículas, Verbos, Adjetivos, Gramática, Contadores, Números y Tiempo, Traducción ES→JP, Traducción JP→ES, Diálogo, Distinción</li>
+      <li>Revisión y corrección manual de tags post-migración en todas las unidades</li>
+    </ul>
+  </div>
+
+  <div class="cl-entry">
+    <div class="cl-date">2026-04-26</div>
+    <div class="cl-title">UI, contenido y performance</div>
+    <ul class="cl-items">
+      <li>Rediseño UI: estética japonesa moderna (tipografía, colores, layout)</li>
+      <li>Menú acordeón por Nivel → Unidad → Sub-unidad en <code>index.html</code></li>
+      <li>Unidad 4C: 季節・料理 — clima, estaciones, sabores e intensificadores (115 preguntas)</li>
+      <li>Lazy loading y render paginado (50 por página) en <code>revision.html</code></li>
+    </ul>
+  </div>
+
+  <div class="cl-entry">
+    <div class="cl-date">2026-04-25</div>
+    <div class="cl-title">Herramientas de estudio</div>
+    <ul class="cl-items">
+      <li><code>revision.html</code>: herramienta de revisión con búsqueda por texto y filtro por categoría</li>
+      <li>IDs únicos por pregunta (<code>U1A-001</code>, etc.) en todos los JSON</li>
+      <li>Dark mode en <code>revision.html</code> con persistencia localStorage</li>
+    </ul>
+  </div>
+
+  <div class="cl-entry">
+    <div class="cl-date">2026-04-24</div>
+    <div class="cl-title">Base del proyecto</div>
+    <ul class="cl-items">
+      <li>Quiz interactivo con 30 preguntas al azar por sesión, opciones barajadas</li>
+      <li>Unidades 1A, 1B, 1C, 2A, 2B, 2C, 3A, 3B, 3C (434+ preguntas)</li>
+      <li>Dark mode en <code>index.html</code> con persistencia localStorage</li>
+    </ul>
+  </div>
+
+  <footer class="site-footer">
+    <a href="index.html" class="footer-link">← Volver al Quiz</a>
+  </footer>
+</div>
+
+<script>
+  function toggleDark() {
+    const dark = document.body.classList.toggle('dark');
+    localStorage.setItem('darkMode', dark ? '1' : '0');
+    document.getElementById('dark-btn').textContent = dark ? '☀️' : '🌙';
+  }
+  document.getElementById('dark-btn').textContent =
+    document.body.classList.contains('dark') ? '☀️' : '🌙';
+</script>
+<script src="nav.js"></script>
+</body>
+</html>
