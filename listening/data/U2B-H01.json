@@ -1,13 +1,13 @@
 {
   "schema": "dekiru-listening/historia-v1",
   "nivel": "N5",
-  "unidad": "U2A",
-  "unidad_titulo": "デパートで（En la tienda departamental）",
-  "historia_id": "U2A-H01",
+  "unidad": "U2B",
+  "unidad_titulo": "いくらですか",
+  "historia_id": "U2B-H01",
   "titulo": "サカイ電器で",
   "titulo_es": "En la tienda de electrónica",
   "formato": "dialogo",
-  "imagen": "img/U2A-H01.png",
+  "imagen": "img/U2B-H01.png",
   "imagen_alt": "Dentro de una gran tienda de electrónica de varios pisos: un cliente joven conversa con un empleado amable junto a un mostrador. Al fondo, estantes con aparatos electrónicos genéricos y un panel de directorio sin números legibles. No se muestra ningún producto, piso, país ni precio identificable.",
   "contexto": "Park-bot va a Sakai Denki, una tienda de electrónica de varios pisos. Primero pregunta en información y después habla con un empleado sobre los precios de los aparatos. Escuchá la conversación: qué busca Park-bot, en qué piso está, de qué país es el aparato y cuánto cuesta.",
   "voz": {
@@ -215,7 +215,7 @@
   "variantes": [
     {
       "id": "v01",
-      "archivo": "audio/U2A-H01-v01.mp3",
+      "archivo": "audio/U2B-H01-v01.mp3",
       "texto": "店員：いらっしゃいませ。\nパク：すみません。携帯電話は何階ですか。\n店員：電子辞書ですか。\nパク：いいえ、携帯電話です。\n店員：ああ、携帯電話ですね。携帯電話は4階です。あ、電子辞書は2階です。\nパク：4階ですね。どうもありがとうございます。\n店員：いらっしゃいませ。\nパク：あのう、すみません。これは19,800円ですか。\n店員：いいえ。これは29,800円です。\nパク：ああ、29,800円ですか。じゃ、あの携帯電話はいくらですか。\n店員：あれは25,000円です。\nパク：あの携帯電話は25,000円ですね。じゃ、その携帯電話は？\n店員：その携帯電話は12,000円です。日本の携帯電話です。\nパク：12,000円ですか。アメリカの携帯電話ですか。\n店員：いいえ、日本の携帯電話です。\nパク：ああ、日本のですか。じゃ、それをください。\n店員：はい、ありがとうございます。",
       "traduccion": "Empleado: Bienvenido.\nPark: Disculpe, ¿en qué piso están los celulares?\nEmpleado: ¿El diccionario electrónico?\nPark: No, los celulares.\nEmpleado: Ah, los celulares. Los celulares están en el piso 4. Ah, el diccionario electrónico está en el piso 2.\nPark: El piso 4, entendido. Muchas gracias.\nEmpleado: Bienvenido.\nPark: Esto… disculpe, ¿esto cuesta 19.800 yenes?\nEmpleado: No. Esto cuesta 29.800 yenes.\nPark: Ah, 29.800 yenes. Entonces, ¿cuánto cuesta aquel celular?\nEmpleado: Aquella cuesta 25.000 yenes.\nPark: Aquel celular cuesta 25.000 yenes, entendido. ¿Y ese celular?\nEmpleado: Ese celular cuesta 12.000 yenes. Es un celular de Japón.\nPark: ¿12.000 yenes? ¿Es un celular de Estados Unidos?\nEmpleado: No, es un celular de Japón.\nPark: Ah, de Japón. Entonces, deme ese, por favor.\nEmpleado: Sí, muchas gracias.",
       "respuestas": {
@@ -228,7 +228,7 @@
     },
     {
       "id": "v02",
-      "archivo": "audio/U2A-H01-v02.mp3",
+      "archivo": "audio/U2B-H01-v02.mp3",
       "texto": "店員：いらっしゃいませ。\nパク：すみません。携帯電話は何階ですか。\n店員：電子辞書ですか。\nパク：いいえ、携帯電話です。\n店員：ああ、携帯電話ですね。携帯電話は3階です。あ、電子辞書は2階です。\nパク：3階ですね。どうもありがとうございます。\n店員：いらっしゃいませ。\nパク：あのう、すみません。これは19,800円ですか。\n店員：いいえ。これは48,000円です。\nパク：ああ、48,000円ですか。じゃ、あの携帯電話はいくらですか。\n店員：あれは25,000円です。\nパク：あの携帯電話は25,000円ですね。じゃ、その携帯電話は？\n店員：その携帯電話は15,000円です。ドイツの携帯電話です。\nパク：15,000円ですか。アメリカの携帯電話ですか。\n店員：いいえ、ドイツの携帯電話です。\nパク：ああ、ドイツのですか。じゃ、それをください。\n店員：はい、ありがとうございます。",
       "traduccion": "Empleado: Bienvenido.\nPark: Disculpe, ¿en qué piso están los celulares?\nEmpleado: ¿El diccionario electrónico?\nPark: No, los celulares.\nEmpleado: Ah, los celulares. Los celulares están en el piso 3. Ah, el diccionario electrónico está en el piso 2.\nPark: El piso 3, entendido. Muchas gracias.\nEmpleado: Bienvenido.\nPark: Esto… disculpe, ¿esto cuesta 19.800 yenes?\nEmpleado: No. Esto cuesta 48.000 yenes.\nPark: Ah, 48.000 yenes. Entonces, ¿cuánto cuesta aquel celular?\nEmpleado: Aquella cuesta 25.000 yenes.\nPark: Aquel celular cuesta 25.000 yenes, entendido. ¿Y ese celular?\nEmpleado: Ese celular cuesta 15.000 yenes. Es un celular de Alemania.\nPark: ¿15.000 yenes? ¿Es un celular de Estados Unidos?\nEmpleado: No, es un celular de Alemania.\nPark: Ah, de Alemania. Entonces, deme ese, por favor.\nEmpleado: Sí, muchas gracias.",
       "respuestas": {
@@ -241,7 +241,7 @@
     },
     {
       "id": "v03",
-      "archivo": "audio/U2A-H01-v03.mp3",
+      "archivo": "audio/U2B-H01-v03.mp3",
       "texto": "店員：いらっしゃいませ。\nパク：すみません。カメラは何階ですか。\n店員：電子辞書ですか。\nパク：いいえ、カメラです。\n店員：ああ、カメラですね。カメラは3階です。あ、電子辞書は2階です。\nパク：3階ですね。どうもありがとうございます。\n店員：いらっしゃいませ。\nパク：あのう、すみません。これは19,800円ですか。\n店員：いいえ。これは35,000円です。\nパク：ああ、35,000円ですか。じゃ、あのカメラはいくらですか。\n店員：あれは25,000円です。\nパク：あのカメラは25,000円ですね。じゃ、そのカメラは？\n店員：そのカメラは15,000円です。フランスのカメラです。\nパク：15,000円ですか。アメリカのカメラですか。\n店員：いいえ、フランスのカメラです。\nパク：ああ、フランスのですか。じゃ、それをください。\n店員：はい、ありがとうございます。",
       "traduccion": "Empleado: Bienvenido.\nPark: Disculpe, ¿en qué piso están las cámaras?\nEmpleado: ¿El diccionario electrónico?\nPark: No, las cámaras.\nEmpleado: Ah, las cámaras. Las cámaras están en el piso 3. Ah, el diccionario electrónico está en el piso 2.\nPark: El piso 3, entendido. Muchas gracias.\nEmpleado: Bienvenido.\nPark: Esto… disculpe, ¿esto cuesta 19.800 yenes?\nEmpleado: No. Esto cuesta 35.000 yenes.\nPark: Ah, 35.000 yenes. Entonces, ¿cuánto cuesta aquella cámara?\nEmpleado: Aquella cuesta 25.000 yenes.\nPark: Aquella cámara cuesta 25.000 yenes, entendido. ¿Y esa cámara?\nEmpleado: Esa cámara cuesta 15.000 yenes. Es una cámara de Francia.\nPark: ¿15.000 yenes? ¿Es una cámara de Estados Unidos?\nEmpleado: No, es una cámara de Francia.\nPark: Ah, de Francia. Entonces, deme ese, por favor.\nEmpleado: Sí, muchas gracias.",
       "respuestas": {
@@ -254,7 +254,7 @@
     },
     {
       "id": "v04",
-      "archivo": "audio/U2A-H01-v04.mp3",
+      "archivo": "audio/U2B-H01-v04.mp3",
       "texto": "店員：いらっしゃいませ。\nパク：すみません。カメラは何階ですか。\n店員：電子辞書ですか。\nパク：いいえ、カメラです。\n店員：ああ、カメラですね。カメラは5階です。あ、電子辞書は2階です。\nパク：5階ですね。どうもありがとうございます。\n店員：いらっしゃいませ。\nパク：あのう、すみません。これは19,800円ですか。\n店員：いいえ。これは29,800円です。\nパク：ああ、29,800円ですか。じゃ、あのカメラはいくらですか。\n店員：あれは25,000円です。\nパク：あのカメラは25,000円ですね。じゃ、そのカメラは？\n店員：そのカメラは9,800円です。日本のカメラです。\nパク：9,800円ですか。アメリカのカメラですか。\n店員：いいえ、日本のカメラです。\nパク：ああ、日本のですか。じゃ、それをください。\n店員：はい、ありがとうございます。",
       "traduccion": "Empleado: Bienvenido.\nPark: Disculpe, ¿en qué piso están las cámaras?\nEmpleado: ¿El diccionario electrónico?\nPark: No, las cámaras.\nEmpleado: Ah, las cámaras. Las cámaras están en el piso 5. Ah, el diccionario electrónico está en el piso 2.\nPark: El piso 5, entendido. Muchas gracias.\nEmpleado: Bienvenido.\nPark: Esto… disculpe, ¿esto cuesta 19.800 yenes?\nEmpleado: No. Esto cuesta 29.800 yenes.\nPark: Ah, 29.800 yenes. Entonces, ¿cuánto cuesta aquella cámara?\nEmpleado: Aquella cuesta 25.000 yenes.\nPark: Aquella cámara cuesta 25.000 yenes, entendido. ¿Y esa cámara?\nEmpleado: Esa cámara cuesta 9.800 yenes. Es una cámara de Japón.\nPark: ¿9.800 yenes? ¿Es una cámara de Estados Unidos?\nEmpleado: No, es una cámara de Japón.\nPark: Ah, de Japón. Entonces, deme ese, por favor.\nEmpleado: Sí, muchas gracias.",
       "respuestas": {
@@ -267,7 +267,7 @@
     },
     {
       "id": "v05",
-      "archivo": "audio/U2A-H01-v05.mp3",
+      "archivo": "audio/U2B-H01-v05.mp3",
       "texto": "店員：いらっしゃいませ。\nパク：すみません。パソコンは何階ですか。\n店員：電子辞書ですか。\nパク：いいえ、パソコンです。\n店員：ああ、パソコンですね。パソコンは5階です。あ、電子辞書は2階です。\nパク：5階ですね。どうもありがとうございます。\n店員：いらっしゃいませ。\nパク：あのう、すみません。これは19,800円ですか。\n店員：いいえ。これは48,000円です。\nパク：ああ、48,000円ですか。じゃ、あのパソコンはいくらですか。\n店員：あれは25,000円です。\nパク：あのパソコンは25,000円ですね。じゃ、そのパソコンは？\n店員：そのパソコンは9,800円です。ドイツのパソコンです。\nパク：9,800円ですか。アメリカのパソコンですか。\n店員：いいえ、ドイツのパソコンです。\nパク：ああ、ドイツのですか。じゃ、それをください。\n店員：はい、ありがとうございます。",
       "traduccion": "Empleado: Bienvenido.\nPark: Disculpe, ¿en qué piso están las computadoras?\nEmpleado: ¿El diccionario electrónico?\nPark: No, las computadoras.\nEmpleado: Ah, las computadoras. Las computadoras están en el piso 5. Ah, el diccionario electrónico está en el piso 2.\nPark: El piso 5, entendido. Muchas gracias.\nEmpleado: Bienvenido.\nPark: Esto… disculpe, ¿esto cuesta 19.800 yenes?\nEmpleado: No. Esto cuesta 48.000 yenes.\nPark: Ah, 48.000 yenes. Entonces, ¿cuánto cuesta aquella computadora?\nEmpleado: Aquella cuesta 25.000 yenes.\nPark: Aquella computadora cuesta 25.000 yenes, entendido. ¿Y esa computadora?\nEmpleado: Esa computadora cuesta 9.800 yenes. Es una computadora de Alemania.\nPark: ¿9.800 yenes? ¿Es una computadora de Estados Unidos?\nEmpleado: No, es una computadora de Alemania.\nPark: Ah, de Alemania. Entonces, deme ese, por favor.\nEmpleado: Sí, muchas gracias.",
       "respuestas": {
@@ -280,7 +280,7 @@
     },
     {
       "id": "v06",
-      "archivo": "audio/U2A-H01-v06.mp3",
+      "archivo": "audio/U2B-H01-v06.mp3",
       "texto": "店員：いらっしゃいませ。\nパク：すみません。パソコンは何階ですか。\n店員：電子辞書ですか。\nパク：いいえ、パソコンです。\n店員：ああ、パソコンですね。パソコンは4階です。あ、電子辞書は2階です。\nパク：4階ですね。どうもありがとうございます。\n店員：いらっしゃいませ。\nパク：あのう、すみません。これは19,800円ですか。\n店員：いいえ。これは35,000円です。\nパク：ああ、35,000円ですか。じゃ、あのパソコンはいくらですか。\n店員：あれは25,000円です。\nパク：あのパソコンは25,000円ですね。じゃ、そのパソコンは？\n店員：そのパソコンは12,000円です。フランスのパソコンです。\nパク：12,000円ですか。アメリカのパソコンですか。\n店員：いいえ、フランスのパソコンです。\nパク：ああ、フランスのですか。じゃ、それをください。\n店員：はい、ありがとうございます。",
       "traduccion": "Empleado: Bienvenido.\nPark: Disculpe, ¿en qué piso están las computadoras?\nEmpleado: ¿El diccionario electrónico?\nPark: No, las computadoras.\nEmpleado: Ah, las computadoras. Las computadoras están en el piso 4. Ah, el diccionario electrónico está en el piso 2.\nPark: El piso 4, entendido. Muchas gracias.\nEmpleado: Bienvenido.\nPark: Esto… disculpe, ¿esto cuesta 19.800 yenes?\nEmpleado: No. Esto cuesta 35.000 yenes.\nPark: Ah, 35.000 yenes. Entonces, ¿cuánto cuesta aquella computadora?\nEmpleado: Aquella cuesta 25.000 yenes.\nPark: Aquella computadora cuesta 25.000 yenes, entendido. ¿Y esa computadora?\nEmpleado: Esa computadora cuesta 12.000 yenes. Es una computadora de Francia.\nPark: ¿12.000 yenes? ¿Es una computadora de Estados Unidos?\nEmpleado: No, es una computadora de Francia.\nPark: Ah, de Francia. Entonces, deme ese, por favor.\nEmpleado: Sí, muchas gracias.",
       "respuestas": {

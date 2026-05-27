@@ -1,12 +1,12 @@
 {
   "schema": "dekiru-listening/historia-v1",
   "nivel": "N5",
-  "unidad": "U2A",
-  "unidad_titulo": "第2課 買い物・食事",
-  "historia_id": "U2A-H03",
+  "unidad": "U2C",
+  "unidad_titulo": "レストラン",
+  "historia_id": "U2C-H01",
   "titulo": "レストラン",
   "titulo_es": "En el restaurante",
-  "imagen": "img/U2A-H03.png",
+  "imagen": "img/U2C-H01.png",
   "imagen_alt": "Interior de un restaurante. Un cliente sentado a la mesa con un menu en la mano conversa con un empleado de pie junto a la mesa, que toma nota del pedido.",
   "contexto": "Paku entra a un restaurante. Mira el menu y le hace preguntas al empleado antes de pedir su comida y su bebida. Escucha con atencion que pide y cuanto.",
   "voz": {
@@ -194,7 +194,7 @@
   "variantes": [
     {
       "id": "v01",
-      "archivo": "audio/U2A-H03-v01.mp3",
+      "archivo": "audio/U2C-H01-v01.mp3",
       "texto": "店員：いらっしゃいませ。こちらへどうぞ。\nパク：すみません。注文をお願いします。\n店員：はい、どうぞ。メニューです。お飲み物はジュースもありますよ。\nパク：これは何のカレーですか。野菜のカレーですか。\n店員：いいえ、豚肉のカレーです。\nパク：じゃ、そのカレーをください。このビールはどこのビールですか。アメリカのですか。\n店員：いいえ、アメリカのじゃありません。ドイツのビールです。\nパク：そうですか。じゃ、カレーをひとつとビールをひとつください。よっつじゃありません。\n店員：はい、カレーをひとつとビールをひとつですね。少々お待ちください。",
       "traduccion": "Empleado: Bienvenido. Pase por aqui, por favor.\nPaku: Disculpe. Quisiera ordenar.\nEmpleado: Si, adelante. Aqui tiene el menu. Tambien tenemos jugo como bebida.\nPaku: ¿De que es este curry? ¿Es un curry de verduras?\nEmpleado: No, es curry de cerdo.\nPaku: Entonces, deme ese curry. ¿De donde es esta cerveza? ¿Es de Estados Unidos?\nEmpleado: No, no es de Estados Unidos. Es cerveza de Alemania.\nPaku: Ya veo. Entonces, deme un curry y una cerveza. No cuatro.\nEmpleado: Bien, un curry y una cerveza. Aguarde un momento, por favor.",
       "respuestas": {
@@ -207,7 +207,7 @@
     },
     {
       "id": "v02",
-      "archivo": "audio/U2A-H03-v02.mp3",
+      "archivo": "audio/U2C-H01-v02.mp3",
       "texto": "店員：いらっしゃいませ。こちらへどうぞ。\nパク：すみません。注文をお願いします。\n店員：はい、どうぞ。メニューです。お飲み物はジュースもありますよ。\nパク：これは何のカレーですか。野菜のカレーですか。\n店員：いいえ、牛肉のカレーです。\nパク：じゃ、そのカレーをください。このコーヒーはどこのコーヒーですか。アメリカのですか。\n店員：いいえ、アメリカのじゃありません。ブラジルのコーヒーです。\nパク：そうですか。じゃ、カレーをふたつとコーヒーをみっつください。よっつじゃありません。\n店員：はい、カレーをふたつとコーヒーをみっつですね。少々お待ちください。",
       "traduccion": "Empleado: Bienvenido. Pase por aqui, por favor.\nPaku: Disculpe. Quisiera ordenar.\nEmpleado: Si, adelante. Aqui tiene el menu. Tambien tenemos jugo como bebida.\nPaku: ¿De que es este curry? ¿Es un curry de verduras?\nEmpleado: No, es curry de res.\nPaku: Entonces, deme ese curry. ¿De donde es este cafe? ¿Es de Estados Unidos?\nEmpleado: No, no es de Estados Unidos. Es cafe de Brasil.\nPaku: Ya veo. Entonces, deme dos curris y tres cafes. No cuatro.\nEmpleado: Bien, dos curris y tres cafes. Aguarde un momento, por favor.",
       "respuestas": {
@@ -220,7 +220,7 @@
     },
     {
       "id": "v03",
-      "archivo": "audio/U2A-H03-v03.mp3",
+      "archivo": "audio/U2C-H01-v03.mp3",
       "texto": "店員：いらっしゃいませ。こちらへどうぞ。\nパク：すみません。注文をお願いします。\n店員：はい、どうぞ。メニューです。お飲み物はジュースもありますよ。\nパク：これは何のラーメンですか。野菜のラーメンですか。\n店員：いいえ、牛肉のラーメンです。\nパク：じゃ、そのラーメンをください。このお茶はどこのお茶ですか。アメリカのですか。\n店員：いいえ、アメリカのじゃありません。京都のお茶です。\nパク：そうですか。じゃ、ラーメンをみっつとお茶をみっつください。よっつじゃありません。\n店員：はい、ラーメンをみっつとお茶をみっつですね。少々お待ちください。",
       "traduccion": "Empleado: Bienvenido. Pase por aqui, por favor.\nPaku: Disculpe. Quisiera ordenar.\nEmpleado: Si, adelante. Aqui tiene el menu. Tambien tenemos jugo como bebida.\nPaku: ¿De que es este ramen? ¿Es un ramen de verduras?\nEmpleado: No, es ramen de res.\nPaku: Entonces, deme ese ramen. ¿De donde es este te? ¿Es de Estados Unidos?\nEmpleado: No, no es de Estados Unidos. Es te de Kioto.\nPaku: Ya veo. Entonces, deme tres ramen y tres tes. No cuatro.\nEmpleado: Bien, tres ramen y tres tes. Aguarde un momento, por favor.",
       "respuestas": {
@@ -233,7 +233,7 @@
     },
     {
       "id": "v04",
-      "archivo": "audio/U2A-H03-v04.mp3",
+      "archivo": "audio/U2C-H01-v04.mp3",
       "texto": "店員：いらっしゃいませ。こちらへどうぞ。\nパク：すみません。注文をお願いします。\n店員：はい、どうぞ。メニューです。お飲み物はジュースもありますよ。\nパク：これは何のラーメンですか。野菜のラーメンですか。\n店員：いいえ、鶏肉のラーメンです。\nパク：じゃ、そのラーメンをください。このビールはどこのビールですか。アメリカのですか。\n店員：いいえ、アメリカのじゃありません。ドイツのビールです。\nパク：そうですか。じゃ、ラーメンをひとつとビールをふたつください。よっつじゃありません。\n店員：はい、ラーメンをひとつとビールをふたつですね。少々お待ちください。",
       "traduccion": "Empleado: Bienvenido. Pase por aqui, por favor.\nPaku: Disculpe. Quisiera ordenar.\nEmpleado: Si, adelante. Aqui tiene el menu. Tambien tenemos jugo como bebida.\nPaku: ¿De que es este ramen? ¿Es un ramen de verduras?\nEmpleado: No, es ramen de pollo.\nPaku: Entonces, deme ese ramen. ¿De donde es esta cerveza? ¿Es de Estados Unidos?\nEmpleado: No, no es de Estados Unidos. Es cerveza de Alemania.\nPaku: Ya veo. Entonces, deme un ramen y dos cervezas. No cuatro.\nEmpleado: Bien, un ramen y dos cervezas. Aguarde un momento, por favor.",
       "respuestas": {
@@ -246,7 +246,7 @@
     },
     {
       "id": "v05",
-      "archivo": "audio/U2A-H03-v05.mp3",
+      "archivo": "audio/U2C-H01-v05.mp3",
       "texto": "店員：いらっしゃいませ。こちらへどうぞ。\nパク：すみません。注文をお願いします。\n店員：はい、どうぞ。メニューです。お飲み物はジュースもありますよ。\nパク：これは何のうどんですか。野菜のうどんですか。\n店員：いいえ、鶏肉のうどんです。\nパク：じゃ、そのうどんをください。このコーヒーはどこのコーヒーですか。アメリカのですか。\n店員：いいえ、アメリカのじゃありません。ブラジルのコーヒーです。\nパク：そうですか。じゃ、うどんをふたつとコーヒーをふたつください。よっつじゃありません。\n店員：はい、うどんをふたつとコーヒーをふたつですね。少々お待ちください。",
       "traduccion": "Empleado: Bienvenido. Pase por aqui, por favor.\nPaku: Disculpe. Quisiera ordenar.\nEmpleado: Si, adelante. Aqui tiene el menu. Tambien tenemos jugo como bebida.\nPaku: ¿De que es este udon? ¿Es un udon de verduras?\nEmpleado: No, es udon de pollo.\nPaku: Entonces, deme ese udon. ¿De donde es este cafe? ¿Es de Estados Unidos?\nEmpleado: No, no es de Estados Unidos. Es cafe de Brasil.\nPaku: Ya veo. Entonces, deme dos udon y dos cafes. No cuatro.\nEmpleado: Bien, dos udon y dos cafes. Aguarde un momento, por favor.",
       "respuestas": {
@@ -259,7 +259,7 @@
     },
     {
       "id": "v06",
-      "archivo": "audio/U2A-H03-v06.mp3",
+      "archivo": "audio/U2C-H01-v06.mp3",
       "texto": "店員：いらっしゃいませ。こちらへどうぞ。\nパク：すみません。注文をお願いします。\n店員：はい、どうぞ。メニューです。お飲み物はジュースもありますよ。\nパク：これは何のうどんですか。野菜のうどんですか。\n店員：いいえ、豚肉のうどんです。\nパク：じゃ、そのうどんをください。このお茶はどこのお茶ですか。アメリカのですか。\n店員：いいえ、アメリカのじゃありません。京都のお茶です。\nパク：そうですか。じゃ、うどんをみっつとお茶をひとつください。よっつじゃありません。\n店員：はい、うどんをみっつとお茶をひとつですね。少々お待ちください。",
       "traduccion": "Empleado: Bienvenido. Pase por aqui, por favor.\nPaku: Disculpe. Quisiera ordenar.\nEmpleado: Si, adelante. Aqui tiene el menu. Tambien tenemos jugo como bebida.\nPaku: ¿De que es este udon? ¿Es un udon de verduras?\nEmpleado: No, es udon de cerdo.\nPaku: Entonces, deme ese udon. ¿De donde es este te? ¿Es de Estados Unidos?\nEmpleado: No, no es de Estados Unidos. Es te de Kioto.\nPaku: Ya veo. Entonces, deme tres udon y un te. No cuatro.\nEmpleado: Bien, tres udon y un te. Aguarde un momento, por favor.",
       "respuestas": {

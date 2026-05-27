@@ -50,38 +50,39 @@
               "id": "U2A",
               "nombre": "Unidad 2A",
               "titulo": "どこですか — Ubicación, pisos, demostrativos de lugar",
+              "historias": []
+            },
+            {
+              "id": "U2B",
+              "nombre": "Unidad 2B",
+              "titulo": "いくらですか — Precios, これ/それ/あれ, Nをください",
               "historias": [
                 {
-                  "historia_id": "U2A-H01",
+                  "historia_id": "U2B-H01",
                   "titulo": "サカイ電器で",
                   "titulo_es": "En la tienda de electrónica",
-                  "imagen": "img/U2A-H01.png",
-                  "archivo": "data/U2A-H01.json",
-                  "variantes": 6,
-                  "preguntas": 5
-                },
-                {
-                  "historia_id": "U2A-H03",
-                  "titulo": "レストラン",
-                  "titulo_es": "En el restaurante",
-                  "imagen": "img/U2A-H03.png",
-                  "archivo": "data/U2A-H03.json",
+                  "imagen": "img/U2B-H01.png",
+                  "archivo": "data/U2B-H01.json",
                   "variantes": 6,
                   "preguntas": 5
                 }
               ]
             },
             {
-              "id": "U2B",
-              "nombre": "Unidad 2B",
-              "titulo": "いくらですか — Precios, これ/それ/あれ, Nをください",
-              "historias": []
-            },
-            {
               "id": "U2C",
               "nombre": "Unidad 2C",
               "titulo": "レストラン — Contadores ~つ, 何の/どこの/誰のN",
-              "historias": []
+              "historias": [
+                {
+                  "historia_id": "U2C-H01",
+                  "titulo": "レストラン",
+                  "titulo_es": "En el restaurante",
+                  "imagen": "img/U2C-H01.png",
+                  "archivo": "data/U2C-H01.json",
+                  "variantes": 6,
+                  "preguntas": 5
+                }
+              ]
             }
           ]
         },
