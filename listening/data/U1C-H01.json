@@ -1,12 +1,12 @@
 {
   "schema": "dekiru-listening/historia-v1",
   "nivel": "N5",
-  "unidad": "U1A",
-  "unidad_titulo": "はじめまして",
-  "historia_id": "U1A-H01",
+  "unidad": "U1C",
+  "unidad_titulo": "私の趣味",
+  "historia_id": "U1C-H01",
   "titulo": "自己紹介",
   "titulo_es": "Autopresentación",
-  "imagen": "img/U1A-H01.png",
+  "imagen": "img/U1C-H01.png",
   "imagen_alt": "A young foreign student standing confidently in front of a Japanese language classroom, bowing slightly and smiling while introducing themselves; other students seated at desks listen attentively in a warm, softly lit classroom.",
   "contexto": "ある学生が日本語学校でクラスメートに自己紹介をしています。",
   "voz": {
@@ -111,7 +111,7 @@
   "variantes": [
     {
       "id": "v01",
-      "archivo": "audio/U1A-H01-v01.mp3",
+      "archivo": "audio/U1C-H01-v01.mp3",
       "texto": "はじめまして。私はパクです。韓国人です。あおぞら日本語学校の学生です。26歳です。趣味は旅行と映画です。どうぞよろしくお願いします。",
       "traduccion": "Mucho gusto. Me llamo Pak. Soy coreano. Soy estudiante de la Escuela de Japonés Aozora. Tengo 26 años. Mis pasatiempos son los viajes y el cine. Encantado de conocerlos.",
       "respuestas": {
@@ -124,7 +124,7 @@
     },
     {
       "id": "v02",
-      "archivo": "audio/U1A-H01-v02.mp3",
+      "archivo": "audio/U1C-H01-v02.mp3",
       "texto": "はじめまして。私はリウです。中国人です。さくら日本語学校の学生です。24歳です。趣味は音楽と映画です。どうぞよろしくお願いします。",
       "traduccion": "Mucho gusto. Me llamo Liu. Soy chino. Soy estudiante de la Escuela de Japonés Sakura. Tengo 24 años. Mis pasatiempos son la música y el cine. Encantado de conocerlos.",
       "respuestas": {
@@ -137,7 +137,7 @@
     },
     {
       "id": "v03",
-      "archivo": "audio/U1A-H01-v03.mp3",
+      "archivo": "audio/U1C-H01-v03.mp3",
       "texto": "はじめまして。私はカルロスです。ブラジル人です。ふじ日本語学校の学生です。28歳です。趣味は料理と漫画です。どうぞよろしくお願いします。",
       "traduccion": "Mucho gusto. Me llamo Carlos. Soy brasileño. Soy estudiante de la Escuela de Japonés Fuji. Tengo 28 años. Mis pasatiempos son la cocina y el manga. Encantado de conocerlos.",
       "respuestas": {
@@ -150,7 +150,7 @@
     },
     {
       "id": "v04",
-      "archivo": "audio/U1A-H01-v04.mp3",
+      "archivo": "audio/U1C-H01-v04.mp3",
       "texto": "はじめまして。私はソフィアです。メキシコ人です。ほし日本語学校の学生です。22歳です。趣味はスポーツと漫画です。どうぞよろしくお願いします。",
       "traduccion": "Mucho gusto. Me llamo Sofía. Soy mexicana. Soy estudiante de la Escuela de Japonés Hoshi. Tengo 22 años. Mis pasatiempos son los deportes y el manga. Encantada de conocerlos.",
       "respuestas": {
@@ -163,7 +163,7 @@
     },
     {
       "id": "v05",
-      "archivo": "audio/U1A-H01-v05.mp3",
+      "archivo": "audio/U1C-H01-v05.mp3",
       "texto": "はじめまして。私はキムです。韓国人です。さくら日本語学校の学生です。24歳です。趣味は旅行とドラマです。どうぞよろしくお願いします。",
       "traduccion": "Mucho gusto. Me llamo Kim. Soy coreano. Soy estudiante de la Escuela de Japonés Sakura. Tengo 24 años. Mis pasatiempos son los viajes y los doramas. Encantado de conocerlos.",
       "respuestas": {
@@ -176,7 +176,7 @@
     },
     {
       "id": "v06",
-      "archivo": "audio/U1A-H01-v06.mp3",
+      "archivo": "audio/U1C-H01-v06.mp3",
       "texto": "はじめまして。私はアナです。ブラジル人です。あおぞら日本語学校の学生です。28歳です。趣味は音楽と写真です。どうぞよろしくお願いします。",
       "traduccion": "Mucho gusto. Me llamo Ana. Soy brasileña. Soy estudiante de la Escuela de Japonés Aozora. Tengo 28 años. Mis pasatiempos son la música y la fotografía. Encantada de conocerlos.",
       "respuestas": {

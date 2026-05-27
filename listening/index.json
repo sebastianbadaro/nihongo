@@ -15,17 +15,7 @@
               "id": "U1A",
               "nombre": "Unidad 1A",
               "titulo": "私の名前・国・仕事 — Nombre, país, trabajo",
-              "historias": [
-                {
-                  "historia_id": "U1A-H01",
-                  "titulo": "自己紹介",
-                  "titulo_es": "Autopresentación",
-                  "imagen": "img/U1A-H01.png",
-                  "archivo": "data/U1A-H01.json",
-                  "variantes": 6,
-                  "preguntas": 5
-                }
-              ]
+              "historias": []
             },
             {
               "id": "U1B",
@@ -37,7 +27,17 @@
               "id": "U1C",
               "nombre": "Unidad 1C",
               "titulo": "私の趣味 — Hobbies, と, も, 何ですか",
-              "historias": []
+              "historias": [
+                {
+                  "historia_id": "U1C-H01",
+                  "titulo": "自己紹介",
+                  "titulo_es": "Autopresentación",
+                  "imagen": "img/U1C-H01.png",
+                  "archivo": "data/U1C-H01.json",
+                  "variantes": 6,
+                  "preguntas": 5
+                }
+              ]
             }
           ]
         },
