@@ -6,13 +6,17 @@ Quiz interactivo modular para estudiar japonés, basado en el material del curso
 
 ```
 .
-├── index.html          # Quiz de vocabulario (app principal)
-├── manifest.json       # Lista de unidades del quiz de vocabulario
+├── index.html          # Página de inicio — descripción del proyecto y navegación
+├── quiz.html           # Quiz de vocabulario (app principal)
+├── listening.html      # App de listening con comprensión auditiva
 ├── revision.html       # Herramienta de revisión de preguntas
+├── changelog.html      # Historial de cambios
+├── config.html         # Configuración (modo oscuro, tamaño de quiz, etc.)
+├── nav.js              # Navegación lateral compartida entre páginas
+├── manifest.json       # Lista de unidades del quiz de vocabulario
 ├── unidades/           # Preguntas en JSON, una por unidad
 │   ├── u1a.json … u5c.json
-├── listening/          # Módulo de comprensión auditiva
-│   ├── listening.html  # App de listening
+├── listening/          # Recursos del módulo de comprensión auditiva
 │   ├── index.json      # Índice de niveles, unidades e historias
 │   ├── data/           # Una historia por archivo JSON
 │   │   ├── U1A-H01.json
@@ -30,9 +34,11 @@ Quiz interactivo modular para estudiar japonés, basado en el material del curso
 
 ## ✨ Cómo funciona
 
-- El `index.html` lee `manifest.json` al cargar y muestra un selector de unidades.
+- `index.html` es la página de inicio: describe el proyecto y enlaza a todas las herramientas.
+- `quiz.html` lee `manifest.json` al cargar y muestra un selector de unidades.
 - Al elegir una unidad, descarga el JSON correspondiente desde `unidades/`.
 - 30 preguntas al azar por sesión, opciones barajadas cada vez.
+- El sistema prioriza errores anteriores y preguntas nuevas sobre las ya respondidas correctamente.
 - Modo **🎲 Mezcla de todas las unidades** para repaso general.
 - Al final muestra puntaje + repaso de errores.
 
@@ -161,13 +167,19 @@ npx serve .
 
 ## 🎨 Personalización
 
-Si querés cambiar cantidad de preguntas por sesión, abrí `index.html` y modificá la constante:
-
-```javascript
-const QUIZ_SIZE = 30;  // Cambiar a 20, 50, etc.
-```
+La cantidad de preguntas por sesión, la velocidad de audio predeterminada y otras opciones se configuran desde `config.html`.
 
 ## 📋 Changelog
+
+### 2026-05-27 — Rediseño UI, landing page y reorganización de navegación
+- Rediseño visual completo estética "Ink & Paper": paleta cálida (crema/bermellón/dorado), tipografía Lora + Noto Serif JP + Noto Sans JP
+- Nueva página de inicio `index.html`: descripción del proyecto, cards de navegación, sección "Acerca del proyecto" con historia personal, aviso legal y contacto
+- Quiz movido de `index.html` a `quiz.html`
+- Navegación lateral (`nav.js`) actualizada: entrada "Inicio" agregada, "Quiz" apunta a `quiz.html`
+- Módulo de listening reorganizado: Nivel 1 (Unidades 1–3), Nivel 2 (Unidades 4–5)
+- Todas las subunidades agregadas a `listening/index.json` con nombres alineados al `manifest.json`, incluyendo las que aún no tienen historias
+- Guías de uso (flujo con íconos) agregadas en quiz y listening
+- Footer unificado en todas las páginas: solo crédito "Desarrollado por Sebastián Badaró" con enlace a LinkedIn
 
 ### 2026-05-26 — Nuevas historias de Listening
 - Nueva historia: U2A-H03 レストラン — En el restaurante (Unidad 2A, 6 variantes, audio ✅)

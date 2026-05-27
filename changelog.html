@@ -5,111 +5,138 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Cambios — 日本語 Quiz</title>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23c0392b'/><text x='50' y='70' text-anchor='middle' font-size='56' fill='white' font-family='serif'>語</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Sans+JP:wght@400;500;600&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: linear-gradient(135deg, #fef6f6 0%, #f0f4ff 100%);
-    --text: #2c3e50;
-    --container-bg: #ffffff;
-    --shadow: rgba(0,0,0,0.08);
-    --header-border: #f0e4e4;
-    --muted: #7f8c8d;
-    --divider: #eee;
-    --card-bg: #fafbfc;
-    --card-border: #eee;
-    --footer-color: #95a5a6;
-    --footer-link: #7f8c8d;
+    --bg: #F2EDE3;
+    --text: #1C1917;
+    --container-bg: #FEFCF6;
+    --shadow: rgba(28,25,23,0.10);
+    --header-border: #E2D9C8;
+    --muted: #79726A;
+    --divider: #E2D9C8;
+    --card-bg: #F8F4EC;
+    --card-border: #DDD5C4;
+    --footer-color: #A09588;
+    --footer-link: #79726A;
+    --accent: #B5281C;
   }
   body.dark {
-    --bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-    --text: #e2e8f0;
-    --container-bg: #1e1e2e;
-    --shadow: rgba(0,0,0,0.4);
-    --header-border: #2d2d4a;
-    --muted: #94a3b8;
-    --divider: #2d2d4a;
-    --card-bg: #252538;
-    --card-border: #3d3d5c;
-    --footer-color: #64748b;
-    --footer-link: #94a3b8;
+    --bg: #100F0D;
+    --text: #E8E0D0;
+    --container-bg: #1C1A17;
+    --shadow: rgba(0,0,0,0.55);
+    --header-border: #2E2A23;
+    --muted: #8A8278;
+    --divider: #2E2A23;
+    --card-bg: #231F1B;
+    --card-border: #3A3530;
+    --footer-color: #5A5550;
+    --footer-link: #8A8278;
+    --accent: #E05A45;
   }
 
   *, *::before, *::after { box-sizing: border-box; }
 
   body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
     background: var(--bg);
     color: var(--text);
     min-height: 100vh;
+    padding: 24px 16px 48px;
     transition: background 0.3s, color 0.3s;
   }
 
   .container {
-    max-width: 680px;
+    max-width: 660px;
     margin: 0 auto;
-    padding: 0 16px 40px;
   }
 
   header {
     text-align: center;
-    padding: 32px 16px 24px;
+    padding: 36px 16px 28px;
     border-bottom: 1px solid var(--header-border);
-    margin-bottom: 32px;
+    margin-bottom: 36px;
     position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: '更';
+    position: absolute;
+    right: -4px;
+    top: -20px;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 7.5em;
+    color: var(--accent);
+    opacity: 0.055;
+    pointer-events: none;
+    user-select: none;
+    line-height: 1;
+    font-weight: 700;
   }
   header h1 {
+    font-family: 'Lora', 'Noto Serif JP', Georgia, serif;
     font-size: 1.6em;
     font-weight: 700;
-    color: #c0392b;
-    margin: 0 0 4px;
+    color: var(--accent);
+    margin: 0 0 5px;
+    letter-spacing: -0.01em;
   }
-  body.dark header h1 { color: #e57373; }
   .subtitle {
     font-size: 0.82em;
     color: var(--muted);
+    letter-spacing: 0.02em;
   }
   .dark-toggle {
     position: absolute;
     top: 50%; right: 0;
     transform: translateY(-50%);
-    width: 36px; height: 36px;
+    width: 34px; height: 34px;
     border-radius: 50%;
     border: 1.5px solid var(--header-border);
     background: var(--container-bg);
-    cursor: pointer;
-    font-size: 16px;
+    cursor: pointer; font-size: 15px;
     display: flex; align-items: center; justify-content: center;
     transition: border-color 0.2s;
   }
-  .dark-toggle:hover { border-color: #c0392b; }
+  .dark-toggle:hover { border-color: var(--accent); }
 
   /* Changelog entries */
   .cl-entry {
     background: var(--container-bg);
     border: 1px solid var(--card-border);
-    border-radius: 12px;
+    border-left: 3px solid var(--accent);
+    border-radius: 10px;
     padding: 20px 22px;
-    margin-bottom: 16px;
+    margin-bottom: 14px;
     box-shadow: 0 1px 4px var(--shadow);
+    transition: box-shadow 0.2s ease;
+  }
+  .cl-entry:hover {
+    box-shadow: 0 3px 12px var(--shadow);
   }
 
   .cl-date {
-    font-size: 0.72em;
-    font-weight: 600;
-    letter-spacing: 0.06em;
+    font-size: 0.7em;
+    font-weight: 700;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--muted);
     margin-bottom: 6px;
+    font-family: 'Noto Sans JP', sans-serif;
   }
 
   .cl-title {
+    font-family: 'Lora', Georgia, serif;
     font-size: 1em;
     font-weight: 700;
-    color: #c0392b;
+    color: var(--accent);
     margin: 0 0 12px;
     line-height: 1.3;
   }
-  body.dark .cl-title { color: #e57373; }
 
   .cl-items {
     margin: 0;
@@ -119,9 +146,9 @@
     gap: 5px;
   }
   .cl-items li {
-    font-size: 0.88em;
+    font-size: 0.875em;
     color: var(--text);
-    line-height: 1.5;
+    line-height: 1.6;
   }
   .cl-items code {
     background: var(--card-bg);
@@ -134,11 +161,11 @@
 
   .site-footer {
     text-align: center;
-    padding: 24px 16px 16px;
+    padding: 28px 16px 16px;
     font-size: 0.8em;
     color: var(--footer-color);
     border-top: 1px solid var(--divider);
-    margin-top: 16px;
+    margin-top: 24px;
   }
   .footer-link {
     color: var(--footer-link);
@@ -146,7 +173,7 @@
     border-bottom: 1px solid transparent;
     transition: color 0.2s, border-color 0.2s;
   }
-  .footer-link:hover { color: #c0392b; border-bottom-color: #c0392b; }
+  .footer-link:hover { color: var(--accent); border-bottom-color: var(--accent); }
 </style>
 </head>
 <body>
@@ -160,6 +187,19 @@
     <div class="subtitle">Dekiru Nihongo — 日本語 Quiz</div>
     <button class="dark-toggle" id="dark-btn" onclick="toggleDark()" title="Modo nocturno"></button>
   </header>
+
+  <div class="cl-entry">
+    <div class="cl-date">2026-05-27</div>
+    <div class="cl-title">Rediseño UI, landing page y reorganización de navegación</div>
+    <ul class="cl-items">
+      <li>Rediseño visual completo estética "Ink & Paper": paleta cálida (crema/bermellón/dorado), tipografía Lora + Noto Serif JP + Noto Sans JP, marcas de agua en kanji por página</li>
+      <li>Nueva página de inicio <code>index.html</code>: descripción del proyecto, cards de navegación y sección "Acerca del proyecto" con historia personal, aviso legal y contacto</li>
+      <li>Quiz movido de <code>index.html</code> a <code>quiz.html</code>; navegación lateral actualizada con entrada "Inicio"</li>
+      <li>Módulo de listening reorganizado: Nivel 1 (Unidades 1–3) y Nivel 2 (Unidades 4–5); todas las subunidades agregadas al índice con nombres alineados al manifest, incluyendo las que aún no tienen historias</li>
+      <li>Guías de uso con íconos (flujo Elegí → Respondé/Escuchá → Revisá) agregadas en quiz y listening</li>
+      <li>Footer unificado en todas las páginas: solo crédito con enlace a LinkedIn</li>
+    </ul>
+  </div>
 
   <div class="cl-entry">
     <div class="cl-date">2026-05-26</div>
@@ -279,7 +319,12 @@
   </div>
 
   <footer class="site-footer">
-    <a href="index.html" class="footer-link">← Volver al Quiz</a>
+    Desarrollado por <a href="https://www.linkedin.com/in/sbadaro/" target="_blank" rel="noopener" class="footer-link">
+      Sebastián Badaró
+      <svg style="width:13px;height:13px;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" aria-hidden="true">
+        <path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/>
+      </svg>
+    </a>
   </footer>
 </div>
 

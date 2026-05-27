@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz — 日本語 Dekiru Nihongo</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23c0392b'/><text x='50' y='70' text-anchor='middle' font-size='56' fill='white' font-family='serif'>語</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Sans+JP:wght@400;500;600&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F2EDE3;
+    --text: #1C1917;
+    --container-bg: #FEFCF6;
+    --shadow: rgba(28,25,23,0.10);
+    --header-border: #E2D9C8;
+    --muted: #79726A;
+    --divider: #E2D9C8;
+    --card-bg: #F8F4EC;
+    --card-border: #DDD5C4;
+    --option-bg: #FEFCF6;
+    --option-border: #DDD5C4;
+    --option-hover-border: #B5281C;
+    --option-hover-bg: #FDF0EE;
+    --option-color: #1C1917;
+    --stat-bg: #F8F4EC;
+    --review-border: #E2D9C8;
+    --review-divider: #EDE7DC;
+    --review-text: #79726A;
+    --quiz-header-bg: #F8F4EC;
+    --unit-card-bg: #FEFCF6;
+    --unit-card-border: #DDD5C4;
+    --unit-card-hover-bg: #FDF0EE;
+    --unit-card-hover-border: #B5281C;
+    --unit-mix-bg: linear-gradient(135deg, #FBF4E5, #FDF0EE);
+    --unit-mix-border: #C4962A;
+    --unit-mix-hover-bg: linear-gradient(135deg, #F5E8CC, #FBDDD8);
+    --btn-outline-hover-bg: #FDF0EE;
+    --footer-color: #A09588;
+    --footer-link: #79726A;
+    --back-btn-color: #8B6914;
+    --toggle-border: #E2D9C8;
+    --nivel-accent: #B5281C;
+    --nivel-accent-bg: #FDF0EE;
+    --nivel-text-color: #7A1810;
+    --unidad-accent: #C4962A;
+    --unidad-accent-bg: #FBF4E5;
+    --unidad-text-color: #7A5C0E;
+  }
+
+  body.dark {
+    --bg: #100F0D;
+    --text: #E8E0D0;
+    --container-bg: #1C1A17;
+    --shadow: rgba(0,0,0,0.55);
+    --header-border: #2E2A23;
+    --muted: #8A8278;
+    --divider: #2E2A23;
+    --card-bg: #231F1B;
+    --card-border: #3A3530;
+    --option-bg: #1C1A17;
+    --option-border: #3A3530;
+    --option-hover-border: #E05A45;
+    --option-hover-bg: #2A1A18;
+    --option-color: #E8E0D0;
+    --stat-bg: #231F1B;
+    --review-border: #3A3530;
+    --review-divider: #2E2A23;
+    --review-text: #8A8278;
+    --quiz-header-bg: #231F1B;
+    --unit-card-bg: #1C1A17;
+    --unit-card-border: #3A3530;
+    --unit-card-hover-bg: #2A1A18;
+    --unit-card-hover-border: #E05A45;
+    --unit-mix-bg: linear-gradient(135deg, #251F0E, #261510);
+    --unit-mix-border: #C4962A;
+    --unit-mix-hover-bg: linear-gradient(135deg, #30280E, #321810);
+    --btn-outline-hover-bg: #2A1A18;
+    --footer-color: #5A5550;
+    --footer-link: #8A8278;
+    --back-btn-color: #C4962A;
+    --toggle-border: #3A3530;
+    --nivel-accent: #E05A45;
+    --nivel-accent-bg: #2A1A18;
+    --nivel-text-color: #F0A090;
+    --unidad-accent: #C4962A;
+    --unidad-accent-bg: #241F10;
+    --unidad-text-color: #D4A840;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 20px;
+    line-height: 1.6;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: var(--container-bg);
+    border-radius: 12px;
+    box-shadow: 0 4px 32px var(--shadow);
+    padding: 36px;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+  }
+  header {
+    text-align: center;
+    border-bottom: 1px solid var(--header-border);
+    padding-bottom: 24px;
+    margin-bottom: 28px;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: '語';
+    position: absolute;
+    right: -4px;
+    top: -20px;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 7.5em;
+    color: var(--nivel-accent);
+    opacity: 0.055;
+    pointer-events: none;
+    user-select: none;
+    line-height: 1;
+    font-weight: 700;
+  }
+  h1 {
+    font-family: 'Lora', 'Noto Serif JP', Georgia, serif;
+    color: var(--nivel-accent);
+    font-size: 1.85em;
+    margin-bottom: 6px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  .subtitle { color: var(--muted); font-size: 0.88em; letter-spacing: 0.02em; }
+
+  .dark-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: var(--container-bg);
+    border: 1.5px solid var(--toggle-border);
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    color: var(--muted);
+    transition: all 0.15s ease;
+    line-height: 1;
+  }
+  .dark-toggle:hover { border-color: var(--nivel-accent); color: var(--nivel-accent); }
+
+  .progress-bar {
+    background: var(--divider);
+    border-radius: 10px;
+    height: 6px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .progress-fill {
+    background: linear-gradient(90deg, var(--nivel-accent) 0%, var(--unidad-accent) 100%);
+    height: 100%;
+    transition: width 0.3s ease;
+  }
+  .meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85em;
+    color: var(--muted);
+    margin-bottom: 12px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+  }
+  .question-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+  .category-tag {
+    display: inline-block;
+    background: var(--unidad-accent);
+    color: white;
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-size: 0.7em;
+    margin-bottom: 12px;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+  .question-text {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: var(--text);
+    font-weight: 500;
+    line-height: 1.65;
+    font-family: 'Noto Serif JP', "Hiragino Sans", "Yu Gothic", serif;
+  }
+  .options { display: grid; gap: 10px; }
+  .option {
+    background: var(--option-bg);
+    border: 1.5px solid var(--option-border);
+    border-radius: 8px;
+    padding: 13px 18px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: all 0.15s ease;
+    text-align: left;
+    font-family: inherit;
+    color: var(--option-color);
+  }
+  .option:hover:not(:disabled) {
+    border-color: var(--option-hover-border);
+    background: var(--option-hover-bg);
+    transform: translateX(3px);
+  }
+  .option:disabled { cursor: default; }
+  .option.correct { background: #EBF7EE; border-color: #2D9348; color: #1A5C2E; font-weight: 600; }
+  .option.incorrect { background: #FDECEA; border-color: #B5281C; color: #7A1810; }
+  .feedback {
+    margin-top: 16px;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 0.93em;
+    line-height: 1.6;
+  }
+  .feedback.right { background: #EBF7EE; color: #1A5C2E; border-left: 3px solid #2D9348; }
+  .feedback.wrong { background: #FBF4E5; color: #7A5C0E; border-left: 3px solid var(--unidad-accent); }
+  .feedback-detail {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(0,0,0,0.08);
+    font-size: 0.88em;
+    line-height: 1.6;
+  }
+  .feedback-reason { margin-bottom: 6px; }
+  .feedback-explanation {
+    opacity: 0.85;
+    background: rgba(0,0,0,0.04);
+    padding: 8px 10px;
+    border-radius: 6px;
+    margin-top: 6px;
+  }
+  .btn {
+    background: var(--nivel-accent);
+    color: white;
+    border: none;
+    padding: 13px 24px;
+    border-radius: 8px;
+    font-size: 1em;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.15s ease;
+    width: 100%;
+    margin-top: 10px;
+    letter-spacing: 0.02em;
+  }
+  .btn:hover { filter: brightness(1.1); transform: translateY(-1px); }
+  .btn.secondary { background: var(--unidad-accent); }
+  .btn.secondary:hover { filter: brightness(1.1); }
+  .btn.outline {
+    background: var(--option-bg);
+    color: var(--nivel-accent);
+    border: 1.5px solid var(--nivel-accent);
+  }
+  .btn.outline:hover { background: var(--btn-outline-hover-bg); }
+  .hidden { display: none; }
+  .start-screen, .result-screen { text-align: center; padding: 10px 10px; }
+  .start-screen p, .result-screen p { margin-bottom: 14px; color: var(--review-text); }
+  .score-big {
+    font-size: 3.2em;
+    font-weight: 700;
+    font-family: 'Lora', Georgia, serif;
+    color: var(--nivel-accent);
+    margin: 20px 0;
+    letter-spacing: -0.02em;
+  }
+  .score-label { font-size: 1.1em; color: var(--muted); }
+  .result-stats {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+  }
+  .stat {
+    background: var(--stat-bg);
+    padding: 16px 24px;
+    border-radius: 10px;
+    min-width: 100px;
+    border: 1px solid var(--card-border);
+  }
+  .stat-value { font-size: 1.8em; font-weight: 700; font-family: 'Lora', Georgia, serif; }
+  .stat-label { font-size: 0.8em; color: var(--muted); letter-spacing: 0.05em; text-transform: uppercase; margin-top: 2px; }
+  .right-v { color: #2D9348; }
+  .wrong-v { color: var(--nivel-accent); }
+  .review-list {
+    text-align: left;
+    margin-top: 24px;
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid var(--review-border);
+    border-radius: 10px;
+    padding: 12px;
+  }
+  .review-item { padding: 12px; border-bottom: 1px solid var(--review-divider); font-size: 0.9em; }
+  .review-item:last-child { border-bottom: none; }
+  .review-q { font-weight: 600; margin-bottom: 4px; }
+  .review-a { color: var(--review-text); }
+  .review-a.correct-ans { color: #2D9348; }
+  .review-a.wrong-ans { color: var(--nivel-accent); text-decoration: line-through; }
+  .jp { font-family: 'Noto Serif JP', "Hiragino Sans", "Yu Gothic", "Meiryo", "MS Gothic", sans-serif; }
+
+  .unit-grid { display: grid; gap: 10px; margin: 20px 0; text-align: left; }
+  .unit-card {
+    background: var(--unit-card-bg);
+    border: 1.5px solid var(--unit-card-border);
+    border-radius: 10px;
+    padding: 16px 20px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    font-family: inherit;
+    text-align: left;
+    width: 100%;
+    color: var(--text);
+  }
+  .unit-card:hover:not(:disabled) { border-color: var(--unit-card-hover-border); background: var(--unit-card-hover-bg); transform: translateX(3px); }
+  .unit-card:disabled { opacity: 0.5; cursor: not-allowed; }
+  .unit-card.mix { background: var(--unit-mix-bg); border-color: var(--unit-mix-border); }
+  .unit-card.mix:hover { background: var(--unit-mix-hover-bg); }
+  .unit-name { font-weight: 600; color: var(--nivel-accent); font-size: 1em; }
+  .unit-sub { font-size: 0.83em; color: var(--muted); margin-top: 2px; }
+  .unit-count {
+    background: var(--unidad-accent);
+    color: white;
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-size: 0.7em;
+    font-weight: 700;
+    white-space: nowrap;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  /* ── Accordion ── */
+  .nivel-list { display:flex; flex-direction:column; gap:10px; margin:20px 0; }
+  .nivel-item { border-radius: 10px; overflow: hidden; box-shadow: 0 1px 4px var(--shadow), 0 0 0 1px var(--divider); transition: box-shadow 0.25s ease; }
+  .nivel-item.open { box-shadow: 0 4px 16px rgba(181,40,28,0.12), 0 0 0 1.5px var(--nivel-accent); }
+  body.dark .nivel-item.open { box-shadow: 0 4px 16px rgba(224,90,69,0.18), 0 0 0 1.5px var(--nivel-accent); }
+
+  .nivel-header {
+    width:100%; display:flex; align-items:center; gap:12px;
+    padding:15px 18px 15px 0;
+    background: var(--nivel-accent-bg);
+    border:none; border-left:4px solid var(--nivel-accent);
+    cursor:pointer; font-family:inherit; transition:filter 0.15s ease; text-align:left;
+  }
+  .nivel-header:hover { filter:brightness(0.96); }
+  .nivel-arrow { font-size:0.6em; width:32px; text-align:center; flex-shrink:0; color:var(--nivel-accent); transition:transform 0.25s ease; }
+  .nivel-item.open > .nivel-header .nivel-arrow { transform:rotate(90deg); }
+  .nivel-name { font-weight:700; font-size:1em; color:var(--nivel-text-color); flex:1; letter-spacing:0.01em; }
+  .nivel-total { background:var(--nivel-accent); color:#fff; padding:3px 10px; border-radius:4px; margin-right:14px; font-size:0.67em; font-weight:700; white-space:nowrap; letter-spacing:0.06em; text-transform: uppercase; }
+  .nivel-content { display:grid; grid-template-rows:0fr; transition:grid-template-rows 0.32s ease; }
+  .nivel-item.open > .nivel-content { grid-template-rows:1fr; }
+  .nivel-inner { overflow:hidden; min-height:0; }
+  .nivel-item.open > .nivel-content > .nivel-inner { padding:12px; background:var(--container-bg); }
+
+  .unidad-list { display:flex; flex-direction:column; gap:6px; }
+  .unidad-item { border-radius:8px; overflow:hidden; box-shadow:0 1px 3px var(--shadow), 0 0 0 1px var(--divider); transition: box-shadow 0.25s ease; }
+  .unidad-item.open { box-shadow: 0 3px 10px rgba(196,150,42,0.15), 0 0 0 1.5px var(--unidad-accent); }
+  body.dark .unidad-item.open { box-shadow: 0 3px 10px rgba(196,150,42,0.20), 0 0 0 1.5px var(--unidad-accent); }
+
+  .unidad-header {
+    width:100%; display:flex; align-items:center; gap:10px;
+    padding:11px 14px 11px 0;
+    background:var(--unidad-accent-bg);
+    border:none; border-left:3px solid var(--unidad-accent);
+    cursor:pointer; font-family:inherit; transition:filter 0.15s ease; text-align:left;
+  }
+  .unidad-header:hover { filter:brightness(0.96); }
+  .unidad-header .nivel-arrow { color:var(--unidad-accent); font-size:0.55em; width:28px; }
+  .unidad-item.open > .unidad-header .nivel-arrow { transform:rotate(90deg); }
+  .unidad-name { font-weight:600; font-size:0.88em; color:var(--unidad-text-color); }
+  .unidad-sub-text { font-size:0.76em; color:var(--muted); margin-top:2px; }
+  .unidad-count { background:var(--unidad-accent); color:#fff; padding:2px 8px; border-radius:4px; margin-left:auto; margin-right:12px; font-size:0.66em; font-weight:700; white-space:nowrap; letter-spacing:0.05em; text-transform:uppercase; }
+  .unidad-content { display:grid; grid-template-rows:0fr; transition:grid-template-rows 0.28s ease; }
+  .unidad-item.open > .unidad-content { grid-template-rows:1fr; }
+  .unidad-inner { overflow:hidden; min-height:0; }
+  .unidad-item.open > .unidad-content > .unidad-inner { padding:8px; background:var(--container-bg); }
+
+  .subunidad-grid { display:grid; gap:5px; }
+  .subunidad-grid .unit-card { padding:10px 14px; border-left:3px solid var(--nivel-accent); }
+  .subunidad-grid .unit-name { font-size:0.92em; }
+  .subunidad-grid .unit-sub { font-size:0.78em; }
+
+  .unidad-count { display:none; }
+  .subunidad-grid .unit-count { display:none; }
+  .nivel-item.open > .nivel-header .nivel-total { display:none; }
+  .nivel-item.open .unidad-count { display:inline-flex; align-items:center; }
+  .unidad-item.open > .unidad-header .unidad-count { display:none; }
+  .unidad-item.open .subunidad-grid .unit-count { display:inline-flex; align-items:center; }
+
+  .mix-btn {
+    display:flex; align-items:center; justify-content:center; gap:6px;
+    width:100%; padding:9px 14px; margin-top:8px;
+    background:transparent; border:1.5px dashed var(--divider);
+    border-radius:8px; color:var(--muted);
+    font-size:0.78em; font-family:inherit; cursor:pointer;
+    transition:all 0.15s ease; letter-spacing:0.02em;
+  }
+  .mix-btn:hover { border-color:var(--unidad-accent); color:var(--unidad-accent); background:var(--unidad-accent-bg); }
+
+  .loader { text-align: center; padding: 40px 20px; color: var(--muted); }
+  .error-box { background: #FDECEA; color: #7A1810; padding: 14px; border-radius: 8px; border-left: 3px solid var(--nivel-accent); margin: 16px 0; text-align: left; font-size: 0.9em; }
+  .quiz-header-info { background: var(--quiz-header-bg); padding: 12px 16px; border-radius: 8px; margin-bottom: 16px; font-size: 0.88em; color: var(--review-text); border-left: 3px solid var(--unidad-accent); }
+  .back-btn { background: none; border: none; color: var(--back-btn-color); cursor: pointer; font-size: 0.88em; font-family: inherit; padding: 4px 0; margin-bottom: 12px; font-weight: 500; }
+  .back-btn:hover { text-decoration: underline; }
+
+  .site-footer { max-width: 720px; margin: 20px auto 10px; text-align: center; font-size: 0.8em; color: var(--footer-color); line-height: 1.5; }
+  .site-footer .footer-link { color: var(--footer-link); text-decoration: none; border-bottom: 1px dotted transparent; display: inline-flex; align-items: center; gap: 5px; transition: color 0.15s ease, border-color 0.15s ease; }
+  .site-footer .footer-link:hover { color: var(--nivel-accent); border-bottom-color: var(--nivel-accent); }
+  .site-footer .footer-icon { width: 13px; height: 13px; vertical-align: middle; flex-shrink: 0; }
+
+  @media (max-width: 600px) {
+    .container { padding: 20px; }
+    h1 { font-size: 1.45em; }
+    .question-text { font-size: 1.1em; }
+    .unit-card { flex-direction: column; align-items: flex-start; gap: 6px; }
+  }
+</style>
+</head>
+<body>
+<script>
+  if (localStorage.getItem('darkMode') === '1') document.body.classList.add('dark');
+</script>
+<div class="container">
+  <header>
+    <h1>日本語 Quiz</h1>
+    <div class="subtitle">Dekiru Nihongo — Repaso interactivo</div>
+    <button class="dark-toggle" id="dark-btn" onclick="toggleDark()" title="Modo nocturno"></button>
+  </header>
+
+  <div id="menu" class="start-screen">
+    <p class="jp" style="color:var(--muted);font-size:0.9em;margin-bottom:14px;">レベルを選んでください</p>
+    <div style="margin-bottom:16px;">
+      <div style="display:flex;align-items:center;justify-content:center;gap:4px;flex-wrap:wrap;">
+        <div style="display:flex;flex-direction:column;align-items:center;gap:5px;padding:10px 14px;min-width:64px;">
+          <span style="font-size:1.4em;line-height:1;">📂</span>
+          <span style="font-size:0.72em;font-weight:600;color:var(--muted);white-space:nowrap;">Elegí</span>
+        </div>
+        <span style="color:var(--divider);font-size:1em;margin-bottom:14px;">›</span>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:5px;padding:10px 14px;min-width:64px;">
+          <span style="font-size:1.4em;line-height:1;">✏️</span>
+          <span style="font-size:0.72em;font-weight:600;color:var(--muted);white-space:nowrap;">Respondé</span>
+        </div>
+        <span style="color:var(--divider);font-size:1em;margin-bottom:14px;">›</span>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:5px;padding:10px 14px;min-width:64px;">
+          <span style="font-size:1.4em;line-height:1;">📊</span>
+          <span style="font-size:0.72em;font-weight:600;color:var(--muted);white-space:nowrap;">Revisá</span>
+        </div>
+      </div>
+      <p style="text-align:center;font-size:0.76em;color:var(--muted);margin:4px 0 0;line-height:1.5;">
+        🎲 Cada quiz es aleatorio — se priorizan errores anteriores y preguntas nuevas sobre las ya respondidas correctamente.
+      </p>
+    </div>
+    <div id="unit-list" class="loader">Cargando unidades…</div>
+  </div>
+
+  <div id="quiz" class="hidden">
+    <button class="back-btn" onclick="confirmBack()">← Volver al menú</button>
+    <div class="quiz-header-info jp" id="quiz-title"></div>
+    <div class="meta">
+      <span id="q-counter">Pregunta 1 de 30</span>
+      <span id="q-score">Aciertos: 0</span>
+    </div>
+    <div class="progress-bar"><div id="progress" class="progress-fill" style="width:0%"></div></div>
+    <div class="question-card">
+      <span class="category-tag" id="q-category"></span>
+      <div class="question-text jp" id="q-text"></div>
+      <div class="options" id="q-options"></div>
+      <div id="q-feedback" class="feedback hidden"></div>
+    </div>
+    <button id="next-btn" class="btn hidden" onclick="nextQuestion()">Siguiente →</button>
+  </div>
+
+  <div id="result" class="result-screen hidden">
+    <h2 style="color:var(--nivel-accent);">お疲れさま！🎉</h2>
+    <div class="score-big" id="final-score">0 / 30</div>
+    <div class="score-label" id="final-msg">...</div>
+    <div class="result-stats">
+      <div class="stat"><div class="stat-value right-v" id="stat-right">0</div><div class="stat-label">Correctas</div></div>
+      <div class="stat"><div class="stat-value wrong-v" id="stat-wrong">0</div><div class="stat-label">Incorrectas</div></div>
+      <div class="stat"><div class="stat-value" id="stat-pct">0%</div><div class="stat-label">Precisión</div></div>
+    </div>
+    <div class="review-list" id="review"></div>
+    <button class="btn" onclick="restart()">もう一度 (Repetir con nuevas preguntas)</button>
+    <button class="btn outline" onclick="backToMenu()">Elegir otra unidad</button>
+  </div>
+</div>
+
+<script>
+function toggleDark() {
+  const isDark = document.body.classList.toggle('dark');
+  updateToggleIcon(isDark);
+  localStorage.setItem('darkMode', isDark ? '1' : '0');
+}
+function updateToggleIcon(isDark) { document.getElementById('dark-btn').textContent = isDark ? '☀️' : '🌙'; }
+updateToggleIcon(document.body.classList.contains('dark'));
+
+function getQuizSize() { return parseInt(localStorage.getItem('nihongo_quiz_size') || '30', 10); }
+const MANIFEST_URL = './manifest.json';
+
+let allUnits = [];
+let allNiveles = [];
+let questionsCache = {};
+let currentQuiz = [];
+let currentPool = [];
+let currentIdx = 0;
+let score = 0;
+let answers = [];
+let currentUnitTitle = '';
+
+function shuffle(array) {
+  const a = [...array];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function show(id) {
+  ['menu','quiz','result'].forEach(s => {
+    document.getElementById(s).classList.toggle('hidden', s !== id);
+  });
+}
+
+async function loadManifest() {
+  try {
+    const res = await fetch(MANIFEST_URL);
+    if (!res.ok) throw new Error(`HTTP ${res.status} al cargar manifest.json`);
+    const data = await res.json();
+    allUnits = data.unidades || [];
+    allNiveles = data.niveles || [];
+    renderUnitMenu();
+  } catch (err) {
+    document.getElementById('unit-list').innerHTML = `
+      <div class="error-box">
+        <b>⚠️ No se pudo cargar manifest.json</b><br>
+        ${err.message}<br><br>
+        Si abriste el archivo con doble click (file://), los navegadores bloquean fetch de JSON local.
+        Subilo a GitHub Pages, Netlify, o corré un server local:<br>
+        <code>python3 -m http.server 8000</code>
+      </div>
+    `;
+  }
+}
+
+function renderUnitMenu() {
+  const list = document.getElementById('unit-list');
+  const lastRaw = localStorage.getItem('nihongo_last_quiz');
+  const rememberOn = localStorage.getItem('nihongo_remember_unit') !== '0';
+  let continueBanner = '';
+  if (rememberOn && lastRaw) {
+    try {
+      const last = JSON.parse(lastRaw);
+      continueBanner = `<button class="unit-card" style="margin-bottom:12px;border-color:var(--nivel-accent);background:var(--unit-card-hover-bg)" onclick="continueLastQuiz()">
+        <div><div class="unit-name">▶ Continuar</div><div class="unit-sub jp" style="color:var(--muted)">${last.label}</div></div>
+      </button>`;
+    } catch (_) {}
+  }
+
+  if (allNiveles.length === 0) {
+    const totalQs = allUnits.reduce((s, u) => s + (u.total || 0), 0);
+    let html = '<div class="unit-grid">';
+    allUnits.forEach(u => {
+      html += `<button class="unit-card" onclick="startUnit('${u.id}')">
+        <div><div class="unit-name">${u.nombre}</div><div class="unit-sub jp">${u.subtitle || ''}</div></div>
+        <div class="unit-count">${u.total || '?'} preguntas</div>
+      </button>`;
+    });
+    if (allUnits.length > 1) {
+      html += `<button class="unit-card mix" onclick="startMixed()">
+        <div><div class="unit-name">🎲 Mezcla de todas las unidades</div><div class="unit-sub">Repaso general con preguntas al azar de todas</div></div>
+        <div class="unit-count">${totalQs} preguntas</div>
+      </button>`;
+    }
+    list.innerHTML = continueBanner + html + '</div>';
+    return;
+  }
+
+  let html = '<div class="nivel-list">';
+  allNiveles.forEach(nivel => {
+    const nivelTotal = nivel.unidades.flatMap(u => u.subunidades)
+      .reduce((s, uid) => { const u = allUnits.find(x => x.id === uid); return s + (u ? (u.total || 0) : 0); }, 0);
+    html += `<div class="nivel-item" id="nivel-${nivel.id}">
+      <button class="nivel-header" onclick="toggleNivel('${nivel.id}')">
+        <span class="nivel-arrow">▶</span>
+        <span class="nivel-name">${nivel.nombre}</span>
+        <span class="nivel-total">${nivelTotal} preguntas</span>
+      </button>
+      <div class="nivel-content"><div class="nivel-inner">`;
+    html += '<div class="unidad-list">';
+    nivel.unidades.forEach(unidad => {
+      const unidadTotal = unidad.subunidades
+        .reduce((s, uid) => { const u = allUnits.find(x => x.id === uid); return s + (u ? (u.total || 0) : 0); }, 0);
+      html += `<div class="unidad-item" id="unidad-${unidad.id}">
+        <button class="unidad-header" onclick="toggleUnidad('${nivel.id}', '${unidad.id}')">
+          <span class="nivel-arrow">▶</span>
+          <div style="flex:1;min-width:0;">
+            <div class="unidad-name">${unidad.nombre}</div>
+            ${unidad.subtitle ? `<div class="unidad-sub-text jp">${unidad.subtitle}</div>` : ''}
+          </div>
+          <span class="unidad-count">${unidadTotal} preguntas</span>
+        </button>
+        <div class="unidad-content"><div class="unidad-inner">`;
+      html += '<div class="subunidad-grid">';
+      unidad.subunidades.forEach(uid => {
+        const u = allUnits.find(x => x.id === uid);
+        if (!u) return;
+        html += `<button class="unit-card" onclick="startUnit('${u.id}')">
+          <div><div class="unit-name">${u.nombre}</div><div class="unit-sub jp">${u.subtitle || ''}</div></div>
+          <div class="unit-count">${u.total || '?'} preguntas</div>
+        </button>`;
+      });
+      html += '</div>';
+      if (unidad.subunidades.length > 1) {
+        html += `<button class="mix-btn" onclick="startMixedUnidad('${nivel.id}','${unidad.id}')">🎲 Mezclar ${unidad.nombre}</button>`;
+      }
+      html += `</div></div></div>`;
+    });
+    html += '</div>';
+    html += `<button class="mix-btn" onclick="startMixedNivel('${nivel.id}')">🎲 Mezclar ${nivel.nombre}</button>`;
+    html += `</div></div></div>`;
+  });
+  html += '</div>';
+  list.innerHTML = continueBanner + html;
+}
+
+function toggleNivel(nivelId) {
+  document.querySelectorAll('.nivel-item').forEach(el => {
+    if (el.id !== 'nivel-' + nivelId) { el.classList.remove('open'); el.querySelectorAll('.unidad-item').forEach(u => u.classList.remove('open')); }
+  });
+  document.getElementById('nivel-' + nivelId).classList.toggle('open');
+}
+
+function toggleUnidad(nivelId, unidadId) {
+  const nivelEl = document.getElementById('nivel-' + nivelId);
+  nivelEl.querySelectorAll('.unidad-item').forEach(el => { if (el.id !== 'unidad-' + unidadId) el.classList.remove('open'); });
+  document.getElementById('unidad-' + unidadId).classList.toggle('open');
+}
+
+function saveLastQuiz(data) {
+  if (localStorage.getItem('nihongo_remember_unit') !== '0') localStorage.setItem('nihongo_last_quiz', JSON.stringify(data));
+}
+
+async function startMixedNivel(nivelId) {
+  const nivel = allNiveles.find(n => n.id === nivelId);
+  if (!nivel) return;
+  const units = nivel.unidades.flatMap(u => u.subunidades).map(id => allUnits.find(u => u.id === id)).filter(Boolean);
+  try {
+    const allQs = [];
+    await Promise.all(units.map(async u => { const qs = await fetchUnitQuestions(u); allQs.push(...qs); }));
+    currentUnitTitle = '🎲 Mezcla — ' + nivel.nombre;
+    saveLastQuiz({ type: 'mixedNivel', nivelId, label: currentUnitTitle });
+    launchQuiz(allQs);
+  } catch (err) { alert('Error al cargar las unidades: ' + err.message); }
+}
+
+async function startMixedUnidad(nivelId, unidadId) {
+  const nivel = allNiveles.find(n => n.id === nivelId);
+  const unidad = nivel && nivel.unidades.find(u => u.id === unidadId);
+  if (!unidad) return;
+  const units = unidad.subunidades.map(id => allUnits.find(u => u.id === id)).filter(Boolean);
+  try {
+    const allQs = [];
+    await Promise.all(units.map(async u => { const qs = await fetchUnitQuestions(u); allQs.push(...qs); }));
+    currentUnitTitle = '🎲 Mezcla — ' + unidad.nombre;
+    saveLastQuiz({ type: 'mixedUnidad', nivelId, unidadId, label: currentUnitTitle });
+    launchQuiz(allQs);
+  } catch (err) { alert('Error al cargar las unidades: ' + err.message); }
+}
+
+async function fetchUnitQuestions(unit) {
+  if (questionsCache[unit.id]) return questionsCache[unit.id];
+  const res = await fetch(unit.file);
+  if (!res.ok) throw new Error(`HTTP ${res.status} al cargar ${unit.file}`);
+  const data = await res.json();
+  questionsCache[unit.id] = data;
+  return data;
+}
+
+async function startUnit(unitId) {
+  const unit = allUnits.find(u => u.id === unitId);
+  if (!unit) return;
+  try {
+    const questions = await fetchUnitQuestions(unit);
+    currentUnitTitle = `${unit.nombre} · ${unit.subtitle}`;
+    saveLastQuiz({ type: 'unit', id: unitId, label: currentUnitTitle });
+    launchQuiz(questions);
+  } catch (err) { alert('Error al cargar la unidad: ' + err.message); }
+}
+
+async function continueLastQuiz() {
+  const raw = localStorage.getItem('nihongo_last_quiz');
+  if (!raw) return;
+  const s = JSON.parse(raw);
+  if (s.type === 'unit') startUnit(s.id);
+  else if (s.type === 'mixedNivel') startMixedNivel(s.nivelId);
+  else if (s.type === 'mixedUnidad') startMixedUnidad(s.nivelId, s.unidadId);
+  else if (s.type === 'mixed') startMixed();
+}
+
+async function startMixed() {
+  try {
+    const allQs = [];
+    await Promise.all(allUnits.map(async u => { const qs = await fetchUnitQuestions(u); allQs.push(...qs); }));
+    currentUnitTitle = `🎲 Mezcla de todas las unidades (${allUnits.map(u=>u.nombre.replace('Unidad ','')).join(', ')})`;
+    saveLastQuiz({ type: 'mixed', label: currentUnitTitle });
+    launchQuiz(allQs);
+  } catch (err) { alert('Error al cargar las unidades: ' + err.message); }
+}
+
+function launchQuiz(pool) {
+  currentPool = pool;
+  const target = Math.min(getQuizSize(), pool.length);
+  const correctIds = new Set(JSON.parse(localStorage.getItem('nihongo_correct_ids') || '[]'));
+  const failedIds  = new Set(JSON.parse(localStorage.getItem('nihongo_failed_ids')  || '[]'));
+  const failed  = shuffle(pool.filter(q => failedIds.has(q.id)));
+  const neutral = shuffle(pool.filter(q => !failedIds.has(q.id) && !correctIds.has(q.id)));
+  const correct = shuffle(pool.filter(q => correctIds.has(q.id) && !failedIds.has(q.id)));
+  currentQuiz = shuffle([...failed, ...neutral, ...correct].slice(0, target));
+  currentIdx = 0; score = 0; answers = [];
+  document.getElementById('quiz-title').textContent = currentUnitTitle;
+  show('quiz');
+  renderQuestion();
+}
+
+function renderQuestion() {
+  const q = currentQuiz[currentIdx];
+  document.getElementById('q-counter').textContent = `Pregunta ${currentIdx + 1} de ${currentQuiz.length}`;
+  document.getElementById('q-score').textContent = `Aciertos: ${score}`;
+  document.getElementById('progress').style.width = `${(currentIdx / currentQuiz.length) * 100}%`;
+  document.getElementById('q-category').textContent = q.cat;
+  document.getElementById('q-text').textContent = q.q;
+  const opts = shuffle(q.opts);
+  const container = document.getElementById('q-options');
+  container.innerHTML = '';
+  opts.forEach(opt => {
+    const btn = document.createElement('button');
+    btn.className = 'option jp';
+    btn.textContent = opt.text;
+    btn.onclick = () => selectAnswer(btn, opt, q);
+    container.appendChild(btn);
+  });
+  document.getElementById('q-feedback').classList.add('hidden');
+  document.getElementById('next-btn').classList.add('hidden');
+}
+
+function selectAnswer(btn, chosen, q) {
+  const buttons = document.querySelectorAll('.option');
+  buttons.forEach(b => b.disabled = true);
+  const isCorrect = chosen.correct === true;
+  const feedback = document.getElementById('q-feedback');
+  feedback.classList.remove('hidden', 'right', 'wrong');
+  const correctText = (q.opts.find(o => o.correct === true) || {}).text || '';
+  const detailHtml = chosen.explanation
+    ? `<div class="feedback-detail"><div class="feedback-reason">${chosen.explanation}</div></div>` : '';
+  if (isCorrect) {
+    btn.classList.add('correct');
+    feedback.classList.add('right');
+    feedback.innerHTML = `<strong>✅ 正解！ (¡Correcto!)</strong>${detailHtml}`;
+    score++;
+  } else {
+    btn.classList.add('incorrect');
+    feedback.classList.add('wrong');
+    feedback.innerHTML = `<strong>❌ 不正解。</strong> La respuesta correcta era: <b class="jp">${correctText}</b>${detailHtml}`;
+    buttons.forEach(b => { if (b.textContent === correctText) b.classList.add('correct'); });
+  }
+  answers.push({id: q.id, q: q.q, chosen: chosen.text, correct: correctText, isCorrect});
+  document.getElementById('q-score').textContent = `Aciertos: ${score}`;
+  document.getElementById('next-btn').classList.remove('hidden');
+  document.getElementById('next-btn').textContent = (currentIdx === currentQuiz.length - 1) ? 'Ver resultado 🏁' : 'Siguiente →';
+}
+
+function nextQuestion() {
+  currentIdx++;
+  if (currentIdx >= currentQuiz.length) showResult();
+  else renderQuestion();
+}
+
+function showResult() {
+  const correctIds = new Set(JSON.parse(localStorage.getItem('nihongo_correct_ids') || '[]'));
+  const failedIds  = new Set(JSON.parse(localStorage.getItem('nihongo_failed_ids')  || '[]'));
+  answers.forEach(a => {
+    if (a.isCorrect) { correctIds.add(a.id); failedIds.delete(a.id); }
+    else             { failedIds.add(a.id);  correctIds.delete(a.id); }
+  });
+  localStorage.setItem('nihongo_correct_ids', JSON.stringify([...correctIds]));
+  localStorage.setItem('nihongo_failed_ids',  JSON.stringify([...failedIds]));
+  show('result');
+  const total = currentQuiz.length;
+  const wrong = total - score;
+  const pct = Math.round((score / total) * 100);
+  document.getElementById('final-score').textContent = `${score} / ${total}`;
+  document.getElementById('stat-right').textContent = score;
+  document.getElementById('stat-wrong').textContent = wrong;
+  document.getElementById('stat-pct').textContent = pct + '%';
+  let msg;
+  if (pct === 100) msg = "🌟 完璧！ ¡Perfecto!";
+  else if (pct >= 85) msg = "🎌 素晴らしい！ Excelente dominio del material.";
+  else if (pct >= 70) msg = "👍 よくできました。 Repasá lo que fallaste.";
+  else if (pct >= 50) msg = "💪 もう少し！ Seguí practicando el vocabulario.";
+  else msg = "📚 復習しましょう。 Repasá el resumen y volvé a intentarlo.";
+  document.getElementById('final-msg').textContent = msg;
+  const review = document.getElementById('review');
+  const wrongAns = answers.filter(a => !a.isCorrect);
+  if (wrongAns.length === 0) {
+    review.innerHTML = '<div style="text-align:center;padding:16px;color:#2D9348;font-weight:600;">🎉 ¡Ningún error! Perfecto.</div>';
+  } else {
+    review.innerHTML = '<div style="font-weight:600;margin-bottom:10px;">📝 Repaso de errores:</div>' +
+      wrongAns.map(a => `<div class="review-item"><div class="review-q jp">${a.q}</div><div class="review-a wrong-ans jp">Tu respuesta: ${a.chosen}</div><div class="review-a correct-ans jp">Correcta: ${a.correct}</div></div>`).join('');
+  }
+}
+
+function restart() { if (currentPool.length > 0) { show('quiz'); launchQuiz(currentPool); } }
+function backToMenu() { show('menu'); }
+function confirmBack() { if (confirm('¿Seguro que querés volver al menú? Se perderá el progreso actual.')) backToMenu(); }
+
+loadManifest();
+</script>
+<footer class="site-footer">
+  Desarrollado por
+  <a href="https://www.linkedin.com/in/sbadaro/" target="_blank" rel="noopener" class="footer-link">
+    Sebastián Badaró
+    <svg class="footer-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/>
+    </svg>
+  </a>
+</footer>
+<script src="nav.js"></script>
+</body>
+</html>
