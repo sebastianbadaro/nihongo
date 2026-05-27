@@ -617,13 +617,13 @@ function pickVariant(historia) {
 // =============================================================
 async function loadIndex() {
   try {
-    const res = await fetch('index.json');
+    const res = await fetch('listening/index.json');
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     indexData = await res.json();
     renderMenu();
   } catch (err) {
     document.getElementById('menu-content').innerHTML = `
-      <div class="error-box"><b>⚠️ No se pudo cargar index.json</b><br>${err.message}<br><br>
+      <div class="error-box"><b>⚠️ No se pudo cargar listening/index.json</b><br>${err.message}<br><br>
       Abrí el archivo desde un servidor local:<br><code>python3 -m http.server 8000</code></div>`;
   }
 }
@@ -696,7 +696,7 @@ function renderMenu() {
 
 function renderHistoriaCard(h) {
   return `<button class="historia-card" onclick="selectHistoria('${h.archivo}')">
-    <img class="historia-img" src="${h.imagen}" alt="${h.titulo_es}"
+    <img class="historia-img" src="listening/${h.imagen}" alt="${h.titulo_es}"
       onerror="this.onerror=null;this.style.display='none'">
     <div class="historia-overlay">
       <div class="historia-title-jp jp">${h.titulo}</div>
@@ -746,7 +746,7 @@ function toggleSubunidad(unidadId, subunidadId) {
 // =============================================================
 async function selectHistoria(archivo) {
   try {
-    const res = await fetch(archivo);
+    const res = await fetch('listening/' + archivo);
     if (!res.ok) throw new Error(`HTTP ${res.status} al cargar ${archivo}`);
     currentHistoria = await res.json();
     currentVariant  = pickVariant(currentHistoria);
@@ -770,7 +770,7 @@ function renderStoryScreen() {
   // Hero
   document.getElementById('story-hero-wrap').innerHTML = `
     <div class="story-hero">
-      <img class="story-hero-img" src="${h.imagen}" alt="${h.titulo_es}"
+      <img class="story-hero-img" src="listening/${h.imagen}" alt="${h.titulo_es}"
         onerror="this.onerror=null;this.style.display='none'">
       <div class="story-hero-overlay">
         <div class="story-hero-title jp">${h.titulo}</div>
@@ -780,7 +780,7 @@ function renderStoryScreen() {
     ${h.contexto ? `<p class="story-context jp">${h.contexto}</p>` : ''}`;
 
   // Audio player
-  renderAudioPlayer(v.archivo, h.config);
+  renderAudioPlayer('listening/' + v.archivo, h.config);
 
   // Questions
   renderQuestions(h.preguntas);
@@ -801,7 +801,7 @@ function renderStoryScreen() {
 let audioEl = null;
 
 function renderAudioPlayer(src, config) {
-  const speed = (config && config.velocidad_sugerida) || 1.0;
+  const speed = parseFloat(localStorage.getItem('nihongo_listening_speed') || (config && config.velocidad_sugerida) || 0.9);
   const wrap = document.getElementById('audio-player-wrap');
   wrap.innerHTML = `
     <div class="audio-player">
@@ -812,10 +812,10 @@ function renderAudioPlayer(src, config) {
           <div class="audio-time" id="audio-time">0:00 / 0:00</div>
         </div>
         <select class="speed-select" id="speed-sel" onchange="changeSpeed(this.value)" title="Velocidad">
-          <option value="0.75">0.75×</option>
-          <option value="0.9" ${speed === 0.9 ? 'selected' : ''}>0.9×</option>
-          <option value="1.0" ${speed === 1.0 ? 'selected' : ''}>1.0×</option>
-          <option value="1.25">1.25×</option>
+          <option value="0.75" ${speed === 0.75 ? 'selected' : ''}>0.75×</option>
+          <option value="0.9"  ${speed === 0.9  ? 'selected' : ''}>0.9×</option>
+          <option value="1.0"  ${speed === 1.0  ? 'selected' : ''}>1.0×</option>
+          <option value="1.25" ${speed === 1.25 ? 'selected' : ''}>1.25×</option>
         </select>
       </div>
       <div class="audio-track-wrap" id="track-wrap">
@@ -827,6 +827,7 @@ function renderAudioPlayer(src, config) {
 
   audioEl = document.getElementById('story-audio');
   audioEl.playbackRate = speed;
+  if (localStorage.getItem('nihongo_autoplay') === '1') audioEl.play().catch(() => {});
 
   audioEl.addEventListener('loadedmetadata', () => updateTime());
   audioEl.addEventListener('timeupdate', () => {
@@ -1099,6 +1100,6 @@ function confirmBack() {
 // =============================================================
 loadIndex();
 </script>
-<script src="../nav.js"></script>
+<script src="nav.js"></script>
 </body>
 </html>

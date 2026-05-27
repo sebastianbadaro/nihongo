@@ -1,12 +1,10 @@
 (function () {
-  const inListening = /\/listening\//.test(window.location.pathname);
-  const root = inListening ? '../' : '';
-
   const NAV_LINKS = [
-    { href: root + 'index.html',               label: 'Quiz',      icon: '📝', pat: /index\.html$|\/nihongo\/?$/ },
-    { href: root + 'listening/listening.html',  label: 'Listening', icon: '🎧', pat: /listening\.html/ },
-    { href: root + 'revision.html',             label: 'Revisión',  icon: '🔭', pat: /revision\.html/ },
-    { href: root + 'changelog.html',            label: 'Cambios',   icon: '📋', pat: /changelog\.html/ },
+    { href: 'index.html',      label: 'Quiz',           icon: '📝', pat: /index\.html$|\/nihongo\/?$/ },
+    { href: 'listening.html',  label: 'Listening',      icon: '🎧', pat: /listening\.html/ },
+    { href: 'revision.html',   label: 'Revisión',       icon: '🔭', pat: /revision\.html/ },
+    { href: 'changelog.html',  label: 'Cambios',        icon: '📋', pat: /changelog\.html/ },
+    { href: 'config.html',     label: 'Configuración',  icon: '⚙️', pat: /config\.html/ },
   ];
 
   const path = window.location.pathname;
@@ -178,11 +176,13 @@
     panel.classList.add('snav-open');
     backdrop.classList.add('snav-open');
     btn.setAttribute('aria-expanded', 'true');
+    btn.style.display = 'none';
   }
   function closeNav() {
     panel.classList.remove('snav-open');
     backdrop.classList.remove('snav-open');
     btn.setAttribute('aria-expanded', 'false');
+    btn.style.display = '';
   }
 
   btn.addEventListener('click', openNav);

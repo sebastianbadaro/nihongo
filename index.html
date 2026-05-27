@@ -630,7 +630,7 @@ updateToggleIcon(document.body.classList.contains('dark'));
 // =============================================================
 // CONFIGURACIÓN
 // =============================================================
-const QUIZ_SIZE = 30;
+function getQuizSize() { return parseInt(localStorage.getItem('nihongo_quiz_size') || '30', 10); }
 const MANIFEST_URL = './manifest.json';
 
 // =============================================================
@@ -690,6 +690,17 @@ async function loadManifest() {
 
 function renderUnitMenu() {
   const list = document.getElementById('unit-list');
+  const lastRaw = localStorage.getItem('nihongo_last_quiz');
+  const rememberOn = localStorage.getItem('nihongo_remember_unit') !== '0';
+  let continueBanner = '';
+  if (rememberOn && lastRaw) {
+    try {
+      const last = JSON.parse(lastRaw);
+      continueBanner = `<button class="unit-card" style="margin-bottom:12px;border-color:#c0392b20;background:var(--unit-card-hover-bg)" onclick="continueLastQuiz()">
+        <div><div class="unit-name">▶ Continuar</div><div class="unit-sub jp" style="color:var(--muted)">${last.label}</div></div>
+      </button>`;
+    } catch (_) {}
+  }
 
   if (allNiveles.length === 0) {
     // Fallback: lista plana
@@ -707,7 +718,7 @@ function renderUnitMenu() {
         <div class="unit-count">${totalQs} preguntas</div>
       </button>`;
     }
-    list.innerHTML = html + '</div>';
+    list.innerHTML = continueBanner + html + '</div>';
     return;
   }
 
@@ -765,7 +776,7 @@ function renderUnitMenu() {
   });
 
   html += '</div>'; // nivel-list
-  list.innerHTML = html;
+  list.innerHTML = continueBanner + html;
 }
 
 // =============================================================
@@ -789,6 +800,11 @@ function toggleUnidad(nivelId, unidadId) {
   document.getElementById('unidad-' + unidadId).classList.toggle('open');
 }
 
+function saveLastQuiz(data) {
+  if (localStorage.getItem('nihongo_remember_unit') !== '0')
+    localStorage.setItem('nihongo_last_quiz', JSON.stringify(data));
+}
+
 async function startMixedNivel(nivelId) {
   const nivel = allNiveles.find(n => n.id === nivelId);
   if (!nivel) return;
@@ -798,6 +814,7 @@ async function startMixedNivel(nivelId) {
     const allQs = [];
     await Promise.all(units.map(async u => { const qs = await fetchUnitQuestions(u); allQs.push(...qs); }));
     currentUnitTitle = '🎲 Mezcla — ' + nivel.nombre;
+    saveLastQuiz({ type: 'mixedNivel', nivelId, label: currentUnitTitle });
     launchQuiz(allQs);
   } catch (err) { alert('Error al cargar las unidades: ' + err.message); }
 }
@@ -811,6 +828,7 @@ async function startMixedUnidad(nivelId, unidadId) {
     const allQs = [];
     await Promise.all(units.map(async u => { const qs = await fetchUnitQuestions(u); allQs.push(...qs); }));
     currentUnitTitle = '🎲 Mezcla — ' + unidad.nombre;
+    saveLastQuiz({ type: 'mixedUnidad', nivelId, unidadId, label: currentUnitTitle });
     launchQuiz(allQs);
   } catch (err) { alert('Error al cargar las unidades: ' + err.message); }
 }
@@ -833,21 +851,32 @@ async function startUnit(unitId) {
   try {
     const questions = await fetchUnitQuestions(unit);
     currentUnitTitle = `${unit.nombre} · ${unit.subtitle}`;
+    saveLastQuiz({ type: 'unit', id: unitId, label: currentUnitTitle });
     launchQuiz(questions);
   } catch (err) {
     alert('Error al cargar la unidad: ' + err.message);
   }
 }
 
+async function continueLastQuiz() {
+  const raw = localStorage.getItem('nihongo_last_quiz');
+  if (!raw) return;
+  const s = JSON.parse(raw);
+  if (s.type === 'unit') startUnit(s.id);
+  else if (s.type === 'mixedNivel') startMixedNivel(s.nivelId);
+  else if (s.type === 'mixedUnidad') startMixedUnidad(s.nivelId, s.unidadId);
+  else if (s.type === 'mixed') startMixed();
+}
+
 async function startMixed() {
   try {
-    // Cargar todas las unidades en paralelo
     const allQs = [];
     await Promise.all(allUnits.map(async u => {
       const qs = await fetchUnitQuestions(u);
       allQs.push(...qs);
     }));
     currentUnitTitle = `🎲 Mezcla de todas las unidades (${allUnits.map(u=>u.nombre.replace('Unidad ','')).join(', ')})`;
+    saveLastQuiz({ type: 'mixed', label: currentUnitTitle });
     launchQuiz(allQs);
   } catch (err) {
     alert('Error al cargar las unidades: ' + err.message);
@@ -856,7 +885,7 @@ async function startMixed() {
 
 function launchQuiz(pool) {
   currentPool = pool;
-  const target = Math.min(QUIZ_SIZE, pool.length);
+  const target = Math.min(getQuizSize(), pool.length);
   const correctIds = new Set(JSON.parse(localStorage.getItem('nihongo_correct_ids') || '[]'));
   const failedIds  = new Set(JSON.parse(localStorage.getItem('nihongo_failed_ids')  || '[]'));
   const failed  = shuffle(pool.filter(q => failedIds.has(q.id)));
@@ -1003,7 +1032,7 @@ function confirmBack() {
 loadManifest();
 </script>
   <footer class="site-footer">
-  <a href="listening/listening.html" class="footer-link" style="margin-bottom:6px;display:inline-flex;" title="Quiz de comprensión auditiva">
+  <a href="listening.html" class="footer-link" style="margin-bottom:6px;display:inline-flex;" title="Quiz de comprensión auditiva">
     🎧 Listening Quiz
   </a>
   &nbsp;·&nbsp;
