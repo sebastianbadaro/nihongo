@@ -9,6 +9,7 @@ Quiz interactivo modular para estudiar japonés, basado en el material del curso
 ├── index.html          # Página de inicio — descripción del proyecto y navegación
 ├── quiz.html           # Quiz de vocabulario (app principal)
 ├── listening.html      # App de listening con comprensión auditiva
+├── shadowing.html      # App de shadowing con reproductor y transcript
 ├── revision.html       # Herramienta de revisión de preguntas
 ├── changelog.html      # Historial de cambios
 ├── config.html         # Configuración (modo oscuro, tamaño de quiz, etc.)
@@ -29,6 +30,14 @@ Quiz interactivo modular para estudiar japonés, basado en el material del curso
 │   │   └── {HISTORIA_ID}-v{NN}.mp3
 │   └── img/            # Imagen ilustrativa por historia (PNG)
 │       └── {HISTORIA_ID}.png
+├── shadowing/          # Recursos del módulo de shadowing
+│   ├── index.json      # Índice de niveles, unidades y audios
+│   ├── audio/          # Archivos MP3, uno por subunidad
+│   │   └── shadowing-{ID}.mp3
+│   ├── data/           # Transcripts en texto plano (vocabulario + frases)
+│   │   └── audio_{ID}_transcript.txt
+│   └── transcript/     # Scripts TTS con marcas de pausa (uso interno)
+│       └── audio_{ID}_tts.txt
 └── README.md
 ```
 
@@ -124,6 +133,49 @@ Por ejemplo, `unidades/u5a.json`. El formato es un array de preguntas:
 
 ---
 
+## 🎙️ Módulo de Shadowing
+
+### Cómo agregar un nuevo audio
+
+1. **Agregá el audio** en `shadowing/audio/shadowing-{ID}.mp3`.
+2. **Agregá el transcript** en `shadowing/data/audio_{ID}_transcript.txt` con el formato:
+
+```
+UNIDAD X-Y — Título
+
+[VOCABULARIO]
+
+palabra — traducción
+
+[FRASES]
+
+フレーズ。
+→ Traducción de la frase.
+```
+
+3. **Registrá el audio** en `shadowing/index.json` bajo la subunidad correcta:
+
+```json
+{
+  "id": "U5A-S01",
+  "nombre": "Unidad 5-A",
+  "titulo_jp": "ボキャブラリーと例文",
+  "titulo_es": "Vocabulario y frases",
+  "archivo_audio": "audio/shadowing-U5A.mp3",
+  "archivo_transcripcion": "data/audio_U5_5A_transcript.txt"
+}
+```
+
+### Audios actuales
+
+| ID      | Subunidad | Contenido              | Audio |
+|---------|-----------|------------------------|-------|
+| U5A-S01 | U5A       | Vocabulario y frases   | ✅    |
+| U5B-S01 | U5B       | Vocabulario y frases   | ✅    |
+| U5C-S01 | U5C       | Vocabulario y frases   | ✅    |
+
+---
+
 Listo, aparece automáticamente en el selector del quiz.
 
 ## 🚀 Deploy
@@ -170,6 +222,14 @@ npx serve .
 La cantidad de preguntas por sesión, la velocidad de audio predeterminada y otras opciones se configuran desde `config.html`.
 
 ## 📋 Changelog
+
+### 2026-06-01 — Módulo de Shadowing
+- Nueva página `shadowing.html`: práctica de pronunciación por imitación, menú acordeón Nivel → Unidad → Subunidad
+- Reproductor con bucle continuo y repetición A-B con indicador visual en la barra de progreso
+- Transcript colapsable (vocabulario + frases) con ícono de ojo; cargado desde `shadowing/data/`
+- 3 audios: Unidades 5A, 5B y 5C — Vocabulario y frases
+- `shadowing/index.json` para gestión escalable de contenido
+- Shadowing agregado a `index.html` y `nav.js`
 
 ### 2026-05-27 — Rediseño UI, landing page y reorganización de navegación
 - Rediseño visual completo estética "Ink & Paper": paleta cálida (crema/bermellón/dorado), tipografía Lora + Noto Serif JP + Noto Sans JP

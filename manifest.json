@@ -39,6 +39,12 @@
           "nombre": "Unidad 5",
           "subtitle": "Fin de semana, comidas y conectores",
           "subunidades": ["u5a", "u5b", "u5c"]
+        },
+        {
+          "id": "n2u6",
+          "nombre": "Unidad 6",
+          "subtitle": "Invitaciones y planes",
+          "subunidades": ["u6a"]
         }
       ]
     }
@@ -148,6 +154,13 @@
       "subtitle": "好き・ほしい・〜たい — Gustos, deseos y forma たい",
       "file": "unidades/u5c.json",
       "total": 60
+    },
+    {
+      "id": "u6a",
+      "nombre": "Unidad 6A",
+      "subtitle": "誘い・予定 — Invitaciones y planes",
+      "file": "unidades/u6a.json",
+      "total": 55
     }
   ]
 }

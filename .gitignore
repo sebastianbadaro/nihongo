@@ -1,0 +1,12 @@
+# Real Supabase credentials — never commit
+config.js
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local Supabase CLI data
+supabase/.branches/
+supabase/.temp/

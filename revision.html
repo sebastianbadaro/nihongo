@@ -3,214 +3,114 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline' https://esm.sh; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; media-src 'self'; connect-src 'self' https://*.supabase.co wss://*.supabase.co https://esm.sh; frame-ancestors 'none'">
   <title>Revisión — 日本語 Quiz</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23B5281C'/><text x='50' y='70' text-anchor='middle' font-size='56' fill='white' font-family='serif'>学</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;600&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --ink-bg: #F2EDE3;
-      --ink-surface: #FEFCF6;
-      --ink-card: #F8F4EC;
-      --ink-border: #DDD5C4;
-      --ink-red: #B5281C;
-      --ink-gold: #C4962A;
-      --ink-muted: #79726A;
-    }
-    .jp { font-family: 'Noto Serif JP', "Hiragino Sans", "Yu Gothic", "Meiryo", "MS Gothic", serif; }
-    mark { background: #FBF4E5; color: #7A5C0E; border-radius: 2px; padding: 0 2px; }
-
-    /* ── Light mode overrides ── */
-    body { background-color: var(--ink-bg) !important; font-family: 'Noto Sans JP', sans-serif; }
-    header { background-color: var(--ink-surface) !important; border-color: #E2D9C8 !important; }
-    h1 { font-family: 'Lora', Georgia, serif; color: var(--ink-red) !important; }
-    #counter { background-color: var(--ink-card) !important; color: var(--ink-muted) !important; }
-    #dark-btn, #back-link {
-      border-color: #DDD5C4 !important;
-      background-color: var(--ink-surface) !important;
-      color: var(--ink-muted) !important;
-    }
-    #dark-btn:hover, #back-link:hover { border-color: var(--ink-red) !important; color: var(--ink-red) !important; }
-    select, input[type="search"] {
-      background-color: var(--ink-surface) !important;
-      border-color: #DDD5C4 !important;
-    }
-    select:focus, input[type="search"]:focus {
-      --tw-ring-color: #B5281C !important;
-      border-color: var(--ink-red) !important;
-    }
-    .card {
-      background-color: var(--ink-surface) !important;
-      border-color: var(--ink-border) !important;
-    }
-    .question-text { color: #1C1917 !important; }
-    .unit-badge {
-      background-color: #FBF4E5 !important;
-      color: var(--ink-gold) !important;
-      font-weight: 700;
-    }
-    .cat-badge {
-      background-color: #FDF0EE !important;
-      color: var(--ink-red) !important;
-      font-weight: 700;
-    }
-    .q-num { color: var(--ink-muted) !important; }
-    .opt-correct { background-color: #EBF7EE !important; border-color: #2D9348 !important; }
-    .opt-correct .opt-icon { color: #2D9348 !important; }
-    .opt-correct .opt-text { color: #1A5C2E !important; }
-    .opt-wrong { background-color: var(--ink-card) !important; border-color: var(--ink-border) !important; }
-    .opt-wrong .opt-icon { color: #C4C0B8 !important; }
-    .opt-wrong .opt-text { color: var(--ink-muted) !important; }
-
-    /* ── Dark mode ── */
-    body.dark { background-color: #100F0D !important; color: #E8E0D0; }
-    body.dark header { background-color: #1C1A17 !important; border-color: #2E2A23 !important; }
-    body.dark h1 { color: #E05A45 !important; }
-    body.dark #counter { background-color: #231F1B !important; color: #8A8278 !important; }
-    body.dark #dark-btn, body.dark #back-link {
-      background-color: #231F1B !important;
-      border-color: #3A3530 !important;
-      color: #8A8278 !important;
-    }
-    body.dark select, body.dark input[type="search"] {
-      background-color: #231F1B !important;
-      border-color: #3A3530 !important;
-      color: #E8E0D0 !important;
-      color-scheme: dark;
-    }
-    body.dark #loading, body.dark #empty { color: #8A8278; }
-    body.dark .card { background-color: #1C1A17 !important; border-color: #3A3530 !important; }
-    body.dark .question-text { color: #E8E0D0 !important; }
-    body.dark .unit-badge { background-color: rgba(196,150,42,0.15) !important; color: #D4A840 !important; }
-    body.dark .cat-badge  { background-color: rgba(224,90,69,0.15) !important; color: #F0A090 !important; }
-    body.dark .q-num { color: #5A5550 !important; }
-    body.dark .opt-correct { background-color: rgba(45,147,72,0.15) !important; border-color: #2D9348 !important; }
-    body.dark .opt-correct .opt-icon { color: #4ade80 !important; }
-    body.dark .opt-correct .opt-text { color: #86efac !important; }
-    body.dark .opt-wrong { background-color: rgba(58,53,48,0.5) !important; border-color: #3A3530 !important; }
-    body.dark .opt-wrong .opt-icon { color: #4A4540 !important; }
-    body.dark .opt-wrong .opt-text { color: #8A8278 !important; }
-    body.dark mark { background: #251F0E; color: #D4A840; }
-    body.dark .opt-reason { opacity: 0.75; }
-    body.dark .opt-correct .opt-reason { color: #86efac !important; }
-    body.dark .opt-wrong   .opt-reason { color: #5A5550 !important; }
-  </style>
+  <link rel="stylesheet" href="nihongo.css">
 </head>
-<body class="min-h-screen transition-colors duration-200">
+<body class="page-app">
 <script>
-  if (localStorage.getItem('darkMode') === '1') document.body.classList.add('dark');
+(function(){
+  const old = localStorage.getItem('darkMode');
+  if (old !== null && !localStorage.getItem('nihongo_theme')) {
+    localStorage.setItem('nihongo_theme', old === '1' ? 'dark' : 'light');
+  }
+  if (localStorage.getItem('nihongo_theme') === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+})();
 </script>
 
-  <!-- HEADER + FILTROS (sticky) -->
-  <header class="bg-white border-b border-gray-200 shadow-sm sticky top-0 z-20 transition-colors duration-200">
-    <div class="max-w-7xl mx-auto px-4 py-3 space-y-3">
+<div class="container-card">
 
-      <div class="flex items-center justify-between gap-4">
-        <div style="padding-left:46px">
-          <h1 class="text-lg font-bold text-red-700 leading-tight">日本語 Quiz — Revisión de preguntas</h1>
-          <p class="text-xs text-gray-400">Dekiru Nihongo</p>
-        </div>
-        <div class="flex items-center gap-2 shrink-0">
-          <span id="counter"
-            class="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded-full whitespace-nowrap">
-            Cargando…
-          </span>
-          <button id="dark-btn" onclick="toggleDark()" title="Modo nocturno"
-            class="border border-gray-300 rounded-full w-9 h-9 flex items-center justify-center text-base bg-white text-gray-500 hover:border-gray-400 transition-colors">
-          </button>
-          <a id="back-link" href="quiz.html" title="Volver al quiz"
-            class="border border-gray-300 rounded-full px-3 py-1 text-sm bg-white text-gray-500 hover:border-gray-400 transition-colors whitespace-nowrap">
-            ← Quiz
-          </a>
-        </div>
-      </div>
-
-      <div class="flex flex-wrap gap-2">
-        <select id="unit-select"
-          class="border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-red-300 min-w-[200px]">
-          <option value="all">📚 Todas las unidades</option>
-        </select>
-
-        <input id="search" type="search" placeholder="🔍  Buscar pregunta, respuesta u opción…"
-          class="border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-red-300 flex-1 min-w-[240px]">
-
-        <select id="cat-select"
-          class="border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-red-300 min-w-[200px]">
-          <option value="all">🏷  Todas las categorías</option>
-        </select>
-      </div>
-
-    </div>
+  <header>
+    <a href="quiz.html" class="back-btn">← Volver al quiz</a>
+    <h1 class="page-title">Revisión de preguntas</h1>
+    <div class="page-subtitle">日本語 Quiz — Dekiru Nihongo</div>
   </header>
 
-  <!-- CONTENIDO -->
-  <main class="max-w-7xl mx-auto px-4 py-6">
+  <!-- Filters -->
+  <div class="rev-filter-bar">
+    <select id="unit-select" class="btn-ghost rev-select">
+      <option value="all">Todas las unidades</option>
+    </select>
+    <input id="search" type="search" class="btn-ghost rev-search"
+      placeholder="Buscar pregunta, respuesta u opción…">
+    <select id="cat-select" class="btn-ghost rev-select">
+      <option value="all">Todas las categorías</option>
+    </select>
+  </div>
+  <div style="margin-bottom:var(--space-4)">
+    <span id="counter" class="rev-counter">Cargando…</span>
+  </div>
 
-    <div id="error-box"
-      class="hidden bg-red-50 border border-red-200 text-red-800 rounded-xl p-4 mb-5 text-sm leading-relaxed">
-    </div>
+  <!-- States -->
+  <div id="error-box" class="rev-error-box hidden"></div>
 
-    <div id="loading" class="text-center py-24 text-gray-400">
-      <div class="text-4xl mb-3 animate-pulse">⏳</div>
-      <div class="text-base">Cargando preguntas…</div>
-    </div>
+  <div id="loading" class="rev-state">
+    <span class="rev-state-icon">⏳</span>
+    <div class="rev-state-title">Cargando preguntas…</div>
+  </div>
 
-    <div id="empty" class="hidden text-center py-24 text-gray-400">
-      <div class="text-5xl mb-4">🔍</div>
-      <div id="empty-title" class="text-lg font-medium">Sin resultados</div>
-      <div id="empty-sub" class="text-sm mt-1">Probá cambiando los filtros o la búsqueda.</div>
-    </div>
+  <div id="empty" class="rev-state hidden">
+    <span class="rev-state-icon">🔍</span>
+    <div id="empty-title" class="rev-state-title">Sin resultados</div>
+    <div id="empty-sub" class="rev-state-sub">Probá cambiando los filtros o la búsqueda.</div>
+  </div>
 
-    <div id="grid" class="hidden grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4"></div>
-    <div id="sentinel" class="h-4 mt-4"></div>
+  <div id="grid" class="rev-grid hidden"></div>
+  <div id="sentinel" style="height:4px;margin-top:var(--space-4)"></div>
 
-  </main>
+  <footer class="site-footer">
+    Desarrollado por <a href="https://www.linkedin.com/in/sbadaro/" target="_blank" rel="noopener" class="footer-link">
+      Sebastián Badaró
+      <svg class="footer-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/>
+      </svg>
+    </a>
+  </footer>
 
-  <script>
-  // ================================================================
-  // DARK MODE
-  // ================================================================
-  function toggleDark() {
-    const isDark = document.body.classList.toggle('dark');
-    document.getElementById('dark-btn').textContent = isDark ? '☀️' : '🌙';
-    localStorage.setItem('darkMode', isDark ? '1' : '0');
-  }
+</div>
 
-  document.getElementById('dark-btn').textContent =
-    document.body.classList.contains('dark') ? '☀️' : '🌙';
+<script>
+const RevisionApp = {
+  allQuestions:  [],
+  filtered:      [],
+  manifestUnits: [],
+  loadedUnitIds: new Set(),
+  isLoadingAll:  false,
+  renderOffset:  0,
+  PAGE_SIZE:     50,
 
-  // ================================================================
-  // ESTADO
-  // ================================================================
-  let allQuestions  = [];
-  let filtered      = [];
-  let manifestUnits = [];
-  let loadedUnitIds = new Set();
-  let isLoadingAll  = false;
-  let renderOffset  = 0;
-  const PAGE_SIZE   = 50;
+  async init() {
+    const unitSelect = document.getElementById('unit-select');
+    const catSelect  = document.getElementById('cat-select');
+    const searchEl   = document.getElementById('search');
 
-  const unitSelect = document.getElementById('unit-select');
-  const catSelect  = document.getElementById('cat-select');
-  const searchEl   = document.getElementById('search');
-  const counterEl  = document.getElementById('counter');
-  const gridEl     = document.getElementById('grid');
-  const loadingEl  = document.getElementById('loading');
-  const emptyEl    = document.getElementById('empty');
-  const errorBox   = document.getElementById('error-box');
-  const emptyTitle = document.getElementById('empty-title');
-  const emptySub   = document.getElementById('empty-sub');
+    unitSelect.addEventListener('change', () => {
+      catSelect.value = 'all';
+      RevisionApp.applyFilters();
+      RevisionApp.loadSelected();
+    });
+    catSelect.addEventListener('change', () => RevisionApp.applyFilters());
+    searchEl.addEventListener('input', () => {
+      if (unitSelect.value === 'all' && !RevisionApp.isLoadingAll) RevisionApp.loadSelected();
+      RevisionApp.applyFilters();
+    });
 
-  // ================================================================
-  // CARGA PEREZOSA
-  // ================================================================
-  async function init() {
+    new IntersectionObserver(
+      entries => { if (entries[0].isIntersecting) RevisionApp.renderNextPage(); },
+      { rootMargin: '400px' }
+    ).observe(document.getElementById('sentinel'));
+
     try {
       const res = await fetch('./manifest.json');
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const { unidades = [] } = await res.json();
-      manifestUnits = unidades;
+      RevisionApp.manifestUnits = unidades;
 
       unidades.forEach(u => {
         const opt = document.createElement('option');
@@ -220,91 +120,95 @@
       });
 
     } catch (err) {
-      showError(
-        `No se pudo cargar <code class="bg-red-100 px-1 rounded">manifest.json</code>: ${esc(err.message)}<br><br>
+      RevisionApp.showError(
+        `No se pudo cargar <code>manifest.json</code>: ${RevisionApp.esc(err.message)}<br><br>
          Corré un servidor local:<br>
-         <code class="bg-red-100 px-1 rounded">python3 -m http.server 8000</code>
-         → <code class="bg-red-100 px-1 rounded">http://localhost:8000/revision.html</code>`
+         <code>python3 -m http.server 8000</code>
+         → <code>http://localhost:8000/revision.html</code>`
       );
     } finally {
-      loadingEl.classList.add('hidden');
-      applyFilters();
+      document.getElementById('loading').classList.add('hidden');
+      RevisionApp.applyFilters();
     }
-  }
+  },
 
-  async function ensureUnitLoaded(unitId) {
-    if (loadedUnitIds.has(unitId)) return;
-    const unit = manifestUnits.find(u => u.id === unitId);
+  async ensureUnitLoaded(unitId) {
+    if (RevisionApp.loadedUnitIds.has(unitId)) return;
+    const unit = RevisionApp.manifestUnits.find(u => u.id === unitId);
     if (!unit) return;
 
     const res = await fetch(unit.file);
     if (!res.ok) throw new Error(`HTTP ${res.status} al cargar ${unit.file}`);
     const questions = await res.json();
     questions.forEach((q, i) => {
-      allQuestions.push({
-        unitId:      unit.id,
-        unitName:    unit.nombre,
-        qid:         q.id          || (unit.id.toUpperCase() + '-' + String(i + 1).padStart(3, '0')),
-        cat:         q.cat         || '—',
-        q:           q.q           || '',
-        correct:     (Array.isArray(q.opts) ? (q.opts.find(o => o.correct === true) || {}).text : '') || '',
-        opts:        Array.isArray(q.opts) ? q.opts : [],
+      RevisionApp.allQuestions.push({
+        unitId:   unit.id,
+        unitName: unit.nombre,
+        qid:      q.id || (unit.id.toUpperCase() + '-' + String(i + 1).padStart(3, '0')),
+        cat:      q.cat  || '—',
+        q:        q.q    || '',
+        correct:  (Array.isArray(q.opts) ? (q.opts.find(o => o.correct === true) || {}).text : '') || '',
+        opts:     Array.isArray(q.opts) ? q.opts : [],
       });
     });
-    loadedUnitIds.add(unitId);
-  }
+    RevisionApp.loadedUnitIds.add(unitId);
+  },
 
-  async function loadSelected() {
-    const unitVal = unitSelect.value;
+  async loadSelected() {
+    const unitVal = document.getElementById('unit-select').value;
 
     if (unitVal !== 'all') {
-      if (loadedUnitIds.has(unitVal)) return;
+      if (RevisionApp.loadedUnitIds.has(unitVal)) return;
       try {
-        await ensureUnitLoaded(unitVal);
-      } catch (err) { showError(esc(err.message)); }
-      applyFilters();
+        await RevisionApp.ensureUnitLoaded(unitVal);
+      } catch (err) { RevisionApp.showError(RevisionApp.esc(err.message)); }
+      RevisionApp.applyFilters();
       return;
     }
 
-    // "Todas" — carga progresiva unidad por unidad
-    if (isLoadingAll) return;
-    const unloaded = manifestUnits.filter(u => !loadedUnitIds.has(u.id));
+    if (RevisionApp.isLoadingAll) return;
+    const unloaded = RevisionApp.manifestUnits.filter(u => !RevisionApp.loadedUnitIds.has(u.id));
     if (unloaded.length === 0) return;
 
-    isLoadingAll = true;
+    RevisionApp.isLoadingAll = true;
     for (const unit of unloaded) {
-      setCounter(`Cargando ${unit.nombre}…`);
-      try { await ensureUnitLoaded(unit.id); } catch (err) { showError(esc(err.message)); }
-      applyFilters();
+      RevisionApp.setCounter(`Cargando ${unit.nombre}…`);
+      try { await RevisionApp.ensureUnitLoaded(unit.id); } catch (err) { RevisionApp.showError(RevisionApp.esc(err.message)); }
+      RevisionApp.applyFilters();
     }
-    isLoadingAll = false;
-  }
+    RevisionApp.isLoadingAll = false;
+  },
 
-  // ================================================================
-  // FILTROS
-  // ================================================================
-  function applyFilters() {
+  applyFilters() {
+    const unitSelect = document.getElementById('unit-select');
+    const catSelect  = document.getElementById('cat-select');
+    const searchEl   = document.getElementById('search');
+    const gridEl     = document.getElementById('grid');
+    const loadingEl  = document.getElementById('loading');
+    const emptyEl    = document.getElementById('empty');
+    const emptyTitle = document.getElementById('empty-title');
+    const emptySub   = document.getElementById('empty-sub');
+
     const unitVal   = unitSelect.value;
     const catVal    = catSelect.value;
     const searchVal = searchEl.value.trim().toLowerCase();
 
-    // Unidad específica aún no cargada → mostrar spinner
-    if (unitVal !== 'all' && !loadedUnitIds.has(unitVal)) {
+    if (unitVal !== 'all' && !RevisionApp.loadedUnitIds.has(unitVal)) {
       loadingEl.classList.remove('hidden');
       emptyEl.classList.add('hidden');
       gridEl.classList.add('hidden');
-      setCounter('Cargando…');
+      RevisionApp.setCounter('Cargando…');
       return;
     }
     loadingEl.classList.add('hidden');
 
-    rebuildCatSelect(unitVal);
+    RevisionApp.rebuildCatSelect(unitVal);
 
     const pool = unitVal === 'all'
-      ? allQuestions
-      : allQuestions.filter(q => q.unitId === unitVal);
+      ? RevisionApp.allQuestions
+      : RevisionApp.allQuestions.filter(q => q.unitId === unitVal);
 
-    filtered = pool.filter(q => {
+    RevisionApp.filtered = pool.filter(q => {
       if (catVal !== 'all' && q.cat !== catVal) return false;
       if (searchVal) {
         const optTexts = q.opts.map(o => typeof o === 'object' ? (o.text || '') + ' ' + (o.explanation || '') : o);
@@ -314,20 +218,20 @@
       return true;
     });
 
-    const loaded = loadedUnitIds.size;
-    const total  = manifestUnits.length;
+    const loaded = RevisionApp.loadedUnitIds.size;
+    const total  = RevisionApp.manifestUnits.length;
     if (loaded === 0) {
-      setCounter('Seleccioná una unidad para comenzar');
+      RevisionApp.setCounter('Seleccioná una unidad para comenzar');
     } else if (loaded < total && unitVal === 'all') {
-      setCounter(`${filtered.length.toLocaleString()} preguntas · ${loaded}/${total} unidades cargadas`);
+      RevisionApp.setCounter(`${RevisionApp.filtered.length.toLocaleString()} preguntas · ${loaded}/${total} unidades cargadas`);
     } else {
-      setCounter(`${filtered.length.toLocaleString()} de ${allQuestions.length.toLocaleString()} preguntas`);
+      RevisionApp.setCounter(`${RevisionApp.filtered.length.toLocaleString()} de ${RevisionApp.allQuestions.length.toLocaleString()} preguntas`);
     }
 
-    renderOffset = 0;
+    RevisionApp.renderOffset = 0;
     gridEl.innerHTML = '';
 
-    if (filtered.length === 0) {
+    if (RevisionApp.filtered.length === 0) {
       emptyEl.classList.remove('hidden');
       gridEl.classList.add('hidden');
       if (loaded === 0) {
@@ -342,15 +246,18 @@
 
     emptyEl.classList.add('hidden');
     gridEl.classList.remove('hidden');
-    renderNextPage();
-  }
+    RevisionApp.renderNextPage();
+  },
 
-  function rebuildCatSelect(unitVal) {
-    const current = catSelect.value;
-    const pool    = unitVal === 'all' ? allQuestions : allQuestions.filter(q => q.unitId === unitVal);
-    const cats    = [...new Set(pool.map(q => q.cat))].sort((a, b) => a.localeCompare(b));
+  rebuildCatSelect(unitVal) {
+    const catSelect = document.getElementById('cat-select');
+    const current   = catSelect.value;
+    const pool      = unitVal === 'all'
+      ? RevisionApp.allQuestions
+      : RevisionApp.allQuestions.filter(q => q.unitId === unitVal);
+    const cats = [...new Set(pool.map(q => q.cat))].sort((a, b) => a.localeCompare(b));
 
-    catSelect.innerHTML = '<option value="all">🏷  Todas las categorías</option>';
+    catSelect.innerHTML = '<option value="all">Todas las categorías</option>';
     cats.forEach(c => {
       const opt = document.createElement('option');
       opt.value = c;
@@ -358,135 +265,106 @@
       if (c === current) opt.selected = true;
       catSelect.appendChild(opt);
     });
-  }
+  },
 
-  // ================================================================
-  // RENDER PAGINADO + INFINITE SCROLL
-  // ================================================================
-  function renderNextPage() {
-    if (renderOffset >= filtered.length) return;
-    const q    = searchEl.value.trim().toLowerCase();
-    const page = filtered.slice(renderOffset, renderOffset + PAGE_SIZE);
-    page.forEach(item => gridEl.appendChild(buildCard(item, q)));
-    renderOffset += page.length;
-  }
+  renderNextPage() {
+    const gridEl = document.getElementById('grid');
+    if (RevisionApp.renderOffset >= RevisionApp.filtered.length) return;
+    const q    = document.getElementById('search').value.trim().toLowerCase();
+    const page = RevisionApp.filtered.slice(RevisionApp.renderOffset, RevisionApp.renderOffset + RevisionApp.PAGE_SIZE);
+    page.forEach(item => gridEl.appendChild(RevisionApp.buildCard(item, q)));
+    RevisionApp.renderOffset += page.length;
+  },
 
-  new IntersectionObserver(
-    entries => { if (entries[0].isIntersecting) renderNextPage(); },
-    { rootMargin: '400px' }
-  ).observe(document.getElementById('sentinel'));
-
-  function buildCard(item, searchVal) {
+  buildCard(item, searchVal) {
     const card = document.createElement('div');
-    card.className = 'card bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow flex flex-col gap-3 p-4';
+    card.className = 'card';
 
     const header = document.createElement('div');
-    header.className = 'flex items-start justify-between gap-2';
+    header.className = 'card-header-row';
     header.innerHTML = `
-      <div class="flex flex-wrap gap-1.5">
-        <span class="unit-badge text-xs font-semibold bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full">${esc(item.unitName)}</span>
-        <span class="cat-badge text-xs font-semibold bg-violet-100 text-violet-700 px-2 py-0.5 rounded-full">${esc(item.cat)}</span>
+      <div class="card-badges">
+        <span class="unit-badge">${RevisionApp.esc(item.unitName)}</span>
+        <span class="cat-badge">${RevisionApp.esc(item.cat)}</span>
       </div>
-      <span class="q-num text-xs font-mono text-gray-400 whitespace-nowrap">${item.qid}</span>
+      <span class="q-num">${item.qid}</span>
     `;
 
     const question = document.createElement('div');
-    question.className = 'question-text jp text-base font-semibold text-gray-800 leading-snug';
-    question.innerHTML = highlight(item.q, searchVal);
+    question.className = 'question-text jp';
+    question.innerHTML = RevisionApp.highlight(item.q, searchVal);
 
     const opts = document.createElement('div');
-    opts.className = 'flex flex-col gap-1.5';
-    item.opts.forEach(opt => opts.appendChild(buildOption(opt, item.correct, searchVal)));
+    opts.className = 'opts-list';
+    item.opts.forEach(opt => opts.appendChild(RevisionApp.buildOption(opt, item.correct, searchVal)));
 
     card.appendChild(header);
     card.appendChild(question);
     card.appendChild(opts);
-
     return card;
-  }
+  },
 
-  function buildOption(opt, correct, searchVal) {
-    const el = document.createElement('div');
-    const optText    = typeof opt === 'object' ? (opt.text   || '') : opt;
-    const optExplanation = typeof opt === 'object' ? (opt.explanation || '') : '';
-    const isCorrect  = typeof opt === 'object' ? opt.correct === true : opt === correct;
+  buildOption(opt, correct, searchVal) {
+    const el        = document.createElement('div');
+    const optText   = typeof opt === 'object' ? (opt.text        || '') : opt;
+    const optExpl   = typeof opt === 'object' ? (opt.explanation || '') : '';
+    const isCorrect = typeof opt === 'object' ? opt.correct === true : opt === correct;
 
-    el.className = isCorrect
-      ? 'opt-correct flex items-start gap-2 bg-green-50 border border-green-300 rounded-lg px-3 py-1.5'
-      : 'opt-wrong flex items-start gap-2 bg-gray-50 border border-gray-200 rounded-lg px-3 py-1.5';
+    el.className = isCorrect ? 'opt-correct' : 'opt-wrong';
 
     const icon = document.createElement('span');
-    icon.className = isCorrect
-      ? 'opt-icon text-green-600 font-bold text-sm shrink-0 mt-0.5'
-      : 'opt-icon text-gray-300 text-sm shrink-0 mt-0.5';
+    icon.className = 'opt-icon';
     icon.textContent = isCorrect ? '✓' : '○';
 
     const body = document.createElement('div');
-    body.className = 'flex flex-col gap-0.5';
+    body.className = 'opt-body';
 
     const text = document.createElement('span');
-    text.className = isCorrect
-      ? 'opt-text jp text-sm font-semibold text-green-800'
-      : 'opt-text jp text-sm text-gray-500';
-    text.innerHTML = highlight(optText, searchVal);
+    text.className = 'opt-text jp';
+    text.innerHTML = RevisionApp.highlight(optText, searchVal);
     body.appendChild(text);
 
-    if (optExplanation) {
+    if (optExpl) {
       const reason = document.createElement('span');
-      reason.className = isCorrect
-        ? 'opt-reason text-xs text-green-700 opacity-80'
-        : 'opt-reason text-xs text-gray-400';
-      reason.innerHTML = highlight(optExplanation, searchVal);
+      reason.className = 'opt-reason';
+      reason.innerHTML = RevisionApp.highlight(optExpl, searchVal);
       body.appendChild(reason);
     }
 
     el.appendChild(icon);
     el.appendChild(body);
     return el;
-  }
+  },
 
-  // ================================================================
-  // HELPERS
-  // ================================================================
-  function esc(str) {
+  esc(str) {
     return String(str)
       .replace(/&/g, '&amp;').replace(/</g, '&lt;')
       .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-  }
+  },
 
-  function highlight(text, query) {
-    const escaped = esc(text);
+  highlight(text, query) {
+    const escaped = RevisionApp.esc(text);
     if (!query) return escaped;
     const safe = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     return escaped.replace(new RegExp(`(${safe})`, 'gi'), '<mark>$1</mark>');
-  }
+  },
 
-  function showError(html) {
-    errorBox.innerHTML = `<b>⚠️ Error</b><br>${html}`;
-    errorBox.classList.remove('hidden');
-  }
+  showError(html) {
+    const box = document.getElementById('error-box');
+    box.innerHTML = `<strong>Error al cargar datos</strong><br>${html}`;
+    box.classList.remove('hidden');
+  },
 
-  function setCounter(text) { counterEl.textContent = text; }
+  setCounter(text) {
+    const el = document.getElementById('counter');
+    if (el) el.textContent = text;
+  },
+};
 
-  // ================================================================
-  // EVENTOS
-  // ================================================================
-  unitSelect.addEventListener('change', () => {
-    catSelect.value = 'all';
-    applyFilters();
-    loadSelected();
-  });
-  catSelect.addEventListener('change', applyFilters);
-  searchEl.addEventListener('input', () => {
-    if (unitSelect.value === 'all' && !isLoadingAll) loadSelected();
-    applyFilters();
-  });
-
-  // ================================================================
-  // INICIO
-  // ================================================================
-  init();
-  </script>
+RevisionApp.init();
+</script>
+<script src="config.js"></script>
+<script src="supabase-client.js"></script>
 <script src="nav.js"></script>
 </body>
 </html>

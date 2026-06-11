@@ -3,335 +3,103 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline' https://esm.sh; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; media-src 'self'; connect-src 'self' https://*.supabase.co wss://*.supabase.co https://esm.sh; frame-ancestors 'none'">
 <title>日本語 Quiz — Dekiru Nihongo</title>
 <meta name="description" content="Herramienta de estudio independiente basada en できる日本語. Quiz de vocabulario, listening, revisión de preguntas y más.">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23B5281C'/><text x='50' y='70' text-anchor='middle' font-size='56' fill='white' font-family='serif'>学</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Sans+JP:wght@400;500;600&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --bg: #F2EDE3;
-    --text: #1C1917;
-    --container-bg: #FEFCF6;
-    --shadow: rgba(28,25,23,0.08);
-    --shadow-hover: rgba(28,25,23,0.15);
-    --header-border: #E2D9C8;
-    --muted: #79726A;
-    --divider: #E2D9C8;
-    --card-bg: #F8F4EC;
-    --card-border: #DDD5C4;
-    --footer-color: #A09588;
-    --footer-link: #79726A;
-    --accent: #B5281C;
-    --accent-warm: #E05A45;
-    --gold: #C4962A;
-    --gold-bg: #FBF4E5;
-    --legal-bg: #F8F4EC;
-    --legal-border: #DDD5C4;
-  }
-  body.dark {
-    --bg: #100F0D;
-    --text: #E8E0D0;
-    --container-bg: #1C1A17;
-    --shadow: rgba(0,0,0,0.50);
-    --shadow-hover: rgba(0,0,0,0.70);
-    --header-border: #2E2A23;
-    --muted: #8A8278;
-    --divider: #2E2A23;
-    --card-bg: #231F1B;
-    --card-border: #3A3530;
-    --footer-color: #5A5550;
-    --footer-link: #8A8278;
-    --accent: #E05A45;
-    --accent-warm: #F0A090;
-    --gold: #D4A840;
-    --gold-bg: #2A2318;
-    --legal-bg: #1A1814;
-    --legal-border: #2E2A23;
-  }
-
-  *, *::before, *::after { box-sizing: border-box; }
-
-  body {
-    margin: 0;
-    font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    min-height: 100vh;
-    transition: background 0.3s, color 0.3s;
-  }
-
-  .container {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 0 20px 64px;
-  }
-
-  /* ── Header ── */
-  header {
-    text-align: center;
-    padding: 52px 20px 40px;
-    border-bottom: 1px solid var(--header-border);
-    margin-bottom: 48px;
-    position: relative;
-    overflow: hidden;
-  }
-  header::before {
-    content: '学';
-    position: absolute;
-    right: -8px;
-    top: -28px;
-    font-family: 'Noto Serif JP', serif;
-    font-size: 9em;
-    color: var(--accent);
-    opacity: 0.05;
-    pointer-events: none;
-    user-select: none;
-    line-height: 1;
-    font-weight: 700;
-  }
-
-  .header-badge {
-    display: inline-block;
-    font-size: 0.7em;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--gold);
-    background: var(--gold-bg);
-    border: 1px solid var(--card-border);
-    border-radius: 20px;
-    padding: 4px 14px;
-    margin-bottom: 16px;
-  }
-
-  header h1 {
-    font-family: 'Lora', 'Noto Serif JP', Georgia, serif;
-    font-size: 2.4em;
-    font-weight: 700;
-    color: var(--accent);
-    margin: 0 0 8px;
-    letter-spacing: -0.02em;
-    line-height: 1.15;
-  }
-
-  .header-jp {
-    font-family: 'Noto Serif JP', serif;
-    font-size: 1em;
-    color: var(--muted);
-    margin: 0 0 14px;
-    letter-spacing: 0.06em;
-  }
-
-  .header-desc {
-    font-size: 0.92em;
-    color: var(--muted);
-    max-width: 480px;
-    margin: 0 auto;
-    line-height: 1.7;
-  }
-
-  .dark-toggle {
-    position: absolute;
-    top: 20px; right: 0;
-    width: 34px; height: 34px;
-    border-radius: 50%;
-    border: 1.5px solid var(--header-border);
-    background: var(--container-bg);
-    cursor: pointer; font-size: 15px;
-    display: flex; align-items: center; justify-content: center;
-    transition: border-color 0.2s;
-  }
-  .dark-toggle:hover { border-color: var(--accent); }
-
-  /* ── Section title ── */
-  .section-title {
-    font-size: 0.68em;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin: 0 0 18px;
-  }
-
-  /* ── Feature cards ── */
-  .cards-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 14px;
-    margin-bottom: 48px;
-  }
-  @media (max-width: 520px) {
-    .cards-grid { grid-template-columns: 1fr; }
-    header h1 { font-size: 1.8em; }
-  }
-
-  .card {
-    display: flex;
-    flex-direction: column;
-    background: var(--container-bg);
-    border: 1px solid var(--card-border);
-    border-radius: 12px;
-    padding: 22px 22px 18px;
-    text-decoration: none;
-    color: inherit;
-    box-shadow: 0 1px 5px var(--shadow);
-    transition: box-shadow 0.2s, border-color 0.2s, transform 0.18s;
-    position: relative;
-    overflow: hidden;
-  }
-  .card::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 2px;
-    background: var(--accent);
-    opacity: 0;
-    transition: opacity 0.2s;
-  }
-  .card:hover {
-    box-shadow: 0 4px 16px var(--shadow-hover);
-    border-color: var(--accent);
-    transform: translateY(-2px);
-  }
-  .card:hover::before { opacity: 1; }
-
-  .card-icon {
-    font-size: 1.6em;
-    margin-bottom: 10px;
-    line-height: 1;
-  }
-  .card-title {
-    font-family: 'Lora', Georgia, serif;
-    font-size: 1em;
-    font-weight: 700;
-    color: var(--accent);
-    margin: 0 0 6px;
-  }
-  .card-desc {
-    font-size: 0.82em;
-    color: var(--muted);
-    line-height: 1.55;
-    flex: 1;
-    margin: 0;
-  }
-  .card-arrow {
-    margin-top: 14px;
-    font-size: 0.8em;
-    font-weight: 600;
-    color: var(--accent);
-    letter-spacing: 0.02em;
-  }
-
-  /* ── Legal section ── */
-  .legal-section {
-    background: var(--legal-bg);
-    border: 1px solid var(--legal-border);
-    border-radius: 12px;
-    padding: 28px 28px 24px;
-    margin-bottom: 32px;
-  }
-  .legal-section h2 {
-    font-family: 'Lora', Georgia, serif;
-    font-size: 0.95em;
-    font-weight: 700;
-    color: var(--text);
-    margin: 0 0 16px;
-    padding-bottom: 12px;
-    border-bottom: 1px solid var(--divider);
-  }
-  .legal-block {
-    margin-bottom: 16px;
-  }
-  .legal-block:last-child { margin-bottom: 0; }
-  .legal-label {
-    font-size: 0.68em;
-    font-weight: 700;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 5px;
-  }
-  .legal-text {
-    font-size: 0.82em;
-    color: var(--muted);
-    line-height: 1.65;
-    margin: 0;
-  }
-  .legal-text a {
-    color: var(--accent);
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: border-color 0.2s;
-  }
-  .legal-text a:hover { border-bottom-color: var(--accent); }
-
-  /* ── Footer ── */
-  .site-footer {
-    text-align: center;
-    padding: 24px 16px 16px;
-    font-size: 0.8em;
-    color: var(--footer-color);
-    border-top: 1px solid var(--divider);
-  }
-  .footer-link {
-    color: var(--footer-link);
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: color 0.2s, border-color 0.2s;
-  }
-  .footer-link:hover { color: var(--accent); border-bottom-color: var(--accent); }
-</style>
+<link rel="stylesheet" href="nihongo.css">
 </head>
 <body>
 <script>
-  if (localStorage.getItem('darkMode') === '1') document.body.classList.add('dark');
+(function(){
+  /* Migrate old darkMode key → nihongo_theme on first load */
+  const old = localStorage.getItem('darkMode');
+  if (old !== null && !localStorage.getItem('nihongo_theme')) {
+    localStorage.setItem('nihongo_theme', old === '1' ? 'dark' : 'light');
+  }
+  if (localStorage.getItem('nihongo_theme') === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+})();
 </script>
 
 <div class="container">
-  <header>
+  <header style="padding-top: var(--space-12); padding-bottom: var(--space-10); margin-bottom: var(--space-12);">
     <div class="header-badge">できる日本語 · Dekiru Nihongo</div>
-    <h1>日本語 Quiz</h1>
+    <h1 style="font-family:var(--font-display);font-size:var(--text-4xl);font-weight:var(--weight-bold);color:var(--color-accent-quiz);margin:0 0 var(--space-2);letter-spacing:var(--tracking-tight);line-height:var(--leading-tight);">日本語 Quiz</h1>
     <div class="header-jp">独立した学習ツール</div>
     <p class="header-desc">
       Herramienta de estudio independiente para practicar vocabulario, gramática y comprensión auditiva del japonés.
     </p>
-    <button class="dark-toggle" id="dark-btn" onclick="toggleDark()" title="Modo nocturno"></button>
   </header>
+
+  <!-- Progress summary — visible only when there is stored progress -->
+  <div id="progress-summary" class="progress-summary hidden">
+    <div class="section-title">Progreso</div>
+    <div class="progress-rows">
+      <div class="progress-row">
+        <span class="progress-row-label">Quiz</span>
+        <div class="progress-bar"><div class="progress-fill" id="prog-quiz-bar" style="width:0%"></div></div>
+        <span class="progress-row-stat" id="prog-quiz-stat">0 / 1400</span>
+      </div>
+      <div class="progress-row">
+        <span class="progress-row-label">Listening</span>
+        <div class="progress-bar"><div class="progress-fill" id="prog-listen-bar" style="width:0%"></div></div>
+        <span class="progress-row-stat" id="prog-listen-stat">0 / 6</span>
+      </div>
+      <div class="progress-row">
+        <span class="progress-row-label">Shadowing</span>
+        <div class="progress-bar"><div class="progress-fill" id="prog-shadow-bar" style="width:0%"></div></div>
+        <span class="progress-row-stat" id="prog-shadow-stat">0 / 3</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Login nudge — shown when not logged in, hidden when logged in -->
+  <div id="login-nudge" class="login-nudge" aria-live="polite"></div>
 
   <div class="section-title">Herramientas</div>
   <div class="cards-grid">
     <a href="quiz.html" class="card">
-      <div class="card-icon">📝</div>
+      <div class="card-icon" aria-hidden="true">📝</div>
       <div class="card-title">Quiz de vocabulario</div>
       <p class="card-desc">Preguntas de opción múltiple sobre vocabulario y gramática. El sistema recuerda tus aciertos y errores entre sesiones.</p>
       <div class="card-arrow">Empezar →</div>
     </a>
 
     <a href="listening.html" class="card">
-      <div class="card-icon">🎧</div>
+      <div class="card-icon" aria-hidden="true">🎧</div>
       <div class="card-title">Listening</div>
       <p class="card-desc">Historias de audio con quiz de comprensión. Reproductor con control de velocidad y transcript colapsable.</p>
       <div class="card-arrow">Escuchar →</div>
     </a>
 
+    <a href="shadowing.html" class="card">
+      <div class="card-icon" aria-hidden="true">🎙️</div>
+      <div class="card-title">Shadowing</div>
+      <p class="card-desc">Audio para imitar y practicar pronunciación. Reproductor con bucle, repetición A-B y transcript con vocabulario y frases.</p>
+      <div class="card-arrow">Practicar →</div>
+    </a>
+
     <a href="revision.html" class="card">
-      <div class="card-icon">🔭</div>
+      <div class="card-icon" aria-hidden="true">🔭</div>
       <div class="card-title">Revisión</div>
       <p class="card-desc">Buscá y filtrá todas las preguntas por texto o categoría. Útil para repasar un tema específico.</p>
       <div class="card-arrow">Revisar →</div>
     </a>
 
     <a href="changelog.html" class="card">
-      <div class="card-icon">📋</div>
+      <div class="card-icon" aria-hidden="true">📋</div>
       <div class="card-title">Historial de cambios</div>
       <p class="card-desc">Registro de nuevas unidades, historias y mejoras incorporadas al proyecto.</p>
       <div class="card-arrow">Ver cambios →</div>
     </a>
 
     <a href="config.html" class="card">
-      <div class="card-icon">⚙️</div>
+      <div class="card-icon" aria-hidden="true">⚙️</div>
       <div class="card-title">Configuración</div>
       <p class="card-desc">Modo oscuro, cantidad de preguntas por sesión, velocidad de audio y otras preferencias.</p>
       <div class="card-arrow">Configurar →</div>
@@ -345,7 +113,7 @@
       <p class="legal-text">
         Este proyecto nació de mi propio camino aprendiendo japonés. Lo creé porque buscaba una manera más práctica de afianzar lo que iba estudiando: ejercicios concretos, feedback inmediato y un recorrido alineado con el material que uso como guía.
       </p>
-      <p class="legal-text" style="margin-top:8px;">
+      <p class="legal-text">
         Lo comparto de forma abierta por si a alguien más le resulta útil. Si estás estudiando japonés, espero que te acompañe tanto como me acompaña a mí.
       </p>
     </div>
@@ -369,7 +137,7 @@
       <p class="legal-text">
         Este es un recurso educativo independiente y no oficial. No está afiliado, respaldado ni patrocinado por Bonjinsha (凡人社) ni por ninguno de sus colaboradores. Todos los derechos del material original (できる日本語) pertenecen a sus respectivos titulares.
       </p>
-      <p class="legal-text" style="margin-top:8px;">
+      <p class="legal-text">
         El proyecto no reproduce contenido protegido del libro: las preguntas, los ejercicios y el audio fueron elaborados de manera independiente, con fines de estudio y práctica personal.
       </p>
     </div>
@@ -385,21 +153,126 @@
   <footer class="site-footer">
     Desarrollado por <a href="https://www.linkedin.com/in/sbadaro/" target="_blank" rel="noopener" class="footer-link">
       Sebastián Badaró
-      <svg style="width:13px;height:13px;vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24" aria-hidden="true">
+      <svg class="footer-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
         <path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/>
       </svg>
     </a>
   </footer>
 </div>
 
+<script src="config.js"></script>
+<script src="supabase-client.js"></script>
 <script>
-  function toggleDark() {
-    const dark = document.body.classList.toggle('dark');
-    localStorage.setItem('darkMode', dark ? '1' : '0');
-    document.getElementById('dark-btn').textContent = dark ? '☀️' : '🌙';
+const ThemeApp = {
+  moonSVG: '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>',
+  sunSVG:  '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>',
+
+  toggle() {
+    const isDark = document.documentElement.getAttribute('data-theme') !== 'dark';
+    document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
+    localStorage.setItem('nihongo_theme', isDark ? 'dark' : 'light');
+    ThemeApp._updateBtn(isDark);
+  },
+
+  _updateBtn(isDark) {
+    const btn = document.getElementById('dark-btn');
+    if (!btn) return;
+    btn.innerHTML = isDark ? ThemeApp.sunSVG : ThemeApp.moonSVG;
+    btn.setAttribute('aria-label', isDark ? 'Activar modo claro' : 'Activar modo oscuro');
   }
-  document.getElementById('dark-btn').textContent =
-    document.body.classList.contains('dark') ? '☀️' : '🌙';
+};
+
+ThemeApp._updateBtn(document.documentElement.getAttribute('data-theme') === 'dark');
+
+/* Progress summary */
+(function() {
+  const correctIds = JSON.parse(localStorage.getItem('nihongo_correct_ids') || '[]');
+  const failedIds  = JSON.parse(localStorage.getItem('nihongo_failed_ids')  || '[]');
+  const quizSeen   = correctIds.length + failedIds.length;
+
+  const listenRaw   = localStorage.getItem('nihongo_listening_seen');
+  const listenStore = listenRaw ? JSON.parse(listenRaw) : {};
+  const listenSeen  = Object.keys(listenStore).length;
+
+  const shadowRaw  = localStorage.getItem('nihongo_shadowing_seen');
+  const shadowSeen = shadowRaw ? JSON.parse(shadowRaw).length : 0;
+
+  if (quizSeen === 0 && listenSeen === 0 && shadowSeen === 0) return;
+
+  document.getElementById('progress-summary').classList.remove('hidden');
+
+  const setProg = (barId, statId, seen, total) => {
+    document.getElementById(barId).style.width = Math.min(100, Math.round((seen / total) * 100)) + '%';
+    document.getElementById(statId).textContent = seen + ' / ' + total;
+  };
+
+  setProg('prog-quiz-bar',   'prog-quiz-stat',   quizSeen,   1400);
+  setProg('prog-listen-bar', 'prog-listen-stat', listenSeen, 6);
+  setProg('prog-shadow-bar', 'prog-shadow-stat', shadowSeen, 3);
+})();
+
+/* Supabase integration — merge remote progress + show/hide login nudge */
+(window.supabaseReady || Promise.resolve(null)).then(function (sc) {
+  var nudgeEl = document.getElementById('login-nudge');
+
+  if (!sc) return; /* offline mode — nudge stays hidden */
+
+  sc.getUser().then(function (user) {
+    _updateNudge(user);
+  });
+  sc.onAuthChange(function (_evt, user) {
+    _updateNudge(user);
+  });
+
+  function _googleIconSVG() {
+    return '<svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true" style="flex-shrink:0"><path fill="#ffffff" d="M23.745 12.27c0-.79-.07-1.54-.19-2.27h-11.3v4.51h6.47c-.29 1.48-1.14 2.73-2.4 3.58v3h3.86c2.26-2.09 3.56-5.17 3.56-8.82z"/><path fill="#ffffff" d="M12.255 24c3.24 0 5.95-1.08 7.93-2.91l-3.86-3c-1.08.72-2.45 1.16-4.07 1.16-3.13 0-5.78-2.11-6.73-4.96h-3.98v3.09C3.515 21.3 7.615 24 12.255 24z"/><path fill="#ffffff" d="M5.525 14.29c-.25-.72-.38-1.49-.38-2.29s.14-1.57.38-2.29V6.62h-3.98a11.86 11.86 0 0 0 0 10.76l3.98-3.09z"/><path fill="#ffffff" d="M12.255 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C18.205 1.19 15.495 0 12.255 0c-4.64 0-8.74 2.7-10.71 6.62l3.98 3.09c.95-2.85 3.6-4.96 6.73-4.96z"/></svg>';
+  }
+
+  function _updateNudge(user) {
+    if (!nudgeEl) return;
+    if (user) {
+      var name = (user.user_metadata && (user.user_metadata.full_name || user.user_metadata.name)) || 'vos';
+      var firstName = name.split(' ')[0];
+      nudgeEl.className = 'login-nudge nudge-visible';
+      nudgeEl.innerHTML =
+        '<div class="login-nudge-synced">✓ Progreso sincronizado — Hola, ' +
+        firstName.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') +
+        '!</div>';
+
+      /* Merge remote progress */
+      sc.loadProgress().then(function (rows) {
+        if (!rows || rows.length === 0) return;
+        var remoteCorrect = new Set(rows.reduce(function (acc, p) { return acc.concat(p.correct_ids || []); }, []));
+        var remoteFailed  = new Set(rows.reduce(function (acc, p) { return acc.concat(p.failed_ids  || []); }, []));
+        var localCorrect  = new Set(JSON.parse(localStorage.getItem('nihongo_correct_ids') || '[]'));
+        var localFailed   = new Set(JSON.parse(localStorage.getItem('nihongo_failed_ids')  || '[]'));
+        var mergedFailed  = new Set([...remoteFailed, ...localFailed]);
+        var mergedCorrect = new Set([...remoteCorrect, ...localCorrect].filter(function (id) { return !mergedFailed.has(id); }));
+        var quizSeen = mergedCorrect.size + mergedFailed.size;
+        if (quizSeen === 0) return;
+        document.getElementById('progress-summary').classList.remove('hidden');
+        var bar  = document.getElementById('prog-quiz-bar');
+        var stat = document.getElementById('prog-quiz-stat');
+        if (bar)  bar.style.width  = Math.min(100, Math.round((quizSeen / 1400) * 100)) + '%';
+        if (stat) stat.textContent = quizSeen + ' / 1400';
+      });
+    } else {
+      nudgeEl.className = 'login-nudge nudge-visible';
+      nudgeEl.innerHTML =
+        '<div class="login-nudge-card">' +
+          '<p class="login-nudge-title">Guardá tu progreso</p>' +
+          '<p class="login-nudge-desc">Tu avance está guardado solo en este dispositivo. Iniciá sesión para sincronizarlo en todos tus dispositivos y no perderlo nunca.</p>' +
+          '<button class="login-nudge-google-btn" id="nudge-login-btn">' +
+            _googleIconSVG() +
+            'Iniciar sesión con Google' +
+          '</button>' +
+        '</div>';
+      document.getElementById('nudge-login-btn').addEventListener('click', function () {
+        window.SupabaseClient && window.SupabaseClient.loginWithGoogle();
+      });
+    }
+  }
+});
 </script>
 <script src="nav.js"></script>
 </body>

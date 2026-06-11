@@ -1,0 +1,64 @@
+{
+  "schema": "dekiru-shadowing/index-v1",
+  "descripcion": "Índice del sistema de shadowing. Agregar un audio = agregar una entrada en 'audios' bajo la subunidad correcta.",
+  "niveles": [
+    {
+      "nivel": "1",
+      "nombre": "Nivel 1",
+      "unidades": [
+        {
+          "id": "n1u5",
+          "nombre": "Unidad 5",
+          "titulo": "Actividades pasadas y tiempo libre",
+          "subunidades": [
+            {
+              "id": "U5A",
+              "nombre": "Unidad 5A",
+              "titulo": "Vocabulario y frases",
+              "audios": [
+                {
+                  "id": "U5A-S01",
+                  "nombre": "Unidad 5-A",
+                  "titulo_jp": "ボキャブラリーと例文",
+                  "titulo_es": "Vocabulario y frases",
+                  "archivo_audio": "audio/shadowing-U5A.mp3",
+                  "archivo_transcripcion": "data/audio_U5_5A_transcript.txt"
+                }
+              ]
+            },
+            {
+              "id": "U5B",
+              "nombre": "Unidad 5B",
+              "titulo": "Vocabulario y frases",
+              "audios": [
+                {
+                  "id": "U5B-S01",
+                  "nombre": "Unidad 5-B",
+                  "titulo_jp": "ボキャブラリーと例文",
+                  "titulo_es": "Vocabulario y frases",
+                  "archivo_audio": "audio/shadowing-U5B.mp3",
+                  "archivo_transcripcion": "data/audio_U5_5B_transcript.txt"
+                }
+              ]
+            },
+            {
+              "id": "U5C",
+              "nombre": "Unidad 5C",
+              "titulo": "Vocabulario y frases",
+              "audios": [
+                {
+                  "id": "U5C-S01",
+                  "nombre": "Unidad 5-C",
+                  "titulo_jp": "ボキャブラリーと例文",
+                  "titulo_es": "Vocabulario y frases",
+                  "archivo_audio": "audio/shadowing-U5C.mp3",
+                  "archivo_transcripcion": "data/audio_U5_5C_transcript.txt"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

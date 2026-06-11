@@ -1,0 +1,1487 @@
+[
+  {
+    "id": "U6A-001",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 試合?",
+    "opts": [
+      {
+        "text": "しあい",
+        "correct": true,
+        "explanation": "試 (し, on'yomi) + 合 (あい, kun de 合う 'juntarse') = しあい, 'partido/encuentro'. Correcta. Es lectura mixta (on+kun)."
+      },
+      {
+        "text": "しごう",
+        "correct": false,
+        "explanation": "合 se lee ごう en compuestos como 合同（ごうどう）, pero en 試合 toma あい."
+      },
+      {
+        "text": "こころみあい",
+        "correct": false,
+        "explanation": "こころみ es kun de 試 (試みる). En 試合 se usa la on'yomi し."
+      },
+      {
+        "text": "しあわせ",
+        "correct": false,
+        "explanation": "しあわせ es 幸せ ('felicidad'), palabra distinta que solo suena parecida."
+      }
+    ]
+  },
+  {
+    "id": "U6A-002",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 地図?",
+    "opts": [
+      {
+        "text": "ちず",
+        "correct": true,
+        "explanation": "地 (ち) + 図 (ず) = ちず, 'mapa'. Correcta. Ambas on'yomi; 図 toma ず, no と, en este compuesto."
+      },
+      {
+        "text": "じず",
+        "correct": false,
+        "explanation": "地 se lee じ en 地震（じしん）, pero en 地図 es ち."
+      },
+      {
+        "text": "ちと",
+        "correct": false,
+        "explanation": "図 se lee と en 図書館（としょかん）, pero en 地図 es ず."
+      },
+      {
+        "text": "じめん",
+        "correct": false,
+        "explanation": "じめん es 地面 ('superficie del suelo'), otro compuesto distinto."
+      }
+    ]
+  },
+  {
+    "id": "U6A-003",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 水着?",
+    "opts": [
+      {
+        "text": "みずぎ",
+        "correct": true,
+        "explanation": "水 (みず, kun) + 着 (ぎ, de き 着る con rendaku) = みずぎ, 'traje de baño'. Correcta. Literalmente 'ropa de agua'."
+      },
+      {
+        "text": "すいぎ",
+        "correct": false,
+        "explanation": "水 se lee すい en 水曜日（すいようび）, pero acá toma la kun みず."
+      },
+      {
+        "text": "みずき",
+        "correct": false,
+        "explanation": "Falta el rendaku: 着 pasa de き → ぎ por estar en composición (みず+き → みずぎ)."
+      },
+      {
+        "text": "みずちゃく",
+        "correct": false,
+        "explanation": "ちゃく es la on'yomi de 着 (到着 とうちゃく). En 水着 se usa la kun ぎ."
+      }
+    ]
+  },
+  {
+    "id": "U6A-004",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 野球?",
+    "opts": [
+      {
+        "text": "やきゅう",
+        "correct": true,
+        "explanation": "野 (や) + 球 (きゅう) = やきゅう, 'béisbol'. Correcta. Literalmente 'pelota de campo'."
+      },
+      {
+        "text": "のきゅう",
+        "correct": false,
+        "explanation": "野 se lee の en 野原（のはら）, pero en 野球 toma la on'yomi や."
+      },
+      {
+        "text": "やたま",
+        "correct": false,
+        "explanation": "たま es kun de 球 ('bola'). En 野球 se usa la on'yomi きゅう."
+      },
+      {
+        "text": "やきゅ",
+        "correct": false,
+        "explanation": "Falta la vocal larga: 球 es きゅう (con う), no きゅ corta."
+      }
+    ]
+  },
+  {
+    "id": "U6A-005",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 約束?",
+    "opts": [
+      {
+        "text": "やくそく",
+        "correct": true,
+        "explanation": "約 (やく) + 束 (そく) = やくそく, 'promesa/compromiso'. Correcta. Ambas on'yomi."
+      },
+      {
+        "text": "やくたば",
+        "correct": false,
+        "explanation": "たば es kun de 束 ('manojo'). En 約束 se usa la on'yomi そく."
+      },
+      {
+        "text": "やくしょく",
+        "correct": false,
+        "explanation": "束 es そく, no しょく. しょく correspondería a otros kanji (色, 食…)."
+      },
+      {
+        "text": "さんそく",
+        "correct": false,
+        "explanation": "約 se lee やく, no さん. No comparte lectura con 三 (さん)."
+      }
+    ]
+  },
+  {
+    "id": "U6A-006",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 用事?",
+    "opts": [
+      {
+        "text": "ようじ",
+        "correct": true,
+        "explanation": "用 (よう) + 事 (じ) = ようじ, 'asuntos/cosas que hacer'. Correcta. Ambas on'yomi."
+      },
+      {
+        "text": "ようごと",
+        "correct": false,
+        "explanation": "ごと es kun de 事 (出来事 できごと). En 用事 se usa la on'yomi じ."
+      },
+      {
+        "text": "よじ",
+        "correct": false,
+        "explanation": "Falta la vocal larga de 用 (よう). Además よじ es 4時 ('las 4')."
+      },
+      {
+        "text": "もちじ",
+        "correct": false,
+        "explanation": "もち es kun de 用 (用いる もちいる). En 用事 se usa la on'yomi よう."
+      }
+    ]
+  },
+  {
+    "id": "U6A-007",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 一緒に?",
+    "opts": [
+      {
+        "text": "いっしょに",
+        "correct": true,
+        "explanation": "一 (いっ, con sokuon) + 緒 (しょ) + に = いっしょに, 'juntos'. Correcta. El 一 toma いっ ante consonante sorda."
+      },
+      {
+        "text": "いちしょに",
+        "correct": false,
+        "explanation": "El 一 sufre sokuon ante し: いち → いっ. La forma natural es いっしょ."
+      },
+      {
+        "text": "いっちょに",
+        "correct": false,
+        "explanation": "緒 se lee しょ, no ちょ."
+      },
+      {
+        "text": "ひとしょに",
+        "correct": false,
+        "explanation": "ひと es kun de 一. En 一緒 se usa la lectura いっ."
+      }
+    ]
+  },
+  {
+    "id": "U6A-008",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 残念?",
+    "opts": [
+      {
+        "text": "ざんねん",
+        "correct": true,
+        "explanation": "残 (ざん) + 念 (ねん) = ざんねん, 'qué lástima'. Correcta. Ambas on'yomi."
+      },
+      {
+        "text": "のこりねん",
+        "correct": false,
+        "explanation": "のこ-る es kun de 残. En 残念 se usa la on'yomi ざん."
+      },
+      {
+        "text": "さんねん",
+        "correct": false,
+        "explanation": "残 lleva dakuten: ざん, no さん. さんねん sería 3年 ('3 años')."
+      },
+      {
+        "text": "ざんめん",
+        "correct": false,
+        "explanation": "念 es ねん, no めん. めん correspondería a 面 ('cara/superficie')."
+      }
+    ]
+  },
+  {
+    "id": "U6A-009",
+    "cat": "Kanji → Lectura",
+    "q": "¿Cómo se lee 2枚 (contador)?",
+    "opts": [
+      {
+        "text": "にまい",
+        "correct": true,
+        "explanation": "2 (に) + 枚 (まい) = にまい, '2 (objetos planos)'. Correcta. 枚 cuenta cosas planas (entradas, hojas, fotos) y no tiene lecturas irregulares."
+      },
+      {
+        "text": "にめい",
+        "correct": false,
+        "explanation": "めい es el contador 名 (para personas). Para objetos planos se usa 枚（まい）."
+      },
+      {
+        "text": "にひら",
+        "correct": false,
+        "explanation": "ひら no es lectura de 枚. El contador 枚 se lee siempre まい."
+      },
+      {
+        "text": "ふたまい",
+        "correct": false,
+        "explanation": "Con el contador 枚 se usa la serie sino-japonesa: に, no la nativa ふた."
+      }
+    ]
+  },
+  {
+    "id": "U6A-010",
+    "cat": "Katakana",
+    "q": "¿Qué significa カラオケ?",
+    "opts": [
+      {
+        "text": "Karaoke",
+        "correct": true,
+        "explanation": "カラオケ = karaoke. Correcta. Palabra japonesa (空 kara 'vacío' + オーケストラ) que el mundo adoptó."
+      },
+      {
+        "text": "Caramelo",
+        "correct": false,
+        "explanation": "'Caramelo' sería キャラメル. カラオケ es 'karaoke'."
+      },
+      {
+        "text": "Calendario",
+        "correct": false,
+        "explanation": "'Calendario' es カレンダー. No confundir con カラオケ."
+      },
+      {
+        "text": "Cámara",
+        "correct": false,
+        "explanation": "'Cámara' es カメラ. カラオケ es 'karaoke'."
+      }
+    ]
+  },
+  {
+    "id": "U6A-011",
+    "cat": "Katakana",
+    "q": "¿Qué significa コンサート?",
+    "opts": [
+      {
+        "text": "Concierto",
+        "correct": true,
+        "explanation": "コンサート = concierto (del inglés 'concert'). Correcta. Música en vivo."
+      },
+      {
+        "text": "Concurso",
+        "correct": false,
+        "explanation": "'Concurso' sería コンクール o コンテスト. コンサート es 'concierto'."
+      },
+      {
+        "text": "Contrato",
+        "correct": false,
+        "explanation": "'Contrato' es 契約（けいやく）. コンサート es 'concierto'."
+      },
+      {
+        "text": "Convención",
+        "correct": false,
+        "explanation": "コンサート es específicamente un 'concierto' de música."
+      }
+    ]
+  },
+  {
+    "id": "U6A-012",
+    "cat": "Katakana",
+    "q": "¿Qué significa チケット?",
+    "opts": [
+      {
+        "text": "Entrada / boleto",
+        "correct": true,
+        "explanation": "チケット = entrada/boleto (del inglés 'ticket'). Correcta. Se cuenta con ～枚."
+      },
+      {
+        "text": "Cocina",
+        "correct": false,
+        "explanation": "'Cocina' es キッチン o 台所（だいどころ）. チケット es 'entrada'."
+      },
+      {
+        "text": "Chaqueta",
+        "correct": false,
+        "explanation": "'Chaqueta' es ジャケット. Suena parecido pero チケット es 'entrada/boleto'."
+      },
+      {
+        "text": "Cheque",
+        "correct": false,
+        "explanation": "'Cheque' es 小切手（こぎって）o チェック. チケット es 'entrada'."
+      }
+    ]
+  },
+  {
+    "id": "U6A-013",
+    "cat": "Katakana",
+    "q": "¿Qué significa セール?",
+    "opts": [
+      {
+        "text": "Oferta / liquidación",
+        "correct": true,
+        "explanation": "セール = oferta/liquidación (del inglés 'sale'). Correcta. Ej: サマーセール = liquidación de verano."
+      },
+      {
+        "text": "Sal",
+        "correct": false,
+        "explanation": "'Sal' es 塩（しお）. セール es 'oferta/sale'."
+      },
+      {
+        "text": "Silla",
+        "correct": false,
+        "explanation": "'Silla' es いす. セール es 'oferta/liquidación'."
+      },
+      {
+        "text": "Seguro",
+        "correct": false,
+        "explanation": "'Seguro' es 保険（ほけん）. セール es 'oferta'."
+      }
+    ]
+  },
+  {
+    "id": "U6A-014",
+    "cat": "Katakana",
+    "q": "¿Qué significa ドライブ?",
+    "opts": [
+      {
+        "text": "Paseo en auto",
+        "correct": true,
+        "explanation": "ドライブ = paseo en auto (del inglés 'drive'). Correcta. En japonés es el paseo recreativo, no 'manejar' en general."
+      },
+      {
+        "text": "Bebida",
+        "correct": false,
+        "explanation": "'Bebida' es 飲み物（のみもの）o ドリンク. ドライブ es 'paseo en auto'."
+      },
+      {
+        "text": "Sequía",
+        "correct": false,
+        "explanation": "ドライブ es 'paseo en auto', no tiene relación con clima."
+      },
+      {
+        "text": "Cajón / gaveta",
+        "correct": false,
+        "explanation": "ドライブ es 'paseo en auto'. No confundir con muebles."
+      }
+    ]
+  },
+  {
+    "id": "U6A-015",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 約束（やくそく）?",
+    "opts": [
+      {
+        "text": "Promesa, compromiso, cita",
+        "correct": true,
+        "explanation": "約束 = compromiso/cita acordada con alguien. Correcta. Se usa para rechazar: 約束があります = 'ya tengo un compromiso'."
+      },
+      {
+        "text": "Permiso",
+        "correct": false,
+        "explanation": "'Permiso' es 許可（きょか）. 約束 es 'compromiso/promesa'."
+      },
+      {
+        "text": "Reserva",
+        "correct": false,
+        "explanation": "'Reserva' es 予約（よやく）— se parece pero 約束 es 'promesa/compromiso'."
+      },
+      {
+        "text": "Recuerdo",
+        "correct": false,
+        "explanation": "'Recuerdo' es 思い出（おもいで）. 約束 es 'compromiso'."
+      }
+    ]
+  },
+  {
+    "id": "U6A-016",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 用事（ようじ）?",
+    "opts": [
+      {
+        "text": "Asuntos pendientes, cosas que hacer",
+        "correct": true,
+        "explanation": "用事 = cosas/asuntos que atender. Correcta. Excusa cortés y vaga para rechazar: 用事がありますから."
+      },
+      {
+        "text": "Trabajo (empleo)",
+        "correct": false,
+        "explanation": "'Trabajo/empleo' es 仕事（しごと）. 用事 son 'asuntos puntuales', no el empleo."
+      },
+      {
+        "text": "Horario",
+        "correct": false,
+        "explanation": "'Horario' es 時間割（じかんわり）o スケジュール. 用事 son 'asuntos que hacer'."
+      },
+      {
+        "text": "Aviso",
+        "correct": false,
+        "explanation": "'Aviso' es お知らせ. 用事 son 'cosas que hacer'."
+      }
+    ]
+  },
+  {
+    "id": "U6A-017",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa 残念（ざんねん）?",
+    "opts": [
+      {
+        "text": "Qué lástima, qué pena",
+        "correct": true,
+        "explanation": "残念（な）= lamentable. Correcta. Se dice al recibir un rechazo: 残念です。じゃ、また今度。"
+      },
+      {
+        "text": "Qué alivio",
+        "correct": false,
+        "explanation": "'Qué alivio' sería よかった o 安心. 残念 expresa decepción, no alivio."
+      },
+      {
+        "text": "Qué sorpresa",
+        "correct": false,
+        "explanation": "'Qué sorpresa' es びっくり. 残念 es 'qué lástima'."
+      },
+      {
+        "text": "Qué aburrido",
+        "correct": false,
+        "explanation": "'Aburrido' es つまらない. 残念 expresa decepción por algo que no se pudo."
+      }
+    ]
+  },
+  {
+    "id": "U6A-018",
+    "cat": "Vocabulario",
+    "q": "¿Qué significa la frase また今度（またこんど）?",
+    "opts": [
+      {
+        "text": "Para la próxima / otra vez será",
+        "correct": true,
+        "explanation": "また (otra vez) + 今度 (próxima vez). Correcta. La dice quien invitó, tras recibir un rechazo, para cerrar amablemente."
+      },
+      {
+        "text": "Hasta luego (hoy)",
+        "correct": false,
+        "explanation": "'Hasta luego' es またあとで. また今度 apunta a una próxima ocasión futura, no a hoy."
+      },
+      {
+        "text": "Una vez más (ahora)",
+        "correct": false,
+        "explanation": "今度 no significa 'ahora de nuevo', sino 'la próxima vez'."
+      },
+      {
+        "text": "Hace tiempo",
+        "correct": false,
+        "explanation": "また今度 mira al futuro ('la próxima'), no al pasado."
+      }
+    ]
+  },
+  {
+    "id": "U6A-019",
+    "cat": "Vocabulario",
+    "q": "En el contexto de esta unidad, ¿qué expresa あります en 用事があります?",
+    "opts": [
+      {
+        "text": "Tener un compromiso / haber algo que atender",
+        "correct": true,
+        "explanation": "あります aquí expresa 'tener' un asunto o evento (no un objeto físico). Correcta. Patrón: N が あります con eventos/planes."
+      },
+      {
+        "text": "Estar en un lugar",
+        "correct": false,
+        "explanation": "Ese sería el uso locativo (机の上にあります). Acá expresa 'tener un asunto', no ubicación."
+      },
+      {
+        "text": "Hacer",
+        "correct": false,
+        "explanation": "'Hacer' es します. あります expresa existencia/posesión de un plan, no la acción."
+      },
+      {
+        "text": "Querer",
+        "correct": false,
+        "explanation": "'Querer' sería 〜たい o ほしい. あります expresa que un compromiso existe."
+      }
+    ]
+  },
+  {
+    "id": "U6A-020",
+    "cat": "Español → Japonés",
+    "q": "¿Cómo se dice 'traje de baño' en japonés?",
+    "opts": [
+      {
+        "text": "水着（みずぎ）",
+        "correct": true,
+        "explanation": "水 (agua) + 着 (ropa) = みずぎ. Correcta."
+      },
+      {
+        "text": "洋服（ようふく）",
+        "correct": false,
+        "explanation": "洋服 = ropa occidental en general. 'Traje de baño' es 水着."
+      },
+      {
+        "text": "浴衣（ゆかた）",
+        "correct": false,
+        "explanation": "浴衣 es una prenda japonesa de verano, no un traje de baño. Eso es 水着."
+      },
+      {
+        "text": "着物（きもの）",
+        "correct": false,
+        "explanation": "着物 es el kimono tradicional. 'Traje de baño' es 水着."
+      }
+    ]
+  },
+  {
+    "id": "U6A-021",
+    "cat": "Español → Japonés",
+    "q": "¿Cómo se dice 'béisbol' en japonés?",
+    "opts": [
+      {
+        "text": "野球（やきゅう）",
+        "correct": true,
+        "explanation": "野 (campo) + 球 (pelota) = やきゅう. Correcta."
+      },
+      {
+        "text": "サッカー",
+        "correct": false,
+        "explanation": "サッカー es 'fútbol'. 'Béisbol' es 野球."
+      },
+      {
+        "text": "テニス",
+        "correct": false,
+        "explanation": "テニス es 'tenis'. 'Béisbol' es 野球."
+      },
+      {
+        "text": "試合（しあい）",
+        "correct": false,
+        "explanation": "試合 es 'partido' en general, no específicamente béisbol. 'Béisbol' es 野球."
+      }
+    ]
+  },
+  {
+    "id": "U6A-022",
+    "cat": "Español → Japonés",
+    "q": "¿Cómo se dice 'juntos' (al invitar) en japonés?",
+    "opts": [
+      {
+        "text": "一緒に（いっしょに）",
+        "correct": true,
+        "explanation": "一緒に = 'juntos, junto con'. Correcta. Palabra clave de la unidad: 一緒に行きませんか."
+      },
+      {
+        "text": "一人で（ひとりで）",
+        "correct": false,
+        "explanation": "一人で = 'solo/por mi cuenta', lo opuesto a 'juntos'. 'Juntos' es 一緒に."
+      },
+      {
+        "text": "みんな",
+        "correct": false,
+        "explanation": "みんな = 'todos' (sustantivo). 'Juntos' (adverbio) es 一緒に."
+      },
+      {
+        "text": "一度（いちど）",
+        "correct": false,
+        "explanation": "一度 = 'una vez'. 'Juntos' es 一緒に."
+      }
+    ]
+  },
+  {
+    "id": "U6A-023",
+    "cat": "Español → Japonés",
+    "q": "¿Cómo se dice 'entrada/boleto' en japonés?",
+    "opts": [
+      {
+        "text": "チケット",
+        "correct": true,
+        "explanation": "チケット (del inglés 'ticket'). Correcta. Se cuenta con ～枚."
+      },
+      {
+        "text": "地図（ちず）",
+        "correct": false,
+        "explanation": "地図 es 'mapa'. 'Entrada/boleto' es チケット."
+      },
+      {
+        "text": "セール",
+        "correct": false,
+        "explanation": "セール es 'oferta/liquidación'. 'Entrada' es チケット."
+      },
+      {
+        "text": "コンサート",
+        "correct": false,
+        "explanation": "コンサート es 'concierto' (el evento). La 'entrada' al concierto es チケット."
+      }
+    ]
+  },
+  {
+    "id": "U6A-024",
+    "cat": "Verbos",
+    "q": "A partir de 行きます, ¿cuál es la forma de INVITACIÓN ('¿no vamos?')?",
+    "opts": [
+      {
+        "text": "行きませんか",
+        "correct": true,
+        "explanation": "Raíz ます (行き) + ませんか = invitación cortés. Correcta. Aunque parece negativa, su función es invitar."
+      },
+      {
+        "text": "行きますか",
+        "correct": false,
+        "explanation": "行きますか es una pregunta neutra ('¿vas?'), no una invitación. La invitación usa ませんか."
+      },
+      {
+        "text": "行きましたか",
+        "correct": false,
+        "explanation": "行きましたか es pasado ('¿fuiste?'). La invitación a futuro es 行きませんか."
+      },
+      {
+        "text": "行きましょうか",
+        "correct": false,
+        "explanation": "行きましょうか propone ('¿vamos?') pero la forma de invitación del libro (Point 48) es ～ませんか."
+      }
+    ]
+  },
+  {
+    "id": "U6A-025",
+    "cat": "Verbos",
+    "q": "A partir de 食べます, ¿cuál es la forma para ACEPTAR/PROPONER ('¡comamos!')?",
+    "opts": [
+      {
+        "text": "食べましょう",
+        "correct": true,
+        "explanation": "Raíz ます (食べ) + ましょう = '¡hagamos!'. Correcta. Se usa para proponer o aceptar una invitación."
+      },
+      {
+        "text": "食べません",
+        "correct": false,
+        "explanation": "食べません = 'no como' (negación simple), no una propuesta."
+      },
+      {
+        "text": "食べてください",
+        "correct": false,
+        "explanation": "食べてください = 'comé, por favor' (pedido a otro). 'Comamos' (juntos) es 食べましょう."
+      },
+      {
+        "text": "食べたいです",
+        "correct": false,
+        "explanation": "食べたいです = 'quiero comer' (deseo propio). 'Comamos juntos' es 食べましょう."
+      }
+    ]
+  },
+  {
+    "id": "U6A-026",
+    "cat": "Verbos",
+    "q": "¿Cuál es la respuesta natural a 一緒に行きませんか cuando ACEPTÁS?",
+    "opts": [
+      {
+        "text": "いいですね。行きましょう。",
+        "correct": true,
+        "explanation": "いいですね (buena idea) + 行きましょう (vamos). Correcta. Es el patrón estándar de aceptación."
+      },
+      {
+        "text": "はい、行きません。",
+        "correct": false,
+        "explanation": "Combina 'sí' con verbo negativo ('no voy'). Contradictorio: para aceptar se usa 行きましょう."
+      },
+      {
+        "text": "いいえ、行きました。",
+        "correct": false,
+        "explanation": "Mezcla 'no' con pasado ('fui'). No responde a una invitación a futuro."
+      },
+      {
+        "text": "行きますか。",
+        "correct": false,
+        "explanation": "Devuelve una pregunta neutra en vez de aceptar. La aceptación es 行きましょう."
+      }
+    ]
+  },
+  {
+    "id": "U6A-027",
+    "cat": "Gramática",
+    "q": "Completá: 一緒にご飯を食べ [ ? ]。 (¿No comemos juntos?)",
+    "opts": [
+      {
+        "text": "ませんか",
+        "correct": true,
+        "explanation": "V-ませんか = invitación cortés (Point 48). Correcta. 'ませんか' suaviza la propuesta."
+      },
+      {
+        "text": "ますか",
+        "correct": false,
+        "explanation": "ますか es pregunta neutra ('¿comés?'), no invitación. Para invitar se usa ませんか."
+      },
+      {
+        "text": "ましたか",
+        "correct": false,
+        "explanation": "ましたか es pasado ('¿comiste?'). La invitación va en ませんか."
+      },
+      {
+        "text": "たいですか",
+        "correct": false,
+        "explanation": "たいですか pregunta por el deseo del otro; el libro enseña ませんか para invitar."
+      }
+    ]
+  },
+  {
+    "id": "U6A-028",
+    "cat": "Gramática",
+    "q": "Completá: A: 行きませんか。 B: いいですね。行き [ ? ]。",
+    "opts": [
+      {
+        "text": "ましょう",
+        "correct": true,
+        "explanation": "V-ましょう = '¡vamos!' (Point 49). Correcta. Forma natural de aceptar tras いいですね."
+      },
+      {
+        "text": "ません",
+        "correct": false,
+        "explanation": "ません ('no voy') contradice el いいですね previo. La aceptación es ましょう."
+      },
+      {
+        "text": "ます",
+        "correct": false,
+        "explanation": "ます es declarativo neutro. Para aceptar la invitación con entusiasmo se usa ましょう."
+      },
+      {
+        "text": "たいです",
+        "correct": false,
+        "explanation": "たいです expresa deseo personal; para aceptar la propuesta conjunta se usa ましょう."
+      }
+    ]
+  },
+  {
+    "id": "U6A-029",
+    "cat": "Gramática",
+    "q": "Completá: 一緒に映画を [ ? ] に行きませんか。 (¿No vamos a VER una película juntos?)",
+    "opts": [
+      {
+        "text": "見",
+        "correct": true,
+        "explanation": "V(raíz ます) + に行く = 'ir a hacer algo'. De 見ます se toma la raíz 見. Correcta: 見に行く."
+      },
+      {
+        "text": "見る",
+        "correct": false,
+        "explanation": "El patrón に行く usa la RAÍZ ます (見), no la forma diccionario (見る). Sería 見に行く."
+      },
+      {
+        "text": "見て",
+        "correct": false,
+        "explanation": "見て es la forma て. El patrón de propósito es raíz ます + に行く: 見に行く."
+      },
+      {
+        "text": "見ます",
+        "correct": false,
+        "explanation": "Antes de に行く se usa solo la raíz (見), no la forma ます completa."
+      }
+    ]
+  },
+  {
+    "id": "U6A-030",
+    "cat": "Gramática",
+    "q": "Completá: 横浜 [ ? ] 野球の試合があります。 (Hay un partido de béisbol EN Yokohama.)",
+    "opts": [
+      {
+        "text": "で",
+        "correct": true,
+        "explanation": "で marca el LUGAR donde OCURRE un evento (Point 51). Correcta. Un partido 'sucede', por eso で."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "explanation": "に marca dónde algo 'está' (objeto estático). Un evento que ocurre lleva で, no に."
+      },
+      {
+        "text": "へ",
+        "correct": false,
+        "explanation": "へ marca destino de movimiento. Acá no hay movimiento hacia Yokohama, sino un evento en Yokohama: で."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "explanation": "を marca objeto directo. El lugar de un evento se marca con で."
+      }
+    ]
+  },
+  {
+    "id": "U6A-031",
+    "cat": "Gramática",
+    "q": "Completá: チケット [ ? ] 2枚あります。 (Tengo 2 entradas.)",
+    "opts": [
+      {
+        "text": "が",
+        "correct": true,
+        "explanation": "El sujeto de あります siempre lleva が (Point 52). Correcta: チケットが2枚あります."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "explanation": "を marca objeto directo de un verbo transitivo. あります es intransitivo y su sujeto va con が."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "explanation": "で marca lugar/medio. El sujeto de あります es が."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "explanation": "に marcaría lugar o tiempo. La cosa que 'hay/se tiene' lleva が."
+      }
+    ]
+  },
+  {
+    "id": "U6A-032",
+    "cat": "Gramática",
+    "q": "Completá: 今晩はちょっと……、用事があります [ ? ]。 (… porque tengo cosas que hacer.)",
+    "opts": [
+      {
+        "text": "から",
+        "correct": true,
+        "explanation": "～から = 'porque' (causa), va al final de la razón. Correcta. Justifica el rechazo de forma suave."
+      },
+      {
+        "text": "が",
+        "correct": false,
+        "explanation": "が aquí marcaría sujeto, pero ya hay 用事が. Para dar la RAZÓN del rechazo se usa から."
+      },
+      {
+        "text": "ので",
+        "correct": false,
+        "explanation": "ので también significa 'porque', pero requiere conexión distinta y el libro de esta unidad usa から."
+      },
+      {
+        "text": "まで",
+        "correct": false,
+        "explanation": "まで = 'hasta'. No expresa causa. Para 'porque' se usa から."
+      }
+    ]
+  },
+  {
+    "id": "U6A-033",
+    "cat": "Distinción",
+    "q": "¿Cuál es correcta para un EVENTO que ocurre en un lugar?",
+    "opts": [
+      {
+        "text": "横浜で試合があります。",
+        "correct": true,
+        "explanation": "Eventos que 'suceden' → lugar + で. Correcta. El partido ocurre en Yokohama."
+      },
+      {
+        "text": "横浜に試合があります。",
+        "correct": false,
+        "explanation": "に se usa para objetos que 'están' en un lugar (机の上に本があります). Un evento que ocurre lleva で."
+      },
+      {
+        "text": "横浜へ試合があります。",
+        "correct": false,
+        "explanation": "へ marca destino de movimiento, no lugar de un evento. Lo correcto es で."
+      },
+      {
+        "text": "横浜を試合があります。",
+        "correct": false,
+        "explanation": "を marca objeto directo; no aplica al lugar de un evento. Se usa で."
+      }
+    ]
+  },
+  {
+    "id": "U6A-034",
+    "cat": "Distinción",
+    "q": "Comparando 本があります y 試合があります, ¿qué partícula marca el LUGAR en cada caso?",
+    "opts": [
+      {
+        "text": "本→ に (está); 試合→ で (ocurre)",
+        "correct": true,
+        "explanation": "Objeto que existe en un sitio → に (本がに...→ 机の上に本があります). Evento que sucede → で (横浜で試合があります). Correcta. Distinción clave de la unidad."
+      },
+      {
+        "text": "Ambos usan に",
+        "correct": false,
+        "explanation": "Solo el objeto estático usa に. El evento que ocurre usa で. No son iguales."
+      },
+      {
+        "text": "Ambos usan で",
+        "correct": false,
+        "explanation": "El evento usa で, pero el objeto que simplemente 'está' usa に (机の上に...)."
+      },
+      {
+        "text": "Ambos usan へ",
+        "correct": false,
+        "explanation": "へ es destino de movimiento; no marca ni ubicación de objeto ni lugar de evento."
+      }
+    ]
+  },
+  {
+    "id": "U6A-035",
+    "cat": "Distinción",
+    "q": "¿Qué diferencia hay entre いいですね y un simple いいです al responder una invitación?",
+    "opts": [
+      {
+        "text": "いいですね = aceptación entusiasta; いいです solo puede sonar a rechazo cortés ('no, gracias')",
+        "correct": true,
+        "explanation": "El ね convierte la frase en aceptación cálida. Sin ね, いいです es ambiguo y a menudo significa 'estoy bien (así), no hace falta'. Correcta. Matiz pragmático importante."
+      },
+      {
+        "text": "Son exactamente iguales",
+        "correct": false,
+        "explanation": "No: el ね cambia el matiz. いいですね acepta; いいです puede declinar."
+      },
+      {
+        "text": "いいです es más entusiasta",
+        "correct": false,
+        "explanation": "Al revés: いいですね es la aceptación entusiasta; いいです sin ね puede ser un rechazo."
+      },
+      {
+        "text": "いいですね es de rechazo",
+        "correct": false,
+        "explanation": "Al contrario: いいですね es para ACEPTAR la invitación."
+      }
+    ]
+  },
+  {
+    "id": "U6A-036",
+    "cat": "Partículas",
+    "q": "Completá: 来週、友達 [ ? ] 約束があります。 (La próxima semana tengo un compromiso CON un amigo.)",
+    "opts": [
+      {
+        "text": "と",
+        "correct": true,
+        "explanation": "と marca COMPAÑÍA ('con una persona'). Correcta: 友達と約束があります."
+      },
+      {
+        "text": "に",
+        "correct": false,
+        "explanation": "に marcaría receptor/destino. Para 'con un amigo' (compañía en el compromiso) se usa と."
+      },
+      {
+        "text": "で",
+        "correct": false,
+        "explanation": "で marca lugar o medio. La persona con quien tenés el compromiso lleva と."
+      },
+      {
+        "text": "を",
+        "correct": false,
+        "explanation": "を marca objeto directo. La compañía se marca con と."
+      }
+    ]
+  },
+  {
+    "id": "U6A-037",
+    "cat": "Números y Tiempo",
+    "q": "¿Cuál es el contador correcto para 'entradas/boletos'?",
+    "opts": [
+      {
+        "text": "枚（まい）",
+        "correct": true,
+        "explanation": "枚 cuenta objetos PLANOS: entradas, hojas, fotos, sellos. Correcta. チケットが2枚あります."
+      },
+      {
+        "text": "本（ほん）",
+        "correct": false,
+        "explanation": "本 cuenta objetos LARGOS y cilíndricos (botellas, lápices). Las entradas son planas → 枚."
+      },
+      {
+        "text": "個（こ）",
+        "correct": false,
+        "explanation": "個 cuenta objetos pequeños genéricos/redondeados. Las entradas planas usan 枚."
+      },
+      {
+        "text": "人（にん）",
+        "correct": false,
+        "explanation": "人 cuenta PERSONAS. Las entradas son cosas, y por ser planas se cuentan con 枚."
+      }
+    ]
+  },
+  {
+    "id": "U6A-038",
+    "cat": "Números y Tiempo",
+    "q": "¿Dónde va el contador en 'Tengo 2 entradas'?",
+    "opts": [
+      {
+        "text": "チケットが2枚あります。",
+        "correct": true,
+        "explanation": "Orden: N が + [número+contador] + あります. Correcta. El contador va justo antes del verbo."
+      },
+      {
+        "text": "2枚チケットがあります。",
+        "correct": false,
+        "explanation": "El contador no va antes del sustantivo como en español. Va tras が: チケットが2枚あります."
+      },
+      {
+        "text": "チケット2枚があります。",
+        "correct": false,
+        "explanation": "Falta が tras チケット en posición natural. El patrón del libro es チケットが2枚あります."
+      },
+      {
+        "text": "2枚のチケットがあります。",
+        "correct": false,
+        "explanation": "Aunque 2枚のチケット existe, el patrón enseñado (Point 52) coloca el contador antes del verbo: チケットが2枚あります."
+      }
+    ]
+  },
+  {
+    "id": "U6A-039",
+    "cat": "Números y Tiempo",
+    "q": "¿Cómo se lee la fecha 20日 en 今月の20日?",
+    "opts": [
+      {
+        "text": "はつか",
+        "correct": true,
+        "explanation": "20日 se lee はつか (lectura especial). Correcta. No sigue el patrón regular にじゅうにち."
+      },
+      {
+        "text": "にじゅうにち",
+        "correct": false,
+        "explanation": "20日 tiene lectura IRREGULAR はつか, no la regular にじゅうにち."
+      },
+      {
+        "text": "はつにち",
+        "correct": false,
+        "explanation": "La lectura correcta es はつか, no はつにち."
+      },
+      {
+        "text": "ふつか",
+        "correct": false,
+        "explanation": "ふつか es 2日 ('día 2'). 20日 es はつか."
+      }
+    ]
+  },
+  {
+    "id": "U6A-040",
+    "cat": "Números y Tiempo",
+    "q": "¿Cómo se lee 15日?",
+    "opts": [
+      {
+        "text": "じゅうごにち",
+        "correct": true,
+        "explanation": "15日 = じゅうご (15) + にち = じゅうごにち. Correcta. Sigue el patrón regular."
+      },
+      {
+        "text": "じゅうごか",
+        "correct": false,
+        "explanation": "か es la terminación de fechas irregulares (1–10, 20). 15日 usa にち regular."
+      },
+      {
+        "text": "いつか",
+        "correct": false,
+        "explanation": "いつか es 5日 ('día 5'). 15日 es じゅうごにち."
+      },
+      {
+        "text": "じゅうにち",
+        "correct": false,
+        "explanation": "Eso sería 10日 (とおか). 15日 es じゅうごにち."
+      }
+    ]
+  },
+  {
+    "id": "U6A-041",
+    "cat": "Traducción JP→ES",
+    "q": "Traducí: 今晩、一緒にご飯を食べませんか。",
+    "opts": [
+      {
+        "text": "¿No comemos juntos esta noche?",
+        "correct": true,
+        "explanation": "今晩 (esta noche) + 一緒に (juntos) + 食べませんか (invitación). Correcta. ませんか invita, no niega."
+      },
+      {
+        "text": "¿Comiste con alguien esta noche?",
+        "correct": false,
+        "explanation": "Ignora el matiz de invitación de ませんか y le pone pasado. Es una propuesta a futuro."
+      },
+      {
+        "text": "No quiero comer esta noche.",
+        "correct": false,
+        "explanation": "Eso sería 今晩は食べたくないです. ませんか es una invitación, no un rechazo."
+      },
+      {
+        "text": "Esta noche como solo.",
+        "correct": false,
+        "explanation": "一緒に es 'juntos', no 'solo' (一人で). Y ませんか invita a otro."
+      }
+    ]
+  },
+  {
+    "id": "U6A-042",
+    "cat": "Traducción JP→ES",
+    "q": "Traducí: 横浜で野球の試合があります。",
+    "opts": [
+      {
+        "text": "Hay un partido de béisbol en Yokohama.",
+        "correct": true,
+        "explanation": "横浜で (en Yokohama, evento) + 野球の試合 (partido de béisbol) + があります (hay). Correcta."
+      },
+      {
+        "text": "Voy a Yokohama a ver béisbol.",
+        "correct": false,
+        "explanation": "La oración solo informa que 'hay' un partido (があります); no menciona ir ni ver."
+      },
+      {
+        "text": "En Yokohama no hay partidos de béisbol.",
+        "correct": false,
+        "explanation": "あります es afirmativo ('hay'). La negación sería ありません."
+      },
+      {
+        "text": "Vi un partido de béisbol en Yokohama.",
+        "correct": false,
+        "explanation": "あります es presente ('hay'), no pasado ('vi'). Y no hay verbo 'ver'."
+      }
+    ]
+  },
+  {
+    "id": "U6A-043",
+    "cat": "Traducción JP→ES",
+    "q": "Traducí: すみません。今晩はちょっと……、用事がありますから。",
+    "opts": [
+      {
+        "text": "Disculpá, esta noche es un poco (difícil)… porque tengo cosas que hacer.",
+        "correct": true,
+        "explanation": "Patrón de rechazo cortés: すみません + ちょっと (frase incompleta) + razón con から. Correcta."
+      },
+      {
+        "text": "Perdón, esta noche tengo un poco de tiempo libre.",
+        "correct": false,
+        "explanation": "ちょっと…… aquí señala dificultad para aceptar, no 'tiempo libre'. Y 用事 son cosas que hacer."
+      },
+      {
+        "text": "Disculpá, esta noche quiero hacer algo.",
+        "correct": false,
+        "explanation": "用事があります = 'tengo asuntos que atender' (existencia de un compromiso), no un deseo (〜たい)."
+      },
+      {
+        "text": "Lo siento, esta noche no hago nada.",
+        "correct": false,
+        "explanation": "用事がありますから significa justo lo contrario: SÍ tiene cosas que hacer."
+      }
+    ]
+  },
+  {
+    "id": "U6A-044",
+    "cat": "Traducción JP→ES",
+    "q": "Traducí: 残念です。じゃ、また今度。",
+    "opts": [
+      {
+        "text": "Qué lástima. Bueno, será para la próxima.",
+        "correct": true,
+        "explanation": "残念です (qué pena) + じゃ (bueno) + また今度 (otra vez será). Correcta. Cierre cortés tras un rechazo."
+      },
+      {
+        "text": "Qué bien. Nos vemos hoy.",
+        "correct": false,
+        "explanation": "残念 expresa decepción, no alegría; y また今度 apunta al futuro, no a hoy."
+      },
+      {
+        "text": "Es una pena. Nunca más.",
+        "correct": false,
+        "explanation": "また今度 significa 'la próxima vez' (deja abierta otra ocasión), no 'nunca más'."
+      },
+      {
+        "text": "Qué sorpresa. Hasta luego.",
+        "correct": false,
+        "explanation": "残念 es 'qué lástima', no 'qué sorpresa'."
+      }
+    ]
+  },
+  {
+    "id": "U6A-045",
+    "cat": "Traducción JP→ES",
+    "q": "Traducí: サッカーのチケットが2枚あります。",
+    "opts": [
+      {
+        "text": "Tengo 2 entradas de fútbol.",
+        "correct": true,
+        "explanation": "サッカーのチケット (entradas de fútbol) + が2枚 (2, plano) + あります (tengo). Correcta."
+      },
+      {
+        "text": "Compré 2 entradas de fútbol.",
+        "correct": false,
+        "explanation": "あります es 'tener/haber', no 'comprar' (買いました). La oración no menciona la compra."
+      },
+      {
+        "text": "Quiero 2 entradas de fútbol.",
+        "correct": false,
+        "explanation": "Eso sería ほしいです. あります expresa que las entradas ya existen/se tienen."
+      },
+      {
+        "text": "Hay un partido de fútbol con 2 equipos.",
+        "correct": false,
+        "explanation": "Confunde チケット (entradas) con el partido. La oración habla de 2 boletos."
+      }
+    ]
+  },
+  {
+    "id": "U6A-046",
+    "cat": "Traducción ES→JP",
+    "q": "Traducí: '¿No vamos al karaoke esta noche?'",
+    "opts": [
+      {
+        "text": "今晩、カラオケに行きませんか。",
+        "correct": true,
+        "explanation": "今晩 + カラオケに行きませんか (invitación). Correcta. El destino lleva に/へ y la invitación ませんか."
+      },
+      {
+        "text": "今晩、カラオケに行きますか。",
+        "correct": false,
+        "explanation": "行きますか es pregunta neutra. Para invitar ('¿no vamos?') se usa ませんか."
+      },
+      {
+        "text": "今晩、カラオケに行きました。",
+        "correct": false,
+        "explanation": "行きました es pasado. La invitación a futuro es 行きませんか."
+      },
+      {
+        "text": "今晩、カラオケで行きませんか。",
+        "correct": false,
+        "explanation": "El destino del verbo 行く lleva に/へ, no で. で sería para una acción en el lugar."
+      }
+    ]
+  },
+  {
+    "id": "U6A-047",
+    "cat": "Traducción ES→JP",
+    "q": "Traducí: '¡Buena idea! Vamos.'",
+    "opts": [
+      {
+        "text": "いいですね。行きましょう。",
+        "correct": true,
+        "explanation": "いいですね (aceptación entusiasta) + 行きましょう ('vamos'). Correcta. Respuesta estándar a una invitación."
+      },
+      {
+        "text": "いいです。行きません。",
+        "correct": false,
+        "explanation": "いいです (sin ね) + 行きません suena a rechazo ('estoy bien, no voy'), lo opuesto a aceptar."
+      },
+      {
+        "text": "そうですね。行きますか。",
+        "correct": false,
+        "explanation": "Devuelve una pregunta en vez de aceptar. La aceptación es 行きましょう."
+      },
+      {
+        "text": "残念です。行きましょう。",
+        "correct": false,
+        "explanation": "残念です ('qué lástima') no encaja con aceptar con entusiasmo. Se usa いいですね."
+      }
+    ]
+  },
+  {
+    "id": "U6A-048",
+    "cat": "Traducción ES→JP",
+    "q": "Traducí: 'Hay un concierto el 20 de este mes.'",
+    "opts": [
+      {
+        "text": "今月の20日にコンサートがあります。",
+        "correct": true,
+        "explanation": "今月の20日に (el día 20 de este mes) + コンサートがあります (hay un concierto). Correcta. La fecha lleva に."
+      },
+      {
+        "text": "今月の20日でコンサートがあります。",
+        "correct": false,
+        "explanation": "El PUNTO en el tiempo (una fecha) lleva に, no で. で marca lugar de evento, no fecha."
+      },
+      {
+        "text": "今月の20日にコンサートがありました。",
+        "correct": false,
+        "explanation": "ありました es pasado ('hubo'). 'Hay' (anuncio a futuro) es あります."
+      },
+      {
+        "text": "今月の20日にコンサートをします。",
+        "correct": false,
+        "explanation": "をします ('hago un concierto') cambia el sentido. 'Hay un concierto' es コンサートがあります."
+      }
+    ]
+  },
+  {
+    "id": "U6A-049",
+    "cat": "Traducción ES→JP",
+    "q": "Traducí: 'Esta noche tengo cosas que hacer.'",
+    "opts": [
+      {
+        "text": "今晩、用事があります。",
+        "correct": true,
+        "explanation": "今晩 + 用事があります ('tengo asuntos que atender'). Correcta. Excusa típica para rechazar."
+      },
+      {
+        "text": "今晩、用事をします。",
+        "correct": false,
+        "explanation": "用事をします ('hago los asuntos') es válido pero el patrón de excusa de la unidad es 用事があります."
+      },
+      {
+        "text": "今晩、用事がありません。",
+        "correct": false,
+        "explanation": "ありません = 'NO tengo'. Lo correcto es el afirmativo: 用事があります."
+      },
+      {
+        "text": "今晩、仕事があります。",
+        "correct": false,
+        "explanation": "仕事 = 'trabajo/empleo'; 用事 = 'asuntos puntuales'. La palabra de esta unidad es 用事."
+      }
+    ]
+  },
+  {
+    "id": "U6A-050",
+    "cat": "Traducción ES→JP",
+    "q": "Traducí: '¿No vamos a verlo juntos?' (un partido)",
+    "opts": [
+      {
+        "text": "一緒に見に行きませんか。",
+        "correct": true,
+        "explanation": "一緒に (juntos) + 見に行く (ir a ver) + ませんか (invitación). Correcta. Raíz 見 + に行く."
+      },
+      {
+        "text": "一緒に見るに行きませんか。",
+        "correct": false,
+        "explanation": "に行く usa la RAÍZ ます (見), no la forma diccionario (見る). Sería 見に行く."
+      },
+      {
+        "text": "一人で見に行きませんか。",
+        "correct": false,
+        "explanation": "一人で = 'solo'. 'Juntos' es 一緒に."
+      },
+      {
+        "text": "一緒に見に行きましょうか。",
+        "correct": false,
+        "explanation": "Es posible, pero la forma de invitación enseñada (Point 48) es ～ませんか: 見に行きませんか."
+      }
+    ]
+  },
+  {
+    "id": "U6A-051",
+    "cat": "Diálogo",
+    "q": "A: 今晩、一緒にご飯を食べませんか。 B (acepta): ___",
+    "opts": [
+      {
+        "text": "いいですね。食べましょう。",
+        "correct": true,
+        "explanation": "Aceptación estándar: いいですね + ましょう. Correcta."
+      },
+      {
+        "text": "ああ、今晩ですか。すみません。",
+        "correct": false,
+        "explanation": "Ese es el inicio de un RECHAZO, no una aceptación."
+      },
+      {
+        "text": "いいえ、食べました。",
+        "correct": false,
+        "explanation": "Mezcla 'no' con pasado. No acepta la invitación a futuro."
+      },
+      {
+        "text": "残念です。また今度。",
+        "correct": false,
+        "explanation": "残念 / また今度 las dice quien INVITÓ tras un rechazo, no quien acepta."
+      }
+    ]
+  },
+  {
+    "id": "U6A-052",
+    "cat": "Diálogo",
+    "q": "A: カラオケに行きませんか。 B quiere RECHAZAR con cortesía. ¿Cuál es la mejor opción?",
+    "opts": [
+      {
+        "text": "ああ、すみません。今晩はちょっと……",
+        "correct": true,
+        "explanation": "Rechazo cortés: ああ + すみません + ちょっと…… (frase incompleta). Correcta. Dejar la frase en el aire es lo más natural y educado."
+      },
+      {
+        "text": "いいえ、行きません。",
+        "correct": false,
+        "explanation": "Demasiado directo/cortante para rechazar una invitación social. Se prefiere el rodeo cortés con ちょっと……"
+      },
+      {
+        "text": "いいですね。行きましょう。",
+        "correct": false,
+        "explanation": "Eso es ACEPTAR, no rechazar."
+      },
+      {
+        "text": "はい、行きます。",
+        "correct": false,
+        "explanation": "Eso confirma que va. Para rechazar se usa el patrón すみません…ちょっと……"
+      }
+    ]
+  },
+  {
+    "id": "U6A-053",
+    "cat": "Diálogo",
+    "q": "Tras el rechazo de B, ¿qué dice A para cerrar la conversación amablemente?",
+    "opts": [
+      {
+        "text": "ああ、そうですか。残念です。じゃ、また今度。",
+        "correct": true,
+        "explanation": "Cierre estándar de quien invitó: acepta el rechazo (そうですか), expresa pena (残念です) y deja abierta otra ocasión (また今度). Correcta."
+      },
+      {
+        "text": "どうして行きませんか。",
+        "correct": false,
+        "explanation": "Exigir explicaciones ('¿por qué no vas?') es poco cortés tras un rechazo educado."
+      },
+      {
+        "text": "いいですね。行きましょう。",
+        "correct": false,
+        "explanation": "Eso es aceptar una invitación, no responder a un rechazo recibido."
+      },
+      {
+        "text": "すみません。用事がありますから。",
+        "correct": false,
+        "explanation": "Esa es la línea de quien RECHAZA (B), no de quien cierra (A)."
+      }
+    ]
+  },
+  {
+    "id": "U6A-054",
+    "cat": "Diálogo",
+    "q": "A quiere invitar a B a un partido. ¿Cuál es el orden más natural del diálogo?",
+    "opts": [
+      {
+        "text": "Informar del evento (試合があります) → B muestra interés (へえ) → invitar (見に行きませんか)",
+        "correct": true,
+        "explanation": "Patrón del libro: primero se comparte la novedad, luego se invita. Correcta. Hace la invitación más natural."
+      },
+      {
+        "text": "Invitar primero (行きませんか) → recién después decir que hay un partido",
+        "correct": false,
+        "explanation": "Es menos natural: el libro presenta primero la información del evento y después la invitación."
+      },
+      {
+        "text": "Rechazar (すみません) → informar del evento",
+        "correct": false,
+        "explanation": "No tiene sentido rechazar antes de que haya invitación."
+      },
+      {
+        "text": "Cerrar (また今度) → invitar",
+        "correct": false,
+        "explanation": "また今度 cierra la conversación; no puede ir antes de invitar."
+      }
+    ]
+  },
+  {
+    "id": "U6A-055",
+    "cat": "Diálogo",
+    "q": "A: Bさんはサッカーが好きですか。 B: はい。 A: そうですか。___ 一緒に見に行きませんか。",
+    "opts": [
+      {
+        "text": "サッカーのチケットが2枚あります。",
+        "correct": true,
+        "explanation": "A ofrece un recurso (2 entradas) como gancho para invitar. Correcta. Patrón: confirmar gusto → ofrecer entradas → invitar."
+      },
+      {
+        "text": "サッカーのチケットがありません。",
+        "correct": false,
+        "explanation": "Si NO hay entradas (ありません), no tendría sentido la invitación a continuación."
+      },
+      {
+        "text": "サッカーが嫌いです。",
+        "correct": false,
+        "explanation": "Contradice el contexto: A está por invitar a ver fútbol, no diría que lo odia."
+      },
+      {
+        "text": "用事がありますから。",
+        "correct": false,
+        "explanation": "Esa es una excusa para rechazar, no encaja con A que está invitando."
+      }
+    ]
+  }
+]

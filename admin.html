@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline' https://esm.sh; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; media-src 'self'; connect-src 'self' https://*.supabase.co wss://*.supabase.co https://esm.sh; frame-ancestors 'none'">
+<title>Admin — 日本語 Quiz</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23B5281C'/><text x='50' y='70' text-anchor='middle' font-size='56' fill='white' font-family='serif'>学</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Sans+JP:wght@400;500;600&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="nihongo.css">
+</head>
+<body>
+<script>
+(function(){
+  const old = localStorage.getItem('darkMode');
+  if (old !== null && !localStorage.getItem('nihongo_theme')) {
+    localStorage.setItem('nihongo_theme', old === '1' ? 'dark' : 'light');
+  }
+  if (localStorage.getItem('nihongo_theme') === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+})();
+</script>
+
+<div class="container-narrow">
+
+  <div class="admin-header">
+    <h1 class="admin-title">Admin Dashboard</h1>
+    <div class="admin-subtitle">日本語 Quiz — Dekiru Nihongo</div>
+  </div>
+
+  <!-- Content is fully rendered by JS after auth check -->
+  <div id="admin-root">
+    <div class="admin-loading">Verificando permisos…</div>
+  </div>
+
+  <footer class="site-footer">
+    Desarrollado por <a href="https://www.linkedin.com/in/sbadaro/" target="_blank" rel="noopener" class="footer-link">
+      Sebastián Badaró
+      <svg class="footer-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/>
+      </svg>
+    </a>
+  </footer>
+
+</div>
+
+<script src="config.js"></script>
+<script src="supabase-client.js"></script>
+<script>
+(function () {
+  var root = document.getElementById('admin-root');
+
+  function esc(s) {
+    return String(s || '')
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  function fmtDate(iso) {
+    if (!iso) return '<span class="admin-muted">—</span>';
+    try {
+      var d = new Date(iso);
+      return d.toLocaleDateString('es-AR', { day:'2-digit', month:'short', year:'numeric' }) +
+             ' ' + d.toLocaleTimeString('es-AR', { hour:'2-digit', minute:'2-digit' });
+    } catch (_) { return esc(iso); }
+  }
+
+  function fmtDuration(startIso, endIso) {
+    if (!startIso || !endIso) return '<span class="admin-muted">—</span>';
+    var mins = Math.round((new Date(endIso) - new Date(startIso)) / 60000);
+    if (mins < 1)  return '&lt;1 min';
+    if (mins < 60) return mins + ' min';
+    return Math.floor(mins / 60) + 'h ' + (mins % 60) + 'min';
+  }
+
+  function showAccessDenied(reason) {
+    root.innerHTML =
+      '<div class="admin-access-denied">' +
+        '<div class="admin-access-denied-icon">🔒</div>' +
+        '<h2>Acceso restringido</h2>' +
+        '<p>' + esc(reason) + '</p>' +
+        (window.SupabaseClient
+          ? '<br><button onclick="window.SupabaseClient.loginWithGoogle()" style="margin-top:8px" class="login-nudge-google-btn">Iniciar sesión con Google</button>'
+          : '') +
+      '</div>';
+  }
+
+  function showError(msg) {
+    root.innerHTML = '<div class="admin-error">' + esc(msg) + '</div>';
+  }
+
+  function renderStats(stats) {
+    return '<div class="admin-stats-grid">' +
+      _statCard(stats.totalUsers,    'Usuarios') +
+      _statCard(stats.newUsers7d,    'Nuevos 7d') +
+      _statCard(stats.newUsers30d,   'Nuevos 30d') +
+      _statCard(stats.totalSessions, 'Sesiones') +
+      _statCard(stats.totalAnswers,  'Respuestas') +
+    '</div>';
+  }
+
+  function _statCard(val, label) {
+    return '<div class="admin-stat-card">' +
+      '<div class="admin-stat-value">' + esc(String(val)) + '</div>' +
+      '<div class="admin-stat-label">' + esc(label) + '</div>' +
+    '</div>';
+  }
+
+  function renderRecentUsers(users) {
+    if (!users || users.length === 0) {
+      return '<div class="admin-empty">No hay usuarios registrados todavía.</div>';
+    }
+    var rows = users.map(function (u) {
+      return '<tr>' +
+        '<td>' + esc(u.display_name || '—') + '</td>' +
+        '<td class="admin-muted">' + esc(u.email || '—') + '</td>' +
+        '<td class="admin-muted" style="white-space:nowrap">' + fmtDate(u.created_at) + '</td>' +
+      '</tr>';
+    }).join('');
+    return '<div class="admin-table-wrap"><table class="admin-table">' +
+      '<thead><tr><th>Nombre</th><th>Email</th><th>Registro</th></tr></thead>' +
+      '<tbody>' + rows + '</tbody>' +
+    '</table></div>';
+  }
+
+  function renderSessions(sessions) {
+    if (!sessions || sessions.length === 0) {
+      return '<div class="admin-empty">No hay sesiones registradas todavía.</div>';
+    }
+    var rows = sessions.map(function (s) {
+      var profileName = (s._profile && s._profile.display_name) ? s._profile.display_name : '—';
+      return '<tr>' +
+        '<td>' + esc(profileName) + '</td>' +
+        '<td><span class="admin-badge">' + esc(s.unit_id || '—') + '</span></td>' +
+        '<td class="admin-muted" style="white-space:nowrap">' + fmtDate(s.started_at) + '</td>' +
+        '<td class="admin-muted">' + fmtDuration(s.started_at, s.ended_at) + '</td>' +
+      '</tr>';
+    }).join('');
+    return '<div class="admin-table-wrap"><table class="admin-table">' +
+      '<thead><tr><th>Usuario</th><th>Unidad</th><th>Inicio</th><th>Duración</th></tr></thead>' +
+      '<tbody>' + rows + '</tbody>' +
+    '</table></div>';
+  }
+
+  function renderHardest(questions) {
+    if (!questions || questions.length === 0) {
+      return '<div class="admin-empty">No hay suficientes respuestas para calcular dificultad.</div>';
+    }
+    var rows = questions.map(function (q) {
+      var diff = typeof q.difficulty === 'number' ? q.difficulty : 0;
+      var pct  = Math.round(diff * 100);
+      var correct = q.total_answers > 0
+        ? Math.round((q.correct_answers / q.total_answers) * 100) + '%'
+        : '—';
+      return '<tr>' +
+        '<td style="font-family:var(--font-mono);font-size:var(--text-xs)">' + esc(q.question_id || '—') + '</td>' +
+        '<td><div class="difficulty-cell">' +
+          '<div class="difficulty-track"><div class="difficulty-fill" style="width:' + pct + '%"></div></div>' +
+          '<span class="difficulty-val">' + pct + '%</span>' +
+        '</div></td>' +
+        '<td class="admin-muted">' + esc(String(q.total_answers)) + '</td>' +
+        '<td class="admin-muted">' + esc(correct) + '</td>' +
+      '</tr>';
+    }).join('');
+    return '<div class="admin-table-wrap"><table class="admin-table">' +
+      '<thead><tr><th>Pregunta</th><th>Dificultad</th><th>Intentos</th><th>Correctas</th></tr></thead>' +
+      '<tbody>' + rows + '</tbody>' +
+    '</table></div>';
+  }
+
+  function renderDashboard(stats, sessions, hardest) {
+    root.innerHTML =
+      renderStats(stats) +
+      '<div class="admin-section">' +
+        '<div class="admin-section-title">Usuarios recientes</div>' +
+        renderRecentUsers(stats.recentUsers) +
+      '</div>' +
+      '<div class="admin-section">' +
+        '<div class="admin-section-title">Sesiones recientes</div>' +
+        renderSessions(sessions) +
+      '</div>' +
+      '<div class="admin-section">' +
+        '<div class="admin-section-title">Preguntas más difíciles</div>' +
+        renderHardest(hardest) +
+      '</div>';
+  }
+
+  /* ── Bootstrap ── */
+  (window.supabaseReady || Promise.resolve(null)).then(function (sc) {
+    if (!sc) {
+      showAccessDenied('Supabase no está configurado. Asegurate de tener config.js con las credenciales.');
+      return;
+    }
+
+    sc.getUser().then(function (user) {
+      if (!user) {
+        showAccessDenied('Iniciá sesión para acceder al panel de administración.');
+        return;
+      }
+
+      sc.checkIsAdmin().then(function (isAdmin) {
+        if (!isAdmin) {
+          showAccessDenied('Tu cuenta no tiene permisos de administrador. Contactá al dueño del proyecto.');
+          return;
+        }
+
+        root.innerHTML = '<div class="admin-loading">Cargando datos…</div>';
+
+        Promise.all([
+          sc.getAdminStats(),
+          sc.getAdminSessions(),
+          sc.getHardestQuestions(),
+        ]).then(function (results) {
+          var stats    = results[0];
+          var sessions = results[1];
+          var hardest  = results[2];
+
+          if (!stats) {
+            showError('No se pudieron cargar las estadísticas. Verificá que las migraciones estén aplicadas.');
+            return;
+          }
+
+          renderDashboard(stats, sessions || [], hardest || []);
+        }).catch(function (err) {
+          showError('Error al cargar datos: ' + err.message);
+        });
+      });
+    });
+
+    sc.onAuthChange(function (_evt, user) {
+      if (!user) showAccessDenied('Iniciá sesión para acceder al panel de administración.');
+    });
+  });
+})();
+</script>
+<script src="nav.js"></script>
+</body>
+</html>

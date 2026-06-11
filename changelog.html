@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; media-src 'self'; connect-src 'self'; frame-ancestors 'none'">
 <title>Cambios — 日本語 Quiz</title>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23c0392b'/><text x='50' y='70' text-anchor='middle' font-size='56' fill='white' font-family='serif'>語</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -187,6 +188,19 @@
     <div class="subtitle">Dekiru Nihongo — 日本語 Quiz</div>
     <button class="dark-toggle" id="dark-btn" onclick="toggleDark()" title="Modo nocturno"></button>
   </header>
+
+  <div class="cl-entry">
+    <div class="cl-date">2026-06-01</div>
+    <div class="cl-title">Módulo de Shadowing</div>
+    <ul class="cl-items">
+      <li>Nueva página <code>shadowing.html</code>: práctica de pronunciación por imitación de audio, con menú acordeón Nivel → Unidad → Subunidad igual al de Listening y Quiz</li>
+      <li>Reproductor con control de velocidad (0.75×–1.25×), bucle continuo y repetición A-B (marcá inicio y fin sobre la barra de progreso)</li>
+      <li>Transcript colapsable cargado desde <code>shadowing/data/</code>, con secciones de vocabulario y frases renderizadas; botón con ícono de ojo que cambia entre "Ver transcript" y "Ocultar transcript"</li>
+      <li>3 audios disponibles: Unidad 5-A, 5-B y 5-C — Vocabulario y frases</li>
+      <li><code>shadowing/index.json</code>: índice estructurado para agregar nuevos audios fácilmente</li>
+      <li>Shadowing agregado a <code>index.html</code> (tarjeta de herramientas) y a <code>nav.js</code> (navegación lateral)</li>
+    </ul>
+  </div>
 
   <div class="cl-entry">
     <div class="cl-date">2026-05-27</div>

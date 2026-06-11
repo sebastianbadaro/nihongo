@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline' https://esm.sh; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; media-src 'self'; connect-src 'self' https://*.supabase.co wss://*.supabase.co https://esm.sh; frame-ancestors 'none'">
+<title>日本語 Shadowing — Dekiru Nihongo</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%232D7A6A'/><text x='50' y='70' text-anchor='middle' font-size='56' fill='white' font-family='serif'>影</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Sans+JP:wght@400;500;600&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="nihongo.css">
+</head>
+<body class="page-app">
+<script>
+(function(){
+  const old = localStorage.getItem('darkMode');
+  if (old !== null && !localStorage.getItem('nihongo_theme')) {
+    localStorage.setItem('nihongo_theme', old === '1' ? 'dark' : 'light');
+  }
+  if (localStorage.getItem('nihongo_theme') === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+})();
+</script>
+
+<div class="toast-container" id="toast-container"></div>
+
+<div class="container-card">
+  <header>
+    <h1 class="page-title">日本語 Shadowing</h1>
+    <div class="page-subtitle">Dekiru Nihongo — Práctica de pronunciación</div>
+  </header>
+
+  <!-- Menú -->
+  <div id="screen-menu">
+    <p class="jp" style="color:var(--color-text-muted);font-size:var(--text-sm);margin-bottom:var(--space-4);text-align:center;">レベルを選んでください</p>
+    <div style="margin-bottom:var(--space-4);">
+      <div style="display:flex;align-items:center;justify-content:center;gap:var(--space-1);flex-wrap:wrap;">
+        <div style="display:flex;flex-direction:column;align-items:center;gap:var(--space-1);padding:var(--space-2) var(--space-3);min-width:64px;">
+          <span style="font-size:1.4em;line-height:1;" aria-hidden="true">📂</span>
+          <span style="font-size:var(--text-xs);font-weight:var(--weight-semibold);color:var(--color-text-muted);white-space:nowrap;">Elegí</span>
+        </div>
+        <span style="color:var(--color-border);font-size:1em;padding-bottom:var(--space-3);" aria-hidden="true">›</span>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:var(--space-1);padding:var(--space-2) var(--space-3);min-width:64px;">
+          <span style="font-size:1.4em;line-height:1;" aria-hidden="true">🎧</span>
+          <span style="font-size:var(--text-xs);font-weight:var(--weight-semibold);color:var(--color-text-muted);white-space:nowrap;">Escuchá</span>
+        </div>
+        <span style="color:var(--color-border);font-size:1em;padding-bottom:var(--space-3);" aria-hidden="true">›</span>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:var(--space-1);padding:var(--space-2) var(--space-3);min-width:64px;">
+          <span style="font-size:1.4em;line-height:1;" aria-hidden="true">🗣️</span>
+          <span style="font-size:var(--text-xs);font-weight:var(--weight-semibold);color:var(--color-text-muted);white-space:nowrap;">Repetí</span>
+        </div>
+        <span style="color:var(--color-border);font-size:1em;padding-bottom:var(--space-3);" aria-hidden="true">›</span>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:var(--space-1);padding:var(--space-2) var(--space-3);min-width:64px;">
+          <span style="font-size:1.4em;line-height:1;" aria-hidden="true">📖</span>
+          <span style="font-size:var(--text-xs);font-weight:var(--weight-semibold);color:var(--color-text-muted);white-space:nowrap;">Leé</span>
+        </div>
+      </div>
+      <p style="text-align:center;font-size:var(--text-xs);color:var(--color-text-muted);margin:var(--space-1) 0 0;line-height:var(--leading-relaxed);">
+        Escuchá una frase, pausá y repetila imitando el ritmo y la entonación. Usá A-B para repetir una sección.
+      </p>
+    </div>
+    <div id="menu-content" class="loader">Cargando audios…</div>
+  </div>
+
+  <!-- Pantalla del reproductor -->
+  <div id="screen-player" class="hidden">
+    <button class="back-btn" onclick="ShadowingApp.backToMenu()">← Volver al menú</button>
+    <div id="player-title-wrap"></div>
+    <div id="audio-player-wrap"></div>
+    <div id="transcript-wrap"></div>
+  </div>
+
+  <footer class="site-footer">
+    Desarrollado por <a href="https://www.linkedin.com/in/sbadaro/" target="_blank" rel="noopener" class="footer-link">
+      Sebastián Badaró
+      <svg class="footer-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/>
+      </svg>
+    </a>
+  </footer>
+</div>
+
+<script>
+const ShadowingApp = {
+  /* ── SVG icons ── */
+  moonSVG:      '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>',
+  sunSVG:       '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>',
+  playSVG:      '<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="5,3 19,12 5,21"/></svg>',
+  pauseSVG:     '<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>',
+  eyeOpenSVG:   '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;flex-shrink:0"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>',
+  eyeClosedSVG: '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;flex-shrink:0"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>',
+  loopSVG:      '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>',
+
+  /* ── State ── */
+  indexData:     null,
+  audioRegistry: {},
+  currentAudio:  null,
+  audioEl:       null,
+  abA:           null,
+  abB:           null,
+
+  /* ── Theme ── */
+  toggleTheme() {
+    const isDark = document.documentElement.getAttribute('data-theme') !== 'dark';
+    document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
+    localStorage.setItem('nihongo_theme', isDark ? 'dark' : 'light');
+    ShadowingApp._updateThemeBtn(isDark);
+  },
+  _updateThemeBtn(isDark) {
+    const btn = document.getElementById('dark-btn');
+    if (!btn) return;
+    btn.innerHTML = isDark ? ShadowingApp.sunSVG : ShadowingApp.moonSVG;
+    btn.setAttribute('aria-label', isDark ? 'Activar modo claro' : 'Activar modo oscuro');
+  },
+
+  /* ── Toast ── */
+  showToast(msg, type) {
+    const container = document.getElementById('toast-container');
+    const el = document.createElement('div');
+    el.className = 'toast' + (type === 'error' ? ' toast-error' : '');
+    el.textContent = msg;
+    container.appendChild(el);
+    requestAnimationFrame(() => requestAnimationFrame(() => el.classList.add('show')));
+    setTimeout(() => { el.classList.remove('show'); setTimeout(() => el.remove(), 400); }, 4500);
+  },
+
+  /* ── Screens ── */
+  showScreen(id) {
+    ['screen-menu', 'screen-player'].forEach(s => {
+      document.getElementById(s).classList.toggle('hidden', s !== id);
+    });
+  },
+
+  /* ── Progress tracking ── */
+  markAudioSeen(audioId) {
+    const raw  = localStorage.getItem('nihongo_shadowing_seen');
+    const seen = raw ? JSON.parse(raw) : [];
+    if (!seen.includes(audioId)) seen.push(audioId);
+    localStorage.setItem('nihongo_shadowing_seen', JSON.stringify(seen));
+  },
+  isAudioSeen(audioId) {
+    const raw  = localStorage.getItem('nihongo_shadowing_seen');
+    const seen = raw ? JSON.parse(raw) : [];
+    return seen.includes(audioId);
+  },
+
+  /* ── Load index ── */
+  async loadIndex() {
+    try {
+      const res = await fetch('shadowing/index.json');
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      ShadowingApp.indexData = await res.json();
+      ShadowingApp.renderMenu();
+    } catch (err) {
+      document.getElementById('menu-content').innerHTML = `
+        <div class="error-box">
+          <b>No se pudo cargar shadowing/index.json</b><br>${err.message}<br><br>
+          Abrí el archivo desde un servidor local:<br><code>python3 -m http.server 8000</code>
+        </div>`;
+      ShadowingApp.showToast('Error al cargar el contenido. Verificá la conexión.', 'error');
+    }
+  },
+
+  /* ── Render menu ── */
+  renderMenu() {
+    const niveles = ShadowingApp.indexData.niveles || [];
+    let html = '<div class="nivel-list">';
+
+    niveles.forEach(nivel => {
+      const totalAudios = nivel.unidades.reduce((s, u) =>
+        s + u.subunidades.reduce((ss, sub) => ss + sub.audios.length, 0), 0);
+      const nid = 'nivel-' + nivel.nivel;
+      html += `<div class="nivel-item" id="${nid}">
+        <button class="nivel-header" onclick="ShadowingApp.toggleNivel('${nivel.nivel}')">
+          <span class="nivel-arrow" aria-hidden="true">▶</span>
+          <span class="nivel-name">Nivel ${nivel.nivel}</span>
+          <span class="nivel-total">${totalAudios} audio${totalAudios !== 1 ? 's' : ''}</span>
+        </button>
+        <div class="nivel-content"><div class="nivel-inner">
+          <div class="unidad-list">`;
+
+      nivel.unidades.forEach(unidad => {
+        const uid = 'unidad-' + unidad.id;
+        const totalSubAudios = unidad.subunidades.reduce((s, sub) => s + sub.audios.length, 0);
+        html += `<div class="unidad-item" id="${uid}">
+          <button class="unidad-header" onclick="ShadowingApp.toggleUnidad('${nivel.nivel}','${unidad.id}')">
+            <span class="nivel-arrow" aria-hidden="true">▶</span>
+            <div style="flex:1;min-width:0">
+              <div class="unidad-name">${unidad.nombre}</div>
+              <div class="unidad-sub-text">${unidad.titulo}</div>
+            </div>
+            <span class="unidad-count">${totalSubAudios} audio${totalSubAudios !== 1 ? 's' : ''}</span>
+          </button>
+          <div class="unidad-content"><div class="unidad-inner">
+            <div class="subunidad-list">`;
+
+        unidad.subunidades.forEach(sub => {
+          const sid = `subunidad-${unidad.id}-${sub.id}`;
+          const cnt = sub.audios.length;
+          html += `<div class="subunidad-item" id="${sid}">
+            <button class="subunidad-header" onclick="ShadowingApp.toggleSubunidad('${unidad.id}','${sub.id}')">
+              <span class="nivel-arrow" aria-hidden="true">▶</span>
+              <div style="flex:1;min-width:0">
+                <div class="subunidad-name">${sub.nombre} — <span class="jp">${sub.titulo}</span></div>
+              </div>
+              <span class="subunidad-count">${cnt} audio${cnt !== 1 ? 's' : ''}</span>
+            </button>
+            <div class="subunidad-content"><div class="subunidad-inner">
+              <div class="audio-list">`;
+
+          sub.audios.forEach(audio => {
+            ShadowingApp.audioRegistry[audio.id] = audio;
+            const isMissing = !audio.archivo_audio || audio.missing === true;
+            const seenDot   = !isMissing && ShadowingApp.isAudioSeen(audio.id)
+              ? '<span style="width:7px;height:7px;border-radius:50%;background:var(--color-accent-unidad);display:inline-block;flex-shrink:0;" title="Ya practicado" aria-label="Ya practicado"></span>'
+              : '';
+            const countEl = isMissing ? '<span class="badge-missing">Sin audio</span>' : seenDot;
+            html += `<button class="audio-card${isMissing ? ' missing' : ''}" ${isMissing ? 'disabled' : `onclick="ShadowingApp.selectAudio('${audio.id}')"`}>
+              <span class="audio-card-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>${!isMissing ? '<path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>' : ''}</svg>
+              </span>
+              <div class="audio-card-info">
+                <div class="audio-card-name">${audio.nombre}</div>
+                <div class="audio-card-sub jp">${audio.titulo_jp} — ${audio.titulo_es}</div>
+              </div>
+              ${countEl}
+              ${!isMissing ? '<span class="audio-card-arrow" aria-hidden="true">▶</span>' : ''}
+            </button>`;
+          });
+
+          html += `</div></div></div></div>`;
+        });
+
+        html += `</div></div></div></div>`;
+      });
+
+      html += `</div></div></div></div>`;
+    });
+
+    html += '</div>';
+    document.getElementById('menu-content').innerHTML = html;
+  },
+
+  /* ── Accordion ── */
+  toggleNivel(nivelId) {
+    document.querySelectorAll('.nivel-item').forEach(el => {
+      if (el.id !== 'nivel-' + nivelId) {
+        el.classList.remove('open');
+        el.querySelectorAll('.unidad-item').forEach(u => u.classList.remove('open'));
+      }
+    });
+    document.getElementById('nivel-' + nivelId).classList.toggle('open');
+  },
+  toggleUnidad(nivelId, unidadId) {
+    const nivelEl = document.getElementById('nivel-' + nivelId);
+    nivelEl.querySelectorAll('.unidad-item').forEach(el => {
+      if (el.id !== 'unidad-' + unidadId) {
+        el.classList.remove('open');
+        el.querySelectorAll('.subunidad-item').forEach(s => s.classList.remove('open'));
+      }
+    });
+    document.getElementById('unidad-' + unidadId).classList.toggle('open');
+  },
+  toggleSubunidad(unidadId, subunidadId) {
+    const unidadEl = document.getElementById('unidad-' + unidadId);
+    unidadEl.querySelectorAll('.subunidad-item').forEach(el => {
+      if (el.id !== `subunidad-${unidadId}-${subunidadId}`) el.classList.remove('open');
+    });
+    document.getElementById(`subunidad-${unidadId}-${subunidadId}`).classList.toggle('open');
+  },
+
+  /* ── Select audio ── */
+  selectAudio(audioId) {
+    ShadowingApp.currentAudio = ShadowingApp.audioRegistry[audioId];
+    ShadowingApp.abA = null;
+    ShadowingApp.abB = null;
+    ShadowingApp.markAudioSeen(audioId);
+    ShadowingApp.renderPlayerScreen();
+    ShadowingApp.showScreen('screen-player');
+    window.scrollTo(0, 0);
+  },
+
+  /* ── Render player screen ── */
+  renderPlayerScreen() {
+    const audio = ShadowingApp.currentAudio;
+    document.getElementById('player-title-wrap').innerHTML = `
+      <div class="player-title">
+        <div class="player-title-name">${audio.nombre}</div>
+        <div class="player-title-sub jp">${audio.titulo_jp} — ${audio.titulo_es}</div>
+      </div>`;
+
+    ShadowingApp.renderAudioPlayer('shadowing/' + audio.archivo_audio);
+
+    document.getElementById('transcript-wrap').innerHTML = `
+      <button class="transcript-toggle" id="transcript-toggle-btn" onclick="ShadowingApp.toggleTranscript(this)" aria-expanded="false">
+        <span id="transcript-icon">${ShadowingApp.eyeOpenSVG}</span>
+        <span id="transcript-label">Ver transcript</span>
+      </button>
+      <div class="transcript-box hidden" id="transcript-box">
+        <div class="loader" style="padding:var(--space-4) 0;">Cargando transcript…</div>
+      </div>`;
+
+    ShadowingApp.loadTranscript('shadowing/' + audio.archivo_transcripcion);
+  },
+
+  /* ── Audio player ── */
+  renderAudioPlayer(src) {
+    const speed = parseFloat(localStorage.getItem('nihongo_shadowing_speed') || '0.9');
+    const wrap  = document.getElementById('audio-player-wrap');
+    wrap.innerHTML = `
+      <div class="audio-player">
+        <audio id="shadow-audio" src="${src}" preload="metadata"></audio>
+        <div class="audio-top">
+          <button class="play-btn" id="play-pause-btn" onclick="ShadowingApp.togglePlay()" aria-label="Reproducir / Pausar">
+            ${ShadowingApp.playSVG}
+          </button>
+          <div class="audio-info">
+            <div class="audio-time" id="audio-time">0:00 / 0:00</div>
+          </div>
+          <select class="speed-select" id="speed-sel" onchange="ShadowingApp.changeSpeed(this.value)" aria-label="Velocidad">
+            <option value="0.75" ${speed === 0.75 ? 'selected' : ''}>0.75×</option>
+            <option value="0.9"  ${speed === 0.9  ? 'selected' : ''}>0.9×</option>
+            <option value="1.0"  ${speed === 1.0  ? 'selected' : ''}>1.0×</option>
+            <option value="1.25" ${speed === 1.25 ? 'selected' : ''}>1.25×</option>
+          </select>
+          <button class="loop-btn" id="loop-btn" onclick="ShadowingApp.toggleLoop()" aria-label="Activar/desactivar bucle">
+            ${ShadowingApp.loopSVG} Bucle
+          </button>
+        </div>
+        <div class="audio-track-wrap" id="track-wrap">
+          <div class="audio-track-fill" id="track-fill" style="width:0%"></div>
+          <div class="ab-range-fill" id="ab-range-fill"></div>
+          <input type="range" min="0" max="100" value="0" id="track-range"
+            oninput="ShadowingApp.seekAudio(this.value)" aria-label="Posición del audio">
+        </div>
+        <div class="ab-controls">
+          <button class="ab-btn" id="ab-a-btn" onclick="ShadowingApp.setAbA()">A: ─ ─ : ─ ─</button>
+          <button class="ab-btn" id="ab-b-btn" onclick="ShadowingApp.setAbB()">B: ─ ─ : ─ ─</button>
+          <button class="ab-clear-btn hidden" id="ab-clear-btn" onclick="ShadowingApp.clearAb()" aria-label="Limpiar puntos A-B">✕ Limpiar</button>
+        </div>
+        <div class="ab-status hidden" id="ab-status"></div>
+      </div>`;
+
+    ShadowingApp.audioEl = document.getElementById('shadow-audio');
+    ShadowingApp.audioEl.playbackRate = speed;
+
+    ShadowingApp.audioEl.addEventListener('loadedmetadata', () => {
+      ShadowingApp.updateTime();
+      ShadowingApp.updateAbRange();
+    });
+    ShadowingApp.audioEl.addEventListener('timeupdate', () => {
+      ShadowingApp.updateTime();
+      const ae  = ShadowingApp.audioEl;
+      const pct = ae.duration ? (ae.currentTime / ae.duration) * 100 : 0;
+      const tf  = document.getElementById('track-fill');
+      const tr  = document.getElementById('track-range');
+      if (tf) tf.style.width = pct + '%';
+      if (tr) tr.value = pct;
+      if (ShadowingApp.abA !== null && ShadowingApp.abB !== null &&
+          ShadowingApp.abA < ShadowingApp.abB &&
+          ae.currentTime >= ShadowingApp.abB) {
+        ae.currentTime = ShadowingApp.abA;
+      }
+    });
+    ShadowingApp.audioEl.addEventListener('ended', () => {
+      const pb = document.getElementById('play-pause-btn');
+      if (pb) pb.innerHTML = ShadowingApp.playSVG;
+    });
+  },
+
+  togglePlay() {
+    const ae = ShadowingApp.audioEl;
+    if (!ae) return;
+    const btn = document.getElementById('play-pause-btn');
+    if (ae.paused) {
+      ae.play();
+      if (btn) btn.innerHTML = ShadowingApp.pauseSVG;
+    } else {
+      ae.pause();
+      if (btn) btn.innerHTML = ShadowingApp.playSVG;
+    }
+  },
+
+  changeSpeed(val) {
+    const ae = ShadowingApp.audioEl;
+    if (ae) ae.playbackRate = parseFloat(val);
+    localStorage.setItem('nihongo_shadowing_speed', val);
+  },
+
+  seekAudio(val) {
+    const ae = ShadowingApp.audioEl;
+    if (ae && ae.duration) ae.currentTime = (val / 100) * ae.duration;
+  },
+
+  updateTime() {
+    const ae = ShadowingApp.audioEl;
+    if (!ae) return;
+    const el = document.getElementById('audio-time');
+    if (el) el.textContent = `${ShadowingApp._fmtTime(ae.currentTime)} / ${ShadowingApp._fmtTime(ae.duration || 0)}`;
+  },
+
+  _fmtTime(s) {
+    const m = Math.floor(s / 60);
+    return `${m}:${Math.floor(s % 60).toString().padStart(2, '0')}`;
+  },
+
+  /* ── Loop ── */
+  toggleLoop() {
+    const ae = ShadowingApp.audioEl;
+    if (!ae) return;
+    ae.loop = !ae.loop;
+    const btn = document.getElementById('loop-btn');
+    if (btn) btn.classList.toggle('active', ae.loop);
+  },
+
+  /* ── A-B repeat ── */
+  setAbA() {
+    const ae = ShadowingApp.audioEl;
+    if (!ae) return;
+    ShadowingApp.abA = ae.currentTime;
+    const btn = document.getElementById('ab-a-btn');
+    if (btn) { btn.textContent = 'A: ' + ShadowingApp._fmtTime(ShadowingApp.abA); btn.classList.add('set'); }
+    const cb = document.getElementById('ab-clear-btn');
+    if (cb) cb.classList.remove('hidden');
+    ShadowingApp.updateAbStatus();
+    ShadowingApp.updateAbRange();
+  },
+
+  setAbB() {
+    const ae = ShadowingApp.audioEl;
+    if (!ae) return;
+    ShadowingApp.abB = ae.currentTime;
+    const btn = document.getElementById('ab-b-btn');
+    if (btn) { btn.textContent = 'B: ' + ShadowingApp._fmtTime(ShadowingApp.abB); btn.classList.add('set'); }
+    const cb = document.getElementById('ab-clear-btn');
+    if (cb) cb.classList.remove('hidden');
+    ShadowingApp.updateAbStatus();
+    ShadowingApp.updateAbRange();
+  },
+
+  clearAb() {
+    ShadowingApp.abA = null;
+    ShadowingApp.abB = null;
+    const aBtn = document.getElementById('ab-a-btn');
+    const bBtn = document.getElementById('ab-b-btn');
+    if (aBtn) { aBtn.textContent = 'A: ─ ─ : ─ ─'; aBtn.classList.remove('set'); }
+    if (bBtn) { bBtn.textContent = 'B: ─ ─ : ─ ─'; bBtn.classList.remove('set'); }
+    const cb = document.getElementById('ab-clear-btn');
+    if (cb) cb.classList.add('hidden');
+    const rf = document.getElementById('ab-range-fill');
+    if (rf) rf.style.display = 'none';
+    ShadowingApp.updateAbStatus();
+  },
+
+  updateAbStatus() {
+    const el = document.getElementById('ab-status');
+    if (!el) return;
+    const { abA, abB } = ShadowingApp;
+    if (abA !== null && abB !== null) {
+      if (abA < abB) {
+        el.textContent = `↺ Repitiendo: ${ShadowingApp._fmtTime(abA)} → ${ShadowingApp._fmtTime(abB)}`;
+        el.className   = 'ab-status active-loop';
+      } else {
+        el.textContent = 'El punto B debe ser posterior al punto A';
+        el.className   = 'ab-status';
+      }
+      el.classList.remove('hidden');
+    } else if (abA !== null || abB !== null) {
+      el.textContent = abA !== null
+        ? 'Marcá el punto B para activar el bucle A-B'
+        : 'Marcá el punto A para activar el bucle A-B';
+      el.className = 'ab-status';
+      el.classList.remove('hidden');
+    } else {
+      el.classList.add('hidden');
+    }
+  },
+
+  updateAbRange() {
+    const rf = document.getElementById('ab-range-fill');
+    const ae = ShadowingApp.audioEl;
+    if (!rf || !ae || !ae.duration) return;
+    const { abA, abB } = ShadowingApp;
+    if (abA !== null && abB !== null && abA < abB) {
+      rf.style.left    = (abA / ae.duration * 100) + '%';
+      rf.style.width   = ((abB - abA) / ae.duration * 100) + '%';
+      rf.style.display = 'block';
+    } else {
+      rf.style.display = 'none';
+    }
+  },
+
+  /* ── Transcript ── */
+  async loadTranscript(path) {
+    try {
+      const res = await fetch(path);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const text   = await res.text();
+      const parsed = ShadowingApp._parseTranscript(text);
+      const box    = document.getElementById('transcript-box');
+      if (box) box.innerHTML = ShadowingApp._renderTranscriptHTML(parsed);
+    } catch (err) {
+      const box = document.getElementById('transcript-box');
+      if (box) box.innerHTML = `<div style="color:var(--color-text-muted);font-size:var(--text-sm);">No se pudo cargar el transcript.</div>`;
+      ShadowingApp.showToast('No se pudo cargar el transcript.', 'error');
+    }
+  },
+
+  _parseTranscript(text) {
+    const lines  = text.split('\n').map(l => l.trim());
+    const result = { titulo: '', secciones: [] };
+    let i = 0;
+    while (i < lines.length && !lines[i]) i++;
+    if (i < lines.length) { result.titulo = lines[i]; i++; }
+    let currentSection = null;
+    while (i < lines.length) {
+      const line = lines[i];
+      if (line.startsWith('[') && line.endsWith(']')) {
+        currentSection = { tipo: line.slice(1, -1), items: [] };
+        result.secciones.push(currentSection);
+      } else if (currentSection && line && !line.startsWith('→')) {
+        if (currentSection.tipo === 'VOCABULARIO' && line.includes(' — ')) {
+          const sepIdx = line.indexOf(' — ');
+          currentSection.items.push({ jp: line.slice(0, sepIdx), es: line.slice(sepIdx + 3) });
+        } else if (currentSection.tipo === 'FRASES') {
+          const nextLine = lines[i + 1] || '';
+          const es = nextLine.startsWith('→') ? nextLine.slice(2).trim() : '';
+          currentSection.items.push({ jp: line, es });
+          if (es) i++;
+        }
+      }
+      i++;
+    }
+    return result;
+  },
+
+  _renderTranscriptHTML(parsed) {
+    let html = '';
+    if (parsed.titulo) {
+      html += `<div style="font-weight:var(--weight-bold);margin-bottom:var(--space-4);color:var(--color-text);">${parsed.titulo}</div>`;
+    }
+    parsed.secciones.forEach(sec => {
+      html += `<div class="transcript-section">
+        <div class="transcript-section-header">${sec.tipo}</div>`;
+      if (sec.tipo === 'VOCABULARIO') {
+        html += '<div class="vocab-grid">';
+        sec.items.forEach(item => {
+          html += `<div class="vocab-row">
+            <span class="vocab-jp jp">${item.jp}</span>
+            <span class="vocab-es">${item.es}</span>
+          </div>`;
+        });
+        html += '</div>';
+      } else if (sec.tipo === 'FRASES') {
+        html += '<div class="phrases-list">';
+        sec.items.forEach(item => {
+          html += `<div class="phrase-row">
+            <div class="phrase-jp jp">${item.jp}</div>
+            ${item.es ? `<div class="phrase-es">${item.es}</div>` : ''}
+          </div>`;
+        });
+        html += '</div>';
+      }
+      html += '</div>';
+    });
+    return html;
+  },
+
+  toggleTranscript(btn) {
+    const box   = document.getElementById('transcript-box');
+    const icon  = document.getElementById('transcript-icon');
+    const label = document.getElementById('transcript-label');
+    if (!box) return;
+    const isOpen = !box.classList.contains('hidden');
+    box.classList.toggle('hidden', isOpen);
+    btn.classList.toggle('open', !isOpen);
+    btn.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
+    if (icon)  icon.innerHTML  = isOpen ? ShadowingApp.eyeOpenSVG : ShadowingApp.eyeClosedSVG;
+    if (label) label.textContent = isOpen ? 'Ver transcript' : 'Ocultar transcript';
+  },
+
+  /* ── Navigation ── */
+  backToMenu() {
+    const ae = ShadowingApp.audioEl;
+    if (ae) { ae.pause(); ShadowingApp.audioEl = null; }
+    ShadowingApp.showScreen('screen-menu');
+  },
+
+  /* ── Init ── */
+  init() {
+    ShadowingApp._updateThemeBtn(document.documentElement.getAttribute('data-theme') === 'dark');
+    ShadowingApp.loadIndex();
+  }
+};
+
+ShadowingApp.init();
+</script>
+<script src="config.js"></script>
+<script src="supabase-client.js"></script>
+<script src="nav.js"></script>
+</body>
+</html>

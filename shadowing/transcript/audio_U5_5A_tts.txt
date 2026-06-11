@@ -1,0 +1,207 @@
+ユニット5−A。たんご。 [[p800]]
+
+Unidad 5-A. Vocabulario. [[p1500]]
+
+きょう [[p600]]
+
+Hoy [[p1000]]
+
+あした [[p600]]
+
+Mañana [[p1000]]
+
+あさって [[p600]]
+
+Pasado mañana [[p1000]]
+
+きのう [[p600]]
+
+Ayer [[p1000]]
+
+おととい [[p600]]
+
+Anteayer [[p1000]]
+
+せんしゅう [[p600]]
+
+La semana pasada [[p1000]]
+
+しゅうまつ [[p600]]
+
+Fin de semana [[p1000]]
+
+いえ [[p600]]
+
+Casa [[p1000]]
+
+へや [[p600]]
+
+Habitación [[p1000]]
+
+デパート [[p600]]
+
+Tienda departamental [[p1000]]
+
+びじゅつかん [[p600]]
+
+Museo de arte [[p1000]]
+
+ゲーム [[p600]]
+
+Videojuego [[p1000]]
+
+かぞく [[p600]]
+
+Familia [[p1000]]
+
+こいびと [[p600]]
+
+Novio o Novia [[p1000]]
+
+ともだち [[p600]]
+
+Amigo o Amiga [[p1000]]
+
+ルームメイト [[p600]]
+
+Compañero o Compañera de cuarto [[p1000]]
+
+あう、あいます [[p600]]
+
+Encontrarse con [[p1000]]
+
+つくる、つくります [[p900]]
+
+Hacer [[p1000]]
+
+かいもの、かいものします [[p900]]
+
+Hacer compras [[p1000]]
+
+しょくじ、しょくじします [[p900]]
+
+Comer [[p1000]]
+
+せんたく、せんたくします [[p900]]
+
+Lavar la ropa [[p1000]]
+
+そうじ、そうじします [[p900]]
+
+Limpiar [[p1000]]
+
+それから [[p600]]
+
+Después [[p1000]]
+
+ひとりで [[p600]]
+
+Solo [[p1000]]
+
+どこか（へ） [[p600]]
+
+A algún lugar [[p1000]]
+
+れいぶん。 [[p800]]
+
+Frases de ejemplo. [[p1500]]
+
+きょうはてんきがいいです。 [[p900]]
+
+Hoy hace buen tiempo. [[p1300]]
+
+あした、ともだちとあいます。 [[p900]]
+
+Mañana me encuentro con un amigo. [[p1300]]
+
+あさって、デパートへいきます。 [[p900]]
+
+Pasado mañana voy a la tienda departamental. [[p1300]]
+
+きのう、べんきょうしませんでした。 [[p1300]]
+
+Ayer no estudié. [[p1300]]
+
+おととい、しんじゅくへいきました。 [[p1300]]
+
+Anteayer fui a Shinjuku. [[p1300]]
+
+せんしゅう、かぞくとしょくじしました。 [[p1300]]
+
+La semana pasada cené con mi familia. [[p1300]]
+
+しゅうまつ、ともだちとサッカーをしました。 [[p1300]]
+
+El fin de semana jugué al fútbol con un amigo. [[p1300]]
+
+しゅうまつ、ともだちのいえへいきました。 [[p1300]]
+
+El fin de semana fui a casa de un amigo. [[p1300]]
+
+へやをそうじしました。 [[p900]]
+
+Limpié mi cuarto. [[p1300]]
+
+しんじゅくのデパートでかいものしました。 [[p1300]]
+
+Hice compras en la tienda departamental de Shinjuku. [[p1300]]
+
+せんしゅう、びじゅつかんへいきました。 [[p1300]]
+
+La semana pasada fui al museo de arte. [[p1300]]
+
+4じかんくらいゲームをしました。 [[p900]]
+
+Jugué videojuegos unas 4 horas. [[p1300]]
+
+かぞくとはこねへいきました。 [[p900]]
+
+Fui a Hakone con mi familia. [[p1300]]
+
+きのう、こいびととえいがをみました。 [[p1300]]
+
+Ayer vi una película con mi pareja. [[p1300]]
+
+ともだちにあいました。 [[p900]]
+
+Me encontré con un amigo. [[p1300]]
+
+ルームメイトとりょうりをつくりました。 [[p1300]]
+
+Hice de comer con mi compañero de cuarto. [[p1300]]
+
+ともだちにあいました。 [[p900]]
+
+Me encontré con un amigo. [[p1300]]
+
+きのう、りょうりをつくりました。 [[p900]]
+
+Ayer cociné (preparé comida). [[p1300]]
+
+デパートでかいものしました。 [[p900]]
+
+Hice compras en la tienda departamental. [[p1300]]
+
+かぞくとしょくじしました。 [[p900]]
+
+Comí con mi familia. [[p1300]]
+
+しゅうまつ、せんたくしました。 [[p900]]
+
+Lavé la ropa el fin de semana. [[p1300]]
+
+へやをそうじしました。 [[p900]]
+
+Limpié mi cuarto. [[p1300]]
+
+えいがをみました。それから、しょくじをしました。 [[p1300]]
+
+Vi una película. Después, cené. [[p1300]]
+
+ひとりでえいがをみました。 [[p900]]
+
+Vi una película solo. [[p1300]]
+
+しゅうまつ、どこか（へ）いきましたか。 [[p1300]]
+
+¿Fuiste a algún lugar el fin de semana? [[p1300]]

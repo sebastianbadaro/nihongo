@@ -1,0 +1,155 @@
+ユニット5−C。たんご。 [[p800]]
+
+Unidad 5-C. Vocabulario. [[p1500]]
+
+アニメ [[p600]]
+
+Anime [[p1000]]
+
+え [[p600]]
+
+Cuadro, dibujo o pintura [[p1000]]
+
+じてんしゃ [[p600]]
+
+Bicicleta [[p1000]]
+
+しゃしん [[p600]]
+
+Foto o fotografía [[p1000]]
+
+とる、とります [[p600]]
+
+Sacar una foto o video [[p1000]]
+
+かりる、かります [[p600]]
+
+Pedir prestado o alquilar [[p1000]]
+
+ほしい [[p600]]
+
+Querer tener algo. Adjetivo い [[p1000]]
+
+すきな [[p600]]
+
+Que gusta. Adjetivo な [[p1000]]
+
+きらいな [[p600]]
+
+Que no gusta o detestar. Adjetivo な [[p1000]]
+
+けいたいでんわ [[p600]]
+
+Teléfono celular [[p1000]]
+
+さいふ [[p600]]
+
+Billetera o monedero [[p1000]]
+
+はるやすみ [[p600]]
+
+Vacaciones de primavera [[p1000]]
+
+なつやすみ [[p600]]
+
+Vacaciones de verano [[p1000]]
+
+あきはばら [[p600]]
+
+Akihabara, barrio de Tokio [[p1000]]
+
+こんど [[p600]]
+
+La próxima vez [[p1000]]
+
+こんばん [[p600]]
+
+Esta noche [[p1000]]
+
+ことし [[p600]]
+
+Este año [[p1000]]
+
+らいねん [[p600]]
+
+El año que viene [[p1000]]
+
+けしき [[p600]]
+
+Paisaje o vista [[p1000]]
+
+れいぶん。 [[p800]]
+
+Frases de ejemplo. [[p1500]]
+
+わたしはにほんのアニメがすきです。 [[p1300]]
+
+Me gusta el anime japonés. [[p1300]]
+
+びじゅつかんでえをみました。 [[p900]]
+
+Vi cuadros en el museo. [[p1300]]
+
+まいにちじてんしゃでがっこうへいきます。 [[p1300]]
+
+Todos los días voy a la escuela en bicicleta. [[p1300]]
+
+きょうとでしゃしんをとりました。 [[p900]]
+
+Saqué fotos en Kioto. [[p1300]]
+
+としょかんでほんをかります。 [[p900]]
+
+Pido libros prestados en la biblioteca. [[p1300]]
+
+あたらしいパソコンがほしいです。 [[p900]]
+
+Quiero una computadora nueva. [[p1300]]
+
+わたしはなっとうがきらいです。 [[p900]]
+
+No me gusta el nattō. [[p1300]]
+
+あたらしいけいたいでんわがほしいです。 [[p1300]]
+
+Quiero un celular nuevo. [[p1300]]
+
+デパートでさいふをかいました。 [[p900]]
+
+Compré una billetera en la tienda departamental. [[p1300]]
+
+なつやすみにかぞくとほっかいどうへいきたいです。 [[p1300]]
+
+En las vacaciones de verano quiero ir a Hokkaido con mi familia. [[p1300]]
+
+ともだちとえいがをみたいです。 [[p900]]
+
+Quiero ver una película con mis amigos. [[p1300]]
+
+けいたいでんわをかいにあきはばらへいきます。 [[p1300]]
+
+Voy a Akihabara a comprar un celular. [[p1300]]
+
+やまへしゃしんをとりにいきます。 [[p900]]
+
+Voy a la montaña a sacar fotos. [[p1300]]
+
+こんどのやすみにはこねでけしきのしゃしんをとりたいです。 [[p1300]]
+
+En el próximo descanso quiero sacar fotos del paisaje en Hakone. [[p1300]]
+
+なにがすきですか。 [[p900]]
+
+¿Qué te gusta? [[p1300]]
+
+にほんのアニメがすきです。 [[p900]]
+
+Me gusta el anime japonés. [[p1300]]
+
+なにがほしいですか。 [[p900]]
+
+¿Qué querés tener? [[p1300]]
+
+あたらしいけいたいでんわがほしいです。 [[p1300]]
+
+Quiero un celular nuevo. [[p1300]]

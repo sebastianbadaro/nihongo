@@ -1,0 +1,40 @@
+# keep-alive.yml
+#
+# PURPOSE:
+#   Free-tier Supabase projects pause after 1 week of inactivity.
+#   This workflow pings the Supabase REST health endpoint every 3 days
+#   to keep the project awake without any manual intervention.
+#
+# REQUIRED SECRETS (add at GitHub → repo Settings → Secrets and variables → Actions):
+#   SUPABASE_URL      — your project URL, e.g. https://abcdefgh.supabase.co
+#   SUPABASE_ANON_KEY — your project anon key (safe to use here; RLS enforces security)
+#
+# MANUAL RUN:
+#   Go to Actions → "Keep Supabase Active" → "Run workflow" to trigger immediately.
+
+name: Keep Supabase Active
+
+on:
+  schedule:
+    # Runs at 00:00 UTC on days 1, 4, 7, 10, 13, 16, 19, 22, 25, 28
+    - cron: '0 0 */3 * *'
+  workflow_dispatch:
+
+jobs:
+  ping:
+    name: Ping Supabase health endpoint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping REST endpoint
+        run: |
+          echo "Pinging ${{ secrets.SUPABASE_URL }}/rest/v1/ ..."
+          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
+            "${{ secrets.SUPABASE_URL }}/rest/v1/" \
+            -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}" \
+            -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}")
+          echo "Response: $HTTP_STATUS"
+          if [ "$HTTP_STATUS" -lt 200 ] || [ "$HTTP_STATUS" -ge 400 ]; then
+            echo "Unexpected status $HTTP_STATUS — check that the secrets are set correctly."
+            exit 1
+          fi
+          echo "Supabase project is active."
