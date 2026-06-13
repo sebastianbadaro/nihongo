@@ -1,0 +1,72 @@
+UNIDAD 4-A — Puntos cardinales y distancias
+
+[VOCABULARIO]
+
+きた — Norte
+みなみ — Sur
+ひがし — Este
+にし — Oeste
+まんなか — En el medio
+ちゅうしん — Centro
+とうきょう — Tokio
+おおさか — Osaka
+きょうと — Kioto
+よこはま — Yokohama
+ひろしま — Hiroshima
+ほっかいどう — Hokkaido
+おきなわ — Okinawa
+なら — Nara
+ひめじ — Himeji
+ながの — Nagano
+にっこう — Nikko
+でんしゃ — Tren
+しんかんせん — Tren bala
+ちかてつ — Subte o metro
+ひこうき — Avión
+くるま — Auto
+じてんしゃ — Bicicleta
+バス — Colectivo o bus
+タクシー — Taxi
+あるいて — Caminando
+じかん — Horas
+じかんはん — Horas y media
+くらい — Aproximadamente
+どのくらい — ¿Cuánto tiempo?
+
+[FRASES]
+
+ほっかいどうはにほんのきたです。
+→ Hokkaido está en el norte de Japón.
+
+おきなわはにほんのみなみです。
+→ Okinawa está en el sur de Japón.
+
+とうきょうはにほんのひがしです。
+→ Tokio está en el este de Japón.
+
+ながのはにほんのまんなかです。
+→ Nagano está en el medio de Japón.
+
+バスでかいしゃへいきます。
+→ Voy a la empresa en colectivo.
+
+とうきょうからおおさかまでしんかんせんで2じかんはんです。
+→ De Tokio a Osaka son 2 horas y media en tren bala.
+
+ひこうきで3じかんです。
+→ Son 3 horas en avión.
+
+うちからえきまであるいて10ぷんです。
+→ De casa a la estación son 10 minutos caminando.
+
+3じかんくらいです。
+→ Son unas 3 horas.
+
+とうきょうからおおさかまでどのくらいですか。
+→ ¿Cuánto se tarda de Tokio a Osaka?
+
+なにでかいしゃへいきますか。
+→ ¿En qué vas a la empresa?
+
+ほっかいどうはにほんのどこですか。
+→ ¿Dónde queda Hokkaido en Japón?

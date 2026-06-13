@@ -1,0 +1,179 @@
+ユニット1-A [[p800]]
+
+Unidad 1-A. Presentaciones [[p1500]]
+
+ごい [[p800]]
+
+Vocabulario [[p1500]]
+
+わたし [[p600]]
+
+Yo [[p1000]]
+
+なまえ [[p600]]
+
+Nombre [[p1000]]
+
+しごと [[p600]]
+
+Trabajo [[p1000]]
+
+くに [[p600]]
+
+País [[p1000]]
+
+さん [[p600]]
+
+Señor o señora [[p1000]]
+
+にほん [[p600]]
+
+Japón [[p1000]]
+
+アルゼンチン [[p600]]
+
+Argentina [[p1000]]
+
+ちゅうごく [[p600]]
+
+China [[p1000]]
+
+かんこく [[p600]]
+
+Corea del Sur [[p1000]]
+
+がくせい [[p600]]
+
+Estudiante [[p1000]]
+
+せんせい [[p600]]
+
+Profesor o profesora [[p1000]]
+
+かいしゃいん [[p600]]
+
+Empleado o empleada [[p1000]]
+
+エンジニア [[p600]]
+
+Ingeniero o ingeniera [[p1000]]
+
+いしゃ [[p600]]
+
+Médico o médica [[p1000]]
+
+はじめまして [[p600]]
+
+Mucho gusto [[p1000]]
+
+よろしくおねがいします [[p900]]
+
+Encantado o encantada [[p1000]]
+
+こちらこそ [[p600]]
+
+Igualmente [[p1000]]
+
+そうですか [[p600]]
+
+Ah, ya veo [[p1000]]
+
+はい [[p600]]
+
+Sí [[p1000]]
+
+いいえ [[p600]]
+
+No [[p1000]]
+
+あのう [[p600]]
+
+Eh, disculpe [[p1000]]
+
+すみません [[p600]]
+
+Perdón [[p1000]]
+
+フレーズ [[p800]]
+
+Frases [[p1500]]
+
+はじめまして。 [[p600]]
+
+Mucho gusto. [[p1300]]
+
+わたしはセバスチャンです。 [[p900]]
+
+Soy Sebastián. [[p1300]]
+
+アルゼンチンじんです。 [[p900]]
+
+Soy argentino. [[p1300]]
+
+よろしくおねがいします。 [[p900]]
+
+Encantado de conocerte. [[p1300]]
+
+こちらこそ、よろしくおねがいします。 [[p900]]
+
+Igualmente, encantado. [[p1300]]
+
+おなまえは？ [[p600]]
+
+¿Cómo te llamás? [[p1300]]
+
+わたしはパクです。 [[p600]]
+
+Soy Park. [[p1300]]
+
+おくにはどちらですか。 [[p900]]
+
+¿De qué país sos? [[p1300]]
+
+かんこくです。 [[p600]]
+
+De Corea del Sur. [[p1300]]
+
+そうですか。 [[p600]]
+
+Ah, ya veo. [[p1300]]
+
+おしごとは？ [[p600]]
+
+¿En qué trabajás? [[p1300]]
+
+わたしはかいしゃいんです。 [[p900]]
+
+Soy empleado. [[p1300]]
+
+にほんじんですか。 [[p600]]
+
+¿Sos japonés? [[p1300]]
+
+はい、そうです。 [[p600]]
+
+Sí, así es. [[p1300]]
+
+いいえ、ちがいます。ちゅうごくじんです。 [[p1300]]
+
+No. Soy chino. [[p1300]]
+
+せんせいですか。 [[p600]]
+
+¿Sos profesor? [[p1300]]
+
+いいえ、せんせいじゃありません。エンジニアです。 [[p1300]]
+
+No, no soy profesor. Soy ingeniero. [[p1300]]
+
+わたしはいしゃです。 [[p900]]
+
+Soy médico. [[p1300]]
+
+がくせいじゃありません。 [[p900]]
+
+No soy estudiante. [[p1300]]
+
+あのう、すみません。おなまえは？ [[p900]]
+
+Eh, disculpe. ¿Cómo te llamás? [[p1300]]

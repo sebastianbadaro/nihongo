@@ -1,0 +1,86 @@
+UNIDAD 2-B — Precios y compras
+
+[VOCABULARIO]
+
+ひゃく — Cien
+さんびゃく — Trescientos
+ろっぴゃく — Seiscientos
+はっぴゃく — Ochocientos
+せん — Mil
+さんぜん — Tres mil
+はっせん — Ocho mil
+いちまん — Diez mil
+えん — Yen
+いくら — ¿Cuánto cuesta?
+じゃ — Entonces
+なんの — ¿Qué tipo de?
+ティーシャツ — Remera
+ズボン — Pantalón
+ケーキ — Torta
+くすり — Medicamento
+たまご — Huevo
+パン — Pan
+こめ — Arroz crudo
+てんいん — Empleado o empleada de tienda
+
+[FRASES]
+
+これはいくらですか。
+→ ¿Cuánto cuesta esto?
+
+ひゃくえんです。
+→ Son 100 yenes.
+
+さんびゃくえんです。
+→ Son 300 yenes.
+
+ごひゃくえんです。
+→ Son 500 yenes.
+
+ろっぴゃくえんです。
+→ Son 600 yenes.
+
+はっぴゃくえんです。
+→ Son 800 yenes.
+
+せんえんです。
+→ Son 1000 yenes.
+
+さんぜんえんです。
+→ Son 3000 yenes.
+
+はっせんえんです。
+→ Son 8000 yenes.
+
+いちまんえんです。
+→ Son 10000 yenes.
+
+このティーシャツはいくらですか。
+→ ¿Cuánto cuesta esta remera?
+
+せんにひゃくえんです。
+→ Son 1200 yenes.
+
+そのズボンはいくらですか。
+→ ¿Cuánto cuesta ese pantalón?
+
+にせんさんびゃくえんです。
+→ Son 2300 yenes.
+
+あのケーキはいくらですか。
+→ ¿Cuánto cuesta esa torta?
+
+さんぜんごひゃくえんです。
+→ Son 3500 yenes.
+
+じゃ、これをください。
+→ Entonces, dame esto.
+
+これはなんのほんですか。
+→ ¿Qué tipo de libro es?
+
+にほんごのほんです。
+→ Es un libro de japonés.
+
+これはどこのくるまですか。
+→ ¿De qué país es este auto?

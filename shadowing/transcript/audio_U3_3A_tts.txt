@@ -1,0 +1,155 @@
+ユニット3-A [[p800]]
+
+Unidad 3-A. Horarios y lugares [[p1500]]
+
+ごい [[p800]]
+
+Vocabulario [[p1500]]
+
+いま [[p600]]
+
+Ahora [[p1000]]
+
+じ [[p600]]
+
+Horas [[p1000]]
+
+ふん、ぷん [[p600]]
+
+Minutos [[p1000]]
+
+じはん [[p600]]
+
+Y media [[p1000]]
+
+ごぜん [[p600]]
+
+De la mañana [[p1000]]
+
+ごご [[p600]]
+
+De la tarde [[p1000]]
+
+ひる [[p600]]
+
+Mediodía [[p1000]]
+
+じかん [[p600]]
+
+Tiempo [[p1000]]
+
+なんじ [[p600]]
+
+¿Qué hora? [[p1000]]
+
+なんじまで [[p600]]
+
+¿Hasta qué hora? [[p1000]]
+
+なんようび [[p600]]
+
+¿Qué día? [[p1000]]
+
+げつようび [[p600]]
+
+Lunes [[p1000]]
+
+かようび [[p600]]
+
+Martes [[p1000]]
+
+すいようび [[p600]]
+
+Miércoles [[p1000]]
+
+もくようび [[p600]]
+
+Jueves [[p1000]]
+
+きんようび [[p600]]
+
+Viernes [[p1000]]
+
+どようび [[p600]]
+
+Sábado [[p1000]]
+
+にちようび [[p600]]
+
+Domingo [[p1000]]
+
+ぎんこう [[p600]]
+
+Banco [[p1000]]
+
+ゆうびんきょく [[p600]]
+
+Correo [[p1000]]
+
+としょかん [[p600]]
+
+Biblioteca [[p1000]]
+
+びょういん [[p600]]
+
+Hospital [[p1000]]
+
+たいいくかん [[p600]]
+
+Gimnasio [[p1000]]
+
+じゅぎょう [[p600]]
+
+Clase [[p1000]]
+
+テスト [[p600]]
+
+Examen [[p1000]]
+
+やすみ [[p600]]
+
+Descanso o día libre [[p1000]]
+
+フレーズ [[p800]]
+
+Frases [[p1500]]
+
+いま、なんじですか。 [[p600]]
+
+¿Qué hora es ahora? [[p1300]]
+
+くじにじゅっぷんです。 [[p900]]
+
+Son las 9 y 20. [[p1300]]
+
+はちじはんです。 [[p600]]
+
+Son las 8 y media. [[p1300]]
+
+はちじじゅうごふんまえです。 [[p900]]
+
+Faltan 15 para las 8. [[p1300]]
+
+ぎんこうはなんじまでですか。 [[p900]]
+
+¿Hasta qué hora está abierto el banco? [[p1300]]
+
+くじからごじまでです。 [[p900]]
+
+Es de 9 a 5. [[p1300]]
+
+きょうはなんようびですか。 [[p900]]
+
+¿Qué día es hoy? [[p1300]]
+
+きんようびはにほんごのじゅぎょうです。 [[p1300]]
+
+Los viernes tengo clase de japonés. [[p1300]]
+
+にほんごのじゅぎょうはしちじからです。 [[p1300]]
+
+La clase de japonés es desde las 7. [[p1300]]
+
+あしたはやすみです。 [[p900]]
+
+Mañana es día libre. [[p1300]]

@@ -1,0 +1,88 @@
+UNIDAD 1-A — Presentaciones
+
+[VOCABULARIO]
+
+わたし — Yo
+なまえ — Nombre
+しごと — Trabajo
+くに — País
+さん — Señor o señora
+にほん — Japón
+アルゼンチン — Argentina
+ちゅうごく — China
+かんこく — Corea del Sur
+がくせい — Estudiante
+せんせい — Profesor o profesora
+かいしゃいん — Empleado o empleada
+エンジニア — Ingeniero o ingeniera
+いしゃ — Médico o médica
+はじめまして — Mucho gusto
+よろしくおねがいします — Encantado o encantada
+こちらこそ — Igualmente
+そうですか — Ah, ya veo
+はい — Sí
+いいえ — No
+あのう — Eh, disculpe
+すみません — Perdón
+
+[FRASES]
+
+はじめまして。
+→ Mucho gusto.
+
+わたしはセバスチャンです。
+→ Soy Sebastián.
+
+アルゼンチンじんです。
+→ Soy argentino.
+
+よろしくおねがいします。
+→ Encantado de conocerte.
+
+こちらこそ、よろしくおねがいします。
+→ Igualmente, encantado.
+
+おなまえは？
+→ ¿Cómo te llamás?
+
+わたしはパクです。
+→ Soy Park.
+
+おくにはどちらですか。
+→ ¿De qué país sos?
+
+かんこくです。
+→ De Corea del Sur.
+
+そうですか。
+→ Ah, ya veo.
+
+おしごとは？
+→ ¿En qué trabajás?
+
+わたしはかいしゃいんです。
+→ Soy empleado.
+
+にほんじんですか。
+→ ¿Sos japonés?
+
+はい、そうです。
+→ Sí, así es.
+
+いいえ、ちがいます。ちゅうごくじんです。
+→ No. Soy chino.
+
+せんせいですか。
+→ ¿Sos profesor?
+
+いいえ、せんせいじゃありません。エンジニアです。
+→ No, no soy profesor. Soy ingeniero.
+
+わたしはいしゃです。
+→ Soy médico.
+
+がくせいじゃありません。
+→ No soy estudiante.
+
+あのう、すみません。おなまえは？
+→ Eh, disculpe. ¿Cómo te llamás?

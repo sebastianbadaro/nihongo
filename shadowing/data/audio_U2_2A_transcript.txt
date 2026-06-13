@@ -1,0 +1,96 @@
+UNIDAD 2-A — Buscar lugares y cosas
+
+[VOCABULARIO]
+
+これ — Esto
+それ — Eso
+あれ — Aquello
+この — Este o esta
+その — Ese o esa
+あの — Aquel o aquella
+ここ — Aquí
+そこ — Ahí
+あそこ — Allí
+こちら — Por aquí
+そちら — Por ahí
+あちら — Por allí
+トイレ — Baño
+レジ — Caja
+エレベーター — Ascensor
+エスカレーター — Escalera mecánica
+スーパー — Supermercado
+レストラン — Restaurante
+ほん — Libro
+じしょ — Diccionario
+けいたいでんわ — Celular
+パソコン — Computadora
+とけい — Reloj
+かばん — Bolso o mochila
+さいふ — Billetera
+かい — Piso
+なんがい — ¿Qué piso?
+ちか — Sótano
+どこ — ¿Dónde?
+だれ — ¿Quién?
+
+[FRASES]
+
+すみません、トイレはどこですか。
+→ Perdón, ¿dónde está el baño?
+
+トイレはあちらです。
+→ El baño está por allí.
+
+エレベーターはどこですか。
+→ ¿Dónde está el ascensor?
+
+エレベーターはそちらです。
+→ El ascensor está por ahí.
+
+レジはどこですか。
+→ ¿Dónde está la caja?
+
+レジはあそこです。
+→ La caja está allí.
+
+これはなんですか。
+→ ¿Qué es esto?
+
+それはじしょです。
+→ Eso es un diccionario.
+
+あれはなんですか。
+→ ¿Qué es aquello?
+
+あれはパソコンです。
+→ Aquello es una computadora.
+
+このほんはだれのですか。
+→ ¿De quién es este libro?
+
+それはわたしのです。
+→ Eso es mío.
+
+そのかばんはだれのですか。
+→ ¿De quién es ese bolso?
+
+わたしのじゃありません。
+→ No es mío.
+
+パクさんのです。
+→ Es de Park.
+
+スーパーはなんがいですか。
+→ ¿En qué piso está el supermercado?
+
+ちかです。
+→ En el sótano.
+
+レストランはなんがいですか。
+→ ¿En qué piso está el restaurante?
+
+ごかいです。
+→ En el quinto piso.
+
+このけいたいでんわはだれのですか。
+→ ¿De quién es este celular?

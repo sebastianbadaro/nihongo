@@ -1,0 +1,62 @@
+UNIDAD 3-A — Horarios y lugares
+
+[VOCABULARIO]
+
+いま — Ahora
+じ — Horas
+ふん、ぷん — Minutos
+じはん — Y media
+ごぜん — De la mañana
+ごご — De la tarde
+ひる — Mediodía
+じかん — Tiempo
+なんじ — ¿Qué hora?
+なんじまで — ¿Hasta qué hora?
+なんようび — ¿Qué día?
+げつようび — Lunes
+かようび — Martes
+すいようび — Miércoles
+もくようび — Jueves
+きんようび — Viernes
+どようび — Sábado
+にちようび — Domingo
+ぎんこう — Banco
+ゆうびんきょく — Correo
+としょかん — Biblioteca
+びょういん — Hospital
+たいいくかん — Gimnasio
+じゅぎょう — Clase
+テスト — Examen
+やすみ — Descanso o día libre
+
+[FRASES]
+
+いま、なんじですか。
+→ ¿Qué hora es ahora?
+
+9じ20ぷんです。
+→ Son las 9 y 20.
+
+8じはんです。
+→ Son las 8 y media.
+
+8じ15ふんまえです。
+→ Faltan 15 para las 8.
+
+ぎんこうはなんじまでですか。
+→ ¿Hasta qué hora está abierto el banco?
+
+9じから5じまでです。
+→ Es de 9 a 5.
+
+きょうはなんようびですか。
+→ ¿Qué día es hoy?
+
+きんようびはにほんごのじゅぎょうです。
+→ Los viernes tengo clase de japonés.
+
+にほんごのじゅぎょうは7じからです。
+→ La clase de japonés es desde las 7.
+
+あしたはやすみです。
+→ Mañana es día libre.

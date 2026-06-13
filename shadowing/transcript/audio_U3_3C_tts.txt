@@ -1,0 +1,171 @@
+ユニット3-C [[p800]]
+
+Unidad 3-C. Rutina diaria [[p1500]]
+
+ごい [[p800]]
+
+Vocabulario [[p1500]]
+
+あさ [[p600]]
+
+Mañana [[p1000]]
+
+よる [[p600]]
+
+Noche [[p1000]]
+
+まいにち [[p600]]
+
+Todos los días [[p1000]]
+
+まいあさ [[p600]]
+
+Todas las mañanas [[p1000]]
+
+まいばん [[p600]]
+
+Todas las noches [[p1000]]
+
+あさごはん [[p600]]
+
+Desayuno [[p1000]]
+
+ひるごはん [[p600]]
+
+Almuerzo [[p1000]]
+
+ばんごはん [[p600]]
+
+Cena [[p1000]]
+
+うち [[p600]]
+
+Casa [[p1000]]
+
+かいしゃ [[p600]]
+
+Empresa [[p1000]]
+
+がっこう [[p600]]
+
+Escuela [[p1000]]
+
+コンビニ [[p600]]
+
+Tienda [[p1000]]
+
+おきる、おきます [[p600]]
+
+Levantarse [[p1000]]
+
+ねる、ねます [[p600]]
+
+Acostarse [[p1000]]
+
+はたらく、はたらきます [[p900]]
+
+Trabajar [[p1000]]
+
+べんきょうする、べんきょうします [[p900]]
+
+Estudiar [[p1000]]
+
+よむ、よみます [[p600]]
+
+Leer [[p1000]]
+
+きく、ききます [[p600]]
+
+Escuchar [[p1000]]
+
+かう、かいます [[p600]]
+
+Comprar [[p1000]]
+
+くる、きます [[p600]]
+
+Venir [[p1000]]
+
+しんぶん [[p600]]
+
+Diario [[p1000]]
+
+テレビ [[p600]]
+
+Televisión [[p1000]]
+
+インターネット [[p600]]
+
+Internet [[p1000]]
+
+ぎゅうにゅう [[p600]]
+
+Leche [[p1000]]
+
+くだもの [[p600]]
+
+Fruta [[p1000]]
+
+サラダ [[p600]]
+
+Ensalada [[p1000]]
+
+チーズ [[p600]]
+
+Queso [[p1000]]
+
+なにも [[p600]]
+
+Nada [[p1000]]
+
+どこへも [[p600]]
+
+A ningún lado [[p1000]]
+
+フレーズ [[p800]]
+
+Frases [[p1500]]
+
+ろくじにおきます。 [[p600]]
+
+Me levanto a las 6. [[p1300]]
+
+しちじにあさごはんをたべます。 [[p900]]
+
+Desayuno a las 7. [[p1300]]
+
+かいしゃではたらきます。 [[p900]]
+
+Trabajo en la empresa. [[p1300]]
+
+あさコーヒーをのみます。 [[p900]]
+
+A la mañana tomo café. [[p1300]]
+
+よるテレビをみます。 [[p900]]
+
+A la noche miro tele. [[p1300]]
+
+まいにちにほんごをべんきょうします。 [[p1300]]
+
+Estudio japonés todos los días. [[p1300]]
+
+おんがくをききます。 [[p900]]
+
+Escucho música. [[p1300]]
+
+コンビニでなにもかいません。 [[p900]]
+
+No compro nada en la tienda. [[p1300]]
+
+しゅうまつ、どこへもいきません。 [[p900]]
+
+El fin de semana no voy a ningún lado. [[p1300]]
+
+まいあさしちじにうちであさごはんをたべます。 [[p1300]]
+
+Todas las mañanas a las 7 desayuno en casa. [[p1300]]
+
+よるじゅういちじにねます。 [[p900]]
+
+A la noche a las 11 me acuesto. [[p1300]]

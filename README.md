@@ -168,11 +168,23 @@ palabra — traducción
 
 ### Audios actuales
 
-| ID      | Subunidad | Contenido              | Audio |
-|---------|-----------|------------------------|-------|
-| U5A-S01 | U5A       | Vocabulario y frases   | ✅    |
-| U5B-S01 | U5B       | Vocabulario y frases   | ✅    |
-| U5C-S01 | U5C       | Vocabulario y frases   | ✅    |
+| ID      | Subunidad | Contenido                                              | Audio |
+|---------|-----------|--------------------------------------------------------|-------|
+| U1A-S01 | U1A       | 私の名前・国・仕事 — Nombre, país, trabajo              | ✅    |
+| U1B-S01 | U1B       | 私の誕生日 — Edad, cumpleaños, meses, días              | ✅    |
+| U1C-S01 | U1C       | 私の趣味 — Hobbies, と, も, 何ですか                    | ✅    |
+| U2A-S01 | U2A       | どこですか — Ubicación, pisos, demostrativos de lugar   | ✅    |
+| U2B-S01 | U2B       | いくらですか — Precios, これ/それ/あれ, Nをください       | ✅    |
+| U2C-S01 | U2C       | レストラン — Contadores ~つ, 何の/どこの/誰のN           | ✅    |
+| U3A-S01 | U3A       | 何時までですか — Hora, horarios y días de la semana     | ✅    |
+| U3B-S01 | U3B       | 私のスケジュール — Planes, verbos Vます y partículas     | ✅    |
+| U3C-S01 | U3C       | 毎日の生活 — Partículas に・で・を y rutinas             | ✅    |
+| U4A-S01 | U4A       | 方角・距離 — Puntos cardinales, distancias y transporte | ✅    |
+| U4B-S01 | U4B       | 形容詞・どんな・あります — Adjetivos, どんな y あります   | ✅    |
+| U4C-S01 | U4C       | 季節・料理 — Clima, estaciones, sabores e intensificadores | ✅  |
+| U5A-S01 | U5A       | 週末・食事 — Fin de semana, comidas y conectores         | ✅    |
+| U5B-S01 | U5B       | 形容詞の過去・から — Pasado de adjetivos y conector から  | ✅    |
+| U5C-S01 | U5C       | 好き・ほしい・〜たい — Gustos, deseos y forma たい        | ✅    |
 
 ---
 
@@ -222,6 +234,11 @@ npx serve .
 La cantidad de preguntas por sesión, la velocidad de audio predeterminada y otras opciones se configuran desde `config.html`.
 
 ## 📋 Changelog
+
+### 2026-06-13 — Shadowing: Unidades 1 a 4
+- 12 audios nuevos de shadowing con sus transcripts: Unidades 1A–1C, 2A–2C, 3A–3C y 4A–4C
+- `shadowing/index.json` reorganizado en Nivel 1 (Unidades 1–3) y Nivel 2 (Unidades 4–5), alineado con el `manifest.json` y el módulo de Listening
+- Títulos de cada subunidad (JP + ES) alineados con los del quiz; todas las unidades aparecen ahora en el menú acordeón
 
 ### 2026-06-01 — Módulo de Shadowing
 - Nueva página `shadowing.html`: práctica de pronunciación por imitación, menú acordeón Nivel → Unidad → Subunidad

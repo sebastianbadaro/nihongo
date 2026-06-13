@@ -1,0 +1,179 @@
+ユニット4-A [[p800]]
+
+Unidad 4-A. Puntos cardinales y distancias [[p1500]]
+
+ごい [[p800]]
+
+Vocabulario [[p1500]]
+
+きた [[p600]]
+
+Norte [[p1000]]
+
+みなみ [[p600]]
+
+Sur [[p1000]]
+
+ひがし [[p600]]
+
+Este [[p1000]]
+
+にし [[p600]]
+
+Oeste [[p1000]]
+
+まんなか [[p600]]
+
+En el medio [[p1000]]
+
+ちゅうしん [[p600]]
+
+Centro [[p1000]]
+
+とうきょう [[p600]]
+
+Tokio [[p1000]]
+
+おおさか [[p600]]
+
+Osaka [[p1000]]
+
+きょうと [[p600]]
+
+Kioto [[p1000]]
+
+よこはま [[p600]]
+
+Yokohama [[p1000]]
+
+ひろしま [[p600]]
+
+Hiroshima [[p1000]]
+
+ほっかいどう [[p600]]
+
+Hokkaido [[p1000]]
+
+おきなわ [[p600]]
+
+Okinawa [[p1000]]
+
+なら [[p600]]
+
+Nara [[p1000]]
+
+ひめじ [[p600]]
+
+Himeji [[p1000]]
+
+ながの [[p600]]
+
+Nagano [[p1000]]
+
+にっこう [[p600]]
+
+Nikko [[p1000]]
+
+でんしゃ [[p600]]
+
+Tren [[p1000]]
+
+しんかんせん [[p600]]
+
+Tren bala [[p1000]]
+
+ちかてつ [[p600]]
+
+Subte o metro [[p1000]]
+
+ひこうき [[p600]]
+
+Avión [[p1000]]
+
+くるま [[p600]]
+
+Auto [[p1000]]
+
+じてんしゃ [[p600]]
+
+Bicicleta [[p1000]]
+
+バス [[p600]]
+
+Colectivo o bus [[p1000]]
+
+タクシー [[p600]]
+
+Taxi [[p1000]]
+
+あるいて [[p600]]
+
+Caminando [[p1000]]
+
+じかん [[p600]]
+
+Horas [[p1000]]
+
+じかんはん [[p600]]
+
+Horas y media [[p1000]]
+
+くらい [[p600]]
+
+Aproximadamente [[p1000]]
+
+どのくらい [[p600]]
+
+¿Cuánto tiempo? [[p1000]]
+
+フレーズ [[p800]]
+
+Frases [[p1500]]
+
+ほっかいどうはにほんのきたです。 [[p900]]
+
+Hokkaido está en el norte de Japón. [[p1300]]
+
+おきなわはにほんのみなみです。 [[p900]]
+
+Okinawa está en el sur de Japón. [[p1300]]
+
+とうきょうはにほんのひがしです。 [[p900]]
+
+Tokio está en el este de Japón. [[p1300]]
+
+ながのはにほんのまんなかです。 [[p900]]
+
+Nagano está en el medio de Japón. [[p1300]]
+
+バスでかいしゃへいきます。 [[p900]]
+
+Voy a la empresa en colectivo. [[p1300]]
+
+とうきょうからおおさかまでしんかんせんでにじかんはんです。 [[p1300]]
+
+De Tokio a Osaka son 2 horas y media en tren bala. [[p1300]]
+
+ひこうきでさんじかんです。 [[p900]]
+
+Son 3 horas en avión. [[p1300]]
+
+うちからえきまであるいてじゅっぷんです。 [[p1300]]
+
+De casa a la estación son 10 minutos caminando. [[p1300]]
+
+さんじかんくらいです。 [[p900]]
+
+Son unas 3 horas. [[p1300]]
+
+とうきょうからおおさかまでどのくらいですか。 [[p1300]]
+
+¿Cuánto se tarda de Tokio a Osaka? [[p1300]]
+
+なにでかいしゃへいきますか。 [[p900]]
+
+¿En qué vas a la empresa? [[p1300]]
+
+ほっかいどうはにほんのどこですか。 [[p900]]
+
+¿Dónde queda Hokkaido en Japón? [[p1300]]

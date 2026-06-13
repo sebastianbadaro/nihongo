@@ -1,0 +1,211 @@
+ユニット2-A [[p800]]
+
+Unidad 2-A. Buscar lugares y cosas [[p1500]]
+
+ごい [[p800]]
+
+Vocabulario [[p1500]]
+
+これ [[p600]]
+
+Esto [[p1000]]
+
+それ [[p600]]
+
+Eso [[p1000]]
+
+あれ [[p600]]
+
+Aquello [[p1000]]
+
+この [[p600]]
+
+Este o esta [[p1000]]
+
+その [[p600]]
+
+Ese o esa [[p1000]]
+
+あの [[p600]]
+
+Aquel o aquella [[p1000]]
+
+ここ [[p600]]
+
+Aquí [[p1000]]
+
+そこ [[p600]]
+
+Ahí [[p1000]]
+
+あそこ [[p600]]
+
+Allí [[p1000]]
+
+こちら [[p600]]
+
+Por aquí [[p1000]]
+
+そちら [[p600]]
+
+Por ahí [[p1000]]
+
+あちら [[p600]]
+
+Por allí [[p1000]]
+
+トイレ [[p600]]
+
+Baño [[p1000]]
+
+レジ [[p600]]
+
+Caja [[p1000]]
+
+エレベーター [[p600]]
+
+Ascensor [[p1000]]
+
+エスカレーター [[p600]]
+
+Escalera mecánica [[p1000]]
+
+スーパー [[p600]]
+
+Supermercado [[p1000]]
+
+レストラン [[p600]]
+
+Restaurante [[p1000]]
+
+ほん [[p600]]
+
+Libro [[p1000]]
+
+じしょ [[p600]]
+
+Diccionario [[p1000]]
+
+けいたいでんわ [[p600]]
+
+Celular [[p1000]]
+
+パソコン [[p600]]
+
+Computadora [[p1000]]
+
+とけい [[p600]]
+
+Reloj [[p1000]]
+
+かばん [[p600]]
+
+Bolso o mochila [[p1000]]
+
+さいふ [[p600]]
+
+Billetera [[p1000]]
+
+かい [[p600]]
+
+Piso [[p1000]]
+
+なんがい [[p600]]
+
+¿Qué piso? [[p1000]]
+
+ちか [[p600]]
+
+Sótano [[p1000]]
+
+どこ [[p600]]
+
+¿Dónde? [[p1000]]
+
+だれ [[p600]]
+
+¿Quién? [[p1000]]
+
+フレーズ [[p800]]
+
+Frases [[p1500]]
+
+すみません、トイレはどこですか。 [[p900]]
+
+Perdón, ¿dónde está el baño? [[p1300]]
+
+トイレはあちらです。 [[p900]]
+
+El baño está por allí. [[p1300]]
+
+エレベーターはどこですか。 [[p900]]
+
+¿Dónde está el ascensor? [[p1300]]
+
+エレベーターはそちらです。 [[p900]]
+
+El ascensor está por ahí. [[p1300]]
+
+レジはどこですか。 [[p600]]
+
+¿Dónde está la caja? [[p1300]]
+
+レジはあそこです。 [[p600]]
+
+La caja está allí. [[p1300]]
+
+これはなんですか。 [[p600]]
+
+¿Qué es esto? [[p1300]]
+
+それはじしょです。 [[p600]]
+
+Eso es un diccionario. [[p1300]]
+
+あれはなんですか。 [[p600]]
+
+¿Qué es aquello? [[p1300]]
+
+あれはパソコンです。 [[p900]]
+
+Aquello es una computadora. [[p1300]]
+
+このほんはだれのですか。 [[p900]]
+
+¿De quién es este libro? [[p1300]]
+
+それはわたしのです。 [[p900]]
+
+Eso es mío. [[p1300]]
+
+そのかばんはだれのですか。 [[p900]]
+
+¿De quién es ese bolso? [[p1300]]
+
+わたしのじゃありません。 [[p900]]
+
+No es mío. [[p1300]]
+
+パクさんのです。 [[p600]]
+
+Es de Park. [[p1300]]
+
+スーパーはなんがいですか。 [[p900]]
+
+¿En qué piso está el supermercado? [[p1300]]
+
+ちかです。 [[p600]]
+
+En el sótano. [[p1300]]
+
+レストランはなんがいですか。 [[p900]]
+
+¿En qué piso está el restaurante? [[p1300]]
+
+ごかいです。 [[p600]]
+
+En el quinto piso. [[p1300]]
+
+このけいたいでんわはだれのですか。 [[p900]]
+
+¿De quién es este celular? [[p1300]]

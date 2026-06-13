@@ -1,0 +1,171 @@
+ユニット2-B [[p800]]
+
+Unidad 2-B. Precios y compras [[p1500]]
+
+ごい [[p800]]
+
+Vocabulario [[p1500]]
+
+ひゃく [[p600]]
+
+Cien [[p1000]]
+
+さんびゃく [[p600]]
+
+Trescientos [[p1000]]
+
+ろっぴゃく [[p600]]
+
+Seiscientos [[p1000]]
+
+はっぴゃく [[p600]]
+
+Ochocientos [[p1000]]
+
+せん [[p600]]
+
+Mil [[p1000]]
+
+さんぜん [[p600]]
+
+Tres mil [[p1000]]
+
+はっせん [[p600]]
+
+Ocho mil [[p1000]]
+
+いちまん [[p600]]
+
+Diez mil [[p1000]]
+
+えん [[p600]]
+
+Yen [[p1000]]
+
+いくら [[p600]]
+
+¿Cuánto cuesta? [[p1000]]
+
+じゃ [[p600]]
+
+Entonces [[p1000]]
+
+なんの [[p600]]
+
+¿Qué tipo de? [[p1000]]
+
+ティーシャツ [[p600]]
+
+Remera [[p1000]]
+
+ズボン [[p600]]
+
+Pantalón [[p1000]]
+
+ケーキ [[p600]]
+
+Torta [[p1000]]
+
+くすり [[p600]]
+
+Medicamento [[p1000]]
+
+たまご [[p600]]
+
+Huevo [[p1000]]
+
+パン [[p600]]
+
+Pan [[p1000]]
+
+こめ [[p600]]
+
+Arroz crudo [[p1000]]
+
+てんいん [[p600]]
+
+Empleado o empleada de tienda [[p1000]]
+
+フレーズ [[p800]]
+
+Frases [[p1500]]
+
+これはいくらですか。 [[p900]]
+
+¿Cuánto cuesta esto? [[p1300]]
+
+ひゃくえんです。 [[p600]]
+
+Son 100 yenes. [[p1300]]
+
+さんびゃくえんです。 [[p900]]
+
+Son 300 yenes. [[p1300]]
+
+ごひゃくえんです。 [[p600]]
+
+Son 500 yenes. [[p1300]]
+
+ろっぴゃくえんです。 [[p900]]
+
+Son 600 yenes. [[p1300]]
+
+はっぴゃくえんです。 [[p900]]
+
+Son 800 yenes. [[p1300]]
+
+せんえんです。 [[p600]]
+
+Son 1000 yenes. [[p1300]]
+
+さんぜんえんです。 [[p600]]
+
+Son 3000 yenes. [[p1300]]
+
+はっせんえんです。 [[p600]]
+
+Son 8000 yenes. [[p1300]]
+
+いちまんえんです。 [[p600]]
+
+Son 10000 yenes. [[p1300]]
+
+このティーシャツはいくらですか。 [[p900]]
+
+¿Cuánto cuesta esta remera? [[p1300]]
+
+せんにひゃくえんです。 [[p900]]
+
+Son 1200 yenes. [[p1300]]
+
+そのズボンはいくらですか。 [[p900]]
+
+¿Cuánto cuesta ese pantalón? [[p1300]]
+
+にせんさんびゃくえんです。 [[p900]]
+
+Son 2300 yenes. [[p1300]]
+
+あのケーキはいくらですか。 [[p900]]
+
+¿Cuánto cuesta esa torta? [[p1300]]
+
+さんぜんごひゃくえんです。 [[p900]]
+
+Son 3500 yenes. [[p1300]]
+
+じゃ、これをください。 [[p900]]
+
+Entonces, dame esto. [[p1300]]
+
+これはなんのほんですか。 [[p900]]
+
+¿Qué tipo de libro es? [[p1300]]
+
+にほんごのほんです。 [[p900]]
+
+Es un libro de japonés. [[p1300]]
+
+これはどこのくるまですか。 [[p900]]
+
+¿De qué país es este auto? [[p1300]]

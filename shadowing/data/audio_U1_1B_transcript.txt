@@ -1,0 +1,105 @@
+UNIDAD 1-B — Edad y cumpleaños
+
+[VOCABULARIO]
+
+いち — Uno
+に — Dos
+さん — Tres
+よん — Cuatro
+ご — Cinco
+ろく — Seis
+なな — Siete
+はち — Ocho
+きゅう — Nueve
+じゅう — Diez
+さい — Años de edad
+なんさい — ¿Cuántos años?
+はたち — 20 años
+おいくつですか — ¿Cuántos años tiene?
+たんじょうび — Cumpleaños
+いつ — ¿Cuándo?
+いちがつ — Enero
+にがつ — Febrero
+さんがつ — Marzo
+しがつ — Abril
+ごがつ — Mayo
+ろくがつ — Junio
+しちがつ — Julio
+はちがつ — Agosto
+くがつ — Septiembre
+じゅうがつ — Octubre
+じゅういちがつ — Noviembre
+じゅうにがつ — Diciembre
+ついたち — Día 1
+ふつか — Día 2
+みっか — Día 3
+よっか — Día 4
+いつか — Día 5
+むいか — Día 6
+なのか — Día 7
+ようか — Día 8
+ここのか — Día 9
+とおか — Día 10
+はつか — Día 20
+
+[FRASES]
+
+なんさいですか。
+→ ¿Cuántos años tenés?
+
+25さいです。
+→ Tengo 25 años.
+
+おいくつですか。
+→ ¿Cuántos años tiene?
+
+34さいです。
+→ Tengo 34 años.
+
+はたちです。
+→ Tengo 20 años.
+
+42さいです。
+→ Tengo 42 años.
+
+たんじょうびはいつですか。
+→ ¿Cuándo es tu cumpleaños?
+
+わたしのたんじょうびは4がつ16にちです。
+→ Mi cumpleaños es el 16 de abril.
+
+9がつついたちです。
+→ Es el 1 de septiembre.
+
+7がつなのかです。
+→ Es el 7 de julio.
+
+3がつみっかです。
+→ Es el 3 de marzo.
+
+2がつよっかです。
+→ Es el 4 de febrero.
+
+5がついつかです。
+→ Es el 5 de mayo.
+
+6がつむいかです。
+→ Es el 6 de junio.
+
+1がつようかです。
+→ Es el 8 de enero.
+
+8がつここのかです。
+→ Es el 9 de agosto.
+
+10がつとおかです。
+→ Es el 10 de octubre.
+
+12がつはつかです。
+→ Es el 20 de diciembre.
+
+11がつふつかです。
+→ Es el 2 de noviembre.
+
+パクさんのたんじょうびはいつですか。
+→ ¿Cuándo es el cumpleaños de Park?

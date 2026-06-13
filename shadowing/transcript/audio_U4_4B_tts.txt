@@ -1,0 +1,163 @@
+ユニット4-B [[p800]]
+
+Unidad 4-B. Describir lugares [[p1500]]
+
+ごい [[p800]]
+
+Vocabulario [[p1500]]
+
+どんな [[p600]]
+
+¿Qué tipo de? [[p1000]]
+
+おおきい [[p600]]
+
+Grande [[p1000]]
+
+ちいさい [[p600]]
+
+Pequeño [[p1000]]
+
+たかい [[p600]]
+
+Alto o caro [[p1000]]
+
+ふるい [[p600]]
+
+Antiguo [[p1000]]
+
+あたらしい [[p600]]
+
+Nuevo [[p1000]]
+
+おおい [[p600]]
+
+Muchos [[p1000]]
+
+すくない [[p600]]
+
+Pocos [[p1000]]
+
+ゆうめいな [[p600]]
+
+Famoso [[p1000]]
+
+にぎやかな [[p600]]
+
+Animado [[p1000]]
+
+しずかな [[p600]]
+
+Tranquilo [[p1000]]
+
+きれいな [[p600]]
+
+Lindo o limpio [[p1000]]
+
+あります [[p600]]
+
+Hay [[p1000]]
+
+おしろ [[p600]]
+
+Castillo [[p1000]]
+
+おてら [[p600]]
+
+Templo budista [[p1000]]
+
+きょうかい [[p600]]
+
+Iglesia [[p1000]]
+
+こうえん [[p600]]
+
+Parque [[p1000]]
+
+やま [[p600]]
+
+Montaña [[p1000]]
+
+うみ [[p600]]
+
+Mar [[p1000]]
+
+かわ [[p600]]
+
+Río [[p1000]]
+
+みどり [[p600]]
+
+Vegetación [[p1000]]
+
+ビル [[p600]]
+
+Edificio [[p1000]]
+
+まち [[p600]]
+
+Ciudad o pueblo [[p1000]]
+
+そして [[p600]]
+
+Y además [[p1000]]
+
+が [[p600]]
+
+Pero [[p1000]]
+
+フレーズ [[p800]]
+
+Frases [[p1500]]
+
+どんなまちですか。 [[p600]]
+
+¿Qué tipo de ciudad es? [[p1300]]
+
+おおきいやまです。 [[p600]]
+
+Es una montaña grande. [[p1300]]
+
+ゆうめいなまちです。 [[p900]]
+
+Es una ciudad famosa. [[p1300]]
+
+ひめじにおしろがあります。 [[p900]]
+
+En Himeji hay un castillo. [[p1300]]
+
+ならにふるいおてらがあります。 [[p900]]
+
+En Nara hay un templo antiguo. [[p1300]]
+
+きれいなうみがあります。 [[p900]]
+
+Hay un mar lindo. [[p1300]]
+
+わたしのまちにたかいやまがあります。 [[p1300]]
+
+En mi ciudad hay una montaña alta. [[p1300]]
+
+ひとがおおいです。 [[p600]]
+
+Hay mucha gente. [[p1300]]
+
+みどりがおおいです。 [[p900]]
+
+Hay mucho verde. [[p1300]]
+
+おおきいです。そして、ゆうめいです。 [[p900]]
+
+Es grande. Y además, es famosa. [[p1300]]
+
+おおきいですが、ひとがすくないです。 [[p900]]
+
+Es grande pero tiene poca gente. [[p1300]]
+
+しずかで、きれいです。 [[p900]]
+
+Es tranquilo y lindo. [[p1300]]
+
+ゆうめいじゃありませんが、きれいです。 [[p1300]]
+
+No es famoso pero es lindo. [[p1300]]

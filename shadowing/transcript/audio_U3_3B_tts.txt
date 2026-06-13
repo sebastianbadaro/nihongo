@@ -1,0 +1,147 @@
+ユニット3-B [[p800]]
+
+Unidad 3-B. Agenda y planes [[p1500]]
+
+ごい [[p800]]
+
+Vocabulario [[p1500]]
+
+スケジュール [[p600]]
+
+Agenda o cronograma [[p1000]]
+
+アルバイト [[p600]]
+
+Trabajo part-time [[p1000]]
+
+さくら [[p600]]
+
+Flor de cerezo [[p1000]]
+
+ホームステイ [[p600]]
+
+Homestay [[p1000]]
+
+パーティー [[p600]]
+
+Fiesta [[p1000]]
+
+バーベキュー [[p600]]
+
+Asado [[p1000]]
+
+はなび [[p600]]
+
+Fuegos artificiales [[p1000]]
+
+おはなみ [[p600]]
+
+Ver flores de cerezo [[p1000]]
+
+おまつり [[p600]]
+
+Festival [[p1000]]
+
+スキー [[p600]]
+
+Esquí [[p1000]]
+
+うみ [[p600]]
+
+Mar [[p1000]]
+
+こうえん [[p600]]
+
+Parque [[p1000]]
+
+はる [[p600]]
+
+Primavera [[p1000]]
+
+なつ [[p600]]
+
+Verano [[p1000]]
+
+あき [[p600]]
+
+Otoño [[p1000]]
+
+ふゆ [[p600]]
+
+Invierno [[p1000]]
+
+なつやすみ [[p600]]
+
+Vacaciones de verano [[p1000]]
+
+ゴールデンウィーク [[p900]]
+
+Golden Week [[p1000]]
+
+いく、いきます [[p600]]
+
+Ir [[p1000]]
+
+かえる、かえります [[p600]]
+
+Volver [[p1000]]
+
+みる、みます [[p600]]
+
+Ver [[p1000]]
+
+する、します [[p600]]
+
+Hacer [[p1000]]
+
+たべる、たべます [[p600]]
+
+Comer [[p1000]]
+
+のむ、のみます [[p600]]
+
+Beber [[p1000]]
+
+フレーズ [[p800]]
+
+Frases [[p1500]]
+
+しゅうまつ、バーベキューをします。 [[p900]]
+
+El fin de semana voy a hacer un asado. [[p1300]]
+
+なつやすみに、ほっかいどうへいきます。 [[p1300]]
+
+En las vacaciones de verano voy a Hokkaido. [[p1300]]
+
+こうえんではなびをみます。 [[p900]]
+
+En el parque veo los fuegos artificiales. [[p1300]]
+
+スキーをしません。 [[p600]]
+
+No voy a esquiar. [[p1300]]
+
+にちようびにパーティーをします。 [[p900]]
+
+El domingo voy a hacer una fiesta. [[p1300]]
+
+ごはんをたべます。 [[p600]]
+
+Como arroz. [[p1300]]
+
+コーヒーをのみます。 [[p900]]
+
+Tomo café. [[p1300]]
+
+くにへかえります。 [[p600]]
+
+Vuelvo a mi país. [[p1300]]
+
+はるにおはなみをします。 [[p900]]
+
+En primavera veo flores de cerezo. [[p1300]]
+
+なつにうみへいきます。 [[p900]]
+
+En verano voy al mar. [[p1300]]

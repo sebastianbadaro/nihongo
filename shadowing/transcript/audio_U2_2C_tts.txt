@@ -1,0 +1,223 @@
+ユニット2-C [[p800]]
+
+Unidad 2-C. En el restaurante [[p1500]]
+
+ごい [[p800]]
+
+Vocabulario [[p1500]]
+
+とりにく [[p600]]
+
+Pollo [[p1000]]
+
+ぎゅうにく [[p600]]
+
+Carne de vaca [[p1000]]
+
+ぶたにく [[p600]]
+
+Carne de cerdo [[p1000]]
+
+りょうり [[p600]]
+
+Comida o cocina [[p1000]]
+
+カレー [[p600]]
+
+Curry [[p1000]]
+
+とんかつ [[p600]]
+
+Milanesa de cerdo [[p1000]]
+
+ハンバーグ [[p600]]
+
+Hamburguesa [[p1000]]
+
+スープ [[p600]]
+
+Sopa [[p1000]]
+
+めんるい [[p600]]
+
+Fideos [[p1000]]
+
+やさい [[p600]]
+
+Verdura [[p1000]]
+
+いちご [[p600]]
+
+Frutilla [[p1000]]
+
+りんご [[p600]]
+
+Manzana [[p1000]]
+
+ごはん [[p600]]
+
+Arroz cocido [[p1000]]
+
+ライス [[p600]]
+
+Arroz occidental [[p1000]]
+
+コーヒー [[p600]]
+
+Café [[p1000]]
+
+こうちゃ [[p600]]
+
+Té negro [[p1000]]
+
+おちゃ [[p600]]
+
+Té verde [[p1000]]
+
+ジュース [[p600]]
+
+Jugo [[p1000]]
+
+ビール [[p600]]
+
+Cerveza [[p1000]]
+
+ワイン [[p600]]
+
+Vino [[p1000]]
+
+ひとつ [[p600]]
+
+Uno [[p1000]]
+
+ふたつ [[p600]]
+
+Dos [[p1000]]
+
+みっつ [[p600]]
+
+Tres [[p1000]]
+
+よっつ [[p600]]
+
+Cuatro [[p1000]]
+
+いつつ [[p600]]
+
+Cinco [[p1000]]
+
+むっつ [[p600]]
+
+Seis [[p1000]]
+
+ななつ [[p600]]
+
+Siete [[p1000]]
+
+やっつ [[p600]]
+
+Ocho [[p1000]]
+
+ここのつ [[p600]]
+
+Nueve [[p1000]]
+
+とお [[p600]]
+
+Diez [[p1000]]
+
+ください [[p600]]
+
+Por favor [[p1000]]
+
+ちゅうもん [[p600]]
+
+Pedido [[p1000]]
+
+どうぞ [[p600]]
+
+Aquí tiene [[p1000]]
+
+フレーズ [[p800]]
+
+Frases [[p1500]]
+
+ちゅうもん、おねがいします。 [[p900]]
+
+Quisiera ordenar. [[p1300]]
+
+カレーをください。 [[p600]]
+
+Un curry, por favor. [[p1300]]
+
+カレーをふたつください。 [[p900]]
+
+Dos currys, por favor. [[p1300]]
+
+コーヒーをひとつください。 [[p900]]
+
+Un café, por favor. [[p1300]]
+
+ビールをみっつください。 [[p900]]
+
+Tres cervezas, por favor. [[p1300]]
+
+おちゃをよっつください。 [[p900]]
+
+Cuatro tés, por favor. [[p1300]]
+
+スープとサラダをください。 [[p900]]
+
+Una sopa y una ensalada, por favor. [[p1300]]
+
+ワインをひとつとビールをふたつください。 [[p1300]]
+
+Un vino y dos cervezas, por favor. [[p1300]]
+
+とりにくのカレーをください。 [[p900]]
+
+Un curry de pollo, por favor. [[p1300]]
+
+ぎゅうにくのハンバーグをください。 [[p900]]
+
+Una hamburguesa de vaca, por favor. [[p1300]]
+
+これはなんのりょうりですか。 [[p900]]
+
+¿Qué tipo de comida es esto? [[p1300]]
+
+にほんのりょうりです。 [[p900]]
+
+Es comida japonesa. [[p1300]]
+
+インドのカレーです。 [[p900]]
+
+Es un curry de la India. [[p1300]]
+
+これはどこのワインですか。 [[p900]]
+
+¿De dónde es este vino? [[p1300]]
+
+イタリアのワインです。 [[p900]]
+
+Es un vino de Italia. [[p1300]]
+
+めんるいをください。 [[p900]]
+
+Fideos, por favor. [[p1300]]
+
+ごはんをください。 [[p600]]
+
+Arroz, por favor. [[p1300]]
+
+こうちゃをいつつください。 [[p900]]
+
+Cinco tés negros, por favor. [[p1300]]
+
+とんかつをふたつとスープをひとつください。 [[p1300]]
+
+Dos tonkatsus y una sopa, por favor. [[p1300]]
+
+どうぞ。 [[p600]]
+
+Aquí tiene. [[p1300]]

@@ -1,0 +1,99 @@
+UNIDAD 2-C — En el restaurante
+
+[VOCABULARIO]
+
+とりにく — Pollo
+ぎゅうにく — Carne de vaca
+ぶたにく — Carne de cerdo
+りょうり — Comida o cocina
+カレー — Curry
+とんかつ — Milanesa de cerdo
+ハンバーグ — Hamburguesa
+スープ — Sopa
+めんるい — Fideos
+やさい — Verdura
+いちご — Frutilla
+りんご — Manzana
+ごはん — Arroz cocido
+ライス — Arroz occidental
+コーヒー — Café
+こうちゃ — Té negro
+おちゃ — Té verde
+ジュース — Jugo
+ビール — Cerveza
+ワイン — Vino
+ひとつ — Uno
+ふたつ — Dos
+みっつ — Tres
+よっつ — Cuatro
+いつつ — Cinco
+むっつ — Seis
+ななつ — Siete
+やっつ — Ocho
+ここのつ — Nueve
+とお — Diez
+ください — Por favor
+ちゅうもん — Pedido
+どうぞ — Aquí tiene
+
+[FRASES]
+
+ちゅうもん、おねがいします。
+→ Quisiera ordenar.
+
+カレーをください。
+→ Un curry, por favor.
+
+カレーをふたつください。
+→ Dos currys, por favor.
+
+コーヒーをひとつください。
+→ Un café, por favor.
+
+ビールをみっつください。
+→ Tres cervezas, por favor.
+
+おちゃをよっつください。
+→ Cuatro tés, por favor.
+
+スープとサラダをください。
+→ Una sopa y una ensalada, por favor.
+
+ワインをひとつとビールをふたつください。
+→ Un vino y dos cervezas, por favor.
+
+とりにくのカレーをください。
+→ Un curry de pollo, por favor.
+
+ぎゅうにくのハンバーグをください。
+→ Una hamburguesa de vaca, por favor.
+
+これはなんのりょうりですか。
+→ ¿Qué tipo de comida es esto?
+
+にほんのりょうりです。
+→ Es comida japonesa.
+
+インドのカレーです。
+→ Es un curry de la India.
+
+これはどこのワインですか。
+→ ¿De dónde es este vino?
+
+イタリアのワインです。
+→ Es un vino de Italia.
+
+めんるいをください。
+→ Fideos, por favor.
+
+ごはんをください。
+→ Arroz, por favor.
+
+こうちゃをいつつください。
+→ Cinco tés negros, por favor.
+
+とんかつをふたつとスープをひとつください。
+→ Dos tonkatsus y una sopa, por favor.
+
+どうぞ。
+→ Aquí tiene.

@@ -7,20 +7,234 @@
       "nombre": "Nivel 1",
       "unidades": [
         {
-          "id": "n1u5",
+          "id": "n1u1",
+          "nombre": "Unidad 1",
+          "titulo": "Presentación e información personal",
+          "subunidades": [
+            {
+              "id": "U1A",
+              "nombre": "Unidad 1A",
+              "titulo": "私の名前・国・仕事 — Nombre, país, trabajo",
+              "audios": [
+                {
+                  "id": "U1A-S01",
+                  "nombre": "Unidad 1-A",
+                  "titulo_jp": "私の名前・国・仕事",
+                  "titulo_es": "Nombre, país, trabajo",
+                  "archivo_audio": "audio/shadowing-U1A.mp3",
+                  "archivo_transcripcion": "data/audio_U1_1A_transcript.txt"
+                }
+              ]
+            },
+            {
+              "id": "U1B",
+              "nombre": "Unidad 1B",
+              "titulo": "私の誕生日 — Edad, cumpleaños, meses, días",
+              "audios": [
+                {
+                  "id": "U1B-S01",
+                  "nombre": "Unidad 1-B",
+                  "titulo_jp": "私の誕生日",
+                  "titulo_es": "Edad, cumpleaños, meses, días",
+                  "archivo_audio": "audio/shadowing-U1B.mp3",
+                  "archivo_transcripcion": "data/audio_U1_1B_transcript.txt"
+                }
+              ]
+            },
+            {
+              "id": "U1C",
+              "nombre": "Unidad 1C",
+              "titulo": "私の趣味 — Hobbies, と, も, 何ですか",
+              "audios": [
+                {
+                  "id": "U1C-S01",
+                  "nombre": "Unidad 1-C",
+                  "titulo_jp": "私の趣味",
+                  "titulo_es": "Hobbies, と, も, 何ですか",
+                  "archivo_audio": "audio/shadowing-U1C.mp3",
+                  "archivo_transcripcion": "data/audio_U1_1C_transcript.txt"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n1u2",
+          "nombre": "Unidad 2",
+          "titulo": "Lugares, objetos y restaurantes",
+          "subunidades": [
+            {
+              "id": "U2A",
+              "nombre": "Unidad 2A",
+              "titulo": "どこですか — Ubicación, pisos, demostrativos de lugar",
+              "audios": [
+                {
+                  "id": "U2A-S01",
+                  "nombre": "Unidad 2-A",
+                  "titulo_jp": "どこですか",
+                  "titulo_es": "Ubicación, pisos, demostrativos de lugar",
+                  "archivo_audio": "audio/shadowing-U2A.mp3",
+                  "archivo_transcripcion": "data/audio_U2_2A_transcript.txt"
+                }
+              ]
+            },
+            {
+              "id": "U2B",
+              "nombre": "Unidad 2B",
+              "titulo": "いくらですか — Precios, これ/それ/あれ, Nをください",
+              "audios": [
+                {
+                  "id": "U2B-S01",
+                  "nombre": "Unidad 2-B",
+                  "titulo_jp": "いくらですか",
+                  "titulo_es": "Precios, これ/それ/あれ, Nをください",
+                  "archivo_audio": "audio/shadowing-U2B.mp3",
+                  "archivo_transcripcion": "data/audio_U2_2B_transcript.txt"
+                }
+              ]
+            },
+            {
+              "id": "U2C",
+              "nombre": "Unidad 2C",
+              "titulo": "レストラン — Contadores ~つ, 何の/どこの/誰のN",
+              "audios": [
+                {
+                  "id": "U2C-S01",
+                  "nombre": "Unidad 2-C",
+                  "titulo_jp": "レストラン",
+                  "titulo_es": "Contadores ~つ, 何の/どこの/誰のN",
+                  "archivo_audio": "audio/shadowing-U2C.mp3",
+                  "archivo_transcripcion": "data/audio_U2_2C_transcript.txt"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n1u3",
+          "nombre": "Unidad 3",
+          "titulo": "Tiempo, horarios y rutinas diarias",
+          "subunidades": [
+            {
+              "id": "U3A",
+              "nombre": "Unidad 3A",
+              "titulo": "何時までですか — Hora, horarios y días de la semana",
+              "audios": [
+                {
+                  "id": "U3A-S01",
+                  "nombre": "Unidad 3-A",
+                  "titulo_jp": "何時までですか",
+                  "titulo_es": "Hora, horarios y días de la semana",
+                  "archivo_audio": "audio/shadowing-U3A.mp3",
+                  "archivo_transcripcion": "data/audio_U3_3A_transcript.txt"
+                }
+              ]
+            },
+            {
+              "id": "U3B",
+              "nombre": "Unidad 3B",
+              "titulo": "私のスケジュール — Planes, verbos Vます y partículas",
+              "audios": [
+                {
+                  "id": "U3B-S01",
+                  "nombre": "Unidad 3-B",
+                  "titulo_jp": "私のスケジュール",
+                  "titulo_es": "Planes, verbos Vます y partículas",
+                  "archivo_audio": "audio/shadowing-U3B.mp3",
+                  "archivo_transcripcion": "data/audio_U3_3B_transcript.txt"
+                }
+              ]
+            },
+            {
+              "id": "U3C",
+              "nombre": "Unidad 3C",
+              "titulo": "毎日の生活 — Partículas に・で・を, rutinas y patrones de negación",
+              "audios": [
+                {
+                  "id": "U3C-S01",
+                  "nombre": "Unidad 3-C",
+                  "titulo_jp": "毎日の生活",
+                  "titulo_es": "Partículas に・で・を, rutinas y patrones de negación",
+                  "archivo_audio": "audio/shadowing-U3C.mp3",
+                  "archivo_transcripcion": "data/audio_U3_3C_transcript.txt"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nivel": "2",
+      "nombre": "Nivel 2",
+      "unidades": [
+        {
+          "id": "n2u4",
+          "nombre": "Unidad 4",
+          "titulo": "Lugares, adjetivos y existencia",
+          "subunidades": [
+            {
+              "id": "U4A",
+              "nombre": "Unidad 4A",
+              "titulo": "方角・距離 — Puntos cardinales, distancias y transporte",
+              "audios": [
+                {
+                  "id": "U4A-S01",
+                  "nombre": "Unidad 4-A",
+                  "titulo_jp": "方角・距離",
+                  "titulo_es": "Puntos cardinales, distancias y transporte",
+                  "archivo_audio": "audio/shadowing-U4A.mp3",
+                  "archivo_transcripcion": "data/audio_U4_4A_transcript.txt"
+                }
+              ]
+            },
+            {
+              "id": "U4B",
+              "nombre": "Unidad 4B",
+              "titulo": "形容詞・どんな・あります — Adjetivos, どんな y あります",
+              "audios": [
+                {
+                  "id": "U4B-S01",
+                  "nombre": "Unidad 4-B",
+                  "titulo_jp": "形容詞・どんな・あります",
+                  "titulo_es": "Adjetivos, どんな y あります",
+                  "archivo_audio": "audio/shadowing-U4B.mp3",
+                  "archivo_transcripcion": "data/audio_U4_4B_transcript.txt"
+                }
+              ]
+            },
+            {
+              "id": "U4C",
+              "nombre": "Unidad 4C",
+              "titulo": "季節・料理 — Clima, estaciones, sabores e intensificadores",
+              "audios": [
+                {
+                  "id": "U4C-S01",
+                  "nombre": "Unidad 4-C",
+                  "titulo_jp": "季節・料理",
+                  "titulo_es": "Clima, estaciones, sabores e intensificadores",
+                  "archivo_audio": "audio/shadowing-U4C.mp3",
+                  "archivo_transcripcion": "data/audio_U4_4C_transcript.txt"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n2u5",
           "nombre": "Unidad 5",
-          "titulo": "Actividades pasadas y tiempo libre",
+          "titulo": "Fin de semana, comidas y conectores",
           "subunidades": [
             {
               "id": "U5A",
               "nombre": "Unidad 5A",
-              "titulo": "Vocabulario y frases",
+              "titulo": "週末・食事 — Fin de semana, comidas y conectores",
               "audios": [
                 {
                   "id": "U5A-S01",
                   "nombre": "Unidad 5-A",
-                  "titulo_jp": "ボキャブラリーと例文",
-                  "titulo_es": "Vocabulario y frases",
+                  "titulo_jp": "週末・食事",
+                  "titulo_es": "Fin de semana, comidas y conectores",
                   "archivo_audio": "audio/shadowing-U5A.mp3",
                   "archivo_transcripcion": "data/audio_U5_5A_transcript.txt"
                 }
@@ -29,13 +243,13 @@
             {
               "id": "U5B",
               "nombre": "Unidad 5B",
-              "titulo": "Vocabulario y frases",
+              "titulo": "形容詞の過去・から — Pasado de adjetivos y conector から",
               "audios": [
                 {
                   "id": "U5B-S01",
                   "nombre": "Unidad 5-B",
-                  "titulo_jp": "ボキャブラリーと例文",
-                  "titulo_es": "Vocabulario y frases",
+                  "titulo_jp": "形容詞の過去・から",
+                  "titulo_es": "Pasado de adjetivos y conector から",
                   "archivo_audio": "audio/shadowing-U5B.mp3",
                   "archivo_transcripcion": "data/audio_U5_5B_transcript.txt"
                 }
@@ -44,13 +258,13 @@
             {
               "id": "U5C",
               "nombre": "Unidad 5C",
-              "titulo": "Vocabulario y frases",
+              "titulo": "好き・ほしい・〜たい — Gustos, deseos y forma たい",
               "audios": [
                 {
                   "id": "U5C-S01",
                   "nombre": "Unidad 5-C",
-                  "titulo_jp": "ボキャブラリーと例文",
-                  "titulo_es": "Vocabulario y frases",
+                  "titulo_jp": "好き・ほしい・〜たい",
+                  "titulo_es": "Gustos, deseos y forma たい",
                   "archivo_audio": "audio/shadowing-U5C.mp3",
                   "archivo_transcripcion": "data/audio_U5_5C_transcript.txt"
                 }

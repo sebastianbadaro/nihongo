@@ -1,0 +1,187 @@
+ユニット4-C [[p800]]
+
+Unidad 4-C. Clima y sabores [[p1500]]
+
+ごい [[p800]]
+
+Vocabulario [[p1500]]
+
+あめ [[p600]]
+
+Lluvia [[p1000]]
+
+ゆき [[p600]]
+
+Nieve [[p1000]]
+
+ひ [[p600]]
+
+Día o sol [[p1000]]
+
+てんき [[p600]]
+
+Clima [[p1000]]
+
+てんきがいい [[p600]]
+
+Hace buen tiempo [[p1000]]
+
+てんきがわるい [[p600]]
+
+Hace mal tiempo [[p1000]]
+
+なつ [[p600]]
+
+Verano [[p1000]]
+
+ふゆ [[p600]]
+
+Invierno [[p1000]]
+
+あたたかい [[p600]]
+
+Cálido [[p1000]]
+
+すずしい [[p600]]
+
+Fresco [[p1000]]
+
+あつい [[p600]]
+
+Caluroso [[p1000]]
+
+さむい [[p600]]
+
+Frío [[p1000]]
+
+あたたかい [[p600]]
+
+Tibio [[p1000]]
+
+あつい [[p600]]
+
+Caliente [[p1000]]
+
+つめたい [[p600]]
+
+Helado [[p1000]]
+
+おいしい [[p600]]
+
+Rico o delicioso [[p1000]]
+
+あまい [[p600]]
+
+Dulce [[p1000]]
+
+からい [[p600]]
+
+Picante [[p1000]]
+
+にがい [[p600]]
+
+Amargo [[p1000]]
+
+すっぱい [[p600]]
+
+Ácido [[p1000]]
+
+りょうり [[p600]]
+
+Comida o cocina [[p1000]]
+
+メロン [[p600]]
+
+Melón [[p1000]]
+
+スープ [[p600]]
+
+Sopa [[p1000]]
+
+コーヒー [[p600]]
+
+Café [[p1000]]
+
+いちねんじゅう [[p600]]
+
+Todo el año [[p1000]]
+
+とても [[p600]]
+
+Muy [[p1000]]
+
+すこし [[p600]]
+
+Un poco [[p1000]]
+
+あまり [[p600]]
+
+No mucho [[p1000]]
+
+どう [[p600]]
+
+¿Cómo? ¿Qué tal? [[p1000]]
+
+そうですね [[p600]]
+
+Sí, ¿verdad? [[p1000]]
+
+フレーズ [[p800]]
+
+Frases [[p1500]]
+
+きょうはてんきがいいですね。 [[p900]]
+
+Hoy hace buen tiempo, ¿no? [[p1300]]
+
+きょうはあついですね。 [[p900]]
+
+Hoy hace calor, ¿no? [[p1300]]
+
+そうですね。 [[p600]]
+
+Sí, ¿verdad? [[p1300]]
+
+モスクワはふゆ、さむいです。 [[p900]]
+
+En Moscú en invierno hace frío. [[p1300]]
+
+あきはすずしいです。 [[p900]]
+
+El otoño es fresco. [[p1300]]
+
+わたしのまちはいちねんじゅうあたたかいです。 [[p1300]]
+
+Mi ciudad es cálida todo el año. [[p1300]]
+
+ほっかいどうはにがつ、ゆきがとてもおおいです。 [[p1300]]
+
+En Hokkaido en febrero hay mucha nieve. [[p1300]]
+
+このコーヒーはあついです。 [[p900]]
+
+Este café está caliente. [[p1300]]
+
+このスープはあたたかいです。そして、おいしいです。 [[p1300]]
+
+Esta sopa está tibia y rica. [[p1300]]
+
+このジュースはつめたいです。 [[p900]]
+
+Este jugo está frío. [[p1300]]
+
+かんこくのりょうりはからいです。 [[p900]]
+
+La comida coreana es picante. [[p1300]]
+
+このジュースはすこしすっぱいです。 [[p900]]
+
+Este jugo es un poco ácido. [[p1300]]
+
+このコーヒーはあまりにがくないです。 [[p1300]]
+
+Este café no es muy amargo. [[p1300]]
+
+わたしのくにはしがつ、てんきがあまりよくありません。 [[p1300]]
+
+En mi país en abril el clima no está muy bueno. [[p1300]]

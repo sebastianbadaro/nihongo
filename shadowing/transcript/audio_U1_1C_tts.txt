@@ -1,0 +1,147 @@
+ユニット1-C [[p800]]
+
+Unidad 1-C. Hobbies y gustos [[p1500]]
+
+ごい [[p800]]
+
+Vocabulario [[p1500]]
+
+しゅみ [[p600]]
+
+Hobby [[p1000]]
+
+アニメ [[p600]]
+
+Anime [[p1000]]
+
+おんがく [[p600]]
+
+Música [[p1000]]
+
+えいが [[p600]]
+
+Películas [[p1000]]
+
+どくしょ [[p600]]
+
+Lectura [[p1000]]
+
+りょこう [[p600]]
+
+Viaje [[p1000]]
+
+りょうり [[p600]]
+
+Cocina [[p1000]]
+
+スポーツ [[p600]]
+
+Deportes [[p1000]]
+
+サッカー [[p600]]
+
+Fútbol [[p1000]]
+
+テニス [[p600]]
+
+Tenis [[p1000]]
+
+すいえい [[p600]]
+
+Natación [[p1000]]
+
+ゲーム [[p600]]
+
+Videojuegos [[p1000]]
+
+すき [[p600]]
+
+Gustar [[p1000]]
+
+なに、なん [[p600]]
+
+¿Qué? [[p1000]]
+
+フレーズ [[p800]]
+
+Frases [[p1500]]
+
+しゅみはなんですか。 [[p900]]
+
+¿Cuál es tu hobby? [[p1300]]
+
+わたしのしゅみはアニメです。 [[p900]]
+
+Mi hobby es el anime. [[p1300]]
+
+しゅみはりょこうです。 [[p900]]
+
+Mi hobby es viajar. [[p1300]]
+
+しゅみはどくしょとりょうりです。 [[p900]]
+
+Mi hobby es la lectura y la cocina. [[p1300]]
+
+しゅみはサッカーとすいえいです。 [[p900]]
+
+Mi hobby es fútbol y natación. [[p1300]]
+
+なにがすきですか。 [[p600]]
+
+¿Qué te gusta? [[p1300]]
+
+おんがくがすきです。 [[p900]]
+
+Me gusta la música. [[p1300]]
+
+えいががすきです。 [[p600]]
+
+Me gustan las películas. [[p1300]]
+
+ゲームがすきです。 [[p600]]
+
+Me gustan los videojuegos. [[p1300]]
+
+スポーツがすきですか。 [[p900]]
+
+¿Te gustan los deportes? [[p1300]]
+
+はい、すきです。サッカーがすきです。 [[p900]]
+
+Sí. Me gusta el fútbol. [[p1300]]
+
+テニスがすきですか。 [[p900]]
+
+¿Te gusta el tenis? [[p1300]]
+
+いいえ、すきじゃありません。 [[p900]]
+
+No, no me gusta. [[p1300]]
+
+りょうりがすきです。 [[p900]]
+
+Me gusta la cocina. [[p1300]]
+
+サッカーがすきです。テニスもすきです。 [[p1300]]
+
+Me gusta el fútbol. El tenis también. [[p1300]]
+
+わたしもすきです。 [[p600]]
+
+A mí también me gusta. [[p1300]]
+
+わたしもがくせいです。 [[p900]]
+
+Yo también soy estudiante. [[p1300]]
+
+おんがくもすきです。 [[p900]]
+
+La música también me gusta. [[p1300]]
+
+アニメはすきじゃありません。えいががすきです。 [[p1300]]
+
+El anime no me gusta. Me gustan las películas. [[p1300]]
+
+パクさんのしゅみはなんですか。 [[p900]]
+
+¿Cuál es el hobby de Park? [[p1300]]
