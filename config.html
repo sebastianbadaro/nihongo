@@ -153,9 +153,13 @@ const ConfigApp = {
   },
 
   resetQuizProgress() {
+    /* Clear legacy local markers (no longer written) and the account progress. */
     localStorage.removeItem('nihongo_correct_ids');
     localStorage.removeItem('nihongo_failed_ids');
     localStorage.removeItem('nihongo_listening_seen');
+    (window.supabaseReady || Promise.resolve(null)).then(function (sc) {
+      if (sc && sc.isLoggedIn()) sc.deleteProgress();
+    });
     const btn = document.getElementById('reset-btn');
     btn.textContent = '✓ Borrado';
     btn.classList.add('confirmed');

@@ -130,6 +130,16 @@ window.supabaseReady = (async function () {
     } catch (err) { _warn('loadProgress', err); return null; }
   }
 
+  async function deleteProgress() {
+    try {
+      var user = await getUser();
+      if (!user) return null;
+      var res = await supabase.from('progress').delete().eq('user_id', user.id);
+      if (res.error) throw res.error;
+      return true;
+    } catch (err) { _warn('deleteProgress', err); return null; }
+  }
+
   async function syncProgress(contentHash, payload) {
     try {
       var user = await getUser();
@@ -307,6 +317,7 @@ window.supabaseReady = (async function () {
     isLoggedIn:            isLoggedIn,
     loadProgress:          loadProgress,
     syncProgress:          syncProgress,
+    deleteProgress:        deleteProgress,
     startSession:          startSession,
     endSession:            endSession,
     saveAnswer:            saveAnswer,
