@@ -50,6 +50,8 @@ Quiz interactivo modular para estudiar japonés, basado en el material del curso
 - El sistema prioriza errores anteriores y preguntas nuevas sobre las ya respondidas correctamente.
 - Modo **🎲 Mezcla de todas las unidades** para repaso general.
 - Al final muestra puntaje + repaso de errores.
+- **Progreso atado a la cuenta:** al iniciar sesión (Google + Supabase) tu avance se guarda y sincroniza entre dispositivos. Sin sesión el quiz funciona pero no se guarda progreso.
+- El menú muestra, por lección (y agregado por Unidad y Nivel), el porcentaje de preguntas nuevas, erradas y correctas.
 
 ## ➕ Cómo agregar una nueva unidad
 
@@ -234,6 +236,13 @@ npx serve .
 La cantidad de preguntas por sesión, la velocidad de audio predeterminada y otras opciones se configuran desde `config.html`.
 
 ## 📋 Changelog
+
+### 2026-06-15 — Progreso por lección y sincronización por cuenta
+- El progreso del quiz pasa a estar atado a la cuenta: se guarda y sincroniza entre dispositivos al iniciar sesión. Sin sesión ya no se guarda progreso local (fomenta el registro)
+- Nuevo desglose por lección en el menú del quiz: barra tricolor con % de preguntas nuevas, erradas y correctas; avance agregado también en Unidad y Nivel
+- Las preguntas respondidas en una mezcla cuentan para el progreso de su lección de origen (atribución por prefijo de ID, ej. `U1A-001` → `u1a`)
+- Arreglos: `loadProgress()` no se llamaba (el progreso online se escribía pero nunca se leía) y todas las unidades compartían el mismo registro global mezclado; ahora cada lección tiene su fila limpia en Supabase
+- "Borrar historial de respuestas" en `config.html` ahora también elimina el progreso de la cuenta (`deleteProgress()` en `supabase-client.js`)
 
 ### 2026-06-13 — Shadowing: Unidades 1 a 4
 - 12 audios nuevos de shadowing con sus transcripts: Unidades 1A–1C, 2A–2C, 3A–3C y 4A–4C

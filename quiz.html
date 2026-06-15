@@ -142,6 +142,10 @@ const QuizApp = {
   currentUnitTitle: '',
   _sessionId:       null,
   _currentUnitId:   null,
+  /* Progress is account-bound: { [unitId]: { correct:Set, failed:Set } }.
+     Empty when not logged in — no offline progress is kept. */
+  progress:         {},
+  _loggedIn:        false,
 
   /* ── Theme ── */
   toggleTheme() {
@@ -209,6 +213,91 @@ const QuizApp = {
   /* ── Keyboard shortcuts (attached in init) ── */
   initKeyboard() {},
 
+  /* ── Progress (account-bound, no offline storage) ── */
+
+  /* Home unit of a question, derived from its ID prefix (e.g. "U1A-001" → "u1a").
+     Works even when answered inside a mixed quiz. Returns null if unknown. */
+  unitOf(id) {
+    const m = /^([a-z0-9]+)-/i.exec(id || '');
+    if (!m) return null;
+    const uid = m[1].toLowerCase();
+    return QuizApp.allUnits.some(u => u.id === uid) ? uid : null;
+  },
+
+  /* 'failed' | 'correct' | 'neutral' for a question, from in-memory progress. */
+  qState(id) {
+    const uid = QuizApp.unitOf(id);
+    const p = uid && QuizApp.progress[uid];
+    if (!p) return 'neutral';
+    if (p.failed.has(id))  return 'failed';
+    if (p.correct.has(id)) return 'correct';
+    return 'neutral';
+  },
+
+  /* Aggregate counts {total, correct, failed, neu} for a list of unit ids,
+     or null when there are no questions. */
+  progressFor(unitIds) {
+    let total = 0, correct = 0, failed = 0;
+    unitIds.forEach(uid => {
+      const u = QuizApp.allUnits.find(x => x.id === uid);
+      if (!u || !u.total) return;
+      total += u.total;
+      const p = QuizApp.progress[uid];
+      if (p) { correct += p.correct.size; failed += p.failed.size; }
+    });
+    if (total === 0) return null;
+    correct = Math.min(correct, total);            // clamp against stale ids
+    failed  = Math.min(failed, total - correct);
+    return { total, correct, failed, neu: total - correct - failed };
+  },
+
+  _pct(part, total) { return total ? Math.round((part / total) * 100) : 0; },
+
+  /* Full tri-colour bar + legend for a lección card. */
+  lessonProgHtml(pr) {
+    if (!pr) return '';
+    const c = QuizApp._pct(pr.correct, pr.total);
+    const f = QuizApp._pct(pr.failed, pr.total);
+    const n = Math.max(0, 100 - c - f);
+    return `<div class="lesson-prog">
+      <div class="lp-bar"><span class="lp-c" style="width:${c}%"></span><span class="lp-f" style="width:${f}%"></span></div>
+      <div class="lp-legend"><span class="lp-leg-c">✓ ${c}% correctas</span><span class="lp-leg-f">✗ ${f}% erradas</span><span class="lp-leg-n">◦ ${n}% nuevas</span></div>
+    </div>`;
+  },
+
+  /* Compact chip (mini bar + correct %) for nivel/unidad headers. */
+  chipProgHtml(cls, pr) {
+    if (!pr) return '';
+    const c = QuizApp._pct(pr.correct, pr.total);
+    const f = QuizApp._pct(pr.failed, pr.total);
+    return `<span class="${cls}"><span class="np-bar"><span class="np-c" style="width:${c}%"></span><span class="np-f" style="width:${f}%"></span></span>${c}%</span>`;
+  },
+
+  loginNudge() { window.SupabaseClient && window.SupabaseClient.loginWithGoogle(); },
+
+  /* Hydrate the in-memory progress map from Supabase. No-op when not logged in. */
+  async refreshProgress() {
+    QuizApp.progress = {};
+    QuizApp._loggedIn = false;
+    const sc = await (window.supabaseReady || Promise.resolve(null));
+    if (!sc) return;
+    const user = await sc.getUser();
+    QuizApp._loggedIn = !!user;
+    if (!user) return;
+    const rows = await sc.loadProgress();
+    (rows || []).forEach(r => {
+      const uid = r.content_hash;
+      if (!QuizApp.allUnits.some(u => u.id === uid)) return;   // ignore legacy mixed/nivel rows
+      /* Keep only IDs that belong to this lección — sanitises legacy rows that
+         stored the global merged set under each unit key (old bug). */
+      const keep = id => QuizApp.unitOf(id) === uid;
+      QuizApp.progress[uid] = {
+        correct: new Set((r.correct_ids || []).filter(keep)),
+        failed:  new Set((r.failed_ids  || []).filter(keep)),
+      };
+    });
+  },
+
   /* ── Data loading ── */
   async loadManifest() {
     try {
@@ -217,7 +306,7 @@ const QuizApp = {
       const data = await res.json();
       QuizApp.allUnits   = data.unidades || [];
       QuizApp.allNiveles = data.niveles  || [];
-      QuizApp.renderUnitMenu();
+      return true;
     } catch (err) {
       document.getElementById('unit-list').innerHTML = `
         <div class="error-box">
@@ -227,11 +316,16 @@ const QuizApp = {
           Corré un servidor local: <code>python3 -m http.server 8000</code>
         </div>`;
       QuizApp.showToast('Error al cargar el contenido. Verificá la conexión.', 'error');
+      return false;
     }
   },
 
   renderUnitMenu() {
     const list = document.getElementById('unit-list');
+    /* Preserve open accordions across re-renders (auth change / return from quiz). */
+    const openNiveles  = [...document.querySelectorAll('.nivel-item.open')].map(e => e.id);
+    const openUnidades = [...document.querySelectorAll('.unidad-item.open')].map(e => e.id);
+
     const lastRaw  = localStorage.getItem('nihongo_last_quiz');
     const rememberOn = localStorage.getItem('nihongo_remember_unit') !== '0';
     let continueBanner = '';
@@ -244,6 +338,21 @@ const QuizApp = {
       } catch (_) {}
     }
 
+    /* Logged-out users see an invite to register instead of progress detail. */
+    const loginBanner = QuizApp._loggedIn ? '' : `
+      <div class="progress-login-banner">
+        <span>📊 Iniciá sesión para registrar tu progreso y ver, por lección, tus preguntas nuevas, erradas y correctas.</span>
+        <button type="button" onclick="QuizApp.loginNudge()">
+          <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M23.745 12.27c0-.79-.07-1.54-.19-2.27h-11.3v4.51h6.47c-.29 1.48-1.14 2.73-2.4 3.58v3h3.86c2.26-2.09 3.56-5.17 3.56-8.82z"/><path fill="currentColor" d="M12.255 24c3.24 0 5.95-1.08 7.93-2.91l-3.86-3c-1.08.72-2.45 1.16-4.07 1.16-3.13 0-5.78-2.11-6.73-4.96h-3.98v3.09C3.515 21.3 7.615 24 12.255 24z"/><path fill="currentColor" d="M5.525 14.29c-.25-.72-.38-1.49-.38-2.29s.14-1.57.38-2.29V6.62h-3.98a11.86 11.86 0 0 0 0 10.76l3.98-3.09z"/><path fill="currentColor" d="M12.255 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C18.205 1.19 15.495 0 12.255 0c-4.64 0-8.74 2.7-10.71 6.62l3.98 3.09c.95-2.85 3.6-4.96 6.73-4.96z"/></svg>
+          Iniciar sesión
+        </button>
+      </div>`;
+
+    const restoreOpen = () => {
+      openNiveles.forEach(id  => { const e = document.getElementById(id); if (e) e.classList.add('open'); });
+      openUnidades.forEach(id => { const e = document.getElementById(id); if (e) e.classList.add('open'); });
+    };
+
     if (QuizApp.allNiveles.length === 0) {
       const totalQs = QuizApp.allUnits.reduce((s, u) => s + (u.total || 0), 0);
       let html = '<div class="unit-grid">';
@@ -252,9 +361,11 @@ const QuizApp = {
         const countEl  = isMissing
           ? '<span class="badge-missing">Sin preguntas</span>'
           : `<div class="unit-count">${u.total} preguntas</div>`;
+        const lessonProg = QuizApp._loggedIn ? QuizApp.lessonProgHtml(QuizApp.progressFor([u.id])) : '';
         html += `<button class="unit-card${isMissing ? ' missing' : ''}" ${isMissing ? 'disabled' : `onclick="QuizApp.startUnit('${u.id}')"`}>
           <div><div class="unit-name">${u.nombre}</div><div class="unit-sub jp">${u.subtitle || ''}</div></div>
           ${countEl}
+          ${lessonProg}
         </button>`;
       });
       if (QuizApp.allUnits.length > 1) {
@@ -263,18 +374,22 @@ const QuizApp = {
           <div class="unit-count">${totalQs} preguntas</div>
         </button>`;
       }
-      list.innerHTML = continueBanner + html + '</div>';
+      list.innerHTML = loginBanner + continueBanner + html + '</div>';
+      restoreOpen();
       return;
     }
 
     let html = '<div class="nivel-list">';
     QuizApp.allNiveles.forEach(nivel => {
-      const nivelTotal = nivel.unidades.flatMap(u => u.subunidades)
+      const nivelSubs  = nivel.unidades.flatMap(u => u.subunidades);
+      const nivelTotal = nivelSubs
         .reduce((s, uid) => { const u = QuizApp.allUnits.find(x => x.id === uid); return s + (u ? (u.total || 0) : 0); }, 0);
+      const nivelChip  = QuizApp._loggedIn ? QuizApp.chipProgHtml('nivel-prog', QuizApp.progressFor(nivelSubs)) : '';
       html += `<div class="nivel-item" id="nivel-${nivel.id}">
         <button class="nivel-header" onclick="QuizApp.toggleNivel('${nivel.id}')">
           <span class="nivel-arrow" aria-hidden="true">▶</span>
           <span class="nivel-name">${nivel.nombre}</span>
+          ${nivelChip}
           <span class="nivel-total">${nivelTotal} preguntas</span>
         </button>
         <div class="nivel-content"><div class="nivel-inner">`;
@@ -282,6 +397,7 @@ const QuizApp = {
       nivel.unidades.forEach(unidad => {
         const unidadTotal = unidad.subunidades
           .reduce((s, uid) => { const u = QuizApp.allUnits.find(x => x.id === uid); return s + (u ? (u.total || 0) : 0); }, 0);
+        const unidadChip  = QuizApp._loggedIn ? QuizApp.chipProgHtml('unidad-prog', QuizApp.progressFor(unidad.subunidades)) : '';
         html += `<div class="unidad-item" id="unidad-${unidad.id}">
           <button class="unidad-header" onclick="QuizApp.toggleUnidad('${nivel.id}', '${unidad.id}')">
             <span class="nivel-arrow" aria-hidden="true">▶</span>
@@ -289,6 +405,7 @@ const QuizApp = {
               <div class="unidad-name">${unidad.nombre}</div>
               ${unidad.subtitle ? `<div class="unidad-sub-text jp">${unidad.subtitle}</div>` : ''}
             </div>
+            ${unidadChip}
             <span class="unidad-count">${unidadTotal} preguntas</span>
           </button>
           <div class="unidad-content"><div class="unidad-inner">`;
@@ -300,9 +417,11 @@ const QuizApp = {
           const countEl  = isMissing
             ? '<span class="badge-missing">Sin preguntas</span>'
             : `<div class="unit-count">${u.total} preguntas</div>`;
+          const lessonProg = QuizApp._loggedIn ? QuizApp.lessonProgHtml(QuizApp.progressFor([u.id])) : '';
           html += `<button class="unit-card${isMissing ? ' missing' : ''}" ${isMissing ? 'disabled' : `onclick="QuizApp.startUnit('${u.id}')"`}>
             <div><div class="unit-name">${u.nombre}</div><div class="unit-sub jp">${u.subtitle || ''}</div></div>
             ${countEl}
+            ${lessonProg}
           </button>`;
         });
         html += '</div>';
@@ -316,7 +435,8 @@ const QuizApp = {
       html += `</div></div></div>`;
     });
     html += '</div>';
-    list.innerHTML = continueBanner + html;
+    list.innerHTML = loginBanner + continueBanner + html;
+    restoreOpen();
   },
 
   toggleNivel(nivelId) {
@@ -429,12 +549,12 @@ const QuizApp = {
   /* ── Quiz flow ── */
   launchQuiz(pool) {
     QuizApp.currentPool = pool;
-    const target     = Math.min(QuizApp.getQuizSize(), pool.length);
-    const correctIds = new Set(JSON.parse(localStorage.getItem('nihongo_correct_ids') || '[]'));
-    const failedIds  = new Set(JSON.parse(localStorage.getItem('nihongo_failed_ids')  || '[]'));
-    const failed     = QuizApp.shuffle(pool.filter(q => failedIds.has(q.id)));
-    const neutral    = QuizApp.shuffle(pool.filter(q => !failedIds.has(q.id) && !correctIds.has(q.id)));
-    const correct    = QuizApp.shuffle(pool.filter(q => correctIds.has(q.id) && !failedIds.has(q.id)));
+    const target  = Math.min(QuizApp.getQuizSize(), pool.length);
+    /* Prioritise errors, then new questions, then already-correct ones.
+       When not logged in every question is 'neutral' → purely random. */
+    const failed  = QuizApp.shuffle(pool.filter(q => QuizApp.qState(q.id) === 'failed'));
+    const neutral = QuizApp.shuffle(pool.filter(q => QuizApp.qState(q.id) === 'neutral'));
+    const correct = QuizApp.shuffle(pool.filter(q => QuizApp.qState(q.id) === 'correct'));
     QuizApp.currentQuiz = QuizApp.shuffle([...failed, ...neutral, ...correct].slice(0, target));
     QuizApp.currentIdx = 0;
     QuizApp.score = 0;
@@ -528,27 +648,35 @@ const QuizApp = {
   },
 
   showResult() {
-    const correctIds = new Set(JSON.parse(localStorage.getItem('nihongo_correct_ids') || '[]'));
-    const failedIds  = new Set(JSON.parse(localStorage.getItem('nihongo_failed_ids')  || '[]'));
-    QuizApp.answers.forEach(a => {
-      if (a.isCorrect) { correctIds.add(a.id); failedIds.delete(a.id); }
-      else             { failedIds.add(a.id);  correctIds.delete(a.id); }
-    });
-    localStorage.setItem('nihongo_correct_ids', JSON.stringify([...correctIds]));
-    localStorage.setItem('nihongo_failed_ids',  JSON.stringify([...failedIds]));
+    /* Progress is account-bound: only persisted/updated when logged in. */
     (window.supabaseReady || Promise.resolve(null)).then(function (sc) {
       if (!sc) return;
-      var cArr = [...correctIds];
-      var fArr = [...failedIds];
-      sc.syncProgress(QuizApp._currentUnitId || 'unknown', { correctIds: cArr, failedIds: fArr });
+      var loggedIn = sc.isLoggedIn();
+      if (loggedIn) {
+        /* Update in-memory progress, attributing each question to its home lección. */
+        var affected = {};
+        QuizApp.answers.forEach(function (a) {
+          var uid = QuizApp.unitOf(a.id);
+          if (!uid) return;
+          if (!QuizApp.progress[uid]) QuizApp.progress[uid] = { correct: new Set(), failed: new Set() };
+          var p = QuizApp.progress[uid];
+          if (a.isCorrect) { p.correct.add(a.id); p.failed.delete(a.id); }
+          else             { p.failed.add(a.id);  p.correct.delete(a.id); }
+          affected[uid] = true;
+        });
+        Object.keys(affected).forEach(function (uid) {
+          var p = QuizApp.progress[uid];
+          sc.syncProgress(uid, { correctIds: [...p.correct], failedIds: [...p.failed] });
+        });
+      }
       sc.endSession(QuizApp._sessionId);
       /* Show login nudge if user is not authenticated */
-      if (!sc.isLoggedIn()) {
+      if (!loggedIn) {
         var nudge = document.getElementById('result-login-nudge');
         if (nudge) {
           nudge.className = 'result-login-nudge nudge-visible';
           nudge.innerHTML =
-            '<p>Tu resultado está guardado en este dispositivo. Iniciá sesión para sincronizarlo y ver tu historial completo.</p>' +
+            '<p>Iniciá sesión para guardar tu progreso, retomar tus errores y ver tu avance por lección. Sin sesión, este resultado no se guarda.</p>' +
             '<button class="result-login-nudge-btn" id="result-nudge-btn">' +
               '<svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M23.745 12.27c0-.79-.07-1.54-.19-2.27h-11.3v4.51h6.47c-.29 1.48-1.14 2.73-2.4 3.58v3h3.86c2.26-2.09 3.56-5.17 3.56-8.82z"/><path fill="currentColor" d="M12.255 24c3.24 0 5.95-1.08 7.93-2.91l-3.86-3c-1.08.72-2.45 1.16-4.07 1.16-3.13 0-5.78-2.11-6.73-4.96h-3.98v3.09C3.515 21.3 7.615 24 12.255 24z"/><path fill="currentColor" d="M5.525 14.29c-.25-.72-.38-1.49-.38-2.29s.14-1.57.38-2.29V6.62h-3.98a11.86 11.86 0 0 0 0 10.76l3.98-3.09z"/><path fill="currentColor" d="M12.255 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C18.205 1.19 15.495 0 12.255 0c-4.64 0-8.74 2.7-10.71 6.62l3.98 3.09c.95-2.85 3.6-4.96 6.73-4.96z"/></svg>' +
               'Iniciar sesión con Google' +
@@ -616,13 +744,24 @@ const QuizApp = {
     if (QuizApp.currentPool.length > 0) QuizApp.launchQuiz(QuizApp.currentPool);
   },
 
-  backToMenu() { QuizApp.show('menu'); },
+  backToMenu() { QuizApp.renderUnitMenu(); QuizApp.show('menu'); },
 
   /* ── Init ── */
-  init() {
+  async init() {
     QuizApp._updateThemeBtn(document.documentElement.getAttribute('data-theme') === 'dark');
     QuizApp.initKeyboard();
-    QuizApp.loadManifest();
+    const ok = await QuizApp.loadManifest();
+    if (ok) {
+      QuizApp.renderUnitMenu();                                            // immediate (logged-out view)
+      QuizApp.refreshProgress().then(function () { QuizApp.renderUnitMenu(); }); // fill in progress when ready
+    }
+    /* Re-hydrate progress and re-render when the user logs in or out. */
+    (window.supabaseReady || Promise.resolve(null)).then(function (sc) {
+      if (!sc) return;
+      sc.onAuthChange(function () {
+        QuizApp.refreshProgress().then(function () { QuizApp.renderUnitMenu(); });
+      });
+    });
     window.addEventListener('beforeunload', function () {
       if (!QuizApp._sessionId) return;
       (window.supabaseReady || Promise.resolve(null)).then(function (sc) {
