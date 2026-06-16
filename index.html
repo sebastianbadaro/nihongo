@@ -36,30 +36,8 @@
     </p>
   </header>
 
-  <!-- Progress summary — visible only when there is stored progress -->
-  <div id="progress-summary" class="progress-summary hidden">
-    <div class="section-title">Progreso</div>
-    <div class="progress-rows">
-      <div class="progress-row">
-        <span class="progress-row-label">Quiz</span>
-        <div class="progress-bar"><div class="progress-fill" id="prog-quiz-bar" style="width:0%"></div></div>
-        <span class="progress-row-stat" id="prog-quiz-stat">0 / 1400</span>
-      </div>
-      <div class="progress-row">
-        <span class="progress-row-label">Listening</span>
-        <div class="progress-bar"><div class="progress-fill" id="prog-listen-bar" style="width:0%"></div></div>
-        <span class="progress-row-stat" id="prog-listen-stat">0 / 6</span>
-      </div>
-      <div class="progress-row">
-        <span class="progress-row-label">Shadowing</span>
-        <div class="progress-bar"><div class="progress-fill" id="prog-shadow-bar" style="width:0%"></div></div>
-        <span class="progress-row-stat" id="prog-shadow-stat">0 / 3</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- Login nudge — shown when not logged in, hidden when logged in -->
-  <div id="login-nudge" class="login-nudge" aria-live="polite"></div>
+  <!-- Login nudge — neutral skeleton until auth resolves, then real content -->
+  <div id="login-nudge" class="login-nudge nudge-visible" aria-live="polite"><span class="sk-nudge skeleton"></span></div>
 
   <div class="section-title">Herramientas</div>
   <div class="cards-grid">
@@ -184,34 +162,15 @@ const ThemeApp = {
 
 ThemeApp._updateBtn(document.documentElement.getAttribute('data-theme') === 'dark');
 
-/* Progress summary — quiz progress is account-bound (filled by Supabase below);
-   listening/shadowing remain local "seen" markers. */
-(function() {
-  const listenRaw   = localStorage.getItem('nihongo_listening_seen');
-  const listenStore = listenRaw ? JSON.parse(listenRaw) : {};
-  const listenSeen  = Object.keys(listenStore).length;
-
-  const shadowRaw  = localStorage.getItem('nihongo_shadowing_seen');
-  const shadowSeen = shadowRaw ? JSON.parse(shadowRaw).length : 0;
-
-  const setProg = (barId, statId, seen, total) => {
-    document.getElementById(barId).style.width = Math.min(100, Math.round((seen / total) * 100)) + '%';
-    document.getElementById(statId).textContent = seen + ' / ' + total;
-  };
-
-  setProg('prog-listen-bar', 'prog-listen-stat', listenSeen, 6);
-  setProg('prog-shadow-bar', 'prog-shadow-stat', shadowSeen, 3);
-
-  if (listenSeen > 0 || shadowSeen > 0) {
-    document.getElementById('progress-summary').classList.remove('hidden');
-  }
-})();
-
-/* Supabase integration — merge remote progress + show/hide login nudge */
+/* Supabase integration — show/hide login nudge */
 (window.supabaseReady || Promise.resolve(null)).then(function (sc) {
   var nudgeEl = document.getElementById('login-nudge');
 
-  if (!sc) return; /* offline mode — nudge stays hidden */
+  if (!sc) {
+    /* Offline mode — clear the skeleton and hide the nudge. */
+    if (nudgeEl) { nudgeEl.className = 'login-nudge'; nudgeEl.innerHTML = ''; }
+    return;
+  }
 
   sc.getUser().then(function (user) {
     _updateNudge(user);
@@ -234,32 +193,12 @@ ThemeApp._updateBtn(document.documentElement.getAttribute('data-theme') === 'dar
         '<div class="login-nudge-synced">✓ Progreso sincronizado — Hola, ' +
         firstName.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') +
         '!</div>';
-
-      /* Remote (account-bound) progress only — no offline storage. */
-      sc.loadProgress().then(function (rows) {
-        if (!rows || rows.length === 0) return;
-        var remoteCorrect = new Set(rows.reduce(function (acc, p) { return acc.concat(p.correct_ids || []); }, []));
-        var remoteFailed  = new Set(rows.reduce(function (acc, p) { return acc.concat(p.failed_ids  || []); }, []));
-        remoteFailed.forEach(function (id) { remoteCorrect.delete(id); });
-        var quizSeen = remoteCorrect.size + remoteFailed.size;
-        if (quizSeen === 0) return;
-        document.getElementById('progress-summary').classList.remove('hidden');
-        var bar  = document.getElementById('prog-quiz-bar');
-        var stat = document.getElementById('prog-quiz-stat');
-        if (bar)  bar.style.width  = Math.min(100, Math.round((quizSeen / 1400) * 100)) + '%';
-        if (stat) stat.textContent = quizSeen + ' / 1400';
-      });
     } else {
-      /* Logged out: no offline progress — reset the quiz row. */
-      var qbar  = document.getElementById('prog-quiz-bar');
-      var qstat = document.getElementById('prog-quiz-stat');
-      if (qbar)  qbar.style.width  = '0%';
-      if (qstat) qstat.textContent = '0 / 1400';
       nudgeEl.className = 'login-nudge nudge-visible';
       nudgeEl.innerHTML =
         '<div class="login-nudge-card">' +
           '<p class="login-nudge-title">Guardá tu progreso</p>' +
-          '<p class="login-nudge-desc">Tu avance está guardado solo en este dispositivo. Iniciá sesión para sincronizarlo en todos tus dispositivos y no perderlo nunca.</p>' +
+          '<p class="login-nudge-desc">Iniciá sesión para guardar tu progreso y sincronizarlo en todos tus dispositivos. Sin sesión, tu avance no se guarda.</p>' +
           '<button class="login-nudge-google-btn" id="nudge-login-btn">' +
             _googleIconSVG() +
             'Iniciar sesión con Google' +

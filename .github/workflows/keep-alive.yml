@@ -2,8 +2,15 @@
 #
 # PURPOSE:
 #   Free-tier Supabase projects pause after 1 week of inactivity.
-#   This workflow pings the Supabase REST health endpoint every 3 days
-#   to keep the project awake without any manual intervention.
+#   This workflow runs a tiny query against the `progress` table every 3 days
+#   to keep the database (and project) awake without any manual intervention.
+#
+# NOTE:
+#   We query a real table (/rest/v1/progress?select=count), NOT the REST root
+#   (/rest/v1/). The root endpoint now rejects the anon key with 401
+#   ("Only the service_role API key can be used for this endpoint"), so it
+#   cannot be used here — and a real query also exercises the DB, which is what
+#   actually prevents the project from pausing.
 #
 # REQUIRED SECRETS (add at GitHub → repo Settings → Secrets and variables → Actions):
 #   SUPABASE_URL      — your project URL, e.g. https://abcdefgh.supabase.co
@@ -25,16 +32,28 @@ jobs:
     name: Ping Supabase health endpoint
     runs-on: ubuntu-latest
     steps:
-      - name: Ping REST endpoint
+      - name: Ping a table endpoint
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
         run: |
-          echo "Pinging ${{ secrets.SUPABASE_URL }}/rest/v1/ ..."
+          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_ANON_KEY" ]; then
+            echo "Missing secrets: set SUPABASE_URL and SUPABASE_ANON_KEY in"
+            echo "repo Settings → Secrets and variables → Actions."
+            exit 1
+          fi
+          BASE="${SUPABASE_URL%/}"                      # strip any trailing slash
+          ENDPOINT="$BASE/rest/v1/progress?select=count"
+          echo "Pinging $ENDPOINT ..."
           HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
-            "${{ secrets.SUPABASE_URL }}/rest/v1/profile?limit=1" \
-            -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}" \
-            -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}")
+            "$ENDPOINT" \
+            -H "apikey: $SUPABASE_ANON_KEY" \
+            -H "Authorization: Bearer $SUPABASE_ANON_KEY")
           echo "Response: $HTTP_STATUS"
           if [ "$HTTP_STATUS" -lt 200 ] || [ "$HTTP_STATUS" -ge 400 ]; then
-            echo "Unexpected status $HTTP_STATUS — check that the secrets are set correctly."
+            echo "Unexpected status $HTTP_STATUS."
+            echo "If 401: verify the secrets are correct. The anon key works on table"
+            echo "endpoints but NOT on the REST root (/rest/v1/), which needs service_role."
             exit 1
           fi
           echo "Supabase project is active."

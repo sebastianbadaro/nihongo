@@ -35,6 +35,9 @@
   userTag.id = 'snav-user-tag';
   userTag.setAttribute('aria-label', 'Perfil de usuario');
   userTag.setAttribute('type', 'button');
+  /* Neutral skeleton until auth resolves — avoids appear/disappear flash. */
+  userTag.className = 'tag-loading';
+  userTag.innerHTML = '<span class="snav-tag-skeleton skeleton"></span>';
 
   const backdrop = document.createElement('div');
   backdrop.id = 'snav-backdrop';
@@ -111,7 +114,8 @@
   /* ── Auth UI (active only on pages that load supabase-client.js) ── */
   var snavAuthEl = document.createElement('div');
   snavAuthEl.id = 'snav-auth';
-  snavAuthEl.style.display = 'none'; /* hidden until auth resolves */
+  /* Neutral skeleton until auth resolves (instead of hiding then popping in). */
+  snavAuthEl.innerHTML = '<span class="sk-nudge skeleton"></span>';
   panel.appendChild(snavAuthEl);
 
   function _snavEsc(s) {
@@ -201,7 +205,14 @@
   }
 
   (window.supabaseReady || Promise.resolve(null)).then(function (sc) {
-    if (!sc) return;
+    if (!sc) {
+      /* Offline / no Supabase config: drop the skeletons, hide auth UI. */
+      userTag.className = '';
+      userTag.innerHTML = '';
+      snavAuthEl.style.display = 'none';
+      snavAuthEl.innerHTML = '';
+      return;
+    }
     sc.getUser().then(function (user) { _renderAuthUI(user); });
     sc.onAuthChange(function (_evt, user) { _renderAuthUI(user); });
   });
