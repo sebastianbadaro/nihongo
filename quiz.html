@@ -146,6 +146,9 @@ const QuizApp = {
      Empty when not logged in — no offline progress is kept. */
   progress:         {},
   _loggedIn:        false,
+  /* 'pending' until auth resolves, then 'in' | 'out'. While pending the menu
+     shows neutral skeletons instead of the logged-out UI (no auth flash). */
+  _authState:       'pending',
 
   /* ── Theme ── */
   toggleTheme() {
@@ -273,17 +276,27 @@ const QuizApp = {
     return `<span class="${cls}"><span class="np-bar"><span class="np-c" style="width:${c}%"></span><span class="np-f" style="width:${f}%"></span></span>${c}%</span>`;
   },
 
+  /* Neutral skeletons shown while auth is still resolving. */
+  lessonSkeletonHtml() {
+    return '<div class="lesson-prog"><div class="lp-bar skeleton"></div><span class="skeleton sk-legend"></span></div>';
+  },
+  chipSkeletonHtml(cls) {
+    return `<span class="${cls}"><span class="np-bar skeleton"></span><span class="skeleton sk-pct"></span></span>`;
+  },
+
   loginNudge() { window.SupabaseClient && window.SupabaseClient.loginWithGoogle(); },
 
-  /* Hydrate the in-memory progress map from Supabase. No-op when not logged in. */
+  /* Hydrate the in-memory progress map from Supabase. No-op when not logged in.
+     Always resolves _authState to 'in' | 'out'. */
   async refreshProgress() {
     QuizApp.progress = {};
     QuizApp._loggedIn = false;
+    const finish = () => { QuizApp._authState = QuizApp._loggedIn ? 'in' : 'out'; };
     const sc = await (window.supabaseReady || Promise.resolve(null));
-    if (!sc) return;
+    if (!sc) { finish(); return; }
     const user = await sc.getUser();
     QuizApp._loggedIn = !!user;
-    if (!user) return;
+    if (!user) { finish(); return; }
     const rows = await sc.loadProgress();
     (rows || []).forEach(r => {
       const uid = r.content_hash;
@@ -296,6 +309,7 @@ const QuizApp = {
         failed:  new Set((r.failed_ids  || []).filter(keep)),
       };
     });
+    finish();
   },
 
   /* ── Data loading ── */
@@ -338,15 +352,26 @@ const QuizApp = {
       } catch (_) {}
     }
 
-    /* Logged-out users see an invite to register instead of progress detail. */
-    const loginBanner = QuizApp._loggedIn ? '' : `
+    /* Auth-aware rendering: 'pending' shows neutral skeletons (no flash);
+       'out' shows the register invite; 'in' shows real progress. */
+    const pending = QuizApp._authState === 'pending';
+    /* Banner only appears once we know the user is logged out (never during
+       pending, so logged-in users never see it flash). */
+    const loginBanner = (!pending && !QuizApp._loggedIn) ? `
       <div class="progress-login-banner">
         <span>📊 Iniciá sesión para registrar tu progreso y ver, por lección, tus preguntas nuevas, erradas y correctas.</span>
         <button type="button" onclick="QuizApp.loginNudge()">
           <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M23.745 12.27c0-.79-.07-1.54-.19-2.27h-11.3v4.51h6.47c-.29 1.48-1.14 2.73-2.4 3.58v3h3.86c2.26-2.09 3.56-5.17 3.56-8.82z"/><path fill="currentColor" d="M12.255 24c3.24 0 5.95-1.08 7.93-2.91l-3.86-3c-1.08.72-2.45 1.16-4.07 1.16-3.13 0-5.78-2.11-6.73-4.96h-3.98v3.09C3.515 21.3 7.615 24 12.255 24z"/><path fill="currentColor" d="M5.525 14.29c-.25-.72-.38-1.49-.38-2.29s.14-1.57.38-2.29V6.62h-3.98a11.86 11.86 0 0 0 0 10.76l3.98-3.09z"/><path fill="currentColor" d="M12.255 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C18.205 1.19 15.495 0 12.255 0c-4.64 0-8.74 2.7-10.71 6.62l3.98 3.09c.95-2.85 3.6-4.96 6.73-4.96z"/></svg>
           Iniciar sesión
         </button>
-      </div>`;
+      </div>` : '';
+
+    /* Per-target progress markup: skeleton while pending, real bar/chip when
+       logged in, nothing when logged out. */
+    const lessonProgFor = uid => pending ? QuizApp.lessonSkeletonHtml()
+      : (QuizApp._loggedIn ? QuizApp.lessonProgHtml(QuizApp.progressFor([uid])) : '');
+    const chipProgFor = (cls, ids) => pending ? QuizApp.chipSkeletonHtml(cls)
+      : (QuizApp._loggedIn ? QuizApp.chipProgHtml(cls, QuizApp.progressFor(ids)) : '');
 
     const restoreOpen = () => {
       openNiveles.forEach(id  => { const e = document.getElementById(id); if (e) e.classList.add('open'); });
@@ -361,7 +386,7 @@ const QuizApp = {
         const countEl  = isMissing
           ? '<span class="badge-missing">Sin preguntas</span>'
           : `<div class="unit-count">${u.total} preguntas</div>`;
-        const lessonProg = QuizApp._loggedIn ? QuizApp.lessonProgHtml(QuizApp.progressFor([u.id])) : '';
+        const lessonProg = isMissing ? '' : lessonProgFor(u.id);
         html += `<button class="unit-card${isMissing ? ' missing' : ''}" ${isMissing ? 'disabled' : `onclick="QuizApp.startUnit('${u.id}')"`}>
           <div><div class="unit-name">${u.nombre}</div><div class="unit-sub jp">${u.subtitle || ''}</div></div>
           ${countEl}
@@ -384,7 +409,7 @@ const QuizApp = {
       const nivelSubs  = nivel.unidades.flatMap(u => u.subunidades);
       const nivelTotal = nivelSubs
         .reduce((s, uid) => { const u = QuizApp.allUnits.find(x => x.id === uid); return s + (u ? (u.total || 0) : 0); }, 0);
-      const nivelChip  = QuizApp._loggedIn ? QuizApp.chipProgHtml('nivel-prog', QuizApp.progressFor(nivelSubs)) : '';
+      const nivelChip  = chipProgFor('nivel-prog', nivelSubs);
       html += `<div class="nivel-item" id="nivel-${nivel.id}">
         <button class="nivel-header" onclick="QuizApp.toggleNivel('${nivel.id}')">
           <span class="nivel-arrow" aria-hidden="true">▶</span>
@@ -397,7 +422,7 @@ const QuizApp = {
       nivel.unidades.forEach(unidad => {
         const unidadTotal = unidad.subunidades
           .reduce((s, uid) => { const u = QuizApp.allUnits.find(x => x.id === uid); return s + (u ? (u.total || 0) : 0); }, 0);
-        const unidadChip  = QuizApp._loggedIn ? QuizApp.chipProgHtml('unidad-prog', QuizApp.progressFor(unidad.subunidades)) : '';
+        const unidadChip  = chipProgFor('unidad-prog', unidad.subunidades);
         html += `<div class="unidad-item" id="unidad-${unidad.id}">
           <button class="unidad-header" onclick="QuizApp.toggleUnidad('${nivel.id}', '${unidad.id}')">
             <span class="nivel-arrow" aria-hidden="true">▶</span>
@@ -417,7 +442,7 @@ const QuizApp = {
           const countEl  = isMissing
             ? '<span class="badge-missing">Sin preguntas</span>'
             : `<div class="unit-count">${u.total} preguntas</div>`;
-          const lessonProg = QuizApp._loggedIn ? QuizApp.lessonProgHtml(QuizApp.progressFor([u.id])) : '';
+          const lessonProg = isMissing ? '' : lessonProgFor(u.id);
           html += `<button class="unit-card${isMissing ? ' missing' : ''}" ${isMissing ? 'disabled' : `onclick="QuizApp.startUnit('${u.id}')"`}>
             <div><div class="unit-name">${u.nombre}</div><div class="unit-sub jp">${u.subtitle || ''}</div></div>
             ${countEl}
